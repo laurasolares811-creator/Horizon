@@ -45,7 +45,9 @@ jobs:
           ANALYSIS_MODEL: deepseek-v4-pro
           DATE: ${{ env.DATE }}
           TZ: Asia/Shanghai
-        run: python3 scripts/analyze_topics.py
+        run: |
+          pip install openai -q
+          python3 scripts/analyze_topics.py
 
       - name: Commit generated files
         env:
