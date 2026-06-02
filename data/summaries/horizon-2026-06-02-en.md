@@ -1,598 +1,682 @@
 # Horizon Daily - 2026-06-02
 
-> From 56 items, 27 important content pieces were selected
+> From 54 items, 30 important content pieces were selected
 
 ---
 
-1. [Hackers Trick Meta AI Bot to Hijack Instagram Accounts](#item-1) ⭐️ 9.0/10
-2. [Alphabet announces $80B equity capital raise to expand AI infra and compute](#item-2) ⭐️ 9.0/10
-3. [Intel Unveils Crescent Island GPU with Up to 480GB VRAM](#item-3) ⭐️ 9.0/10
-4. [Stock Market's Capacity for Giant AI and Space IPOs Questioned](#item-4) ⭐️ 8.0/10
-5. [Stanford's CS336: Build Language Models from Scratch](#item-5) ⭐️ 8.0/10
-6. [RGB Normalization: 255 vs. 256 Division Debate](#item-6) ⭐️ 8.0/10
-7. [Geology can naturally produce biochemical processes, study suggests](#item-7) ⭐️ 8.0/10
-8. [Mullvad Warns California Age Verification Law Could End Free Internet](#item-8) ⭐️ 8.0/10
-9. [Top LightGBM Feature Degrades Model by Learning Irreducible Noise](#item-9) ⭐️ 8.0/10
-10. [NVIDIA Releases Cosmos 3 Omnimodal World Models on Hugging Face](#item-10) ⭐️ 8.0/10
-11. [OpenAI Frontier Models and Codex Now on AWS Bedrock](#item-11) ⭐️ 7.0/10
-12. [Stanford CS336 Releases Guidelines for Using Claude as Learning Aid](#item-12) ⭐️ 7.0/10
-13. [2M+ Job Postings Scraped Daily from 100K+ Sites, Free Dataset](#item-13) ⭐️ 7.0/10
-14. [Lightweight real-time multilingual ASR with rolling buffer and monolingual models](#item-14) ⭐️ 7.0/10
-15. [Study: MLE-Bench progress from models, not algorithm improvements](#item-15) ⭐️ 7.0/10
-16. [RTX Spark Bandwidth Clarified: 600GB/s is NVLink](#item-16) ⭐️ 7.0/10
-17. [PR Reduces VRAM Usage by Limiting Logits Reservation in llama.cpp](#item-17) ⭐️ 7.0/10
-18. [Python Tool Compresses LLM Inputs, Saving 60-95% Tokens](#item-18) ⭐️ 7.0/10
-19. [Bring Back the Grid for macOS Spaces](#item-19) ⭐️ 6.0/10
-20. [Chipotlai Max: Exploiting LLM Services for Arbitrary Computation](#item-20) ⭐️ 6.0/10
-21. [Hacker News Revisits Verily's Debug Mosquito Project](#item-21) ⭐️ 6.0/10
-22. [Microsoft Unveils NVIDIA-Powered Surface Laptop Ultra to Rival MacBook Pro](#item-22) ⭐️ 6.0/10
-23. [Ask HN: Who is hiring? (June 2026)](#item-23) ⭐️ 6.0/10
-24. [Running Windows GOG DOS Games on Apple Silicon Macs](#item-24) ⭐️ 6.0/10
-25. [Pasted File Editor Mimics Claude's Paste Detection](#item-25) ⭐️ 6.0/10
-26. [Intel Arc Pro B70 Benchmarks Show 63 Tokens/s via llama.cpp SYCL](#item-26) ⭐️ 6.0/10
-27. [GSAP Launches AI Skills to Teach Coding Agents Proper GSAP Usage](#item-27) ⭐️ 6.0/10
+1. [Meta's AI Support Bot Hacked to Take Over Instagram Accounts](#item-1) ⭐️ 9.0/10
+2. [Can the Stock Market Absorb Anthropic, SpaceX, and OpenAI IPOs?](#item-2) ⭐️ 9.0/10
+3. [OpenAI Brings Frontier Models and Codex to AWS](#item-3) ⭐️ 9.0/10
+4. [macOS needs its grid back](#item-4) ⭐️ 8.0/10
+5. [Hacker News Discusses Verily's Debug Mosquito Control Project](#item-5) ⭐️ 8.0/10
+6. [Stanford CS336: Build Language Models from Scratch](#item-6) ⭐️ 8.0/10
+7. [Geological processes can produce organic molecules typically associated with life](#item-7) ⭐️ 8.0/10
+8. [Nvidia Unveils PC CPUs That Run 120B AI Models Locally](#item-8) ⭐️ 8.0/10
+9. [Backpropagation Destroys V1 Brain Alignment in One Epoch](#item-9) ⭐️ 8.0/10
+10. [LLM Agents Patch Bugs, Pass Tests, but Still Leave Vulnerability Open](#item-10) ⭐️ 8.0/10
+11. [Why LightGBM's Top Feature Made Predictions Worse](#item-11) ⭐️ 8.0/10
+12. [MLE-Bench Gains: Better Models, Not Algorithms](#item-12) ⭐️ 8.0/10
+13. [RTX Spark's 600GB/s is NvLink Speed, Not Memory Bandwidth](#item-13) ⭐️ 8.0/10
+14. [NVIDIA Releases Cosmos 3 Omnimodal World Models on Hugging Face](#item-14) ⭐️ 8.0/10
+15. [Why Janet? Exploring the Janet Programming Language](#item-15) ⭐️ 7.0/10
+16. [Adafruit Receives Demand Letter from Flux.ai's Legal Counsel](#item-16) ⭐️ 7.0/10
+17. [Stanford CS336 Introduces AI Agent Usage Guidelines for Learning](#item-17) ⭐️ 7.0/10
+18. [Normalizing RGB: 255 vs 256 Division Debate](#item-18) ⭐️ 7.0/10
+19. [Browse CVPR 2026 Papers with Code on Revived PapersWithCode](#item-19) ⭐️ 7.0/10
+20. [Free Daily-Updated Dataset of 2M+ Job Postings from 100K+ Companies](#item-20) ⭐️ 7.0/10
+21. [Real-time Multilingual ASR Using Rolling Buffers and Monolingual Models](#item-21) ⭐️ 7.0/10
+22. [Local Qwen3.6-27B Replaces Claude in Multi-Agent Orchestrator for 2 Weeks](#item-22) ⭐️ 7.0/10
+23. [Pre-indexed code knowledge graph cuts AI assistant costs](#item-23) ⭐️ 7.0/10
+24. [Chipotlai Max Exploits Chipotle's AI for Unauthorized Compute](#item-24) ⭐️ 6.0/10
+25. [Groq Raises Funds Despite Service Shrinkage and Staff Departures](#item-25) ⭐️ 6.0/10
+26. [Qwen 3.6-35B-A3B on Intel Arc B70 Pro hits 977 t/s processing](#item-26) ⭐️ 6.0/10
+27. [Engineer Trains Local AI Model to Zap Mosquitoes with Laser](#item-27) ⭐️ 6.0/10
+28. [JetBrains Open-Sources 12B Mellum2 MoE Model](#item-28) ⭐️ 6.0/10
+29. [Reddit users share subjective takes on Gemma 4, Qwen 3.6 for creative writing](#item-29) ⭐️ 6.0/10
+30. [Headroom Compresses LLM Inputs to Save 60-95% Tokens](#item-30) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Hackers Trick Meta AI Bot to Hijack Instagram Accounts](https://www.0xsid.com/blog/meta-account-takeover-fiasco) ⭐️ 9.0/10
+## [Meta's AI Support Bot Hacked to Take Over Instagram Accounts](https://www.0xsid.com/blog/meta-account-takeover-fiasco) ⭐️ 9.0/10
 
-Hackers exploited Meta's AI support bot by asking it to change the email addresses on Instagram accounts, effectively bypassing two-factor authentication and taking over accounts, including high-profile ones. This incident underscores the critical security risks of granting AI agents unchecked access to account management functions, and demonstrates that even robust authentication measures can be defeated by exploiting weaknesses in automated support systems. The exploit involved using a VPN to spoof the hacker's location and sending a simple natural language request to the AI bot, which was apparently able to modify account emails and send 2FA codes without adequate human oversight. Reports indicate the vulnerability may not yet be fully patched.
+Hackers tricked Meta's AI-powered support chatbot to reset passwords and bypass two-factor authentication, seizing control of Instagram accounts, including high-profile ones. This exploit reveals the dangers of granting AI agents control over sensitive account recovery processes, as they can be socially engineered to bypass security measures designed to protect users. The attack required zero identity verification—simply asking the bot to forward password reset codes. The vulnerability reportedly affected high-profile accounts and may not yet be fully patched.
 
 hackernews · ssiddharth · Jun 1, 16:31 · [Discussion](https://news.ycombinator.com/item?id=48359102)
 
-**Background**: Meta's AI support bot is a customer service chatbot designed to handle user issues. Two-factor authentication (2FA) adds an extra security layer by requiring a second verification step. However, if support tools override 2FA, it can be rendered useless. This incident reflects broader concerns about AI agentic systems in security-critical applications.
+**Background**: Two-factor authentication (2FA) adds an extra security layer by requiring a second form of verification beyond a password. AI support chatbots are increasingly used by companies to automate customer service, but they can have access to sensitive tools like password resets. If an AI agent is tricked into using these tools, it can compromise accounts, as seen in this incident.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arstechnica.com/ai/2026/06/meta-ai-support-chatbot-gave-hackers-access-to-notable-instagram-accounts/">Meta AI support chatbot gave hackers access to... - Ars Technica</a></li>
-<li><a href="https://cybersecuritynews.com/metas-ai-support-bot-instagram/">Hackers Exploit Meta 's AI Support Bot to Reset Passwords and...</a></li>
+<li><a href="https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/">Hackers Used Meta’s AI Support Bot to Seize Instagram ...</a></li>
+<li><a href="https://www.pcmag.com/news/metas-ai-chatbot-allegedly-helped-hackers-hijack-instagram-accounts">Meta's AI Chatbot Allegedly Helped Hackers Hijack Instagram ...</a></li>
+<li><a href="https://www.theguardian.com/technology/2026/jun/01/meta-ai-hack-obama-sephora-instagram">Hackers trick Meta AI support bot to infiltrate Obama White ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters widely criticized the insecure design, questioning why an AI chatbot was allowed to handle sensitive functions like password resets. Some noted that the exploit might not have been fixed, and others shared personal experiences of receiving unexplained password reset emails, suggesting active exploitation. Overall, the discussion reflected deep concern over AI permissions and support process weaknesses.
+**Discussion**: Commenters emphasized that AI security depends on the tools it can access; if those tools are insecure, the agent is insecure. Many expressed frustration that 2FA can be overridden by support staff or bots. Some noted they received unsolicited password reset emails and suspected the exploit, while others claimed the vulnerability might not be fully fixed yet.
 
-**Tags**: `#security`, `#AI`, `#social-media`, `#exploit`, `#Meta`
+**Tags**: `#security`, `#AI agents`, `#account takeover`, `#Instagram`, `#social engineering`
 
 ---
 
 <a id="item-2"></a>
-## [Alphabet announces $80B equity capital raise to expand AI infra and compute](https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Proposed-80-Billion-Equity-Capital-Raise-to-Expand-AI-Infrastructure-and-Compute-2026-b0myAMewCa/default.aspx) ⭐️ 9.0/10
+## [Can the Stock Market Absorb Anthropic, SpaceX, and OpenAI IPOs?](https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai) ⭐️ 9.0/10
 
-Alphabet announced an $80 billion equity capital raise, including a $10 billion private placement to Berkshire Hathaway, to expand its AI infrastructure and compute capacity. The raise also features an at-the-market program designed to streamline employee equity tax settlements. This historic raise signals an unprecedented level of investment in AI infrastructure, potentially accelerating the AI arms race among tech giants. Berkshire Hathaway's participation adds a vote of confidence from a legendary investor. The $10 billion private placement to Berkshire Hathaway consists of $5 billion in Class A shares at $351.81 each and $5 billion in Class C shares at $348.20 each. The at-the-market program mimics a 'sell to cover' model for employee restricted stock units, using corporate cash to pay taxes and then issuing new shares for equivalent proceeds.
+Index providers waived profitability requirements and cut the seasoning window from 90 to 5 days, compelling over $30 trillion in passive retirement funds to buy shares of SpaceX, Anthropic, and OpenAI at IPO. Meanwhile, Anthropic’s revenue has surged 50x since 2024 to $47 billion, supporting its high valuation. These rule changes could force passive funds to absorb massive new stocks at lofty valuations, potentially impacting millions of retirement accounts. The IPOs symbolize the frothy AI and space economy, with trillions at stake. The shortened seasoning window and waived profitability requirements are tailored for these mega-IPOs. Anthropic’s $1 trillion valuation is about 20x revenue, compared to Google’s 10x at IPO, but its extreme revenue growth makes the multiple less alarming.
 
-hackernews · gregschlom · Jun 1, 20:55 · [Discussion](https://news.ycombinator.com/item?id=48362515)
+hackernews · 1vuio0pswjnm7 · Jun 1, 23:45 · [Discussion](https://news.ycombinator.com/item?id=48364055)
 
-**Background**: Tech companies are racing to build AI data centers, requiring massive capital for GPUs and infrastructure. Alphabet, despite large cash reserves, is tapping equity markets to fund this expansion without over-leveraging. Berkshire Hathaway's previous investment in Alphabet since Q3 2025 adds context to this placement.
+**Background**: Passive investment funds, such as those tracking the S&P 500, must buy stocks that meet criteria like profitability and a 90-day public trading history. Index providers have now relaxed these rules for high-profile IPOs, forcing retirement money into these stocks. Anthropic, known for its Claude AI models, has seen explosive revenue growth, rivaling tech giants. SpaceX and OpenAI are also privately held with massive valuations, and their market debut will test capacity.
 
-**Discussion**: Commenters questioned the necessity of the raise given Alphabet's cash reserves, but others noted the scale of AI spending (potentially $1 trillion on data centers) justifies it. Some highlighted the at-the-market program as a routine administrative change. A lighthearted remark linked more AI hardware to continued GPU shortages for gamers.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Anthropic">Anthropic - Wikipedia</a></li>
 
-**Tags**: `#AI`, `#infrastructure`, `#Alphabet`, `#equity raise`, `#capital markets`
+</ul>
+</details>
+
+**Discussion**: Commenters debate the rule change forcing passive fund investment, with some viewing it as a dangerous bubble, while others argue infrastructure spending creates real jobs. Comparisons to Google’s IPO suggest Anthropic’s valuation, though high, might be justified by its growth. Some worry about a rush to IPO before a market crash.
+
+**Tags**: `#IPOs`, `#AI`, `#SpaceX`, `#stock market`, `#valuations`
 
 ---
 
 <a id="item-3"></a>
-## [Intel Unveils Crescent Island GPU with Up to 480GB VRAM](https://www.reddit.com/r/LocalLLaMA/comments/1tu2kbq/computex_2026_intel_launches_crescent_island_gpu/) ⭐️ 9.0/10
+## [OpenAI Brings Frontier Models and Codex to AWS](https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/) ⭐️ 9.0/10
 
-At Computex 2026, Intel introduced the Crescent Island GPU based on the Xe 3P architecture, featuring up to 480GB of LPDDR5X VRAM and support for a wide range of datatypes including FP4, MXFP4, and FP64. This discrete GPU targets next-generation AI workloads with a 350W air-cooled design. The massive 480GB VRAM capacity, using cost-effective LPDDR5X memory, could make large language model inference accessible to a broader audience, potentially challenging high-end professional GPUs that rely on expensive HBM. Notable details include native support for micro-scaling (MX) formats like MXFP4, which enable efficient low-precision computation, and a 350W TDP air cooler, indicating a balance between power and performance for data center deployment.
+OpenAI has made its frontier models, including likely GPT-4o and o-series, along with Codex, an AI coding agent, available on AWS, expanding access via Amazon Bedrock or SageMaker. This move allows enterprises with AWS lock-in and strict governance to easily adopt OpenAI's latest AI capabilities, directly competing with Anthropic's Claude, which previously dominated Bedrock, potentially accelerating enterprise AI adoption and shifting market share. Codex, an AI coding agent, was previously available as a CLI tool; now it can be used within AWS environments, potentially integrating with AWS developer tools. The specific models available and pricing through AWS may differ from direct OpenAI API access.
 
-reddit · r/LocalLLaMA · /u/ANR2ME · Jun 1, 19:13
+hackernews · typpo · Jun 1, 21:50 · [Discussion](https://news.ycombinator.com/item?id=48363132)
 
-**Background**: The Xe 3P architecture is Intel's next-generation GPU design, evolving from the Xe series. Micro-scaling (MX) formats are block floating-point data types that improve hardware efficiency and model accuracy for AI inference. LPDDR5X is a low-power memory standard commonly used in mobile devices, offering a cost-effective alternative to high-bandwidth memory (HBM) typically found in professional GPUs.
+**Background**: Frontier models are the most advanced, cutting-edge AI models, often discussed in the context of the Frontier Model Forum, an industry body founded by OpenAI, Anthropic, Google, and Microsoft. Codex is OpenAI's AI coding agent, released in April 2025, capable of autonomous software engineering tasks. Amazon Bedrock is a fully managed service that offers foundation models from various AI companies via a single API, simplifying enterprise deployment.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://videocardz.com/newz/intel-lists-xe3p-gpu-architecture-for-next-gen-pc">Intel lists Xe3p GPU architecture for “Next Gen PC”</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Block_floating_point">Block floating point - Wikipedia</a></li>
+<li><a href="https://openai.com/index/frontier-model-forum/">Frontier Model Forum - OpenAI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Codex_(AI_agent)">Codex (AI agent) - Wikipedia</a></li>
+<li><a href="https://openai.com/codex/">Codex | AI Coding Partner from OpenAI | OpenAI</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#GPU`, `#Intel`, `#Hardware`, `#LocalLLM`
+**Discussion**: Enterprise users highlight that AWS availability simplifies vendor approval, meets data governance requirements, and provides a competitive alternative to Claude, pressuring Anthropic by directly competing on a platform that previously gave it an edge.
+
+**Tags**: `#AI`, `#AWS`, `#OpenAI`, `#enterprise`, `#cloud computing`
 
 ---
 
 <a id="item-4"></a>
-## [Stock Market's Capacity for Giant AI and Space IPOs Questioned](https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai) ⭐️ 8.0/10
+## [macOS needs its grid back](https://blog.hopefullyuseful.com/blog/macos-needs-its-grid-back/) ⭐️ 8.0/10
 
-The Economist examines whether public markets can handle the impending multitrillion-dollar IPOs of Anthropic, SpaceX, and OpenAI, noting controversial index rule changes that waive profitability requirements and shorten the seasoning window to force passive funds into buying. These IPOs could be among the largest in history, testing market liquidity and valuation sanity, while the rule changes may distort markets and funnel retirement savings into risky, high-priced stocks. Anthropic is valued at $1 trillion with $47 billion in revenue (a 20x multiple, versus Google's 10x at its 2004 IPO), and SpaceX benefits from waived profitability and a 5-day seasoning period, potentially forcing $30 trillion in passive funds to buy at IPO.
+A blog post highlights the loss of macOS's grid-based window snapping and intuitive Mission Control, sparking a discussion on Apple's UX decline. This reflects broader trends where Apple's simplification alienates power users, and third-party tools fill the gap, showing the need for OS-level task management. The blog cites issues like the disorienting Mission Control redesign in 10.11 that replaced space previews with text labels, and the removal of grid snapping, now requiring apps like Rectangle or BentoBox to restore functionality.
 
-hackernews · 1vuio0pswjnm7 · Jun 1, 23:45 · [Discussion](https://news.ycombinator.com/item?id=48364055)
+hackernews · ranebo · Jun 2, 01:28 · [Discussion](https://news.ycombinator.com/item?id=48364800)
 
-**Background**: An initial public offering (IPO) is when a private company sells shares to the public. Index funds are passive investment vehicles that track a market index; normally, index providers require a firm to be profitable and have a 90-day seasoning period before inclusion. The companies in question are leaders in AI (Anthropic, OpenAI) and space launch (SpaceX), and their sky-high valuations reflect both frothy market sentiment and genuine technical achievements.
+**Background**: Grid-based window management allows snapping windows to predefined screen zones for efficient multitasking. macOS historically supported this and Mission Control for managing multiple desktops (spaces). Since 10.11, Apple removed grid snapping and changed Mission Control to a less visual layout, leading users to rely on third-party tools like Rectangle and BentoBox.
 
-**Discussion**: Community sentiment is sharply divided: Some point to rule changes that force passive funds to buy at inflated prices, while others debate whether Anthropic’s revenue growth justifies its valuation or if SpaceX’s tangible product and market dominance make it an outlier. Many fear a rush to IPO before a market downturn, likening it to a collapsing house of cards.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://bentoboxapp.com/">BentoBox | macOS Window Manager for Custom Zones</a></li>
+<li><a href="https://finchett.com/rectangle-app-a-window-management-powerhouse-for-mac/">Revolutionize Your Mac 's Window Management with... - Finchett.com</a></li>
 
-**Tags**: `#IPOs`, `#AI`, `#SpaceX`, `#valuation`, `#market regulation`
+</ul>
+</details>
+
+**Discussion**: Commenters largely agree on the UX decline, citing specific changes like the Mission Control redesign in 10.11 and excessive security prompts. Some argue for an OS-level 'project' concept that integrates window management across apps, reflecting a desire for better multitasking support.
+
+**Tags**: `#macOS`, `#user-interface`, `#window-management`, `#ux`, `#community-discussion`
 
 ---
 
 <a id="item-5"></a>
-## [Stanford's CS336: Build Language Models from Scratch](https://cs336.stanford.edu/) ⭐️ 8.0/10
+## [Hacker News Discusses Verily's Debug Mosquito Control Project](https://debug.com/) ⭐️ 8.0/10
 
-Stanford's CS336 course has released its 2025 version, offering a rigorous, hands-on curriculum where students build language models entirely from scratch, with challenging assignments that have been validated by a growing community of practitioners. This course fills a critical gap by teaching implementation-heavy language modeling skills, moving beyond theory to cultivate the deep, practical understanding demanded by the AI industry and research community. The first two assignments are notoriously time-consuming, requiring significant debugging and potentially months of part-time work. GPU compute can be costly, but users report success even on a gaming GPU like the RTX 2060 SUPER, and foundational knowledge of ML (e.g., CS229, CS224N) is essential.
+A Hacker News thread with 239 points and 96 comments renewed interest in Verily's Debug project, sharing technical insights on web development, gene drives, and practical mosquito control methods like Bti. The discussion underscores the intersection of biotechnology, public health, and community action in combating mosquito-borne diseases, offering both high-tech and low-cost strategies that could influence vector control globally. Verily's approach releases male mosquitoes infected with Wolbachia to produce non-viable offspring; gene drives could force infertility genes through populations; Bti is a bacterial larvicide; the project's website has been static since 2016.
 
-hackernews · kristianpaul · Jun 1, 14:10 · [Discussion](https://news.ycombinator.com/item?id=48357075)
+hackernews · Eridanus2 · Jun 1, 20:40 · [Discussion](https://news.ycombinator.com/item?id=48362347)
 
-**Background**: Language modeling is the core NLP task of predicting the next token in a sequence. Building a model from scratch entails implementing every component—tokenizer, transformer architecture, training loop, and evaluation—without relying on high-level libraries, offering a complete view of how models like GPT function.
+**Background**: The Debug project, launched by Alphabet's Verily around 2016, aims to suppress disease-carrying Aedes aegypti mosquitoes by releasing sterile males. Gene drives are genetic engineering tools that ensure a particular gene is inherited by nearly all offspring, potentially eradicating pest populations. Traditional methods include source reduction and biological controls like Bacillus thuringiensis israelensis (Bti).
 
-**Discussion**: Overall sentiment is highly positive: users describe the assignments as demanding but deeply educational. One learner spent months completing the 2025 version, while another reproduced GPT-1 results on a gaming GPU. Discussions also covered cost-effective GPU options and prerequisite clarifications, underscoring the course's real-world relevance.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Debug_project">Debug Project - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gene_drive">Gene drive</a></li>
+<li><a href="https://moneywise.com/news/top-stories/alphabet-google-verily-debug-lab-mosquitoes-wolbachia-wnv-slev-sterile-insect-technique">Debug: Inside Alphabet's plan to release 32M lab mosquitoes</a></li>
 
-**Tags**: `#machine-learning`, `#nlp`, `#education`, `#language-models`, `#deep-learning`
+</ul>
+</details>
+
+**Discussion**: Commenters praised the website's CSS, reminisced about DOS debug command, debated gene drive ethics and feasibility, shared DIY Bti bucket traps, and noted Singapore's prior success with Wolbachia releases; overall sentiment was enthusiastic and informative.
+
+**Tags**: `#mosquito-control`, `#verily`, `#gene-drive`, `#hackernews-discussion`, `#public-health`
 
 ---
 
 <a id="item-6"></a>
-## [RGB Normalization: 255 vs. 256 Division Debate](https://30fps.net/pages/255-vs-256-division/) ⭐️ 8.0/10
+## [Stanford CS336: Build Language Models from Scratch](https://cs336.stanford.edu/) ⭐️ 8.0/10
 
-The article explores the subtle differences between dividing by 255 versus 256 when normalizing RGB values, highlighting practical implications for color accuracy and precision. The discussion sparked a lively debate among engineers on quantization, perceptual uniformity, and conventional practices. This clarification is crucial for image processing and computer graphics, where precise color handling affects visual fidelity and computational consistency. It highlights the often-overlooked impact of seemingly small choices in normalization on downstream applications like GPU rendering and color management. The standard practice is to divide by 255, mapping 8-bit values to [0,1] floating point, which aligns with GPU conventions and ensures black maps to 0.0. Dividing by 256 introduces a slight bias, shifting the range to (0, 1/256, …, 255/256) and can complicate exact zero or one representations.
+Stanford's CS336 (2025 version) is a hands-on course where students build language models entirely from scratch, with assignments that include reproducing GPT-1 on consumer GPUs. This course makes advanced language modeling education accessible to anyone, enabling learners to understand and replicate foundational models like GPT-1 on affordable hardware. Assignments are extremely time-intensive, taking several months of part-time effort; yet one user managed to reproduce GPT-1 results on an RTX 2060 SUPER in just 1 hour.
 
-hackernews · pplanu · Jun 1, 17:37 · [Discussion](https://news.ycombinator.com/item?id=48360054)
+hackernews · kristianpaul · Jun 1, 14:10 · [Discussion](https://news.ycombinator.com/item?id=48357075)
 
-**Background**: In digital imaging, RGB color channels are typically stored as 8-bit integers ranging from 0 to 255. Normalization converts these values to floating-point numbers between 0.0 and 1.0 for use in graphics algorithms and machine learning. The choice of divisor (255 or 256) affects the mapping of endpoints and the distribution of intermediate values. Additionally, the widely used sRGB color space applies a nonlinear transfer function, so perceptually uniform steps do not correspond to equal numerical intervals.
+**Background**: Language models are AI systems that predict text, forming the basis of tools like ChatGPT. Building them from scratch provides deep understanding of their inner workings. The course assumes prior knowledge of machine learning and emphasizes step-by-step implementation.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://30fps.net/pages/255-vs-256-division/">Should you normalize RGB values by 255 or 256?</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Color_quantization">Color quantization - Wikipedia</a></li>
+**Discussion**: The community finds the course extremely demanding yet rewarding, with users sharing experiences of months-long part-time completion and the ability to train useful models on consumer hardware. There is also discussion about cost-effective GPU options and prerequisite resources.
 
-</ul>
-</details>
-
-**Discussion**: The community found the article thought-provoking and engaged in a detailed technical debate. Many agreed that the practical difference is negligible for most 8-bit applications, but edge cases like VGA signal generation or precise color rendering can be affected. Some commenters highlighted the difference between mathematical quantization models and real ADC behavior, while others emphasized that sRGB nonlinearity makes the division choice less critical than perceptual uniformity.
-
-**Tags**: `#color-theory`, `#computer-graphics`, `#quantization`, `#software-engineering`, `#hackernews`
+**Tags**: `#language-models`, `#deep-learning`, `#education`, `#nlp`, `#hands-on`
 
 ---
 
 <a id="item-7"></a>
-## [Geology can naturally produce biochemical processes, study suggests](https://www.quantamagazine.org/the-dirt-that-refused-to-die-20260601/) ⭐️ 8.0/10
+## [Geological processes can produce organic molecules typically associated with life](https://www.quantamagazine.org/the-dirt-that-refused-to-die-20260601/) ⭐️ 8.0/10
 
-A Quanta Magazine feature highlights recent research indicating that complex organic chemistry, previously thought to require life, can arise purely from geological processes such as mineral–water interactions, blurring the boundary between life and non-life. This reshapes theories of abiogenesis by suggesting life's chemistry may be a natural outcome of planetary conditions. For astrobiology, it implies that finding organic molecules on worlds like Europa or Enceladus may not by itself prove life, requiring more nuanced biosignatures. The research likely examines geochemical pathways, such as those at alkaline hydrothermal vents, that generate amino acids, lipids, and RNA precursors abiotically. These non-biological processes can sustain complex chemical networks for eons, making it difficult to distinguish life from geology using single molecular markers.
+New research demonstrates that geological processes can generate organic molecules previously thought to be exclusive signatures of life, challenging the boundary between biotic and abiotic chemistry. This blurs the line between life and non-life chemistry, with profound implications for astrobiology and the search for extraterrestrial life, as organic compounds may arise from geological activity alone. Laboratory simulations replicating geothermal conditions showed the abiotic synthesis of organic compounds, potentially including amino acids or other prebiotic molecules, under settings relevant to early Earth or ocean worlds.
 
 hackernews · speckx · Jun 1, 15:11 · [Discussion](https://news.ycombinator.com/item?id=48357905)
 
-**Background**: Abiogenesis is the natural process by which life arises from non-living matter; classic experiments like Miller–Urey showed amino acids form from inorganic precursors. The RNA world hypothesis proposes self-replicating RNA as a key step. Astrobiologists search for biosignatures to detect extraterrestrial life, but if geology produces similar chemicals, the search becomes more complex.
+**Background**: For decades, certain organic molecules like amino acids were considered biomarkers for life. However, geochemists have increasingly shown that hydrothermal vents, meteorites, and other geological environments can produce such molecules without life. The classic Miller-Urey experiment demonstrated abiotic amino acid synthesis, and modern research extends this to more complex structures under realistic geological conditions.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Abiogenesis">Abiogenesis</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Astrobiology">Astrobiology</a></li>
+**Discussion**: Commenters noted that the idea has been speculated for years, but the lab work provides concrete evidence. Many expressed excitement for astrobiology missions to ocean worlds like Europa, while a few shared personal anecdotes, including one with a direct connection to the research team.
 
-</ul>
-</details>
-
-**Discussion**: Commenters note that geochemistry-driven abiogenesis has been hypothesized for over a decade. One mentions the Gamma Forest experiment, where sterilized soil remained nearly lifeless decades later. Others express excitement for Europa missions, recognizing that tidal stresses could drive interesting chemistry. A commenter identifies the featured lab as their friend's. The consensus is that unambiguous life detection likely requires technosignatures or a preponderance of evidence, not a single silver bullet.
-
-**Tags**: `#geology`, `#biochemistry`, `#abiogenesis`, `#astrobiology`, `#origin-of-life`
+**Tags**: `#geology`, `#biochemistry`, `#origins of life`, `#astrobiology`, `#geochemistry`
 
 ---
 
 <a id="item-8"></a>
-## [Mullvad Warns California Age Verification Law Could End Free Internet](https://mullvad.net/en/blog/age-verification-for-social-media-the-beginning-of-the-end-for-a-free-internet) ⭐️ 8.0/10
+## [Nvidia Unveils PC CPUs That Run 120B AI Models Locally](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247894165&idx=2&sn=0125e0e1973268ab6434b7a2664bcc8c) ⭐️ 8.0/10
 
-Mullvad, a VPN provider, published a blog post warning that California's age verification bill, set to take effect in 2027, will require operating systems to collect user age information, potentially undermining internet anonymity and freedom. Community discussion corrected that the bill only mandates age bracket collection, not identity verification, but concerns remain about expanded surveillance. This development could embed age-verification infrastructure into devices, setting a precedent for broader surveillance and control over internet access. It risks eroding anonymity and enabling tracking, impacting fundamental internet freedoms for all users. The bill requires operating systems to collect age into four buckets during account setup, not to verify identity. Privacy-preserving techniques like zero-knowledge proofs exist but are not mandated, leaving the door open for less protective implementations.
+Nvidia has entered the PC CPU market with new hardware capable of locally running large language models with up to 120 billion parameters, effectively integrating high-performance AI acceleration into personal computing devices. This move signals a major convergence of AI and personal computing, potentially enabling powerful on-device AI applications without relying on cloud services, which improves data privacy, reduces latency, and lowers operational costs for users. The hardware supports models with 120B parameters and a million-token context window, though specific details about memory bandwidth, chip architecture, and power efficiency have not yet been disclosed.
 
-hackernews · StrLght · Jun 1, 23:22 · [Discussion](https://news.ycombinator.com/item?id=48363882)
+rss · 量子位 · Jun 2, 04:05
 
-**Background**: Age verification for online services is increasingly mandated globally to protect minors, but traditional methods expose sensitive personal documents. Privacy-enhancing technologies like zero-knowledge proofs allow users to prove age without revealing identity, yet they face adoption hurdles. California's bill follows other regulations like the UK's Online Safety Act, highlighting a growing tension between safety and privacy.
+**Background**: In AI, 'parameters' are adjustable numerical values within a model that store learned knowledge—more parameters generally enable more capable models. 'Context length' refers to the maximum amount of text (measured in tokens) a model can consider at once during generation. Running a 120B-parameter model locally is extremely demanding, typically requiring high-performance server-grade GPUs and massive memory; fitting such a model into a laptop represents a significant engineering breakthrough.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.newamerica.org/insights/exploring-privacy-preserving-age-verification/">Age Verification to Protect Youth Online: Using Zero ...</a></li>
-<li><a href="https://brave.com/blog/zkp-age-verification-limits/">The limits of zero-knowledge for age-verification - Brave</a></li>
-<li><a href="https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/">Anonymous credentials: an illustrated primer – A Few Thoughts on Cryptographic Engineering</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/702073056">如何通俗易懂地理解大模型参数？ - 知乎</a></li>
+<li><a href="https://developer.aliyun.com/article/1723879">上下文长度是什么意思？AI大模型128k、256k和1M上下文长度是什么概念？-阿里云开发者社区</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters clarified the bill does not require identity verification, only age collection, with some finding it reasonable. Others voiced broader internet freedom concerns, suggesting open web decline. Alternative proposals included adult/social TLDs with consumer equipment blocking and returning to peer-to-peer protocols, showing mixed skepticism and search for balanced solutions.
-
-**Tags**: `#age-verification`, `#internet-freedom`, `#privacy`, `#social-media-regulation`, `#cybersecurity`
+**Tags**: `#Nvidia`, `#CPU`, `#AI`, `#PC`, `#Hardware`
 
 ---
 
 <a id="item-9"></a>
-## [Top LightGBM Feature Degrades Model by Learning Irreducible Noise](https://www.reddit.com/r/MachineLearning/comments/1tu0y14/why_our_1_lightgbm_feature_by_importance_made/) ⭐️ 8.0/10
+## [Backpropagation Destroys V1 Brain Alignment in One Epoch](https://www.reddit.com/r/MachineLearning/comments/1tupu9z/backpropagation_destroys_v1_brain_alignment_in/) ⭐️ 8.0/10
 
-A variant-conditioned Bayesian target encoder, designed to capture within-reference pricing dynamics, ranked #1 in LightGBM feature importance but caused a 0.28 percentage point regression in MAPE on hold-out data during strict ablation testing. This reveals a critical pitfall in gradient boosting: feature importance scores can be misleading when a feature exploits irreducible label variance. It serves as a cautionary tale for practitioners who trust feature importance for model selection or interpretation. In a 4-seed × 3-variant ablation, the encoder’s between-variant delta was 7x the within-variant standard deviation, confirming that the learned splits failed to generalize. LightGBM’s split greedily optimized pinball loss, overfitting to noise from unobserved factors like condition nuance and seller timing.
+A study tracking representational similarity to human V1 fMRI across training found that backpropagation (BP) reduces V1 alignment by approximately 90% after just one epoch, while local learning rules like predictive coding (PC) and spike-timing-dependent plasticity (STDP) preserve significantly more alignment, dropping only 25–31% and then stabilizing. This reveals a fundamental trade-off in learning algorithms: global error signals like those in backpropagation excel at building higher-level representations but catastrophically disrupt early sensory representations, while local rules maintain early alignment. This has important implications for designing biologically plausible models and understanding the divergence between artificial and biological visual systems. The study used the THINGS dataset with N=3 subjects, measuring RSA alignment at 8 training checkpoints over 40 epochs, with 5 random seeds per learning rule. BP's V1 alignment r dropped from 0.102 to 0.011 (p=0.031), while PC and STDP ended at r=0.064 and 0.059. A confound is the domain shift from 32×32 CIFAR-10 training to 224×224 THINGS evaluation. The small LOC increase for BP was not statistically tested.
 
-reddit · r/MachineLearning · /u/Nj-yeti · Jun 1, 18:20
+reddit · r/MachineLearning · /u/ConfusionSpiritual19 · Jun 2, 12:43
 
-**Background**: LightGBM is a gradient boosting library that supports quantile regression via pinball loss. Feature importance in tree models reflects how often a feature is used for splits, but can be inflated by noise. Bayesian target encoding transforms categorical variables using target statistics, risking label leakage. Irreducible label variance arises from inherent randomness in the data, which no model can eliminate, forming a lower bound on expected error.
+**Background**: Representational Similarity Analysis (RSA) compares the geometry of neural representations between models and brain data. V1 (primary visual cortex) processes basic visual features like edges and orientations. Backpropagation uses global error signals to update weights, while local learning rules compute weight updates using only locally available information. Predictive coding posits that the brain minimizes surprise by predicting sensory input and updating internal models via local prediction errors. STDP adjusts synaptic strength based on the relative timing of pre- and post-synaptic spikes. Feedback alignment is a more biological variant of backprop that uses random top-down weights, reducing but not eliminating global communication.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Bias–variance_tradeoff">Bias–variance tradeoff - Wikipedia</a></li>
-<li><a href="https://www.geeksforgeeks.org/machine-learning/lightgbm-for-quantile-regression/">LightGBM for Quantile Regression - GeeksforGeeks</a></li>
-<li><a href="https://www.emergentmind.com/topics/bayesian-target-encoding">Bayesian Target Encoding Methods</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Predictive_coding">Predictive coding - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Spike-timing-dependent_plasticity">Spike-timing-dependent plasticity</a></li>
+<li><a href="https://www.nature.com/articles/ncomms13276">Random synaptic feedback weights support error ... - Nature Forward alignment algorithm based on goodness selection and ... Align, then memorise: the dynamics of learning with feedback ... direct-feedback-alignment · GitHub Topics · GitHub Direct Feedback Alignment in PyTorch: A Comprehensive Guide</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#machine-learning`, `#LightGBM`, `#feature-importance`, `#overfitting`, `#gradient-boosting`
+**Tags**: `#computational neuroscience`, `#backpropagation`, `#brain alignment`, `#learning rules`, `#computer vision`
 
 ---
 
 <a id="item-10"></a>
-## [NVIDIA Releases Cosmos 3 Omnimodal World Models on Hugging Face](https://www.reddit.com/r/LocalLLaMA/comments/1tuhea4/nvidia_releases_cosmos_3_omnimodal_world_modelson/) ⭐️ 8.0/10
+## [LLM Agents Patch Bugs, Pass Tests, but Still Leave Vulnerability Open](https://www.reddit.com/r/MachineLearning/comments/1tukvjt/llm_agents_patch_security_bugs_pass_all_tests_but/) ⭐️ 8.0/10
 
-NVIDIA has open-sourced Cosmos 3, a suite of omnimodal world models now available on Hugging Face. These models, available in Nano (16B) and Super (64B) sizes, generate video, image, audio, and action commands from combinations of text, image, video, and action trajectory inputs. As an open foundation model, Cosmos 3 democratizes access to large-scale world models that unify vision, language, and action. This significantly accelerates research and development in physical AI fields like robotics, autonomous systems, and simulation, where multimodal world understanding and action prediction are essential. Cosmos 3 employs a Mixture-of-Transformers architecture to jointly process multiple modalities. The released model sizes on Hugging Face (Nano 16B, Super 64B) differ from official NVIDIA communications mentioning 8B and 32B variants, possibly indicating different fine-tuned versions or configurations.
+A new benchmark, CVE-Bench, evaluates five frontier LLM agents on patching 20 real-world CVEs across 18 Python projects. It finds a best solve rate of only 50%, with agents often passing all provided tests yet leaving the vulnerability open. The study reveals that passing regression tests does not guarantee security, as LLM-generated patches can miss vulnerabilities or introduce subtle failures. This has critical implications for automated software maintenance and the deployment of AI coding agents in security-sensitive applications. The benchmark uses three prompt conditions—advisory, diagnose, and locate—to test localization and reasoning. Under the 'locate' condition (exact file and function given but no flaw description), every model's solve rate drops, highlighting a gap in autonomous code comprehension. A particularly dangerous failure mode is 'correct file, wrong gadget,' where all regression tests pass yet the vulnerability persists, making it undetectable without hidden security tests.
 
-reddit · r/LocalLLaMA · /u/RobotRobotWhatDoUSee · Jun 2, 05:26
+reddit · r/MachineLearning · /u/Fickle-Box1433 · Jun 2, 08:38
 
-**Background**: World models are AI systems that learn to simulate environments and predict future states, crucial for planning in embodied agents. Omnimodal models handle text, images, video, audio, and actions simultaneously, enabling more integrated understanding. Physical AI refers to AI systems interacting with the real world, such as robots, where generating realistic simulations and actions is vital for training and deployment.
+**Background**: CVE (Common Vulnerabilities and Exposures) are publicly known security flaws, while GitHub Security Advisories (GHSA) provide detailed reports including fix references. LLM agents, powered by large language models, autonomously generate code patches using access to repositories and testing tools. The CVE-Bench benchmark uses sandboxed containers and hidden security tests to rigorously evaluate patch correctness.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai">NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model ...</a></li>
-<li><a href="https://github.com/nvidia/Cosmos">NVIDIA/cosmos: NVIDIA Cosmos is an open platform of world models ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Large_language_model">Large language model - Wikipedia</a></li>
+<li><a href="https://github.com/advisories">GitHub Advisory Database</a></li>
+<li><a href="https://www.promptingguide.ai/research/llm-agents">LLM Agents | Prompt Engineering Guide</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#world models`, `#multimodal`, `#video generation`, `#NVIDIA`, `#physical AI`
+**Tags**: `#LLM-agents`, `#security`, `#benchmark`, `#code-generation`, `#vulnerability-patching`
 
 ---
 
 <a id="item-11"></a>
-## [OpenAI Frontier Models and Codex Now on AWS Bedrock](https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/) ⭐️ 7.0/10
+## [Why LightGBM's Top Feature Made Predictions Worse](https://www.reddit.com/r/MachineLearning/comments/1tu0y14/why_our_1_lightgbm_feature_by_importance_made/) ⭐️ 8.0/10
 
-OpenAI's latest frontier models, including GPT-5.5 and GPT-5.4, along with Codex, the AI coding agent, are now available in preview on Amazon Bedrock, allowing enterprises to access them through AWS's unified API. This move makes it easier for large enterprises with existing AWS contracts and strict data governance requirements to adopt OpenAI's models, posing serious competition to Anthropic's Claude which was previously the primary option on Bedrock. The models are accessible via the same Bedrock APIs, with data control assurances that ensure company data does not leave the customer's environment. The service is currently in preview, and enterprises must have an AWS relationship to use it.
+A LightGBM quantile regression model for pricing found that its highest-importance feature, a Bayesian target encoder, degraded hold-out performance by 0.28pp MAPE due to overfitting on irreducible label noise. This case demonstrates that high feature importance in gradient boosting can be misleading, and rigorous ablation studies are essential to avoid deploying models that fail in production. The model used LightGBM at quantile 90 with a variant-conditioned Bayesian target encoder. Ablation across 4 seeds and 3 variants showed a 0.28pp MAPE increase and a between-variant delta 7× the within-variant standard deviation.
 
-hackernews · typpo · Jun 1, 21:50 · [Discussion](https://news.ycombinator.com/item?id=48363132)
+reddit · r/MachineLearning · /u/Nj-yeti · Jun 1, 18:20
 
-**Background**: Amazon Bedrock is a fully managed service by AWS that provides a unified API to access foundation models from various AI companies. It is popular in enterprises due to existing AWS contracts and data governance features. OpenAI's frontier models are their most advanced large language models, and Codex is an AI coding agent that automates software engineering tasks.
+**Background**: LightGBM is an efficient gradient-boosting framework. Quantile regression predicts specific quantiles (e.g., 90th percentile) instead of the mean. Bayesian target encoding converts categories by blending category-level target means with the global mean, but can overfit on noisy targets. Irreducible label variance is noise from unobserved factors that no model can correctly learn.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Amazon_Bedrock">Amazon Bedrock - Wikipedia</a></li>
-<li><a href="https://openai.com/codex/">Codex | AI Coding Partner from OpenAI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/LightGBM">LightGBM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Quantile_regression">Quantile regression</a></li>
+<li><a href="https://medium.com/data-science/target-encoding-and-bayesian-target-encoding-5c6a6c58ae8c">Target Encoding and Bayesian Target Encoding | by Michael ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Overall sentiment is positive, with commenters highlighting that AWS Bedrock is crucial for enterprise adoption due to existing vendor relationships, data governance, and avoidance of new vendor approval processes. Some note this move will intensify competition with Anthropic. There is agreement that using AWS is often the only way to access foundation models in large corporate settings.
-
-**Tags**: `#OpenAI`, `#AWS`, `#Enterprise`, `#AI/ML`, `#Bedrock`
+**Tags**: `#LightGBM`, `#overfitting`, `#feature importance`, `#quantile regression`, `#validation`
 
 ---
 
 <a id="item-12"></a>
-## [Stanford CS336 Releases Guidelines for Using Claude as Learning Aid](https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md) ⭐️ 7.0/10
+## [MLE-Bench Gains: Better Models, Not Algorithms](https://www.reddit.com/r/MachineLearning/comments/1ttu47l/how_much_of_mlebenchs_gains_are_the_algorithm_vs/) ⭐️ 8.0/10
 
-Stanford's CS336 course recently published a CLAUDE.md file with instructions instructing Claude to act as a tutor that explains concepts rather than providing direct answers. It directly addresses the tension between AI tools and genuine learning, potentially influencing how other educators integrate AI into their teaching. The file is in the assignment1-basics repository, containing directives like 'I am a student — help me learn, don't just do everything for me.' Some commenters note its verbosity may exceed typical LLM context windows.
+A new benchmark, FML-Bench, finds that recent MLE-Bench improvements are primarily due to better base models and increased search, not algorithmic innovation. When controlling for these factors, the two-year-old AIDE algorithm performs on par with modern systems. This analysis helps the ML community avoid overfitting and misattributing progress, directing efforts toward genuine algorithmic innovation rather than model scaling alone. FML-Bench unifies the code editing agent, step definition, and validation/test split to isolate algorithmic efficiency. The AIDE algorithm, a tree-search agent for automated ML, achieves performance similar to modern systems when given the same base models and step budget.
 
-hackernews · prakashqwerty · Jun 1, 16:41 · [Discussion](https://news.ycombinator.com/item?id=48359232)
+reddit · r/MachineLearning · /u/Educational_Strain_3 · Jun 1, 14:34
 
-**Background**: CS336 is a Stanford course where students build language models from scratch. Claude is Anthropic's AI assistant known for constitutional AI. Providing AI guidelines via files like AGENTS.md is a common practice among developers to shape AI behavior.
+**Background**: MLE-Bench, introduced by OpenAI in 2024, is a benchmark for evaluating AI agents on machine learning engineering tasks, with scores recently jumping from 30% to 80%. AIDE is an open-source algorithm by WecoAI that uses tree search to autonomously draft, debug, and benchmark code. FML-Bench is a newer benchmark focusing on fundamental ML research problems, aiming to evaluate agents' algorithmic efficiency separate from model scaling.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://cs336.stanford.edu/">Stanford CS336 | Language Modeling from Scratch</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Claude_Anthropic">Claude Anthropic</a></li>
+<li><a href="https://openai.com/index/mle-bench/">MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering | OpenAI</a></li>
+<li><a href="https://github.com/WecoAI/aideml">GitHub - WecoAI/aideml: AIDE: AI-Driven Exploration in the Space of Code. The machine Learning engineering agent that automates AI R&D. · GitHub</a></li>
+<li><a href="https://arxiv.org/abs/2510.10472">[2510.10472] FML-bench: Benchmarking Machine Learning Agents ... GitHub - qrzou/FML-bench: FML-bench FML-bench: A Benchmark for Automatic ML Research Agents ... A Benchmark for Automatic ML Research Agents Highlighting the... qrzou/FML-bench | DeepWiki FML-bench: Automated ML Research Benchmark FML-bench: A Benchmark for Automatic ML Research Agents ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments are largely supportive, seeing the guidelines as a necessary adaptation. Some argue shorter prompts work better, and there's an ongoing debate about whether such aids deepen or hinder learning.
-
-**Tags**: `#AI`, `#education`, `#Claude`, `#course guidelines`, `#AI-assisted learning`
+**Tags**: `#machine learning`, `#benchmarking`, `#automated machine learning`, `#agent systems`, `#research evaluation`
 
 ---
 
 <a id="item-13"></a>
-## [2M+ Job Postings Scraped Daily from 100K+ Sites, Free Dataset](https://www.reddit.com/r/MachineLearning/comments/1tujedq/i_scraped_over_2_million_job_postings_across/) ⭐️ 7.0/10
+## [RTX Spark's 600GB/s is NvLink Speed, Not Memory Bandwidth](https://www.reddit.com/r/LocalLLaMA/comments/1tu639j/rtx_spark_does_not_have_600gbs_bandwith/) ⭐️ 8.0/10
 
-A Reddit user built a scalable scraping pipeline that collects job listings directly from over 100,000 company career sites, resulting in a free, daily-refreshed dataset of more than 2 million active postings in Parquet format. This dataset provides a high-quality, up-to-date alternative to expensive or restricted labor market data sources, enabling researchers and developers to freely conduct NLP model training, job recommendation systems, and economic analysis. The dataset uses Apache Parquet columnar storage to minimize costs, and includes fields like job_title, company_name, job_description, location, and post_date. The pipeline handles over 100,000 distinct company sites with daily delta updates.
+Multiple outlets incorrectly reported that the RTX Spark has 600 GB/s of memory bandwidth, but Computex slides confirm the figure actually refers to NvLink interconnect speed. This correction is critical for local LLM enthusiasts and AI developers evaluating hardware, as memory bandwidth directly impacts large model inference performance, while NvLink speed serves a different purpose. The RTX Spark is an ARM-based SoC by NVIDIA and MediaTek, primarily for Windows devices, and uses NvLink for high-speed chip-to-chip communication, not as system memory bandwidth.
 
-reddit · r/MachineLearning · /u/Invicto_50 · Jun 2, 07:14
+reddit · r/LocalLLaMA · /u/rpiguy9907 · Jun 1, 21:16
 
-**Background**: Many companies use applicant tracking systems (ATS) to manage job postings on their career pages. Scraping directly from employer sites avoids the noise and filtering of third-party boards. Apache Parquet is a columnar file format optimized for fast analytics and reduced storage, making it ideal for large-scale machine learning datasets.
+**Background**: NvLink is a proprietary NVIDIA interconnect for direct GPU-to-GPU and GPU-to-CPU communication, offering high bandwidth and low latency. Memory bandwidth, on the other hand, measures the rate at which data can be read from or stored into a processor's memory. The confusion arose because early reports conflated these metrics. The RTX Spark, officially unveiled in June 2026, is a compact system-on-chip aimed at AI and gaming.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Applicant_tracking_system">Applicant tracking system</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Apache_Parquet">Apache Parquet - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/RTX_Spark">RTX Spark</a></li>
+<li><a href="https://en.wikipedia.org/wiki/NVLink">NVLink</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#data mining`, `#web scraping`, `#NLP`, `#labor market`, `#machine learning`
+**Tags**: `#hardware`, `#correction`, `#local-llm`, `#nvidia`, `#rtx-spark`
 
 ---
 
 <a id="item-14"></a>
-## [Lightweight real-time multilingual ASR with rolling buffer and monolingual models](https://www.reddit.com/r/MachineLearning/comments/1ttwfuy/realtime_multilingual_asr_using_rolling_buffers/) ⭐️ 7.0/10
+## [NVIDIA Releases Cosmos 3 Omnimodal World Models on Hugging Face](https://www.reddit.com/r/LocalLLaMA/comments/1tuhea4/nvidia_releases_cosmos_3_omnimodal_world_modelson/) ⭐️ 8.0/10
 
-A system routes audio between small monolingual Zipformer models, using Silero VAD and SpeechBrain for language identification, and employs a rolling buffer to correct mid-utterance language switches in real time. It enables accurate, low-latency multilingual transcription on local hardware, avoiding large multilingual models and outperforming cloud APIs on inter-utterance code-switching. Uses models with ~100M parameters; achieves ~13% WER on inter-utterance switches but ~41% on intra-utterance; open-source code available.
+NVIDIA has released Cosmos 3, a family of omnimodal world models including Nano (16B) and Super (64B) variants, on Hugging Face. These models can generate video, image, audio, and action commands from multimodal inputs like text, images, and video. This release advances physical AI by providing a unified model for simulating and understanding the physical world, accelerating research in robotics, autonomous driving, and embodied AI. Open access on Hugging Face also democratizes development of world models. The models are available in two sizes: Nano (16B parameters) and Super (64B parameters). They unify generation across multiple modalities, supporting tasks like text-to-image, video prediction, and action policy learning, though detailed technical specifications and benchmarks are not yet fully disclosed.
 
-reddit · r/MachineLearning · /u/JeanMichelRanu · Jun 1, 15:53
+reddit · r/LocalLLaMA · /u/RobotRobotWhatDoUSee · Jun 2, 05:26
 
-**Background**: Zipformer is a memory-efficient transformer encoder for ASR that adds convolutions for local and global dependencies. Silero VAD is a pre-trained voice activity detector trained on thousands of languages, and SpeechBrain is an open-source PyTorch toolkit supporting language identification. The rolling buffer allows the system to revisit and re-transcribe recent audio when a language switch is detected, ensuring self-correction.
+**Background**: World models are AI systems that learn to simulate environments and predict outcomes, crucial for planning in robotics. Omnimodal refers to handling multiple modalities (text, image, video, audio) in a unified framework. Physical AI involves AI systems that interact with the physical world (e.g., robots, autonomous vehicles). Embodied policy learning means training AI to output actions for embodied agents.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2310.11230">[2310.11230] Zipformer: A faster and better encoder for automatic speech recognition</a></li>
-<li><a href="https://pypi.org/project/silero-vad/">Voice Activity Detector ( VAD ) by Silero</a></li>
+<li><a href="https://www.nvidia.com/en-us/glossary/generative-physical-ai/">What is Physical AI? | NVIDIA Glossary</a></li>
+<li><a href="https://medium.com/@frinktyler1445/omnimodels-the-unified-architecture-for-intelligence-89856a63e975">OmniModels: The Unified Architecture for Intelligence | by Tyler Frink | Medium</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#world-models`, `#multimodal`, `#physical-ai`, `#nvidia`, `#generative-ai`
+
+---
+
+<a id="item-15"></a>
+## [Why Janet? Exploring the Janet Programming Language](https://ianthehenry.com/posts/why-janet/) ⭐️ 7.0/10
+
+A blog post by Ian Henry provides an in-depth examination of the Janet programming language, detailing its Lua-inspired Lisp design, sandboxing capabilities, and unique syntax choices. Janet’s design as a minimalist, embeddable Lisp with sandboxing offers a compelling option for secure scripting in C/C++ applications, making it relevant for developers seeking a modern, lightweight language. The analysis delves into Janet’s binding semantics (def for immutable bindings, setq for mutable updates), its sandboxing model that permanently disables system features, and referentially transparent macros enabled by unquoting literal functions.
+
+hackernews · yacin · Jun 2, 09:34 · [Discussion](https://news.ycombinator.com/item?id=48367907)
+
+**Background**: Janet is a functional and imperative language that runs on a small bytecode VM. Created by Calvin Rose, it is designed to be easily embedded in C or C++ projects, providing a Lisp-like syntax with Lua’s lightweight philosophy. It includes features like first-class fibers for concurrency and a powerful macro system.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://janet-lang.org/">Janet Programming Language</a></li>
+<li><a href="https://github.com/janet-lang/janet">GitHub - janet -lang/ janet : A dynamic language and bytecode vm</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community discussion was generally positive, with nostalgia for deep technical debates. Some commenters highlighted related language Fennel and Janet’s sandboxing as standout features, while others corrected the post’s mischaracterization of `setq` as `def`. A few expressed distaste for Janet’s syntax despite appreciating its design.
+
+**Tags**: `#janet`, `#programming-languages`, `#lisp`, `#language-design`, `#systems-programming`
+
+---
+
+<a id="item-16"></a>
+## [Adafruit Receives Demand Letter from Flux.ai's Legal Counsel](https://blog.adafruit.com/) ⭐️ 7.0/10
+
+Adafruit, a prominent electronics company, received a legal demand letter from Fenwick & West, representing Flux.ai, after possibly planning to publish a review or information about Flux's AI-powered PCB design tool. This incident highlights potential legal threats against independent reviews in the tech community, which could chill honest assessments of AI tools and affect electronics engineers and startups relying on impartial evaluations. The demand letter's specific allegations are not public, but community comments indicate Flux.ai's AI PCB tool has limited functionality, high token costs, and poor placement capabilities, leading to user frustration.
+
+hackernews · semanser · Jun 2, 10:00 · [Discussion](https://news.ycombinator.com/item?id=48368121)
+
+**Background**: Adafruit is a well-known US-based electronics company that produces open-source hardware and publishes educational content and product reviews. Flux.ai is a browser-based, AI-assisted PCB (printed circuit board) design tool. PCB design involves creating schematics and layouts for electronic circuits. A demand letter is a formal request from a lawyer, often implying potential legal action if demands are not met.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.flux.ai/">Flux - Design PCBs with AI</a></li>
+<li><a href="https://grokipedia.com/page/Comparison_of_KiCad_and_Fluxai">Comparison of KiCad and Flux.ai</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The community overwhelmingly supports Adafruit, criticizing Flux.ai as an ineffective product with excessive token consumption and poor design output. Users share negative experiences, and some suspect Flux.ai is using legal threats to suppress criticism, especially after recent funding. A comment clarifies this is unrelated to Black Forest Labs' image model Flux.
+
+**Tags**: `#legal-demand`, `#pcb-design`, `#ai-tools`, `#product-review`, `#adafruit`
+
+---
+
+<a id="item-17"></a>
+## [Stanford CS336 Introduces AI Agent Usage Guidelines for Learning](https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md) ⭐️ 7.0/10
+
+Stanford's CS336 course published a CLAUDE.md file with detailed guidelines for students on using AI agents like Claude in assignments, emphasizing learning over task completion. This approach recognizes the inevitability of AI tools in education and sets a precedent for structured, learning-focused AI use, potentially shaping academic policies and fostering responsible AI adoption. The guidelines are in a CLAUDE.md file on GitHub, part of assignment1-basics; they include instructions to the AI to act as a tutor, not just a solver, and can be used with tools like Claude Code's Learning mode.
+
+hackernews · prakashqwerty · Jun 1, 16:41 · [Discussion](https://news.ycombinator.com/item?id=48359232)
+
+**Background**: CS336 is a Stanford computer science course. CLAUDE.md files are used by Claude AI to provide persistent instructions across interactions. Including such files in course repositories is an emerging practice to guide student-AI interaction.
+
+**Discussion**: Commenters on Hacker News generally support the initiative, recognizing AI's role in education, but some suggest the guidelines are too verbose for model context windows and recommend shorter, terser instructions. Others note similarities to existing agent guidelines and suggest using Claude Code's Learning mode.
+
+**Tags**: `#AI in education`, `#agent guidelines`, `#Claude`, `#CS education`, `#Hacker News discussion`
+
+---
+
+<a id="item-18"></a>
+## [Normalizing RGB: 255 vs 256 Division Debate](https://30fps.net/pages/255-vs-256-division/) ⭐️ 7.0/10
+
+The article examines the subtle yet conceptually important distinction between normalizing 8-bit RGB color values by 255 versus 256, clarifying the implications for value mapping and algebraic consistency. This distinction affects the accuracy of color computations in graphics programming, especially when exact integer arithmetic or low-bit signals are involved, and influences how developers handle boundary cases and half‑intensity values. Dividing by 255 maps the full 0–255 integer range exactly to [0,1], making 128 not exactly half; dividing by 256 creates equal-width bins but places pure white at 255/256, and the choice interacts with gamma correction and quantization error.
+
+hackernews · pplanu · Jun 1, 17:37 · [Discussion](https://news.ycombinator.com/item?id=48360054)
+
+**Background**: RGB color channels are typically stored as 8-bit integers from 0 (black) to 255 (white). Normalization scales these to a 0–1 float range for mathematical operations. Dividing by 255 preserves exact endpoint mapping, while dividing by 256 treats each integer as the center of a uniform quantization bin. In practice, display systems apply gamma correction, a non‑linear transformation that encodes luminance, and analog‑to‑digital converters inherently have ±0.5 LSB quantization uncertainty, making the theoretical choice less visible in most real‑world 8-bit imagery.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Gamma_correction">Gamma correction</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Quantization_(image_processing)">Quantization (image processing) - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters note the error is negligible for casual viewing but consequential for low‑bit signal generation (e.g., VGA) or algebraic rigor. Some argue division by 255 preserves mathematical identities, while others emphasize that real ADCs have built-in half‑LSB uncertainty, and the sRGB non‑linearity further complicates the idea of “half gray.”
+
+**Tags**: `#color-theory`, `#graphics-programming`, `#digital-signal-processing`, `#normalization`, `#technical-discussion`
+
+---
+
+<a id="item-19"></a>
+## [Browse CVPR 2026 Papers with Code on Revived PapersWithCode](https://www.reddit.com/r/MachineLearning/comments/1tukrf4/browse_cvpr_2026_papers_on_paperswithcode_p/) ⭐️ 7.0/10
+
+Niels from Hugging Face added conference browsing to the revived PapersWithCode platform, letting users explore CVPR 2026 papers organized by task with links to code, GitHub, and Hugging Face artifacts. This streamlines discovery of state-of-the-art vision research, making it easier to access papers, code, and benchmarks from a top conference, accelerating reproducibility and innovation. Papers are categorized by task, tagged with GitHub and project links, Hugging Face artifacts, and evals; filtering by Oral and Spotlight presentations is supported. All CVPR 2026 papers with arXiv IDs are indexed.
+
+reddit · r/MachineLearning · /u/NielsRogge · Jun 2, 08:32
+
+**Background**: PapersWithCode is a community-driven platform that links ML papers to code and datasets, originally launched in 2018 and recently revived at paperswithcode.co by Hugging Face. CVPR is a premier annual computer vision conference; CVPR 2026 takes place in Denver. Accepted papers are designated as Oral (most prestigious), Spotlight, or Poster.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.datacamp.com/blog/introduction-papers-with-code">An Introduction to Papers With Code: What It is And How to ... Papers with Code is Back! The Revival Every ML Engineer and ... Papers with code · GitHub “Papers with Code” went offline, the knowledge doesn’t have ... Papers With Code - The Latest in Machine Learning Research ... Papers with Code - Princeton University</a></li>
+<li><a href="https://cvpr.thecvf.com/">CVPR 2026 - The Computer Vision Foundation</a></li>
+<li><a href="https://quasa.io/media/papers-with-code-is-back-the-revival-every-ml-engineer-and-researcher-has-been-waiting-for">Papers with Code is Back! The Revival Every ML Engineer and ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#machine-learning`, `#computer-vision`, `#paperswithcode`, `#cvpr-2026`, `#research-tools`
+
+---
+
+<a id="item-20"></a>
+## [Free Daily-Updated Dataset of 2M+ Job Postings from 100K+ Companies](https://www.reddit.com/r/MachineLearning/comments/1tujedq/i_scraped_over_2_million_job_postings_across/) ⭐️ 7.0/10
+
+A user scraped over 2 million job postings from more than 100,000 company career sites, compiled them into a single Parquet-formatted dataset, and is providing daily delta refreshes for free. This dataset offers a clean, up-to-date, and large-scale view of the global job market directly from employer sites, avoiding biases and paywalls of commercial APIs, and is valuable for NLP, labor economics, and ML research. The dataset is stored in Parquet format for efficient columnar storage, includes core fields like job title, company, location, description, and post date, and is refreshed daily with delta loads.
+
+reddit · r/MachineLearning · /u/Invicto_50 · Jun 2, 07:14
+
+**Background**: Parquet is a columnar file format optimized for analytics on large datasets, reducing storage and speeding up queries. Delta refresh loads only recently changed data, minimizing processing. Scraping company career sites directly avoids reliance on third-party aggregators like LinkedIn, ensuring more comprehensive and unbiased data.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Apache_Parquet">Apache Parquet - Wikipedia</a></li>
+<li><a href="https://www.reddit.com/r/dataengineering/comments/1evv6gt/confused_about_incremental_load_vs_delta_loadare/">Confused About Incremental Load vs. Delta Load—Are They the Same?</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#dataset`, `#job-market`, `#web-scraping`, `#machine-learning`, `#nlp`
+
+---
+
+<a id="item-21"></a>
+## [Real-time Multilingual ASR Using Rolling Buffers and Monolingual Models](https://www.reddit.com/r/MachineLearning/comments/1ttwfuy/realtime_multilingual_asr_using_rolling_buffers/) ⭐️ 7.0/10
+
+A new routing-based approach to multilingual ASR uses small monolingual models (~100M parameters each) instead of a large multilingual one. It employs a rolling buffer and rollback mechanism to handle mid-conversation language switches with low latency, achieving ~13% WER on inter-utterance benchmarks. This approach enables accurate real-time multilingual ASR on local hardware by avoiding large models, making it practical for edge devices and applications where low latency is critical. It outperforms cloud APIs and other open-source systems, offering a lightweight solution for code-switching speech. The system uses Zipformer for streaming transcription, Silero VAD for speech boundary detection, and SpeechBrain for language identification. It achieves 13% WER on inter-utterance code-switching but degrades to 41% on intra-utterance switching. Incorrect text may appear briefly before rollback correction.
+
+reddit · r/MachineLearning · /u/JeanMichelRanu · Jun 1, 15:53
+
+**Background**: Multilingual automatic speech recognition (ASR) often requires large models to handle multiple languages, which is challenging for real-time use on devices. Code-switching (mixing languages in conversation) further complicates recognition. Zipformer is a low-latency ASR model architecture. Silero VAD provides efficient voice activity detection. SpeechBrain is a toolkit offering language identification. The rolling buffer with rollback: the system starts transcribing with a default model, and if language changes are detected, it rewinds to a speech boundary and re-transcribes with the appropriate monolingual model.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://arxiv.org/abs/2310.11230">Zipformer : A faster and better encoder for automatic speech recognition</a></li>
+<li><a href="https://github.com/snakers4/silero-vad">GitHub - snakers4/silero-vad: Silero VAD: pre-trained enterprise-grade Voice Activity Detector · GitHub</a></li>
 <li><a href="https://github.com/speechbrain/speechbrain">GitHub - speechbrain/speechbrain: A PyTorch-based Speech Toolkit · GitHub</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#ASR`, `#multilingual`, `#real-time`, `#code-switching`, `#streaming`
-
----
-
-<a id="item-15"></a>
-## [Study: MLE-Bench progress from models, not algorithm improvements](https://www.reddit.com/r/MachineLearning/comments/1ttu47l/how_much_of_mlebenchs_gains_are_the_algorithm_vs/) ⭐️ 7.0/10
-
-A new benchmark called FML-Bench reveals that when controlling for step budget and task set, the two-year-old AIDE tree-search algorithm matches modern AI agents, indicating that recent score jumps on MLE-Bench are mainly due to better base models and more compute, not algorithmic advances. This finding challenges the narrative of rapid algorithmic progress in automated ML, shifting focus to scaling laws and efficient search. It may redirect research investment and evaluation from novel agent architectures to better base models and exploration strategies. FML-Bench unifies code editing agents, step definitions, and validation splits, and emphasizes exploration breadth over incremental refinement. Under controlled conditions, AIDE matched or outperformed modern systems, underscoring the importance of search budget and base model quality.
-
-reddit · r/MachineLearning · /u/Educational_Strain_3 · Jun 1, 14:34
-
-**Background**: MLE-Bench is an OpenAI benchmark that tests AI agents on machine learning engineering tasks. AIDE, from WecoAI, is an open-source algorithm that uses tree search with large language models to iteratively improve code. FML-Bench is a new benchmark designed to measure algorithmic efficiency of automated ML research agents.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/qrzou/FML-bench">GitHub - qrzou/FML-bench: FML-bench: A Benchmark for Automatic ML Research Agents Highlighting the Importance of Exploration Breadth</a></li>
-<li><a href="https://github.com/WecoAI/aideml">GitHub - WecoAI/aideml: AIDE: AI-Driven Exploration in the ...</a></li>
-<li><a href="https://openai.com/index/mle-bench/">MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering | OpenAI</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#machine learning`, `#automated ML`, `#benchmarking`, `#AI agents`, `#reproducibility`
-
----
-
-<a id="item-16"></a>
-## [RTX Spark Bandwidth Clarified: 600GB/s is NVLink](https://www.reddit.com/r/LocalLLaMA/comments/1tu639j/rtx_spark_does_not_have_600gbs_bandwith/) ⭐️ 7.0/10
-
-A Reddit post clarifies that the widely reported 600GB/s figure for the RTX Spark is actually the NVLink interconnect speed, not the memory bandwidth, correcting multiple media outlets that misrepresented the specification. This correction is crucial for the local LLM community, where accurate hardware specs directly influence expectations for inference performance and model deployment. Misinterpreting NVLink speed as memory bandwidth could lead to misguided hardware choices. The RTX Spark likely uses NVLink for multi-GPU or chip-to-chip communication, achieving 600GB/s, while its independent memory bandwidth is separate and not specified. NVLink is a high-speed interconnect distinct from the GPU's own memory bus.
-
-reddit · r/LocalLLaMA · /u/rpiguy9907 · Jun 1, 21:16
-
-**Background**: In GPU architecture, memory bandwidth (e.g., 600 GB/s for GDDR6X) measures the rate at which data moves between the GPU's processor and its onboard VRAM, which is critical for large model inference. NVLink is a proprietary interconnect from NVIDIA that provides high-speed communication between multiple GPUs or between a GPU and CPU, often used in data centers and multi-GPU setups. The RTX Spark likely incorporates NVLink to enable fast sharing of data across chips, but its single-GPU inference performance depends on its memory bandwidth, not the NVLink figure.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/NVLink">NVLink</a></li>
-<li><a href="https://www.nvidia.com/en-us/data-center/nvlink/">NVLink & NVLink Switch: Fastest HPC Data Center Platform - NVIDIA</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#hardware`, `#GPU`, `#bandwidth`, `#local LLM`, `#correction`
-
----
-
-<a id="item-17"></a>
-## [PR Reduces VRAM Usage by Limiting Logits Reservation in llama.cpp](https://www.reddit.com/r/LocalLLaMA/comments/1ttvpmt/llama_limit_max_outputs_of_llama_context_by/) ⭐️ 7.0/10
-
-Pull request #23861 modifies llama.cpp's llama_context to only reserve logits space for the actual number of sequences (n_seqs) when possible, instead of always reserving for all tokens. This change can save up to 1.2 GB of VRAM when using an 2048-token unbatch size and multi-token prediction (MTP). This VRAM optimization directly benefits users running large language models locally on consumer GPUs with limited memory, enabling larger models or longer contexts without hardware upgrades. It represents a pragmatic, incremental efficiency gain that aligns with the broader llama.cpp ecosystem's focus on accessible, high-performance inference. The change builds on a previous PR #23764 and was tested with llama-perplexity. The author notes it is currently a draft and suggests a better API in llama-context where server context can set max outputs to 1 whenever possible.
-
-reddit · r/LocalLLaMA · /u/pmttyji · Jun 1, 15:29
-
-**Background**: llama.cpp is an open-source C/C++ inference engine for large language models, optimized for consumer hardware. VRAM (video RAM) is a scarce resource on GPUs, and reserving memory for logits—the raw unnormalized model outputs—can become costly with large batch sizes or advanced techniques like multi-token prediction (MTP). MTP speeds up inference by predicting several tokens per step, but increases memory pressure.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.datacamp.com/tutorial/multi-token-prediction-llama-cpp">Multi-Token Prediction Tutorial: How To Speed Up LLMs | DataCamp</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#llama.cpp`, `#VRAM optimization`, `#inference`, `#LLM`, `#open source`
-
----
-
-<a id="item-18"></a>
-## [Python Tool Compresses LLM Inputs, Saving 60-95% Tokens](https://github.com/chopratejas/headroom) ⭐️ 7.0/10
-
-The open-source Python library 'headroom' compresses tool outputs, logs, files, and RAG chunks, reducing LLM token usage by 60-95% without degrading answer quality, and can be used as a library, proxy, or MCP server. This tool addresses the high token costs of LLM applications, especially in RAG pipelines, by significantly compressing input data, potentially lowering expenses and improving efficiency for developers and businesses. Details about the compression algorithm are not yet public, but the tool can be integrated as a library for direct use, a proxy for intercepting API calls, or an MCP server for seamless integration with LLM toolchains.
-
-ossinsight · chopratejas · Jun 2, 07:39
-
-**Background**: Large language models (LLMs) process text as tokens; each token incurs a cost. In retrieval-augmented generation (RAG), LLMs pull in external documents, increasing token usage. The Model Context Protocol (MCP) standardizes how LLMs connect to external tools and data sources. Headroom compresses this input data to save tokens.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation">Retrieval-augmented generation - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol - Wikipedia</a></li>
-<li><a href="https://modelcontextprotocol.io/docs/learn/server-concepts">Understanding MCP servers - Model Context Protocol</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#LLM`, `#RAG`, `#token-compression`, `#efficiency`, `#Python`
-
----
-
-<a id="item-19"></a>
-## [Bring Back the Grid for macOS Spaces](https://blog.hopefullyuseful.com/blog/macos-needs-its-grid-back/) ⭐️ 6.0/10
-
-A blog post laments the removal of the grid layout for Spaces in macOS, arguing that it degraded spatial navigation and productivity since its disappearance after Lion. The grid layout enabled intuitive, two-dimensional workspace organization; its absence reflects a trend of oversimplification in macOS that alienates power users and reduces efficiency. The grid was available from OS X 10.5 Leopard through 10.9 Mavericks; from 10.11 El Capitan onward, Spaces were restricted to a single horizontal row, and third-party tools like TotalSpaces attempt to restore the grid functionality.
-
-hackernews · ranebo · Jun 2, 01:28 · [Discussion](https://news.ycombinator.com/item?id=48364800)
-
-**Background**: Spaces is Apple's virtual desktop feature, allowing users to create multiple desktops. Originally, they could be arranged in a two-dimensional grid, helping users spatially orient themselves. Later macOS versions forced a one-dimensional linear layout, requiring memorization and breaking the spatial metaphor.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://blog.hopefullyuseful.com/blog/macos-needs-its-grid-back/">macOS Needs Its Grid Back | Hopefully Useful</a></li>
-<li><a href="https://www.MacObserver.com/macos/totalspaces-virtual-desktops-os-x/">TotalSpaces: How Virtual Desktops on OS X Got Its Groove Back</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Users express frustration with Apple's convoluted permission prompts and the disorienting linear Spaces arrangement. Some recall earlier macOS versions as more usable, rely on third-party tools like TotalSpaces or alternative window managers, and feel that Apple's design regressions are driving power users away.
-
-**Tags**: `#macOS`, `#UI/UX`, `#usability`, `#design`, `#spaces`
-
----
-
-<a id="item-20"></a>
-## [Chipotlai Max: Exploiting LLM Services for Arbitrary Computation](https://github.com/cyberpapiii/chipotlai-max) ⭐️ 6.0/10
-
-Chipotlai Max is a newly released project that repurposes Chipotle's Pepper AI, an LLM-powered chatbot, to perform arbitrary computations, effectively turning the service into a makeshift compute resource. This project highlights how freely available LLM APIs can be misused for unintended compute, sparking ethical and legal debates on resource abuse and the need for LLM providers to harden their systems against such exploits. It is a meme fork of OpenCode, defaulting to Chipotle's Pepper AI model, and relies on prompt injection or jailbreaking to make the chatbot execute code or simulate a CPU. The project is openly hosted on GitHub.
-
-hackernews · nigelgutzmann · Jun 1, 23:06 · [Discussion](https://news.ycombinator.com/item?id=48363765)
-
-**Background**: Chipotle Mexican Grill is a popular fast-casual restaurant chain that introduced an AI assistant called 'Pepper' for online customer service. OpenCode is an open-source coding agent. Chipotlai Max (a portmanteau of 'Chipotle' and 'AI') forks OpenCode and weaponizes Pepper for arbitrary computation, showcasing how enterprise AI capabilities can be subverted.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/cyberpapiii/chipotlai-max/blob/master/README.md">chipotlai-max/README.md at master · cyberpapiii ... - GitHub</a></li>
-<li><a href="https://www.ic.work/article/chipotlai-max-enterprise-ai-compute-gray-zone">Chipotlai Max：一个卷饼 AI 仓库，把企业免费算力的灰线摆上了台面 -...</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters raised legal concerns about violating the CFAA by commandeering remote resources, joked about context limits like overstuffed burritos, shared anecdotes of goofing around with LLM code execution, and questioned why the exploit hasn't been patched. Sentiment was mixed, acknowledging both the cleverness and the ethical/legal gray area.
-
-**Tags**: `#llm`, `#exploit`, `#hacking`, `#ai`, `#ethics`
-
----
-
-<a id="item-21"></a>
-## [Hacker News Revisits Verily's Debug Mosquito Project](https://debug.com/) ⭐️ 6.0/10
-
-A Hacker News thread brought attention to Verily's outdated Debug marketing website from 2016, triggering nostalgic reflections and technical debates on gene drives and mosquito control. This discussion underscores the persistent public interest in gene drive technology as a tool against mosquito-borne diseases, and reveals how nostalgia for old tech websites can spur substantive scientific conversation. The thread includes technical explanations of gene drives, such as a sex-selective infertility approach, and practical advice on using Bti bacteria for mosquito control. The website itself remained unchanged since 2016, according to its former developer.
-
-hackernews · Eridanus2 · Jun 1, 20:40 · [Discussion](https://news.ycombinator.com/item?id=48362347)
-
-**Background**: Verily, formerly Google Life Sciences, launched the Debug project in 2016 to combat disease-carrying mosquitoes by releasing sterile males. Gene drive is a genetic engineering technique that ensures a particular gene is inherited by more than 50% of offspring, potentially spreading it through an entire population. This approach could be used to suppress or alter mosquito populations, but raises ecological and ethical concerns.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Gene_drive">Gene drive</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The Hacker News community mixed fond nostalgia for the old website and DOS debug.com with detailed technical discussions on gene drives. Some users shared practical mosquito control methods using Bti, while others delved into the mechanics of gene drives and potential extinction scenarios. The overall tone was curious and reflective, with a former Verily employee reminiscing about building the site.
-
-**Tags**: `#biotechnology`, `#mosquitoes`, `#gene-drive`, `#Verily`, `#nostalgia`
+**Tags**: `#ASR`, `#multilingual`, `#real-time`, `#speech recognition`, `#machine learning`
 
 ---
 
 <a id="item-22"></a>
-## [Microsoft Unveils NVIDIA-Powered Surface Laptop Ultra to Rival MacBook Pro](https://www.windowslatest.com/2026/06/01/microsoft-builds-its-ultimate-macbook-pro-rival-with-the-nvidia-powered-surface-laptop-ultra/) ⭐️ 6.0/10
+## [Local Qwen3.6-27B Replaces Claude in Multi-Agent Orchestrator for 2 Weeks](https://www.reddit.com/r/LocalLLaMA/comments/1tunmam/replaced_claude_with_local_qwen3627b_in_my/) ⭐️ 7.0/10
 
-Microsoft announced the Surface Laptop Ultra, a new high-performance laptop featuring an NVIDIA GPU, aiming to compete with Apple's MacBook Pro. This move signals Microsoft's renewed push into the premium laptop market with dedicated NVIDIA graphics, potentially offering stronger GPU performance for professionals, though past Surface reliability issues may hinder its reception. The laptop includes an NVIDIA GPU, a shift from previous Surface models' integrated or lower-power graphics; specific GPU model and release details were not disclosed in the provided information.
+A developer ran their multi-agent orchestrator entirely on a locally hosted Qwen3.6-27B model (Q6_K quantization on an RTX 3090) for two weeks, finding it viable as a reasoning layer but with a 12% tool-call format error rate and context drift beyond 14k tokens. This real-world test demonstrates that local open-weight models can serve as reasoning engines in agentic loops, potentially reducing cloud API costs and improving data privacy, though reliability gaps still make them unsuitable as execution layers. The Q6_K quantized model consumed ~22GB VRAM, allowed a practical context window of ~12k tokens before aggressive summarization was needed, and required structured-output enforcement and plan-approval gating to mitigate tool-call errors and cascade failures.
 
-hackernews · jbk · Jun 1, 12:04 · [Discussion](https://news.ycombinator.com/item?id=48355720)
+reddit · r/LocalLLaMA · /u/Interesting-Sock3940 · Jun 2, 11:05
 
-**Background**: Microsoft's Surface line is its own brand of Windows-based computers. The MacBook Pro is Apple's high-end laptop line known for performance and build quality. Integrating an NVIDIA GPU typically provides superior graphics and compute performance. This announcement targets professional and creative users seeking a portable powerhouse.
+**Background**: A multi-agent orchestrator coordinates multiple AI agents (e.g., a planning agent and execution agents) to complete complex tasks. Qwen3.6-27B is a 27-billion-parameter dense language model by Alibaba, featuring a hybrid Gated DeltaNet + Gated Attention architecture and 256K context length. Q6_K is a quantization method that compresses model weights to 6 bits, balancing performance and VRAM usage. Mem0 is an open-source memory layer that extracts and stores factual information for LLM applications.
 
-**Discussion**: Community reactions are mixed: some praise the 15-inch screen without a numpad, but many criticize Surface's hardware reliability, the complexity of multiple companies involved, and Windows software quality. Others highlight the strong Linux Surface community as an alternative.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://huggingface.co/Qwen/Qwen3.6-27B">Qwen/Qwen3.6-27B · Hugging Face</a></li>
+<li><a href="https://www.aimadetools.com/blog/qwen-3-6-27b-complete-guide/">Qwen 3.6-27B Complete Guide: 77.2% SWE-bench in a 27B Dense ...</a></li>
 
-**Tags**: `#hardware`, `#laptops`, `#Microsoft`, `#NVIDIA`, `#product-launch`
+</ul>
+</details>
+
+**Tags**: `#local-llm`, `#multi-agent`, `#self-hosted`, `#qwen`, `#claude-alternative`
 
 ---
 
 <a id="item-23"></a>
-## [Ask HN: Who is hiring? (June 2026)](https://news.ycombinator.com/item?id=48357725) ⭐️ 6.0/10
+## [Pre-indexed code knowledge graph cuts AI assistant costs](https://github.com/colbymchenry/codegraph) ⭐️ 7.0/10
 
-The June 2026 edition of the monthly 'Who is hiring?' thread on Hacker News is now active, featuring direct job listings from companies like Hatchet, Hotwash, and CData. The thread includes a variety of roles such as founding engineers, full-stack developers, and network engineers. This thread serves as a vital recruiter-free marketplace that connects tech job seekers directly with hiring managers, offering a transparent snapshot of current hiring trends. It remains one of the highest-engagement community resources on Hacker News, reflecting real-time demand in the industry. Companies must specify location and remote policies clearly, and only employees directly involved in hiring may post. Several third-party tools like nthesis.ai aggregate and search the listings for easier access.
+colbymchenry/codegraph provides a pre-indexed code knowledge graph for AI coding assistants like Claude Code, Codex, Gemini, Cursor, and others, reducing token usage and tool calls. It gained 47 GitHub stars in the past 24 hours. By offering a local, structured representation of a codebase, this tool tackles the high costs and latency of AI coding assistants reliant on multiple tool calls, making them more efficient and accessible. Written in TypeScript, it runs 100% locally and supports eight assistants: Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent. The knowledge graph is pre-indexed, meaning it is built beforehand rather than generated on the fly.
 
-hackernews · whoishiring · Jun 1, 15:00
+ossinsight · colbymchenry · Jun 2, 12:58
 
-**Background**: The 'Who is hiring?' thread is automatically posted on the first business day of each month on Hacker News, a forum run by Y Combinator. It is part of a pair with 'Who wants to be hired?' and has been a long-standing, highly popular feature, allowing companies of all sizes to list openings directly.
+**Background**: A code knowledge graph captures entities like files, functions, and their relationships, providing structured context for AI models. Many AI coding assistants use repeated tool calls and tokens to understand code, which can be expensive. Supported tools include Google's Antigravity (an AI-powered IDE) and Nous Research's Hermes Agent (an autonomous AI agent with persistent memory). Pre-indexing saves computation by building the graph once for reuse.
 
-**Discussion**: The comments consist solely of job postings, with companies like Hatchet (open-source task queue) and akeno (factory planning software) actively seeking talent. There is no meta-discussion, consistent with the thread's focused purpose.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://medium.com/@ziche94/building-knowledge-graph-over-a-codebase-for-llm-245686917f96">Building Knowledge Graph over a Codebase for LLM | by Zimin Chen</a></li>
+<li><a href="https://www.daytona.io/dotfiles/building-a-knowledge-graph-of-your-codebase">Building a Knowledge Graph of Your Codebase - Daytona</a></li>
+<li><a href="https://hermes-agent.org/">Hermes Agent — Open-Source AI Agent with Persistent Memory</a></li>
 
-**Tags**: `#hiring`, `#jobs`, `#community`, `#careers`, `#tech-jobs`
+</ul>
+</details>
+
+**Tags**: `#knowledge-graph`, `#ai-tools`, `#developer-tools`, `#typescript`, `#code-assistant`
 
 ---
 
 <a id="item-24"></a>
-## [Running Windows GOG DOS Games on Apple Silicon Macs](https://f055.net/technology/windows-gog-dos-games-on-m-series-macs/) ⭐️ 6.0/10
+## [Chipotlai Max Exploits Chipotle's AI for Unauthorized Compute](https://github.com/cyberpapiii/chipotlai-max) ⭐️ 6.0/10
 
-A new guide details how to run Windows GOG DOS games on M-series Macs, with community members suggesting modern DOSBox forks like DOSBox-X, DOSBox Pure, and DOSBox Staging, as well as launchers such as Boxer-Plus and Heroic Launcher. This provides a crucial pathway for retro gaming enthusiasts on Apple Silicon Macs to play classic DOS games, a niche threatened by the potential retirement of Rosetta 2 and the lack of native ports. DOSBox-X offers extensive configuration and accuracy beyond gaming, DOSBox Pure integrates with RetroArch for simplicity, and the revived Boxer-Plus promises native Apple Silicon support though its maintenance status is unclear.
+A developer created Chipotlai Max, a meme fork of the OpenCode code generation tool that repurposes Chipotle's Pepper AI chatbot API for unintended compute tasks like code execution and math problem solving. This project highlights the potential for misuse of public LLM APIs, raising legal concerns under laws like the CFAA and emphasizing the need for API providers to enforce stricter access controls. The tool is a fork of OpenCode, an open-source code generation platform, with Chipotle's Pepper AI selected as the default model. It leverages the API's text generation capabilities for offloading compute, though the AI's responses may be unreliable for such tasks.
 
-hackernews · f055 · Jun 1, 13:28 · [Discussion](https://news.ycombinator.com/item?id=48356603)
+hackernews · nigelgutzmann · Jun 1, 23:06 · [Discussion](https://news.ycombinator.com/item?id=48363765)
 
-**Background**: GOG.com distributes classic DOS games bundled with DOSBox, an emulator that recreates DOS environments. Apple Silicon Macs use ARM-based processors and cannot directly run x86 DOS software, requiring emulation or translation layers like Rosetta 2.
+**Background**: OpenCode is an open-source platform that uses AI to generate and execute code. Chipotle's Pepper AI is a chatbot designed for food ordering. The Computer Fraud and Abuse Act (CFAA) penalizes unauthorized computer access and may apply to API usage that violates terms of service. This method of using language models for unintended computation is sometimes called 'API hijacking'.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://dosbox-x.com/">DOSBox-X - Accurate DOS emulation for Windows, Linux, macOS, and DOS</a></li>
-<li><a href="https://github.com/schellingb/dosbox-pure">GitHub - schellingb/dosbox-pure: DOSBox Pure is a new fork of DOSBox built for RetroArch/Libretro aiming for simplicity and ease of use. · GitHub</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Apple_silicon">Apple silicon</a></li>
+<li><a href="https://github.com/cyberpapiii/chipotlai-max/blob/master/README.md">chipotlai-max/README.md at master · cyberpapiii ... - GitHub</a></li>
+<li><a href="https://gitfind.ai/project/cyberpapiii/chipotlai-max">cyberpapiii/chipotlai-max — GitFind</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments were constructive, recommending modern DOSBox forks and launchers. Users praised DOSBox-X, Pure, and Staging, and highlighted Boxer-Plus for native support, but voiced concerns about Rosetta 2's future and the uncertain maintenance of older tools.
+**Discussion**: Commenters expressed legal concerns, particularly under the CFAA, and noted poor output quality when using commercial chatbots for compute. Some made humorous comparisons to overstuffed burritos, while others speculated about AI agents scavenging for free API tokens. The overall sentiment acknowledged the technical cleverness but emphasized the legal and ethical risks.
 
-**Tags**: `#retro-gaming`, `#dosbox`, `#apple-silicon`, `#emulation`, `#games`
+**Tags**: `#ai`, `#llm`, `#api-hijacking`, `#legal-issues`, `#hacker-news-discussion`
 
 ---
 
 <a id="item-25"></a>
-## [Pasted File Editor Mimics Claude's Paste Detection](https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything) ⭐️ 6.0/10
+## [Groq Raises Funds Despite Service Shrinkage and Staff Departures](https://www.zach.be/p/how-the-hell-is-groq-raising-more) ⭐️ 6.0/10
 
-Simon Willison released a web tool, Pasted File Editor, that automatically converts large text pastes into file attachments, mirroring Claude.ai's paste detection. The prototype was built with assistance from OpenAI's Codex desktop app. This tool demonstrates how AI-assisted programming can rapidly replicate useful features from one platform to another, benefiting developers who often handle large text snippets. It underscores the growing trend of integrating AI features into everyday developer utilities. The tool is written in JavaScript and supports opening files directly, displaying images as thumbnails, and drag-and-drop functionality. It was prototyped using OpenAI's Codex desktop app, as shown in a shared Gist.
+An analysis piece questions how Groq is raising more money despite service cutbacks, developer departures, and skepticism about its inference hardware's value. The situation raises doubts about the sustainability of Groq's business model and highlights competitive pressures in the AI inference hardware market. Groq stopped serving the 1-trillion-parameter Kimi K2 model and now only offers a 120B model; users report undisclosed quantization and unpredictable response times that negate throughput advantages.
 
-rss · Simon Willison · Jun 2, 04:13
+hackernews · hasheddan · Jun 2, 01:05 · [Discussion](https://news.ycombinator.com/item?id=48364620)
 
-**Background**: Claude.ai is an AI assistant that, when it detects a large amount of pasted text, offers to treat it as a file attachment for easier handling. OpenAI's Codex desktop app is an AI-powered coding partner, providing developers with a command center for agents and assisting with tasks like prototyping and debugging.
+**Background**: Groq is a company that designed the Language Processing Unit (LPU), an AI accelerator ASIC originally called the Tensor Streaming Processor, optimized for low-latency inference of large language models. The company competes with GPU-based solutions from NVIDIA and others. In AI inference, quantization is a technique to reduce model size and increase speed, but it can degrade output quality if not transparently disclosed.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://openai.com/index/introducing-the-codex-app/">Introducing the Codex app | OpenAI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Groq">Groq - Wikipedia</a></li>
+<li><a href="https://groq.com/lpu-architecture">LPU | Groq is fast, low cost inference.</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#javascript`, `#tools`, `#ai-assisted-programming`, `#claude`, `#codex`
+**Discussion**: Commenters are largely skeptical, citing Groq's service cutbacks, hidden quantization practices, and poor performance relative to cost. Many speculate that NVIDIA's acquisition of Groq's team and hardware has gutted the company, with one noting that NVIDIA may be dismantling it for parts.
+
+**Tags**: `#groq`, `#ai-hardware`, `#fundraising`, `#nvidia`, `#inference`
 
 ---
 
 <a id="item-26"></a>
-## [Intel Arc Pro B70 Benchmarks Show 63 Tokens/s via llama.cpp SYCL](https://www.reddit.com/r/LocalLLaMA/comments/1tuik6o/intel_arc_pro_b70_llamacpp_benchmarks_posted/) ⭐️ 6.0/10
+## [Qwen 3.6-35B-A3B on Intel Arc B70 Pro hits 977 t/s processing](https://www.reddit.com/r/LocalLLaMA/comments/1tukrtf/qwen_3635ba3b_with_977_tks_prompt_processing_and/) ⭐️ 6.0/10
 
-A user posted benchmarks showing the Intel Arc Pro B70 GPU achieved 63 tokens per second running a Qwen model using llama.cpp's SYCL backend. This demonstrates viable inference performance on Intel's professional GPU, expanding hardware options for local LLM enthusiasts, especially with 32GB VRAM suitable for larger models. The benchmark used the SYCL backend, which provides cross-platform support primarily for Intel GPUs, and a Qwen model. The Arc Pro B70 is a professional GPU with 32GB VRAM based on the Battlemage (Xe2) architecture.
+A Reddit user demonstrated running the Qwen 3.6-35B-A3B mixture-of-experts model on an Intel Arc B70 Pro GPU using llama.cpp with the SYCL backend, achieving 977 tokens per second prompt processing and a 262,000-token context window, with 70.54 t/s token generation. This benchmark highlights the growing viability of Intel Arc GPUs for local LLM inference, challenging NVIDIA's dominance and reducing hardware costs. It also demonstrates the maturity of the open-source SYCL backend in llama.cpp, enabling efficient execution of large MoE models on consumer GPUs. The model uses Q4_K quantization (4-bit with k-quant method) and has 35B total parameters with only 3B active per token. The benchmark offloaded all layers to the GPU (NGL=99) and processed a single request, achieving exceptional prompt processing speed but modest generation throughput.
 
-reddit · r/LocalLLaMA · /u/jacek2023 · Jun 2, 06:28
+reddit · r/LocalLLaMA · /u/Atomynos_Atom · Jun 2, 08:32
 
-**Background**: SYCL is a cross-platform abstraction layer that enables C++ code to run on heterogeneous accelerators, with llama.cpp's SYCL backend targeting Intel GPUs. llama.cpp is a widely adopted open-source library for local LLM inference. The Intel Arc Pro B70 is a professional-grade GPU with 32 GB of VRAM, aimed at AI and workstation workloads.
+**Background**: SYCL is an open standard for heterogeneous computing, implemented by Intel for their GPUs, allowing standard C++ code to run on accelerators. llama.cpp is a popular open-source library for LLM inference, and its SYCL backend enables Intel GPU support. Qwen 3.6-35B-A3B is a MoE model from Alibaba with 35B total parameters but only 3B active per token, supporting up to 262k context length. Q4_K is a quantization method that reduces model size by storing weights at 4-bit precision using grouped quantization with importance-aware scaling.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://github.com/ggml-org/llama.cpp/blob/master/docs/backend/SYCL.md">llama.cpp/docs/backend/SYCL.md at master · ggml-org/llama.cpp</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Llama.cpp">Llama.cpp</a></li>
-<li><a href="https://www.pugetsystems.com/labs/articles/intel-arc-pro-b70-review/">Intel Arc Pro B70 Review | Puget Systems</a></li>
+<li><a href="https://huggingface.co/Qwen/Qwen3.6-35B-A3B">Qwen/Qwen3.6-35B-A3B · Hugging Face</a></li>
+<li><a href="https://www.sitepoint.com/quantization-explained-q4km-vs-awq-vs-fp16-for-local-llms/">Q4_K_M vs AWQ vs FP16 for Local LLMs</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#llama.cpp`, `#Intel Arc`, `#LLM benchmarks`, `#GPU inference`, `#local LLM`
+**Tags**: `#local-llm`, `#benchmark`, `#intel-arc`, `#qwen`, `#llama-cpp`
 
 ---
 
 <a id="item-27"></a>
-## [GSAP Launches AI Skills to Teach Coding Agents Proper GSAP Usage](https://github.com/greensock/gsap-skills) ⭐️ 6.0/10
+## [Engineer Trains Local AI Model to Zap Mosquitoes with Laser](https://www.reddit.com/r/LocalLLaMA/comments/1tuclzc/man_trains_local_model_to_detect_and_kill/) ⭐️ 6.0/10
 
-The greensock/gsap-skills repository provides official AI skills that teach AI coding agents how to correctly use GSAP, including best practices, common animation patterns, and plugin usage. This initiative reflects the growing intersection of AI and web development, making GSAP more accessible to AI-powered development tools and lowering the barrier for developers using AI assistants to create complex animations. The repository gained 22 stars in 24 hours, indicating moderate community interest. It contains instructional content, not new code, likely in the form of Markdown files covering best practices and plugin usage.
+A computer vision specialist named Steven Cheng created a DIY system that uses a locally trained AI model to detect and target mosquitoes with a laser, effectively killing them. This project demonstrates the practical and fun potential of local AI and computer vision for niche applications like pest control, showcasing how custom models can be trained for specific real-world tasks. The system combines a camera for real-time detection with a laser pointer for elimination, likely using a convolutional neural network trained on mosquito images. The laser is calibrated to target mosquitoes without harming humans or pets.
 
-ossinsight · greensock · Jun 2, 07:39
+reddit · r/LocalLLaMA · /u/No_Information9314 · Jun 2, 01:39
 
-**Background**: GSAP (GreenSock Animation Platform) is a professional JavaScript animation library used by over 11 million websites, known for high performance and robust sequencing. AI coding agents like GitHub Copilot and Cursor generate or assist with code; they need domain-specific skills to produce correct outputs. This repository fills that gap by providing curated guidance.
+**Background**: Local AI means running machine learning models directly on a user's device rather than relying on cloud servers, which offers privacy and offline capability. Computer vision allows machines to identify objects in images or video. Previous attempts at laser-based insect control, like the Photonic Fence, were large-scale, but this DIY version uses affordable components.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://gsap.com/">Homepage | GSAP</a></li>
-<li><a href="https://github.com/greensock/GSAP">GSAP (GreenSock Animation Platform) - GitHub GSAP Animations | 100+ Effects & Examples | GSAPify 318+ GSAP.js Examples - Free Frontend Made With Gsap gsap - Libraries - cdnjs - The #1 free and open source CDN ... gsap - npm</a></li>
-<li><a href="https://www.faros.ai/blog/best-ai-coding-agents-2026">Best AI Coding Agents for 2026: Real-World Developer Reviews</a></li>
+<li><a href="https://www.techspot.com/news/112601-engineer-builds-ai-laser-defense-system-wiped-out.html">Engineer builds AI laser defense system that wiped out every ...</a></li>
+<li><a href="https://www.tomshardware.com/maker-stem/robot-kits/the-ultimate-mosquito-killer-uses-lasers-and-ai-custom-model-trained-to-detect-and-lock-lasers-on-these-pests">The 'ultimate mosquito killer' uses lasers and AI — custom ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#ai`, `#animation`, `#gsap`, `#web-development`, `#developer-tools`
+**Tags**: `#local-llm`, `#computer-vision`, `#diy-project`, `#mosquito-detection`, `#fun-ai`
+
+---
+
+<a id="item-28"></a>
+## [JetBrains Open-Sources 12B Mellum2 MoE Model](https://www.reddit.com/r/LocalLLaMA/comments/1tukilx/jetbrains_opensources_mellum2_anyone_tried_these/) ⭐️ 6.0/10
+
+JetBrains has open-sourced Mellum2, a 12-billion-parameter Mixture-of-Experts model optimized for low-latency text and code tasks, originally designed for code completion and now extended to broader natural language workloads. This release provides a latency-optimized resource for local LLM deployment, potentially reducing reliance on cloud APIs for coding assistance and contributing to the open-source AI ecosystem. Mellum2 employs a Mixture-of-Experts architecture with 12 billion parameters to maximize throughput and minimize latency; it evolved from a pure code completion model into a general-purpose text-and-code generation tool.
+
+reddit · r/LocalLLaMA · /u/DeltaSqueezer · Jun 2, 08:18
+
+**Background**: Mixture-of-Experts (MoE) models activate only a subset of their parameters per input, improving computational efficiency for local inference. JetBrains is known for developer tools like IntelliJ IDEA, and their earlier Mellum model was an internal code completion system; Mellum2 extends this with broader capabilities and an open license.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/">Mellum2 Goes Open Source: A Fast Model for AI Workflows | The JetBrains AI Blog</a></li>
+<li><a href="https://huggingface.co/blog/JetBrains/mellum2-launch">Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#open-source`, `#LLM`, `#JetBrains`, `#Mellum2`, `#local-llama`
+
+---
+
+<a id="item-29"></a>
+## [Reddit users share subjective takes on Gemma 4, Qwen 3.6 for creative writing](https://www.reddit.com/r/LocalLLaMA/comments/1tuoo81/ignoring_benchmarks_how_do_the_newest_local/) ⭐️ 6.0/10
+
+A Reddit user asks for personal experiences with new local models like Gemma 4 31B, 26BA4B, and Qwen 3.6 for creative writing, finding Gemma 4 31B's style comparable to Gemini 2.5 Pro but noting it misremembers details in long contexts, and considers it better than GPT-4.5 for this task. This discussion highlights the gap between benchmark optimization and actual creative writing quality, which matters for users seeking authentic narrative ability in local models, and shows growing interest in subjective evaluation over standardized tests. The Gemma 4 31B model is used in q4 quantized form, while 26BA4B is a Mixture-of-Experts variant with only 4B parameters activated per pass. Qwen 3.6 is noted for coding and agentic work, and comparisons are made against cloud models Gemini 2.5 Pro and GPT-4.5.
+
+reddit · r/LocalLLaMA · /u/opoot_ · Jun 2, 11:55
+
+**Background**: Gemma 4 is an open-weight model family from Google DeepMind, with variants like 31B and 26B-A4B (MoE) supporting text and image inputs. Quantization (e.g., q4) reduces model precision to run efficiently on consumer hardware. Creative writing tests a model's prose style, coherence, and long-context memory.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://huggingface.co/google/gemma-4-31B">google/gemma-4-31B · Hugging Face</a></li>
+<li><a href="https://medium.com/@jallenswrx2016/gemma4-model-26b-a4b-initial-thoughts-with-chatybot-57d283d789ca">Gemma4 model 26B-a4b — initial thoughts with chatybot | by jon allen | Medium</a></li>
+<li><a href="https://medium.com/@paul.ilvez/demystifying-llm-quantization-suffixes-what-q4-k-m-q8-0-and-q6-k-really-mean-0ec2770f17d3">Demystifying LLM Quantization Suffixes: What Q4_K_M, Q8_0 ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#local LLMs`, `#creative writing`, `#model comparison`, `#subjective evaluation`, `#Gemma`
+
+---
+
+<a id="item-30"></a>
+## [Headroom Compresses LLM Inputs to Save 60-95% Tokens](https://github.com/chopratejas/headroom) ⭐️ 6.0/10
+
+A new open-source Python tool called headroom has been released, which compresses tool outputs, logs, and RAG chunks to reduce LLM token usage by 60-95% without degrading answer quality. It offers library, proxy, and MCP server interfaces for easy integration. Token reduction is critical for cutting costs, reducing latency, and handling larger contexts. Headroom makes LLM-based applications more efficient and scalable, potentially lowering API bills and enabling use cases with limited context windows. The tool claims 60-95% token reduction without answer quality loss, likely via tailored text compression. It operates as a library, proxy, or MCP server, though specific compression techniques are not disclosed.
+
+ossinsight · chopratejas · Jun 2, 12:58
+
+**Background**: RAG (Retrieval-Augmented Generation) chunks are text segments retrieved from a knowledge base to provide context to an LLM; effective chunking improves retrieval accuracy. MCP (Model Context Protocol) is an open standard enabling secure, two-way connections between AI applications and data sources, similar to USB for peripherals.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://medium.com/@sangitapokhrel911/chunking-in-rag-the-secret-sauce-behind-smarter-ai-responses-71c99ef70f9a">What Is Chunking in RAG (Retrieval-Augmented ... - Medium</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#llm`, `#compression`, `#tools`, `#python`, `#rag`
 
 ---
 
