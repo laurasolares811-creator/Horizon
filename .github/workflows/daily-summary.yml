@@ -2,43 +2,61 @@ name: Daily Horizon Summary
 
 on:
   schedule:
-    - cron: '0 0 * * *'        # 08:00 Beijing = 00:00 UTC
-  workflow_dispatch:             # Manual trigger for testing
+    - cron: '0 0 * * *'        # 08:00 Beijing (primary)
+    - cron: '0 4 * * *'        # 12:00 Beijing (backup — if primary skipped)
+    - cron: '0 8 * * *'        # 16:00 Beijing (last backup)
+  workflow_dispatch:             # Manual trigger
 
 jobs:
   daily-summary:
     runs-on: ubuntu-latest
     permissions:
-      contents: write           # Push commits back to repo
+      contents: write
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
 
+      - name: Set date variable (Beijing time)
+        run: echo "DATE=$(TZ='Asia/Shanghai' date +'%Y-%m-%d')" >> $GITHUB_ENV
+
+      - name: Skip if already generated today
+        run: |
+          if git log -1 --pretty=format:'%s' -- "data/summaries/horizon-${{ env.DATE }}-zh.md" 2>/dev/null | grep -q "${{ env.DATE }}"; then
+            echo "Today's report already exists in repo. Skipping."
+            echo "SKIP=true" >> $GITHUB_ENV
+          else
+            echo "No report for ${{ env.DATE }} yet. Proceeding."
+            echo "SKIP=false" >> $GITHUB_ENV
+          fi
+
       - name: Set up Python
+        if: env.SKIP == 'false'
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Install uv
+        if: env.SKIP == 'false'
         uses: astral-sh/setup-uv@v3
 
       - name: Install dependencies
+        if: env.SKIP == 'false'
         run: uv sync
 
       - name: Prepare GitHub Actions config
+        if: env.SKIP == 'false'
         run: cp data/config.github.json data/config.json
 
-      - name: Set date variable
-        run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
-
       - name: Run Horizon
+        if: env.SKIP == 'false'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: uv run horizon --hours 24
 
       - name: Generate topic analysis
+        if: env.SKIP == 'false'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: https://api.deepseek.com
@@ -50,6 +68,7 @@ jobs:
           python3 scripts/analyze_topics.py
 
       - name: Commit generated files
+        if: env.SKIP == 'false'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -65,6 +84,7 @@ jobs:
           fi
 
       - name: Deploy to GitHub Pages
+        if: env.SKIP == 'false'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
