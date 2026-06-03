@@ -58,7 +58,7 @@ jobs:
       - name: Sync date from Horizon output
         if: env.SKIP == 'false'
         run: |
-          ACTUAL_DATE=$(ls data/summaries/horizon-*-zh.md | head -1 | sed 's/data\/summaries\/horizon-\(.*\)-zh.md/\1/')
+          ACTUAL_DATE=$(ls -t data/summaries/horizon-*-zh.md | head -1 | sed 's/data\/summaries\/horizon-\(.*\)-zh.md/\1/')
           echo "Horizon generated date: $ACTUAL_DATE"
           echo "DATE=$ACTUAL_DATE" >> $GITHUB_ENV
 
