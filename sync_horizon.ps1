@@ -1,22 +1,45 @@
 # Horizon Daily Sync — pull from GitHub and copy to Obsidian vault
-$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Continue"
 
 $HorizonDir = "D:\Horizon"
 $VaultDir = "D:\黑曜石仓库\文章\Horizon日报"
+$LogFile = Join-Path $HorizonDir "sync.log"
 
 # Ensure vault directory exists
 if (-not (Test-Path $VaultDir)) {
     New-Item -ItemType Directory -Force -Path $VaultDir | Out-Null
 }
 
-# Git pull
+$timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+Add-Content -Path $LogFile -Value "[$timestamp] Sync started"
+
 Set-Location $HorizonDir
 
-try {
-    $pull = git pull github main 2>&1
-    Write-Output "Git pull: $pull"
-} catch {
-    Write-Output "Git pull failed (proxy may not be running): $_"
+# Try git pull — first with proxy, then without
+$pullOk = $false
+foreach ($mode in @("proxy", "direct")) {
+    try {
+        if ($mode -eq "direct") {
+            $env:http_proxy = ""
+            $env:https_proxy = ""
+            Add-Content -Path $LogFile -Value "[$timestamp] Proxy failed, trying direct connection"
+        }
+        $pull = git pull github main 2>&1
+        if ($LASTEXITCODE -eq 0) {
+            Add-Content -Path $LogFile -Value "[$timestamp] Git pull OK ($mode)"
+            $pullOk = $true
+            break
+        } else {
+            Add-Content -Path $LogFile -Value "[$timestamp] Git pull failed ($mode): $pull"
+        }
+    } catch {
+        Add-Content -Path $LogFile -Value "[$timestamp] Git pull error ($mode): $_"
+    }
+}
+
+if (-not $pullOk) {
+    Add-Content -Path $LogFile -Value "[$timestamp] All pull attempts failed, skipping copy"
+    exit 0
 }
 
 # Copy summaries and topic analysis to Obsidian
@@ -27,15 +50,15 @@ if (Test-Path $summaryDir) {
         $dest = Join-Path $VaultDir $_.Name
         if (-not (Test-Path $dest) -or $_.LastWriteTime -gt (Get-Item $dest).LastWriteTime) {
             Copy-Item -Path $_.FullName -Destination $dest -Force
-            Write-Output "Copied: $($_.Name)"
+            Add-Content -Path $LogFile -Value "[$timestamp] Copied: $($_.Name)"
             $copied++
         }
     }
     if ($copied -eq 0) {
-        Write-Output "All files up to date."
+        Add-Content -Path $LogFile -Value "[$timestamp] All files up to date."
     } else {
-        Write-Output "Copied $copied file(s) to Obsidian vault."
+        Add-Content -Path $LogFile -Value "[$timestamp] Copied $copied file(s) to Obsidian vault."
     }
 } else {
-    Write-Output "Summary directory not found: $summaryDir"
+    Add-Content -Path $LogFile -Value "[$timestamp] Summary directory not found: $summaryDir"
 }
