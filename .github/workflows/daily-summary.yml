@@ -2,9 +2,7 @@ name: Daily Horizon Summary
 
 on:
   schedule:
-    - cron: '0 0 * * *'        # 08:00 Beijing (primary)
-    - cron: '0 4 * * *'        # 12:00 Beijing (backup — if primary skipped)
-    - cron: '0 8 * * *'        # 16:00 Beijing (last backup)
+    - cron: '0 */2 * * *'      # Every 2 hours (skip guard prevents duplicate runs)
   workflow_dispatch:             # Manual trigger
 
 jobs:
