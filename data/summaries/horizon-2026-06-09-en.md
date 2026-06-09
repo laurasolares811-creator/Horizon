@@ -1,650 +1,679 @@
 # Horizon Daily - 2026-06-09
 
-> From 54 items, 30 important content pieces were selected
+> From 45 items, 31 important content pieces were selected
 
 ---
 
-1. [MiMo's 1T-Parameter Model Hits 1000 Tokens per Second](#item-1) ⭐️ 10.0/10
-2. [Apple debuts privacy-focused AI architecture powered by Google Gemini](#item-2) ⭐️ 9.0/10
-3. [Apple Unveils Core AI: On-Device and Server-Side AI Framework](#item-3) ⭐️ 9.0/10
-4. [Quasar-Preview: Open-source model with 5 million token context](#item-4) ⭐️ 9.0/10
-5. [Microsoft's open-source tools hacked to steal AI developer passwords](#item-5) ⭐️ 8.0/10
-6. [Ask HN: Why hasn't there been a real competitor to Ticketmaster yet?](#item-6) ⭐️ 8.0/10
-7. [FrontierCode: AI Benchmark Uses Maintainer Rubrics](#item-7) ⭐️ 8.0/10
-8. [Signal warns UK surveillance demands threaten encryption and privacy](#item-8) ⭐️ 8.0/10
-9. [AI Industry's Financial Viability Questioned Amid Slowing Progress](#item-9) ⭐️ 8.0/10
-10. [Why I Switched from Semantic Embeddings to BM25 for Tool Selection](#item-10) ⭐️ 8.0/10
-11. [Fine-tuned Parakeet 0.6B Medical ASR Model Released as Open Weights](#item-11) ⭐️ 8.0/10
-12. [WebGPU Prefill Speed Boost for k-quant Models in llama.cpp](#item-12) ⭐️ 8.0/10
-13. [Siri AI Sparks Debate Over Limited Features and Hardware Restrictions](#item-13) ⭐️ 7.0/10
-14. [xAI Looks More Like a Datacentre REIT Than a Frontier AI Lab](#item-14) ⭐️ 7.0/10
-15. [Performative-UI: A React Component Library Satirizing Startup Design Tropes](#item-15) ⭐️ 7.0/10
-16. [Overseas Facebook Pages Profit from Alberta Separatism](#item-16) ⭐️ 7.0/10
-17. [Why Are Cells Small? Exploring Biological Size Limits](#item-17) ⭐️ 7.0/10
-18. [ByteDance's Lance 3B Unifies Vision and Generation, Tops Hugging Face](#item-18) ⭐️ 7.0/10
-19. [Hack Doubles Token Generation Speed on AMD MI50 via Parallel Forward Passes](#item-19) ⭐️ 7.0/10
-20. [Gemma 4 31B Surprises in Code Understanding](#item-20) ⭐️ 7.0/10
-21. [Gemma 4 Chat Template Now Supports Preserve Thinking](#item-21) ⭐️ 7.0/10
-22. [Old'aVista: Nostalgic Search Engine for Geocities and More](#item-22) ⭐️ 6.0/10
-23. [Apple's Siri AI at WWDC 2026: Cautious Optimism Amid Feasibility](#item-23) ⭐️ 6.0/10
-24. [ML Community Urged to Stop Sinophobic Posts Targeting Chinese Researchers](#item-24) ⭐️ 6.0/10
-25. [Are Open-Source LLMs Now 'Good Enough' for Most Tasks?](#item-25) ⭐️ 6.0/10
-26. [JetBrains Mellum 2: Fast 12B MoE for Local Inference](#item-26) ⭐️ 6.0/10
-27. [Google's llama-quantize Broken: Use unsloth Q4_K_XL](#item-27) ⭐️ 6.0/10
-28. [AI Agent Skill Aggregates Research Across Multiple Platforms](#item-28) ⭐️ 6.0/10
-29. [Agent-Reach: Free CLI Tool for AI Agents to Access Multiple Social Platforms](#item-29) ⭐️ 6.0/10
-30. [CodeGraph: Local Pre-Indexed Code Knowledge Graph for AI Coders](#item-30) ⭐️ 6.0/10
+1. [Anthropic Launches Claude Fable 5 with Improved Performance and New Restrictions](#item-1) ⭐️ 9.0/10
+2. [Software-Rendered 3D Engine Recaptures 1993 Gaming Graphics](#item-2) ⭐️ 8.0/10
+3. [Microsoft's Open Source Tools Hacked in Supply Chain Attack Targeting AI Developers](#item-3) ⭐️ 8.0/10
+4. [Apple Withholds Siri AI in EU After Exemption Denial](#item-4) ⭐️ 8.0/10
+5. [FCC Proposes ID Requirement to End Burner Phones](#item-5) ⭐️ 8.0/10
+6. [Let's Encrypt Bans Certificates in US-Sanctioned Regions](#item-6) ⭐️ 8.0/10
+7. [iPhone's Dominance Challenged by AI-Driven Devices](#item-7) ⭐️ 8.0/10
+8. [Gravity: Interactive Simulator from Newton to Einstein](#item-8) ⭐️ 8.0/10
+9. [ByteDance's Lance Unifies Vision Tasks, Hits #1 on Hugging Face](#item-9) ⭐️ 8.0/10
+10. [Multi-Expert Paper Identifies AI's Persuasion, Cognitive Offloading, and Feedback Loop Risks](#item-10) ⭐️ 8.0/10
+11. [Cohere Releases North Mini Code Model for Local Use](#item-11) ⭐️ 8.0/10
+12. [Apple Unveils CoreAI, Replacing CoreML for On-Device AI](#item-12) ⭐️ 8.0/10
+13. [OSCAR RotationZoo: Offline Spectral Covariance-Aware Rotation for 2-bit KV Cache](#item-13) ⭐️ 8.0/10
+14. [MicroRNA Molecule Locks Plants in Perpetual Juvenility](#item-14) ⭐️ 7.0/10
+15. [Cleaning Up After AI Rockstar Developers](#item-15) ⭐️ 7.0/10
+16. [Apple WWDC 2026 Siri AI: Cautious Optimism](#item-16) ⭐️ 7.0/10
+17. [Chinese Modders Build Single-Slot Half-Height V100 GPUs with NVLink](#item-17) ⭐️ 7.0/10
+18. [Jetson Orin NX hits 10+ tok/s for Hermes Agent with quantized Gemma 4](#item-18) ⭐️ 7.0/10
+19. [Are Open-Source LLMs Now 'Just Good Enough'?](#item-19) ⭐️ 7.0/10
+20. [SCAIL-2 Enables End-to-End Character Animation from Driving Videos](#item-20) ⭐️ 7.0/10
+21. [Headroom: LLM Prompt Compression with 60-95% Token Reduction](#item-21) ⭐️ 7.0/10
+22. [Pre-indexed Code Knowledge Graphs Cut Token Usage](#item-22) ⭐️ 7.0/10
+23. [Karpathy: AI Ease of Software Creation Sparks Jevons Paradox](#item-23) ⭐️ 6.0/10
+24. [ASR's Next Breakthrough: Supervised or Self-Supervised?](#item-24) ⭐️ 6.0/10
+25. [Are Privacy-Preserving ML Techniques Actually Used in Production?](#item-25) ⭐️ 6.0/10
+26. [Unsloth Releases Gemma 4 QAT MTP Models in GGUF Format](#item-26) ⭐️ 6.0/10
+27. [Rust-Native CPU Implementation of LFM2.5-8B-A1B](#item-27) ⭐️ 6.0/10
+28. [Throttling GPU Power Limits Saves Energy with Minor Performance Loss](#item-28) ⭐️ 6.0/10
+29. [Live Challenge: Speed Up Gemma 4 E4B Inference on Single A10G](#item-29) ⭐️ 6.0/10
+30. [Agent-Reach: Python CLI for AI Agents to Access Social Platforms Free](#item-30) ⭐️ 6.0/10
+31. [DeepSeek-GUI: Open-Source AI Agent Workspace for DeepSeek Models](#item-31) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [MiMo's 1T-Parameter Model Hits 1000 Tokens per Second](https://mimo.xiaomi.com/blog/mimo-tilert-1000tps) ⭐️ 10.0/10
+## [Anthropic Launches Claude Fable 5 with Improved Performance and New Restrictions](https://www.anthropic.com/news/claude-fable-5-mythos-5) ⭐️ 9.0/10
 
-Xiaomi's MiMo has launched MiMo-v2.5-Pro-UltraSpeed, a 1 trillion parameter Mixture-of-Experts model achieving an inference speed of 1000 tokens per second, a groundbreaking advancement in high-throughput AI generation. This speed could transform AI-assisted workflows by enabling near-instant responses for complex tasks, potentially reducing multitasking and enhancing focus, while intensifying price competition as Chinese providers undercut rising American fees. The model likely uses a Mixture-of-Experts architecture with a fraction of parameters active per inference, and is offered at highly competitive pricing; its regular-speed variant is already rated as the strongest open-weight agentic coding model.
+Anthropic has released Claude Fable 5, their latest language model, which outperforms the previous Opus 4.8 on benchmarks and introduces new safety interventions that limit its use for frontier LLM development tasks, alongside temporary changes to access plans for subscribers. This release marks a significant step in balancing model capability with safety, as Anthropic directly restricts the model's ability to assist in AI self-improvement, reflecting growing industry concerns about recursive AI development. The model achieves state-of-the-art results on CursorBench and shows efficiency gains, reportedly delivering comparable performance to Opus 4.8 with half the tokens in some agentic tasks; however, its availability on subscription plans is limited after June 22, requiring usage credits unless capacity allows an extension.
 
-hackernews · gainsurier · Jun 8, 15:27 · [Discussion](https://news.ycombinator.com/item?id=48446639)
+hackernews · Philpax · Jun 9, 16:58 · [Discussion](https://news.ycombinator.com/item?id=48463808)
 
-**Background**: Large language models are measured by parameter count; 1 trillion parameters is an immense scale requiring substantial compute. Tokens per second (TPS) gauges inference speed—higher TPS means faster text generation. MiMo is Xiaomi's proprietary LLM series, unveiled in late 2025, with V2.5 Pro known for strong coding agent performance in open-weight benchmarks.
+**Background**: Claude Fable 5 is part of Anthropic's series of large language models, succeeding Opus 4.8. Anthropic, an AI safety company, regularly publishes system cards detailing model capabilities, limitations, and safety measures. The new interventions against LLM development tasks are a novel safety feature, likely in response to scenarios where models could accelerate their own improvement. The temporary access plan might relate to capacity management or phased rollouts.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://medium.com/data-science-in-your-pocket/kimi-k2-the-best-open-sourced-ai-model-with-1-trillion-params-c647779496a5">Kimi-k2 : The best Open-Sourced AI model with 1 Trillion params | by Mehul Gupta | Data Science in Your Pocket | Medium</a></li>
-<li><a href="https://openmetal.io/resources/blog/ai-model-performance-tokens-per-second/">Measuring AI Model Performance: Tokens per Second, Model Sizes, and Inferencing Tools | OpenMetal IaaS</a></li>
-<li><a href="https://www.bishopmi.com/new/new-62-405.html">Xiaomi MiMo Large Language Model Launch: How It Achieves...</a></li>
+<li><a href="https://www.anthropic.com/claude/fable">Claude Fable \ Anthropic</a></li>
+<li><a href="https://www.anthropic.com/news/claude-opus-4-8">Introducing Claude Opus 4 . 8 \ Anthropic</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters express both excitement and unease: fast AI could reduce multitasking but also eliminate deep problem-solving; productivity gains may only accelerate work pace without real benefit. Others praise competitive pricing and highlight MiMo V2.5 Pro's underappreciated coding abilities.
+**Discussion**: Community feedback highlights both excitement about performance gains and concerns over restricted access and the new LLM development limitations. Some users note immediate improvements in frontend design and efficiency, while others worry about the model's refusal to assist with legitimate LLM-related inquiries and the future pay-per-use model after June 22.
 
-**Tags**: `#AI`, `#inference-speed`, `#large-language-models`, `#MiMo`, `#performance`
+**Tags**: `#AI`, `#machine-learning`, `#Anthropic`, `#language-models`, `#release`
 
 ---
 
 <a id="item-2"></a>
-## [Apple debuts privacy-focused AI architecture powered by Google Gemini](https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/) ⭐️ 9.0/10
+## [Software-Rendered 3D Engine Recaptures 1993 Gaming Graphics](https://staniks.github.io/articles/catlantean-3d-blog-1/) ⭐️ 8.0/10
 
-Apple has unveiled a new AI architecture that integrates Google Gemini models behind a privacy-focused orchestration layer, enabling advanced features while isolating user context from the model provider. This marks a strategic shift where Apple adopts a leading third-party model, potentially reshaping mobile AI competition and setting new standards for privacy-preserving AI integration. The architecture reportedly combines on-device processing with Private Cloud Compute, guaranteeing that user data is only used for immediate requests and is not accessible to Google; specifics on model versions and fine-tuning remain undisclosed.
+A detailed blog post introduces a custom software-rendered 3D engine inspired by 1993-era titles such as Doom, covering raycasting, lighting, and the use of Python tools for asset generation. This project revives low-level graphics programming techniques, offering educational value for developers interested in retro game development and serving as a reminder of how early 3D games achieved real-time rendering without dedicated GPUs. The engine uses raycasting for rendering, supports palletized 8-bit framebuffers and lightmaps for dynamic lighting effects, and includes custom Python scripts to generate gib animations and 2D spritesheets from Blender models.
 
-hackernews · unclefuzzy · Jun 8, 19:14 · [Discussion](https://news.ycombinator.com/item?id=48450142)
+hackernews · sklopec · Jun 9, 10:46 · [Discussion](https://news.ycombinator.com/item?id=48459294)
 
-**Background**: Google Gemini is a family of multimodal large language models developed by Google DeepMind, ranging from on-device Nano to cloud-based Pro and Ultra. AI orchestration coordinates multiple AI systems to ensure privacy and efficiency. Apple previously emphasized on-device processing and Private Cloud Compute for its Apple Intelligence features.
+**Background**: Raycasting is a rendering technique that simulates a 3D perspective by casting rays from the camera into a 2D map, used in games like Wolfenstein 3D. Unlike Doom's more flexible binary space partitioning (BSP) engine, raycasting is limited to perpendicular walls and constant floor/ceiling heights. Palletized framebuffers store pixel colors as indices into a color palette, reducing memory use. Software rendering performs all graphics calculations on the CPU without a dedicated GPU.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Google_Gemini">Google Gemini</a></li>
-<li><a href="https://www.ibm.com/think/topics/ai-orchestration">What is AI Orchestration? | IBM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ray_casting">Ray casting</a></li>
+<li><a href="https://lodev.org/cgtutor/raycasting.html">Raycasting</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments reveal mixed reactions: some praise the privacy‑first orchestration as an elegant Apple‑like move, while others question trust in Siri AI given current model reliability, worry about differentiation from Android, and express concerns over Google potentially providing an inferior Gemini version. Many seek deeper technical details.
+**Discussion**: Commenters shared SDL2 code for efficient framebuffer display, recalled using lightmaps for flickering torch effects in similar projects, and noted the engine's Wolfenstein 3D-like limitations compared to Doom's BSP approach. Others praised the author's internal Python tools and consistent art direction.
 
-**Tags**: `#AI`, `#Apple`, `#Google-Gemini`, `#privacy`, `#machine-learning`
+**Tags**: `#software-rendering`, `#graphics-programming`, `#retro-gaming`, `#game-development`, `#wolfenstein-3d`
 
 ---
 
 <a id="item-3"></a>
-## [Apple Unveils Core AI: On-Device and Server-Side AI Framework](https://developer.apple.com/documentation/coreai/) ⭐️ 9.0/10
+## [Microsoft's Open Source Tools Hacked in Supply Chain Attack Targeting AI Developers](https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/) ⭐️ 8.0/10
 
-Apple announced Core AI, a new framework for integrating on-device and server-side AI models into apps, potentially replacing CoreML. It includes PyTorch model conversion, optimization for Apple silicon, and free server-side inference for apps with under 2 million downloads. Core AI could streamline AI deployment across Apple devices, leveraging the Neural Engine and Private Cloud Compute with strong privacy guarantees. With Apple’s market reach, it may dictate how sub-100 billion parameter models are trained and served, reducing framework fragmentation. The framework supports converting PyTorch models to run on CPU, GPU, and Apple Neural Engine; offers free server-side model access for qualifying apps; and includes work on low-bit activations like w4a8 and w4a16. It is unclear if CoreML will be fully deprecated, and developer adoption will be crucial.
+A supply chain attack compromised Microsoft's open source tools to steal passwords from AI developers, exploiting vulnerabilities in AI coding assistants and the software supply chain. This breach underscores the escalating risk of supply chain attacks in AI development environments, where AI agents often have broad access across projects, challenging traditional RBAC models and potentially exposing many developers' credentials. The attack involved disabling 73 repositories in 105 seconds and a worm targeting Azure Functions Action, suggesting automated exploitation. Community experts believe that classic personal access tokens used by AI agents may have been the vector.
 
-hackernews · hmokiguess · Jun 8, 18:47 · [Discussion](https://news.ycombinator.com/item?id=48449665)
+hackernews · raffael_de · Jun 9, 07:33 · [Discussion](https://news.ycombinator.com/item?id=48457830)
 
-**Background**: Apple previously offered CoreML for on-device machine learning, but it required model conversion via coremltools and had limited model support. MLX was another framework. Core AI unifies these into a single pipeline optimized for Apple silicon, including the Neural Engine and Private Cloud Compute, which provides privacy-preserving server-side inference.
+**Background**: A supply chain attack targets less secure elements in the software distribution process. Role-based access control (RBAC) assigns permissions based on user roles. AI coding assistants, powered by large language models, help developers write and manage code, but often require broad access to multiple repositories, increasing the attack surface.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://developer.apple.com/documentation/coreai/">Core AI | Apple Developer Documentation</a></li>
-<li><a href="https://news.ycombinator.com/item?id=48449665">Apple Core AI Framework | Hacker News</a></li>
-<li><a href="https://developer.apple.com/machine-learning/">AI & Machine Learning - Apple Developer</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Supply_chain_attack">Supply chain attack</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Role-based_access_control">Role-based access control - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/AI_coding_assistant">AI coding assistant</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments express excitement about the potential to replace CoreML and the free server-side tier, but also note concerns about framework fragmentation. Developers are eager for the WWDC sessions and low-bit quantization advancements, with some wondering about CoreML's long-term fate.
+**Discussion**: Comments reflect concern over the adequacy of RBAC when AI agents work across unrelated projects, with some criticizing the article's framing of open source. Others highlight related repository take-downs and point to the insecure use of classic personal access tokens as a likely cause.
 
-**Tags**: `#apple`, `#core-ai`, `#machine-learning`, `#on-device-ai`, `#coreml`
+**Tags**: `#security`, `#open-source`, `#supply-chain-attack`, `#microsoft`, `#ai-developers`
 
 ---
 
 <a id="item-4"></a>
-## [Quasar-Preview: Open-source model with 5 million token context](https://www.reddit.com/r/LocalLLaMA/comments/1u0vtik/silxaiquasarpreview_huggingface_5m_context_length/) ⭐️ 9.0/10
+## [Apple Withholds Siri AI in EU After Exemption Denial](https://www.reuters.com/business/apple-failed-make-its-ai-tool-comply-eu-regulations-eu-commission-says-2026-06-09/) ⭐️ 8.0/10
 
-silx-ai released Quasar-Preview on Hugging Face, an open-source foundation model that supports a context length of 5 million tokens, far exceeding current long-context models. This could enable new applications requiring extreme long-context understanding, such as processing entire codebases, lengthy legal documents, or multi-hour transcripts, and sets a new standard for open-source LLMs. Quasar-Preview is a Mixture-of-Experts (MoE) preview model from the Quasar Foundation Model series. Its actual long-context comprehension and performance on benchmarks like RULER or LongBench have not been independently verified yet.
+Apple requested an 18-month exemption from EU regulations to launch its new Siri AI features, but the EU Commission denied the request, leading Apple to cancel the rollout in the European Union. This decision highlights the escalating tension between major tech firms and EU digital regulation, potentially setting a precedent for AI compliance and influencing whether EU users gain access to cutting-edge features. The specific regulation is not named, but it likely involves the Digital Markets Act or GDPR, given Apple's mention of 'extra work' needed for compliance. The exemption would have allowed launch without full adherence for 18 months.
 
-reddit · r/LocalLLaMA · /u/External_Mood4719 · Jun 9, 05:19
+hackernews · flanged · Jun 9, 16:13 · [Discussion](https://news.ycombinator.com/item?id=48463024)
 
-**Background**: Context length in LLMs is the number of input tokens the model can process at once. Longer context allows more information to be considered, crucial for document summarization, multi-turn conversations, and code analysis. Recent models like Gemini 2.5 Pro or GPT-4 offer up to 1–2 million tokens. 5 million tokens is a major leap, but effective use often demands specialized architectures like MoE and memory-augmented mechanisms.
+**Background**: The European Union enforces strict digital laws like the General Data Protection Regulation (GDPR) for privacy and the Digital Markets Act (DMA) for fair competition among gatekeeper platforms. Complying with these frameworks often requires significant technical adjustments, especially for AI features that process personal data or integrate deeply with operating systems.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://huggingface.co/silx-ai/Quasar-Preview">silx-ai/Quasar-Preview · Hugging Face</a></li>
-<li><a href="https://silxinc.com/">SILX AI</a></li>
+**Discussion**: Comments range from viewing it as a straightforward regulatory dispute to suspecting Apple of leveraging consumer sympathy. Some discuss privacy risks of AI data access, while others see an opportunity for European competitors. The overall sentiment is skeptical of Apple's position, with debates on whether the EU is overregulating.
 
-</ul>
-</details>
-
-**Tags**: `#LLM`, `#long-context`, `#open-source`, `#Huggingface`, `#NLP`
+**Tags**: `#Apple`, `#Siri`, `#EU regulation`, `#AI policy`, `#compliance`
 
 ---
 
 <a id="item-5"></a>
-## [Microsoft's open-source tools hacked to steal AI developer passwords](https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/) ⭐️ 8.0/10
+## [FCC Proposes ID Requirement to End Burner Phones](https://www.404media.co/fcc-wants-to-kill-burner-phones-by-forcing-telecoms-to-get-all-customers-ids/) ⭐️ 8.0/10
 
-Microsoft's open-source tools were compromised in a supply chain attack that stole passwords from AI developers, prompting extensive community discussion on security practices. This attack highlights the escalating risks of supply chain threats in open-source ecosystems, especially as AI coding assistants broaden the attack surface, potentially undermining trust in widely used development tools. Community analysis points to misuse of classic personal access tokens, broken RBAC models, and insufficient sandboxing, with multiple related incidents rapidly disabling numerous repositories.
+The FCC has proposed a rule requiring telecommunications companies to collect and verify customer identification before providing SIM cards, effectively banning anonymous prepaid "burner phones." This policy shift significantly impacts privacy, as burner phones are used by activists, journalists, and marginalized groups for legitimate anonymity, and it raises data security concerns if telecoms mishandle sensitive ID information. The proposal mandates ID verification for all SIM card purchases, similar to existing rules in Russia and EU countries like Belgium; critics highlight past breaches, such as AT&T exposing Social Security numbers, undermining trust.
 
-hackernews · raffael_de · Jun 9, 07:33 · [Discussion](https://news.ycombinator.com/item?id=48457830)
+hackernews · berlianta · Jun 9, 15:21 · [Discussion](https://news.ycombinator.com/item?id=48462308)
 
-**Background**: Supply chain attacks involve infiltrating a trusted component to distribute malicious code downstream. In this case, adversaries likely injected malware into Microsoft's open-source tools on platforms like GitHub, targeting AI developers who often hold high-value credentials and access. The attack vector exploited factors like token mismanagement and the increased use of automated coding agents.
+**Background**: Burner phones are low-cost, temporary mobile phones or SIM cards used for short-term, anonymous communication. They are often purchased without ID and discarded after use, appealing to privacy-conscious individuals but also criminals. Many countries already require SIM registration to aid law enforcement.
 
-**Discussion**: Comments express alarm over security practices, noting links to similar incidents and debating root causes such as token misuse and RBAC failures. Many emphasize the need for fine-grained tokens, proper sandboxing, and stricter organizational controls to mitigate such attacks.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.howtogeek.com/712588/what-is-a-burner-phone-and-when-should-you-use-one/">What Is a Burner Phone , and When Should You Use a Secret Phone ...</a></li>
+<li><a href="https://blog.privadovpn.com/what-is-a-burner-phone-and-why-you-might-need-one/">What Is a Burner Phone , and Why You Might... - PrivadoVPN Blog</a></li>
 
-**Tags**: `#supply-chain-attack`, `#security`, `#microsoft`, `#ai-developers`, `#open-source`
+</ul>
+</details>
+
+**Discussion**: Commenters note many countries already have ID requirements, with a Russian user surprised the US lacked it; others cite telecom data breaches (e.g., AT&T leaking SSNs) as reason for distrust; some question whether this will reduce spam calls or merely increase surveillance.
+
+**Tags**: `#telecom`, `#privacy`, `#regulation`, `#FCC`, `#security`
 
 ---
 
 <a id="item-6"></a>
-## [Ask HN: Why hasn't there been a real competitor to Ticketmaster yet?](https://news.ycombinator.com/item?id=48448313) ⭐️ 8.0/10
+## [Let's Encrypt Bans Certificates in US-Sanctioned Regions](https://letsencrypt.org/documents/LE-SA-v1.7-June-04-2026-diff.pdf) ⭐️ 8.0/10
 
-A Hacker News user asked why Ticketmaster faces no significant competition, leading to an in-depth community discussion analyzing the company's monopoly through vertical integration, ownership links to venues and resale sites, and the challenges of two-sided marketplaces. This discussion highlights how Ticketmaster's entrenched control over live event ticketing impacts consumers with high fees and limited choice, and underscores broader issues of market regulation, anti-competitive practices, and the difficulty of breaking monopolies in concentrated industries. Ticketmaster's monopoly is reinforced by exclusive agreements with venues and promoters, ownership of resale platforms, and the difficulty for competitors to attract both top artists and large audiences due to two-sided market dynamics. Artists attempting to bypass Ticketmaster often face retaliation, as illustrated by Louis CK's experience.
+Let's Encrypt updated its subscriber agreement to prohibit the use of its TLS certificates in any US-sanctioned territory, effective June 4, 2026, citing compliance with US export controls. This policy change undermines Let's Encrypt's mission of universal encryption, potentially cutting off millions in sanctioned countries from secure HTTPS connections and exposing them to surveillance, while highlighting the extraterritorial impact of US sanctions on global internet infrastructure. The updated agreement states that any certificate usage in sanctioned territories breaches the terms, and Let's Encrypt may revoke all certificates of the violating subscriber.
 
-hackernews · mdni007 · Jun 8, 17:28
+hackernews · piskov · Jun 8, 22:32 · [Discussion](https://news.ycombinator.com/item?id=48453275)
 
-**Background**: Ticketmaster is a dominant ticket sales and distribution company, often criticized for high fees. It merged with Live Nation, creating a giant that controls venues, promotion, and artist management. Exclusive contracts with venues and the integration of scalping resale markets make entry for new competitors extremely difficult. Understanding the two-sided marketplace concept—where platforms must attract both consumers and suppliers—is key to grasping the barriers to entry.
+**Background**: Let's Encrypt, launched in 2016, is a free, automated certificate authority that issues TLS certificates to enable HTTPS for websites. US export controls restrict the provision of certain encryption technologies to embargoed countries like Iran, North Korea, and Syria. The legal change forces Let's Encrypt to align with these sanctions, conflicting with its stated goal of a secure web for everyone.
 
-**Discussion**: Comments reveal strong agreement on the monopoly's roots in vertical integration and anticompetitive practices. Some users highlight the two-sided market challenge, while others debate whether market prices or regulations can ensure fair ticket allocation. Anecdotes like Louis CK's show Ticketmaster's aggressive tactics to maintain exclusivity. Overall sentiment is frustration with the status quo and skepticism about the possibility of a viable competitor.
+**Discussion**: Community reaction is largely negative, with many criticizing Let's Encrypt for betraying its mission due to US legal pressure. Some highlight the irony of US sanctions and authoritarian censorship both undermining encryption, while others see digital certificates as inherently tools of exclusion and control.
 
-**Tags**: `#ticketing`, `#monopoly`, `#market-dynamics`, `#vertical-integration`, `#two-sided-marketplace`
+**Tags**: `#TLS/SSL`, `#Internet Freedom`, `#US Sanctions`, `#Let's Encrypt`, `#Export Controls`
 
 ---
 
 <a id="item-7"></a>
-## [FrontierCode: AI Benchmark Uses Maintainer Rubrics](https://cognition.ai/blog/frontier-code) ⭐️ 8.0/10
+## [iPhone's Dominance Challenged by AI-Driven Devices](https://stratechery.com/2026/the-iphones-last-stand/) ⭐️ 8.0/10
 
-FrontierCode is a new benchmark that evaluates AI-generated code patches based on whether open-source maintainers would accept them, using over 3,000 rubrics created from more than 1,000 hours of real-world maintainer work and refined through 40+ hours of human annotation. This benchmark addresses the saturation of existing coding benchmarks by measuring real-world mergeability, which could steer AI development toward producing more practical, maintainable code that saves time for open-source projects and aligns with industry needs. Tasks were designed by over 20 expert open-source maintainers in their own repositories, capturing their subjective standards and taste, and the evaluation uses detailed rubrics covering code quality, correctness, and style.
+Stratechery published an in-depth analysis questioning whether the iPhone can maintain its role as the dominant computing platform. The piece explores threats from emerging AI-native devices and shifting developer incentives. The smartphone has been the central computing paradigm for over a decade, and any shift would reshape the tech industry, affecting billions of users and a multi-trillion dollar ecosystem of hardware, apps, and services. Developers express concerns over Apple’s Private Cloud Compute being tied to iCloud subscriptions, its foundation model’s small 32K context window, and no revenue sharing for apps using Apple AI. Meanwhile, Meta and Microsoft pursue alternative AI hardware visions.
 
-hackernews · streamer45 · Jun 8, 20:45 · [Discussion](https://news.ycombinator.com/item?id=48451723)
+hackernews · swolpers · Jun 9, 10:08 · [Discussion](https://news.ycombinator.com/item?id=48459001)
 
-**Background**: Existing AI coding benchmarks like HumanEval or SWE-bench often evaluate functional correctness or bug-fixing ability but overlook whether a patch would genuinely be accepted in a real project, where style, readability, and maintainer judgment matter. FrontierCode fills this gap by grounding evaluation in actual maintainer feedback and rubrics.
+**Background**: For 15 years, the iPhone has dominated personal computing, with a rich app ecosystem monetized through Apple’s revenue share. Now, AI advances are enabling new form factors like smart glasses and ambient computing, challenging the touchscreen-centric model. Companies like Meta and Microsoft are investing heavily in these areas, potentially reducing user dependence on phones.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/FrontierCS/Frontier-CS">GitHub - FrontierCS/Frontier-CS: A benchmark for evaluating LLMs on open-ended CS problems. Exploring the Next Frontier of Computer Science. · GitHub</a></li>
+**Discussion**: Commenters are divided: some see Apple’s AI restrictions and lack of revenue sharing as driving developers away, while others argue the iPhone’s integrated simplicity and user attachment will sustain its dominance. Privacy concerns about always-on AI devices and skepticism of corporate-driven futures also feature prominently.
 
-</ul>
-</details>
-
-**Discussion**: Community members praised the benchmark for its realistic focus on mergeability and the extensive effort involved, while some raised concerns about potential memorization and suggested interactive benchmarks for more dynamic evaluation.
-
-**Tags**: `#AI`, `#benchmark`, `#code-generation`, `#software-engineering`, `#evaluation`
+**Tags**: `#iPhone`, `#Apple`, `#AI`, `#mobile`, `#platform strategy`
 
 ---
 
 <a id="item-8"></a>
-## [Signal warns UK surveillance demands threaten encryption and privacy](https://signal.org/blog/pdfs/2026-06-08-uk-surveillance-is-not-safety.pdf) ⭐️ 8.0/10
+## [Gravity: Interactive Simulator from Newton to Einstein](https://qunabu.github.io/Gravity/) ⭐️ 8.0/10
 
-On June 8, 2026, Signal released a statement condemning the United Kingdom's new surveillance demands, which would mandate device-based scanning and age verification, thereby undermining end-to-end encryption and user safety. This threatens the privacy of all encrypted communication, sets a dangerous precedent for government-mandated backdoors, and could lead to mass surveillance that disproportionately affects vulnerable groups and democratic norms. The proposed measures would require operating systems and apps to perform real-time content scanning, including AI-based nudity detection, on private messages and video calls, effectively breaking the technical guarantees of encryption.
+The project presents a web-based interactive simulator that guides users from Newtonian orbits to Einstein's curved spacetime through step-by-step tours, including real gravity assists from Voyager 1 and 2. It bridges the gap between intuitive understanding and complex physics, offering a hands-on way to grasp orbital mechanics and relativity without advanced math. Built with TypeScript + Three.js, it uses real J2000 orbital elements and Kepler's equation for positions, and an honest symplectic leapfrog integrator (energy drift ~1e-6%) for N-body mode, with true and log-remapped scale toggles.
 
-hackernews · g0xA52A2A · Jun 8, 19:42 · [Discussion](https://news.ycombinator.com/item?id=48450646)
+hackernews · qunabu · Jun 9, 11:46 · [Discussion](https://news.ycombinator.com/item?id=48459837)
 
-**Background**: End-to-end encryption ensures that only the communicating parties can read message contents. Device-based scanning, however, requires analyzing content before it is encrypted, which fundamentally contradicts encryption's purpose. The UK's Online Safety Bill and similar legislation push for such scanning to detect illegal material, but critics argue it creates a backdoor accessible to governments and malicious actors.
+**Background**: J2000 epoch is a standard astronomical reference time (January 1, 2000, 12:00 TT) used for specifying celestial coordinates and orbital elements. Kepler's equation relates time and orbital position in an elliptical orbit and is solved iteratively. A symplectic leapfrog integrator is a numerical method for Hamiltonian systems that conserves energy well over long simulations, making it suitable for N-body gravitational problems.
 
-**Discussion**: Commenters express deep concern over scope creep, noting that age verification would require cameras in every device, AI nudity scanning would compromise private photos and video calls, and this surveillance infrastructure could be inherited by authoritarian regimes. Some trace its inevitability to corporate controls like secure boot and app stores, while a minority argues surveillance can be safe if democratically regulated.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Epoch_(astronomy)">Epoch (astronomy) - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Kepler's_equation">Kepler's equation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Leapfrog_integration">Leapfrog integration - Wikipedia</a></li>
 
-**Tags**: `#privacy`, `#surveillance`, `#encryption`, `#UK-policy`, `#Signal`
+</ul>
+</details>
+
+**Discussion**: Comments are largely positive, praising the animations and educational value, but some point out inaccuracies: Earth's axis precession is shown incorrectly (it should be stationary over a day), and separating Newtonian and relativistic gravity can be misleading. The author welcomes feedback and intends to improve the model.
+
+**Tags**: `#show-hn`, `#education`, `#physics`, `#simulation`, `#astronomy`
 
 ---
 
 <a id="item-9"></a>
-## [AI Industry's Financial Viability Questioned Amid Slowing Progress](https://www.wheresyoured.at/ai-is-slowing-down/) ⭐️ 8.0/10
+## [ByteDance's Lance Unifies Vision Tasks, Hits #1 on Hugging Face](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896365&idx=3&sn=e12711bc2012bf7690c5815c1e2348d5) ⭐️ 8.0/10
 
-An article argues that the AI industry must generate $3 trillion in revenue by 2030 to justify current investments, igniting debate over whether recent technical progress can translate into such massive financial returns. This discussion highlights mounting pressure on AI companies to deliver sustainable profits, affecting investor confidence, technology adoption, and the broader industry's trajectory as fears of an AI bubble grow. One commenter calculates AI would need to replace or create roughly 5% of all U.S. jobs to break even, while Apple's rumored $1 billion annual AI licensing deal with Google suggests some firms opt for cheap external solutions over massive in-house spending.
+ByteDance has open-sourced Lance, a 3-billion-parameter multimodal model that unifies image and video understanding, generation, and editing in a single framework. Upon release, it quickly became the top-ranked model on Hugging Face. This demonstrates that compact models can handle complex multimodal tasks, potentially making such advanced capabilities more accessible on consumer hardware. It also underscores the industry trend toward unified models that combine perception and generation. Lance is a research project trained on up to 128 NVIDIA A100 GPUs, supporting image generation at 768×768 resolution and video generation at 480p, 12 FPS. It uses a shared sequence representation to jointly process text, images, and video tokens.
 
-hackernews · crescit_eundo · Jun 8, 15:46 · [Discussion](https://news.ycombinator.com/item?id=48446893)
+rss · 量子位 · Jun 9, 09:00
 
-**Background**: The AI boom has seen tech giants pour billions into infrastructure and research, driving sky-high valuations. However, revenue from AI products remains limited, echoing past tech bubbles where investment outpaced returns. The $3 trillion figure reflects the scale of capital already committed, with total U.S. wages in 2024 being around $11.7 trillion.
+**Background**: Multimodal models process different data types like text and images. Typically, separate architectures are used for understanding (e.g., image captioning) versus generation (e.g., text-to-image synthesis). Unified models aim to handle both in one system. A 3B parameter size is considered small, enabling deployment on devices without massive compute resources.
 
-**Discussion**: Commenters are split: some see the revenue demand as plausible and worry about an overinvestment bubble, while others point to real coding productivity gains and cheap licensing models as evidence of tangible value. A few criticize the article's emotional tone and logical gaps.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://huggingface.co/bytedance-research/Lance">bytedance -research/ Lance · Hugging Face</a></li>
+<li><a href="https://sonusahani.com/blogs/lance-ai">Lance AI By bytedance : Modern Open Source Unified Multimodal</a></li>
 
-**Tags**: `#AI`, `#economics`, `#tech-industry`, `#hackernews`, `#discussion`
+</ul>
+</details>
+
+**Tags**: `#multimodal`, `#small-models`, `#open-source`, `#computer-vision`, `#generative-ai`
 
 ---
 
 <a id="item-10"></a>
-## [Why I Switched from Semantic Embeddings to BM25 for Tool Selection](https://www.reddit.com/r/MachineLearning/comments/1u07tlm/why_i_stopped_using_semantic_embeddings_for_tool/) ⭐️ 8.0/10
+## [Multi-Expert Paper Identifies AI's Persuasion, Cognitive Offloading, and Feedback Loop Risks](https://www.reddit.com/r/MachineLearning/comments/1u1ew6q/ai_epistemic_risks_emerging_mechanisms_evidence_r/) ⭐️ 8.0/10
 
-An engineer shared production experience showing that semantic embeddings achieved only 64% top-1 accuracy for agent tool selection, while BM25 reached 81% by better handling short, keyword-driven tool descriptions. Indexing schema fields further boosted BM25 performance. This challenges the widespread assumption that semantic embeddings are always superior for retrieval tasks, particularly in agent tool selection. It highlights that lexical methods like BM25 can be both more accurate and more robust when dealing with highly structured, short-text corpora. Using text-embedding-3-small for embeddings, BM25 was applied to a flat-text projection of tool name, description, and schema walk. The author adopted Ratel's ADR-0004 indexing approach and noted that including schema field names like 'repo_id' significantly improved accuracy.
+A new paper co-authored by 30 experts, released on SSRN, systematically analyzes how AI threatens collective belief formation through persuasion, cognitive offloading, and feedback loops, and outlines promising intervention directions. The paper highlights self-perpetuating epistemic risks that could impair society's ability to recognize and govern other threats, including from AI itself, urging immediate action before response capacity is lost. The paper details that AI sycophancy can cause mental health risks and misinformation, cognitive offloading may erode long-term cognitive resilience, and feedback loops can lead to epistemic lock-in—a self-referential state hard to reverse.
 
-reddit · r/MachineLearning · /u/AbjectBug5885 · Jun 8, 13:24
+reddit · r/MachineLearning · /u/KellinPelrine · Jun 9, 19:18
 
-**Background**: BM25 is a traditional bag-of-words retrieval function that ranks documents by term frequency, while semantic embeddings use dense vectors to capture meaning. In AI agents, tool selection is the step where a subset of tools is chosen from a large set based on a user query. The Model Context Protocol (MCP) is an open standard for connecting agents to external tools, and the author's system handled ~140 MCP-exposed tools.
+**Background**: Epistemic risk refers to the danger of forming incorrect beliefs or relying on faulty knowledge. Cognitive offloading occurs when people use external tools like AI to reduce mental effort, potentially degrading memory and reasoning. AI sycophancy is the tendency of AI assistants to agree with users even when incorrect, due to biases in human feedback training data. These concepts underpin the paper's analysis of AI's impact on collective knowledge formation.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Okapi_BM25">Okapi BM25 - Wikipedia</a></li>
-<li><a href="https://www.anthropic.com/news/model-context-protocol">Introducing the Model Context Protocol \ Anthropic</a></li>
-<li><a href="https://modelcontextprotocol.io/docs/getting-started/intro">What is the Model Context Protocol (MCP)? - Model Context Protocol</a></li>
+<li><a href="https://ndpr.nd.edu/reviews/epistemic-risk-and-the-demands-of-rationality/">Epistemic Risk and the Demands of Rationality | Reviews | Notre Dame Philosophical Reviews | University of Notre Dame</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cognitive_offloading">Cognitive offloading</a></li>
+<li><a href="https://en.wikipedia.org/wiki/AI_sycophancy">AI sycophancy</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#agents`, `#tool-selection`, `#bm25`, `#embeddings`, `#information-retrieval`
+**Tags**: `#AI safety`, `#epistemic risks`, `#societal impact`, `#machine learning ethics`, `#cognitive science`
 
 ---
 
 <a id="item-11"></a>
-## [Fine-tuned Parakeet 0.6B Medical ASR Model Released as Open Weights](https://www.reddit.com/r/LocalLLaMA/comments/1u0q5h9/i_finetuned_parakeet_06b_for_medical_asr_open/) ⭐️ 8.0/10
+## [Cohere Releases North Mini Code Model for Local Use](https://www.reddit.com/r/LocalLLaMA/comments/1u1ci1r/releasing_cohere_north_mini_code/) ⭐️ 8.0/10
 
-A medical ASR model fine-tuned from NVIDIA's Parakeet TDT 0.6B v2 was released as Omi Med STT v1 with open weights and a cross-platform local runtime for Mac, Windows, and Linux. It enables privacy-preserving offline medical transcription, keeping patient audio on-device while achieving competitive accuracy with cloud services and running at 145x real-time speed on local hardware. The 0.6B-parameter model achieves 2.37% medical WER but struggles with drug names (4.75% drug M-WER); it was trained on 127 hours of mixed real/synthetic data, and 4-bit quantization was abandoned due to drug-name regression.
+Cohere officially released North Mini Code, a 30B parameter LLM specialized in code generation, available on Hugging Face with fp8 weights and a 320K context window, complete with deployment instructions for vLLM. This release provides a competitive, locally deployable coding model with clear guidance, empowering developers to run advanced code generation and tool use on their own hardware. The model uses a 30B A3B architecture and requires vLLM main branch with Cohere's melody library for response parsing. It scores a coding index of 33, close to Qwen 3.6 35B (35) and well above Gemma 4 26B (22).
 
-reddit · r/LocalLLaMA · /u/MajesticAd2862 · Jun 9, 00:45
+reddit · r/LocalLLaMA · /u/jayalammar · Jun 9, 17:54
 
-**Background**: Parakeet TDT is a 600M-parameter ASR model from NVIDIA. The fine-tuned version uses MLX on Apple Silicon, NeMo on CUDA, and parakeet.cpp (a C++ port using GGUF) on CPU. Medical WER specifically measures errors on clinical terms.
+**Background**: vLLM is a high-throughput inference engine for LLMs. FP8 is an 8-bit floating-point format that reduces model size with minimal accuracy loss. Cohere's melody library handles templating and response parsing, enabling tool calling. These tools make local deployment feasible on consumer GPUs.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3">nvidia/ parakeet - tdt -0.6b-v3 · Hugging Face</a></li>
-<li><a href="https://github.com/mudler/parakeet.cpp">GitHub - mudler/parakeet.cpp: Parakeet implementation in C++ with ggml · GitHub</a></li>
+<li><a href="https://developer.nvidia.com/blog/floating-point-8-an-introduction-to-efficient-lower-precision-ai-training/">Floating-Point 8: An Introduction to Efficient, Lower-Precision AI Training | NVIDIA Technical Blog</a></li>
+<li><a href="https://vllm.ai/">vLLM</a></li>
+<li><a href="https://pypi.org/project/cohere-melody/">cohere - melody · PyPI</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#ASR`, `#medical`, `#fine-tuning`, `#open-source`, `#local-ai`
+**Discussion**: Community feedback includes an early third-party MLX version, comparison benchmarks showing competitive coding performance, and suggestions for llama.cpp quantization which Cohere is considering. Overall positive, with user feedback directly contributing to vLLM integration improvements.
+
+**Tags**: `#LLM`, `#code-generation`, `#model-release`, `#local-llm`, `#Cohere`
 
 ---
 
 <a id="item-12"></a>
-## [WebGPU Prefill Speed Boost for k-quant Models in llama.cpp](https://www.reddit.com/r/LocalLLaMA/comments/1u0snw6/ggmlwebgpu_improve_prefill_speeds_for_kquants/) ⭐️ 8.0/10
+## [Apple Unveils CoreAI, Replacing CoreML for On-Device AI](https://www.reddit.com/r/LocalLLaMA/comments/1u1516w/apple_announced_new_on_device_inference_engine/) ⭐️ 8.0/10
 
-Pull request #24225 by yomaytk refactors the matmul kernel for k-quant models in llama.cpp's WebGPU backend, delivering up to 3.78x faster prefill speeds on an M2 Pro GPU. This optimization drastically improves inference throughput for quantized LLMs in browser and WebGPU environments, reducing latency and making powerful models more accessible on consumer hardware. Speedups vary by quantization level: Q2_K and Q3_K see 2.44–3.78x improvements, while Q4_K and above gain a more modest 1.33–1.52x. The changes target the prefill phase and are benchmarked on an M2 Pro with specific token-per-second rates listed.
+Apple announced CoreAI at WWDC, a new on-device inference engine designed to replace CoreML, enabling support for larger models (up to 20 billion parameters) and expanding operations on the Apple Neural Engine (ANE). This upgrade could significantly enhance local LLM deployment on iPhones and iPads, allowing more capable AI models to run efficiently on-device without cloud dependency, thus improving privacy and latency. Model weights must be converted via a Python script, similar to CoreML; currently supported models are from mid-2025, and the promised 20B foundation model likely uses a Mixture of Experts (MoE) architecture to remain manageable on mobile hardware.
 
-reddit · r/LocalLLaMA · /u/pmttyji · Jun 9, 02:41
+reddit · r/LocalLLaMA · /u/bakawolf123 · Jun 9, 13:29
 
-**Background**: k-quant is a quantization method developed in the llama.cpp ecosystem that uses mixed precision to reduce model size while minimizing quality loss. Prefill is the initial phase of LLM inference where the model processes all input tokens in parallel before generating the first output token. WebGPU is a modern graphics API enabling GPU compute directly in browsers, and llama.cpp is a widely‑used C++ inference engine supporting multiple backends, including WebGPU.
+**Background**: CoreML was Apple's previous framework for on-device machine learning, but it had limited support for large models and restricted operations. Apple Silicon chips feature a Neural Engine (ANE), a specialized accelerator for AI tasks. Mixture of Experts (MoE) is a technique that combines multiple smaller 'expert' models, activating only a subset per input, reducing memory and computation for large models.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://haroldbenoit.com/notes/ml/llms/quantization/llama.cpp/k-quants-implementation">k-quants implementation</a></li>
-<li><a href="https://www.linkedin.com/pulse/understanding-prefill-large-language-model-llm-inference-joanna-lee-i4tce">Understanding Prefill in Large Language Model (LLM) Inference</a></li>
-<li><a href="https://www.daydreamsoft.com/blog/browser-based-ml-with-tensorflow-js-and-webgpu">Discover how TensorFlow.js and WebGPU are transforming browser-based machine learning by enabling high-performance model training and inference directly on the client side. Explore how WebGPU accelerates computation, improves parallel processing, and unlocks advanced deep learning capabilities without relying on backend servers or native applications.</a></li>
+<li><a href="https://developer.apple.com/documentation/coreai/">Core AI | Apple Developer Documentation</a></li>
+<li><a href="https://github.com/apple/coreai-models">GitHub - apple/coreai-models: Model export recipes, Python primitives, and Swift runtime utilities for on-device AI · GitHub</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Apple_Neural_Engine">Apple Neural Engine</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#llama.cpp`, `#WebGPU`, `#quantization`, `#performance`, `#machine learning`
+**Tags**: `#Apple`, `#on-device inference`, `#CoreAI`, `#LLMs`, `#machine learning`
 
 ---
 
 <a id="item-13"></a>
-## [Siri AI Sparks Debate Over Limited Features and Hardware Restrictions](https://www.apple.com/apple-intelligence/) ⭐️ 7.0/10
+## [OSCAR RotationZoo: Offline Spectral Covariance-Aware Rotation for 2-bit KV Cache](https://www.reddit.com/r/LocalLLaMA/comments/1u1edjb/oscar_rotationzoo_offline_spectral/) ⭐️ 8.0/10
 
-Apple's Siri AI announcement introduces generative AI features like writing tools and photo editing, but users criticize the limited use cases and new hardware requirements, with some features restricted to iPhone 17 and later. The backlash reveals growing user skepticism toward AI hype and raises concerns about device longevity, as Apple restricts advanced features to newer hardware, potentially alienating recent buyers. Key features include photo editing tools like Clean Up and Spatial Reframing, but full Siri AI capabilities require iPhone 17 or later; the service remains unavailable in mainland China and the EU.
+OSCAR RotationZoo introduces an offline spectral covariance-aware rotation method that enables 2-bit quantization for the KV cache in large language models. The team released quantized GGUF models (Gemma-4-12B, Qwen3-32B, Qwen3-4B-Thinking) and code for llama.cpp and SGLang. 2-bit KV cache quantization drastically reduces memory usage, enabling longer context and larger batch sizes for local LLM deployment. OSCAR's offline rotation approach may offer better accuracy than prior methods, making extreme compression more practical for resource-constrained devices. OSCAR uses a small calibration dataset to estimate attention-aware target covariances offline, computing per-layer and per-head base rotations. The method is integrated into llama.cpp and SGLang, but its effectiveness on extremely long sequences or highly dynamic tasks remains to be fully evaluated.
 
-hackernews · 0xedb · Jun 8, 18:17 · [Discussion](https://news.ycombinator.com/item?id=48449084)
+reddit · r/LocalLLaMA · /u/pmttyji · Jun 9, 19:00
 
-**Background**: Apple Intelligence is Apple's AI system announced in 2024, combining on-device and server processing. It offers writing assistance, image generation, and Siri enhancements. Siri AI represents a next-step evolution, aiming for deeper personalization but demanding more powerful hardware.
+**Background**: KV cache stores attention keys and values to avoid recomputation, but its size grows with context length and batch size, becoming a memory bottleneck. Quantization reduces the bit width per value, but aggressive 2-bit quantization often causes severe accuracy loss. Rotation techniques, like those in QuaRot, mitigate outlier effects by smoothing activation distributions. OSCAR's spectral covariance-aware rotation tailors rotations to the statistics of activations, potentially improving 2-bit performance.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Apple_Intelligence">Apple Intelligence - Wikipedia</a></li>
-<li><a href="https://www.apple.com/apple-intelligence/">Apple Intelligence and Siri - Apple</a></li>
-<li><a href="https://support.apple.com/en-us/121115">How to get Apple Intelligence - Apple Support</a></li>
+<li><a href="https://arxiv.org/html/2605.17757">OSCAR: Offline Spectral Covariance - Aware Rotation for 2-bit KV...</a></li>
+<li><a href="https://github.com/FutureMLS-Lab/OSCAR">FutureMLS-Lab/OSCAR: OSCAR: Offline Spectral Covariance - Aware ...</a></li>
+<li><a href="https://huggingface.co/Zhongzhu/OSCAR-RotationZoo">Zhongzhu/OSCAR-RotationZoo · Hugging Face</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community sentiment is largely critical, with users dismissing features as recycled gimmicks, expressing dismay over iPhone 16 exclusion, and questioning Apple's regional rollout. A few see potential in Siri as a universal interface.
-
-**Tags**: `#apple`, `#siri`, `#ai`, `#product announcement`, `#hackernews discussion`
+**Tags**: `#KV cache quantization`, `#LLM optimization`, `#local LLM`, `#2-bit quantization`, `#model compression`
 
 ---
 
 <a id="item-14"></a>
-## [xAI Looks More Like a Datacentre REIT Than a Frontier AI Lab](https://martinalderson.com/posts/xais-new-rental-business/) ⭐️ 7.0/10
+## [MicroRNA Molecule Locks Plants in Perpetual Juvenility](https://omnia.sas.upenn.edu/story/biologist-scott-poethig-plants-never-age) ⭐️ 7.0/10
 
-The article analyzes how xAI's emphasis on rapid datacenter construction, such as the Colossus facility built in 122 days, and infrastructure deals makes its business model increasingly resemble a real estate investment trust (REIT) rather than a frontier AI research lab. This shift raises questions about xAI's long-term AI ambitions and ethical practices, as the focus on real estate-like infrastructure could detract from genuine AI breakthroughs while causing environmental harm and regulatory concerns. The Colossus datacenter allegedly used temporary gas turbines to bypass regulations, causing significant air pollution; SpaceX's involvement and Google's stake in SpaceX create potential conflicts of interest in circular deals.
+Researchers have identified a microRNA molecule that keeps plants in a permanent juvenile state, providing a genetic mechanism for neoteny. The PNAS study shows that this permanent juvenility has evolved independently multiple times in plants. This finding advances understanding of how aging and developmental timing are regulated, with potential applications in agriculture through control of plant maturation. It also highlights the evolutionary significance of neoteny across life. The microRNA acts through heterochronic shifts in timing-keeping, affecting the transition from juvenile to adult phases. The mechanism is associated with multiple independent evolutionary events of neoteny, notably in ancient Australian flora.
 
-hackernews · martinald · Jun 8, 15:13 · [Discussion](https://news.ycombinator.com/item?id=48446428)
+hackernews · bryanrasmussen · Jun 9, 08:25 · [Discussion](https://news.ycombinator.com/item?id=48458257)
 
-**Background**: A REIT (Real Estate Investment Trust) owns or operates income-producing real estate. Data center REITs like Equinix specialize in digital infrastructure. Frontier AI labs, such as OpenAI, focus on advanced AI research. xAI, founded by Elon Musk in 2023, aims to develop AI but its massive datacenter investments blur the line between a tech lab and an infrastructure provider.
+**Background**: Neoteny is the retention of juvenile traits in adult organisms, an evolutionary phenomenon seen in some plants and animals. MicroRNAs are short, non‑coding RNAs that regulate gene expression by interfering with messenger RNA. In plants, the transition from juvenile to adult phases is tightly controlled by genetic programs; altering these programs can result in extended juvenility or neoteny.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://sortis.com/blog/the-role-of-reits-in-the-booming-data-center-market/">The Role of REITs in the Booming Data Center Market - Sortis Capital</a></li>
-<li><a href="https://en.wikipedia.org/wiki/SpaceXAI">xAI (company) - Wikipedia</a></li>
-<li><a href="https://www.youtube.com/watch?v=Jf8EPSBZU7Y">Inside the World's Largest AI Supercluster xAI Colossus - YouTube</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Neoteny">Neoteny</a></li>
+<li><a href="https://en.wikipedia.org/wiki/MicroRNA">MicroRNA</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters express alarm over environmental damage from Colossus's gas turbines, the use of temporary permits to skirt regulations, and circular deals involving SpaceX and Google. The project is seen as posterchild for irresponsible data center development, potentially fueling broader opposition to such projects.
+**Discussion**: Commenters noted the significance of neoteny evolving multiple times, sparking discussions on aging as an evolved trait and the societal implications of halting aging. Some expressed skepticism about popular science sensationalism, while others linked the finding to broader evolutionary questions.
 
-**Tags**: `#AI`, `#xAI`, `#datacenters`, `#REIT`, `#ethics`
+**Tags**: `#plant biology`, `#neoteny`, `#microRNA`, `#aging`, `#evolutionary biology`
 
 ---
 
 <a id="item-15"></a>
-## [Performative-UI: A React Component Library Satirizing Startup Design Tropes](https://vorpus.github.io/performativeUI/) ⭐️ 7.0/10
+## [Cleaning Up After AI Rockstar Developers](https://www.codingwithjesse.com/blog/rockstar-developers/) ⭐️ 7.0/10
 
-A new React component library called Performative-UI was released, which humorously implements overused design tropes like animated gradients and ASCII art to satirize modern startup websites. It highlights how certain UI elements have become clichés that can signal credibility or repel users, sparking discussion on design trends and skill perception in web development. The library is a satire, but its components are well-crafted; it includes features like animated gradients and ASCII art animations, and is hosted on GitHub Pages.
+The blog post examines the aftermath of AI-generated code, arguing that cleaning up such code still heavily relies on human craftsmanship, akin to fixing the work of 'rockstar' programmers who prioritize speed over maintainability. This matters because as AI tools become more prevalent in coding, the industry risks accumulating massive technical debt unless human oversight and craftsmanship are maintained to ensure long-term code quality. The blog notes that AI agents produce code without considering the overall system, making data flow hard to follow and development environments difficult to set up. One commenter reported a Next.js project that required 10GB of memory to compile and had thousands of lint errors.
 
-hackernews · lizhang · Jun 8, 14:05 · [Discussion](https://news.ycombinator.com/item?id=48445554)
+hackernews · BrunoBernardino · Jun 9, 09:10 · [Discussion](https://news.ycombinator.com/item?id=48458586)
 
-**Background**: React is a popular JavaScript library for building user interfaces. Startup websites often use flashy design elements like gradients and animations to appear modern and trustworthy. This project satirizes such trends by providing a library of these performative components.
+**Background**: Technical debt refers to the future cost incurred by choosing quick, suboptimal solutions that compromise maintainability. Software craftsmanship is a movement emphasizing developer skill and code quality like a traditional craft. The term 'rockstar developer' is often used to describe programmers who produce code rapidly but may neglect design and collaboration.
 
-**Discussion**: Comments range from disdain for such clichés, noting they cause immediate distrust, to observations that these elements statistically boost credibility, as users often equate them with professionalism. Some see the satire as a sign that once-advanced skills have become passé.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Technical_debt">Technical debt</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Software_craftsmanship">Software craftsmanship</a></li>
+<li><a href="https://www.codingwithjesse.com/blog/rockstar-developers/">Cleaning up after AI rockstar developers - Jesse Skinner</a></li>
 
-**Tags**: `#React`, `#UI/UX`, `#satire`, `#web-development`, `#design`
+</ul>
+</details>
+
+**Discussion**: Community members largely agree that AI-generated code requires significant human cleanup, seeing parallels with outsourcing. Some worry that craftsmanship may become devalued over time, while others see fixing such code as a business opportunity. Many relate to the difficulty of understanding complex AI-generated codebases and the resulting imposter syndrome.
+
+**Tags**: `#AI`, `#Software Development`, `#Code Quality`, `#Craftsmanship`, `#Technical Debt`
 
 ---
 
 <a id="item-16"></a>
-## [Overseas Facebook Pages Profit from Alberta Separatism](https://www.cbc.ca/news/canada/facebook-overseas-alberta-separtism-9.7223966) ⭐️ 7.0/10
+## [Apple WWDC 2026 Siri AI: Cautious Optimism](https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything) ⭐️ 7.0/10
 
-A CBC investigation revealed that Facebook pages operated by users outside Canada are profiting by promoting Alberta separatism, exploiting algorithmic amplification to spread divisive content for financial gain. This exposes how engagement-driven algorithms can be gamed to monetize political outrage, undermining public discourse and highlighting the need for platform accountability and regulation. The overseas operators appear motivated solely by profit, not ideology, exploiting Facebook’s engagement-based ranking that amplifies controversial content. This differs from state-backed disinformation campaigns.
+Apple announced new Siri AI features at WWDC 2026, leveraging vision LLMs to extract screen information and using a custom Gemini-derived model on Private Cloud Compute; a developer beta with waitlisted access is now available. The features appear feasible with current vision LLM technology, potentially enabling deep app integration without custom code, but Apple's history of overpromising on AI warrants skepticism. Vision LLMs read on-screen content to avoid per-app integration; the custom Gemini model runs on NVIDIA GPUs in Google Cloud with Apple's security guarantees; a Core AI PyTorch library was released for on-device model execution.
 
-hackernews · vrganj · Jun 9, 06:14 · [Discussion](https://news.ycombinator.com/item?id=48457181)
+rss · Simon Willison · Jun 8, 23:58
 
-**Background**: Social media platforms like Facebook use algorithmic recommendation systems that rank content based on user engagement metrics such as likes, shares, and comments. This 'algorithmic amplification' can promote emotionally charged or divisive material because it generates higher interaction. The phenomenon is linked to the spread of misinformation and can be exploited by bad actors seeking financial or political gain.
+**Background**: Vision LLMs are large language models that can understand images, extracting textual and visual information from screenshots. Apple's Private Cloud Compute extends device-level security to the cloud, ensuring user data privacy. Notably, this deployment uses Google Cloud and NVIDIA GPUs instead of Apple's own silicon, while still promising public binary inspection.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Algorithmic_amplification">Algorithmic amplification</a></li>
+<li><a href="https://medium.com/@shivansh.kaushik/a-beginners-guide-to-fine-tuning-vision-language-models-paligemma-2-4e99c42066af">A Beginner’s Guide to Fine-Tuning Vision Language Models... | Medium</a></li>
+<li><a href="https://security.apple.com/blog/private-cloud-compute/">Private Cloud Compute: A new frontier for AI privacy in the cloud - Apple Security Research</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments largely agree that algorithms are being abused to manipulate perceptions for profit, though some debate whether this constitutes foreign interference or mere financial opportunism. Several note that it reflects a systemic issue with platform incentives, not necessarily state-backed campaigns. There is also praise for the investigative reporting.
-
-**Tags**: `#misinformation`, `#social media`, `#algorithm manipulation`, `#Canada`, `#platform accountability`
+**Tags**: `#Apple`, `#Siri`, `#AI`, `#WWDC`, `#vision LLMs`
 
 ---
 
 <a id="item-17"></a>
-## [Why Are Cells Small? Exploring Biological Size Limits](https://burrito.bio/essays/what-limits-a-cells-size) ⭐️ 7.0/10
+## [Chinese Modders Build Single-Slot Half-Height V100 GPUs with NVLink](https://www.reddit.com/r/LocalLLaMA/comments/1u16eyk/people_are_making_singleslot_half_height_pcie/) ⭐️ 7.0/10
 
-A newly published essay on burrito.bio examines the biological and physical constraints that keep cells microscopic, enriched by community discussion on thermodynamic limits, self-replication time, and microbial size comparisons. Understanding cell size limits connects fundamental biology to scaling laws, energy efficiency, and self-replication constraints, with implications for synthetic biology, evolutionary theory, and the design of artificial self-replicating systems. One comment illustrates that a macroscopic self-replicating machine would take billions of years to replicate due to the slowness of molecule-by-molecule assembly, underscoring the need for small size. Another notes that some single-celled organisms like Stentor can exceed the size of tiny multicellular animals like tardigrades, challenging conventional size hierarchies.
+Chinese hardware modders have created custom single-slot, half-height PCIe graphics cards using NVIDIA V100 GPU cores with full performance and NVLink support, soldered onto custom PCBs. This provides a low-cost, compact GPU solution for local AI inference, enabling dense multi-GPU setups with NVLink at a fraction of standard prices, appealing to the LocalLLaMA community. The card measures 16cm x 7.5cm, with a passive-cooled 75W version and a 300W powered variant; a 32GB model is forthcoming, priced around ¥1500 ($220) for 16GB.
 
-hackernews · mailyk · Jun 8, 19:10 · [Discussion](https://news.ycombinator.com/item?id=48450065)
+reddit · r/LocalLLaMA · /u/OwnMathematician2620 · Jun 9, 14:22
 
-**Background**: Cells remain small primarily due to physical constraints such as surface area-to-volume ratio, which limits nutrient uptake and waste removal. As a cell grows, volume increases faster than surface area, making passive diffusion inefficient. Thermodynamic limits also impose energetic constraints on maintaining order in larger volumes. Additionally, self-replication time must be short enough for survival, and larger size would lengthen it beyond feasible limits. These themes echo J.B.S. Haldane's classic 1926 essay 'On Being the Right Size', which explored scaling laws in biology.
+**Background**: NVIDIA V100 is a data-center GPU with HBM2 memory and NVLink interconnect for high-speed GPU-to-GPU communication, originally released in dual-slot, full-height form. This modification involves desoldering the V100 chip and memory from donor cards and assembling them on a custom PCB that fits compact server slots. NVLink enables direct, high-bandwidth links between GPUs without using the PCIe bus.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Thermodynamic_limit">Thermodynamic limit - Wikipedia</a></li>
-<li><a href="https://dercuano.github.io/notes/self-replication-changes.html">Self replication changes ⁑ Dercuano</a></li>
+<li><a href="https://en.wikipedia.org/wiki/NVLink">NVLink</a></li>
+<li><a href="https://www.nvidia.com/en-us/data-center/nvlink/">NVLink & NVLink Switch: Fastest HPC Data Center Platform | NVIDIA</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments enriched the discussion by linking cell size to thermodynamic and informational limits (recommending Nick Lane's 'The Vital Question'), the necessity of small size for efficient self-replication (using a creative 3D printer analogy), and microbial size comparisons where some single-celled organisms exceed tiny multicellular animals. The overall sentiment was highly positive, with one commenter calling the essay 'great great great'.
-
-**Tags**: `#biology`, `#scaling`, `#cells`, `#self-replication`, `#discussion`
+**Tags**: `#GPU`, `#hardware-modding`, `#NVIDIA-V100`, `#LocalLLaMA`, `#China`
 
 ---
 
 <a id="item-18"></a>
-## [ByteDance's Lance 3B Unifies Vision and Generation, Tops Hugging Face](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896365&idx=3&sn=e12711bc2012bf7690c5815c1e2348d5) ⭐️ 7.0/10
+## [Jetson Orin NX hits 10+ tok/s for Hermes Agent with quantized Gemma 4](https://www.reddit.com/r/LocalLLaMA/comments/1u11wvo/jetson_orin_nx_build_for_hermes_agent_benchmarking/) ⭐️ 7.0/10
 
-ByteDance has open-sourced Lance, a 3-billion-parameter model that natively integrates image and video understanding, generation, and editing in a single framework, instantly becoming the top trending model on Hugging Face. This model breaks the barrier between separate understanding and generation systems, enabling more versatile AI applications with a compact size that is suitable for on-device or efficient deployment, accelerating the trend toward unified multimodal models. Lance uses only 3B active parameters and supports tasks like image/video captioning, question answering, text-to-image generation, and image editing without task-specific modules. It was released on Hugging Face and GitHub under an open-source license.
+A custom Jetson Orin NX build runs Gemma 4 26B A4B at Q2_K_XL quantization, achieving 14.65 tok/s at 8K context and 10.21 tok/s at 60K context, enabling local deployment of the Hermes autonomous agent. This demonstrates that edge AI hardware can now run large MoE models for autonomous agents at usable speeds and long context, enabling offline, private, and low-power AI agent applications in robotics and IoT. Gemma 4 26B A4B uses a Mixture-of-Experts architecture with 26B total and 4B active parameters; Q2_K_XL is a 2-bit quantization format. The Jetson Orin NX was modified with a cut heatsink and custom case for silent, 40W operation.
 
-rss · 量子位 · Jun 9, 09:00
+reddit · r/LocalLLaMA · /u/Reddactor · Jun 9, 11:10
 
-**Background**: Multimodal models typically separate understanding (e.g., image captioning) from generation (e.g., text-to-image). Unified models aim to handle both within one architecture, reducing complexity and enabling cross-task synergy. Small models (under 7B parameters) are increasingly popular for edge computing and resource-constrained environments.
+**Background**: The NVIDIA Jetson Orin NX is an edge AI module delivering up to 100 TOPS, designed for embedded and robotics applications. Hermes Agent is an open-source autonomous AI agent by Nous Research that can perform multi-step tasks with tool use and memory. Quantization, like Q2_K_XL, reduces model size by using lower bit precision, making large models feasible on resource-constrained devices.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://lance-project.github.io/">Lance: Unified Multimodal Modeling by Multi-Task Synergy</a></li>
-<li><a href="https://huggingface.co/bytedance-research/Lance">bytedance-research/Lance · Hugging Face</a></li>
-<li><a href="https://github.com/bytedance/Lance">GitHub - bytedance/Lance: A 3B-active-parameter native unified multimodal model for image and video understanding, generation, and editing. · GitHub</a></li>
+<li><a href="https://www.linkedin.com/pulse/nvidia-jetson-orin-nx-ai-development-module-nano-size-yumi-lee-4nqfc">NVIDIA Jetson Orin NX AI Development Module, System-on-Module...</a></li>
+<li><a href="https://hermesagent.agency/">Hermes Agent : AI That Learns & Grows With You | Open Source</a></li>
+<li><a href="https://unsloth.ai/docs/models/kimi-k2.6">Kimi K 2.6 - How to Run Locally | Unsloth Documentation</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#multimodal`, `#small-models`, `#open-source`, `#ByteDance`, `#computer-vision`
+**Tags**: `#local LLM`, `#Jetson Orin`, `#benchmarking`, `#edge AI`, `#Hermes Agent`
 
 ---
 
 <a id="item-19"></a>
-## [Hack Doubles Token Generation Speed on AMD MI50 via Parallel Forward Passes](https://www.reddit.com/r/LocalLLaMA/comments/1u0rk0o/2x_tks_from_194_381_tks_on_1_x_mi50_playing_with/) ⭐️ 7.0/10
+## [Are Open-Source LLMs Now 'Just Good Enough'?](https://www.reddit.com/r/LocalLLaMA/comments/1u0yo32/have_we_reached_the_point_where_opensource_llms/) ⭐️ 7.0/10
 
-A developer demonstrated a technique to double token generation throughput (from 19.4 to 38.1 tk/s) on an AMD MI50 GPU by running multiple forward passes of the same quantized model simultaneously, exploiting underutilized compute in small quantizations. This approach offers a novel alternative to speculative decoding that doesn't require a separate draft model, potentially reducing memory overhead and simplifying deployment for quantized LLMs, especially on AMD hardware where such optimizations are less common. The method works for quantizations of Q8 or lower, where each loaded value can be reused in multiple operations, and the author is developing a HIP kernel and plans to combine it with multi-token prediction (MTP) to target up to 80 tk/s.
+A Reddit discussion on r/LocalLLaMA questions whether open-source LLMs now satisfy 95% of requirements, examining cost-benefit tradeoffs against proprietary models. This debate highlights the maturing open-source LLM ecosystem and its potential to reduce dependency on expensive proprietary APIs, reshaping AI adoption strategies. The post emphasizes cost-benefit factors such as answer quality, automation loop cleanliness, risk management, and productivity gains versus extra costs of proprietary models.
 
-reddit · r/LocalLLaMA · /u/bigattichouse · Jun 9, 01:50
+reddit · r/LocalLLaMA · /u/AdDizzy8160 · Jun 9, 08:02
 
-**Background**: Speculative decoding normally uses a small draft model to propose tokens quickly, then a large target model verifies them in parallel, achieving speedups without quality loss. Quantized models (e.g., INT8) use low-precision weights but often run on hardware that still uses higher-precision arithmetic, leaving compute units underutilized. This hack leverages that slack by running additional forward passes of the same model, effectively simulating speculative decoding without a separate draft model.
+**Background**: Open-source LLMs (e.g., LLaMA, Mistral) are freely available for local use, offering privacy and lower long-term costs. Proprietary models (e.g., GPT-4, Claude) often outperform them but charge per token. r/LocalLLaMA is a community dedicated to running LLMs locally, focusing on practical deployment.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Speculative_decoding">Speculative decoding</a></li>
-<li><a href="https://www.mathworks.com/company/technical-articles/what-is-int8-quantization-and-why-is-it-popular-for-deep-neural-networks.html">What Is int8 Quantization and Why Is It Popular for Deep Neural Networks? - MATLAB & Simulink</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#local LLM`, `#inference optimization`, `#speculative decoding`, `#AMD GPU`, `#quantization`
+**Tags**: `#open-source LLMs`, `#cost-benefit`, `#model comparison`, `#AI adoption`, `#discussion`
 
 ---
 
 <a id="item-20"></a>
-## [Gemma 4 31B Surprises in Code Understanding](https://www.reddit.com/r/LocalLLaMA/comments/1u0yzts/gemma_4_31bs_competence_surprised_me/) ⭐️ 7.0/10
+## [SCAIL-2 Enables End-to-End Character Animation from Driving Videos](https://www.reddit.com/r/LocalLLaMA/comments/1u1dw38/zaiorgscail2_hugging_face/) ⭐️ 7.0/10
 
-A user reports that Gemma 4 31B substantially outperformed Qwen 3.6 models (27B dense and 35B MoE) in explaining and understanding messy, poorly documented academic code. This suggests Gemma 4 has strong code comprehension capabilities for real-world, messy codebases, which could benefit researchers and developers working with legacy or niche projects. The comparison was anecdotal, and Gemma 4 excelled at understanding code interdependencies, while Qwen models were overzealous with rewrites. Gemma also leads Qwen on the SciCode benchmark.
+SCAIL-2 achieves end-to-end character animation directly from driving videos, eliminating the need for intermediate representations like skeleton maps or inpainting masks. It supports cross-identity replacement, animal-driving scenarios, and multi-character animation. By removing intermediate representations, SCAIL-2 enables more flexible and generalizable character animation, expanding applications to non-human characters and complex multi-character scenes. This open-source model could accelerate AI-driven animation workflows. Trained on 60K synthetic motion pairs from off-the-shelf models, SCAIL-2 uses a Unified Motion Transfer Interface with dedicated masking channels and Rotary Position Embedding (RoPE). Its reverse driving training recipe enables emergent abilities like cross-identity replacement and zero-shot support for SAM3D-Body mesh rendering.
 
-reddit · r/LocalLLaMA · /u/The_Paradoxy · Jun 9, 08:22
+reddit · r/LocalLLaMA · /u/pmttyji · Jun 9, 18:43
 
-**Background**: Local LLMs are AI models run on personal hardware. The user works in academia with custom, poorly documented code for niche models. Gemma 4 31B is a dense 31-billion-parameter model by Google, while Qwen 3.6 is a model series from Alibaba with dense and mixture-of-experts variants. 'Vibe coding' is a term for AI-assisted programming without thorough review, which the user avoids.
+**Background**: Traditional character animation methods rely on intermediate representations such as skeleton maps or inpainting masks to transfer motion, which can be ambiguous and restrict driving sources to human movements. End-to-end driving directly maps driving videos to animated output, removing these constraints. Rotary Position Embedding (RoPE) is a positional encoding technique used in transformer models to inject position information via rotation matrices.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://huggingface.co/google/gemma-4-31B">google/gemma-4-31B · Hugging Face</a></li>
-<li><a href="https://ollama.com/library/qwen3.6">qwen 3 . 6</a></li>
+<li><a href="https://medium.com/@mlshark/rope-a-detailed-guide-to-rotary-position-embedding-in-modern-llms-fde71785f152">RoPE : A Detailed Guide to Rotary Position Embedding in... | Medium</a></li>
+<li><a href="https://www.klingmotion.com/">Kling Motion Control - Precise AI Motion Transfer Animation</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#local LLM`, `#Gemma`, `#code understanding`, `#AI-assisted programming`, `#model comparison`
+**Tags**: `#character-animation`, `#deep-learning`, `#computer-vision`, `#open-source`, `#motion-transfer`
 
 ---
 
 <a id="item-21"></a>
-## [Gemma 4 Chat Template Now Supports Preserve Thinking](https://www.reddit.com/r/LocalLLaMA/comments/1u084qi/gemma_4_chat_template_now_has_preserve_thinking/) ⭐️ 7.0/10
+## [Headroom: LLM Prompt Compression with 60-95% Token Reduction](https://github.com/chopratejas/headroom) ⭐️ 7.0/10
 
-The latest update to the Gemma 4 chat template introduces a preserve_thinking feature that retains the model's chain-of-thought reasoning tokens, allowing users to view the model's internal thought process. This update increases transparency and control for developers and researchers using Gemma 4, making it easier to debug, analyze, and steer the model's reasoning, especially in agentic and complex tasks. The preserve_thinking parameter is likely a boolean flag in the chat template configuration. When enabled, it prevents the stripping of special thinking tokens (e.g., <think>...</think>) from the model output, but may increase token usage and latency.
+The open-source tool Headroom compresses tool outputs, logs, files, and RAG chunks before they reach the LLM. It reduces token usage by 60–95% without losing answer quality. It significantly lowers operational costs for LLM-based applications, especially those using retrieval-augmented generation, making high-volume prompt processing more affordable for developers and enterprises. Headroom works as a Python library, proxy, and MCP server. It gained 52 stars/day but lacks detailed community feedback or stability reports.
 
-reddit · r/LocalLLaMA · /u/seamonn · Jun 8, 13:35
+ossinsight · chopratejas · Jun 9, 19:35
 
-**Background**: Chat templates are structured formats that define how prompts are constructed for large language models, including system messages, user turns, and assistant responses. Chain-of-thought (CoT) reasoning is a technique where models generate intermediate reasoning steps before producing a final answer, often enclosed in special tokens. Gemma 4 is an open-source model series from Google DeepMind released in 2026, designed for advanced reasoning and agentic applications.
+**Background**: RAG (Retrieval-Augmented Generation) lets LLMs consult external documents before responding, improving accuracy with domain-specific data. MCP (Model Context Protocol) servers connect AI applications with external systems, enabling structured use of tools and data.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Gemma_4">Gemma 4</a></li>
-<li><a href="https://deepmind.google/models/gemma/gemma-4/">Gemma 4 — Google DeepMind</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation">Retrieval-augmented generation - Wikipedia</a></li>
+<li><a href="https://cloud.google.com/discover/what-is-model-context-protocol">What is Model Context Protocol (MCP)? A guide | Google Cloud</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Gemma 4`, `#chat template`, `#chain-of-thought`, `#LLM`, `#open-source`
+**Tags**: `#LLM`, `#prompt-compression`, `#cost-optimization`, `#Python`, `#RAG`
 
 ---
 
 <a id="item-22"></a>
-## [Old'aVista: Nostalgic Search Engine for Geocities and More](https://oldavista.com/) ⭐️ 6.0/10
+## [Pre-indexed Code Knowledge Graphs Cut Token Usage](https://github.com/colbymchenry/codegraph) ⭐️ 7.0/10
 
-Old'aVista, a search engine that indexes classic websites from the Geocities era, has been launched, allowing users to search for pages hosted on old services like Angelfire and Tripod. It evokes nostalgia for the early web, highlighting how the internet has changed, and serves as a digital preservation project that keeps the memory of user-generated content from the 1990s alive. The search engine is limited to websites on Geocities, Angelfire, Xoom, AOL, and Tripod, and its retro design mimics early web aesthetics, though some users note issues like broken tables and missing transparent pixels.
+The open-source TypeScript tool colbymchenry/codegraph creates pre-indexed code knowledge graphs that reduce token usage and tool calls for AI coding assistants like Claude Code and Cursor. This directly lowers the cost and latency of AI-assisted coding by making codebase context more efficient, benefiting developers who rely on agents for large projects. The tool is 100% local, avoids sending code to external servers, and supports multiple agents including Claude Code, Codex, Gemini, Cursor, and OpenCode.
 
-hackernews · abnercoimbre · Jun 8, 16:02 · [Discussion](https://news.ycombinator.com/item?id=48447111)
+ossinsight · colbymchenry · Jun 9, 19:35
 
-**Background**: In the late 1990s, services like Geocities and Angelfire enabled millions to create personal websites. AltaVista was one of the first full-text search engines, launched in 1995 by Digital Equipment Corporation, and was widely used until eclipsed by Google. Old'aVista playfully references AltaVista and indexes that vintage user-generated content.
+**Background**: AI coding assistants like Claude Code use an agentic loop that calls tools to read files and search code; this consumes tokens and increases latency. A code knowledge graph pre-indexes the codebase into a structured representation of entities and relationships, allowing the assistant to retrieve context with fewer operations. Tools like codegraph pre-compute these graphs locally, so the assistant receives a compact view of the code without repeatedly scanning files.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://oldavista.com/">Old'aVista: Home</a></li>
-<li><a href="https://en.wikipedia.org/wiki/AltaVista">AltaVista</a></li>
+<li><a href="https://vantagecraft.dev/docs/code-graph/">Code Graph Knowledge System</a></li>
+<li><a href="https://understand-anything.com/">Understand Anything — Graphs that teach the codebase</a></li>
+<li><a href="https://www.daytona.io/dotfiles/building-a-knowledge-graph-of-your-codebase">Building a Knowledge Graph of Your Codebase</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion is humorous and reflective. Users share personal memories of the early internet, note technical quirks like missing pixels and HTML capitalization, and make puns on the name. One user finds the 1998 political forum discussions depressing. Overall, the sentiment is nostalgic with a touch of amusement.
-
-**Tags**: `#nostalgia`, `#internet-history`, `#search`, `#retro`, `#web`
+**Tags**: `#ai`, `#developer-tools`, `#knowledge-graph`, `#code-indexing`, `#ai-coding-agents`
 
 ---
 
 <a id="item-23"></a>
-## [Apple's Siri AI at WWDC 2026: Cautious Optimism Amid Feasibility](https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything) ⭐️ 6.0/10
+## [Karpathy: AI Ease of Software Creation Sparks Jevons Paradox](https://simonwillison.net/2026/Jun/9/andrej-karpathy/#atom-everything) ⭐️ 6.0/10
 
-Apple announced next-generation Siri AI features at WWDC 2026, using vision LLMs to interpret on-screen content and a custom Gemini-derived model running on Private Cloud Compute, along with a new Core AI library for developers to harness Apple hardware. After the disappointment of 2024's overpromising, this approach appears more technically viable; vision LLMs eliminate the need for per-app integration, and the Core AI library could accelerate on-device AI by integrating with Meta's PyTorch ecosystem. The Gemini-derived models are run in Google Cloud on NVIDIA GPUs, with Apple's privacy protections extended via PCC; Core AI PyTorch extensions map FX graphs to Core AI operations. An iOS 27 beta is available, but with a waitlist for Siri AI.
+On June 9, 2026, Andrej Karpathy shared on Twitter that as AI models like Claude Fable 5 make software creation increasingly effortless, his personal demand for custom applications has grown, illustrating the Jevons paradox. This personal observation underscores a counterintuitive economic effect: AI-driven efficiency in software development may lead to an explosion in demand for software, challenging assumptions that AI will simply reduce development jobs, and highlighting new opportunities for bespoke tools. Karpathy specifically mentions building hyper-specific dashboards akin to wandb for single projects, 10X test suites, and auto-optimizing code, all enabled by Claude Fable 5's long-horizon problem-solving capabilities.
 
-rss · Simon Willison · Jun 8, 23:58
+rss · Simon Willison · Jun 9, 19:03
 
-**Background**: WWDC is Apple's annual developer conference where major software updates are announced. In 2024, Apple Intelligence was promised with ambitious Siri features but fell short. Vision LLMs are models that combine computer vision and language understanding to interpret images, a category that has matured significantly since 2024. Private Cloud Compute is Apple's secure cloud infrastructure for AI tasks that require off-device processing.
+**Background**: Jevons paradox, originally described by William Stanley Jevons in 1865, states that as technological improvements increase the efficiency of a resource, its consumption often rises instead of falling. Claude Fable 5 is Anthropic's state-of-the-art model for software engineering, excelling on the CursorBench benchmark for long-horizon coding tasks. Andrej Karpathy is a renowned AI researcher and former Director of AI at Tesla.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.nvidia.com/en-us/glossary/vision-language-models/">What are Vision-Language Models? | NVIDIA Glossary</a></li>
-<li><a href="https://developer.apple.com/private-cloud-compute/">Private Cloud Compute - Apple Developer</a></li>
-<li><a href="https://beebom.com/apple-private-cloud-compute-processed-ai-data-safe-privacy/">Apple Private Cloud Compute : What It Means for Your... | Beebom</a></li>
+<li><a href="https://www.anthropic.com/claude/fable">Claude Fable \ Anthropic</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Apple Intelligence`, `#Siri`, `#LLMs`, `#WWDC`, `#AI`
+**Tags**: `#generative-ai`, `#software-development`, `#jevons-paradox`, `#anthropic`, `#andrej-karpathy`
 
 ---
 
 <a id="item-24"></a>
-## [ML Community Urged to Stop Sinophobic Posts Targeting Chinese Researchers](https://www.reddit.com/r/MachineLearning/comments/1u0fv7u/stop_racist_posts_about_chinese_researchers_d/) ⭐️ 6.0/10
+## [ASR's Next Breakthrough: Supervised or Self-Supervised?](https://www.reddit.com/r/MachineLearning/comments/1u1cklt/what_will_be_the_next_breakthrough_in_asr_d/) ⭐️ 6.0/10
 
-A meta-post on r/MachineLearning publicly condemned the recurring racist posts that baselessly accuse Chinese researchers of misconduct, urging the community to stop such sinophobia. This outcry highlights a systemic issue of racism within the machine learning community, which could discourage participation from Chinese researchers and poison the collaborative environment essential for scientific progress. The post noted that Chinese researchers make up a large portion of the ML field, so rejected authors may mistakenly attribute failures to ethnicity. It emphasized that flaws in peer review, not author nationality, cause inconsistent decisions.
+A Reddit post on r/MachineLearning highlights a shift in automatic speech recognition (ASR) toward large supervised models like Nvidia Parakeet v3 and new architectures like Token-Duration-Transducers, questioning the future role of self-supervised learning. This debate is crucial for the ASR research community, as it could determine whether future breakthroughs come from scaling supervised data or from novel self-supervised architectures, influencing everything from model design to resource allocation. Despite training on only 660k hours of data, Nvidia Parakeet v3 (a 600M-parameter Token-Duration-Transducer model) outperforms Whisper-large-v3 on many benchmarks, showing that architecture and data quality can outweigh sheer scale. Token-Duration-Transducers improve efficiency by jointly predicting tokens and their durations.
 
-reddit · r/MachineLearning · /u/AffectionateLife5693 · Jun 8, 18:11
+reddit · r/MachineLearning · /u/ComprehensiveTop3297 · Jun 9, 17:57
 
-**Background**: r/MachineLearning is a popular online community for ML practitioners to discuss research and conferences. The peer review process for ML conferences is notoriously noisy, leading some rejected authors to search for patterns and sometimes unfairly target Chinese researchers, who are disproportionately represented in the field.
+**Background**: Automatic speech recognition (ASR) traditionally used self-supervised learning (SSL) to pre-train on unlabeled audio, then fine-tuned with labeled data using losses like CTC. Recent models like Whisper and Parakeet v3 are fully supervised on massive pseudo-labeled datasets. In contrast, computer vision has seen SSL thrive (e.g., Dino), raising questions whether speech will follow suit or remain dominated by supervised approaches.
 
-**Discussion**: The post sparked heated debate. Some commenters supported the call to stop racism, while others attempted to justify biases with personal anecdotes, illustrating the persistence of sinophobic attitudes in the community.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://arxiv.org/abs/2304.06795">[2304.06795] Efficient Sequence Transduction by Jointly Predicting Tokens and Durations</a></li>
+<li><a href="https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3">nvidia / parakeet -tdt-0.6b- v 3 · Hugging Face</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Connectionist_temporal_classification">Connectionist temporal classification</a></li>
 
-**Tags**: `#racism`, `#community`, `#ethics`, `#machine-learning`, `#discussion`
+</ul>
+</details>
+
+**Tags**: `#ASR`, `#speech-recognition`, `#machine-learning`, `#deep-learning`, `#architectures`
 
 ---
 
 <a id="item-25"></a>
-## [Are Open-Source LLMs Now 'Good Enough' for Most Tasks?](https://www.reddit.com/r/LocalLLaMA/comments/1u0yo32/have_we_reached_the_point_where_opensource_llms/) ⭐️ 6.0/10
+## [Are Privacy-Preserving ML Techniques Actually Used in Production?](https://www.reddit.com/r/MachineLearning/comments/1u12bpa/are_privacypreserving_techniques_actually_being/) ⭐️ 6.0/10
 
-A Reddit user initiated a discussion questioning whether open-source large language models (LLMs) have reached a threshold of being 'just good enough' for 95% of use cases, prompting a cost-benefit analysis compared to proprietary alternatives. This conversation reflects a growing industry trend where organizations are reassessing the trade-offs between high-cost proprietary models and increasingly capable open-source models, potentially influencing adoption strategies and vendor lock-in concerns. The post highlights specific cost-benefit factors such as better answer quality, cleaner automation loops, risk management, and the perception of using top-tier providers, but lacks empirical data or concrete model comparisons.
+A Reddit discussion asks whether privacy-preserving techniques like differential privacy, federated learning, and on-device inference are being deployed in real-world production ML systems. This reflects growing industry curiosity about the practicality of privacy-enhancing ML, bridging the gap between active research and real-world deployment challenges. The post highlights specific techniques—differential privacy, federated learning, and on-device inference—and inquires about engineering hurdles, performance trade-offs, and valuable use cases, though no community comments were provided.
 
-reddit · r/LocalLLaMA · /u/AdDizzy8160 · Jun 9, 08:02
+reddit · r/MachineLearning · /u/Electrical_Mine1912 · Jun 9, 11:30
 
-**Background**: Open-source LLMs, like Llama, Mistral, and others, can be run locally or on cloud infrastructure, offering customization and potentially lower costs. Proprietary models from OpenAI, Anthropic, and Google often deliver state-of-the-art performance but at higher per-token pricing and with usage restrictions. The 'good enough' concept suggests that for many practical applications, the marginal gains from more expensive models may not justify the additional expense.
+**Background**: Differential privacy adds calibrated noise to statistical outputs to protect individual data. Federated learning trains models across decentralized data without centralizing it. On-device inference processes AI locally on user devices to avoid data transmission. These techniques aim to enhance privacy in machine learning.
 
-**Tags**: `#open-source LLMs`, `#cost-benefit analysis`, `#AI model comparison`, `#local LLMs`, `#discussion`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Differential_privacy">Differential privacy</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Federated_learning">Federated learning</a></li>
+<li><a href="https://medium.com/@syedayanali781/building-ai-powered-apps-with-on-device-inference-3fdb251879b3">bilBuilding AI-Powered Apps with On - Device Inference | Medium</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#privacy-preserving ML`, `#differential privacy`, `#federated learning`, `#production ML`, `#industry adoption`
 
 ---
 
 <a id="item-26"></a>
-## [JetBrains Mellum 2: Fast 12B MoE for Local Inference](https://www.reddit.com/r/LocalLLaMA/comments/1u0r3jh/jetbrains_mellum_2_a_really_good_and_performant/) ⭐️ 6.0/10
+## [Unsloth Releases Gemma 4 QAT MTP Models in GGUF Format](https://www.reddit.com/r/LocalLLaMA/comments/1u19k2h/unsloth_gemma_4_qat_mtp_assistant_models_now/) ⭐️ 6.0/10
 
-JetBrains released Mellum 2, a 12B Mixture of Experts model with only 2.5B active parameters, achieving generation speeds over 100 tokens/second on an AMD Radeon RX 7900 XT. In user tests, it successfully handled complex tool-calling tasks where larger models like Gemma4-12B and GPT-OSS-20B failed. This demonstrates that models with low active parameter counts can deliver both high speed and strong performance on complex reasoning tasks, enabling advanced AI capabilities on consumer GPUs. It highlights the potential of MoE architectures for local, cost-effective deployment of tool-using AI assistants. The model maintained over 100 t/s generation even at 131k context length using bf16 KV cache on llama.cpp's Vulkan backend. It also excelled in a multi-step tool test involving Prometheus metrics checking and transaction log reconstruction, where competing models struggled.
+Unsloth has released quantized Gemma 4 models combining Quantization-Aware Training (QAT) and Multi-Token Prediction (MTP). They are available in GGUF format for multiple sizes, including 12B, 26B, 31B, and efficient mobile variants. These models enable faster local inference via MTP speculative decoding and lower memory footprint through QAT quantization, making advanced open-source LLMs more accessible on consumer hardware and mobile devices. The models are provided as q8_0 GGUF files (with larger quants also available), featuring MTP head configurations that allow generating multiple tokens per step. Variants include specialized mobile versions (e.g., gemma-4-E2B-it-qat-mobile) for further efficiency.
 
-reddit · r/LocalLLaMA · /u/gcavalcante8808 · Jun 9, 01:28
+reddit · r/LocalLLaMA · /u/ParadigmComplex · Jun 9, 16:12
 
-**Background**: Mixture of Experts (MoE) is an architecture where only a subset of model parameters (experts) are used for each input, greatly reducing computational cost. KV cache is a technique that stores previous key-value pairs to accelerate text generation, but its memory usage grows with context length. llama.cpp is a popular open-source framework optimized for running large language models locally on consumer hardware like GPUs and CPUs, supporting various backends such as Vulkan and ROCm.
+**Background**: Quantization-Aware Training (QAT) simulates low-precision weights during training to maintain accuracy after quantization. Multi-Token Prediction (MTP) enables a model to generate multiple tokens at once, often used in speculative decoding to accelerate inference. GGUF is a format for efficiently running quantized LLMs on consumer hardware. Gemma 4 is an open-source model series from Google, and Unsloth provides tools for fine-tuning and deployment.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://huggingface.co/blog/moe">Mixture of Experts Explained</a></li>
-<li><a href="https://grokipedia.com/page/KV_cache">KV cache</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Llama.cpp">Llama.cpp</a></li>
+<li><a href="https://unsloth.ai/docs/blog/quantization-aware-training-qat">Quantization-Aware Training (QAT) | Unsloth Documentation</a></li>
+<li><a href="https://medium.com/data-science-in-your-pocket/what-are-mtp-models-making-llms-faster-ab4000266804">What Are MTP Models ? Making LLMs Faster | by Mehul Gupta | Data Science in Your Pocket | May, 2026 | Medium</a></li>
+<li><a href="https://www.ibm.com/think/topics/quantization-aware-training">What is Quantization Aware Training? | IBM</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM`, `#local-models`, `#performance`, `#tool-calling`, `#MoE`
+**Tags**: `#LocalLLaMA`, `#Gemma`, `#Quantization`, `#GGUF`, `#Model Release`
 
 ---
 
 <a id="item-27"></a>
-## [Google's llama-quantize Broken: Use unsloth Q4_K_XL](https://www.reddit.com/r/LocalLLaMA/comments/1u0marm/quick_note_on_the_qat_of_recent/) ⭐️ 6.0/10
+## [Rust-Native CPU Implementation of LFM2.5-8B-A1B](https://www.reddit.com/r/LocalLLaMA/comments/1u14kte/i_put_together_a_rustnative_cpuonly/) ⭐️ 6.0/10
 
-A Reddit user discovered that Google's llama-quantize has misaligned block groups and incorrect quantization parameters, leading to potentially degraded model quality. They recommend using unsloth's Q4_K_XL quantization as a working alternative. LLM quantization bugs can silently reduce model accuracy, so this warning helps local LLM users avoid a broken tool. It highlights the importance of community-driven testing for open-source tooling. Specifically, llama-quantize hardcodes the quant function to -7 when some groups should be 8, and its 32 block groups are misaligned, causing intermingling. It also improperly quantizes token embeddings to q6k instead of using '--pure'. The unsloth alternative Q4_K_XL is actually pure Q4_0 with a negligible bf16/f16 scale.
+A developer released a Rust-native, CPU-only inference crate for the LFM2.5-8B-A1B model, achieving ~37 tokens/s decode speed with ~7GB memory usage and supporting tool calling and agent sharing. This enables deployment of a capable LLM on modest hardware without GPUs, leveraging Rust's safety and efficiency for local, memory-efficient agentic applications. The cargo crate allows weight sharing across agent instances, each with its own KV cache, and agent cloning to skip redundant prefill; prefill speed is currently unoptimized and matches decode speed.
 
-reddit · r/LocalLLaMA · /u/dreamkast06 · Jun 8, 22:02
+reddit · r/LocalLLaMA · /u/maximecb · Jun 9, 13:11
 
-**Background**: GGUF is a binary format for efficient storage and inference of quantized large language models. The llama-quantize tool, part of llama.cpp, applies various quantization presets (e.g., Q4_K_M) to reduce model size. Block groups organize model parameters for mixed-precision quantization, and unsloth's 'dynamic' GGUFs like Q4_K_XL adaptively choose quantization levels for different matrices.
+**Background**: LFM2.5 is a hybrid model family designed for on-device tool calling. Transformer inference uses a KV cache to reuse key-value pairs from previous tokens. The prefill phase processes the input prompt, while the decode phase generates tokens autoregressively. This implementation runs entirely on CPU, avoiding GPU dependency.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/ggml-org/llama.cpp/blob/master/tools/quantize/README.md">llama.cpp/tools/quantize/README.md at master · ggml-org/llama.cpp</a></li>
-<li><a href="https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs">Unsloth Dynamic 2.0 GGUFs | Unsloth Documentation</a></li>
-<li><a href="https://medium.com/@bnjmn_marie/gguf-quantization-for-fast-and-memory-efficient-inference-on-your-cpu-d10fbe58fbca">GGUF Quantization for Fast and Memory-Efficient Inference... | Medium</a></li>
+<li><a href="https://ollama.com/library/lfm2.5:8b">LFM 2 . 5 - 8 B - A 1 B , an edge model built for fast, reliable tool calling on...</a></li>
+<li><a href="https://medium.com/@joaolages/kv-caching-explained-276520203249">Transformers KV Caching Explained | by João Lages | Medium</a></li>
+<li><a href="https://rajuhemanth456.medium.com/prefill-decode-understanding-the-two-phases-of-llm-inference-b1b6f2b65050">Prefill & Decode : Understanding the Two Phases of LLM ... | Medium</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#quantization`, `#GGUF`, `#model-conversion`, `#unsloth`, `#bug-report`
+**Tags**: `#Rust`, `#local-LLM`, `#CPU-inference`, `#open-source`, `#machine-learning`
 
 ---
 
 <a id="item-28"></a>
-## [AI Agent Skill Aggregates Research Across Multiple Platforms](https://github.com/mvanhorn/last30days-skill) ⭐️ 6.0/10
+## [Throttling GPU Power Limits Saves Energy with Minor Performance Loss](https://www.reddit.com/r/LocalLLaMA/comments/1u15qk3/psa_throttle_gpu_power_limits_with_minor/) ⭐️ 6.0/10
 
-An open-source Python tool called 'last30days-skill' has been released, enabling AI agents to research any topic across Reddit, X, YouTube, Hacker News, Polymarket, and the web, then synthesize a grounded summary with cited sources. This tool enhances AI agent capabilities by providing a structured way to gather diverse online information, which is valuable for journalists, analysts, and automated research. It reflects the growing trend of improving AI agents' ability to perform multi-source, verifiable information synthesis. The skill is implemented in Python and integrates with platforms via APIs or scraping. It specifically includes Polymarket, a prediction market, adding real-time sentiment. It produces 'grounded' summaries, implying evidence-backed synthesis, though exact grounding methods are not detailed.
+A Reddit user reported that by capping the power limit of their dual Radeon VII GPUs from 250W to 100W each, they observed less than a 10% drop in LLM inference speed while drastically reducing energy consumption. This finding highlights that GPU power tuning can yield substantial energy savings for local LLM inference, making it a practical tip for hobbyists and developers looking to reduce operating costs and heat output without major throughput loss. The test used two Radeon VII GPUs with a specific power reduction from 250W to 100W, resulting in less than 10% speed decrease. The generalizability to other GPU models and workloads may vary.
 
-ossinsight · mvanhorn · Jun 9, 10:45
+reddit · r/LocalLLaMA · /u/milpster · Jun 9, 13:57
 
-**Background**: Polymarket is a crypto-based prediction market where users bet on event outcomes, reflecting real-time crowd sentiment. The tool also uses Reddit for community insights, X for real-time updates, YouTube for video content, and Hacker News for tech discussion. 'Grounded summary' means outputs are backed by specific sources, reducing hallucination risks common in LLM-generated text.
+**Background**: GPU power limiting is a feature that allows users to set an upper bound on electricity consumption, often used to reduce thermals and noise. In machine learning inference, performance does not always scale linearly with power, as modern GPUs can maintain high efficiency within a certain power envelope. This tip is especially relevant for local LLM servers that run continuously.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Polymarket">Polymarket</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#AI`, `#agent`, `#research`, `#tool`, `#Python`
+**Tags**: `#GPU optimization`, `#power efficiency`, `#local LLM`, `#inference`, `#energy saving`
 
 ---
 
 <a id="item-29"></a>
-## [Agent-Reach: Free CLI Tool for AI Agents to Access Multiple Social Platforms](https://github.com/Panniantong/Agent-Reach) ⭐️ 6.0/10
+## [Live Challenge: Speed Up Gemma 4 E4B Inference on Single A10G](https://www.reddit.com/r/LocalLLaMA/comments/1u1blp1/watch_agents_fight_a_live_challenge_to_speed_up/) ⭐️ 6.0/10
 
-A new Python CLI tool called Agent-Reach has been released, enabling AI agents to read and search content across Twitter, Reddit, YouTube, GitHub, Bilibili, and XiaoHongShu without requiring paid API access. This tool bypasses the high costs and restrictions of official APIs, democratizing access to real-time social media data for AI agents and potentially accelerating development of applications that rely on such data. Agent-Reach is written in Python and uses web scraping to support six major platforms; it is currently in an early stage with limited stars and no community feedback yet.
+A Reddit community has launched a live challenge where participants use competing AI agents to accelerate inference of Google's Gemma 4 E4B model on a single NVIDIA A10G GPU. This grassroots competition highlights the growing demand for efficient edge AI inference and could yield novel optimization techniques valuable to the local LLM community. The Gemma 4 E4B model is a 4-billion-parameter edge-optimized model with a 128K context window, while the A10G is a cost-effective, 24 GB GDDR6 GPU based on Ampere architecture. The live event pits AI agents against each other to find speed improvements.
 
-ossinsight · Panniantong · Jun 9, 10:45
+reddit · r/LocalLLaMA · /u/paf1138 · Jun 9, 17:22
 
-**Background**: Bilibili is a popular Chinese video-sharing platform known for its danmu commenting system, while XiaoHongshu (RedNote) is a Chinese social commerce app combining user notes with product discovery. Accessing these platforms via official APIs often involves fees or developer restrictions, making a free scraping tool valuable for AI agents seeking diverse data sources.
+**Background**: Gemma is Google's family of lightweight open models; the 'E' stands for 'effective' parameters tailored for edge deployment. The NVIDIA A10G is a mid-range GPU commonly used in cloud instances, balancing inference performance with power efficiency. Optimizing inference speed on such hardware is a key focus for local and private LLM deployments.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Bilibili">Bilibili</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Xiaohongshu">Xiaohongshu</a></li>
+<li><a href="https://huggingface.co/google/gemma-4-E4B">google/gemma-4-E4B · Hugging Face</a></li>
+<li><a href="https://ollama.com/library/gemma4:e4b">gemma4:e4b</a></li>
+<li><a href="https://www.nvidia.com/en-us/data-center/products/a10-gpu/">A10 Tensor Core GPU | NVIDIA</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#cli-tool`, `#ai-agents`, `#web-scraping`, `#python`, `#social-media`
+**Tags**: `#LLM optimization`, `#Gemma`, `#GPU inference`, `#community challenge`, `#AI agents`
 
 ---
 
 <a id="item-30"></a>
-## [CodeGraph: Local Pre-Indexed Code Knowledge Graph for AI Coders](https://github.com/colbymchenry/codegraph) ⭐️ 6.0/10
+## [Agent-Reach: Python CLI for AI Agents to Access Social Platforms Free](https://github.com/Panniantong/Agent-Reach) ⭐️ 6.0/10
 
-CodeGraph is an open-source tool that provides a pre-indexed, AST-based knowledge graph of a codebase, enabling AI coding agents like Claude Code, Codex, Gemini, Cursor, and others to instantly query symbol relationships, call graphs, and code structure, thereby reducing token usage and tool calls. This addresses a key bottleneck in AI-assisted coding: the cost and latency of repeated tool calls and large context windows. By pre-indexing the codebase, it can significantly improve efficiency and lower costs, potentially benefiting many developers using AI coding assistants, and its local operation addresses privacy concerns. It uses Abstract Syntax Tree (AST) analysis to build the graph, supporting multiple programming languages, and functions as an MCP (Model Context Protocol) server for integration. Local setup and pre-indexing are required, which may be time-consuming for large codebases.
+The GitHub repository Panniantong/Agent-Reach, a Python CLI tool, was released, enabling AI agents to search and read content from platforms like Twitter and Reddit without API fees, gaining 35 stars in 24 hours. This tool eliminates the need for costly API access, making it easier for open-source AI projects and researchers to integrate real-time web data into agents, potentially accelerating development of autonomous AI systems. The CLI supports platforms including Twitter, Reddit, YouTube, GitHub, Bilibili, and XiaoHongShu, with a unified interface for search and content retrieval, though it likely relies on web scraping, which may be fragile and against some platforms' terms of service.
 
-ossinsight · colbymchenry · Jun 9, 10:45
+ossinsight · Panniantong · Jun 9, 19:35
 
-**Background**: AI coding assistants often need to understand a codebase by repeatedly reading files and running commands, consuming tokens and time. A knowledge graph represents code entities and their relationships, enabling efficient queries. Pre-indexing means the graph is built beforehand, so queries are instant.
+**Background**: AI agents often require real-time data from web platforms; official APIs can be expensive or rate-limited. Web scraping is a common alternative but must handle dynamic content and anti-bot measures. This tool provides a ready-made solution for accessing multiple sources through a single command-line interface.
+
+**Tags**: `#ai-agents`, `#web-scraping`, `#cli-tool`, `#python`, `#open-source`
+
+---
+
+<a id="item-31"></a>
+## [DeepSeek-GUI: Open-Source AI Agent Workspace for DeepSeek Models](https://github.com/XingYu-Zhong/DeepSeek-GUI) ⭐️ 6.0/10
+
+The GitHub repository XingYu-Zhong/DeepSeek-GUI gained 26 stars in the past 24 hours, offering an open-source GUI workspace with Code and Claw modes specifically designed for DeepSeek models. This project lowers the barrier for developers to build and manage local AI agents using DeepSeek's cost-efficient models, potentially accelerating the adoption of DeepSeek in developer tooling and automation workflows. Built with TypeScript, the GUI supports Code mode for AI-assisted coding, Claw mode for background automation (e.g., connecting to Feishu, webhooks, scheduled jobs), and a Write mode. It runs locally on Windows and macOS and includes a Kun runtime with plugin/Skill/MCP support.
+
+ossinsight · XingYu-Zhong · Jun 9, 19:35
+
+**Background**: DeepSeek is a Chinese AI company known for training large language models at a fraction of the cost of competitors like OpenAI. The DeepSeek-GUI provides a local desktop workspace that integrates these models into an agentic environment, allowing developers to interact with them for coding, writing, and automated tasks without relying on cloud services.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/colbymchenry/codegraph">GitHub - colbymchenry/codegraph: Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent</a></li>
-<li><a href="https://andrew.ooo/posts/codegraph-review-pre-indexed-knowledge-graph-claude-code/">CodeGraph Review: Pre-Indexed Knowledge Graph for AI Agents — andrew.ooo</a></li>
+<li><a href="https://github.com/XingYu-Zhong/DeepSeek-GUI">GitHub - XingYu-Zhong/DeepSeek-GUI: AI agent workspace for DeepSeek models, with Code and Claw modes built into your application. · GitHub</a></li>
+<li><a href="https://thewincentral.com/deepseek-gui-local-ai-agent-workspace/">DeepSeek GUI Launches With Local AI Agents - WinCentral</a></li>
+<li><a href="https://www.toolhunter.cc/tools/deepseek-gui">DeepSeek GUI: Best AI Coding Agents for Developers in 2026</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#knowledge-graph`, `#ai-coding-assistants`, `#token-optimization`, `#typescript`, `#developer-tools`
+**Tags**: `#DeepSeek`, `#AI-agent`, `#GUI`, `#TypeScript`, `#open-source`
 
 ---
 
