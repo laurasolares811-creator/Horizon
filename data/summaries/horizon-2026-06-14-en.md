@@ -1,509 +1,463 @@
 # Horizon Daily - 2026-06-14
 
-> From 42 items, 22 important content pieces were selected
+> From 37 items, 21 important content pieces were selected
 
 ---
 
-1. [The Birth and Death of JavaScript: Satirical Talk Still Relevant](#item-1) ⭐️ 8.0/10
-2. [AI Adoption Remains Mixed Despite Widespread Hype](#item-2) ⭐️ 8.0/10
-3. [Paul Graham's Billion-Dollar Essay Ignites Wealth Ethics Debate](#item-3) ⭐️ 8.0/10
-4. [Honda Civic Infotainment Hacked Using AOSP Test Keys](#item-4) ⭐️ 8.0/10
-5. [Don't Trust Large Context Windows](#item-5) ⭐️ 8.0/10
-6. [Pyodide 314.0 Enables Direct WASM Wheel Publishing on PyPI](#item-6) ⭐️ 8.0/10
-7. [Xiaomi's MiMo V2.5 Achieves 1000-3000 TPS with DFlash and Persistent Kernel](#item-7) ⭐️ 8.0/10
-8. [Free Browser-Based SQL to ER Diagram Tool](#item-8) ⭐️ 7.0/10
-9. [Heretic Grimoire: Local-First, Takedown-Resilient Backup for Uncensored LLMs](#item-9) ⭐️ 7.0/10
-10. [Running DeepSeek 4 Flash on Mac M3 Max with 96GB RAM](#item-10) ⭐️ 7.0/10
-11. [Dual DGX Sparks Run DeepSeek V4 Flash at 350 tk/s Aggregate](#item-11) ⭐️ 7.0/10
-12. [Headroom: Compress LLM Inputs to Cut Token Usage by 60-95%](#item-12) ⭐️ 7.0/10
-13. [Pre-Indexed Code Knowledge Graph for AI Coding Agents](#item-13) ⭐️ 7.0/10
-14. [Simon Willison Explores SQLite Column Provenance for Datasette](#item-14) ⭐️ 6.0/10
-15. [OpenAI Faces Multi-State Subpoenas on AI Communication](#item-15) ⭐️ 6.0/10
-16. [Qwen3.6-27B Codebase Expansion Leads to Hidden Bugs, Workflow Rethink Needed](#item-16) ⭐️ 6.0/10
-17. [Local AI Assistant 'Bantz' Built After Anthropic Shutdown](#item-17) ⭐️ 6.0/10
-18. [Reddit User's Guide to Running AI Locally for Beginners](#item-18) ⭐️ 6.0/10
-19. [Agent-Reach: AI Agents Search the Web Without API Fees](#item-19) ⭐️ 6.0/10
-20. [Apple's open-source tool for Linux containers on Mac](#item-20) ⭐️ 6.0/10
-21. [New AI Agent Skill Conducts Multi-Source Research and Generates Grounded Summaries](#item-21) ⭐️ 6.0/10
-22. [Local-first Agent Analytics with 100x Speed Over ccusage](#item-22) ⭐️ 6.0/10
+1. [Kage: Clone Websites into a Single Offline Binary](#item-1) ⭐️ 8.0/10
+2. [Jane Street's Formal Methods Exploration Sparks Future of Programming Debate](#item-2) ⭐️ 8.0/10
+3. [Evaluating Predictions from 2014's 'The Birth and Death of JavaScript'](#item-3) ⭐️ 8.0/10
+4. [Not Everyone Is Using AI for Everything](#item-4) ⭐️ 8.0/10
+5. [Pyodide Now Supports Publishing WASM Wheels to PyPI](#item-5) ⭐️ 8.0/10
+6. [The Verifier Tax: Safety vs. Success in Tool-Using LLM Agents](#item-6) ⭐️ 8.0/10
+7. [Rio's 'Homegrown' LLM Revealed as Weighted Model Merge](#item-7) ⭐️ 7.0/10
+8. [Paul Graham's Essay on Earning a Billion Through Startups](#item-8) ⭐️ 7.0/10
+9. [SQLite Column Provenance Mapping for Datasette](#item-9) ⭐️ 7.0/10
+10. [Open-Source Knowledge Graph Pipeline Enhances LLM Multi-Hop Reasoning](#item-10) ⭐️ 7.0/10
+11. [Coherent Context Silently Shifts LLMs' Internal Regime, Evading Safety](#item-11) ⭐️ 7.0/10
+12. [headroom: Compress LLM Context by 60-95%](#item-12) ⭐️ 7.0/10
+13. [Local ML Indexes 669GB GoPro Videos on M1 Max](#item-13) ⭐️ 6.0/10
+14. [Zeroserve Claims Caddy Compatibility with 3x Throughput and Lower Latency](#item-14) ⭐️ 6.0/10
+15. [Satirical Linux 7.1 Release Pokes Fun at AI Bug Reports](#item-15) ⭐️ 6.0/10
+16. [Multi-State Subpoenas Investigate OpenAI's Speech Generation](#item-16) ⭐️ 6.0/10
+17. [Agent-Reach: CLI Tool Giving AI Agents Eyes to Read Web Without APIs](#item-17) ⭐️ 6.0/10
+18. [Apple Open-Sources Swift Tool for Linux Containers on Mac](#item-18) ⭐️ 6.0/10
+19. [AI Agent Skill Aggregates Multiple Platforms for Grounded Summaries](#item-19) ⭐️ 6.0/10
+20. [agentsview: Local-First Session Intelligence Tool 100x Faster Than ccusage](#item-20) ⭐️ 6.0/10
+21. [Hyperframes: Write HTML, Render Video for AI Agents](#item-21) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [The Birth and Death of JavaScript: Satirical Talk Still Relevant](https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript) ⭐️ 8.0/10
+## [Kage: Clone Websites into a Single Offline Binary](https://github.com/tamnd/kage) ⭐️ 8.0/10
 
-A 2014 satirical talk by Destroy All Software humorously predicted that JavaScript would become the universal compilation target, leading to a cycle of 'better JavaScripts' transpiling to JS. Years later, its forecasts on technologies like asm.js and WebAssembly are remarkably aligned with reality. This talk's accurate foresight highlights JavaScript's central role in web development and the ongoing relevance of transpilation. It underscores how the language's evolution continues to shape software architecture, with tools like TypeScript and WebAssembly validating the satirical vision. The talk specifically referenced asm.js as a compilation target; while asm.js has been deprecated, WebAssembly now serves that role but still requires JavaScript for DOM manipulation, as noted by commentators. This limitation means the full replacement of JavaScript remains incomplete.
+Kage, a new open-source tool, enables users to clone any website into a single portable binary that can be viewed offline, with all JavaScript stripped for static and secure content. It addresses the need for offline access to web-based documentation and resources in environments without internet, benefiting field workers, travelers, and archivists. Kage uses headless Chrome to capture the page's DOM after rendering, strips all JavaScript, and bundles CSS, images, and fonts into a single binary with a built-in server.
 
-hackernews · subset · Jun 14, 12:38 · [Discussion](https://news.ycombinator.com/item?id=48526661)
+hackernews · tamnd · Jun 14, 17:25 · [Discussion](https://news.ycombinator.com/item?id=48529990)
 
-**Background**: asm.js is a strict subset of JavaScript designed for efficient compilation from languages like C, enabling near-native performance in browsers. Transpiling refers to translating source code from one language to another at a similar abstraction level, such as TypeScript to JavaScript. WebAssembly is a binary instruction format for a stack-based virtual machine, allowing code written in multiple languages to run at near-native speed on the web.
+**Background**: Web archiving aims to preserve websites for offline use. Traditional methods often involve saving multiple files or using complex server setups. Kage simplifies this by creating a self-contained executable. It leverages headless browsing to capture dynamic content, then strips potentially malicious or unnecessary scripts, resulting in a static, secure archive.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Asm.js">Asm.js</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Transpiling">Transpiling</a></li>
+<li><a href="https://github.com/tamnd/kage">GitHub - tamnd/kage: Shadow any website for offline viewing , with...</a></li>
+<li><a href="https://kage.tamnd.com/guides/packing-a-mirror/">Packing a mirror | kage</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community members note the talk's prescience, especially the prediction of a global disaster (mistakenly assumed to be COVID-19). Commentators discuss the shift from asm.js to WebAssembly, the need for JavaScript as glue code due to lack of DOM access in Wasm, and the enduring cycle of new languages transpiling to JS.
+**Discussion**: The community discussed use cases such as offline company wikis. Comparisons to SingleFile and HTTrack were drawn, noting that SingleFile produces a single HTML file with embedded assets, while Kage creates a binary. Some questioned the need for a built-in server, suggesting direct file opening. The author uses ascii-gif for the demo, which is also his project.
 
-**Tags**: `#javascript`, `#webassembly`, `#history`, `#compilation`, `#humor`
+**Tags**: `#offline-web`, `#packaging`, `#golang`, `#web-archiving`, `#developer-tools`
 
 ---
 
 <a id="item-2"></a>
-## [AI Adoption Remains Mixed Despite Widespread Hype](https://gabrielweinberg.com/p/people-are-consuming-ai-like-they) ⭐️ 8.0/10
+## [Jane Street's Formal Methods Exploration Sparks Future of Programming Debate](https://blog.janestreet.com/formal-methods-at-jane-street-index/?from_theconsensus=1) ⭐️ 8.0/10
 
-The Hacker News discussion surrounding Gabriel Weinberg's article reveals that despite the perception of ubiquitous AI use, many people and companies are integrating AI cautiously, with some avoiding it altogether, while others find it helpful but requiring significant supervision. This challenges the narrative that AI is universally transformative, highlighting that real-world integration faces hurdles like reliability, performance, and user trust, which could influence investment and product strategy in the tech industry. Specific anecdotes include companies replacing deterministic support flows with slower, worse LLM versions, and developers noting that AI-generated code for native UIKit Swift apps requires close oversight. A commenter counterpoints that broader AI definitions (e.g., camera ML) could push usage rates to 75%+ in the US.
+Jane Street published a blog post detailing their use of formal methods to ensure code correctness, which ignited a Hacker News discussion with 153 points and 50 comments. The conversation spanned historical tools like the Boyer-Moore prover and modern practices such as leveraging Scala 3's expressive type system for compile-time verification. The renewed interest in formal methods is partly driven by the rise of AI-generated code, which shifts human value toward verification. This approach could significantly improve software reliability and reduce bugs in critical systems. Discussions highlighted the use of early SAT solvers and the Oppen-Nelson simplifier for proof automation, as well as modern type-level proofs to prevent errors like 'noun accretion' in agentic code generation. Some skeptics view formal specifications as essentially duplicating tests or implementation.
 
-hackernews · yegg · Jun 14, 14:44 · [Discussion](https://news.ycombinator.com/item?id=48527700)
+hackernews · eatonphil · Jun 14, 12:35 · [Discussion](https://news.ycombinator.com/item?id=48526633)
 
-**Background**: Large language models (LLMs) are AI systems like GPT-4 trained on vast text data to generate and analyze human-like text. They underpin chatbots and coding assistants but often lack precision and require human oversight. The article by DuckDuckGo founder Gabriel Weinberg sparked debate on Hacker News, a forum known for tech industry insights.
+**Background**: Formal methods are mathematically rigorous techniques for specifying, developing, and verifying software and hardware systems. They employ logic, type theory, and automated reasoning to prove correctness. Program verification, a subset of formal methods, involves proving that a program satisfies a formal specification.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Large_language_model">Large language model - Wikipedia</a></li>
-<li><a href="https://www.geeksforgeeks.org/artificial-intelligence/large-language-model-llm/">Large Language Model (LLM) - GeeksforGeeks</a></li>
-<li><a href="https://suneelk.medium.com/what-is-an-llm-a-super-simple-guide-for-beginners-even-if-youve-never-coded-b4c1b2adaf78">What is an LLM? A Super Simple Guide for Beginners (Even If ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Formal_methods">Formal methods</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Formal_verification">Formal verification - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Overall sentiment is skeptical of overhyped claims, with many sharing experiences of careful integration. Some users point out that broader definitions of AI (like smartphone features) could mean high usage, but others caution that LLM interfaces can degrade performance. The analogy to meat consumption suggests AI adoption may still grow despite resistance.
+**Discussion**: The community showed a mix of nostalgia for early proof automation, pragmatic adoption of type-level verification in Scala, and concerns about AI-generated code quality. Some argue formal specs are redundant, while others see them as essential for verifying AI outputs and ensuring long-term code correctness.
 
-**Tags**: `#AI adoption`, `#hype vs reality`, `#LLM`, `#software development`, `#community discussion`
+**Tags**: `#formal-methods`, `#program-verification`, `#type-systems`, `#software-engineering`, `#ai-code-generation`
 
 ---
 
 <a id="item-3"></a>
-## [Paul Graham's Billion-Dollar Essay Ignites Wealth Ethics Debate](https://paulgraham.com/earn.html) ⭐️ 8.0/10
+## [Evaluating Predictions from 2014's 'The Birth and Death of JavaScript'](https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript) ⭐️ 8.0/10
 
-Paul Graham published an essay titled 'How to Earn a Billion Dollars,' which sparked a heated online debate on Hacker News, garnering 224 points and 593 comments, focusing on the nature of extreme wealth accumulation. The discussion reflects deep societal divides over whether vast wealth can be genuinely 'earned' or if it necessarily involves exploitation and externalities, touching on fundamental questions of economic morality and policy. Commenters argued that earning a billion dollars through work alone is virtually impossible, requiring wealth extraction via market structures and often ignoring negative externalities like displaced workers.
+A 2014 talk by Gary Bernhardt humorously predicted that JavaScript would become a universal compilation target and eventually 'die', and recent discussion evaluates how these predictions have aged, particularly with the rise of WebAssembly. The talk foresaw key trends like transpilation and WebAssembly that are now mainstream, showing deep insight into web development's trajectory. This reflection highlights the ongoing debate about JavaScript's role after WebAssembly's emergence. The talk specifically referenced asm.js as the then-emerging compilation target, which later evolved into WebAssembly. However, WebAssembly still lacks direct DOM manipulation, requiring JavaScript as glue code, limiting its ability to fully replace JavaScript.
 
-hackernews · kingstoned · Jun 14, 11:50 · [Discussion](https://news.ycombinator.com/item?id=48526360)
+hackernews · subset · Jun 14, 12:38 · [Discussion](https://news.ycombinator.com/item?id=48526661)
 
-**Background**: Paul Graham is a co-founder of Y Combinator, a prominent startup accelerator, and his essays often shape tech industry philosophy. The debate relates to broader concepts like wealth inequality, creative destruction, and the moral hazards of unchecked wealth accumulation.
+**Background**: WebAssembly (Wasm) is a low-level binary instruction format that runs at near-native speed in web browsers. It was preceded by asm.js, a strict subset of JavaScript that could be optimized. The concept of JavaScript as a compilation target emerged as developers transpile other languages (e.g., TypeScript, Rust) into JavaScript to run on the web.
 
-**Discussion**: The community largely criticized Graham's viewpoint as overly simplistic. Many argued that billion-dollar fortunes rely on systemic extraction and externalities, not just individual effort. Some noted a moral limit to wealth, while others highlighted the disconnect between creating value and earning money.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://rustwasm.github.io/docs/book/what-is-webassembly.html">What is WebAssembly ? - Rust and WebAssembly</a></li>
+<li><a href="https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6">What is WebAssembly ?. Why the future of the web platform | Medium</a></li>
 
-**Tags**: `#wealth`, `#entrepreneurship`, `#ethics`, `#economics`, `#startup`
+</ul>
+</details>
+
+**Discussion**: Commenters agree that the prediction of JavaScript as a compilation target was accurate, with asm.js then WebAssembly realizing this vision. However, some note WebAssembly's development has been slower than anticipated and still requires JavaScript for DOM interaction, so the 'death' of JavaScript hasn't occurred.
+
+**Tags**: `#javascript`, `#history`, `#webassembly`, `#compilation`, `#tech-talk`
 
 ---
 
 <a id="item-4"></a>
-## [Honda Civic Infotainment Hacked Using AOSP Test Keys](https://juniperspring.org/posts/honda-evil-valet/) ⭐️ 8.0/10
+## [Not Everyone Is Using AI for Everything](https://gabrielweinberg.com/p/people-are-consuming-ai-like-they) ⭐️ 8.0/10
 
-A practical exploit achieves arbitrary code execution on Honda Civic infotainment systems by flashing a USB update package signed with publicly-known AOSP test keys. This exposes critical automotive security weaknesses, as compromised infotainment systems can access microphones, cameras, GNSS, and connectivity features, turning vehicles into mobile surveillance platforms. The attack targets 10th-gen Honda Civics running Android 4.2.2, using recovery packages that bypass spoofable version checks; it requires physical USB access but no root privileges.
+The article presents an analysis challenging the narrative that AI usage is ubiquitous, finding that while many people experiment with AI tools, daily reliance is far from universal and integration into daily workflows remains mixed. This provides a reality check for the AI industry, tempering hype with evidence of uneven adoption and reminding developers that AI must be integrated thoughtfully into existing software rather than relying solely on chat interfaces. One cited study found that over 50% of respondents use AI less than once per week, and the article suggests that future growth lies in embedding AI into existing applications rather than increasing chat-based interactions.
 
-hackernews · librick · Jun 14, 00:49 · [Discussion](https://news.ycombinator.com/item?id=48523080)
+hackernews · yegg · Jun 14, 14:44 · [Discussion](https://news.ycombinator.com/item?id=48527700)
 
-**Background**: AOSP (Android Open Source Project) test keys are publicly available keys used for development; commercial devices should replace them with unique release keys. Many automotive infotainment systems run Android but often lack proper security measures, leaving them vulnerable to tampering. Physical access to a vehicle's USB port can allow attackers to compromise the head unit, potentially bridging into other vehicle systems.
+**Background**: Over the past few years, companies like OpenAI and Google have marketed AI assistants as transformative tools, leading to widespread media claims that 'everyone is using AI.' This article by Gabriel Weinberg offers a counterpoint, highlighting that actual daily usage is still limited and concentrated among early adopters and specific domains like programming.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/wfairclough/android_aosp_keys">GitHub - wfairclough/android_aosp_keys: The platform keys ...</a></li>
-<li><a href="https://aospinsider.com/courses/aosp-course-1/43-platform-keys-release-keys/">Platform Keys & Release Keys - AOSP Foundations | AOSPInsider</a></li>
+**Discussion**: Commenters shared mixed experiences: some find AI invaluable for backend coding but unreliable for native app development; others note that AI is increasingly embedded in existing software rather than used via chat. There is also discussion about employers' varied attitudes toward AI use during interviews, reflecting a broader uncertainty about AI's role in professional settings.
 
-</ul>
-</details>
-
-**Discussion**: Commenters debated the severity: some warned that compromised infotainment systems become mobile surveillance platforms due to onboard sensors, while others argued that physical access already enables simpler attacks like planting bugs. There was also appreciation for Honda's relative openness compared to more locked-down carmakers.
-
-**Tags**: `#reverse-engineering`, `#automotive-security`, `#android`, `#infotainment`, `#hacking`
+**Tags**: `#AI`, `#adoption`, `#LLMs`, `#software development`, `#tech trends`
 
 ---
 
 <a id="item-5"></a>
-## [Don't Trust Large Context Windows](https://garrit.xyz/posts/2026-05-06-dont-trust-large-context-windows) ⭐️ 8.0/10
+## [Pyodide Now Supports Publishing WASM Wheels to PyPI](https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything) ⭐️ 8.0/10
 
-A new article warns that large context windows (e.g., 1M tokens) in large language models are unreliable, as models frequently fail to utilize information from the middle or end of the context, leading to degraded performance. This unreliability challenges the widespread assumption that larger context windows inherently improve model performance, potentially undermining applications that rely on long-term context retention, such as code assistants and document analysis. Key findings suggest that LLMs exhibit a 'U-shaped' attention curve, where information at the start and end of the context is better recalled, while content in the middle is often overlooked; some users mitigate this by limiting context length or restructuring agent loops.
-
-hackernews · computersuck · Jun 14, 06:07 · [Discussion](https://news.ycombinator.com/item?id=48524620)
-
-**Background**: A context window in large language models is the maximum number of tokens the model can process in a single prompt, similar to short-term memory. Recent models have expanded windows up to millions of tokens, promising the ability to handle entire books or large codebases. However, longer contexts increase computational cost and can dilute attention, making effective information retrieval challenging.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Context_window">Context window - Wikipedia</a></li>
-<li><a href="https://www.datacamp.com/blog/context-window">What is a Context Window for Large Language Models? - DataCamp</a></li>
-<li><a href="https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-a-context-window">What is a context window for Large Language Models? | McKinsey</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community discussion reveals divided opinions: some users report success with large contexts (up to 800k tokens) using specific models like Opus, while others emphasize strict context limits and agent designs to avoid degradation. A commenter noted that many workarounds resemble folk wisdom rather than rigorous engineering.
-
-**Tags**: `#LLM`, `#context-window`, `#reliability`, `#AI-safety`, `#software-engineering`
-
----
-
-<a id="item-6"></a>
-## [Pyodide 314.0 Enables Direct WASM Wheel Publishing on PyPI](https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything) ⭐️ 8.0/10
-
-Pyodide version 314.0 now allows package authors to publish WebAssembly (WASM) compatible Python wheels directly to the Python Package Index (PyPI), a capability that previously required manual maintenance by the Pyodide team. This change is defined by PEP 783 and was implemented via a pull request to PyPI's Warehouse on April 21, 2026. This removes a major bottleneck for the Pyodide ecosystem, shifting the burden from a small group of maintainers to the broader community. It paves the way for easier distribution of WASM-based Python extensions, potentially accelerating browser-based Python applications and scientific computing in the browser. WASM wheels follow the "pyemscripten" platform tag defined in PEP 783, and can be installed at runtime using Pyodide's micropip. The author demonstrated this by publishing a luau-wasm package, a 276KB wheel built with cibuildwheel, showcasing the end-to-end workflow.
+Pyodide 314.0, in accordance with PEP 783, now allows Python package maintainers to publish WebAssembly (WASM) wheels directly to PyPI, eliminating the need for manual maintenance by the Pyodide team. This change drastically reduces the maintainer burden for Pyodide and opens up community-driven distribution of browser-compatible Python packages, accelerating the adoption of Python in the browser. WASM wheels use the PyEmscripten platform tag (e.g., cp314-cp314-pyemscripten_2026_0_wasm32.whl) and can be installed at runtime using micropip. The example package luau-wasm is 276KB and includes a C++ extension compiled to WebAssembly.
 
 rss · Simon Willison · Jun 13, 23:55
 
-**Background**: Pyodide is a Python distribution that runs entirely in the browser via WebAssembly. Previously, extension modules with C/C++/Rust code compiled to WASM had to be manually included by Pyodide maintainers in their distribution. PEP 783 standardizes the packaging of Python for the Emscripten platform (WASM), and PyPI is the standard repository for Python packages.
+**Background**: Pyodide is a Python distribution that runs in the browser and Node.js using WebAssembly. PyPI (Python Package Index) is the official repository for Python packages. 'Wheels' are a built package format for Python. Previously, Pyodide maintained a separate repository of compiled packages, but now packages can be distributed just like native Linux/macOS/Windows wheels, thanks to PEP 783 defining the PyEmscripten platform.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/">Publishing WASM wheels to PyPI for use with Pyodide</a></li>
-<li><a href="https://pyodide.org/">Pyodide — Version 314.0.0</a></li>
+<li><a href="https://peps.python.org/pep-0783/">PEP 783 – Emscripten Packaging | peps.python.org</a></li>
+<li><a href="https://pyodide.org/en/stable/development/abi.html">The PyEmscripten Platform — Version 0.29.4</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#python`, `#webassembly`, `#pypi`, `#pyodide`, `#packaging`
+**Tags**: `#Python`, `#Pyodide`, `#WebAssembly`, `#Packaging`, `#PyPI`
+
+---
+
+<a id="item-6"></a>
+## [The Verifier Tax: Safety vs. Success in Tool-Using LLM Agents](https://www.reddit.com/r/MachineLearning/comments/1u58mkq/the_verifier_tax_horizondependent_safetysuccess/) ⭐️ 8.0/10
+
+New research presented at ACM CAIS 2026 introduces the 'Verifier Tax,' quantifying how adding runtime verification to tool-using LLM agents reduces unsafe completions but lowers overall success rates as interaction horizons increase. It proposes a two-tier verification architecture coupling deterministic policy checks with an LLM-based contextual verifier. This exposes a critical safety–performance tradeoff in real-world, multi-turn agent deployments, where unmitigated verification can cripple capability. Understanding the Verifier Tax is essential for building AI agents that are both safe and practically useful at scale. The study used τ-bench and found a model-dependent Safety–Capability Gap at 15–30 turn horizons; beyond that, verification sharply reduces task completion. The two-tier approach runs fast deterministic checks first, invoking the costlier LLM verifier only for ambiguous edge cases.
+
+reddit · r/MachineLearning · /u/AccomplishedLeg1508 · Jun 14, 02:09
+
+**Background**: Tool-using LLM agents are language models that interact with external tools (APIs, databases) over multiple turns to complete user tasks. Ensuring safety is hard because agents can succeed at the task while violating policies. Verification mechanisms check for violations but can block or delay actions—creating a tradeoff. τ-bench is a benchmark that simulates realistic enterprise scenarios with domain rules and simulated users, allowing controlled safety evaluation.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://arxiv.org/abs/2603.19328">[2603.19328] The Verifier Tax: Horizon Dependent Safety Success Tradeoffs in Tool Using LLM Agents</a></li>
+<li><a href="https://www.caisconf.org/program/2026/papers/the-verifier-tax-horizon-dependent-safety-success-tradeoffs-in-tool-using-llm-ag">The Verifier Tax: Horizon Dependent Safety–Success Tradeoffs in Tool Using LLM Agents — CAIS 2026 — ACM CAIS 2026</a></li>
+<li><a href="https://arxiv.org/abs/2406.12045">[2406.12045] $τ$-bench: A Benchmark for Tool-Agent-User Interaction in ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#LLM agents`, `#safety`, `#tool-use`, `#verification`, `#tradeoffs`
 
 ---
 
 <a id="item-7"></a>
-## [Xiaomi's MiMo V2.5 Achieves 1000-3000 TPS with DFlash and Persistent Kernel](https://www.reddit.com/r/LocalLLaMA/comments/1u5jtr8/xiaomi_is_now_serving_mimo_v25_at_10003000tps/) ⭐️ 8.0/10
+## [Rio's 'Homegrown' LLM Revealed as Weighted Model Merge](https://github.com/nex-agi/Nex-N2/issues/4) ⭐️ 7.0/10
 
-Xiaomi announced that its MiMo V2.5 model is now being served at 1000 to 3000 tokens per second using DFlash speculative decoding and a persistent kernel architecture, with the DFlash model already released and the full inference stack promised as open-source soon. This marks a significant leap in LLM serving efficiency, demonstrating that trillion-parameter models can be served at extremely high throughput on commodity GPUs, which could drastically reduce operational costs and latency for real-world AI applications. The system uses FP4 quantization via the MiMo-V2.5-Pro-FP4-DFlash model, achieves 1000 TPS on an 8-GPU setup, and the persistent kernel approach fuses all computation and communication into a single GPU kernel launch to minimize overhead.
+A GitHub issue analyzed that Rio de Janeiro's publicly released LLM, Rio-3.5-Open-397B, is a weighted merge of approximately 60% Nex-N2 Pro and 40% Qwen3.5-397B-A17B, with nearly identical weight tensors across all layers, rather than an independent fine-tune. This finding highlights issues of open-source attribution and ethics in AI, while also demonstrating the surprising effectiveness of simple weight merging, which could influence how future models are developed and released. The blend is consistent at a ratio of 0.6/0.4 across all 60 layers and network components, with no additional training performed. Despite the linear combination, the merged model outperformed comparable baselines on benchmarks.
 
-reddit · r/LocalLLaMA · /u/Dany0 · Jun 14, 12:26
+hackernews · unrvl22 · Jun 14, 15:37 · [Discussion](https://news.ycombinator.com/item?id=48528371)
 
-**Background**: DFlash is a speculative decoding technique that accelerates inference by generating multiple tokens in a single step. Persistent kernel refers to a megakernel architecture that eliminates kernel launch overhead by executing the entire inference pipeline within one long-running GPU kernel. MiMo V2.5 is Xiaomi's omnimodal mixture-of-experts model with 310B total parameters (15B active per token), supporting text, image, video, and audio.
+**Background**: Model merging combines the parameters of multiple neural networks without extra training, often used to improve performance or combine capabilities. Qwen3.5 is a large language model from Alibaba Cloud, and Nex-N2 Pro is a model released shortly before. The Rio model was advertised as a fine-tuned version of Qwen, not a merge.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://chinabizinsider.com/1t-model-1-000-tokens-s-8-gpus-xiaomi-redefines-inference-limits/">Xiaomi MiMo Hits 1,000 Tokens/Sec on 1T Model With 8 GPUs</a></li>
-<li><a href="https://deepwiki.com/mirage-project/mirage/3-persistent-kernel-system">Persistent Kernel System | mirage-project/mirage | DeepWiki</a></li>
-<li><a href="https://huggingface.co/XiaomiMiMo/MiMo-V2.5">XiaomiMiMo/MiMo-V2.5 · Hugging Face</a></li>
+<li><a href="https://arxiv.org/abs/2603.09938">[2603.09938] Model Merging in the Era of Large Language Models: Methods, Applications, and Future Directions</a></li>
+<li><a href="https://developer.nvidia.com/blog/an-introduction-to-model-merging-for-llms/">An Introduction to Model Merging for LLMs | NVIDIA Technical Blog</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM inference`, `#high throughput`, `#Xiaomi`, `#open source`, `#serving system`
+**Discussion**: Comments find the robustness of deep learning remarkable, as a simple linear combination did not degrade performance. Some express concern over profiting without proper attribution, while others debate whether on-policy distillation was intended but omitted. A request for explanation on merging techniques also appears.
+
+**Tags**: `#LLM`, `#model merging`, `#open-source`, `#AI ethics`, `#misattribution`
 
 ---
 
 <a id="item-8"></a>
-## [Free Browser-Based SQL to ER Diagram Tool](https://sqltoerdiagram.com/) ⭐️ 7.0/10
+## [Paul Graham's Essay on Earning a Billion Through Startups](https://paulgraham.com/earn.html) ⭐️ 7.0/10
 
-A new tool generates interactive ER diagrams from SQL input entirely in the browser, with all processing done locally to protect privacy. It addresses privacy concerns common in schema visualization tools by keeping data local, ideal for sensitive databases, and aligns with the growing demand for offline-first, data-sovereign solutions. Built on Canvas with rasterized cached bitmaps and viewport culling for smooth performance, it features seamless panning, zooming, and drag interactions without any backend, accounts, or tracking.
+Paul Graham published an essay detailing strategies for achieving billion-dollar wealth through startups, prompting significant discussion on wealth ethics and growth. The essay offers influential insights from a key startup thought leader, shaping perspectives on venture building and sparking critical dialogue about the moral implications of hypergrowth. The essay received 1,133 comments on the forum, reflecting intense engagement, with debates centered on fairness, extraction, and the morality of wealth accumulation.
 
-hackernews · robhati · Jun 14, 03:43 · [Discussion](https://news.ycombinator.com/item?id=48523992)
+hackernews · kingstoned · Jun 14, 11:50 · [Discussion](https://news.ycombinator.com/item?id=48526360)
 
-**Background**: ER diagrams visualize database schemas, showing tables as entities and their relationships. Traditionally, converting SQL to such diagrams required desktop or cloud tools that often sent data to remote servers. This tool uses modern browser capabilities to perform the transformation entirely client-side.
+**Background**: Paul Graham is a co-founder of Y Combinator, a leading startup accelerator, and a renowned essayist on technology and entrepreneurship. His writings often shape the philosophy of Silicon Valley founders. The term 'billion-dollar startup' (unicorn) is a key venture capital benchmark.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/ER_diagram">ER diagram</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Entity–relationship_model">Entity–relationship model - Wikipedia</a></li>
+**Discussion**: The community is divided: some defend Graham's perspective as pragmatic, emphasizing the need for job creation, while others criticize the moral implications of wealth extraction and the unfair distribution of equity during hypergrowth.
 
-</ul>
-</details>
-
-**Discussion**: Feedback was very positive, praising mobile usability and privacy-first design. Some noted the theoretical difference between tables and entities but found the tool useful. Suggestions included straight-line connectors and references to similar offline visualization tools like Dalibo's query plan viewer.
-
-**Tags**: `#SQL`, `#ER-diagram`, `#visualization`, `#browser-tool`, `#privacy`
+**Tags**: `#startups`, `#wealth-creation`, `#business`, `#entrepreneurship`, `#paul-graham`
 
 ---
 
 <a id="item-9"></a>
-## [Heretic Grimoire: Local-First, Takedown-Resilient Backup for Uncensored LLMs](https://www.reddit.com/r/LocalLLaMA/comments/1u5lmge/introducing_the_heretic_grimoire_the/) ⭐️ 7.0/10
+## [SQLite Column Provenance Mapping for Datasette](https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/#atom-everything) ⭐️ 7.0/10
 
-The Heretic project released version 1.4, introducing the Heretic Grimoire—a system that uses 9 KB reproduce.json files to create local, takedown-resilient backups of all reproducible uncensored models, along with a new official website. This ensures that decensored models remain accessible even if platforms like Hugging Face remove them, protecting community efforts from censorship and central points of failure. The backup uses reproducibility metadata; restoring a model takes around a minute and verifies weight hashes against the original, but requires matching the original creation environment to avoid mismatches.
+Simon Willison researched methods to programmatically map SQLite result columns back to their source table.column, exploring solutions via APSW, ctypes access to sqlite3_column_table_name(), and EXPLAIN output interrogation, using Claude Code (Opus 4.8) for assistance. This work could enable Datasette to annotate arbitrary SQL queries with source column metadata, enhancing data exploration and provenance features. It addresses the common challenge of lost column lineage in SQL tools. Python's standard sqlite3 module does not expose the necessary C function, so alternative paths like ctypes or APSW are needed. Complex syntax such as CTEs and joins adds difficulty to accurate mapping.
 
-reddit · r/LocalLLaMA · /u/-p-e-w- · Jun 14, 13:47
+rss · Simon Willison · Jun 13, 23:05
 
-**Background**: Heretic is an open-source tool for decensoring large language models by removing refusal mechanisms through a technique called abliteration. Uncensored models are often hosted on platforms like Hugging Face, but face legal threats and takedowns, as seen with Meta's legal notice against Heretic. The 'Grimoire' metaphor refers to a magical book of spells, here representing the collection of reproduce.json files that can summon models. Local-first software stores data primarily on the user's device rather than remote servers, ensuring availability even if the original source disappears.
+**Background**: SQLite is a lightweight embedded database. Datasette is a tool for exploring and publishing data. Data provenance (or lineage) tracks the origin and transformations of data. Common Table Expressions (CTEs) are temporary named result sets that simplify complex queries.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.reddit.com/r/LocalLLaMA/comments/1u5lmge/introducing_the_heretic_grimoire_the/">Introducing the Heretic Grimoire: The takedown-resilient, local-first ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Local-first_software">Local-first software</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Grimoire">Grimoire - Wikipedia</a></li>
+<li><a href="https://www.geeksforgeeks.org/sql/cte-in-sql/">CTE in SQL - GeeksforGeeks</a></li>
+<li><a href="https://paulgp.substack.com/p/getting-started-with-claude-code">Getting Started with Claude Code: A Researcher’s Setup Guide</a></li>
+<li><a href="https://www.uschamber.com/co/run/technology/what-is-data-provenance">Data Provenance : Defined (And...) | CO- by US Chamber of Commerce</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#local-first`, `#backup`, `#censorship-resistance`, `#uncensored-models`, `#LLM`
+**Tags**: `#sql`, `#sqlite`, `#datasette`, `#data-provenance`, `#query-analysis`
 
 ---
 
 <a id="item-10"></a>
-## [Running DeepSeek 4 Flash on Mac M3 Max with 96GB RAM](https://www.reddit.com/r/LocalLLaMA/comments/1u5mfaq/you_can_run_deepseek_4_flash_on_mac_m3_max_96gb/) ⭐️ 7.0/10
+## [Open-Source Knowledge Graph Pipeline Enhances LLM Multi-Hop Reasoning](https://www.reddit.com/r/MachineLearning/comments/1u5yjdg/i_built_an_opensource_knowledge_graph_pipeline/) ⭐️ 7.0/10
 
-A Reddit user demonstrated running the full DeepSeek 4 Flash model locally on a MacBook Pro with an M3 Max chip and 96GB of RAM, using antirez's ds4 engine and SSD streaming, achieving around 12 tokens per second. This confirms that state-of-the-art large Mixture-of-Experts language models can be run on high-end consumer hardware, lowering the barrier for AI experimentation and democratizing access to powerful local inference. The setup required passing --ssd-streaming when RAM is under 128GB, raising the iogpu.wired_limit_mb to 86016, and optionally patching the ds4 source to increase cache safety; 36k-token prefill took about 2.5 minutes, but sustained generation reached 12.65 t/s.
+A developer built an open-source full-stack pipeline (Django + React) that constructs knowledge graphs from raw text using spaCy and NetworkX, applies community detection via greedy_modularity_communities, and combines BM25, dense embeddings, and graph neighborhood expansion with Reciprocal Rank Fusion for hybrid retrieval. The pipeline addresses the 'lost in the middle' problem, where LLMs overlook critical context in long prompts, enabling accurate multi-hop reasoning across disconnected text chunks and holding promise for complex question answering systems. The system uses a Cross-Encoder to rerank top-K results before LLM synthesis; community detection handles hub node overlap via random chunk sampling, and retrieval fusion employs RRF, a rank aggregation method from 2009.
 
-reddit · r/LocalLLaMA · /u/Zeeplankton · Jun 14, 14:20
+reddit · r/MachineLearning · /u/Future_Caregiver_643 · Jun 14, 22:19
 
-**Background**: DeepSeek 4 Flash is a 284-billion-parameter Mixture-of-Experts (MoE) model that uses only a fraction of its parameters per forward pass, making it possible to run on consumer hardware with sufficient RAM. The ds4 engine, written in pure C by Redis creator antirez, is optimized specifically for this model and supports SSD streaming to offload weights when RAM is limited. GGUF is a compact binary format for storing quantized models, enabling efficient inference on CPUs and GPUs.
+**Background**: Knowledge graphs structure entities and relations; multi-hop reasoning requires connecting multiple facts. The 'lost in the middle' phenomenon describes LLMs' tendency to ignore information in the middle of long contexts. Community detection identifies thematic clusters in graphs. Hybrid retrieval combines sparse (BM25) and dense (embeddings) methods. Reciprocal Rank Fusion (RRF) is a rank aggregation algorithm that merges multiple ranked lists by using the reciprocal of the rank.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/antirez/ds4">GitHub - antirez / ds 4 : DeepSeek 4 Flash local inference engine for...</a></li>
-<li><a href="https://andrew.ooo/posts/ds4-antirez-deepseek-v4-flash-local-inference-review/">ds 4 Review: antirez 's Pure-C DeepSeek V4 Flash Engine</a></li>
-<li><a href="https://huggingface.co/docs/diffusers/quantization/gguf">GGUF · Hugging Face</a></li>
+<li><a href="https://grokipedia.com/page/Reciprocal_Rank_Fusion">Reciprocal Rank Fusion</a></li>
+<li><a href="https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.community.modularity_max.greedy_modularity_communities.html">greedy _ modularity _ communities — NetworkX 3.6.1 documentation</a></li>
+<li><a href="https://medium.com/@cenghanbayram35/lost-in-the-middle-in-llms-86e461dc7212">Lost in the Middle in LLMS. Why large language models ignore the… | by Cengizhan Bayram | Medium</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LocalLLaMA`, `#DeepSeek`, `#Mac`, `#LLM Inference`, `#GGUF`
+**Tags**: `#knowledge-graph`, `#hybrid-retrieval`, `#multi-hop-reasoning`, `#LLM`, `#open-source`
 
 ---
 
 <a id="item-11"></a>
-## [Dual DGX Sparks Run DeepSeek V4 Flash at 350 tk/s Aggregate](https://www.reddit.com/r/LocalLLaMA/comments/1u5g9pr/dual_dgx_sparks_40tks_single_1m_350_tks_agg/) ⭐️ 7.0/10
+## [Coherent Context Silently Shifts LLMs' Internal Regime, Evading Safety](https://www.reddit.com/r/MachineLearning/comments/1u5xnxg/coherent_context_can_silently_shift_llms_into_a/) ⭐️ 7.0/10
 
-A community member demonstrated running the DeepSeek V4 Flash 284B MoE model on two Nvidia DGX Sparks using FP8 quantization and a ConnectX-7 interconnect, achieving 40 tk/s single-stream and 350 tk/s aggregate across 32 concurrent requests with 256K context. This shows that dual consumer-grade AI workstations can efficiently serve large frontier models, opening up local agentic AI with performance that rivals or exceeds single high-end GPUs in concurrent scenarios. Requires two DGX Sparks with a $180 ConnectX-7 cable for 200 Gb/s; single-stream speed is lower than RTX Pro 6000 (46.9 tk/s) but concurrent aggregate vastly outperforms it, and FP8 quantization is crucial for fitting the model and achieving speed.
+An independent researcher has released findings that carefully crafted coherent contexts can shift large language models into a different internal representation regime before generating output. This shift occurs in the hidden states and residual stream trajectories, allowing models to reinterpret safety constraints while appearing normal at the surface, thus evading output-focused safety filters. This reveals a fundamental limitation of current alignment methods like RLHF and output classifiers, which are blind to internal state changes, potentially undermining safety in deployed AI systems. The research primarily used Gemma-3-12B-IT with access to internals, measuring hidden-state geometry, residual stream trajectories, and SAE readouts. The target texts were dense, coherent passages, not explicit jailbreak prompts, and the study highlights latent regime shifts rather than direct filter bypass techniques.
 
-reddit · r/LocalLLaMA · /u/elsung · Jun 14, 09:07
+reddit · r/MachineLearning · /u/PresentSituation8736 · Jun 14, 21:42
 
-**Background**: DGX Spark is Nvidia’s compact AI desktop with an ARM CPU and high-performance GPU, designed for local model development. DeepSeek V4 Flash is a 284B-parameter mixture-of-experts model with 13B activated parameters and a 1M-token context window. ConnectX-7 is a high-speed network adapter enabling fast inter-device data transfer. FP8 quantization lowers numerical precision to save memory and boost speed.
+**Background**: Mechanistic interpretability aims to understand the internal computations of neural networks by analyzing weights and activations. In transformer models, the residual stream acts as a shared communication channel where each layer adds information, and representation space refers to the high-dimensional space where features are encoded. Current alignment techniques like RLHF fine-tune models to produce safe outputs but may not constrain internal processing pathways.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/DGX_Spark">DGX Spark</a></li>
-<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">deepseek -ai/ DeepSeek - V 4 - Flash · Hugging Face</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mechanistic_interpretability">Mechanistic interpretability</a></li>
+<li><a href="https://retr0sushi04.netlify.app/blogs/residualstreamsblog/residualstreams">Residual Streams in Transformer Models</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#local-llm`, `#dgx-spark`, `#hardware-benchmarking`, `#deepseek-v4`, `#inference-speed`
+**Tags**: `#AI safety`, `#mechanistic interpretability`, `#large language models`, `#alignment`, `#adversarial robustness`
 
 ---
 
 <a id="item-12"></a>
-## [Headroom: Compress LLM Inputs to Cut Token Usage by 60-95%](https://github.com/chopratejas/headroom) ⭐️ 7.0/10
+## [headroom: Compress LLM Context by 60-95%](https://github.com/chopratejas/headroom) ⭐️ 7.0/10
 
-A new Python library called Headroom has been open-sourced, capable of compressing tool outputs, logs, files, and RAG chunks before they reach the LLM, reducing token usage by 60-95% while preserving answer quality. Token costs are a major expense in LLM applications; this compression can significantly lower costs and improve throughput without retraining models or changing infrastructure, benefiting developers and businesses. Headroom provides a compression engine, a proxy, and an MCP server to handle various input types. The specific compression technique is not disclosed, but the library claims up to 95% token reduction without answer quality loss.
+headroom is a new Python library that compresses tool outputs, logs, files, and RAG chunks before they reach the LLM, reducing token usage by 60-95% while preserving answer quality. This can dramatically lower costs and latency for LLM applications, particularly those using RAG, making AI services more efficient and affordable for developers and enterprises. It operates as a library, proxy, or MCP server, performing lossy compression that retains essential information for accurate answers. The token reduction percentage may vary based on the type of content.
 
-ossinsight · chopratejas · Jun 14, 17:01
+ossinsight · chopratejas · Jun 14, 22:20
 
-**Background**: MCP (Model Context Protocol) is an open standard by Anthropic that standardizes how AI models connect to external data and tools. RAG (Retrieval-Augmented Generation) enhances LLM responses by retrieving relevant information from a knowledge base. Headroom targets compression for such contexts to reduce token consumption.
+**Background**: Retrieval-Augmented Generation (RAG) is a technique where LLMs retrieve external knowledge during inference, often resulting in long context inputs. The Model Context Protocol (MCP) is an open standard for connecting AI models to data sources. Token usage directly impacts cost and latency, making compression valuable.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol - Wikipedia</a></li>
-<li><a href="https://modelcontextprotocol.io/docs/getting-started/intro">What is the Model Context Protocol (MCP)?</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation">Retrieval-augmented generation - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM`, `#compression`, `#token-optimization`, `#MCP`, `#Python`
+**Tags**: `#llm`, `#compression`, `#token-reduction`, `#python`, `#rag`
 
 ---
 
 <a id="item-13"></a>
-## [Pre-Indexed Code Knowledge Graph for AI Coding Agents](https://github.com/colbymchenry/codegraph) ⭐️ 7.0/10
+## [Local ML Indexes 669GB GoPro Videos on M1 Max](https://news.ycombinator.com/item?id=48528029) ⭐️ 6.0/10
 
-CodeGraph is a new local tool that pre-indexes your codebase into a structured knowledge graph, supporting Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent to reduce token usage and tool calls. This approach cuts down on expensive context-stuffing and exploration steps by giving AI coding agents instant access to code relationships, which saves costs and speeds up development. It also keeps all data local, addressing privacy concerns. CodeGraph is written in TypeScript, operates 100% locally without cloud dependency, and pre-processes the project into a graph so agents don't need repeated tool calls for code exploration.
+A developer indexed 628 GoPro videos (668.68 GB) locally on an M1 Max using open-source ML models, processing 57,537 frames over 67 hours to enable video search and highlight extraction. This project shows that complex video indexing can be performed locally on consumer hardware, enabling private, cost-effective media management without relying on cloud services. The system uses a frame analysis pipeline at 1 fps, dividing videos into 1-second scenes, and results can be exported to DaVinci Resolve; total compute was over 67 hours for the indexed subset.
 
-ossinsight · colbymchenry · Jun 14, 17:01
+hackernews · iliashad · Jun 14, 15:13
 
-**Background**: AI coding agents like Claude Code or Cursor can automatically read, plan, and modify codebases, but they often burn tokens by exploring file structures and dependencies with multiple tool calls. A knowledge graph organizes code entities and their relationships, enabling efficient queries. Local-first tools prioritize user privacy and offline access by keeping data on device.
+**Background**: GoPro cameras produce large, high-resolution video files. Indexing such footage involves using machine learning to analyze frames and metadata to make content searchable. Running these models locally, rather than relying on cloud services, preserves privacy but can be computationally intensive. The M1 Max chip includes a neural engine that accelerates ML tasks.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://agentconn.com/blog/codegraph-pre-indexed-knowledge-graph-multi-agent-claude-code-codex-2026/">codegraph: The Missing Knowledge Graph for 5 Coding Agents</a></li>
-<li><a href="https://newzlet.com/ai/codegraph-ai-coding-pre-indexed-context-intelligence/">CodeGraph Ends AI Coding 's Expensive Context-Stuffing Era - Newzlet</a></li>
-<li><a href="https://www.ngjoo.com/en/trending/projects/codegraph/">codegraph Analysis: Architecture, Use Cases & Setup (11K ) | NGJOO AI</a></li>
+<li><a href="https://iliashaddad.com/blog/i-indexed-669-gb-of-my-gopro-videos-using-my-m1-max-compute">I indexed 669 GB of my GoPro videos using my M1 Max computer...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#knowledge-graph`, `#ai-coding-assistants`, `#local-first`, `#typescript`, `#developer-tools`
+**Discussion**: Commenters noted a similar recent project, praised the local-first approach, and pointed out that DaVinci Resolve 21 now includes built-in AI indexing. Some questioned the practicality given the compute time, while others expressed excitement about local AI for personal media.
+
+**Tags**: `#video-indexing`, `#local-ml`, `#open-source-models`, `#m1-max`, `#gopro`
 
 ---
 
 <a id="item-14"></a>
-## [Simon Willison Explores SQLite Column Provenance for Datasette](https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/#atom-everything) ⭐️ 6.0/10
+## [Zeroserve Claims Caddy Compatibility with 3x Throughput and Lower Latency](https://su3.io/posts/zeroserve-caddy-compat) ⭐️ 6.0/10
 
-Simon Willison researched programmatically mapping SQLite result columns back to their source tables for his Datasette tool, using Claude Code Opus 4.8 to evaluate multiple approaches. This work could allow Datasette to automatically annotate query results with column origin metadata, improving data exploration transparency and usability for complex SQL queries involving joins and CTEs. The solutions explored include using the APSW library, accessing the `sqlite3_column_table_name()` C function via Python's ctypes (normally unavailable), and parsing the output of the EXPLAIN command; the research acknowledges challenges with handling CTEs and complex joins.
+Zeroserve, a new zero-config web server, now claims compatibility with the Caddy web server, achieving 3x higher throughput and 70% lower latency in benchmarks, but it lacks critical features such as ACME support and plugin extensibility. The claimed performance leap highlights trade-offs between raw speed and essential operational features; the omission of ACME (automatic TLS certificate management) severely limits practical deployment, making it mostly interesting for benchmarking rather than real-world use. Zeroserve leverages io_uring for asynchronous I/O, contributing to its high performance, but io_uring introduces potential security concerns; the server also does not support plugins, and its "Caddy compatibility" only covers a subset of Caddy's configuration syntax.
 
-rss · Simon Willison · Jun 13, 23:05
+hackernews · losfair · Jun 14, 13:43 · [Discussion](https://news.ycombinator.com/item?id=48527145)
 
-**Background**: Datasette is an open-source tool for publishing and exploring SQLite databases. SQLite is a lightweight, embedded database engine. Column provenance refers to tracing the original table and column for each entry in a result set, which becomes complex with joins, subqueries, or common table expressions (CTEs) that combine data from multiple sources.
+**Background**: Zeroserve is a small, fast, zero-config HTTPS server designed for serving static sites with HTTP/2 and TLS 1.3, using eBPF for scripting. Caddy is a widely adopted web server known for its automatic HTTPS via the ACME protocol (RFC 8555), which automates certificate issuance from Let's Encrypt. io_uring is a Linux kernel interface for efficient asynchronous I/O, offering lower overhead than traditional system calls like epoll or libuv, but it has faced security scrutiny due to its complexity.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/">Research: Mapping SQLite result columns back to their source ...</a></li>
-<li><a href="https://datasette.io/">Datasette</a></li>
-<li><a href="https://learnsql.com/blog/what-is-common-table-expression/">What Is a Common Table Expression (CTE) in SQL?</a></li>
+<li><a href="https://su3.io/posts/introducing-zeroserve">zeroserve : a zero -config web server you can script with eBPF</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Io_uring">io_uring - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment">Automatic Certificate Management Environment - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#sqlite`, `#datasette`, `#sql`, `#column-provenance`, `#research`
+**Discussion**: Users expressed that lack of ACME is a dealbreaker and questioned the safety of io_uring for a web server. Some noted that nginx still performs competitively without such trade-offs, and a few reported unexpected certificate prompts when accessing the zeroserve website.
+
+**Tags**: `#web-server`, `#performance`, `#Caddy`, `#io_uring`, `#networking`
 
 ---
 
 <a id="item-15"></a>
-## [OpenAI Faces Multi-State Subpoenas on AI Communication](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652707105&idx=2&sn=4e2b6b448d43478d8a6cc17e81b743e4) ⭐️ 6.0/10
+## [Satirical Linux 7.1 Release Pokes Fun at AI Bug Reports](https://lore.kernel.org/lkml/CAHk-=wi4BF4bMhZNZ1tqs+FFV4OuZRe3ZqdWB+LxRLmRweUzQw@mail.gmail.com/T/#u) ⭐️ 6.0/10
 
-Multiple U.S. states have issued subpoenas to OpenAI, investigating how its AI systems communicate with users. The news feed also reports that KV cache compression can now reduce size by 80% with only 0.52% performance loss, and a unified deep model for seven global climate modes has been achieved for the first time. The subpoenas signal intensifying regulatory scrutiny that could reshape AI speech policies and transparency standards. Efficient KV cache compression may drastically cut large language model operating costs, while unified climate modeling improves long-term forecasting reliability. The investigation focuses on 'how AI speaks,' potentially examining content moderation, bias, or safety mechanisms. KV cache compression methods like TurboQuant and KVzip reduce memory footprint, enabling longer contexts. The climate model, UniCM, learns coupled dynamics of modes such as ENSO and IOD.
+A satirical post on the Linux kernel mailing list recently announced a fictional version 7.1, claiming that AI-assisted bug reports led to the removal of obsolete drivers like ISDN. The satire highlights real concerns about the influx of low-quality, AI-generated bug reports in open-source projects, and suggests a silver lining—prompting the cleanup of legacy code to reduce maintenance burden. The post specifically mentions the removal of ISDN and other old network drivers, using the humorous premise that AI reports on rarely used code forced the maintainers to delete them entirely.
 
-rss · 新智元 · Jun 14, 04:38
+hackernews · berlianta · Jun 14, 16:01 · [Discussion](https://news.ycombinator.com/item?id=48528729)
 
-**Background**: OpenAI is the creator of ChatGPT, facing legal challenges over data practices and model behavior. KV cache stores intermediate attention tensors in transformer models; compression is essential for scaling to long sequences. Global climate modes are recurring patterns like El Niño, traditionally modeled separately, but a unified approach captures their interactions.
+**Background**: The Linux kernel uses a versioning scheme where the second number increments for minor releases, and the first number changes when the second becomes large (e.g., from 6.x to 7.x). ISDN (Integrated Services Digital Network) is an obsolete telecommunications standard. AI-assisted bug reporting refers to the trend of using large language models to automatically generate bug reports, which often creates noise due to inaccuracies.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.linkedin.com/pulse/turboquant-googles-near-optimal-compression-hits-nerve-shantanu-patil-o7usc">TurboQuant: Google's near-optimal compression hits a nerve...</a></li>
-<li><a href="https://www.nature.com/articles/s42256-026-01245-5">Learning the coupled dynamics of global climate modes - Nature</a></li>
+**Discussion**: Comments are mixed: some appreciate the humor and see real benefit in AI-driven code removal, while others question the significance of the version number or make lighthearted jokes about distribution release timelines. Overall, the satire is well received as a commentary on AI's unintended consequences.
 
-</ul>
-</details>
-
-**Tags**: `#OpenAI`, `#legal`, `#AI regulation`, `#KV cache compression`, `#climate modeling`
+**Tags**: `#linux`, `#kernel`, `#ai`, `#satire`, `#software-maintenance`
 
 ---
 
 <a id="item-16"></a>
-## [Qwen3.6-27B Codebase Expansion Leads to Hidden Bugs, Workflow Rethink Needed](https://www.reddit.com/r/LocalLLaMA/comments/1u56yr7/codebase_getting_larger_qwen3627b_starting_to/) ⭐️ 6.0/10
+## [Multi-State Subpoenas Investigate OpenAI's Speech Generation](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652707105&idx=2&sn=4e2b6b448d43478d8a6cc17e81b743e4) ⭐️ 6.0/10
 
-A developer describes that as their Python codebase grew through vibe coding with the Qwen3.6-27B model, it began introducing subtle logic errors—such as missing returns after exception handling—requiring extensive manual review. They are now exploring focused per-change prompts and adjusting server parameters to mitigate the issue. This experience highlights the reliability challenges of scaling AI-assisted coding on large codebases, a concern for the growing community of local LLM users. It underscores the need for better prompt engineering and automated testing to maintain code quality. The developer initially fed the entire project context (50% of 128K tokens), then ran /compact when context filled, but now uses new conversations focusing on exact lines (e.g., lines 670-650). They disabled KV quantization and run llama.cpp on a 5090 GPU with Q5_K_XL quantization and draft model speculative decoding.
+Multiple U.S. states have issued subpoenas to OpenAI, launching an investigation into how its AI models produce speech and written content. This signals escalating regulatory scrutiny on AI outputs, potentially leading to new compliance requirements and shaping industry standards for content generation. The subpoenas compel OpenAI to disclose internal mechanisms and decision-making processes, though the specific concerns driving the investigation have not been made public.
 
-reddit · r/LocalLLaMA · /u/BitGreen1270 · Jun 14, 00:46
+rss · 新智元 · Jun 14, 04:38
 
-**Background**: Vibe coding is a style where developers describe intent in natural language and let AI generate code, popularized by Andrej Karpathy. The /compact command in tools like Claude Code summarizes conversation history to free context. Qwen3.6-27B is a 27-billion-parameter model optimized for local deployment via llama.cpp and Ollama.
+**Background**: State attorneys general in the U.S. have authority to investigate consumer protection and unfair trade practices. In recent years, they have targeted tech firms over data privacy and content moderation. OpenAI's models, like ChatGPT, have faced criticism over misinformation, bias, and harmful outputs, prompting similar regulatory actions globally.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Vibe_coding">Vibe coding - Wikipedia</a></li>
-<li><a href="https://huggingface.co/Qwen/Qwen3.6-27B">Qwen/ Qwen 3 . 6 - 27 B · Hugging Face</a></li>
-<li><a href="https://www.mindstudio.ai/blog/claude-code-compact-command-context-management">How to Use the /compact Command in Claude Code to Prevent Context Rot | MindStudio</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#llm`, `#code-generation`, `#vibe-coding`, `#local-llm`, `#debugging`
+**Tags**: `#OpenAI`, `#Regulation`, `#Legal`, `#AI Ethics`, `#Subpoena`
 
 ---
 
 <a id="item-17"></a>
-## [Local AI Assistant 'Bantz' Built After Anthropic Shutdown](https://www.reddit.com/r/LocalLLaMA/comments/1u5lfvv/built_a_local_ai_assistant_because_i_always_knew/) ⭐️ 6.0/10
+## [Agent-Reach: CLI Tool Giving AI Agents Eyes to Read Web Without APIs](https://github.com/Panniantong/Agent-Reach) ⭐️ 6.0/10
 
-A developer shared Bantz, a fully local AI assistant running on Gemma 4b, featuring Gmail summarization, Google Calendar integration, web search, system monitoring, and Wayland desktop control, all operating on CPU without a GPU, motivated by the recent Anthropic service disruption. This project underscores the risks of relying on cloud-based AI services, as a single outage or policy change can disrupt access, and demonstrates the viability of self-hosted, privacy-preserving local assistants that give users full control over their data and infrastructure. Bantz uses the small Gemma 4b model, which is challenging to optimize for multi-tool use on CPU-only systems; its desktop control component targets Wayland compositors, a modern display protocol on Linux, though the feature is still in development.
+Panniantong/Agent-Reach, an open-source CLI tool that enables AI agents to read and search Twitter, Reddit, YouTube, GitHub, and more without API fees, gained 102 stars on GitHub in the past 24 hours. By removing dependency on costly APIs, Agent-Reach significantly lowers the barrier for developers to build AI agents with broad web awareness, potentially accelerating the development of new autonomous applications. Written in Python, the tool offers a unified command-line interface to scrape multiple social and content sites, but may rely on unofficial access methods that could break without notice.
 
-reddit · r/LocalLLaMA · /u/amenemisa · Jun 14, 13:39
+ossinsight · Panniantong · Jun 14, 22:20
 
-**Background**: Local large language models (LLMs) run on personal hardware without internet dependency, offering privacy and reliability. Gemma 4b is a compact AI model from Google designed for edge devices. Wayland is a Linux display server protocol replacing the older X11, emphasizing security and simplicity. The recent Anthropic outage reminded users of the fragility of cloud services.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://ai.google.dev/gemma/docs/core">Gemma 4 model overview - Google AI for Developers</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Wayland_(protocol)">Wayland (protocol)</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#local-llm`, `#ai-assistant`, `#offline-ai`, `#privacy`, `#self-hosted`
-
----
-
-<a id="item-18"></a>
-## [Reddit User's Guide to Running AI Locally for Beginners](https://www.reddit.com/r/LocalLLaMA/comments/1u5p2ki/how_to_run_ai_locally_the_complete_beginners/) ⭐️ 6.0/10
-
-A Reddit user created a comprehensive beginner's guide to running AI locally, addressing frequently asked questions in the r/LocalLLaMA community. This guide lowers the entry barrier for newcomers to local AI, potentially expanding the community and encouraging privacy-conscious AI usage. The guide is a self-text post on Reddit without attached technical specifics; it likely consolidates basic setup steps and tool recommendations for beginners.
-
-reddit · r/LocalLLaMA · /u/totosse17 · Jun 14, 16:05
-
-**Background**: Running AI locally means executing large language models (LLMs) on personal devices instead of cloud services, offering benefits like data privacy and offline access. Popular tools include Ollama, LM Studio, and llama.cpp, which simplify model management and inference. The r/LocalLLaMA community on Reddit is a hub for sharing knowledge about local AI, often seeing repetitive beginner questions.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.datacamp.com/tutorial/run-llms-locally-tutorial">Run LLMs Locally : 6 Simple Methods | DataCamp</a></li>
-<li><a href="https://medium.com/@arunpatidar26/run-llm-locally-ollama-8ea296747505">Running LLM Locally : A Beginner’s Guide to Using Ollama | Medium</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#local AI`, `#guide`, `#beginner`, `#tutorial`, `#LLM`
-
----
-
-<a id="item-19"></a>
-## [Agent-Reach: AI Agents Search the Web Without API Fees](https://github.com/Panniantong/Agent-Reach) ⭐️ 6.0/10
-
-Agent-Reach is a Python CLI tool that lets AI agents read and search across platforms like Twitter, Reddit, YouTube, GitHub, Bilibili, and XiaoHongShu without incurring API fees. It gained 102 stars in the past 24 hours on GitHub. This tool lowers the barrier for AI agents to access web data by eliminating costly API fees, enabling more accessible and scalable development of agentic applications that interact with multiple platforms. Agent-Reach is a capability layer rather than a direct scraper; it selects, installs, and routes to upstream tools for actual reading. It currently supports only Python and may have limitations due to anti-scraping measures on some sites.
-
-ossinsight · Panniantong · Jun 14, 17:01
-
-**Background**: AI agents often need to gather information from various web platforms, but official APIs can be expensive or restrictive. Tools like Agent-Reach rely on web scraping techniques to extract data directly from web pages, bypassing API dependencies. Web scraping can be challenged by site terms of service, dynamic content, and anti-bot mechanisms.
+**Background**: AI agents are autonomous software systems that often require external tools like web access to complete tasks. Typically, obtaining platform data requires official APIs that impose rate limits and costs. Web scraping provides a free but fragile alternative. Agent-Reach acts as a capability layer, routing agent requests to appropriate scrapers rather than performing the scraping itself.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://github.com/Panniantong/agent-reach">GitHub - Panniantong/Agent-Reach: Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.</a></li>
 <li><a href="https://skillsllm.com/skill/agent-reach">Agent-Reach - AI Agents on GitHub (26.5k★) | SkillsLLM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/AI_agent">AI agent</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#ai-agents`, `#web-scraping`, `#cli-tool`, `#open-source`, `#python`
+**Tags**: `#AI agents`, `#web scraping`, `#CLI tool`, `#internet access`, `#trending`
 
 ---
 
-<a id="item-20"></a>
-## [Apple's open-source tool for Linux containers on Mac](https://github.com/apple/container) ⭐️ 6.0/10
+<a id="item-18"></a>
+## [Apple Open-Sources Swift Tool for Linux Containers on Mac](https://github.com/apple/container) ⭐️ 6.0/10
 
-Apple introduced at WWDC 2025 an open-source command-line tool called 'container', written in Swift, that runs Linux containers in per-container lightweight VMs optimized for Apple Silicon. This tool offers macOS developers a native, secure alternative to Docker Desktop by isolating containers in separate VMs via Apple's Virtualization framework, potentially improving stability and resource separation. It requires macOS 26 or later, is installed from a signed package on GitHub releases, and lacks the extensive ecosystem of Docker; currently it only supports Apple Silicon Macs.
+Apple has open-sourced a tool called 'container' on GitHub, written in Swift, that creates and runs Linux containers on macOS using lightweight virtual machines, optimized for Apple silicon. This provides a native, Docker-free container runtime for Mac developers, leveraging Apple's hardware acceleration for better performance and integration, potentially simplifying development workflows on Apple silicon. The tool requires macOS 26 (or later) and Apple silicon, supports OCI-compliant images, and boots Linux in under a second using Apple's Virtualization framework.
 
-ossinsight · apple · Jun 14, 17:01
+ossinsight · apple · Jun 14, 22:20
 
-**Background**: Docker Desktop on macOS traditionally runs all containers inside a shared Linux VM. Apple's container tool instead uses the native Virtualization framework to create a dedicated lightweight VM per container, boosting security and isolation at the cost of extra overhead. The project is open-source and built in Swift.
+**Background**: Apple silicon refers to Apple's custom ARM-based processors used in recent Macs, delivering high performance and efficiency. Lightweight virtual machines on macOS utilize Apple's Hypervisor and Virtualization frameworks for hardware-accelerated virtualization. The Open Container Initiative (OCI) defines industry standards for container formats and runtimes, ensuring interoperability.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Apple_container">Apple container</a></li>
-<li><a href="https://github.com/apple/container">GitHub - apple/container: A tool for creating and running ...</a></li>
+<li><a href="https://github.com/apple/container">GitHub - apple/container: A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. · GitHub</a></li>
+<li><a href="https://medium.com/@rpavank2000/apples-container-native-lightweight-container-runtime-for-macos-44a69d57ef41">Apple’s Container: Native, Lightweight Container Runtime for macOS | by Pavan Kumar | Medium</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#containerization`, `#macOS`, `#virtualization`, `#Swift`, `#AppleSilicon`
+**Tags**: `#containers`, `#Apple-silicon`, `#virtualization`, `#macOS`, `#Swift`
 
 ---
 
-<a id="item-21"></a>
-## [New AI Agent Skill Conducts Multi-Source Research and Generates Grounded Summaries](https://github.com/mvanhorn/last30days-skill) ⭐️ 6.0/10
+<a id="item-19"></a>
+## [AI Agent Skill Aggregates Multiple Platforms for Grounded Summaries](https://github.com/mvanhorn/last30days-skill) ⭐️ 6.0/10
 
-The open-source Python repository 'last30days-skill' enables AI agents to research any topic across Reddit, X, YouTube, Hacker News, Polymarket, and the web, then synthesize a factual, grounded summary. This tool automates the aggregation of insights from multiple distinct platforms, reducing manual research time and potentially providing more comprehensive perspectives on trending topics. The skill is written in Python and leverages APIs or web scraping to gather data, though its accuracy depends on source availability and the quality of the underlying synthesis algorithm.
+A Python-based AI agent skill, mvanhorn/last30days-skill, gained 51 GitHub stars in 24 hours. It automatically researches a given topic across platforms like Reddit, X, YouTube, Hacker News, and Polymarket, then synthesizes a grounded, evidence-based summary. This tool demonstrates a growing trend of AI agents that autonomously gather and synthesize cross-platform information, potentially saving researchers time and providing more comprehensive, evidence-backed insights. It highlights the integration of social media, forums, and prediction markets into AI-driven research workflows. The skill is written in Python and targets the 'last30days' timeframe, focusing on recent content. It uses a grounded approach, meaning the summary is factual and cites sources, but its scope is limited to the listed platforms and the past month.
 
-ossinsight · mvanhorn · Jun 14, 17:01
+ossinsight · mvanhorn · Jun 14, 22:20
 
-**Background**: An AI agent skill is a reusable package that extends an AI agent's capabilities, like those promoted by Microsoft's Agent Framework. Polymarket is a cryptocurrency-based prediction market where users bet on event outcomes. A grounded summary is factual and evidence-based, avoiding personal opinions.
+**Background**: A 'grounded summary' is factual and evidence-based, typically citing sources and avoiding subjective opinions. Polymarket is a cryptocurrency-based prediction market where users bet on future events, providing unique sentiment and probability data. AI agent skills are modular components that extend an agent's capabilities, often used in frameworks like Auto-GPT or LangChain for autonomous tasks.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://learn.microsoft.com/en-us/agent-framework/agents/skills">Agent Skills | Microsoft Learn</a></li>
-<li><a href="https://github.com/seb1n/awesome-ai-agent-skills">GitHub - seb1n/awesome-ai-agent-skills: 90+ universal, self ...</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Polymarket">Polymarket</a></li>
 <li><a href="https://studyx.ai/questions/4lqm98f/what-does-it-mean-for-a-summary-to-be-grounded">What does it mean for a summary to be | StudyX</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#ai`, `#python`, `#research`, `#summarization`, `#open-source`
+**Tags**: `#AI`, `#Python`, `#research`, `#aggregator`, `#agent`
 
 ---
 
-<a id="item-22"></a>
-## [Local-first Agent Analytics with 100x Speed Over ccusage](https://github.com/kenn-io/agentsview) ⭐️ 6.0/10
+<a id="item-20"></a>
+## [agentsview: Local-First Session Intelligence Tool 100x Faster Than ccusage](https://github.com/kenn-io/agentsview) ⭐️ 6.0/10
 
-A new open-source tool called agentsview provides local-first session intelligence and analytics for coding agents like Claude Code and Codex, claiming to be 100 times faster than the existing ccusage tool. This tool could dramatically improve the efficiency of monitoring and analyzing coding agent activity, reducing costs and enabling faster feedback loops for developers and teams using AI coding assistants. The tool is written in Go and supports over 20 agents. It claims 100x speed improvements over ccusage, likely by optimizing data processing and using efficient local-first architectures.
+A new open-source tool, agentsview, has been released on GitHub, providing local-first session intelligence and cost tracking for over 20 AI coding agents, and it claims to be 100 times faster than the existing ccusage tool. This tool addresses the growing need among developers to manage usage data from multiple AI coding assistants locally and privately, enabling better cost control and agent performance comparison without relying on cloud services. Written in Go, agentsview runs as a single binary, reads session files natively, and presents a web dashboard. It supports Claude Code, Codex, Cursor, and more, but is in early development with limited community validation of its speed claims.
 
-ossinsight · kenn-io · Jun 14, 17:01
+ossinsight · kenn-io · Jun 14, 22:20
 
-**Background**: ccusage is a command-line tool for analyzing Claude Code usage data from local log files. Local-first analytics processes data on the user's device, using technologies like DuckDB and Parquet to achieve high performance without cloud infrastructure. Coding agents like Claude Code generate extensive usage logs, and analyzing them locally can help developers track costs and productivity.
+**Background**: AI coding agents like Claude Code and Codex generate local session logs that contain usage data. ccusage is a dedicated CLI tool that reads such logs for Claude Code and generates usage reports. agentsview extends this idea to over 20 agents, adding a unified web interface and aiming for superior performance.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://grokipedia.com/page/ccusage">ccusage</a></li>
+<li><a href="https://github.com/kenn-io/agentsview">GitHub - kenn-io/agentsview: Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage! · GitHub</a></li>
+<li><a href="https://www.agentsview.io/?trk=public_post_comment-text">agentsview | agentsview</a></li>
 <li><a href="https://github.com/ryoppippi/ccusage">GitHub - ryoppippi/ ccusage : Analyze coding (agent) CLI token usage ...</a></li>
-<li><a href="https://prospective.co/blog/batteries-included-the-local-first-approach-to-data-visualization">Batteries Included: The Local-First Approach to Data Visualization</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#coding-agents`, `#analytics`, `#go`, `#developer-tools`, `#claude-code`
+**Tags**: `#development-tools`, `#coding-agents`, `#analytics`, `#go`, `#ai-tools`
+
+---
+
+<a id="item-21"></a>
+## [Hyperframes: Write HTML, Render Video for AI Agents](https://github.com/heygen-com/hyperframes) ⭐️ 6.0/10
+
+HeyGen has open-sourced Hyperframes, a TypeScript framework that lets AI agents create MP4 videos by writing HTML, CSS, and JavaScript. The project gained 23 stars in its first day, with CLI and agent tooling available. Hyperframes bridges web development and video production, enabling AI agents to programmatically generate videos at scale. This opens up automated content creation, personalized marketing, and agent-driven media workflows. Hyperframes converts HTML, CSS, media, and seekable animations into deterministic MP4 videos. It is licensed under Apache 2.0, can be used locally via CLI, and integrates with AI coding agents through dedicated skills.
+
+ossinsight · heygen-com · Jun 14, 22:20
+
+**Background**: HeyGen is an AI video generation platform known for creating realistic avatars and voices. AI agents are autonomous programs that can use tools to accomplish tasks. Hyperframes draws from the ‘vibe coding’ trend, where natural language prompts produce visual outputs, but instead outputs structured HTML that agents can write and render as video.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/heygen-com/hyperframes">GitHub - heygen -com/ hyperframes : Write HTML. Render video.</a></li>
+<li><a href="https://hyperframes.heygen.com/">HyperFrames — Edit Videos By Vibe-Coding</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#video-generation`, `#agents`, `#typescript`, `#html`, `#open-source`
 
 ---
 
