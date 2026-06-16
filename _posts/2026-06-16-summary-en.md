@@ -5,374 +5,560 @@ date: 2026-06-16
 lang: en
 ---
 
-> From 33 items, 17 important content pieces were selected
+> From 45 items, 26 important content pieces were selected
 
 ---
 
-1. [Local AI Models Now Practical for Self-Hosting](#item-1) ⭐️ 8.0/10
-2. [Interactive Deep Dive into Mechanical Watches (2022)](#item-2) ⭐️ 8.0/10
-3. [Correlated randomness in Slay the Spire 2](#item-3) ⭐️ 8.0/10
-4. [Garden of Flowers: Pictorial Typography Before ASCII Art](#item-4) ⭐️ 8.0/10
-5. [Trivial 'fix this code' prompt bypasses Fable 5 guardrails, researchers say](#item-5) ⭐️ 8.0/10
-6. [quicktok: A Faster BPE Tokenizer with Exact tiktoken Output](#item-6) ⭐️ 8.0/10
-7. [SpaceX to Acquire Cursor Maker Anysphere for $60 Billion](#item-7) ⭐️ 7.0/10
-8. [Apple's Vehicle Motion Cues reduce car sickness with moving dots](#item-8) ⭐️ 7.0/10
-9. [John Carmack Admits Fabrice Bellard Is a Better Programmer](#item-9) ⭐️ 7.0/10
-10. [When x86 Emulators Fixed Terrible Code at Runtime](#item-10) ⭐️ 7.0/10
-11. [Banned Book Library Hidden in a Smart Light Bulb](#item-11) ⭐️ 7.0/10
-12. [Beyond Open Weights: The Need for Open Training Frameworks like FeynRL](#item-12) ⭐️ 7.0/10
-13. [Cleo: Full Analyst Behavior in a 2B Text-to-SQL Model](#item-13) ⭐️ 7.0/10
-14. [Georgi Gerganov Endorses Qwen3.6-27B for Local Coding](#item-14) ⭐️ 6.0/10
-15. [Leakage-Clean Verifier Uses Object-Centric Graphs to Check Robot Manipulation](#item-15) ⭐️ 6.0/10
-16. [Agent-Reach: No-API Fee Internet Access for AI Agents](#item-16) ⭐️ 6.0/10
-17. [Omnigent: A Meta-Harness Unifying AI Coding Agents](#item-17) ⭐️ 6.0/10
+1. [SpaceX to Acquire Cursor for $60 Billion](#item-1) ⭐️ 9.0/10
+2. [GLM-5.2 Becomes First Open-Weights Model to Surpass 80% on Terminal-Bench](#item-2) ⭐️ 9.0/10
+3. [Running Local LLMs Sees Major Improvements, Challenges Remain](#item-3) ⭐️ 8.0/10
+4. [Interactive Article Demystifies Mechanical Watch Mechanics](#item-4) ⭐️ 8.0/10
+5. [Stop Using JWTs for Browser Sessions](#item-5) ⭐️ 8.0/10
+6. [Apple's Hide My Email to Require @icloud.com Aliases, Raising Blocking Fears](#item-6) ⭐️ 8.0/10
+7. ['But Yak Shaving Is Fun': A 2019 Post Sparks Debate](#item-7) ⭐️ 8.0/10
+8. [Correlated Randomness Found in Slay the Spire 2's New PRNG](#item-8) ⭐️ 8.0/10
+9. [Meta's Engineering Culture Under Scrutiny Over AI Reassignments](#item-9) ⭐️ 8.0/10
+10. [Mistral AI Announces New Open-Weight Models for July Release](#item-10) ⭐️ 8.0/10
+11. [Scaling VibeThinker to 3B reaches frontier math/coding performance.](#item-11) ⭐️ 8.0/10
+12. [Qwable-v1: Open-weights Model Distilled from Claude Fable-5](#item-12) ⭐️ 8.0/10
+13. [TNO Launches GPT-NL, a Sovereign Dutch Language Model with €13.5M Funding](#item-13) ⭐️ 7.0/10
+14. [Calvin and Hobbes and the Price of Integrity](#item-14) ⭐️ 7.0/10
+15. [Georgi Gerganov Endorses Qwen3.6-27B for Local Coding](#item-15) ⭐️ 7.0/10
+16. [Claude Fable 5 Export Ban Over 'Fix This Code' Harms Cyber Defense](#item-16) ⭐️ 7.0/10
+17. [Donate your coding sessions to an open CC-BY-4.0 dataset to help train open-weight models](#item-17) ⭐️ 7.0/10
+18. [Make HTTP Requests Without curl Using Bash /dev/tcp](#item-18) ⭐️ 6.0/10
+19. [Apple's Vehicle Motion Cues feature reduces car sickness with animated dots](#item-19) ⭐️ 6.0/10
+20. [Ghost Jobs Could Soon Be Illegal in New York](#item-20) ⭐️ 6.0/10
+21. [Fable Model Refuses Jailbreak but Complies with Code Fix Requests](#item-21) ⭐️ 6.0/10
+22. [Warning: Qwen/Claude Distillations Often Underperform Base Models](#item-22) ⭐️ 6.0/10
+23. [Crowdsourced Mixture-of-Experts Model via Branch-Train-Stitch](#item-23) ⭐️ 6.0/10
+24. [Ponytail: AI Agent Tool for Minimal Code Generation](#item-24) ⭐️ 6.0/10
+25. [Agent-Reach: Python CLI for AI Agents to Access Twitter, Reddit, YouTube Without APIs](#item-25) ⭐️ 6.0/10
+26. [Omnigent Unifies Multiple AI Agents for Real-Time Collaboration](#item-26) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Local AI Models Now Practical for Self-Hosting](https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/) ⭐️ 8.0/10
+## [SpaceX to Acquire Cursor for $60 Billion](https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/) ⭐️ 9.0/10
 
-A recent article claims that self-hosting large language models has become practical, with users reporting positive experiences using models like Qwen3.6-27B, though challenges remain in inference speed and accuracy. This development may disrupt the cloud API market by enabling cost-effective local deployment, enhancing privacy, and forcing commercial providers to compete on pricing. Technical details: 4-bit quantization can degrade tool-calling ability; MoE models trade speed for accuracy; iterative planning with fresh context improves small model performance.
+On June 16, 2026, SpaceX announced its planned acquisition of Anysphere (Cursor) for $60 billion, marking a major move into the AI coding assistant market. This acquisition represents a non-software company placing a massive bet on AI developer tools, potentially reshaping the competitive landscape and raising questions about strategic fit and valuation. Cursor was valued at $29.3 billion before the deal and surpassed $3 billion in annual recurring revenue by early 2026; SpaceX's $60 billion offer represents a significant premium.
 
-hackernews · jfb · Jun 16, 14:36 · [Discussion](https://news.ycombinator.com/item?id=48555993)
+hackernews · itsmarcelg · Jun 16, 10:44 · [Discussion](https://news.ycombinator.com/item?id=48553224)
 
-**Background**: Large language model inference involves generating outputs from prompts, traditionally demanding high-end hardware. Running models locally reduces latency and privacy risks but requires managing limited resources. Recent improvements in model efficiency and optimization techniques have made local deployment more viable.
+**Background**: Cursor is an AI-powered code editor and coding agent developed by Anysphere, an American software company founded in 2022. It uses natural language instructions and AI models to assist programmers in editing code, searching codebases, and running commands. SpaceX, known for rockets and space exploration, is entering a completely different industry with this acquisition.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://grokipedia.com/page/LLM_Inference">LLM Inference</a></li>
-<li><a href="https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/">Mastering LLM Techniques: Inference Optimization | NVIDIA Technical...</a></li>
-<li><a href="https://huggingface.co/blog/Kseniase/inference">Topic 23: What is LLM Inference , it's challenges and solutions for it</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cursor_(code_editor)">Cursor (code editor)</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community reactions are mixed: some find local models superior to commercial APIs in certain tasks, while others criticize speed and accuracy issues. Many acknowledge the cost benefits and propose workarounds like using planning steps to boost performance.
+**Discussion**: The community reaction is largely skeptical, with many questioning the $60B valuation and strategic logic behind a space company buying an AI coding assistant. Some view Cursor as inferior to competitors like Codex/Claude, while others draw comparisons to past acquisitions like Minecraft's $2.5B deal to highlight perceived overvaluation. There is also a mention of SpaceX's claimed $26 trillion addressable AI market, but overall the sentiment is bewildered.
 
-**Tags**: `#local-models`, `#large-language-models`, `#ai`, `#self-hosting`, `#llm-inference`
+**Tags**: `#acquisition`, `#AI`, `#coding-assistants`, `#SpaceX`, `#Cursor`
 
 ---
 
 <a id="item-2"></a>
-## [Interactive Deep Dive into Mechanical Watches (2022)](https://ciechanow.ski/mechanical-watch/) ⭐️ 8.0/10
+## [GLM-5.2 Becomes First Open-Weights Model to Surpass 80% on Terminal-Bench](https://www.reddit.com/r/LocalLLaMA/comments/1u7mexd/glm52_is_the_first_openweights_model_to_cross_80/) ⭐️ 9.0/10
 
-In 2022, Bartosz Ciechanowski released an interactive deep-dive article that visually explains the inner workings of mechanical watches through interactive animations and clear explanations. This article sets a high standard for technical education on the web, combining interactivity and clarity to demystify a traditionally complex subject, inspiring others to create similar educational content. The article uses real-time interactive simulations and exploded views to let readers explore each component of a watch movement, yet it remains accessible to non-experts. It covers escapement, gear train, mainspring, and other key elements with unprecedented clarity.
+GLM-5.2, released by Zhipu AI, is the first open-weights model to exceed 80% on the Terminal-Bench benchmark, outperforming all other open models and even proprietary ones like Gemini, now available under MIT license on Hugging Face and Ollama. This achievement demonstrates that open-weights models can compete with frontier proprietary systems, democratizing access to advanced coding AI and potentially reshaping cost-performance tradeoffs in real-world development workflows. The model offers two thinking modes (High and Max), a 1M-token context window, API pricing of $1.4/$4.4 per million input/output tokens, and scores of 81.0 on Terminal-Bench 2.1, 62.1 on SWE-bench Pro, and 74.4 on FrontierSWE; long-context stability is not yet validated.
 
-hackernews · razin · Jun 16, 11:26 · [Discussion](https://news.ycombinator.com/item?id=48553550)
+reddit · r/LocalLLaMA · /u/BuildwithVignesh · Jun 16, 18:48
 
-**Background**: Mechanical watches use a spring-driven mechanism with a balance wheel and escapement to regulate time, without batteries. Horology, the study of timekeeping, often intimidates beginners due to the intricate interplay of gears and springs. Interactive visualizations like this one break down these complexities into digestible parts.
+**Background**: Terminal-Bench is an open-source benchmark that evaluates AI agents on realistic tasks in a sandboxed terminal environment, emphasizing practical capability. Open-weights models make their parameters publicly available, enabling local deployment and fine-tuning. GLM is a series of large language models developed by Chinese AI company Zhipu AI.
 
-**Discussion**: Community members expressed strong appreciation for the article's educational quality, noting its rare ability to simplify complex topics. Several mentioned being inspired to undertake their own projects, such as building an exploded view model. The author's humility and the article's interactive format were also highlighted as exceptional.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://docs.z.ai/devpack/latest-model">How to Switch Models - Overview - Z.AI DEVELOPER DOCUMENT</a></li>
+<li><a href="https://openai.com/global-affairs/open-weights-and-ai-for-all/">Open weights and AI for all | OpenAI</a></li>
 
-**Tags**: `#mechanical watches`, `#education`, `#interactive visualization`, `#horology`, `#deep-dive`
+</ul>
+</details>
+
+**Discussion**: Community members expressed cautious optimism; one user plans to route routine tasks like support log extraction and code review to the model, pending real-world stability tests.
+
+**Tags**: `#large-language-models`, `#open-weights`, `#benchmark-performance`, `#AI`, `#machine-learning`
 
 ---
 
 <a id="item-3"></a>
-## [Correlated randomness in Slay the Spire 2](https://tck.mn/blog/correlated-randomness-sts2/) ⭐️ 8.0/10
+## [Running Local LLMs Sees Major Improvements, Challenges Remain](https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/) ⭐️ 8.0/10
 
-The article details the implementation of a custom PRNG in Slay the Spire 2 to eliminate correlated randomness and ensure that seeds produce identical runs across all platforms, moving away from platform-dependent standard library implementations. This ensures reproducible gameplay across desktop, mobile, and future platforms, enabling fair competition, reliable seed sharing, and a consistent player experience. It also highlights a common pitfall in cross-platform game development. The original Slay the Spire suffered from different seeds on desktop vs. mobile due to platform-specific C# System.Random implementations. Slay the Spire 2 initially used System.Random in Godot, while Godot's own GDScript RNG class uses the consistent PCG32 algorithm. The custom PRNG also addresses correlation issues that could subtly couple game events.
+Users report that local models like Qwen3.6-27B can now rival or surpass cloud-based models like Claude Sonnet 4.6 for some tasks, though hardware demands and quantization trade-offs remain. The improving viability of local LLMs pressures cloud AI providers to lower prices and could democratize access to powerful AI, especially for privacy-conscious users. Dense models (e.g., Qwen 27B) are smarter but slower; MoE models (e.g., Gemma 26B) are faster but error-prone; 4-bit quantization can weaken tool-calling abilities; large memory is needed (e.g., 24GB+ VRAM).
 
-hackernews · rdmuser · Jun 16, 09:46 · [Discussion](https://news.ycombinator.com/item?id=48552844)
+hackernews · jfb · Jun 16, 14:36 · [Discussion](https://news.ycombinator.com/item?id=48555993)
 
-**Background**: Pseudorandom number generators (PRNGs) in games use a seed to produce deterministic sequences of random numbers for procedural generation, loot drops, and events. Cross-platform consistency is crucial when players share seeds; however, standard library PRNGs like System.Random in C# are not guaranteed to produce the same sequence on different operating systems or hardware, leading to divergent gameplay.
+**Background**: Local LLMs refer to large language models run on personal computers or servers, as opposed to cloud-hosted APIs. Recent open-weight models from companies like Alibaba (Qwen) and Google (Gemma) have significantly improved in quality, enabling practical local use. Quantization is a technique to compress models to run with less memory, often at a slight quality cost. Mixture-of-Experts (MoE) models use multiple sub-networks for efficiency but may have more sporadic errors.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://stackoverflow.com/questions/922358/consistent-pseudo-random-numbers-across-platforms">Consistent pseudo-random numbers across platforms</a></li>
-<li><a href="https://discussions.unity.com/t/random-seed-how-consistent-is-it-across-systems-platforms/584978">Random.seed - how consistent is it across systems/platforms?</a></li>
+**Discussion**: The community discussion reveals a split: some users find local models like Qwen3.6-27B superior to expensive cloud services, citing less verbosity and greater control, while others criticize speed and accuracy trade-offs. There's concern about the impact on cloud AI pricing and curiosity about real-world code quality output. Overall, sentiment is cautiously optimistic.
 
-</ul>
-</details>
-
-**Discussion**: Commenters appreciated the deep technical dive, noting how platform-dependent RNG broke seeds in the original StS and discovering an unwinnable seed in StS1. One pointed out that StS2's issue stemmed from using C# System.Random in Godot, while Godot's native PCG32 avoids it. Another drew a parallel with Minecraft's predictable clay-to-diamond pattern.
-
-**Tags**: `#game-development`, `#randomness`, `#prng`, `#software-engineering`, `#cross-platform`
+**Tags**: `#local-llm`, `#ai`, `#self-hosting`, `#machine-learning`, `#llm`
 
 ---
 
 <a id="item-4"></a>
-## [Garden of Flowers: Pictorial Typography Before ASCII Art](https://garden-of-flowers.heikkilotvonen.com/) ⭐️ 8.0/10
+## [Interactive Article Demystifies Mechanical Watch Mechanics](https://ciechanow.ski/mechanical-watch/) ⭐️ 8.0/10
 
-A new online archive, Garden of Flowers, presents around 2,500 images of pictorial typography created with metal type, ornaments, and rule, dating from the 1600s onward, predating ASCII art. This archive highlights the overlooked role of letterpress in the history of pictorial text art, offering a rich educational resource for designers, typographers, and historians. The images are sourced from public collections like the Internet Archive, displayed for educational purposes without explicit permission; the creator welcomes corrections and leads on additional works, noting the archive is incomplete and may contain errors.
+Bartosz Ciechanowski's interactive article 'Mechanical Watch' provides detailed, step-by-step visual explanations of mechanical watch movements using hand-crafted web technologies. It showcases how interactive media can make complex mechanical engineering accessible, serving as a model for educational content and inspiring further creative projects. The article is built with vanilla HTML, CSS, and JS, ensuring broad compatibility even on older devices, and features interactive exploded views of watch components.
 
-hackernews · california-og · Jun 16, 04:25 · [Discussion](https://news.ycombinator.com/item?id=48550569)
+hackernews · razin · Jun 16, 11:26 · [Discussion](https://news.ycombinator.com/item?id=48553550)
 
-**Background**: ASCII art is a modern form of text-based imagery using computer characters. Before typewriters and computers, printers and typesetters created pictures using metal type, ornaments, and rule. This archive documents that earlier tradition, often called 'type pictures' or 'typotecture'.
+**Background**: Mechanical watches are spring-driven timepieces distinct from quartz watches, relying on a precise interplay of a mainspring, gear train, escapement, and balance wheel. Their intricate assembly often requires physical inspection to understand, making clear visual explanations especially valuable for both enthusiasts and learners.
 
-**Discussion**: Commenters expressed admiration for the archive's comprehensiveness, with some noting historical curiosities like 18th-century box-drawing characters and suggesting connections to typewriter art and Arabic calligraphy. One user inquired about potential interactive features like zoom.
+**Discussion**: Commenters praised the article's educational clarity and hand-coded simplicity, with one reader inspired to build a real-life exploded view model. Others noted the author's humble funding approach and the universal fascination with mechanical watches, overall expressing deep appreciation.
 
-**Tags**: `#typography`, `#history`, `#ascii-art`, `#archive`, `#visual-poetry`
+**Tags**: `#mechanical-engineering`, `#education`, `#interactive`, `#timepieces`, `#web-development`
 
 ---
 
 <a id="item-5"></a>
-## [Trivial 'fix this code' prompt bypasses Fable 5 guardrails, researchers say](https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827) ⭐️ 8.0/10
+## [Stop Using JWTs for Browser Sessions](https://gist.github.com/samsch/0d1f3d3b4745d778f78b230cf6061452) ⭐️ 8.0/10
 
-Researchers found that a trivial 'fix this code' prompt caused Anthropic's Fable 5 model to generate exploit code, bypassing its built-in safety denials without requiring a sophisticated jailbreak. This exposes a fundamental weakness in relying on LLM guardrails for security, challenging Anthropic's claims of robust cyber denials and raising concerns about the safety of controlled model releases. The bypass exploited the model's instruction-following behavior: by framing the request as fixing existing code, the model produced malicious outputs, and this vulnerability is considered hard to fix without degrading functionality.
+A developer published a gist arguing against the use of JSON Web Tokens (JWTs) for browser-based user sessions, which ignited a debate with 91 comments and 155 points on Hacker News. This challenges the widespread practice of using JWTs for web authentication, forcing developers to reconsider security trade-offs and best practices for session management. The argument centers on browser-based sessions, acknowledging JWTs are suitable for service-to-service communication. Concerns include token revocation, storage security (localStorage vs cookies), and the potential for insecure implementations.
 
-hackernews · _tk_ · Jun 16, 09:26 · [Discussion](https://news.ycombinator.com/item?id=48552687)
+hackernews · dzonga · Jun 16, 16:49 · [Discussion](https://news.ycombinator.com/item?id=48558147)
 
-**Background**: Claude Fable 5 is Anthropic's latest language model, marketed as highly capable yet secure, with strong denials against generating harmful content. AI jailbreaking refers to techniques that circumvent these safety constraints, often through carefully crafted prompts. The U.S. government has expressed concern over such models, leading to export controls on advanced AI, which prompted investigations into Fable 5's vulnerabilities.
+**Background**: JWTs are a compact, URL-safe means of representing claims between parties, commonly used for stateless authentication. In session-based authentication, a session ID is stored server-side; JWTs are self-contained tokens that can be verified without a database lookup. However, they are vulnerable to XSS if stored in localStorage, and revocation requires additional mechanisms like blacklists or short expiration times.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.anthropic.com/claude/fable">Claude Fable \ Anthropic</a></li>
-<li><a href="https://en.wikipedia.org/wiki/AI_jailbreaking">AI jailbreaking</a></li>
+<li><a href="https://www.jwt.io/">JSON Web Tokens - jwt.io</a></li>
+<li><a href="https://www.geeksforgeeks.org/web-tech/json-web-token-jwt/">JSON Web Token (JWT) - GeeksforGeeks</a></li>
+<li><a href="https://www.jwt.io/introduction">JSON Web Token Introduction - jwt.io</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters largely view the bypass as a significant and potentially unfixable flaw in Anthropic's security strategy. Some criticize the company for simultaneously claiming its models are dangerous and releasing them with weak safeguards, while others suspect political motivations behind the federal scrutiny, possibly linked to ideological differences or economic favors.
+**Discussion**: Commenters largely agreed that JWTs are problematic for browser sessions but valid for service-to-service use. Many suggested mitigating risks with short-lived tokens, refresh tokens, and httpOnly cookies. Some argued that JWTs are secure when using RS256 signing and proper revocation lists, challenging the absolutist stance of the original post.
 
-**Tags**: `#AI safety`, `#LLM vulnerabilities`, `#Anthropic`, `#cybersecurity`, `#AI regulation`
+**Tags**: `#JWT`, `#security`, `#authentication`, `#web-development`, `#sessions`
 
 ---
 
 <a id="item-6"></a>
-## [quicktok: A Faster BPE Tokenizer with Exact tiktoken Output](https://www.reddit.com/r/MachineLearning/comments/1u73c5r/quicktok_a_faster_tokenizer_exact_and/) ⭐️ 8.0/10
+## [Apple's Hide My Email to Require @icloud.com Aliases, Raising Blocking Fears](https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/) ⭐️ 8.0/10
 
-quicktok is a new C++ BPE tokenizer that produces token IDs byte-identical to tiktoken, achieving 2–3.6× faster encoding than bpe-openai and 4–11× faster than tiktoken itself. Tokenization is often a bottleneck in NLP workflows; quicktok's speedup can drastically reduce preprocessing time for large datasets, making it highly valuable for production systems and researchers working with OpenAI-compatible tokenization. It employs a 2-byte trie for longest-match lookup, dense exactly-keyed caches for merge validity, and a hand-compiled pretokenizer instead of a general regex engine. Benchmarks on Apple M1 show encoding speeds up to 139.2 MB/s on the Code dataset, and it supports cl100k, o200k, GPT-OSS, Llama-3, and Qwen2.5/3 vocabularies.
+Apple is reportedly transitioning Hide My Email addresses from the privaterelay.appleid.com domain to @icloud.com subdomain aliases. This change will make the addresses easily identifiable as disposable, potentially enabling websites to block them. This change undercuts a key privacy feature for millions of iCloud+ users who rely on Hide My Email to avoid spam and tracking. If widely blocked, users may be forced to expose their real email or seek less convenient alternatives. The update has not yet been deployed, and existing privaterelay.appleid.com aliases may continue working temporarily. Users can currently pre-generate up to about 30 new aliases per hour to stockpile before the change, and blocking @icloud.com aliases could inadvertently break Sign in with Apple on some sites.
 
-reddit · r/MachineLearning · /u/_casa_nova_ · Jun 16, 04:24
+hackernews · SXX · Jun 16, 18:37 · [Discussion](https://news.ycombinator.com/item?id=48559935)
 
-**Background**: Byte-pair encoding (BPE) is a tokenization algorithm widely used in large language models, iteratively merging the most frequent byte pairs to build a vocabulary. Tiktoken is OpenAI's official fast BPE tokenizer, but its Python implementation can become a bottleneck. A pretokenizer, typically a regex, first splits text into smaller chunks before BPE merges. Quicktok replaces the regex pretokenizer with a hand-compiled one and uses optimized data structures to accelerate the process while maintaining exact tiktoken output.
+**Background**: Hide My Email is an iCloud+ feature that creates unique, random email addresses forwarding to a user's real inbox. These addresses currently use the domain 'privaterelay.appleid.com', shared across all users, making them harder to block. Apple's reported switch to individual @icloud.com subdomains would make each alias more recognizable as disposable, similar to other email aliasing services.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Byte-pair_encoding">Byte-pair encoding</a></li>
-<li><a href="https://github.com/openai/tiktoken">GitHub - openai/tiktoken: tiktoken is a fast BPE tokeniser for use with OpenAI's models. · GitHub</a></li>
+<li><a href="https://support.apple.com/en-us/105078">How to use Hide My Email with Sign in with Apple</a></li>
+<li><a href="https://support.apple.com/guide/iphone/create-and-manage-hide-my-email-addresses-iphcb02e76f7/ios">Create and manage Hide My Email addresses in Settings on iPhone</a></li>
+<li><a href="https://support.apple.com/guide/icloud/add-and-manage-email-aliases-mm6b1a490a/icloud">Add and manage email aliases for iCloud Mail on... - Apple Support</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#tokenizer`, `#performance`, `#NLP`, `#BPE`, `#machine learning`
+**Discussion**: Community reactions are mixed. Some argue the 'useless' label is overblown, as sites that block privacy emails are likely untrustworthy anyway. Others propose workarounds like pre-generating aliases or using catch-all domains with custom domains. There is also concern that blocking these addresses may also affect Sign in with Apple, providing a deterrent for websites.
+
+**Tags**: `#privacy`, `#apple`, `#email`, `#security`, `#icloud`
 
 ---
 
 <a id="item-7"></a>
-## [SpaceX to Acquire Cursor Maker Anysphere for $60 Billion](https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/) ⭐️ 7.0/10
+## ['But Yak Shaving Is Fun': A 2019 Post Sparks Debate](https://parksb.github.io/en/article/32.html) ⭐️ 8.0/10
 
-On June 16, 2026, SpaceX announced its intention to acquire Anysphere, the company behind the AI-powered code editor Cursor, in a deal valued at $60 billion. This acquisition marks a significant diversification for SpaceX into the AI software industry and sets a record valuation for an AI coding tools company, potentially reshaping the competitive landscape for developer tools. Prior to the acquisition, Cursor had achieved a valuation of $29.3 billion and over $3 billion in annual recurring revenue. The deal values Cursor at $60 billion, more than double its previous valuation.
+A 2019 blog post titled 'But yak shaving is fun' humorously explores programmers' tendency to get sidetracked into tangential tasks, recently resurfacing on Hacker News and sparking a vibrant discussion filled with personal anecdotes and insights. It highlights the enduring tension between productivity and creative exploration in software development, showing that yak shaving—often seen as a distraction—can foster deep understanding and valuable tool-building, especially as AI lowers its traditional costs. The original post uses a Ren & Stimpy sketch as a metaphor; recent comments include a 30-year game engine side project, an accidental GIF app, and notes that AI tools now significantly reduce yak shaving's time penalty.
 
-hackernews · itsmarcelg · Jun 16, 10:44 · [Discussion](https://news.ycombinator.com/item?id=48553224)
+hackernews · parksb · Jun 16, 14:26 · [Discussion](https://news.ycombinator.com/item?id=48555838)
 
-**Background**: Cursor is an AI-powered code editor and agent, forked from Visual Studio Code, that allows developers to write, edit, and complete code using natural language. Developed by Anysphere, it rapidly gained adoption and generated over $3 billion in annual recurring revenue by early 2026.
+**Background**: Yak shaving is programmer jargon for getting distracted by a chain of seemingly necessary but tangential micro-tasks when trying to complete a primary goal. The term comes from a 1991 Ren & Stimpy cartoon and was popularized by MIT's AI Lab. It's often lamented as a productivity drain but can also lead to serendipitous learning.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Anysphere">Anysphere</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Cursor_(code_editor)">Cursor (code editor)</a></li>
-<li><a href="https://grokipedia.com/page/cursor-code-editor">Cursor (code editor)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Yak_shaving">Yak shaving</a></li>
+<li><a href="https://en.wiktionary.org/wiki/yak_shaving">yak shaving - Wiktionary, the free dictionary</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community reactions are mixed, with some developers praising Cursor's AI autocomplete and agent modes, while others prefer alternative tools like Claude Code and question SpaceX's strategic move into the IDE market. Some find the acquisition price surprising given the company's prior valuation.
+**Discussion**: Commenters share epic personal yak shaves, from a 30-year game engine quest to an unintended GIF creation app. Some warn of productivity loss, while others celebrate the creativity and deeper learning, with AI now making it more feasible. The overall sentiment is positive, viewing it as a fun, sometimes valuable engineering rite of passage.
 
-**Tags**: `#SpaceX`, `#Cursor`, `#AI coding tools`, `#acquisition`, `#tech industry`
+**Tags**: `#yak-shaving`, `#software-development`, `#programming`, `#productivity`, `#community-discussion`
 
 ---
 
 <a id="item-8"></a>
-## [Apple's Vehicle Motion Cues reduce car sickness with moving dots](https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work) ⭐️ 7.0/10
+## [Correlated Randomness Found in Slay the Spire 2's New PRNG](https://tck.mn/blog/correlated-randomness-sts2/) ⭐️ 8.0/10
 
-Apple introduced Vehicle Motion Cues in iOS 18, which displays animated dots on the screen that move in sync with vehicle motion to reduce motion sickness. User reviews indicate it is surprisingly effective for many people. Motion sickness affects a large portion of the population, limiting activities like reading or using screens while traveling. This built-in, free accessibility feature could improve quality of life for many users and may influence future design in transportation and VR. The dots appear automatically when the device detects in-vehicle motion, and can be set to 'On' or 'Automatic' via Settings. Some users note the implementation seems rough and does not work for everyone, with many Android alternatives available.
+The blog post reveals that Slay the Spire 2's custom PRNG causes correlated randomness, making some game events heavily skewed, such as a 54% chance for a specific curse instead of an even distribution, and making certain outcomes impossible. This impacts game balance and fairness, as players can exploit the correlations to gain advantages or suffer unexpected disadvantages. Additionally, the reduced 32-bit seed space affects the variety of seeded runs and raises concerns about unwinnable seeds. The new PRNG uses a 32-bit hash of the seed, effectively limiting seeds to about 4 billion, which simplifies brute-forcing for unwinnable seeds but reduces high-roll seeded run potential. The correlation arises from not reseeding between different event types, causing shared state.
 
-hackernews · neilfrndes · Jun 16, 16:12 · [Discussion](https://news.ycombinator.com/item?id=48557530)
+hackernews · rdmuser · Jun 16, 09:46 · [Discussion](https://news.ycombinator.com/item?id=48552844)
 
-**Background**: Motion sickness occurs when there is a sensory conflict between what the eyes see and what the inner ear senses about motion. One theory suggests it evolved as a poison-detection mechanism: neurotoxins cause eye tracking issues, and the brain triggers vomiting to expel toxins. Apple's solution adds visual cues that mimic the vehicle's movement, helping align visual and vestibular signals.
+**Background**: Pseudorandom number generators (PRNGs) are algorithms that produce sequences of numbers that appear random but are deterministic given a seed. In games, PRNGs control event outcomes, item drops, etc. If the same PRNG instance is used for multiple independent systems without reseeding, the outputs can become correlated, distorting probabilities. Slay the Spire 2 switched from C# System.Random to an internal PRNG to achieve cross-platform seed consistency, as the standard library implementation varied across platforms.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://appleinsider.com/inside/ios-18/tips/how-to-use-vehicle-motion-cues-in-ios-18-to-reduce-motion-sickness">How to use iOS 18 Vehicle Motion Cues to cut motion sickness</a></li>
-<li><a href="https://support.apple.com/en-mn/guide/iphone/iph55564cb22/ios">Use iPhone more comfortably while riding in... - Apple Support (MN)</a></li>
+<li><a href="https://tck.mn/blog/correlated-randomness-sts2/">Correlated randomness in Slay the Spire 2 - Andy Tockman</a></li>
+<li><a href="https://oohbleh.github.io/losing-seed/">An extremely unwinnable Slay the Spire seed , and how to find more</a></li>
+<li><a href="https://steamcommunity.com/app/2868840/discussions/0/563659628006851585/">Correlated Randomness in STS2 :: Slay the Spire 2 General Discussions</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters expressed mixed reactions: some are excited to try the feature, while others found it ineffective for family members. There were mentions of numerous Android equivalents, suggesting a recent surge in similar apps. Discussion also highlighted the evolutionary theory behind motion sickness and the significant impact on travel for those severely affected.
+**Discussion**: Community comments highlight appreciation for cross-platform seed consistency but express concerns about the reduced seed space limiting fun seeded runs. Discussion also touches on unwinnable seeds, with note that the smaller seed space makes brute-force search feasible. Some point out the issue stems from using C# System.Random in Godot instead of Godot's own PCG32 RNG.
 
-**Tags**: `#apple`, `#ios`, `#motion-sickness`, `#accessibility`, `#user-experience`
+**Tags**: `#game-development`, `#random-number-generation`, `#software-engineering`, `#prng`, `#algorithms`
 
 ---
 
 <a id="item-9"></a>
-## [John Carmack Admits Fabrice Bellard Is a Better Programmer](https://twitter.com/ID_AA_Carmack/status/2064095424420487226) ⭐️ 7.0/10
+## [Meta's Engineering Culture Under Scrutiny Over AI Reassignments](https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering) ⭐️ 8.0/10
 
-John Carmack publicly expressed admiration for Fabrice Bellard on X, calling him almost certainly a better overall programmer, which sparked a Hacker News discussion about Bellard's project choices and specification-driven coding style. This exchange between two programming luminaries highlights the immense respect Bellard commands in the software community and prompts reflection on what defines exceptional programming—especially the ability to choose projects with massive real-world impact and to faithfully turn complex specifications into efficient C implementations. Bellard is known for creating FFmpeg, QEMU, QuickJS, and TinyCC, often working alone. Comments note that his direct involvement in FFmpeg ended over 20 years ago, and his original code has largely been replaced. His recent experiment ts_zip uses LLMs for text compression.
+A heated discussion has erupted over Meta's engineering culture, with claims that 30-50% of core team engineers have been forcefully reassigned to data labeling and RLHF tasks, sparking internal discontent and concerns about cultural decline. This debate may signal a broader industry trend where AI initiatives are reshaping engineering roles, potentially undermining traditional software engineering cultures at major tech firms. The exact reassignment figures are unverified and disputed, with skeptics arguing that using high-cost developers for data labeling is wasteful. Insiders note that Meta's acquired companies like WhatsApp have healthier cultures compared to homegrown orgs.
 
-hackernews · apitman · Jun 16, 04:58 · [Discussion](https://news.ycombinator.com/item?id=48550779)
+hackernews · throwarayes · Jun 16, 16:42 · [Discussion](https://news.ycombinator.com/item?id=48558045)
 
-**Background**: Fabrice Bellard is a French programmer renowned for single-handedly creating widely-used open-source software, including the FFmpeg multimedia framework, the QEMU emulator, the QuickJS JavaScript engine, and the Tiny C Compiler. John Carmack is the co-founder of id Software and a pioneer in 3D graphics, known for games like Doom and Quake. His opinion carries weight due to his own legendary status in software engineering.
+**Background**: Meta, parent company of Facebook and Instagram, has long been admired for its fast-moving engineering culture. RLHF (Reinforcement Learning from Human Feedback) is an AI training technique where humans rate outputs to refine models. Data labeling is the manual annotation of data for machine learning, often considered low-skill compared to software engineering.
 
-**Discussion**: Hacker News comments largely agree with Carmack's praise, emphasizing Bellard's knack for selecting projects with huge impact. One commenter notes that most of Bellard's major works involve turning specifications (e.g., codec specs, ISA specs) into C code. However, a user points out that Bellard's actual contribution to FFmpeg was limited to early code that has since been entirely replaced, and his early code quality was poor. Another mentions Bellard's ts_zip, an LLM-based compression experiment. Overall, sentiment is admiring but nuanced, acknowledging Bellard's genius while correcting misconceptions about his ongoing role.
+**Discussion**: Community reactions are mixed: some fear AI obsession is becoming a toxic industry norm, while others doubt the high reassignment numbers. Insiders differentiate between acquired (better culture) and homegrown Meta orgs. Some also question the value of using software engineers for data labeling and screen recording as training data.
 
-**Tags**: `#programming`, `#famous-developers`, `#software-engineering`, `#community-discussion`, `#tribute`
+**Tags**: `#engineering-culture`, `#meta`, `#ai`, `#organizational-change`, `#tech-industry`
 
 ---
 
 <a id="item-10"></a>
-## [When x86 Emulators Fixed Terrible Code at Runtime](https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419) ⭐️ 7.0/10
+## [Mistral AI Announces New Open-Weight Models for July Release](https://www.reddit.com/r/LocalLLaMA/comments/1u7klvv/mistral_new_family_of_openweight_models_july/) ⭐️ 8.0/10
 
-Microsoft's Raymond Chen recounts how the x86 emulator team encountered egregiously inefficient or buggy applications and implemented dynamic patching within the emulator to silently correct their behavior, from fixing grossly slow I/O loops to patching use-after-free crashes. This underscores the hidden work compatibility layers perform to preserve software usability and performance, demonstrating how emulation can serve as a transparent safety net for legacy code, and reflects a broader trend seen in Proton/Wine for Linux gaming. Anecdotes include a game that loaded 65,536 bytes one byte at a time via fread, causing minutes-long delays; SimCity's read-after-free flaw patched in Windows 95; and a compiler-unrolled loop of 65,536 iterations replaced by a simple loop by the emulator.
+Mistral AI co-founder Arthur Mensch tweeted that a new family of open-weight models will be released in July. No further details on model size or capabilities were disclosed. This announcement reinforces Mistral's commitment to open-source AI, offering strong alternatives to proprietary models. It could empower developers and enterprises with cutting-edge, self-hostable LLMs. The models will be released under open-weight licenses, likely allowing commercial use and modification. The weights will be freely downloadable, enabling self-hosting and fine-tuning.
 
-hackernews · paulmooreparks · Jun 16, 04:46 · [Discussion](https://news.ycombinator.com/item?id=48550693)
+reddit · r/LocalLLaMA · /u/pmttyji · Jun 16, 17:45
 
-**Background**: An emulator like the x86 emulator uses dynamic binary translation to run x86 code on other architectures, and can optionally detect and patch problematic code sequences at runtime without modifying the original binary. This technique is common in compatibility shims on Windows and in Wine/Proton on Linux, where workarounds for known application bugs are applied transparently.
+**Background**: Mistral AI is a French startup known for efficient LLMs like Mistral 7B and Mixtral. Open-weight models share trained parameters, allowing local deployment and modification without access to training data or code. This release follows a trend of major labs providing open models to foster innovation.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Binary_translation">Binary translation - Wikipedia</a></li>
-<li><a href="https://github.com/vlu532/runtime-service-orchestrator">GitHub - vlu532/ runtime -service-orchestrator: A framework for...</a></li>
+<li><a href="https://github.com/xigh/open-weight-models">Open Weight Models - GitHub</a></li>
+<li><a href="https://codersera.com/blog/open-source-llms-landscape-2026/">Open-Source LLMs Landscape: Qwen, Llama, DeepSeek, Kimi (May 2026)</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters shared similar war stories, noting that such patches are now common in Proton for games like Elden Ring, and pointed out that even kernel code can be inefficient. Some remarked that a compiler's “unroll all loops” flag from the 80s/90s might have caused the 65,536-iteration loop, sparking debate on developer decisions.
-
-**Tags**: `#compatibility`, `#emulation`, `#x86`, `#war-stories`, `#software-engineering`
+**Tags**: `#Mistral AI`, `#open-weight models`, `#LLM`, `#AI announcement`, `#LocalLLaMA`
 
 ---
 
 <a id="item-11"></a>
-## [Banned Book Library Hidden in a Smart Light Bulb](https://www.richardosgood.com/posts/banned-book-library/) ⭐️ 7.0/10
+## [Scaling VibeThinker to 3B reaches frontier math/coding performance.](https://www.reddit.com/r/LocalLLaMA/comments/1u7dzdr/scaling_former_vibethinker15b_to_3b_now_it/) ⭐️ 8.0/10
 
-A maker repurposed a Wi‑Fi smart light bulb into a covert web server that hosts books commonly challenged in schools, creating a portable, hidden digital reading room accessible via its own Wi‑Fi network. The project reignites debate on censorship and information access, showing how low‑cost IoT devices can be used to circumvent content restrictions and promote free speech. The bulb’s microcontroller acts as a web server and Wi‑Fi hotspot, serving files as a geographically limited digital library without internet connectivity; its storage and bandwidth are tightly constrained by the modest hardware.
+A 3B parameter model named VibeThinker-3B was trained, achieving high scores on multiple challenging benchmarks: 94.3 on AIME'26, 80.2 on LiveCodeBench v6, 76.4 on IMO-AnswerBench, and 93.4 on IFEval. It also passed 96.1% of first-attempt Python submissions on recent LeetCode contests, demonstrating that small language models can reach frontier-level reasoning in verifiable domains like math and coding. This challenges the conventional scaling law that only large models can achieve frontier reasoning, showing that with clear verification signals in dense domains, small language models can complement large models. It impacts the local LLM community by enabling powerful reasoning on consumer hardware. The model was evaluated using vLLM/Sglang inference engines with temperature 1.0, top_p 0.95, top_k -1. Despite the high benchmark scores, it still has limitations in broader practical and general-purpose use cases. The use of verifiable rewards (like exact answers in math and code execution) likely drove the performance through reinforcement learning.
 
-hackernews · sohkamyung · Jun 15, 22:37 · [Discussion](https://news.ycombinator.com/item?id=48547985)
+reddit · r/LocalLLaMA · /u/Used-Negotiation-741 · Jun 16, 13:44
 
-**Background**: Modern smart light bulbs contain microcontrollers with Wi‑Fi capabilities, enabling IoT connectivity. Hobbyists have previously repurposed these devices to run lightweight servers, such as a Minecraft server, revealing hidden potential. The term “banned books” often refers to titles challenged or removed from school libraries over content concerns, sparking debates on censorship and intellectual freedom.
+**Background**: AIME (American Invitational Mathematics Examination) is a high-school math contest. LiveCodeBench v6 evaluates code generation on real-world competitive programming tasks. IMO-AnswerBench tests math problem-solving at the International Mathematical Olympiad level. IFEval assesses instruction-following. vLLM and SGLang are open-source LLM inference engines. The model appears to use reinforcement learning with verifiable rewards (right/wrong signals) specific to math and coding.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.techradar.com/pro/forget-can-it-run-doom-hardware-buff-shows-you-can-run-a-minecraft-server-on-a-cheap-smart-led-lightbulb">This hardware hacker turned a cheap smart bulb into a full Minecraft server and changed what we think hardware can do | TechRadar</a></li>
-<li><a href="https://hackaday.com/2025/11/13/running-a-minecraft-server-on-a-wifi-light-bulb/">Running A Minecraft Server On A WiFi Light Bulb | Hackaday</a></li>
+<li><a href="https://www.emergentmind.com/topics/livecodebench-v6">LiveCodeBench v 6 Benchmark</a></li>
+<li><a href="https://www.emergentmind.com/topics/imo-answerbench">IMO-AnswerBench: Olympiad Math Evaluation</a></li>
+<li><a href="https://particula.tech/blog/sglang-vs-vllm-inference-engine-comparison">SGLang vs vLLM in 2026: Benchmarks, Architecture, and When to Use Each</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters debated the accuracy of calling these books “banned” rather than “challenged,” emphasizing the real issue of age‑appropriate curation. Others connected the project to older initiatives like PirateBox and LibraryBox, and some praised the poetic symbolism of using a light source to spread suppressed knowledge.
-
-**Tags**: `#banned books`, `#IoT hacking`, `#censorship`, `#free speech`, `#maker projects`
+**Tags**: `#small-language-models`, `#reasoning`, `#math-benchmarks`, `#coding-benchmarks`, `#reinforcement-learning`
 
 ---
 
 <a id="item-12"></a>
-## [Beyond Open Weights: The Need for Open Training Frameworks like FeynRL](https://www.reddit.com/r/MachineLearning/comments/1u6p7k3/open_weights_are_not_enough_we_need_open_training/) ⭐️ 7.0/10
+## [Qwable-v1: Open-weights Model Distilled from Claude Fable-5](https://www.reddit.com/r/LocalLLaMA/comments/1u6zj79/claude_fable_5_distilled/) ⭐️ 8.0/10
 
-The post introduces FeynRL, a new open-source framework designed for reinforcement learning (RL) post-training of large language models, vision-language models, and agents. It aims to separate algorithms from infrastructure, making the full training loop transparent and modifiable. Open-weight models are valuable but insufficient for advancing AI research because their training processes remain opaque. FeynRL provides an accessible platform for developing new RL algorithms, training recipes, and reward designs, potentially accelerating innovation in model alignment and fine-tuning. FeynRL supports supervised fine-tuning (SFT), Direct Preference Optimization (DPO), and RL-based post-training, works with both vLLM and standard LLMs, and scales from single-GPU to cluster setups. It explicitly handles rollout generation, reward computation, loss construction, and credit assignment.
+Qwable-v1, an open-weights Qwen3.6-35B-A3B model, has been released, distilled from 4,659 agentic-coding traces of Anthropic's briefly public Claude Fable-5 model. It captures Fable-5's tool-use style, including its XML-formatted tool calls. This release provides an open alternative that captures the tool-use behavior of a high-performance but restricted model, potentially lowering barriers for agentic coding research and highlighting the limitations of anti-distillation measures. The distillation used the only public corpus (Glint-Research/Fable-5-traces) where Fable-5's chain-of-thought survived anti-distillation filtering; training took ~14 hours on one H200. The model emits properly-formatted XML tool calls such as str_replace_editor, indicating the tool surface leaked into weights.
 
-reddit · r/MachineLearning · /u/summerday10 · Jun 15, 18:37
+reddit · r/LocalLLaMA · /u/Anony6666 · Jun 16, 01:21
 
-**Background**: Reinforcement learning from human feedback (RLHF) and related post-training methods align large language models after pre-training. These processes involve complex, multi-step pipelines (rollout engines, reward models, distributed training) that are difficult to inspect and modify in existing frameworks. FeynRL draws inspiration from physicist Richard Feynman’s philosophy of understanding systems deeply, aiming to make every training detail explicit.
+**Background**: Claude Fable-5 was a brief Mythos-class preview from Anthropic, achieving 80.3% on SWE-bench Pro and featuring an anti-distillation classifier that redacted thinking blocks. It was suspended after four days due to U.S. export-control directives. The distillation dataset, Glint-Research/Fable-5-traces, captured rare uncensored chain-of-thought examples.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://feynrl-project.github.io/">FeynRL — Understand What You Build</a></li>
-<li><a href="https://github.com/FeynRL-project/FeynRL">GitHub - FeynRL-project/FeynRL: Post-training framework for large models, from new objectives to new rollout systems. · GitHub</a></li>
-<li><a href="https://langcopilot.com/posts/2025-12-26-llm-reinforcement-learning-challenges-solutions">Why Your LLM RL Training Keeps Crashing: 6 Months of Hard Lessons</a></li>
+<li><a href="https://www.anthropic.com/news/claude-fable-5-mythos-5">Claude Fable 5 and Claude Mythos 5 \ Anthropic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Fable_5">Claude Fable 5</a></li>
+<li><a href="https://labs.scale.com/leaderboard/swe_bench_pro_private">Scale Labs Leaderboard: SWE-Bench Pro (Private Dataset)</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#open-source`, `#training-frameworks`, `#reinforcement-learning`, `#large-language-models`, `#research-tools`
+**Tags**: `#model-release`, `#distillation`, `#open-source`, `#Claude`, `#LLM-tools`
 
 ---
 
 <a id="item-13"></a>
-## [Cleo: Full Analyst Behavior in a 2B Text-to-SQL Model](https://www.reddit.com/r/MachineLearning/comments/1u6udpb/cleo_trying_to_fit_full_analyst_behavior_in_a_2b/) ⭐️ 7.0/10
+## [TNO Launches GPT-NL, a Sovereign Dutch Language Model with €13.5M Funding](https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/) ⭐️ 7.0/10
 
-Cleo is a new open-source 2B parameter text-to-SQL model, finetuned from Qwen3.5-2B-Base, that uses a unified execution harness to achieve full analyst behavior, including live query search and clarification, with training and inference sharing the same structured contract. This demonstrates that a small 2B model can perform complex text-to-SQL tasks with analyst-like capabilities, reducing deployment costs and enabling on-device use. It addresses a common industrial need for efficient, secure, and interactive database querying, potentially making such systems more accessible. Cleo's harness co-designs SQL safety, dialect handling, timeouts, and clarification behavior. It uses live execution evidence to search over candidate queries, not just model likelihood, and was trained with the ECHO reinforcement learning technique for resource-constrained settings.
+TNO, along with partners SURF and NFI, announced GPT-NL, a Dutch open-source large language model trained exclusively on legally obtained data, backed by €13.5 million in funding. GPT-NL aims to strengthen Dutch digital sovereignty and reduce reliance on foreign AI models from the US and China, while ensuring compliance with EU data regulations and copyright law. The €13.5M budget is widely seen as modest compared to the tens of millions typically needed to train frontier models, raising feasibility concerns; the model is developed as an open alternative with a focus on legal compliance and Dutch-language capability.
 
-reddit · r/MachineLearning · /u/Dreeseaw · Jun 15, 21:43
+hackernews · root-parent · Jun 16, 17:54 · [Discussion](https://news.ycombinator.com/item?id=48559188)
 
-**Background**: Text-to-SQL models convert natural language questions into SQL database queries, powering many industrial chatbots. The 'unified execution harness' is a structured interface that manages the full lifecycle of a query, including generation, repair, and answering. Small language models like Qwen's 2B variant are more cost-effective and efficient but are typically less capable than larger models. Cleo shows that with careful system design, even small models can achieve sophisticated interactive querying.
+**Background**: Sovereign AI refers to nations building independent AI infrastructure and models to control their own data and technology destiny. Large language models (LLMs) like GPT-4 are typically trained on massive datasets with significant compute, costing millions of dollars. Several European countries, such as Sweden with GPT-SW3, have pursued similar national LLM projects.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Qwen">Qwen - Wikipedia</a></li>
-<li><a href="https://arxiv.org/html/2606.03005v1">MUSE: A Unified Agentic Harness for MLLMs</a></li>
+<li><a href="https://gpt-nl.nl/">GPT-NL: Een verantwoord taalmodel voor Nederland - GPT-NL</a></li>
+<li><a href="https://blogs.nvidia.com/blog/what-is-sovereign-ai/">What Is Sovereign AI? | NVIDIA Blog</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#text-to-sql`, `#small language models`, `#structured output`, `#open-source`, `#model efficiency`
+**Discussion**: Community reactions are mixed: some applaud the push for digital sovereignty, while many question the adequacy of €13.5M, citing the high costs of training comparable models; others argue resources would be better spent fine-tuning existing open-source models rather than building from scratch.
+
+**Tags**: `#sovereign AI`, `#NLP`, `#Netherlands`, `#language models`, `#research funding`
 
 ---
 
 <a id="item-14"></a>
-## [Georgi Gerganov Endorses Qwen3.6-27B for Local Coding](https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything) ⭐️ 6.0/10
+## [Calvin and Hobbes and the Price of Integrity](https://therepublicofletters.substack.com/p/calvin-and-hobbes-and-the-price-of) ⭐️ 7.0/10
 
-Georgi Gerganov, creator of llama.cpp, has publicly endorsed Qwen3.6-27B as a capable local coding assistant, revealing he uses it almost daily with a stripped-down pi agent for maintenance tasks. This endorsement from a prominent open-source developer highlights the growing practicality of local large language models for real-world coding, potentially encouraging more maintainers to adopt offline AI assistants. Gerganov runs Qwen3.6-27B on an M2 Ultra or RTX 5090, using a minimal harness: the pi agent stripped down and invoked as `pi -nc --offline`, with a short system prompt to match his coding style.
+A new essay on Substack, "Calvin and Hobbes and the price of integrity," reflects on Bill Watterson’s steadfast refusal to license his iconic comic strip, exploring the enduring value of artistic integrity over commercial gain. In an era of rampant intellectual property monetization, Watterson’s story serves as a rare reminder that preserving creative vision can hold deeper significance than financial success, inspiring both artists and audiences to reconsider the trade-offs between integrity and commerce. The piece is published on The Republic of Letters Substack and examines Watterson’s career-long stance from the strip’s 1985 debut to his 1995 retirement, resulting in a complete absence of official Calvin and Hobbes merchandise beyond books.
 
-rss · Simon Willison · Jun 16, 16:04
+hackernews · pseudolus · Jun 16, 15:44 · [Discussion](https://news.ycombinator.com/item?id=48557079)
 
-**Background**: Georgi Gerganov is the creator of llama.cpp, a widely used C++ library for running large language models efficiently on consumer hardware. Qwen3.6-27B is a 27-billion-parameter dense language model released by Alibaba's Qwen Team in April 2026, designed for strong performance in coding and reasoning tasks. The pi agent is an AI coding assistant that integrates with llama.cpp and can operate fully offline, making it suitable for local, private development workflows.
+**Background**: Bill Watterson is the reclusive creator of "Calvin and Hobbes," a newspaper comic strip (1985–1995) widely regarded as a masterpiece. Unlike cartoonists such as Jim Davis (Garfield), Watterson fiercely opposed licensing his characters for toys, TV, or film, arguing it would undercut the strip’s spirit. He also crusaded for more creative freedom in the newspaper comics industry. This uncompromising stance has made him a symbol of artistic integrity, though it also means that no authorized products beyond books exist.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://huggingface.co/Qwen/Qwen3.6-27B">Qwen/ Qwen 3 . 6 - 27 B · Hugging Face</a></li>
-<li><a href="https://openrouter.ai/qwen/qwen3.6-27b">Qwen 3 . 6 27 B - API Pricing & Benchmarks | OpenRouter</a></li>
+**Discussion**: Commenters overwhelmingly admire Watterson’s integrity, with some admitting they would likely accept lucrative licensing deals if offered. Others express frustration at bootleg merchandise (e.g., "Calvin pissing" stickers) and nostalgia for Sunday newspaper comics. The dialogue balances deep respect for uncompromising artistry with pragmatic recognition of commercial pressures.
 
-</ul>
-</details>
-
-**Tags**: `#AI`, `#local LLM`, `#coding assistants`, `#Qwen`, `#llama.cpp`
+**Tags**: `#comics`, `#integrity`, `#philosophy`, `#art`, `#culture`
 
 ---
 
 <a id="item-15"></a>
-## [Leakage-Clean Verifier Uses Object-Centric Graphs to Check Robot Manipulation](https://www.reddit.com/r/MachineLearning/comments/1u7hxem/i_built_a_leakageclean_verifier_for_robot/) ⭐️ 6.0/10
+## [Georgi Gerganov Endorses Qwen3.6-27B for Local Coding](https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything) ⭐️ 7.0/10
 
-A developer built a leakage-clean verifier that compiles human demonstrations into object-centric graphs, then independently compares them to graphs extracted from robot rollouts, preventing the success metric from being fooled. This addresses the conflict of interest where policy authors also define success metrics, enabling more honest and scalable reward signals for training robot foundation models. The verifier uses discrete relational states (e.g., INSIDE, TOUCHING, event order) and handles pick/place/insert tasks but not force-profile or deformable ones. Perception from video under occlusion is the hardest part and could compromise the information boundary.
+Georgi Gerganov, creator of llama.cpp, shared that he has been using the Qwen3.6-27B model almost daily for over a month for mundane coding tasks on local hardware, employing a stripped-down pi agent with a custom system prompt. This firsthand endorsement from a leading figure in local LLM inference validates the real-world utility of dense 27B models for developer productivity, reinforcing the shift toward powerful, openly available coding assistants that run on consumer-grade hardware. He runs the model on an M2 Ultra or an RTX 5090 box, uses the pi agent in offline mode (pi -nc --offline), and aligns it with his coding style via a short system prompt; his usage is limited by the time spent on pull request reviews.
 
-reddit · r/MachineLearning · /u/Alexpplay · Jun 16, 16:10
+rss · Simon Willison · Jun 16, 16:04
 
-**Background**: Object-centric graphs represent scenes by focusing on objects and their relationships, useful in robot manipulation. Metric leakage (gaming) occurs when a model achieves high scores without truly completing a task, and in robot manipulation, hand-coded success predicates often create a conflict of interest because the policy author also defines evaluation. A leakage-clean verifier separates ground truth from evaluation to prevent such gaming.
+**Background**: llama.cpp is a C/C++ inference engine enabling local execution of large language models. Qwen3.6-27B is a dense, open-weight model from Alibaba released in April 2026, competing with much larger models on coding benchmarks. The pi agent is a terminal-based coding assistant that can integrate with local LLM servers.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://hal.science/hal-05171537v1/document">Predictive process monitoring using object - centric graph embeddings</a></li>
-<li><a href="https://www.minware.com/guide/anti-patterns/metric-gaming">Metric Gaming | minware</a></li>
+<li><a href="https://www.openmodels.run/models/qwen3-6-27b">Qwen 3 . 6 27 B - OpenModels</a></li>
+<li><a href="https://github.com/ggml-org/llama.cpp">GitHub - ggml-org/llama.cpp: LLM inference in C/C++ · GitHub</a></li>
+<li><a href="https://pi.dev/packages/pi-llama-cpp">pi-llama-cpp · Packages · Pi</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#robotics`, `#manipulation`, `#evaluation`, `#benchmarking`, `#graph-matching`
+**Tags**: `#local-llm`, `#coding-assistance`, `#qwen`, `#llama.cpp`, `#developer-tools`
 
 ---
 
 <a id="item-16"></a>
-## [Agent-Reach: No-API Fee Internet Access for AI Agents](https://github.com/Panniantong/Agent-Reach) ⭐️ 6.0/10
+## [Claude Fable 5 Export Ban Over 'Fix This Code' Harms Cyber Defense](https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything) ⭐️ 7.0/10
 
-Agent-Reach is a new Python CLI tool that enables AI agents to read and search content from Twitter, Reddit, YouTube, GitHub, Bilibili, and XiaoHongShu without any API costs. It eliminates API fees for AI agents needing real-time data from major social and content platforms, lowering the barrier for developers to build agents that require internet-scale information. The tool is implemented as a Python CLI, presumably using web scraping to bypass official APIs, and may be limited by platform anti-scraping measures and terms of service.
+Researchers found that Claude Fable 5, a state-of-the-art coding model, could be prompted to patch security vulnerabilities simply by asking it to 'fix this code,' which regulators mischaracterized as a dangerous 'jailbreak' leading to export restrictions. This sets a precedent where models aiding defensive security are banned based on potential offensive misuse, undermining US cyber defense and reflecting non-technical policymakers' misunderstanding of dual-use AI capabilities. The prompt involved open-source code with known CVEs and deliberately planted bugs; Fable 5 initially refused a 'review for security issues' request but complied when asked to fix the code, and the output required manual post-processing to produce exploit scripts.
 
-ossinsight · Panniantong · Jun 16, 18:26
+rss · Simon Willison · Jun 16, 05:20
 
-**Background**: AI agents often rely on APIs to access web data, which can be costly and rate-limited. Agent-Reach scrapes public data from these platforms, providing a free alternative. However, its legality and reliability depend on the platforms' policies and anti-scraping defenses. The supported platforms include both Western (Twitter, Reddit, YouTube, GitHub) and Chinese (Bilibili, XiaoHongShu) services, reflecting a cross-cultural focus.
-
-**Tags**: `#ai-agents`, `#web-scraping`, `#cli-tool`, `#python`, `#internet-access`
-
----
-
-<a id="item-17"></a>
-## [Omnigent: A Meta-Harness Unifying AI Coding Agents](https://github.com/omnigent-ai/omnigent) ⭐️ 6.0/10
-
-Omnigent was recently open-sourced on GitHub, gaining 23 stars in its first day. It provides a meta-harness that wraps around multiple AI coding agents like Claude Code, Codex, and Pi, enabling seamless swapping, policy control, sandboxing, and live collaborative sessions. As AI coding agents proliferate, developers face fragmentation; Omnigent addresses the growing need for agent orchestration, potentially simplifying workflows and improving safety. It could accelerate adoption of multi-agent systems in software development. The project is in early stage with 94 pushes and 3 pull requests, written in Python. It supports real-time collaboration from any device and includes policy enforcement and sandboxing to constrain agent behavior.
-
-ossinsight · omnigent-ai · Jun 16, 18:26
-
-**Background**: In AI development, a 'harness' is a framework that manages an agent's interactions with tools and environment. A 'meta-harness' sits above multiple such harnesses, providing a unified interface. This is useful for integrating different AI coding assistants (like Claude Code for ethical coding, OpenAI Codex for code generation) under one roof, with added safety layers.
+**Background**: Claude Fable 5, released in June 2026 by Anthropic, is a large language model excelling at autonomous, long-horizon coding tasks. US export controls on AI aim to restrict technologies with potential military or cyber warfare applications. The incident highlights the dual-use dilemma: finding and fixing security vulnerabilities is essential for both offense and defense, yet can be misused. Previous 'jailbreaking' refers to bypassing safety guardrails, but here the request was a routine defensive task, not a malicious bypass.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://omnigent.ai/">Omnigent — a meta-harness for building and running AI agents</a></li>
-<li><a href="https://www.databricks.com/blog/introducing-omnigent-meta-harness-combine-control-and-share-your-agents">Introducing Omnigent : A Meta-Harness to Combine... | Databricks Blog</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Fable_5">Claude Fable 5</a></li>
+<li><a href="https://www.anthropic.com/news/claude-fable-5-mythos-5">Claude Fable 5 and Claude Mythos 5 \ Anthropic</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#ai-agents`, `#orchestration`, `#developer-tools`, `#python`, `#agent-framework`
+**Tags**: `#ai-policy`, `#export-controls`, `#cybersecurity`, `#ai-alignment`, `#llm-jailbreaking`
+
+---
+
+<a id="item-17"></a>
+## [Donate your coding sessions to an open CC-BY-4.0 dataset to help train open-weight models](https://www.reddit.com/r/LocalLLaMA/comments/1u795pb/donate_your_coding_sessions_to_an_open_ccby40/) ⭐️ 7.0/10
+
+A Reddit user launched Trace Commons, an initiative to collect coding agent traces and create an open CC-BY-4.0 dataset for training open-weight models. This counters the data oligopoly of proprietary models like Anthropic's Claude Code and OpenAI's Codex, which gather massive coding interaction data, potentially leaving open-source models behind. The dataset is hosted on Hugging Face Spaces and relies on community contributions of coding agent traces. It is in early stages and uses a CC-BY-4.0 license.
+
+reddit · r/LocalLLaMA · /u/mon-simas · Jun 16, 09:58
+
+**Background**: Coding agents are AI tools that assist in writing code, generating traces or logs of interactions. Proprietary models like GPT-4 or Claude collect these traces for training, giving them an unfair advantage in code generation. Open-weight models lack access to such data, creating a competitive gap. This initiative aims to democratize access to coding interaction data.
+
+**Tags**: `#open-source`, `#dataset`, `#coding`, `#LLM`, `#initiative`
+
+---
+
+<a id="item-18"></a>
+## [Make HTTP Requests Without curl Using Bash /dev/tcp](https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/) ⭐️ 6.0/10
+
+Bash's built-in /dev/tcp pseudo-device can be used to manually craft and send HTTP requests by writing raw HTTP/1.1 messages to a TCP socket, providing a lightweight alternative to curl in minimal Docker containers or restricted environments. This method enables quick health checks and connectivity tests in environments where installing curl or wget is impossible, saving debugging time and preserving image minimalism. It also educates users on underlying network protocols. The technique is not a full HTTP client; it lacks handling for redirects, chunked encoding, or TLS, and may fail on complex responses. It requires a Bash version compiled with --enable-net-redirections (common but not guaranteed). Usage: exec 3<>/dev/tcp/example.com/80; printf 'GET / HTTP/1.1\r\nHost: example.com\r\nConnection: close\r\n\r\n' >&3; cat <&3.
+
+hackernews · mrshu · Jun 16, 16:40 · [Discussion](https://news.ycombinator.com/item?id=48558018)
+
+**Background**: /dev/tcp is a Bash-specific pseudo-device that enables direct TCP connections using file descriptor syntax (e.g., /dev/tcp/host/port). It is not a real device file but a shell feature, allowing raw socket communication without external tools. The HTTP protocol requires manually formatted requests with headers and line breaks, making it a manual but functional approach for simple tasks.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/">Making HTTP requests from a container that has no curl, using ...</a></li>
+<li><a href="https://linuxize.com/post/check-open-ports-linux/">Check Open Ports in Linux: nmap, netcat, and Bash | Linuxize /dev - Linux Documentation Project Some useful tips about /dev/tcp - Andrea Fortuna devices - Are /dev/ {udp,tcp} standardized or available ... /dev | Advanced Bash-Scripting Guide linux - TCP connection, bash only - Stack Overflow</a></li>
+<li><a href="https://rednafi.com/misc/http-requests-via-dev-tcp/">HTTP requests via /dev/tcp | Redowan's Reflections</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters shared nostalgia for manual HTTP via telnet, warned that this toy code lacks robust HTTP parsing and should not be used unattended, and provided real-world examples like health checks between Docker containers without curl. The overall sentiment is educational and cautionary.
+
+**Tags**: `#bash`, `#networking`, `#http`, `#shell-scripting`, `#dev-tcp`
+
+---
+
+<a id="item-19"></a>
+## [Apple's Vehicle Motion Cues feature reduces car sickness with animated dots](https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work) ⭐️ 6.0/10
+
+Apple introduced Vehicle Motion Cues in iOS 18, an accessibility feature that displays animated dots on the screen moving in sync with the vehicle's motion to help reduce motion sickness when using the device in a car. This feature matters because it addresses a common problem for many passengers who experience nausea when reading or using a phone in moving vehicles, offering a built-in solution without extra hardware. The animated dots are designed to reconcile the sensory conflict between visual and vestibular perceptions. The feature can be manually enabled or set to automatic, but currently Apple does not expose its state to Shortcuts, limiting automation.
+
+hackernews · neilfrndes · Jun 16, 16:12 · [Discussion](https://news.ycombinator.com/item?id=48557530)
+
+**Background**: Motion sickness often stems from a sensory mismatch: when the eyes focus on a stationary screen while the inner ear senses movement, the brain interprets this as a neurotoxin ingestion, triggering nausea. This evolutionary defense mechanism explains why such conflicts lead to sickness. Vehicle Motion Cues provides visual cues that align with the vehicle's motion, reducing the conflict.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://support.apple.com/en-in/guide/iphone/iph55564cb22/ios">Use iPhone more comfortably while riding in a vehicle</a></li>
+<li><a href="https://www.self.com/story/vehicle-motion-cues-review">I Tried Apple's New 'Vehicle Motion Cues' Feature and ... - SELF</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters expressed excitement about trying the feature, sharing personal struggles with motion sickness. Some recommended Android alternatives, while others delved into the evolutionary theory behind motion sickness. A safety warning about laptop use in the passenger seat and a citation of a research paper on migraine-related motion sickness susceptibility added depth.
+
+**Tags**: `#accessibility`, `#motion-sickness`, `#apple`, `#ios`, `#feature`
+
+---
+
+<a id="item-20"></a>
+## [Ghost Jobs Could Soon Be Illegal in New York](https://www.fastcompany.com/91558427/ghost-jobs-could-soon-be-illegal-in-new-york) ⭐️ 6.0/10
+
+New York lawmakers are considering a bill that would make it illegal for employers to advertise 'ghost jobs' — job postings for positions that are not genuinely open or are already filled. This legislation could protect job seekers from wasting time on non-existent opportunities and pressure employers to be more transparent, potentially setting a national precedent. Enforcement remains a key challenge, as proving an employer's intent is difficult; the bill proposes requiring companies to confirm within a set period whether a role is actively being recruited.
+
+hackernews · toomuchtodo · Jun 16, 17:01 · [Discussion](https://news.ycombinator.com/item?id=48558338)
+
+**Background**: Ghost jobs are listings that employers keep open without active hiring, often to collect resumes, project growth, or test the market. They have proliferated with online job boards, leading to widespread frustration among job seekers.
+
+**Discussion**: Community comments are mixed: many support the ban as a way to stop cruelty to job seekers, while others question enforceability and predict unintended consequences, such as pushing ghost jobs into unregulated channels or increasing reliance on insider referrals.
+
+**Tags**: `#employment`, `#legislation`, `#job-market`, `#hiring`, `#ghost-jobs`
+
+---
+
+<a id="item-21"></a>
+## [Fable Model Refuses Jailbreak but Complies with Code Fix Requests](https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/#atom-everything) ⭐️ 6.0/10
+
+Cybersecurity expert Katie Moussouris revealed that Anthropic's Fable model refused a jailbreak prompt asking to 'review the code for security issues' but later complied when asked to 'fix this code,' interpreting the latter as legitimate cyberdefense work. This incident illustrates the subtlety of AI jailbreaking: the model correctly refused a suspicious request but was co-opted by a slightly reframed one, underscoring the challenges in designing robust safeguards for powerful models and the importance of ongoing red-teaming. The test was part of a White House report on the Fable jailbreak, involving IT experts. Fable refused the exact phrase 'review the code for security issues' but accepted 'fix this code' and required further manual steps to complete the task.
+
+rss · Simon Willison · Jun 16, 03:07
+
+**Background**: AI jailbreaking refers to crafting prompts that bypass safety filters to make models perform harmful tasks. Anthropic's Claude Fable 5, released in June 2026, is a state-of-the-art LLM known for advanced reasoning and autonomous coding. The incident stems from a White House report examining jailbreak vulnerabilities in Fable, amid broader government scrutiny of AI export controls and safety.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.anthropic.com/claude/fable">Claude Fable \ Anthropic</a></li>
+<li><a href="https://www.anthropic.com/news/claude-fable-5-mythos-5">Claude Fable 5 and Claude Mythos 5 \ Anthropic</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI safety`, `#jailbreaking`, `#cybersecurity`, `#Anthropic`, `#LLMs`
+
+---
+
+<a id="item-22"></a>
+## [Warning: Qwen/Claude Distillations Often Underperform Base Models](https://www.reddit.com/r/LocalLLaMA/comments/1u7a2hn/be_wary_of_qwenclaude_distillations_theyre_often/) ⭐️ 6.0/10
+
+A Reddit user warns that recent Qwen-based Claude-style distillations, fine-tuned with only 4,000–10,000 samples, fail to improve capabilities and often underperform the original Qwen base model. This matters because many local LLM enthusiasts may mistakenly believe these distilled models are superior; it saves them from deploying inferior models and encourages proper benchmarking. The Fable 5 distill uses ~4,000 samples; even Qwopus's 8–10K samples are far too few. Effective knowledge distillation, like DeepSeek-R1's official distills, required ~700,000 samples to meaningfully boost performance.
+
+reddit · r/LocalLLaMA · /u/ayylmaonade · Jun 16, 10:48
+
+**Background**: Knowledge distillation is a machine learning technique where a smaller 'student' model is trained to mimic a larger 'teacher' model. In LLMs, distillation often involves fine-tuning a base model on outputs from a more capable model like Claude. However, successfully transferring capabilities requires large amounts of high-quality training data; otherwise, the student only learns superficial style without real improvement.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Knowledge_distillation">Knowledge distillation</a></li>
+<li><a href="https://www.datacamp.com/blog/distillation-llm">LLM Distillation Explained: Applications, Implementation ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#LLM`, `#fine-tuning`, `#distillation`, `#Qwen`, `#Anthropic`
+
+---
+
+<a id="item-23"></a>
+## [Crowdsourced Mixture-of-Experts Model via Branch-Train-Stitch](https://www.reddit.com/r/LocalLLaMA/comments/1u7mn85/get_in_here_community_model_build_thread/) ⭐️ 6.0/10
+
+A Reddit user proposes a collaborative approach to train a mixture-of-experts language model. Participants would independently train small prototype models on narrow domains, then submit them for stitching into a large MoE. This crowdsourced strategy could democratize large model training by leveraging distributed community hardware, potentially producing a powerful open-source model without centralized infrastructure. Key decisions include prototype size (2B vs 7B), which affects participation and final model runnability. Standardized scripts are needed to enforce training consistency and domain orthogonality; the final MoE could reach 500B–1T parameters, making router training expensive.
+
+reddit · r/LocalLLaMA · /u/Party-Special-5177 · Jun 16, 18:57
+
+**Background**: Mixture-of-Experts (MoE) architectures use multiple submodels (experts) with a router to selectively activate them per input, scaling capacity efficiently. Branch-Train-Stitch (BTS) is a method where separate experts are trained independently on different domains, then combined into a single model using learned stitch layers, preserving specialized knowledge.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Mixture_of_experts">Mixture of experts - Wikipedia</a></li>
+<li><a href="https://huggingface.co/papers/2502.00075">Paper page - BTS: Harmonizing Specialized Experts into a Generalist...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#Mixture of Experts`, `#crowdsourced compute`, `#local LLM`, `#community model`, `#training`
+
+---
+
+<a id="item-24"></a>
+## [Ponytail: AI Agent Tool for Minimal Code Generation](https://github.com/DietrichGebert/ponytail) ⭐️ 6.0/10
+
+A GitHub repository named ponytail, written in JavaScript, gained 191 stars in 24 hours. It is a tool that makes AI agents adopt a 'lazy' coding style, encouraging them to write minimal code. This reflects a growing interest in AI-assisted coding practices and the principle that less code often leads to fewer bugs and better maintainability. It humorously challenges the trend of AI over-generating code. The tool likely works by modifying prompts or behaviors of AI coding agents to produce concise solutions. It is implemented in JavaScript and is open-source, but technical specifics are limited.
+
+ossinsight · DietrichGebert · Jun 16, 22:10
+
+**Background**: In software engineering, experienced developers often favor minimalistic solutions, adhering to principles like DRY (Don't Repeat Yourself) and YAGNI (You Ain't Gonna Need It). AI coding assistants sometimes generate verbose or unnecessary code, so tools like ponytail parody this by promoting 'laziness' as a virtue for AI agents.
+
+**Tags**: `#AI`, `#JavaScript`, `#code-generation`, `#novelty`, `#humor`
+
+---
+
+<a id="item-25"></a>
+## [Agent-Reach: Python CLI for AI Agents to Access Twitter, Reddit, YouTube Without APIs](https://github.com/Panniantong/Agent-Reach) ⭐️ 6.0/10
+
+A new Python CLI tool called Agent-Reach enables AI agents to access and search content on Twitter, Reddit, YouTube, GitHub, Bilibili, and XiaoHongShu without paying API fees. It is designed as an installer and configuration tool that any AI coding agent capable of running shell commands can use. By eliminating API fees and complex authentication, Agent-Reach significantly lowers the barrier for AI agents to gather real-time information from major social and content platforms, enabling more autonomous and cost-effective agent workflows. The tool functions as an installer and configurator, and is compatible with popular AI coding environments including Claude Code, Cursor, and Windsurf. It scrapes platforms without official APIs, which may raise ToS compliance concerns.
+
+ossinsight · Panniantong · Jun 16, 22:10
+
+**Background**: AI agents are programs that can autonomously perform tasks, often using external tools like web searches to gather information. Accessing platform data usually requires paid API keys, which can be expensive and subject to strict rate limits. Agent-Reach scrapes web content directly, bypassing APIs and their costs, but potentially violating platform terms of service. It is designed for AI coding agents, which assist developers in writing and managing code within environments like Cursor or Claude Code.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/Panniantong/Agent-Reach">GitHub - Panniantong/Agent-Reach: Give your AI agent eyes to see the ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/AI_agent">AI agent</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#CLI`, `#AI-agent`, `#web-scraping`, `#open-source`, `#Python`
+
+---
+
+<a id="item-26"></a>
+## [Omnigent Unifies Multiple AI Agents for Real-Time Collaboration](https://github.com/omnigent-ai/omnigent) ⭐️ 6.0/10
+
+Omnigent, a newly trending open-source Python project, gained 23 stars today and offers a meta-harness that provides a common layer to manage and collaborate across AI agents like Claude Code, Codex, and Pi. By addressing the fragmentation of AI agent tools, Omnigent could simplify orchestration, reduce integration overhead, and enable more flexible and secure collaboration for developers using multiple coding assistants. Implemented in Python, Omnigent supports sandboxing, policy enforcement, and real-time live session sharing across devices, though it currently lacks widespread adoption and community feedback.
+
+ossinsight · omnigent-ai · Jun 16, 22:10
+
+**Background**: Claude Code is Anthropic's AI coding agent that understands codebases and runs commands. Codex is OpenAI's coding agent for software engineering tasks, released as Codex CLI in April 2025. Pi is a personalized AI chat assistant for conversations. Omnigent acts as a meta-harness to allow seamless swapping and combining of these agents without rewriting code.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Codex_(AI_agent)">Codex ( AI agent) - Wikipedia</a></li>
+<li><a href="https://aidive.org/en/ai/pi">Pi - personalized AI chat assistant</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI agents`, `#orchestration`, `#developer tools`, `#Python`, `#open source`
 
 ---
