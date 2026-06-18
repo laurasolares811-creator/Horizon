@@ -5,676 +5,495 @@ date: 2026-06-18
 lang: en
 ---
 
-> From 40 items, 30 important content pieces were selected
+> From 32 items, 23 important content pieces were selected
 
 ---
 
-1. [Noam Shazeer, Transformer Co-Creator, Leaves Google to Join OpenAI](#item-1) ⭐️ 9.0/10
-2. [Researcher Finds 10,000 Malicious GitHub Repos Spreading Trojan Malware](#item-2) ⭐️ 9.0/10
-3. [Z.ai's GLM-5.2: Top Open-Weight Text LLM with 1M Context](#item-3) ⭐️ 9.0/10
-4. [Swiss Parliament Lifts Ban on New Nuclear Power Plants](#item-4) ⭐️ 8.0/10
-5. [Drug Repurposing Cuts Costs by 90%](#item-5) ⭐️ 8.0/10
-6. [Cornell's Self-Guided Advanced Compilers Course Now Online](#item-6) ⭐️ 8.0/10
-7. [.gitignore Isn't the Only Way to Ignore Files in Git](#item-7) ⭐️ 8.0/10
-8. [New Outlook Takes 10 Seconds, Classic Was Instant](#item-8) ⭐️ 8.0/10
-9. [Suitcase Robot Gets 'High' Off Real Gas Sensor Modifying LLM Sampling](#item-9) ⭐️ 8.0/10
-10. [Laguna M.1: 225B Open-Weight MoE Model for Agentic Coding](#item-10) ⭐️ 8.0/10
-11. [North Mini Code Gets 4-bit Quant, Ollama & OpenRouter Support](#item-11) ⭐️ 8.0/10
-12. [Liquid AI Launches LFM2.5 Embedding and ColBERT Retrieval Models](#item-12) ⭐️ 8.0/10
-13. [Real-World Test: Token Cost Tools Save Only 3.7% for Claude Code](#item-13) ⭐️ 8.0/10
-14. [Ubiquiti Unveils Enterprise NAS Powered by ZFS](#item-14) ⭐️ 7.0/10
-15. [W Social's Opaque Digital Sovereignty Claims Under Scrutiny](#item-15) ⭐️ 7.0/10
-16. [Modos Color Monitor Pushes E-Paper Displays Further](#item-16) ⭐️ 7.0/10
-17. [Emacs 31 Upcoming Features Being Daily Driven](#item-17) ⭐️ 7.0/10
-18. [Midjourney Previews Ultrasonic CT Medical Imaging](#item-18) ⭐️ 7.0/10
-19. [Unsloth Releases 2-bit GGUF Quantization of GLM-5.2 at 238GB](#item-19) ⭐️ 7.0/10
-20. [OSS models overtake proprietary in OpenRouter market share](#item-20) ⭐️ 7.0/10
-21. [Leaked docs reveal OpenAI's billions in annual losses](#item-21) ⭐️ 7.0/10
-22. [Codebase-Memory-MCP: Lightning-Fast Code Indexing for AI Tools](#item-22) ⭐️ 7.0/10
-23. [Headroom: Compress LLM Inputs, Reduce Token Usage by 60-95%](#item-23) ⭐️ 7.0/10
-24. [Craigslist Founder Craig Newmark Donates Half a Billion Dollars](#item-24) ⭐️ 6.0/10
-25. [Startup Directory Submission Aggregator Launches](#item-25) ⭐️ 6.0/10
-26. [DeepSeek Adds Vision Understanding to Chat Platform](#item-26) ⭐️ 6.0/10
-27. [GLM-5.2 Inference Free on Hugging Face for 6 Hours](#item-27) ⭐️ 6.0/10
-28. [Inflect-Nano: A 4.63M-Parameter Ultra-Tiny TTS Model Released](#item-28) ⭐️ 6.0/10
-29. [PearlOS Joins NVIDIA Inception, Advances Open-Source Multimodal AI](#item-29) ⭐️ 6.0/10
-30. [Pre-indexed code knowledge graph reduces AI coding agent token usage](#item-30) ⭐️ 6.0/10
+1. [Researcher Finds 10k GitHub Repos Distributing Trojan Malware](#item-1) ⭐️ 9.0/10
+2. [GLM-5.2 Released as Leading Open-Weight Text-Only LLM](#item-2) ⭐️ 9.0/10
+3. [Hospitals and Universities Repurpose Drugs at 90% Lower Cost](#item-3) ⭐️ 8.0/10
+4. [Noam Shazeer, Co-Author of 'Attention Is All You Need', Joins OpenAI](#item-4) ⭐️ 8.0/10
+5. [Modos Color E-Paper Monitor Reaches 60Hz Refresh Rate](#item-5) ⭐️ 8.0/10
+6. [Emacs 31 Is Around the Corner: Features and Daily Use](#item-6) ⭐️ 8.0/10
+7. [Microsoft's New Outlook 10 Seconds vs Classic Instant](#item-7) ⭐️ 8.0/10
+8. [Elkjøp Fined €1.8M for Forced Consent After Advocate's Complaint](#item-8) ⭐️ 7.0/10
+9. [Show HN: Are You in the Weights?](#item-9) ⭐️ 7.0/10
+10. [W Social Under Fire as Skeptics Call It EU Truth Social](#item-10) ⭐️ 7.0/10
+11. [Beyond .gitignore: Alternative Ways to Exclude Files in Git](#item-11) ⭐️ 7.0/10
+12. [Submission.directory: A Directory of Website Submission Directories](#item-12) ⭐️ 7.0/10
+13. [Fearless Concurrency on GPU via Safe Rust Kernels](#item-13) ⭐️ 7.0/10
+14. [Codebase-Memory-MCP: High-Performance Codebase Indexing with 99% Token Savings](#item-14) ⭐️ 7.0/10
+15. [Ubiquiti Launches Enterprise NAS Powered by ZFS](#item-15) ⭐️ 6.0/10
+16. [Cornell CS 6120: Advanced Compilers Self-Guided Online Course](#item-16) ⭐️ 6.0/10
+17. [How Alberta Eradicated Rats: A Historic Campaign](#item-17) ⭐️ 6.0/10
+18. [Gerrymandle: Daily Puzzle Game Teaches Gerrymandering](#item-18) ⭐️ 6.0/10
+19. [Conversation-Level Debugging Reveals Voice AI Flaws](#item-19) ⭐️ 6.0/10
+20. [Is Top NLP Venue ACL Now Irrelevant for PhD Admissions?](#item-20) ⭐️ 6.0/10
+21. [Headroom Compresses RAG Chunks, Logs to Cut LLM Tokens 60-95%](#item-21) ⭐️ 6.0/10
+22. [Agent-Reach Lets AI Agents Search Social Media for Free](#item-22) ⭐️ 6.0/10
+23. [CodeGraph: Local Pre-indexed Knowledge Graph for AI Coding Assistants](#item-23) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Noam Shazeer, Transformer Co-Creator, Leaves Google to Join OpenAI](https://twitter.com/NoamShazeer/status/2067400851438932297) ⭐️ 9.0/10
+## [Researcher Finds 10k GitHub Repos Distributing Trojan Malware](https://orchidfiles.com/github-repositories-distributing-malware/) ⭐️ 9.0/10
 
-Noam Shazeer, co-author of the seminal 'Attention Is All You Need' paper and former co-lead of Google's Gemini project, is joining OpenAI, marking his second departure from Google in two years. Shazeer's move underscores the intense competition for top AI talent between leading labs, and could accelerate OpenAI's research efforts given his deep expertise in transformer architectures. Shazeer co-authored the 2017 'Attention Is All You Need' paper that introduced transformers, co-founded Character.AI in 2021, and returned to Google in 2024 as Gemini co-lead through a reported $2.7 billion licensing and talent deal.
+A security researcher uncovered over 10,000 GitHub repositories that distribute Trojan malware, specifically targeting both human developers and automated AI dependency management agents. This large-scale supply-chain attack threatens the integrity of open-source software, potentially compromising countless downstream projects and AI systems that automatically fetch dependencies. The repositories frequently clone new repos, delete commits, and push updates every few hours to evade detection and specifically appear in AI agents' dependency searches.
 
-hackernews · lukasgross · Jun 18, 00:26 · [Discussion](https://news.ycombinator.com/item?id=48578913)
+hackernews · theorchid · Jun 18, 11:45 · [Discussion](https://news.ycombinator.com/item?id=48583928)
 
-**Background**: The Transformer architecture, introduced in the 2017 paper 'Attention Is All You Need' by Vaswani et al. (including Shazeer), revolutionized natural language processing by using self-attention mechanisms instead of recurrence, enabling efficient parallel computation and becoming the foundation for models like GPT and Gemini. Shazeer was a long-time Google researcher (since 2000) and played a pivotal role in this breakthrough.
+**Background**: AI agents for dependency management are systems that autonomously handle software dependencies, automatically fetching and integrating libraries. They are increasingly used to streamline development but can inadvertently pull in malicious packages if repositories appear legitimate.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Transformer_architecture">Transformer architecture</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Google_Gemini">Google Gemini - Wikipedia</a></li>
+<li><a href="https://www.ibm.com/think/topics/ai-agents">What Are AI Agents ? | IBM</a></li>
+<li><a href="https://clickup.com/p/ai-agents/dependency-management">Dependency Management AI Agent | ClickUp</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community reactions range from surprise at his quick departure from Google to excitement about his move to OpenAI. Some speculate on possible internal issues at Google, while others note the broader talent war and hope that Google's open model progress won't be impacted.
+**Discussion**: Commenters noted that the attack is tailored for AI agents rather than humans, reported similar impersonation incidents, and shared cases where developers downloaded AI-generated tools from GitHub that led to system compromise. The discussion underscores the real-world impact and the novelty of agent-targeted malware.
 
-**Tags**: `#AI`, `#personnel`, `#transformer`, `#OpenAI`, `#Google`
+**Tags**: `#cybersecurity`, `#GitHub`, `#malware`, `#open-source-security`, `#supply-chain-attack`
 
 ---
 
 <a id="item-2"></a>
-## [Researcher Finds 10,000 Malicious GitHub Repos Spreading Trojan Malware](https://orchidfiles.com/github-repositories-distributing-malware/) ⭐️ 9.0/10
+## [GLM-5.2 Released as Leading Open-Weight Text-Only LLM](https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything) ⭐️ 9.0/10
 
-A cybersecurity researcher uncovered a network of 10,000 GitHub repositories that distribute Trojan malware, primarily targeting automated dependency management agents to infiltrate software supply chains. This discovery exposes a critical risk in software supply chains, where automated dependency agents can be tricked into incorporating malware, potentially compromising thousands of downstream projects and highlighting the urgent need for enhanced security in open-source ecosystems. The repositories employ stealthy tactics: they clone only new repos, not popular ones, and frequently amend commits to appear in automated dependency searches; many accounts are freshly created, and the campaign may align with major global elections.
+Z.ai released GLM-5.2, a 753B parameter Mixture of Experts text-only LLM with a 1M token context window and MIT-licensed open weights. It achieves top scores on independent benchmarks like the Artificial Analysis Intelligence Index. This release sets a new performance bar for openly available models, democratizing access to cutting-edge AI capabilities under a permissive MIT license, which can accelerate research and commercial applications without restrictive terms. Despite being text-only, it ranks second on the Code Arena WebDev leaderboard. However, it is token-hungry, using 43k output tokens per task on average, which may increase inference costs.
 
-hackernews · theorchid · Jun 18, 11:45 · [Discussion](https://news.ycombinator.com/item?id=48583928)
+rss · Simon Willison · Jun 17, 23:58
 
-**Background**: Modern software development relies heavily on open-source libraries and automated tools to manage dependencies. AI-powered agents can scan for vulnerabilities, understand project context, and automatically propose updates. However, attackers can exploit this by placing malicious code in repositories that mimic legitimate dependencies, thereby infiltrating the software supply chain—the networked ecosystem of components and tools involved in building software.
+**Background**: Mixture of Experts (MoE) is a technique where multiple specialized sub-models (experts) are combined, with only a subset active per input, enabling large models with efficient compute. Open weights under the MIT license allow anyone to use, modify, and distribute the model freely, even for commercial purposes. A context window of 1 million tokens means the model can process very long documents or conversations at once.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arxiv.org/html/2510.03480v1">LLM Agents for Automated Dependency Upgrades</a></li>
-<li><a href="https://medium.com/@elevatetrust.ai/smart-dependency-management-using-ai-agent-1d253c57f589">Smart Dependency Management Using AI Agent | by Elevatetrust Ai | Medium</a></li>
-<li><a href="https://www.redhat.com/en/topics/security/what-is-software-supply-chain-security">What is software supply chain security?</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mixture_of_experts">Mixture of experts</a></li>
+<li><a href="https://huggingface.co/blog/moe">Mixture of Experts Explained</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments widely agree on the severity, noting real-world incidents like a Disney engineer inadvertently downloading malicious AI tools. Users detail how malware repos abuse GitHub's search and trends—using fresh accounts and frequent commits to target automated agents—and discuss the potential political motive amid major elections. Some express frustration with GitHub's lax enforcement and search engine vulnerabilities.
-
-**Tags**: `#cybersecurity`, `#malware`, `#github`, `#supply-chain`, `#open-source`
+**Tags**: `#LLM`, `#open-weights`, `#AI`, `#Mixture-of-Experts`, `#benchmarks`
 
 ---
 
 <a id="item-3"></a>
-## [Z.ai's GLM-5.2: Top Open-Weight Text LLM with 1M Context](https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything) ⭐️ 9.0/10
+## [Hospitals and Universities Repurpose Drugs at 90% Lower Cost](https://www.kcl.ac.uk/news/hospitals-and-universities-repurposing-drugs-at-90-lower-cost) ⭐️ 8.0/10
 
-Z.ai released GLM-5.2, a 753B parameter Mixture-of-Experts text model with a 1 million token context window, under an MIT license on June 16, 2026. It now leads the Artificial Analysis Intelligence Index among open-weights models, marking a significant advance for the open-source AI community by providing a top-performing, permissively licensed model for research and development. The model uses 40 active experts out of its 753B parameters, handles 1M tokens of context, but is token-hungry (43k output tokens per task). It is text-only, with no vision support, and costs $1.40/$4.40 per million input/output tokens via OpenRouter.
+Hospitals and universities are successfully repurposing off-patent drugs like Avastin (bevacizumab) for new treatments, achieving cost reductions of up to 90% compared to branded alternatives. This mirrors the work of nonprofits like Cures Within Reach that focus on drug repurposing for rare diseases. This approach challenges the pharmaceutical industry's high-cost model, making essential treatments more accessible, especially for rare diseases that lack profitable market incentives. It also pressures regulators to streamline approval pathways, potentially saving healthcare systems billions. For macular degeneration, Avastin costs about $50 per dose versus $1,500 for the molecularly similar Lucentis (ranibizumab). However, regulatory barriers prevent extending indications for off-patent drugs without manufacturer consent, and repurposed uses often rely on off-label prescribing.
 
-rss · Simon Willison · Jun 17, 23:58
+hackernews · giuliomagnifico · Jun 18, 10:33 · [Discussion](https://news.ycombinator.com/item?id=48583386)
 
-**Background**: Mixture-of-Experts (MoE) is an architecture that selectively activates only a subset of parameters (experts) for each input, enabling very large models with efficient computation. Open weights mean the trained model weights are publicly released, allowing anyone to run, fine-tune, or deploy the model, though not necessarily with full training code or data—unlike true open source. The MIT license is a permissive license that allows almost unrestricted use, including commercial applications.
+**Background**: Drug repurposing finds new uses for existing drugs, leveraging their established safety profiles to skip early clinical trials and slash development costs. Yet, obtaining regulatory approval for a new indication is difficult without manufacturer involvement, especially for off-patent drugs. The Avastin vs Lucentis case illustrates the problem: both target VEGF, but Avastin is a full-length antibody approved for cancer, while Lucentis is a fragment formulated for eye injections, resulting in massive price differences despite similar efficacy.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://arxiv.org/html/2507.11181v1">Mixture of Experts in Large Language Models †: Corresponding...</a></li>
-<li><a href="https://neysa.ai/blog/open-weights-open-source/">Open Weights vs Open Source : What’s the Real Difference?</a></li>
+**Discussion**: Commenters highlighted real-world examples such as the Avastin vs Lucentis cost disparity, the work of Cures Within Reach on rare diseases, and the patenting of esketamine as a broken incentive. They also noted that regulatory hurdles severely limit extending indications for old drugs without manufacturer involvement, making repurposing studies valuable but difficult to implement.
 
-</ul>
-</details>
-
-**Tags**: `#open-weights`, `#LLM`, `#MoE`, `#model-release`, `#benchmark`
+**Tags**: `#drug repurposing`, `#healthcare economics`, `#medical research`, `#pharmaceuticals`, `#innovation`
 
 ---
 
 <a id="item-4"></a>
-## [Swiss Parliament Lifts Ban on New Nuclear Power Plants](https://www.bluewin.ch/en/news/switzerland/parliament-lifts-ban-on-new-nuclear-power-plants-3257535.html) ⭐️ 8.0/10
+## [Noam Shazeer, Co-Author of 'Attention Is All You Need', Joins OpenAI](https://twitter.com/NoamShazeer/status/2067400851438932297) ⭐️ 8.0/10
 
-The Swiss parliament has voted to overturn a ban on constructing new nuclear power plants, reversing a policy that started phasing out nuclear energy after the 2011 Fukushima disaster. This shift could reshape Switzerland's energy strategy, addressing seasonal energy shortages and reducing reliance on imports, while aligning with global interest in nuclear as a low-carbon energy source and potentially influencing other nations reconsidering nuclear bans. The decision still requires approval through a national referendum, and the political debate remains polarized, with strong opposition from left-wing and green parties. The move only removes the legislative prohibition and does not guarantee new plants will be built.
+Noam Shazeer, a co-author of the seminal Transformer paper and recently co-lead of Google's Gemini, announced he is leaving Google to join OpenAI. This move comes just a year after he returned to Google via a $2.7 billion talent deal with Character.AI. Shazeer's jump from Google to OpenAI underscores the fierce AI talent war, as his deep expertise with Transformers—the foundation of modern LLMs—could accelerate OpenAI's research and potentially reshape the competitive landscape. Shazeer spent over 20 years at Google, co-founded Character.AI in 2021, and was brought back in 2024 as Gemini co-lead in a deal reportedly worth $2.7 billion. His departure to OpenAI after less than a year has fueled speculation about internal disagreements.
 
-hackernews · leonidasrup · Jun 18, 14:17 · [Discussion](https://news.ycombinator.com/item?id=48585746)
+hackernews · lukasgross · Jun 18, 00:26 · [Discussion](https://news.ycombinator.com/item?id=48578913)
 
-**Background**: Switzerland has historically relied on nuclear power for about one-third of its electricity, but after the Fukushima accident, the government decided to phase out nuclear by not replacing existing plants. The 2017 Energy Act banned new plants. However, concerns over energy security, especially in winter when hydroelectric output drops, have led to reconsideration. Small modular reactors (SMRs) are a new class of reactors that are smaller, factory-built, and potentially safer and cheaper, attracting interest from tech companies for data centers.
+**Background**: The 2017 paper 'Attention Is All You Need' introduced the Transformer architecture, which replaced recurrent and convolutional networks with self-attention and became the basis for virtually all major language models, including OpenAI's GPT and Google's Gemini. Gemini, co-led by Shazeer, is Google's multimodal AI system designed to compete with GPT-4. Shazeer's involvement in both foundational research and product development makes him a pivotal figure in AI.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Small_modular_reactor">Small modular reactor</a></li>
-<li><a href="https://www.iaea.org/newscenter/news/what-are-small-modular-reactors-smrs">What are Small Modular Reactors (SMRs)? | IAEA</a></li>
+<li><a href="https://arxiv.org/abs/1706.03762">Abstract page for arXiv paper 1706.03762: Attention Is All You Need</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gemini_(language_model)">Gemini (language model) - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments reveal mixed opinions: some lament widespread misinformation about nuclear power and stress its necessity for a low-carbon future; others highlight the upcoming referendum and strong political opposition. There is enthusiasm for SMRs and hope for similar moves in other countries, but also skepticism about high costs, citing expensive projects like Vogtle in the US.
+**Discussion**: Community comments expressed surprise at Shazeer's quick exit after his high-profile return, speculating about internal culture clashes or political disagreements. Many recalled his foundational role in the Transformer paper and shared a 2023 Wired article detailing the paper's creation. Some linked to removed posts suggesting his outspoken political views may have contributed to the move.
 
-**Tags**: `#energy`, `#nuclear`, `#policy`, `#Switzerland`, `#SMRs`
+**Tags**: `#AI`, `#transformers`, `#tech-industry`, `#OpenAI`, `#Google`
 
 ---
 
 <a id="item-5"></a>
-## [Drug Repurposing Cuts Costs by 90%](https://www.kcl.ac.uk/news/hospitals-and-universities-repurposing-drugs-at-90-lower-cost) ⭐️ 8.0/10
+## [Modos Color E-Paper Monitor Reaches 60Hz Refresh Rate](https://spectrum.ieee.org/modos-e-paper-monitor) ⭐️ 8.0/10
 
-Hospitals and universities are repurposing existing drugs for new uses, achieving dramatic cost reductions. For example, the cancer drug Avastin (bevacizumab) is used to treat macular degeneration at about $50 per dose, versus $1,500 for the nearly identical Lucentis. This practice addresses exorbitant drug prices and improves patient access to essential treatments, challenging pharmaceutical companies' patent manipulation strategies like evergreening. It could spur policy reforms and more investment in repurposing research. Avastin and Lucentis are molecularly the same drug but packaged differently; compounding pharmacies prepare Avastin for eye injections, though quality control is debated. The esketamine (Spravato) case shows how companies patent minor modifications of off-patent drugs, sometimes with inferior efficacy.
+Modos has announced the Flow, a 13.3-inch color e-paper monitor that achieves a 60 Hz refresh rate and 3200×2400 resolution through a custom FPGA-based display controller. This breakthrough brings e-paper monitors closer to everyday use for dynamic tasks like coding and video, while retaining sunlight readability and extreme battery efficiency. The monitor uses an FPGA-driven partial refresh system and is open-source; pricing starts at $619 for monochrome and $719 for the color version. The long-term effect of 60 Hz refresh on e-paper panel longevity remains unknown.
 
-hackernews · giuliomagnifico · Jun 18, 10:33 · [Discussion](https://news.ycombinator.com/item?id=48583386)
+hackernews · Vinnl · Jun 18, 11:41 · [Discussion](https://news.ycombinator.com/item?id=48583897)
 
-**Background**: Drug repurposing involves finding new therapeutic applications for existing, often off-patent, drugs, which is cheaper and faster than developing new drugs. Pharmaceutical evergreening refers to strategies to extend patent life through minor changes, keeping prices high. Regulators like the FDA have issued guidance on compounding drugs for off-label uses, but balancing safety and cost remains challenging.
+**Background**: E-paper displays are known for low power and sunlight readability but have been limited to slow refresh rates and mostly monochrome output. Recent color e-paper technologies still operate at low refresh rates. Modos's custom FPGA controller enables a 60 Hz refresh with color, a notable advance.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Evergreening">Evergreening - Wikipedia</a></li>
-<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3735737/">Limiting “evergreening” for a better balance of drug innovation incentives - PMC</a></li>
-<li><a href="https://pubmed.ncbi.nlm.nih.gov/25233052/">Evaluation of compounded bevacizumab prepared for intravitreal injection - PubMed</a></li>
+<li><a href="https://spectrum.ieee.org/modos-e-paper-monitor">Modos Color Monitor Pushes E - Paper Displays... - IEEE Spectrum</a></li>
+<li><a href="https://thequantumdispatch.com/articles/modos-flow-fpga-color-e-paper-monitor-13-inch-touchscreen-crowd-supply-may-27-2026">Modos Flow Launches on Crowd Supply... — The Quantum Dispatch</a></li>
+<li><a href="https://www.tomshardware.com/monitors/portable-monitors/hands-on-with-modos-tech-13-3-inch-e-paper-monitors">Hands-on with Modos Tech 13.3-inch e - paper monitors — we tried...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters shared experiences and examples, strongly supporting repurposing as a counter to high drug costs. They criticized evergreening tactics (e.g., Spravato) and noted pharma's influence on medicine, while highlighting nonprofits like Cures Within Reach that fund repurposing studies for rare diseases.
+**Discussion**: The community showed strong excitement for the high refresh rate and potential for coding and outdoor use. However, some questioned the long-term durability of e-paper at 60 Hz, and a few speculated about real-world applications.
 
-**Tags**: `#drug-repurposing`, `#healthcare`, `#innovation`, `#cost-reduction`, `#policy`
+**Tags**: `#e-paper`, `#display-technology`, `#hardware`, `#startup`, `#monitor`
 
 ---
 
 <a id="item-6"></a>
-## [Cornell's Self-Guided Advanced Compilers Course Now Online](https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/) ⭐️ 8.0/10
+## [Emacs 31 Is Around the Corner: Features and Daily Use](https://www.rahuljuliato.com/posts/emacs-31-around-the-corner) ⭐️ 8.0/10
 
-Cornell University's CS 6120: Advanced Compilers course materials are available as a self-guided online course, originally released in 2020, offering freely accessible lectures and assignments. Community discussion points out that the course's coverage of dynamic compilation focuses heavily on trace compilation, a largely abandoned technique. This course lowers the barrier to learning advanced compiler concepts, which are crucial for understanding programming language implementation and optimization. However, its dated treatment of dynamic compilation may mislead learners about modern practices, reflecting a gap in educational resources. The course covers foundational topics like data flow, SSA form, and dead code elimination, but lacks coverage of modern dynamic compilation techniques such as type feedback, speculation, and deoptimization. Some commenters feel it is more introductory than advanced.
+The post provides an overview of new Emacs 31 features from firsthand daily use, generating extensive community discussion. It demonstrates Emacs's enduring relevance and its successful adaptation to modern AI workflows, influencing developers who value highly configurable editors. Notable mentions include integration of AI assistants like Claude directly in Emacs, and the editor's exceptional ability to display large codebases efficiently on screen.
 
-hackernews · ibobev · Jun 18, 11:04 · [Discussion](https://news.ycombinator.com/item?id=48583606)
+hackernews · frou_dh · Jun 18, 12:10 · [Discussion](https://news.ycombinator.com/item?id=48584135)
 
-**Background**: Dynamic compilation, or just-in-time (JIT) compilation, generates machine code at runtime to improve performance. Trace compilation, once popular, records and compiles execution paths but has been superseded by methods using type feedback and tiered compilation. SSA (Static Single Assignment) form is a compiler intermediate representation that simplifies dataflow analysis and optimization.
+**Background**: GNU Emacs is a long-standing, extensible text editor known for its steep learning curve and extensive customization using Emacs Lisp. Emacs 31 is the next major version, continuing a four-decade tradition. It remains a favorite among programmers for its keyboard-driven workflow and flexibility.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Dynamic_compilation">Dynamic compilation</a></li>
+**Discussion**: Commenters largely agree on Emacs's strengths: keyboard shortcuts that work across many environments, efficient screen use, and user control. Some praise AI integration like Claude making it viable again; others joke about ignoring new features. A user highlights that agents can help newcomers configure Emacs.
 
-</ul>
-</details>
-
-**Discussion**: Community members note that the dynamic compilation section is outdated, focusing on a dead-end technique, and question whether the course is truly advanced given its coverage of basic topics. Some suggest comparisons with other compiler texts like 'Writing a C Compiler'. Overall, the course is praised for its accessibility but criticized for lacking modern depth.
-
-**Tags**: `#compilers`, `#education`, `#computer-science`, `#online-course`, `#programming-languages`
+**Tags**: `#emacs`, `#text-editors`, `#workflow`, `#ai-integration`, `#hackernews`
 
 ---
 
 <a id="item-7"></a>
-## [.gitignore Isn't the Only Way to Ignore Files in Git](https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/) ⭐️ 8.0/10
+## [Microsoft's New Outlook 10 Seconds vs Classic Instant](https://www.windowslatest.com/2026/06/15/microsofts-new-outlook-takes-10-seconds-to-do-what-outlook-classic-does-instantly-on-windows/) ⭐️ 8.0/10
 
-The article highlights two overlooked Git features: configuring a global gitignore file to exclude files across all repositories, and using .gitattributes to suppress diffs for certain files, such as auto-generated lockfiles. These methods reduce repository clutter, prevent accidental commits of system-specific files (like .DS_Store or IDE settings), and make code reviews cleaner by hiding irrelevant diffs, boosting team productivity. The global excludes file (~/.config/git/ignore) is per-user and must be configured individually; .gitattributes with `diff=hide` only silences diff output but does not untrack the file. A community tip suggests a global 'attic' directory to keep stray files out of staging.
+Microsoft's new web-based Outlook, built on WebView2, takes up to 10 seconds to perform tasks that the classic native Outlook completes instantly, sparking widespread criticism of modern software bloat. This performance regression highlights the tradeoffs of web-based desktop apps, affecting millions of Office and Windows users, and fuels broader debate about declining software quality and user experience. The new Outlook uses Edge WebView2, a Chromium-based engine; community reports cite unnecessary re-renders and wrong load orders, though web app slowness is not universal, as evidenced by Fastmail's fast client.
 
-hackernews · FergusArgyll · Jun 18, 10:29 · [Discussion](https://news.ycombinator.com/item?id=48583356)
+hackernews · Adam-Hincu · Jun 18, 12:19 · [Discussion](https://news.ycombinator.com/item?id=48584207)
 
-**Background**: Git tracks file changes and uses .gitignore files to specify patterns for untracked files. However, .gitignore only works within its repository. Git also supports a global excludes file (e.g., ~/.config/git/ignore) that applies to all repositories for a user. The .gitattributes file can set per-path attributes like binary or hidden diffs.
+**Background**: Outlook Classic is the traditional native Win32 email client in Microsoft Office. The new Outlook, introduced as a replacement, relies on WebView2 to run as a web app on the desktop, aiming for cross-platform code sharing. WebView2 embeds Microsoft Edge's rendering engine, which can introduce overhead compared to native code. Software bloat commonly refers to applications becoming slower and more resource-intensive over time due to feature additions and layered technologies.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://dennykorsukewitz.github.io/posts/Git-Global-Gitignore/">Global . gitignore : Ignore Specific Files Across All Your Git Repositories</a></li>
-<li><a href="https://git-scm.com/docs/gitattributes">Git - gitattributes Documentation</a></li>
+**Discussion**: Users expressed deep frustration, noting that even basic apps like Notepad now take seconds to load on Windows 11. Some argued the problem is Outlook's poor implementation rather than web apps inherently, pointing to Fastmail's fast web client. Others lamented the loss of old-school performance, questioning Microsoft's quality assurance.
 
-</ul>
-</details>
-
-**Discussion**: Commenters shared practical tips: using `.gitattributes` to silence `package-lock.json` diffs, preferring `~/.config/git/ignore` for global ignores, and an 'attic' directory trick for random files. The overall sentiment was appreciative, with many users learning new tricks.
-
-**Tags**: `#git`, `#version-control`, `#productivity`, `#tips`, `#software-development`
+**Tags**: `#software-bloat`, `#web-apps`, `#outlook`, `#performance`, `#windows`
 
 ---
 
 <a id="item-8"></a>
-## [New Outlook Takes 10 Seconds, Classic Was Instant](https://www.windowslatest.com/2026/06/15/microsofts-new-outlook-takes-10-seconds-to-do-what-outlook-classic-does-instantly-on-windows/) ⭐️ 8.0/10
+## [Elkjøp Fined €1.8M for Forced Consent After Advocate's Complaint](https://www.thatprivacyguy.com/blog/elkjop-forced-consent-fine/) ⭐️ 7.0/10
 
-Microsoft's new Outlook for Windows, built on the WebView2 runtime, now takes about 10 seconds to perform basic operations that the classic Outlook completed instantly, according to a report on June 15, 2026. This slowdown impacts daily productivity for millions of workers and underscores the growing problem of replacing native apps with web-based frameworks, which can degrade user experience. The new Outlook uses WebView2, embedding a Chromium engine that introduces latency. Community reports indicate that even on high-speed SSDs, the app is slower than classic Outlook on older hard drives, and similar performance issues affect other WebView2-based apps like Notepad.
+A privacy advocate documented his 2018 complaint about Elkjøp making marketing consent a condition for its customer club, which led to the Norwegian Data Protection Authority imposing a €1.8 million GDPR fine five years later. This case demonstrates that persistent individual GDPR complaints can trigger substantial fines, reinforcing the regulation's real-world impact on corporate compliance and consumer privacy rights. The violation centered on Elkjøp forcing users to consent to marketing in order to join a customer club, which invalidates consent under GDPR. The regulator's decision also addressed other infringements and is publicly available in English and Norwegian.
 
-hackernews · Adam-Hincu · Jun 18, 12:19 · [Discussion](https://news.ycombinator.com/item?id=48584207)
+hackernews · speckx · Jun 18, 18:31 · [Discussion](https://news.ycombinator.com/item?id=48589501)
 
-**Background**: WebView2 is a Microsoft control that embeds Chromium-based web content into native Windows applications, offering cross-platform consistency but adding browser engine overhead. Classic Outlook was a native Win32 app fine-tuned for performance over many years. Microsoft's move to WebView2 represents a trend of rewriting native apps as web apps, often sacrificing speed.
+**Background**: The General Data Protection Regulation (GDPR) is an EU law requiring companies to obtain freely given consent before processing personal data. Consent is invalid if it is forced or a prerequisite for a service. Elkjøp is a major electronics retailer in the Nordic countries. The Norwegian Data Protection Authority (Datatilsynet) enforces GDPR in Norway and can impose fines for non-compliance.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/WebView2">WebView2</a></li>
-<li><a href="https://developer.microsoft.com/en-us/microsoft-edge/webview2">Microsoft Edge WebView2 | Microsoft Edge Developer</a></li>
+**Discussion**: Commenters welcomed the outcome, praising the Norwegian DPA's user-focused approach. Some noted the social friction of asserting privacy rights but argued for persistence. Others shared links to the official decision and the key incriminating statement from Elkjøp.
 
-</ul>
-</details>
-
-**Discussion**: Commenters universally confirm the performance regression, with many sharing similar experiences in other apps like Notepad. They argue that well-implemented web apps like Fastmail prove the technology can be fast, blaming Microsoft's specific implementation for excessive rendering and data loading. Overall sentiment is frustration with Microsoft's quality control.
-
-**Tags**: `#performance`, `#outlook`, `#webview2`, `#software-engineering`, `#user-experience`
+**Tags**: `#privacy`, `#GDPR`, `#consent`, `#enforcement`, `#consumer-rights`
 
 ---
 
 <a id="item-9"></a>
-## [Suitcase Robot Gets 'High' Off Real Gas Sensor Modifying LLM Sampling](https://www.reddit.com/r/LocalLLaMA/comments/1u9a17y/my_suitcase_robot_gets_high_now_off_a_real_gas/) ⭐️ 8.0/10
+## [Show HN: Are You in the Weights?](https://www.intheweights.com/) ⭐️ 7.0/10
 
-A suitcase robot integrates a real MQ-2 gas sensor to detect smoke, and the readings dynamically adjust the LLM's sampling parameters (temperature, top_p, top_k) per token in real time, so its speech becomes genuinely 'stoned' and never repeats any pattern. This project demonstrates a novel way to modulate AI behavior through physical environmental inputs, highlighting creative possibilities for hardware-LLM integration in dynamic, unscripted interaction and generative art. The MQ-2 sensor (detecting generic smoke/VOCs) feeds an adaptive clean-air baseline to produce a 0-10 intoxication phase. As the phase climbs, temperature rises from 1.0 to ~1.6, top_p from 0.95 to 0.99, and top_k from 64 to 120 per token. The effect decays over minutes, and the robot shows physical cues like drooping eyes and a drawl.
+A new tool queries multiple large language models in parallel to check how strongly they recognize a given name, clustering responses to reveal what these AI systems remember about individuals. As user traffic shifts to LLM-based interactions, understanding what personal data these models retain becomes critical for privacy and data governance. The site queries both frontier and smaller models, clusters similar responses, and flags hallucinations, such as Llama 3.2 1B's misidentification of Alfred E. Neuman as a German writer.
 
-reddit · r/LocalLLaMA · /u/CreativelyBankrupt · Jun 18, 15:52
+hackernews · turtlesoup · Jun 18, 20:49 · [Discussion](https://news.ycombinator.com/item?id=48591348)
 
-**Background**: The MQ-2 is a semiconductor gas sensor widely used to detect combustible gases and smoke. In LLMs, temperature scales logits to control randomness, top_p (nucleus sampling) filters low-probability tokens, and top_k restricts the selection to the top k tokens. Adjusting these parameters per token changes the model's output on the fly.
+**Background**: "In the weights" refers to the numerical parameters inside AI models that encode knowledge learned from training data. Frontier models are the most advanced AI systems, representing the cutting edge of technology. This tool probes those weights to uncover what these models have memorized about individuals.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://grokipedia.com/page/MQ-2_and_MQ-9_gas_sensors">MQ-2 and MQ-9 gas sensors</a></li>
-<li><a href="https://letsdatascience.com/blog/llm-sampling-temperature-top-k-top-p-and-min-p-explained">LLM Sampling Parameters Explained: Intuition to Math | Let's Data Science</a></li>
+<li><a href="https://www.articsledge.com/post/model-weights">What Are Model Weights and Why Do They Matter in 2026?</a></li>
+<li><a href="https://www.linkedin.com/pulse/understanding-frontier-models-ai-diana-wolf-torres-vzdpc/">Understanding " Frontier Models " in AI</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#local-llm`, `#robotics`, `#hardware-hacking`, `#sampling`, `#creative-tech`
+**Discussion**: Users expressed privacy concerns, sharing anecdotes of hallucinations, unexpected top matches despite common names, and mischaracterized reputations. One user found the tool identified them as a hallucination entirely.
+
+**Tags**: `#LLMs`, `#privacy`, `#Show HN`, `#AI recognition`, `#community discussion`
 
 ---
 
 <a id="item-10"></a>
-## [Laguna M.1: 225B Open-Weight MoE Model for Agentic Coding](https://www.reddit.com/r/LocalLLaMA/comments/1u9b2i3/poolsidelagunam1_hugging_face_225ba23b/) ⭐️ 8.0/10
+## [W Social Under Fire as Skeptics Call It EU Truth Social](https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/) ⭐️ 7.0/10
 
-poolside has released Laguna M.1, a 225B total parameter Mixture-of-Experts model with 23B activated parameters per token, designed for agentic coding and competitive with state-of-the-art models on SWE-bench Verified (74.6%) and other benchmarks. It is open-weight under Apache 2.0. This release provides the local LLM and coding communities with a highly capable open-weight model that approaches the performance of proprietary frontier models in agentic software engineering tasks, while allowing commercial use. Its 23B active parameter footprint makes it more accessible for local inference compared to dense models of similar total size. The model features a 70-layer architecture with the first 3 layers dense and the remaining 67 sparse MoE layers with 256 experts and top-16 routing; it uses global attention with 64 Q-heads, 8 KV-heads, and softplus output gating, and supports a 262K context window with interleaved thinking for reasoning.
+A Hacker News critique reveals user skepticism toward W Social, a platform claiming to champion European digital sovereignty, with allegations of multiple-account abuse and striking similarities to Truth Social. The controversy reveals that EU digital sovereignty narratives can be exploited by for-profit ventures, potentially diverting support from truly open and non-profit initiatives like Eurosky. Key concerns include W Social being a for-profit LLC founded by a financial-sector veteran, and the existence of the transparent non-profit Eurosky ATProtocol network that lacked similar political endorsement.
 
-reddit · r/LocalLLaMA · /u/pmttyji · Jun 18, 16:30
+hackernews · nemoniac · Jun 18, 12:46 · [Discussion](https://news.ycombinator.com/item?id=48584497)
 
-**Background**: Agentic coding refers to AI agents that autonomously plan, write, test, and modify code with minimal human intervention, going beyond simple code completion. Mixture-of-Experts (MoE) models activate only a subset of their parameters per token, enabling efficient inference with large total capacity. SWE-bench is a benchmark that evaluates models on real-world software engineering tasks derived from GitHub issues. Laguna M.1 uses a 256-expert MoE architecture with advanced load balancing to achieve strong agentic coding performance.
+**Background**: The AT Protocol (ATproto) is an open standard for decentralized social networking, powering Bluesky and other interoperable apps. European digital sovereignty refers to EU efforts to reduce dependence on non-EU tech platforms. Truth Social is a social media platform launched by former US President Donald Trump, often criticized for conservative bias and limited transparency.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Agentic_coding">Agentic coding</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Mixture_of_experts">Mixture of experts - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/SWE-Bench">SWE-Bench</a></li>
+<li><a href="https://en.wikipedia.org/wiki/ATProtocol">ATProtocol</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#MoE`, `#agentic coding`, `#open-weight`, `#software engineering`, `#large language model`
+**Discussion**: Commenters overwhelmingly expressed skepticism, with one noting multiple unverified accounts despite human verification claims, another pointing to the overlooked Eurosky non-profit alternative, and many drawing parallels to Truth Social, labeling W Social a for-profit venture masquerading as a public service.
+
+**Tags**: `#digital sovereignty`, `#social media`, `#Europe`, `#ATProtocol`, `#critique`
 
 ---
 
 <a id="item-11"></a>
-## [North Mini Code Gets 4-bit Quant, Ollama & OpenRouter Support](https://www.reddit.com/r/LocalLLaMA/comments/1u9dqlm/updates_on_north_mini_code_4_bit_quant_ollama/) ⭐️ 8.0/10
+## [Beyond .gitignore: Alternative Ways to Exclude Files in Git](https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/) ⭐️ 7.0/10
 
-North Mini Code now offers a 4-bit quantized version on Hugging Face, reducing its size to about 20GB, and it is supported on Ollama and the OpenRouter API, enabling easier local execution and API access. This update significantly improves the model's accessibility for developers with local hardware constraints and broadens integration options via popular tools like Ollama and the unified OpenRouter API. The 4-bit quantized model requires approximately 20GB of storage/memory, making it suitable for consumer hardware like Macs. It is available on Hugging Face and can be pulled via Ollama, which is built on llama.cpp.
+The article and community discussion highlight less-known Git mechanisms such as .git/info/exclude, core.excludesFile for global ignore patterns, and .gitattributes for ignoring file diffs, offering developers more flexible ways to manage untracked files. These techniques prevent personal or environment-specific files from accidentally being committed, keep project .gitignore clean, and allow teams to streamline version control without cluttering each repository with local settings. A per-repo exclude file (.git/info/exclude) works like .gitignore but is not committed; a global exclude file set via core.excludesFile applies across all repos on a machine; .gitattributes with `export-ignore` or `merge=ours` can ignore files in archives or merges.
 
-reddit · r/LocalLLaMA · /u/nick_frosst · Jun 18, 18:09
+hackernews · FergusArgyll · Jun 18, 10:29 · [Discussion](https://news.ycombinator.com/item?id=48583356)
 
-**Background**: 4-bit quantization compresses model weights to 4 bits per parameter, drastically reducing memory usage and enabling LLMs to run on consumer devices with minimal accuracy loss. Ollama is a popular tool for running and managing large language models locally, built on llama.cpp. OpenRouter provides a unified API that grants access to hundreds of AI models, simplifying integration and offering features like automatic fallbacks.
+**Background**: By default, Git tracks files unless they match patterns in .gitignore, which is committed and shared. However, developers often need to ignore files locally without affecting the repository (e.g., OS files like .DS_Store, editor swap files). Git provides additional ignore layers: the per-repo .git/info/exclude (uncommitted), and a user-wide global exclude file configured via `git config --global core.excludesFile`. .gitattributes is a separate file that assigns attributes to paths, such as marking files to ignore in diffs or archives.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.kaggle.com/code/lorentzyeung/what-s-4-bit-quantization-how-does-it-help-llama2">What's 4-bit quantization? How does it help Llama2</a></li>
-<li><a href="https://ollama.com/">Ollama is the easiest way to automate your work using open models...</a></li>
-<li><a href="https://openrouter.ai/docs/quickstart">OpenRouter Quickstart Guide | Developer Documentation | OpenRouter | Documentation</a></li>
+<li><a href="https://gist.github.com/subfuzion/db7f57fff2fb6998a16c">Global gitignore · GitHub</a></li>
+<li><a href="https://git-scm.com/docs/gitattributes">Git - gitattributes Documentation</a></li>
+<li><a href="https://jumptuck.com/blog/2020-11-25-git-core-excludes/">Quick Tip: Git Global Exclude File - Jumptuck</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#local-llm`, `#model-quantization`, `#ollama`, `#openrouter`, `#code-model`
+**Discussion**: The community praised the article but added valuable insights: many pointed out the usefulness of a global exclude file for personal editor/OS files, recommending the standard XDG path `~/.config/git/ignore`; some emphasized .gitattributes for ignoring `package-lock.json` diffs to reduce noise; others suggested creative uses like adding an `attic` directory to the global ignore for temporary project files.
+
+**Tags**: `#git`, `#version-control`, `#tips`, `#productivity`, `#development`
 
 ---
 
 <a id="item-12"></a>
-## [Liquid AI Launches LFM2.5 Embedding and ColBERT Retrieval Models](https://www.reddit.com/r/LocalLLaMA/comments/1u9ddft/lfm25embedding350m_lfm25colbert350m/) ⭐️ 8.0/10
+## [Submission.directory: A Directory of Website Submission Directories](https://www.submission.directory/) ⭐️ 7.0/10
 
-Liquid AI released LFM2.5-Embedding-350M, a dense bi-encoder for fast single-vector multilingual retrieval, and LFM2.5-ColBERT-350M, a late interaction retriever that uses MaxSim token-level matching, both claiming best-in-class accuracy for their size across 11 languages and fast inference via the efficient LFM2 backbone. These models enable efficient and accurate multilingual retrieval for RAG pipelines on local hardware, potentially lowering barriers for cross-lingual applications and offering competitive alternatives to larger, resource-intensive models. Both models are available in GGUF format on Hugging Face and use the 350M-parameter LFM2 backbone; the embedding model produces compact single-vector indices, while the ColBERT model stores per-token vectors with MaxSim scoring. Inference speed is on par with much smaller models, but independent benchmarking is yet to confirm accuracy claims.
+A new meta-directory, Submission.directory, was launched, listing many places to submit a website, from startup platforms to blogrolls; it sparked a discussion among founders and maintainers with deep experience. It saves time for those seeking exposure and backlinks, but the discussion highlights the spam challenges that public submission lists create, forcing platform owners to balance openness with curation. The directory includes well-known sites like BetaList (founded 16 years ago) and indie directories such as blogroll.org; commenters noted that publicly listing submission endpoints often leads to automated spam, as with fake podcasts distributed via RSS feeds.
 
-reddit · r/LocalLLaMA · /u/pmttyji · Jun 18, 17:55
+hackernews · azeemkafridi · Jun 18, 15:12 · [Discussion](https://news.ycombinator.com/item?id=48586631)
 
-**Background**: Dense bi-encoders independently map queries and documents into single vectors for fast cosine similarity searches. Late interaction models like ColBERT store a vector per token and compute token-level MaxSim similarity, improving accuracy at the cost of larger indexes. GGUF is a file format optimized for efficient large model inference on consumer hardware.
+**Background**: Website directories are curated link collections used for SEO backlinks. Product discovery platforms like Product Hunt help startups gain early users. Spammers abuse these to manipulate search rankings, leading many platforms to implement stricter submission reviews.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://weaviate.io/blog/late-interaction-overview">An Overview of Late Interaction Retrieval Models: ColBERT, ColPali, and ColQwen | Weaviate</a></li>
-<li><a href="https://www.emergentmind.com/topics/maxsim-operator">MaxSim Operator in Dense Retrieval</a></li>
-<li><a href="https://medium.com/@vimalkansal/understanding-the-gguf-format-a-comprehensive-guide-67de48848256">Understanding the GGUF Format : A Comprehensive Guide | Medium</a></li>
+**Discussion**: Overall sentiment was positive, with experienced founders sharing historical context (e.g., BetaList's early days) and additional directories. Many warned that public lists attract spam, citing examples like fake podcast submissions on Listen Notes. The value of the directory was acknowledged, but with a note of caution about quality control.
 
-</ul>
-</details>
-
-**Tags**: `#embedding-models`, `#ColBERT`, `#multilingual`, `#retrieval`, `#RAG`
+**Tags**: `#web-directories`, `#startup-marketing`, `#seo`, `#community-discussion`, `#product-launch`
 
 ---
 
 <a id="item-13"></a>
-## [Real-World Test: Token Cost Tools Save Only 3.7% for Claude Code](https://www.reddit.com/r/LocalLLaMA/comments/1u9anzk/cutting_llm_token_costs_with_rtk_headroom_and/) ⭐️ 8.0/10
+## [Fearless Concurrency on GPU via Safe Rust Kernels](https://www.reddit.com/r/MachineLearning/comments/1u9j7md/fearless_concurrency_on_the_gpu_safe_gpu/) ⭐️ 7.0/10
 
-An empirical replay of rtk, headroom, and caveman over 500 Claude Code sessions (614M tokens, $926 baseline) found combined cost savings of only 3.7%, far below the advertised 60-90% reductions on individual payloads. This challenges marketing claims and reveals that real-world savings are limited by workload diversity, prompt caching, and coverage gaps, underscoring the need to evaluate tools on actual usage rather than synthetic benchmarks. The low savings stem from three factors: savings are diluted across the entire bill; compression only activates on structured, redundant outputs (e.g., grep results); and prompt caching causes 42% of costs from cheap cache_create tokens and 29% from output tokens, which the tools do not touch. Additionally, rtk only covered 22% of tool-output tokens due to gaps with Read, Grep, and Glob commands.
+cuTile Rust enables writing or generating GPU kernels with compile-time memory safety and data-race freedom by leveraging Rust's ownership and borrow checking. It powers Grout, a Qwen3 inference engine that achieves 171 tok/s (4B on RTX 5090) and 82 tok/s (32B on B200), competitive with vLLM and SGLang. As AI-generated GPU code becomes common, trusting it is a bottleneck; safe-by-construction kernels shift the burden from manual auditing to the compiler. This proof-of-concept demonstrates that safe, high-performance GPU kernels are feasible, potentially raising reliability standards for ML systems. Grout is a research case study, not a drop-in server; it supports only batch-1 inference and a few models, relies on CUDA Tile IR (NVIDIA-only), and GEMM performance is still slightly behind cuBLAS in some configurations.
 
-reddit · r/LocalLLaMA · /u/noninertialframe96 · Jun 18, 16:16
+reddit · r/MachineLearning · /u/Exciting_Suspect9088 · Jun 18, 21:36
 
-**Background**: LLM APIs charge per token (input/output). Tools like rtk, headroom, and caveman aim to compress content before sending to the LLM to reduce token usage. Claude Code uses prompt caching, where context can be re-sent at a discounted 'cache_read' rate, and costs are split into cache_create, output, and input tokens. rtk filters shell command output; headroom compresses logs, files, and RAG chunks; caveman shortens agent responses by stripping verbosity. The study replayed real Claude Code sessions to measure actual savings, revealing that high-compression benchmarks don't translate to proportional bill reductions due to workload mix and pricing structure.
+**Background**: Rust's ownership system enforces memory safety and prevents data races at compile time, traditionally for CPU code. CUDA Tile IR is a new virtual ISA introduced in CUDA 13.1 that shifts GPU programming from thread-level SIMT to tile-based operations, enabling higher-level optimizations. cuTile Rust extends Rust's ownership across GPU launch boundaries by partitioning mutable outputs into disjoint subtensors, ensuring each tile's kernel has exclusive access with single-threaded semantics verified by the compiler.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/rtk-ai/rtk">GitHub - rtk -ai/ rtk : CLI proxy that reduces LLM token consumption by...</a></li>
-<li><a href="https://github.com/chopratejas/headroom">GitHub - chopratejas/headroom: Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server. · GitHub</a></li>
-<li><a href="https://github.com/juliusbrussee/caveman">GitHub - JuliusBrussee/caveman: 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman</a></li>
+<li><a href="https://nvlabs.github.io/cutile-rs/">cuTile Rust — cuTile Rust</a></li>
+<li><a href="https://github.com/nvlabs/cutile-rs">GitHub - NVlabs/ cutile -rs: cuTile Rust provides a safe, tile-based...</a></li>
+<li><a href="https://www.buysellram.com/blog/cuda-13-1-reinvents-gpu-development-the-biggest-leap-in-two-decades/">CUDA 13.1 Reinvents GPU Development — The Biggest Leap in Two Decades - BuySellRam</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM`, `#token optimization`, `#cost reduction`, `#benchmarking`, `#real-world evaluation`
+**Tags**: `#Rust`, `#GPU`, `#Machine Learning`, `#Concurrency`, `#Safety`
 
 ---
 
 <a id="item-14"></a>
-## [Ubiquiti Unveils Enterprise NAS Powered by ZFS](https://blog.ui.com/article/introducing-enterprise-nas) ⭐️ 7.0/10
+## [Codebase-Memory-MCP: High-Performance Codebase Indexing with 99% Token Savings](https://github.com/DeusData/codebase-memory-mcp) ⭐️ 7.0/10
 
-Ubiquiti announced the Enterprise NAS, a ZFS-based storage appliance featuring dual 25 GbE ports, redundant power supplies, and a $3,999 price tag, marking the company's entry into the enterprise storage market. The device offers enterprise-grade ZFS data integrity without recurring licensing fees, challenging competitors that rely on subscription models, and could attract organizations seeking affordable, high-performance storage. The NAS supports dual 25 Gigabit SFP28 ports and redundant power supplies, but community discussion highlights potential bottlenecks with spinning drives and questions its real-world throughput under ZFS workloads.
+DeusData has open-sourced codebase-memory-mcp, a high-performance MCP server written in C. It indexes codebases into a persistent knowledge graph, enabling sub-millisecond queries and a 99% reduction in token usage for AI-driven code intelligence. By drastically lowering latency and token costs, it makes it practical to use large language models with large codebases, potentially accelerating developer workflows and enhancing AI coding assistants. The server is a single static binary with zero dependencies, supports 158 programming languages, and delivers queries in under a millisecond; it is built in C for maximum performance.
 
-hackernews · ksec · Jun 18, 14:24 · [Discussion](https://news.ycombinator.com/item?id=48585866)
+ossinsight · DeusData · Jun 18, 23:44
 
-**Background**: ZFS is an advanced file system and volume manager that combines data integrity features like copy-on-write, checksums, and snapshots, commonly used in high-reliability storage servers. Ubiquiti is known for networking equipment like UniFi, and this product extends its ecosystem into enterprise NAS, competing with TrueNAS and QNAP.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/ZFS">ZFS - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Reddit users expressed mixed sentiments: excitement over the no-recurring-cost model and ZFS adoption, but skepticism regarding Ubiquiti's enterprise track record and concerns about achieving full 25GbE throughput with HDDs, with some comparing unfavorably to TrueNAS.
-
-**Tags**: `#NAS`, `#ZFS`, `#Ubiquiti`, `#Enterprise Storage`, `#Hacker News`
-
----
-
-<a id="item-15"></a>
-## [W Social's Opaque Digital Sovereignty Claims Under Scrutiny](https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/) ⭐️ 7.0/10
-
-A critical blog post by Elena Rossini exposes W Social's contradictions in promoting European digital sovereignty while operating opaquely as a for-profit LLC. HN discussions highlight further skepticism, including easy dummy account creation and the overlooked transparent alternative Eurosky. This scrutiny matters because digital sovereignty is a core EU policy objective, and if a self-proclaimed European platform lacks transparency, it could undermine trust and stall genuine alternatives to US Big Tech. It also reveals how political backing may prioritize hype over openness. W Social is an LLC run by a finance-background founder, with plans for ads and paid features. Its 'human verification' is flawed as shown by users with multiple accounts. Eurosky, an open ATproto-based nonprofit, exists as a transparent counterexample.
-
-hackernews · nemoniac · Jun 18, 12:46 · [Discussion](https://news.ycombinator.com/item?id=48584497)
-
-**Background**: Digital sovereignty refers to a state or entity's control over its digital infrastructure and data, a priority for the EU amid US-China tech dominance. W Social markets itself as a European social network governed by EU law. ATproto is a decentralized social networking protocol.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Digital_sovereignty">Digital sovereignty</a></li>
-<li><a href="https://wsocial.news/">W - The European social network for verified humans</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Comments express strong skepticism: users mock the platform's verification by creating multiple accounts, suspect for-profit motives, and compare it to Truth Social with a European accent. The transparency of Eurosky is highlighted as an ignored alternative, and the rapid embrace by EU politicians fuels suspicion of a political echo chamber.
-
-**Tags**: `#digital sovereignty`, `#social media`, `#European tech`, `#transparency`, `#W Social`
-
----
-
-<a id="item-16"></a>
-## [Modos Color Monitor Pushes E-Paper Displays Further](https://spectrum.ieee.org/modos-e-paper-monitor) ⭐️ 7.0/10
-
-Modos, a two-person startup, has introduced the Modos Flow, a 13.3-inch color e-paper monitor with 3200×2400 native resolution, touch input, and a 60Hz refresh rate. It uses an open FPGA controller to reduce input lag, making it suitable for coding and reading in direct sunlight. This monitor demonstrates significant progress in color e-paper technology, offering a paper-like, low-power display that is eye-friendly and readable outdoors. It opens possibilities for auxiliary devices that can be used in bright environments with extended battery life. The monitor uses an RGB color filter array on a monochrome E Ink panel and connects via USB-C. Dimensions are 315 x 254 x 16 mm, though the visible screen area is smaller; a community query asks if it matches A4 size. The 60Hz refresh rate raises questions about long-term panel degradation.
-
-hackernews · Vinnl · Jun 18, 11:41 · [Discussion](https://news.ycombinator.com/item?id=48583897)
-
-**Background**: E-paper mimics ink on paper by reflecting ambient light, eliminating backlight for low power and sunlight readability. Color reproduction and refresh rates have traditionally lagged behind LCDs. The Modos monitor uses a color filter array, similar to color LCDs, for full color, building on the earlier Modos Paper devkit and competing with devices like reMarkable and Boox.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://spectrum.ieee.org/modos-e-paper-monitor">Modos Color Monitor Pushes E-Paper Displays Further - IEEE Spectrum</a></li>
-<li><a href="https://www.cnx-software.com/2026/05/27/modos-flow-an-fpga-based-13-3-inch-usb-c-touchscreen-color-e-paper-monitor/">Modos Flow - An FPGA-based 13.3-inch USB-C touchscreen e-paper monitor (Crowdfunding) - CNX Software</a></li>
-<li><a href="https://www.modos.tech/blog/modos-paper-monitor">The Modos Paper Monitor | Modos</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters expressed excitement about outdoor use and low power, but raised concerns about Carta panel longevity under 60Hz. Comparisons were made to Daylight RLCD and Boox devices, and a user questioned if the visible screen matches A4. A detailed YouTube walkthrough by the creator was shared.
-
-**Tags**: `#e-paper`, `#display`, `#hardware`, `#technology`, `#startup`
-
----
-
-<a id="item-17"></a>
-## [Emacs 31 Upcoming Features Being Daily Driven](https://www.rahuljuliato.com/posts/emacs-31-around-the-corner) ⭐️ 7.0/10
-
-A review details upcoming Emacs 31 features already being daily driven, including enhanced configurability and modern tool integration. Emacs continues to evolve, integrating with modern AI tools and maintaining a loyal user base, demonstrating the longevity of highly configurable editors. The features are not yet officially released but are usable in daily work, including improved AI assistant integration like Claude.
-
-hackernews · frou_dh · Jun 18, 12:10 · [Discussion](https://news.ycombinator.com/item?id=48584135)
-
-**Background**: Emacs is a family of extensible text editors first released in 1976, known for powerful customization. Version 31 is the upcoming major release, typically bringing performance improvements and new capabilities. The Emacs community is known for long-term loyalty and active discussion.
-
-**Discussion**: The majority express positive sentiment, affirming Emacs's relevance, especially with AI integration like Claude. Some note LLMs help reduce the learning curve for configuration. The opt-in update model is appreciated for avoiding forced changes.
-
-**Tags**: `#emacs`, `#release`, `#editor`, `#hackernews`, `#community`
-
----
-
-<a id="item-18"></a>
-## [Midjourney Previews Ultrasonic CT Medical Imaging](https://www.midjourney.com/medical/blogpost) ⭐️ 7.0/10
-
-Midjourney launched a new medical imaging division, Midjourney Medical, and previewed Ultrasonic CT, an AI-based full-body ultrasound scanner that reconstructs high-resolution images, aiming to offer quick and affordable health scans. Midjourney's move into medical imaging could democratize access to full-body scans, potentially enabling early disease detection at lower costs, but it also sparks debate about unnecessary scans and the risk of overdiagnosis. The Ultrasonic CT is an AI-reconstructed ultrasound system that currently produces low-resolution CT-like images; Midjourney plans to iterate for higher fidelity. The technology is early-stage and not clinically validated.
-
-hackernews · ricochet11 · Jun 18, 01:59 · [Discussion](https://news.ycombinator.com/item?id=48579650)
-
-**Background**: Midjourney is widely known for its AI image generation platform. Medical imaging typically includes CT (using X-rays) and ultrasound (using sound waves), each with different strengths. AI is increasingly used to enhance image reconstruction and interpretation. Full-body scanning of asymptomatic individuals is often discouraged due to the risk of false positives.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.midjourney.com/medical/blogpost">A New Era of Midjourney</a></li>
-<li><a href="https://www.midjourney.com/medical">Midjourney Medical</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The HN discussion showed mixed reactions: a radiologist praised the innovation but cautioned that ultrasound cannot replace CT. Others criticized the 'spa' concept as promoting unnecessary scans, with some preferring a healthcare system focused on wellness rather than data collection. Branding concerns were raised, suggesting a separate subsidiary.
-
-**Tags**: `#AI`, `#medical-imaging`, `#Midjourney`, `#healthtech`, `#generative-AI`
-
----
-
-<a id="item-19"></a>
-## [Unsloth Releases 2-bit GGUF Quantization of GLM-5.2 at 238GB](https://www.reddit.com/r/LocalLLaMA/comments/1u98iig/unsloth_glm52gguf_including_2bit_at_238gb/) ⭐️ 7.0/10
-
-Unsloth has released GGUF quantizations of Z.ai's GLM-5.2 model, including a highly compressed 2-bit version that requires only 238GB of storage, making it more accessible for local deployment on consumer hardware. This release significantly lowers the hardware barrier for running GLM-5.2, a powerful long-horizon task model, locally, enabling broader experimentation and use cases in the open-source LLM community. The 2-bit quantization represents an extreme compression level, but it may come with quality degradation; the GGUF format ensures compatibility with popular inference tools like llama.cpp, Ollama, and LM Studio.
-
-reddit · r/LocalLLaMA · /u/okaycan · Jun 18, 14:55
-
-**Background**: GGUF is a binary file format optimized for storing and running quantized large language models efficiently, widely adopted in the local inference ecosystem. GLM-5.2 is a state-of-the-art model by Chinese AI company Z.ai, designed for complex, long-horizon tasks, and released under the MIT license. Quantization reduces model size by lowering the precision of weights, enabling models to run on less powerful hardware at the cost of some accuracy. Unsloth is a toolset known for fine-tuning and deploying models locally, often providing optimized quantizations.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://z.ai/blog/glm-5.2">GLM-5.2: Built for Long-Horizon Tasks</a></li>
-<li><a href="https://en.wikipedia.org/wiki/GGUF">GGUF</a></li>
-<li><a href="https://unsloth.ai/">Unsloth - Train and Run Models Locally</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#LLM`, `#Quantization`, `#GGUF`, `#LocalLLaMA`, `#GLM-5.2`
-
----
-
-<a id="item-20"></a>
-## [OSS models overtake proprietary in OpenRouter market share](https://www.reddit.com/r/LocalLLaMA/comments/1u96545/oss_models_decisively_overtook_proprietary_models/) ⭐️ 7.0/10
-
-A Reddit post claims that over the past three months, open-source language models have decisively overtaken proprietary models in market share on the OpenRouter platform. This shift may signal a broader industry trend towards open-source AI, potentially accelerating innovation and giving users more control over model deployment and costs. The claim is based solely on OpenRouter data, lacking specific model breakdowns or numbers, and the platform's user base may not represent the entire AI market.
-
-reddit · r/LocalLLaMA · /u/Comfortable-Rock-498 · Jun 18, 13:21
-
-**Background**: OpenRouter is an API platform that aggregates access to over 400 AI models, both open-source and proprietary, allowing developers to compare and switch between them easily. Open-source LLMs, such as those from Meta or Mistral, have publicly available weights and can be self-hosted or modified. In recent years, enterprises have been shifting towards self-hosted open-source models for better cost control and data privacy.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://openrouter.ai/about">About - The Unified Interface For LLMs | OpenRouter</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Large_language_model">Large language model - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#open-source`, `#llm`, `#market-share`, `#ai`, `#reddit`
-
----
-
-<a id="item-21"></a>
-## [Leaked docs reveal OpenAI's billions in annual losses](https://www.reddit.com/r/LocalLLaMA/comments/1u8tcob/leaked_financial_docs_show_openai_is_losing/) ⭐️ 7.0/10
-
-Leaked financial documents indicate that OpenAI is losing billions of dollars per year, signaling potential financial instability. As a leading AI company, OpenAI's financial troubles could impact investor confidence, the pace of AI development, and the broader industry ecosystem. The leak lacks specific details, such as verification of the documents and exact loss figures; the submission itself does not include a direct article link.
-
-reddit · r/LocalLLaMA · /u/johnnyApplePRNG · Jun 18, 01:55
-
-**Background**: OpenAI is known for developing ChatGPT and GPT-4 and operates as a capped-profit company. Despite generating significant revenue, the immense costs of training and running large-scale AI models can lead to substantial losses.
-
-**Tags**: `#OpenAI`, `#financial loss`, `#leak`, `#AI industry`, `#Reddit`
-
----
-
-<a id="item-22"></a>
-## [Codebase-Memory-MCP: Lightning-Fast Code Indexing for AI Tools](https://github.com/DeusData/codebase-memory-mcp) ⭐️ 7.0/10
-
-DeusData/codebase-memory-mcp, a new open-source MCP server written in C, enables indexing entire codebases into a persistent knowledge graph in milliseconds, supporting 158 programming languages. By offering sub-millisecond queries and a 99% reduction in token usage, this server could make AI code assistants more efficient and responsive, potentially lowering costs and improving scalability for large codebases. The server is delivered as a single static binary with zero dependencies, provides sub-millisecond queries, and claims to reduce token usage by 99%; however, it currently lacks validation and has limited community engagement.
-
-ossinsight · DeusData · Jun 18, 20:24
-
-**Background**: The Model Context Protocol (MCP) is an open standard introduced by Anthropic in 2024 that allows AI models to connect seamlessly with external data sources and tools. MCP servers like this one provide specialized capabilities, such as codebase indexing, enabling AI applications to understand and navigate large software projects efficiently.
+**Background**: The Model Context Protocol (MCP) is an open standard introduced by Anthropic in 2024, allowing AI models to connect with external tools and data sources. Code intelligence tools typically analyze codebases for features like autocomplete and navigation, but require heavy indexing and large context windows. A knowledge graph captures code entities and relationships for efficient querying without re-reading entire files.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol</a></li>
-<li><a href="https://modelcontextprotocol.io/">What is the Model Context Protocol (MCP)? - Model Context Protocol</a></li>
+<li><a href="https://modelcontextprotocol.io/docs/getting-started/intro">What is the Model Context Protocol (MCP)? - Model Context Protocol</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#MCP`, `#code-intelligence`, `#knowledge-graph`, `#high-performance`, `#indexing`
+**Tags**: `#code-intelligence`, `#mcp-server`, `#knowledge-graph`, `#developer-tools`, `#static-analysis`
+
+---
+
+<a id="item-15"></a>
+## [Ubiquiti Launches Enterprise NAS Powered by ZFS](https://blog.ui.com/article/introducing-enterprise-nas) ⭐️ 6.0/10
+
+Ubiquiti has announced a new enterprise NAS product built on the ZFS file system, targeting business storage with data integrity features. This could bring ZFS-based NAS to a wider audience with Ubiquiti's no-subscription model, challenging incumbents, but the company's software quality track record raises concerns. The NAS features dual 25Gb SFP28 ports and redundant power supplies, though questions remain about whether spinning HDDs can saturate such links; past Ubiquiti security incidents and software issues are also noted.
+
+hackernews · ksec · Jun 18, 14:24 · [Discussion](https://news.ycombinator.com/item?id=48585866)
+
+**Background**: ZFS is an advanced file system and volume manager that ensures data integrity through copy-on-write, snapshots, and checksumming. NAS (Network-Attached Storage) provides file-level storage over a network, commonly used in enterprises. Ubiquiti is known for networking hardware and has a mixed reputation regarding software reliability.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/ZFS">ZFS - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Network-attached_storage">Network-attached storage</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Comments show excitement about ZFS and no recurring fees, but widespread concerns over Ubiquiti's history of software quality problems, including a leaked AWS root key, misleading end-to-end encryption claims, and camera feed exposure due to configuration errors, lead many to question its 'enterprise' readiness.
+
+**Tags**: `#ubiquiti`, `#nas`, `#zfs`, `#enterprise`, `#storage`
+
+---
+
+<a id="item-16"></a>
+## [Cornell CS 6120: Advanced Compilers Self-Guided Online Course](https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/) ⭐️ 6.0/10
+
+Cornell University released a self-guided online version of its Advanced Compilers course (CS 6120) from 2020, providing free access to lectures, readings, and projects covering compiler design and optimization techniques. This free resource democratizes access to graduate-level compiler education, benefiting self-taught programmers and students who cannot attend the university. It covers foundational and advanced compiler topics that remain relevant in practice. The course covers data flow analysis, SSA form, dead code elimination, and dynamic compilation. A significant portion of the dynamic compilation section focuses on trace compilation, a technique that has been largely superseded by method-based just-in-time compilation with type feedback and deoptimization.
+
+hackernews · ibobev · Jun 18, 11:04 · [Discussion](https://news.ycombinator.com/item?id=48583606)
+
+**Background**: Trace compilation is a just-in-time compilation approach that identifies and compiles frequently executed instruction traces. It gained attention in the early 2000s with projects like Dynamo, but has fallen out of favor due to its complexity and difficulty in handling certain language features. Modern dynamic compilers more commonly use method-based compilation with type speculation and on-stack replacement.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://ssw.jku.at/Research/Projects/TraceCompilation/Abstract.html">Trace Compilation</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters praised the course's availability but noted that its dynamic compilation section overemphasizes trace compilation, which is now considered a dead-end. Some questioned the 'advanced' label, arguing that topics like dead code elimination are typically covered in introductory compiler courses.
+
+**Tags**: `#compilers`, `#education`, `#CS6120`, `#compiler-optimization`, `#self-guided-course`
+
+---
+
+<a id="item-17"></a>
+## [How Alberta Eradicated Rats: A Historic Campaign](https://worksinprogress.co/issue/albertas-war-on-rats/) ⭐️ 6.0/10
+
+An article recounts Alberta’s coordinated, decades-long campaign to completely eliminate rats from the province, including public demonstrations of poison safety and political maneuvers. The story highlights a rare success in large-scale pest eradication, demonstrating how determined public policy and community engagement can protect agriculture and public health. Notable details include a mayor who initially refused to cooperate, and a pest control officer eating warfarin-treated oats at public meetings to prove its safety. A commenter corrected that the uncooperative mayor was not part of the United Conservative Party, which did not exist at the time, but the Social Credit Party was in power.
+
+hackernews · tzury · Jun 18, 13:05 · [Discussion](https://news.ycombinator.com/item?id=48584709)
+
+**Background**: Rats are not native to Alberta and pose serious threats to crops and health. Warfarin, an anticoagulant, is a common rodenticide. Alberta’s rat-free status is maintained by a strict buffer zone along its borders and rapid response to any sightings. The Social Credit Party governed Alberta for most of the eradication period.
+
+**Discussion**: Commenters shared a mix of appreciation and corrections. One noted an inaccuracy about the ruling party at the time, another praised the live poison-safety demonstration, and others shared related media links.
+
+**Tags**: `#pest-control`, `#public-policy`, `#history`, `#environment`
+
+---
+
+<a id="item-18"></a>
+## [Gerrymandle: Daily Puzzle Game Teaches Gerrymandering](https://gerrymandle.cc/) ⭐️ 6.0/10
+
+A new daily puzzle game called Gerrymandle was posted on Show HN. Players redraw electoral district boundaries to achieve a target partisan outcome, visually demonstrating how gerrymandering works. This game transforms a complex political issue into an accessible, hands-on educational tool, potentially fostering greater civic literacy and sparking discussions about fair electoral systems. The game is a daily web-based puzzle with clear instructions. One notable rule is that tied districts yield no winner, simplifying gameplay but sacrificing some realism.
+
+hackernews · realmofthemad · Jun 18, 14:16 · [Discussion](https://news.ycombinator.com/item?id=48585739)
+
+**Background**: Gerrymandering is the practice of manipulating electoral district boundaries to give one political party an unfair advantage. The term originates from 1812 when Massachusetts Governor Elbridge Gerry signed a bill creating a district shaped like a salamander. Modern politics uses data analysis to precisely draw districts that dilute or concentrate opposing voters' power. This game lets players experience the strategic decisions firsthand.
+
+**Discussion**: Commenters largely praised the game's creativity and educational value, suggesting it could be used in civics classes. Some noted minor inaccuracies like the tie rule, but overall the sentiment was enthusiastic, with one user linking to a fair districting protocol paper.
+
+**Tags**: `#gerrymandering`, `#puzzle-game`, `#civic-education`, `#show-hn`, `#game-design`
+
+---
+
+<a id="item-19"></a>
+## [Conversation-Level Debugging Reveals Voice AI Flaws](https://www.reddit.com/r/MachineLearning/comments/1u99fe5/voice_debugging_at_the_conversation_level_seems/) ⭐️ 6.0/10
+
+A practitioner reports that analyzing real multi-turn voice interactions uncovers emergent failures like timing mistakes and unnatural turn-taking, which are invisible to traditional isolated metrics. They are now shifting toward automated conversation-level QA to scale debugging efforts. This highlights a critical gap in current voice AI evaluation: component-level scores often miss the emergent friction that ruins user experience. It could push the industry toward more holistic, interaction-aware testing methods. Despite strong speech-to-text, latency, and task completion metrics, the author observed conversations that felt frustrating due to cumulative timing errors, repeated confirmations, and awkward turn-taking. They now focus on automated detection of recurring conversational patterns instead of individual model errors.
+
+reddit · r/MachineLearning · /u/OwlZealousideal4779 · Jun 18, 15:29
+
+**Background**: Traditional voice AI evaluation relies on metrics like word error rate, latency, and task completion rate—each assessed in isolation. Real voice conversations, however, are multi-turn and dynamic, with satisfaction depending on natural flow and minimal friction. Emergent issues such as repeated confirmations or awkward turn-taking can degrade experience without showing up in component-level scores. Newer evaluation approaches use large language models to assess coherence and relevance across entire dialogues.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/azure/ai-services/language-service/conversational-language-understanding/concepts/evaluation-metrics">Conversational language understanding evaluation metrics - Foundry Tools | Microsoft Learn</a></li>
+<li><a href="https://dialzara.com/blog/5-metrics-for-evaluating-conversational-ai">7 Conversational AI Evaluation Metrics That Actually Matter in 2025</a></li>
+<li><a href="https://hamming.ai/resources/debugging-voice-agents-real-time-logs-missed-intents-error-dashboards">Debugging Voice Agents: Real-Time Logs... | Hamming AI Resources</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#voice AI`, `#conversational AI`, `#evaluation metrics`, `#debugging`, `#multi-turn interaction`
+
+---
+
+<a id="item-20"></a>
+## [Is Top NLP Venue ACL Now Irrelevant for PhD Admissions?](https://www.reddit.com/r/MachineLearning/comments/1u945j5/is_acl_now_irrelevant_d/) ⭐️ 6.0/10
+
+A Reddit user challenges the claim that a first-author ACL paper is a weak signal for PhD applications, despite ACL being an A+ venue, sparking a meta-discussion on NLP conference value. This debate highlights tensions between classical CS and AI subfields in academic evaluation, directly affecting how students choose publication targets for PhD admissions. The criticism stems from some classical CS communities viewing AI venues as less rigorous than traditional conferences like ICSE or FSE, though no concrete data or surveys are provided.
+
+reddit · r/MachineLearning · /u/H4RZ3RK4S3 · Jun 18, 11:52
+
+**Background**: ACL (Association for Computational Linguistics) is the premier international conference for NLP research, consistently rated A+ in CS rankings. It belongs to a group of leading AI conferences that have grown in popularity, sometimes overshadowing traditional software engineering venues like ICSE and FSE. This shift has caused friction, as some classical CS fields feel AI papers are valued disproportionately. PhD admissions in ML often weigh publications heavily, but perceptions of conference prestige can vary.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://csrankings.org/">CSRankings: Computer Science Rankings</a></li>
+<li><a href="https://en.wikipedia.org/wiki/International_Conference_on_Software_Engineering">International Conference on Software Engineering - Wikipedia</a></li>
+<li><a href="https://conf.researchr.org/home/fse-2026">FSE 2026 - conf.researchr.org</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#academic conferences`, `#NLP`, `#ACL`, `#machine learning`, `#PhD admissions`
+
+---
+
+<a id="item-21"></a>
+## [Headroom Compresses RAG Chunks, Logs to Cut LLM Tokens 60-95%](https://github.com/chopratejas/headroom) ⭐️ 6.0/10
+
+The GitHub repo chopratejas/headroom introduces a new tool that compresses tool outputs, logs, files, and RAG chunks before sending them to an LLM. It achieves 60-95% token reduction without sacrificing answer quality, and is available as a Python library, proxy, and MCP server. LLM token costs and context window limits are major bottlenecks for retrieval-heavy applications. By dramatically reducing prompt size, Headroom can lower API expenses and allow more information to be processed within a single context window, benefiting developers building RAG systems and AI agents. Headroom is implemented in Python, gained 34 GitHub stars in the past 24 hours, and supports three integration modes: library, proxy, and MCP server, indicating flexibility for different deployment scenarios. However, it is early-stage with limited community traction.
+
+ossinsight · chopratejas · Jun 18, 23:44
+
+**Background**: Retrieval-Augmented Generation (RAG) is a technique where an LLM retrieves relevant documents from an external knowledge base to improve response accuracy. Model Context Protocol (MCP) is an open standard by Anthropic for connecting AI assistants to external data sources and tools. Headroom compresses the data retrieved via RAG or generated by tools, reducing token usage before the LLM processes it.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation">Retrieval - augmented generation - Wikipedia</a></li>
+<li><a href="https://aws.amazon.com/what-is/retrieval-augmented-generation/">What is RAG ? - Retrieval - Augmented Generation AI Explained - AWS</a></li>
+<li><a href="https://www.anthropic.com/news/model-context-protocol">Introducing the Model Context Protocol \ Anthropic</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#llm`, `#token-compression`, `#python`, `#proxy`, `#mcp`
+
+---
+
+<a id="item-22"></a>
+## [Agent-Reach Lets AI Agents Search Social Media for Free](https://github.com/Panniantong/Agent-Reach) ⭐️ 6.0/10
+
+A new open-source CLI tool called Agent-Reach enables AI agents to search and retrieve content from Twitter, Reddit, YouTube, GitHub, Bilibili, and XiaoHongShu without using any API keys or incurring fees. The repository gained 26 GitHub stars in the past 24 hours. This tool reduces the cost and complexity for AI developers to integrate social media data into agent workflows, potentially accelerating the development of more capable and autonomous agents that can monitor and interact with public online content. The tool is written in Python and uses web scraping techniques to bypass official APIs, which may raise concerns about terms of service compliance and potential blocking. It supports both international platforms and Chinese platforms like Bilibili and XiaoHongShu.
+
+ossinsight · Panniantong · Jun 18, 23:44
+
+**Background**: AI agents are autonomous software systems that can use tools to perform tasks. Bilibili is a leading Chinese video platform popular for anime, gaming, and tech content. XiaoHongShu (RedNote) is a Chinese social commerce platform where users share lifestyle content. Normally, accessing data from these platforms requires using official APIs, which often come with costs and usage limits.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/AI_agent">AI agent</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Bilibili">Bilibili</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Xiaohongshu">Xiaohongshu</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI`, `#agent-tools`, `#web-scraping`, `#CLI`, `#social-media`
 
 ---
 
 <a id="item-23"></a>
-## [Headroom: Compress LLM Inputs, Reduce Token Usage by 60-95%](https://github.com/chopratejas/headroom) ⭐️ 7.0/10
+## [CodeGraph: Local Pre-indexed Knowledge Graph for AI Coding Assistants](https://github.com/colbymchenry/codegraph) ⭐️ 6.0/10
 
-A trending GitHub repo, chopratejas/headroom, is a new Python library, proxy, and MCP server that compresses text outputs, logs, files, and RAG chunks before they reach an LLM, achieving 60-95% token reduction. By drastically cutting input tokens, the tool addresses the high cost and latency of large language models, making LLM-powered applications like RAG pipelines more efficient and affordable. It provides a Python library for integration, a proxy for interception, and an MCP server for standardized connections. The compression is lossy but is claimed to preserve answer quality; specific compression techniques are not disclosed.
+A new open-source project, CodeGraph, provides a pre-indexed code knowledge graph that auto-syncs on changes, working with multiple AI coding assistants like Claude Code, Cursor, and Gemini, to significantly reduce API costs and tool calls. By offering a local-first solution for understanding code structure, it cuts token consumption and latency, which is critical for developers seeking affordable and privacy-focused AI coding workflows, and may spur more local tool innovations. CodeGraph uses tree-sitter to build semantic graphs with symbol relationships and call graphs, is distributed as an npm package under MIT license, and currently supports over eight AI coding agents, all running entirely locally.
 
-ossinsight · chopratejas · Jun 18, 20:24
+ossinsight · colbymchenry · Jun 18, 23:44
 
-**Background**: Large Language Models (LLMs) process text in tokens, and pricing often depends on token count. Retrieval-Augmented Generation (RAG) retrieves relevant document chunks to provide context to the LLM, but these chunks can be large. The Model Context Protocol (MCP) is an open standard by Anthropic for connecting AI systems to external tools and data sources. Headroom uses compression to reduce the token count of these inputs.
+**Background**: AI coding agents often scan files repeatedly to grasp code structure, consuming many API tokens. A knowledge graph models code as entities and relationships, enabling efficient queries. Pre-indexing the graph locally allows a single query to replace dozens of file reads, slashing costs and improving speed.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation">Retrieval-augmented generation - Wikipedia</a></li>
+<li><a href="https://github.com/colbymchenry/codegraph">GitHub - colbymchenry/codegraph: Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local</a></li>
+<li><a href="https://tosea.ai/blog/codegraph-claude-code-cursor-guide-2026">How to Use CodeGraph for Claude Code and Cursor: Complete Guide (2026) | Tosea.ai</a></li>
+<li><a href="https://pyshine.com/CodeGraph-Pre-Indexed-Code-Knowledge-Graph-AI-Coding-Agents/">CodeGraph: Pre-Indexed Code Knowledge Graph for AI Coding Agents | PyShine</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Python`, `#LLM`, `#token-compression`, `#cost-optimization`, `#RAG`
-
----
-
-<a id="item-24"></a>
-## [Craigslist Founder Craig Newmark Donates Half a Billion Dollars](https://www.independent.co.uk/us/money/craigslist-multimillionaire-craig-newmark-b2980681.html) ⭐️ 6.0/10
-
-Craig Newmark, the founder of Craigslist, has donated half a billion dollars to philanthropic causes, sparking discussion about the platform's legacy. This act of giving by a low-profile tech founder highlights how personal wealth can be directed toward social good, while also bringing attention to Craigslist's ongoing scam problems and its displacement by Facebook Marketplace. The exact amount is half a billion dollars, though specific recipients were not disclosed. Community comments underscore persistent scams on the platform, such as fake rental listings, and note that Craigslist has largely been replaced by Facebook Marketplace in many areas.
-
-hackernews · Tomte · Jun 18, 16:55 · [Discussion](https://news.ycombinator.com/item?id=48588216)
-
-**Background**: Craigslist is an online classifieds site founded in 1995 that remains deliberately simple and low-revenue. Craig Newmark is known for his modest lifestyle despite his wealth. Facebook Marketplace, launched in 2016, has supplanted Craigslist for many peer-to-peer transactions. Scams on Craigslist, particularly fake rental ads, have been a longstanding issue.
-
-**Discussion**: Overall sentiment is mixed: there is admiration for Newmark's modest attitude, but criticism over Craigslist's failure to combat scams. Some view it as a missed opportunity to expand the company, while others note its decline in favor of Facebook Marketplace.
-
-**Tags**: `#philanthropy`, `#craigslist`, `#classifieds`, `#tech-history`, `#online-platforms`
-
----
-
-<a id="item-25"></a>
-## [Startup Directory Submission Aggregator Launches](https://www.submission.directory/) ⭐️ 6.0/10
-
-A new website, submission.directory, provides a curated list of directories for startups to submit their products, sparking discussion about the evolution of product discovery platforms. It helps startups discover submission opportunities more efficiently, aiding marketing and link-building efforts, and highlights the lasting niche value of directories in an SEO-centric landscape. The site is a manually curated static list; commenters shared alternatives like submit.co, an open-source Internet-Places-Database, and personal metalists of indie directories.
-
-hackernews · azeemkafridi · Jun 18, 15:12 · [Discussion](https://news.ycombinator.com/item?id=48586631)
-
-**Background**: Directory submission is an old web promotion tactic where sites are listed in online directories to gain backlinks and visibility. In the early internet, services like Submit It automated this process. Today, while search engines dominate, niche directories such as Product Hunt and BetaList still serve as important product discovery channels, keeping the practice relevant.
-
-**Discussion**: Veterans like BetaList's founder shared historical context and tools like submit.co, while others offered open-source alternatives and noted that directory submission tactics have cycled back into relevance.
-
-**Tags**: `#startup`, `#directories`, `#SEO`, `#marketing`, `#community`
-
----
-
-<a id="item-26"></a>
-## [DeepSeek Adds Vision Understanding to Chat Platform](https://chat.deepseek.com/) ⭐️ 6.0/10
-
-DeepSeek has introduced vision understanding to its chat platform, allowing users to upload images and receive descriptions, though the feature does not include image generation. This move expands DeepSeek's capabilities into multimodal AI, keeping pace with industry trends where visual understanding is increasingly standard, potentially attracting users who need image analysis without leaving the text-based interface. The feature requires signing in, and the announcement lacks technical details; community feedback notes the absence of text-to-speech and speech-to-text, and some users report an increase in Chinese-language responses.
-
-hackernews · RIshabh235 · Jun 18, 06:17 · [Discussion](https://news.ycombinator.com/item?id=48581458)
-
-**Background**: DeepSeek is a Chinese AI startup known for cost-efficient large language models. Vision understanding, or computer vision, involves AI interpreting visual data. Multimodal AI combines text, images, and other inputs for richer interactions. DeepSeek's models are open-weight, aiming to make advanced AI accessible.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/DeepSeek">DeepSeek</a></li>
-<li><a href="https://chat.deepseek.com/">DeepSeek</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Computer_vision">Computer vision - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Comments clarify that the feature is for description, not generation. Users express surprise at the lack of speech features, note redirects to a login screen, and mention occasional Chinese responses. There is also interest in returning to older model versions.
-
-**Tags**: `#AI`, `#DeepSeek`, `#Vision`, `#Multimodal`, `#HackerNews`
-
----
-
-<a id="item-27"></a>
-## [GLM-5.2 Inference Free on Hugging Face for 6 Hours](https://www.reddit.com/r/LocalLLaMA/comments/1u99hel/glm52_inference_is_free_on_hugging_face_for_the/) ⭐️ 6.0/10
-
-The inference for the GLM-5.2 language model is temporarily available for free on Hugging Face's inference providers for a six-hour window, with a sample prompt provided to test the model. This offers developers and researchers a no-cost opportunity to quickly evaluate the capabilities of the latest GLM-5.2 model, potentially driving adoption and community feedback. The free access is through Hugging Face's inference providers, and the recommended prompt demonstrates the model's ability to generate a detailed response; however, this is a limited-time promotion and may not represent long-term performance.
-
-reddit · r/LocalLLaMA · /u/paf1138 · Jun 18, 15:31
-
-**Background**: GLM-5.2 is an open-weight large language model developed by Z.ai (formerly Zhipu AI), released under the MIT license. It is optimized for coding, agentic workloads, and long-horizon tasks. Hugging Face is a popular platform for hosting and deploying machine learning models, offering inference services through various providers.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/GLM-5.2">GLM-5.2</a></li>
-<li><a href="https://huggingface.co/zai-org/GLM-5.2">zai-org/ GLM - 5 . 2 · Hugging Face</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#GLM-5.2`, `#Hugging Face`, `#free inference`, `#LLM promotion`, `#LocalLLaMA`
-
----
-
-<a id="item-28"></a>
-## [Inflect-Nano: A 4.63M-Parameter Ultra-Tiny TTS Model Released](https://www.reddit.com/r/LocalLLaMA/comments/1u8p9s1/i_released_inflectnano_an_ultraextreme_tiny_463m/) ⭐️ 6.0/10
-
-A developer released Inflect-Nano-v1, a text-to-speech model with only 4.63 million total parameters that runs locally with a simple PyTorch script, producing 24 kHz audio in a single English male voice. It is 17x smaller than Kokoro, 108x smaller than Chatterbox, and nearly 1000x smaller than Fish Audio S2 Pro. This tiny model demonstrates an extreme size-to-functionality ratio, making neural TTS feasible for extremely resource-constrained environments like microcontrollers, offline assistants, and browser-based applications where larger models cannot operate. It sets a baseline for future tiny model research. The model consists of a 3.46M-parameter acoustic model and a 1.17M-parameter vocoder; output quality is limited, sounding robotic and struggling with complex text, and it only supports a single English male voice.
-
-reddit · r/LocalLLaMA · /u/b111ue · Jun 17, 22:50
-
-**Background**: Typical neural TTS models range from tens of millions to billions of parameters; for context, Kokoro has 82M, Chatterbox is around 500M, and Fish Audio S2 Pro is a large multi-billion parameter model. Inflect-Nano's 4.63M parameter count is orders of magnitude smaller, prioritizing minimal footprint over audio quality.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://huggingface.co/hexgrad/Kokoro-82M">hexgrad/ Kokoro -82M · Hugging Face</a></li>
-<li><a href="https://github.com/resemble-ai/chatterbox">GitHub - resemble-ai/chatterbox: SoTA open-source TTS · GitHub</a></li>
-<li><a href="https://huggingface.co/fishaudio/s2-pro">fishaudio/ s 2 - pro · Hugging Face</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#text-to-speech`, `#tiny models`, `#edge computing`, `#local inference`, `#speech synthesis`
-
----
-
-<a id="item-29"></a>
-## [PearlOS Joins NVIDIA Inception, Advances Open-Source Multimodal AI](https://www.reddit.com/r/LocalLLaMA/comments/1u972a7/the_power_of_intelligence_is_better_in_the_hands/) ⭐️ 6.0/10
-
-The open-source PearlOS project has been accepted into the NVIDIA Inception Program, unveiled its 'Agency' swarm intelligence feature that automatically routes tasks to the best-performing models, and is building a multimodal model tailored for consumer laptops. By providing a free, open-source alternative to corporate AI paywalls, PearlOS could democratize advanced intelligence and give users control over powerful models without subscription lock-in, challenging the dominance of closed-source corporations. The Agency dynamically picks models based on real-time benchmark rankings, mixing open-source (DeepSeek, Kimi, Qwen) and private models. Currently in early access, it supports Telegram and Discord, with Slack, SMS, and GoogleChat integrations planned; multimodal output is a long-term goal.
-
-reddit · r/LocalLLaMA · /u/gonzoblair · Jun 18, 13:59
-
-**Background**: NVIDIA Inception is a free program offering startups training credits, hardware discounts, and technical support. Multimodal AI processes multiple data types (text, image, audio, video) for richer interaction. Swarm intelligence uses decentralized model networks that collectively decide, often selecting the best model per task.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.nvidia.com/en-us/startups/">Inception Program for Startups | NVIDIA</a></li>
-<li><a href="https://www.ibm.com/think/topics/multimodal-ai">What is Multimodal AI? | IBM</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Swarm_intelligence">Swarm intelligence - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#open-source`, `#AI`, `#LocalLLaMA`, `#multimodal`, `#NVIDIA Inception`
-
----
-
-<a id="item-30"></a>
-## [Pre-indexed code knowledge graph reduces AI coding agent token usage](https://github.com/colbymchenry/codegraph) ⭐️ 6.0/10
-
-colbymchenry/codegraph is a new open-source tool that pre-indexes code into a knowledge graph. This allows AI coding agents such as Claude Code and Cursor to instantly query code structure instead of scanning files, reducing token usage and tool calls while running 100% locally. By replacing inefficient file scanning with instant graph queries, it significantly lowers costs and latency for AI-powered coding workflows. This matters to developers who frequently use AI agents for large codebases, where token usage and API calls are major bottlenecks. The tool supports multiple popular agents including Claude Code, Codex, Gemini, and Cursor, and has been benchmarked across 7 real-world open-source codebases in 7 languages. It runs entirely locally, with no external dependencies, and is implemented in TypeScript.
-
-ossinsight · colbymchenry · Jun 18, 20:24
-
-**Background**: AI coding agents traditionally scan entire codebases to understand context, consuming many input tokens and requiring multiple tool calls. A code knowledge graph is a structured representation of a codebase's symbols, call graphs, and relationships, enabling efficient lookup. CodeGraph pre-indexes this graph so agents can retrieve information with a single query, avoiding redundant scanning. This approach is especially useful for large projects.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/colbymchenry/codegraph">colbymchenry/codegraph: Pre - indexed code knowledge graph , auto...</a></li>
-<li><a href="https://ainovatools.com/tools/codegraph">CodeGraph Review (2026): Pricing & Alternatives | AINovaTools</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#code-graph`, `#knowledge-graph`, `#ai-coding-agents`, `#local-tool`, `#claude-code`
+**Tags**: `#AI coding tools`, `#knowledge graph`, `#code indexing`, `#developer tools`, `#local-first`
 
 ---
