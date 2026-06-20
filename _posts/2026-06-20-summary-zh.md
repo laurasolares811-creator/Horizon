@@ -5,43 +5,41 @@ date: 2026-06-20
 lang: zh
 ---
 
-> 从 36 条内容中筛选出 22 条重要资讯。
+> 从 26 条内容中筛选出 20 条重要资讯。
 
 ---
 
-1. [SMPTE 免费开放其标准库](#item-1) ⭐️ 8.0/10
-2. [整本书被逐字抄袭，DMCA 执法困境凸显](#item-2) ⭐️ 8.0/10
-3. [CSSQuake：用 CSS 绘制经典 FPS《雷神之锤》](#item-3) ⭐️ 8.0/10
-4. [Cloudflare 推出临时账户，支持 60 分钟暂时 Worker 部署](#item-4) ⭐️ 8.0/10
-5. [寻找屏幕无法显示的颜色](#item-5) ⭐️ 8.0/10
-6. [将网站编码存储于 Favicon 中](#item-6) ⭐️ 8.0/10
-7. [LocalLLaMA 专帖：2026 年 6 月最佳本地代理](#item-7) ⭐️ 8.0/10
-8. [RTX 5090 上实时图像转游戏的本地 AI 模型](#item-8) ⭐️ 8.0/10
-9. [免费 15 篇系列深度剖析 LLM 内部原理（以 Gemma 4 12B 为例）](#item-9) ⭐️ 8.0/10
-10. [DOS 游戏《F-15 Strike Eagle II》逆向项目招募测试者](#item-10) ⭐️ 7.0/10
-11. [MCP 核心优势：将认证流程隔离出代理上下文窗口](#item-11) ⭐️ 7.0/10
-12. [GLM 5.2 高努力级别：仅用一半推理 tokens 达 98%智能](#item-12) ⭐️ 7.0/10
-13. [MSI RTX 5090 AI 负载下电源线熔毁，功耗 500W](#item-13) ⭐️ 7.0/10
-14. [EXL3 量化现已在苹果芯片 Mac 上可用](#item-14) ⭐️ 7.0/10
-15. [Headroom 工具将 LLM 令牌用量降低 60-95%](#item-15) ⭐️ 7.0/10
-16. [Codebase Memory MCP 服务器：支持 158 种语言的亚毫秒级查询](#item-16) ⭐️ 7.0/10
-17. [Windows 11 媒体播放器内存占用增 3.5 倍，HEVC 解码器收费](#item-17) ⭐️ 6.0/10
-18. [英伟达宣布比 Veo 3 快 7 倍、成本仅 1/2000 的视频技术](#item-18) ⭐️ 6.0/10
-19. [GLM 5.2 本地推理速度社区基准测试](#item-19) ⭐️ 6.0/10
-20. [自然语言控制多智能体足球战术](#item-20) ⭐️ 6.0/10
-21. [Llama.cpp 中 Qwen 3.6 27B 双 GPU 优化配置](#item-21) ⭐️ 6.0/10
-22. [开源棋盘项目：每个格子都是 AI 智能体](#item-22) ⭐️ 6.0/10
+1. [SMPTE 免费开放全部标准库](#item-1) ⭐️ 8.0/10
+2. [Cloudflare 推出临时账户功能，支持 60 分钟临时部署](#item-2) ⭐️ 8.0/10
+3. [哺乳动物再生能力为休眠状态而非完全丧失](#item-3) ⭐️ 8.0/10
+4. [《F-15 Strike Eagle II》反编译项目招募 DOS 测试员](#item-4) ⭐️ 7.0/10
+5. [约翰·柯尼希《模糊悲伤》遭全面剽窃](#item-5) ⭐️ 7.0/10
+6. [时间序列建模需要动力系统视角](#item-6) ⭐️ 7.0/10
+7. [大规模 LLM 推理 GPU 内部机制开源手册发布](#item-7) ⭐️ 7.0/10
+8. [minFLUX: 简化版 FLUX 开源实现助研究](#item-8) ⭐️ 7.0/10
+9. [headroom 可将 LLM 输入 token 量减少 60-95%](#item-9) ⭐️ 7.0/10
+10. [DeusData 推出 MCP 服务器，将代码库索引为知识图谱](#item-10) ⭐️ 7.0/10
+11. [UHF X11 将经典 X11 带入 Apple Vision Pro](#item-11) ⭐️ 6.0/10
+12. [CSSQuake：用 CSS 和 JS 在浏览器中重现《雷神之锤》](#item-12) ⭐️ 6.0/10
+13. [Show HN：StartupWiki——Crunchbase 的免费替代品](#item-13) ⭐️ 6.0/10
+14. [AMD 将在 7 月 BIOS 更新中恢复锐龙 9000 的 TSME 功能](#item-14) ⭐️ 6.0/10
+15. [英伟达推出机器人视频生成技术：速度提升 7 倍，成本仅 1/2000](#item-15) ⭐️ 6.0/10
+16. [无需数学基础的构建 LLM 工作坊视频发布至 YouTube](#item-16) ⭐️ 6.0/10
+17. [无顶会论文的机器学习博士能否毕业？](#item-17) ⭐️ 6.0/10
+18. [DVD-JEPA：一个最小化且可复现的 JEPA 世界模型](#item-18) ⭐️ 6.0/10
+19. [TSAuditor：用于审计时间序列数据质量的开源工具](#item-19) ⭐️ 6.0/10
+20. [开发者利用时间对齐特征构建全球 PM2.5 预测模型](#item-20) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [SMPTE 免费开放其标准库](https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community) ⭐️ 8.0/10
+## [SMPTE 免费开放全部标准库](https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community) ⭐️ 8.0/10
 
-SMPTE 已将其整个标准库免费开放，结束了数十年的付费访问模式，并采用 GitHub、结构化 HTML 编写和自动化发布流水线等工具对其开发流程进行现代化改造。 此举通过降低小企业和初创公司的准入门槛，促进媒体技术的更广泛采用、创新和互操作性，效仿了 IETF 免费标准模式的成功。 现代化措施包括基于 GitHub 的版本控制、问题跟踪和自动化，转向结构化 HTML 编写，以及集成的发布流水线。开放的库包含 800 多项标准，涵盖广播、数字电影、音频等领域。
+全球媒体技术标准组织 SMPTE 宣布，其全部超过 800 项技术标准现已免费向公众开放，结束了数十年的付费墙。 此举消除了开发者和初创企业的经济门槛，加速媒体工作流的创新，并顺应开放标准趋势，有望提升全行业的互操作性和采纳度。 具体措施包括采用基于 GitHub 的工作流、结构化 HTML 编写和集成发布管道来现代化标准开发，但也有人担忧对特定供应商的依赖。
 
 hackernews · zdw · 6月20日 17:01 · [社区讨论](https://news.ycombinator.com/item?id=48610827)
 
-**背景**: SMPTE（电影与电视工程师协会）成立于 1916 年，是一个全球性标准组织，已发布 800 多项电影、电视和数字媒体技术标准。过去，获取这些标准需要付费，限制了其传播。此次转变效仿了 IETF，后者的免费标准推动了互联网的广泛创新。
+**背景**: SMPTE（电影与电视工程师学会）成立于 1916 年，制定了如 SMPTE 时间码等关键标准。历史上标准组织常收费以维持运营，而免费开放则效仿了 IETF 的成功模式。
 
 <details><summary>参考链接</summary>
 <ul>
@@ -50,460 +48,404 @@ hackernews · zdw · 6月20日 17:01 · [社区讨论](https://news.ycombinator.
 </ul>
 </details>
 
-**社区讨论**: 社区普遍支持这一举措，认为早该如此。用户指出 IETF 正是通过免费标准取得成功，而过去的付费模式阻碍了创新。一位用户回忆曾购买 PDF 来构建影院集成，并对现在的开放表示欢迎。
+**社区讨论**: 社区普遍热烈欢迎这一变革，将其与 IETF 的积极影响类比，并对不再购买昂贵 PDF 表示欣慰。有人赞扬 GitHub 驱动的现代化，但也对依赖 GitHub 略有保留。
 
-**标签**: `#SMPTE`, `#open-standards`, `#media-technology`, `#broadcasting`, `#standardization`
+**标签**: `#open-standards`, `#media-technology`, `#smpte`, `#accessibility`, `#policy`
 
 ---
 
 <a id="item-2"></a>
-## [整本书被逐字抄袭，DMCA 执法困境凸显](https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/) ⭐️ 8.0/10
+## [Cloudflare 推出临时账户功能，支持 60 分钟临时部署](https://blog.cloudflare.com/temporary-accounts/) ⭐️ 8.0/10
 
-一位作者的整本书（包括序言和 311 个新词）在名为 Qontour 的网站上被未经授权逐字复制，引发了愤怒和法律讨论。 此案凸显了针对 AI 辅助抄袭执行版权的日益严峻的挑战，因为平台通常拒绝在没有法院命令的情况下执行 DMCA 删除通知，使得创作者面临昂贵的法律诉讼。 侵权网站由 Prompt Digital Inc（DBA Qontour）运营，完整复制了全文，并且侵权行为虽然被试图掩盖（可能使用 AI 重写了部分内容），但未能捕获隐藏的彩蛋而被发现。
+Cloudflare 宣布推出临时账户功能，允许用户在不注册永久账户的情况下，通过 `wrangler deploy --temporary` 命令部署 Workers，该部署最多存活 60 分钟，到期自动销毁，在此窗口期内可认领为永久账户。该功能最初面向 AI 代理，但也可供所有开发者使用。 此举消除了快速实验、CI/CD 预览和 PR 评审中的账户注册障碍，极大降低了试用无服务器边缘计算的入门门槛，并加速了开发工作流。 临时账户受速率限制和滥用防护检查；部署在 60 分钟后自动销毁，除非被认领。该功能通过 Wrangler CLI 使用。
 
-hackernews · ridesisapis · 6月20日 18:05 · [社区讨论](https://news.ycombinator.com/item?id=48611411)
+hackernews · farhadhf · 6月20日 11:19 · [社区讨论](https://news.ycombinator.com/item?id=48608394)
 
-**背景**: DMCA（数字千年版权法）允许版权持有者要求删除在线侵权内容。然而，像谷歌和苹果这样的平台通常需要法院命令才会采取行动，使得执法变得困难。AI 工具现在可以轻易地大规模抓取和复制内容，加剧了抄袭风险。
+**背景**: Cloudflare Workers 是 Cloudflare 的无服务器计算平台，在全球边缘网络运行代码。临时环境是短暂存在的部署，用于测试和预览，用完即弃。Workers 免费套餐每日限 10 万次请求。
 
-**社区讨论**: 评论者分享了类似的 AI 辅助盗窃经历，指出在没有昂贵的法院命令的情况下，DMCA 删除通知毫无用处。一些人认为文本可能是直接粘贴而非 AI 生成的，而另一些人则指出，匿名性和低侵权成本使得此类抄袭猖獗。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.cloudflare.com/products/workers/">Cloudflare Workers - Global Serverless Functions Platform</a></li>
+<li><a href="https://developers.cloudflare.com/workers/">Overview · Cloudflare Workers docs</a></li>
+<li><a href="https://dev.to/shipyard/ephemeral-environments-a-quick-overview-3m7">Ephemeral Environments: A Quick Overview - DEV Community</a></li>
 
-**标签**: `#plagiarism`, `#copyright`, `#AI ethics`, `#DMCA`, `#intellectual property`
+</ul>
+</details>
+
+**社区讨论**: 社区普遍欢迎此功能用于 PR 预览和临时演示，但对付费方案缺少硬性支出上限（存在意外高额账单风险）以及可能被滥用于托管恶意内容表示担忧。部分用户批评公告中 AI 生成的文案风格。
+
+**标签**: `#cloudflare`, `#serverless`, `#developer-tools`, `#ai`, `#ephemeral-deployments`
 
 ---
 
 <a id="item-3"></a>
-## [CSSQuake：用 CSS 绘制经典 FPS《雷神之锤》](https://cssquake.com/) ⭐️ 8.0/10
+## [哺乳动物再生能力为休眠状态而非完全丧失](https://www.sciencedaily.com/releases/2026/06/260617032207.htm) ⭐️ 8.0/10
 
-CSSQuake 是一个基于网络的《雷神之锤》复刻项目，它利用 CSS 进行渲染和游戏逻辑处理，仅需少量 JavaScript 即可在浏览器中直接运行游戏地图。 它展示了 CSS 作为渲染技术的惊人潜力，突破了网页标准的传统应用边界，并引发了关于性能、创意和经典游戏怀旧价值的广泛讨论。 游戏状态通过 URL 参数保存，支持直接加载如 e1m1 地图和精确的玩家视角坐标。项目由 PolyCSS 驱动，生成可检查的 HTML/CSS，但性能远不如原版，即使在现代硬件上也会卡顿，且仍需 JavaScript 辅助运行。
+新的研究发现，哺乳动物体内再生相关的基因与细胞机制被抑制而非丢失，表明其再生潜力处于休眠状态。 这一发现可能带来变革性疗法，唤醒人体自我修复机制，治疗心力衰竭、脊髓损伤和失明等疾病。 哺乳动物常通过 Müller 胶质细胞等形成瘢痕而非再生；大鼠实验中重新激活修复能力也带来肿瘤风险，凸显精确调控的必要性。
 
-hackernews · msalsas · 6月20日 10:49 · [社区讨论](https://news.ycombinator.com/item?id=48608223)
+hackernews · nryoo · 6月20日 17:27 · [社区讨论](https://news.ycombinator.com/item?id=48611083)
 
-**背景**: 《雷神之锤》(Quake)是 id Software 在 1996 年推出的里程碑式第一人称射击游戏，以其先进的 3D 引擎和高速多人模式闻名。CSS 通常用于网页样式设计，而非 3D 渲染。本项目通过 CSS 变换等属性模拟 3D 图形，极具创意地扩展了 Web 标准的能力边界。
+**背景**: 斑马鱼和蝾螈等物种能完全再生肢体与器官，而哺乳动物通常以瘢痕愈合。该研究支持再生能力被主动抑制而非丢失的假说，可能与防癌权衡有关。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/LayoutitStudio/cssQuake">cssQuake - GitHub</a></li>
-<li><a href="https://cssquake.com/">cssQuake - Powered by PolyCSS</a></li>
+**社区讨论**: 评论者提及尽管拥有相同干细胞却修复失败的视网膜、人类指尖再生、基于生物电的肢体再生研究，提醒癌症风险，并建议可控纤维化。
 
-</ul>
-</details>
-
-**社区讨论**: 社区普遍惊叹于这一技术成就，但也批评其在现代 Mac 上的性能甚至不如 90 年代的奔腾 PC。有人指出该复刻完整地实现了游戏引擎逻辑，并非仅仅渲染画面；还有评论幽默地提到退出游戏比退出 vim 编辑器还难。此外，用户提醒该项目仍需 JavaScript 运行，并非纯 CSS 实现，并引用了类似的 CSSDOOM 项目，激发怀旧之情。
-
-**标签**: `#css`, `#quake`, `#game-development`, `#web-technology`, `#hack`
+**标签**: `#regeneration`, `#biology`, `#medicine`, `#research`, `#hackernews`
 
 ---
 
 <a id="item-4"></a>
-## [Cloudflare 推出临时账户，支持 60 分钟暂时 Worker 部署](https://blog.cloudflare.com/temporary-accounts/) ⭐️ 8.0/10
+## [《F-15 Strike Eagle II》反编译项目招募 DOS 测试员](https://neuviemeporte.github.io/f15-se2/2026/06/20/needyou.html) ⭐️ 7.0/10
 
-Cloudflare 推出了临时账户功能，通过 `wrangler deploy --temporary` 命令，任何人都可以部署一个存活 60 分钟的暂时 Worker，之后可认领为永久账户或自动过期。 这使得免费短时部署成为可能，非常适合测试、代码审查和拉取请求预览，同时为 AI 代理提供了简易的代码部署方式——尽管对滥用和缺少硬性账单上限的担忧限制了企业采用。 `--temporary` 标志创建的部署保持活动 60 分钟；在此期间可认领临时账户使其永久化。Cloudflare 应用了速率限制和额外的防滥用检查来防止恶意使用。
+DOS 游戏《F-15 Strike Eagle II》的逆向工程项目已完全反编译为 C 代码，并正招募测试人员在 DOS 环境下查找漏洞，为后续移植到现代平台做准备。 这一努力将经典飞行模拟游戏转化为可维护的源码形式，为未来原生移植铺平道路，确保其超越模拟器的长期可访问性。 反编译过程先将游戏逆向为汇编代码，再手动转换为保持二进制一致的 C 代码；测试者需要游戏版本 451.03，并在 DOSBox 或真实 DOS 上运行。
 
-hackernews · farhadhf · 6月20日 11:19 · [社区讨论](https://news.ycombinator.com/item?id=48608394)
+hackernews · LowLevelMahn · 6月20日 15:10 · [社区讨论](https://news.ycombinator.com/item?id=48609766)
 
-**背景**: Cloudflare Workers 是 Cloudflare 提供的无服务器边缘计算平台，可以在靠近用户的数据中心运行代码。暂时环境（ephemeral environments）是按需创建的短生命周期独立部署，使用后即销毁。临时账户无需预先注册，通过 Wrangler 命令行工具即可快速实验，降低了开发者和 AI 代理安全测试和预览代码的门槛。
+**背景**: 逆向工程旨在理解系统内部机制，常用于软件保存或修改。反编译特指将可执行二进制转译为 C 等高级语言，但由于编译优化，结果通常与原始源代码有差异。DOS 是 IBM PC 早期的操作系统家族，《F-15 Strike Eagle II》等经典游戏均基于其开发，如今常借助 DOSBox 模拟器运行。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://northflank.com/blog/what-are-ephemeral-environments">What are ephemeral environments? How they work and when to ...</a></li>
-<li><a href="https://grokipedia.com/page/Cloudflare_Workers">Cloudflare Workers</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Decompilation">Decompilation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Reverse_engineering">Reverse engineering</a></li>
+<li><a href="https://en.wikipedia.org/wiki/DOS">DOS</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: Simonw 赞扬该功能为所有人提供了免费暂时部署，对 PR 预览很有价值，但批评缺少硬性账单上限。Derektank 对如何防止滥用存疑，并指出文档中的速率限制和检查。Jsyang00 展示了一个通过临时账户部署的正常运作的蜗牛游戏。总体情绪是兴奋与实用方面的担忧并存。
+**社区讨论**: 社区对技术成就和保存努力表示赞赏，有评论指出从汇编到 C 的两步过程。对于为何在 DOSBox 可运行时仍需反编译的疑问，其他人解释了原生移植和长期维护的优势。
 
-**标签**: `#cloudflare`, `#workers`, `#ephemeral-deployments`, `#ai-agents`, `#developer-tools`
+**标签**: `#reverse-engineering`, `#dos`, `#game-preservation`, `#c`, `#assembler`
 
 ---
 
 <a id="item-5"></a>
-## [寻找屏幕无法显示的颜色](https://moultano.wordpress.com/2026/06/19/where-to-find-the-colors-your-screen-cant-show-you/) ⭐️ 8.0/10
+## [约翰·柯尼希《模糊悲伤》遭全面剽窃](https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/) ⭐️ 7.0/10
 
-这篇博文利用 CIE 1931 色度图展示了 sRGB 色彩空间之外的颜色，重点强调标准屏幕无法准确再现某些饱和橙色、红色和紫色调的实际问题，并融入了社区提供的群青与普鲁士蓝绘画实例，以及一台老式 B&O 电视呈现的强烈青色调案例。 这提升了人们对数字媒体色彩再现局限性的认识，对艺术、设计和显示技术等领域产生影响，理解这些限制有助于推动广色域显示器和更优色彩管理方案的发展。 社区讨论纠正了 CIE 1931 图并非感知均匀、且夸大了人视觉分辨力较弱的蓝绿色区域这一缺陷；sRGB 更严重的短板在于饱和暖色的缺失。评论中还提供了一个通过单独刺激视锥细胞来感知新颖色彩的网站链接。
+一家名为 Qontour 的网站逐字复制了约翰·柯尼希的《模糊悲伤》全书内容。这很可能是在用 AI 生成网站后直接粘贴文本，体现了 AI 协助的剽窃行为。 该案例凸显了数字时代版权执法的日益困难，AI 使得内容盗窃变得廉价且迅速。同时也暴露了 DMCA 删除流程的局限，通常需要法院命令，让创作者陷入昂贵的法律斗争。 侵权网站抄录了柯尼希全书的前言和全部 311 个新造词。尽管抄袭明显，但据报道 DMCA 通知在取得法院命令前无人理会，且运营网站的公司处于匿名状态。
 
-hackernews · moultano · 6月20日 03:36 · [社区讨论](https://news.ycombinator.com/item?id=48606140)
+hackernews · ridesisapis · 6月20日 18:05 · [社区讨论](https://news.ycombinator.com/item?id=48611411)
 
-**背景**: CIE 1931 色度图是表示人眼可见全部色彩范围的数学模型。sRGB 是大多数数字设备采用的标准色彩空间，仅覆盖可见色彩的一部分。色域则定义了显示器或打印机等设备能再现的色彩子集。这些概念解释了为何某些真实世界的色调在普通屏幕上始终无法呈现。
+**背景**: DMCA 提供了版权侵权的通知-删除机制，要求服务提供商在收到通知后删除侵权内容。然而，一些提供商可能要求法院命令，而该流程对匿名侵权者往往收效甚微。这一旨在平衡各方利益的法律框架，常常迫使受害者进行昂贵的诉讼。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/CIE_1931_chromaticity_diagram">CIE 1931 chromaticity diagram</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Color_gamut">Color gamut</a></li>
+<li><a href="https://en.wikipedia.org/wiki/DMCA_takedown">DMCA takedown</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act">Digital Millennium Copyright Act - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者普遍赞赏这篇文章，同时给出了关键修正：有人指出 CIE 图夸大了蓝绿色域的缺失，而 sRGB 主要瓶颈在于饱和暖色不足；有人分享了绘画中群青与普鲁士蓝的亲身经历；还有人回忆起 20 世纪 80 年代一台具备超常青色调的 B&O 电视。整体讨论通过实例和技术细节进一步丰富了原文。
+**社区讨论**: 评论者分享了 AI 协助盗窃的类似经历，例如软件被克隆并重新包装。他们对 DMCA 在没有法院命令时无效表示失望，并指出 AI 大幅降低了侵权成本。一位用户讽刺道，这催生了一种新的“模糊悲伤”：自己的作品被抄袭后反而比原作更受欢迎。
 
-**标签**: `#color-science`, `#display-technology`, `#sRGB`, `#color-perception`, `#CIE-diagram`
+**标签**: `#plagiarism`, `#copyright`, `#AI`, `#DMCA`, `#ethics`
 
 ---
 
 <a id="item-6"></a>
-## [将网站编码存储于 Favicon 中](https://www.timwehrle.de/blog/i-stored-a-website-in-a-favicon/) ⭐️ 8.0/10
+## [时间序列建模需要动力系统视角](https://www.reddit.com/r/MachineLearning/comments/1uark0u/time_series_modeling_needs_a_dynamical_systems/) ⭐️ 7.0/10
 
-一位开发者展示了一个概念验证：将整个网站的 HTML 压缩并编码存储在一个 16x16 像素的 Favicon 中，然后通过一个小型 JavaScript 加载器解码显示。 这一技巧展示了创造性的数据隐藏方式，并引发了关于浏览器指纹识别的讨论，因为 Favicon 缓存可能被滥用于跨站追踪。 该方法将 HTML 数据打包进 RGBA 像素值，通过 HTML5 Canvas 获取，但由于 Favicon 尺寸极小，有效载荷非常有限。
+一篇被 ICML 2026 接收的立场论文提出，时间序列建模应融入动力系统重构，以实现更好的长期预测和域外泛化，并建议了具体技术，如广义强制教学、在混沌系统模拟上预训练以及回归 RNN 架构。 通过聚焦底层动力学规则，该方法可能实现可靠的长期预测和适应未见过的动力学状态，这是当前时间序列模型的主要局限，对气候科学、金融和工程等领域有重要影响。 论文比较了基础模型和定制训练模型在短期和长期预测上的表现，凸显了拓扑偏移（即系统动力学发生变化）这一难题，并论证广义强制教学等训练技术比模型架构更重要，由于递归特性 RNN 优于 Transformer。
 
-hackernews · theanonymousone · 6月20日 05:33 · [社区讨论](https://news.ycombinator.com/item?id=48606619)
+reddit · r/MachineLearning · /u/DangerousFunny1371 · 6月20日 08:47
 
-**背景**: Favicon 是网站的小图标，通常为 16x16 像素。HTML5 Canvas API 允许 JavaScript 读取图像的像素数据。这种技术属于隐写术，即把数据隐藏在媒体中。此外，Favicon 缓存可用于浏览器指纹识别，网络安全研究中有相关描述。
+**背景**: 动力系统重构（DSR）旨在从观测到的时间序列数据中推断生成这些数据的底层方程或规则，超越预测以捕捉系统的吸引子和分岔。许多现实世界现象，从天气到大脑活动，都受混沌动力学支配，其特点是对初始条件敏感。强制教学是一种常见的 RNN 训练方法，在训练时将真实输出反馈为输入；广义强制教学通过防止梯度爆炸对此进行改进，使在混沌系统上稳定学习成为可能。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Browser_fingerprinting">Browser fingerprinting</a></li>
-<li><a href="https://www.geeksforgeeks.org/techtips/what-is-browser-fingerprinting/">What is Browser Fingerprinting? - GeeksforGeeks</a></li>
+<li><a href="https://arxiv.org/pdf/2406.04934">Optimal Recurrent Network Topologies for Dynamical Systems ...</a></li>
+<li><a href="https://arxiv.org/abs/2306.04406">[2306.04406] Generalized Teacher Forcing for Learning Chaotic Dynamics</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Teacher_forcing">Teacher forcing - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者提出了替代方案，如 SVG Favicon、HTML/PNG 多语言混合文件以及 PNG 注释块，可以更高效地嵌入数据。有人指出了利用 Favicon 缓存进行跨配置文件追踪的隐私风险，即使在隐身模式下也是如此。其他人分享了类似项目，反映了既热情又谨慎的态度。
-
-**标签**: `#favicon`, `#web-development`, `#compression`, `#hack`, `#fingerprinting`
+**标签**: `#time series`, `#dynamical systems`, `#machine learning`, `#forecasting`, `#ICML`
 
 ---
 
 <a id="item-7"></a>
-## [LocalLLaMA 专帖：2026 年 6 月最佳本地代理](https://www.reddit.com/r/LocalLLaMA/comments/1uaebfe/best_local_agents_jun_2026/) ⭐️ 8.0/10
+## [大规模 LLM 推理 GPU 内部机制开源手册发布](https://www.reddit.com/r/MachineLearning/comments/1uavduv/an_open_handbook_on_llm_inference_at_scale_gpu/) ⭐️ 7.0/10
 
-r/LocalLLaMA 子版块发起了一场有组织的主题讨论，辩论截至 2026 年 6 月可用的最佳本地 AI 代理，并明确定义了“代理”等术语，同时拒绝使用“harness”这一流行词以保持讨论集中。 这一社区驱动的活动反映了本地 AI 代理日益成熟，为从业者提供了一个分享真实经验的宝贵平台，有助于筛选炒作、找出在隐私、离线使用和定制化方面真正有用的工具。 帖子将“代理”定义为根据用户输入自主或半自主采取行动、可自行确定执行逻辑的软件，区别于 IFTTT 等预设流程。规则要求代理必须使用开放权重模型并在用户控制的硬件上本地运行，强烈推荐讨论开源代理软件，并允许将 Claude Code/Codex 等作为参考，因其成熟度和生态系统。
+一位开发者在 GitHub 上发布了一本持续更新的开源手册，深入探讨 LLM 推理的 GPU 执行与内存内部机制，涵盖 KV 缓存、批处理以及 vLLM、SGLang 等框架，并新增了 GPU 瓶颈与内存层次结构章节，配有 Mermaid 流程图。 该手册为理解 LLM 推理中的性能瓶颈提供了急需且易于获取的教育资源，帮助机器学习工程师优化生产系统，并将原本散落在专有文档中的知识开放给更多人。 手册仍处于早期开发阶段，使用 Mermaid 流程图增强可读性，并公开邀请生产用户提供反馈和 PR，以根据实际推理挑战完善技术准确性。
 
-reddit · r/LocalLLaMA · /u/rm-rf-rm · 6月19日 21:29
+reddit · r/MachineLearning · /u/YouFirst295 · 6月20日 12:27
 
-**背景**: 本地 AI 代理利用大语言模型在个人硬件上自主执行任务。r/LocalLLaMA 社区专注于本地运行此类模型。该专帖旨在汇集集体智慧，以应对一个基准测试不可靠的领域。‘pi’是一款可在树莓派或配合 Qwen 模型运行的编程代理，‘opencode’是一款开源编程代理，‘hermes’可能指一个 Web 界面或代理框架。被拒绝的‘harness’一词偶尔被用来描述将 LLM 转变为代理的编排层。
+**背景**: LLM 推理在 GPU 上主要受限于内存带宽；KV 缓存通过保存先前词元的键值张量来避免重复计算，但在大批次或长序列下会占用大量内存。vLLM、SGLang 和 TensorRT-LLM 等框架通过实现分页注意力和优化批处理来提高吞吐量。理解 GPU 内存层次结构和执行特性对高效部署至关重要。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/brenpoly/be-more-agent">GitHub - brenpoly/be-more-agent: Local AI Agent running on Raspberry Pi</a></li>
-<li><a href="https://itsfoss.gitlab.io/post/opencode-an-ai-coding-agent-like-claude-code-but-for-any-llm/">OpenCode An AI Coding Agent Like Claude Code But... :: IT'S FOSS</a></li>
-<li><a href="https://get-hermes.ai/">Hermes — Community Web UI</a></li>
+<li><a href="https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/">Mastering LLM Techniques: Inference Optimization | NVIDIA Technical...</a></li>
+<li><a href="https://github.com/vllm-project/vllm">GitHub - vllm-project/vllm: A high-throughput and memory-efficient inference and serving engine for LLMs · GitHub</a></li>
+<li><a href="https://www.sglang.io/">SGLang</a></li>
 
 </ul>
 </details>
 
-**标签**: `#local-llm`, `#agents`, `#megathread`, `#ai-agents`, `#community`
+**标签**: `#LLM inference`, `#GPU internals`, `#performance optimization`, `#open source`, `#machine learning engineering`
 
 ---
 
 <a id="item-8"></a>
-## [RTX 5090 上实时图像转游戏的本地 AI 模型](https://www.reddit.com/r/LocalLLaMA/comments/1ub2kmt/deep_neural_network_that_can_turn_any_image_into/) ⭐️ 8.0/10
+## [minFLUX: 简化版 FLUX 开源实现助研究](https://www.reddit.com/r/MachineLearning/comments/1ub1db3/studying_flux_in_diffusers_library_was_hard_so_i/) ⭐️ 7.0/10
 
-一个 0.5B 参数的因果 Transformer 模型从头训练，能在 RTX 5090 GPU 上实时将单张图像转化为可互动的游戏。 这表明在消费级硬件上实现实时交互式视频生成是可行的，无需云端服务器，有望催生新的游戏和创意工具。 该模型采用因果掩码和 KV 缓存实现高效的自回归帧预测，接受键盘输入但未使用无分类器引导。当前 0.5B 版本存在运动伪影和闪烁，且未应用量化。
+开发者创建了 minFLUX，一个 FLUX.1 和 FLUX.2 的最小化 PyTorch 实现，提供与官方 diffusers 库的逐行代码对应，并突出了两个版本的关键架构差异。 该项目降低了理解和实验最先进扩散模型的门槛，惠及那些觉得官方代码库过于复杂的学生、研究人员和从业者。 实现包含基于流匹配和速度均方误差的训练循环、使用欧拉 ODE 求解器的推理循环，以及 RoPE 等共享工具。它揭示了 FLUX.2 在简单扩展之外，改进了 Transformer 模块、调制、FFN、VAE 归一化和位置 ID。
 
-reddit · r/LocalLLaMA · /u/lucidml_lover · 6月20日 17:39
+reddit · r/MachineLearning · /u/Other-Eye-8152 · 6月20日 16:50
 
-**背景**: 因果 Transformer 逐步处理序列，确保预测仅依赖过去信息。KV 缓存存储已计算的键和值，避免冗余计算从而加速生成。无分类器引导是生成模型中常用的一种平衡输出质量和多样性的技术，但这里为了简化而未采用。
+**背景**: FLUX 是 Black Forest Labs 开发的最先进的文本到图像扩散模型，以高质量图像生成著称。HuggingFace 的官方 diffusers 库实现了多种扩散模型，但由于复杂的抽象而难以研究。minFLUX 旨在提炼核心架构，便于学习流匹配——一种统一扩散模型和连续标准化流的框架——以及用于 Transformer 中位置编码的旋转位置嵌入（RoPE）等组件。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.envisioning.com/vocab/causal-transformer">Causal Transformer : How AI Learns Without... | Envisioning Vocab</a></li>
-<li><a href="https://grokipedia.com/page/KV_cache">KV cache</a></li>
-<li><a href="https://arxiv.org/abs/2207.12598">[2207.12598] Classifier-Free Diffusion Guidance - arXiv.org Understand Classifier Guidance and Classifier-free ... - Medium [2502.07849] Classifier-Free Guidance: From High-Dimensional ... NeurIPS Classifier-Free Diffusion Guidance An overview of classifier-free guidance for diffusion models Classiﬁer-Free Diffusion Guidan - OpenReview Paper page - Classifier-Free Diffusion Guidance - Hugging Face</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Flux_(text-to-image_model)">Flux (text-to-image model) - Wikipedia</a></li>
+<li><a href="https://arxiv.org/html/2507.09595v1">Demystifying Flux Architecture - arXiv.org</a></li>
 
 </ul>
 </details>
 
-**标签**: `#interactive video generation`, `#transformer model`, `#real-time inference`, `#game simulation`, `#computer vision`
+**标签**: `#flux`, `#diffusion-models`, `#pytorch`, `#open-source`, `#computer-vision`
 
 ---
 
 <a id="item-9"></a>
-## [免费 15 篇系列深度剖析 LLM 内部原理（以 Gemma 4 12B 为例）](https://www.reddit.com/r/LocalLLaMA/comments/1ub4oc4/i_wrote_a_free_15part_series_on_llm_internals/) ⭐️ 8.0/10
+## [headroom 可将 LLM 输入 token 量减少 60-95%](https://github.com/chopratejas/headroom) ⭐️ 7.0/10
 
-发布了一套免费的 15 部分教育系列，全面讲解 LLM 内部原理，从分词到生产推理，所有内容都基于 Google Gemma 4 12B 模型的真实配置和张量形状。 该系列为从业者提供了深入的技术理解，帮助他们优化模型部署、诊断性能瓶颈，并在使用开源模型时做出明智决策，直接满足了业界对实用、严谨的 AI 教育的需求。 关键主题包括 BPE 分词的显存开销、注意力机制（MHA、MQA、GQA、MLA）、长上下文下的 KV 缓存数学、量化公式、CUDA 内核屋顶线分析、推测解码的权衡、MoE 路由，以及 PagedAttention 和前缀缓存等服务优化，所有内容都配有精确的显存和计算量估算。
+headroom 是一个新的开源工具（可作为库、代理或 MCP 服务器使用），能将日志、文件和 RAG 片段等 LLM 输入压缩 60-95%的 token 量，同时不降低回答质量。 显著降低 LLM 应用的 token 成本，使处理大上下文更经济，对 RAG、日志和文件摘要等场景的开发者与企业尤为有利。 压缩无需微调，提供库、代理或 MCP 服务器三种形态。摘要未公开具体压缩技术及边缘情况稳定性。
 
-reddit · r/LocalLLaMA · /u/Ok_Bug_2845 · 6月20日 19:05
+ossinsight · chopratejas · 6月20日 23:06
 
-**背景**: 理解 LLM 内部原理——如分词、注意力和显存占用——对于高效部署和微调大语言模型至关重要。Gemma 4 12B 是谷歌近期发布的开放权重模型，拥有特定的 262K 词表和 120 亿参数，使其成为实用的参考对象。该系列深入探讨了多头潜在注意力（MLA）等高级主题，这种技术通过压缩键值缓存来降低推理时的显存开销，由 DeepSeek 模型推广开来。
+**背景**: MCP（模型上下文协议）是让 AI 模型访问外部工具和数据的标准，类似通用连接器。MCP 服务器是按 MCP 规范提供工具或数据的端点。在 LLM 处理前压缩上下文可减少冗余 token，节省成本与延迟。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://machinelearningmastery.com/a-gentle-introduction-to-multi-head-latent-attention-mla/">A Gentle Introduction to Multi-Head Latent Attention (MLA)</a></li>
-<li><a href="https://sebastianraschka.com/llms-from-scratch/ch04/05_mla/">Multi-Head Latent Attention (MLA) | Sebastian Raschka, PhD</a></li>
+<li><a href="https://modelcontextprotocol.io/docs/develop/build-server">Build an MCP server - Model Context Protocol</a></li>
 
 </ul>
 </details>
 
-**标签**: `#LLM`, `#deep learning`, `#AI education`, `#Gemma`, `#open-source`
+**标签**: `#LLM`, `#token-efficiency`, `#context-compression`, `#python`, `#tool`
 
 ---
 
 <a id="item-10"></a>
-## [DOS 游戏《F-15 Strike Eagle II》逆向项目招募测试者](https://neuviemeporte.github.io/f15-se2/2026/06/20/needyou.html) ⭐️ 7.0/10
+## [DeusData 推出 MCP 服务器，将代码库索引为知识图谱](https://github.com/DeusData/codebase-memory-mcp) ⭐️ 7.0/10
 
-该逆向工程已将《F-15 Strike Eagle II》的汇编代码转换为可在 DOS 上运行的二进制等效的 C 代码，现正招募志愿者使用原游戏的 451.03 版本进行测试以发现错误，之后再转向跨平台移植。 这一保存工作超越了模拟器，通过生成原生、可移植的源码版本，可以将经典的 DOS 游戏带到现代操作系统上，提供更好的性能、模组支持和长期可访问性，确保游戏在硬件和平台淘汰后仍能存续。 该项目分两步：先将游戏完全逆向为汇编代码，再将其转换为二进制等效的编译后 C 代码。测试者需要使用特定游戏版本 451.03 以及 DOSBox 或真实 DOS 硬件。转换目标是实现完全的功能对等；一旦不再包含汇编代码，将开始 Linux 和 Windows 的移植。
+一个新的模型上下文协议 (MCP) 服务器 codebase-memory-mcp 已发布，它可以将整个代码库索引为持久化的知识图谱。该服务器声称能在毫秒级内处理平均规模的代码库，支持 158 种编程语言，并实现亚毫秒级的查询速度。 该工具通过提供快速、节省令牌的代码库查询，能够显著提升 AI 辅助编码的效率，降低使用大语言模型进行代码理解的成本和延迟。它可能推动更强大的开发者工具和 IDE 集成。 它以一个零依赖的单一静态二进制文件形式提供，并声称相比传统上下文提供方式，令牌使用量减少 99%。该服务器利用持久化知识图谱实现对大型代码库的快速语义查询。
 
-hackernews · LowLevelMahn · 6月20日 15:10 · [社区讨论](https://news.ycombinator.com/item?id=48609766)
+ossinsight · DeusData · 6月20日 23:06
 
-**背景**: 逆向经典 DOS 游戏通常需要反汇编原始的机器码，并用 C 等现代语言重写。DOS 游戏在实模式下运行并直接访问硬件，因此模拟是一种常见的保存方法。二进制等效的 C 移植将游戏逻辑重新编译成一个行为与原始版相同的可执行文件，但可以更容易地更新并在新平台上原生运行，免除模拟的开销。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Binary-code_compatibility">Binary-code compatibility - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区反响热烈且参与度高。一些用户表达了对游戏的怀旧之情，另一些人则质疑相对于 DOSBox 模拟而言解编译的实际好处。还有人对 AI 工具如何协助解编译过程感到好奇。总体基调是支持的，并对保存经典软件感到兴奋。
-
-**标签**: `#reverse-engineering`, `#dos-games`, `#software-preservation`, `#assembly`, `#retrocomputing`
-
----
-
-<a id="item-11"></a>
-## [MCP 核心优势：将认证流程隔离出代理上下文窗口](https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything) ⭐️ 7.0/10
-
-Sean Lynch 指出，模型上下文协议（MCP）相对于技能/CLI 方案的主要优势在于将认证流程隔离在 AI 代理的上下文窗口之外，甚至可能完全脱离代理框架。 这一观点将 MCP 重新定义为专用的认证网关，可能简化代理架构，并通过将敏感凭据排除在模型有限的上下文窗口之外来提高安全性。 Lynch 提出，MCP 的理想化形式可能仅仅是 API 的认证网关，这种简化本身仍会是一个重大进步。
-
-rss · Simon Willison · 6月19日 22:45
-
-**背景**: 模型上下文协议（MCP）是 Anthropic 于 2024 年推出的开放标准，用于规范 AI 模型与外部工具的连接方式。在技能/CLI 等替代方案中，认证凭据常占用上下文窗口（LLM 一次可处理的有限文本）的宝贵空间，并有泄露风险。通过隔离认证，MCP 将敏感数据排除在提示之外，并可能简化代理设计。
+**背景**: 模型上下文协议 (MCP) 是 Anthropic 于 2024 年底推出的开放标准，旨在标准化 AI 应用程序与外部工具及数据源的连接方式。MCP 允许大语言模型安全地读取文件、执行函数并与各种系统交互。codebase-memory-mcp 是一个 MCP 服务器，意味着它实现了该协议，为兼容 MCP 的 AI 客户端提供代码库智能。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol</a></li>
-<li><a href="https://modelcontextprotocol.io/">What is the Model Context Protocol (MCP)? - Model Context Protocol</a></li>
+<li><a href="https://modelcontextprotocol.io/docs/getting-started/intro">What is the Model Context Protocol (MCP)? - Model Context Protocol</a></li>
 
 </ul>
 </details>
 
-**标签**: `#model-context-protocol`, `#llms`, `#ai`, `#generative-ai`, `#skills`
+**标签**: `#MCP`, `#code-intelligence`, `#knowledge-graph`, `#developer-tools`, `#performance`
+
+---
+
+<a id="item-11"></a>
+## [UHF X11 将经典 X11 带入 Apple Vision Pro](https://www.lispm.net/apps/uhf-x11/) ⭐️ 6.0/10
+
+UHF X11 是一款将老式 X11 视窗系统移植到 VisionOS 的应用，使用户能够在 Apple Vision Pro 头戴设备上以空间计算环境运行经典 X11 程序。 该项目通过将复古 Unix 计算与现代 AR/VR 相结合，彰显了 X11 协议的持久生命力，吸引了爱好者并展示了两大平台的多样性。 UHF X11 在 VisionOS 上作为 X 服务器运行，支持标准 X11 客户端并可能通过 GLX 实现 OpenGL 渲染，但兼容性可能参差不齐；它似乎使用 TWM 窗口管理器，且存在区域可用性限制。
+
+hackernews · zdw · 6月20日 17:04 · [社区讨论](https://news.ycombinator.com/item?id=48610853)
+
+**背景**: X 视窗系统（X11）是一种有着数十年历史的视窗系统，用于类 Unix 操作系统，基于允许网络化显示的客户端-服务器模型。VisionOS 是苹果为 Vision Pro 混合现实头显开发的空间操作系统，让用户能在物理空间中放置 2D 和 3D 内容。UHF X11 通过在 VisionOS 上运行原生 X 服务器，将两者连接起来，使老式 X 应用程序以空间窗口形式出现。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/X11_Window_System">X11 Window System</a></li>
+<li><a href="https://en.wikipedia.org/wiki/VisionOS">VisionOS</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 评论者表现出愉悦与怀旧之情，有人指出了“3D 中的 2D 中的 3D”和 GLX 的怪异之处；其他人则评论截图缺少 xeyes，推测 X11 可能比 visionOS 更长寿，并指出区域商店不可用。还有人询问用于自定义编程的 Linux AR 头显。
+
+**标签**: `#x11`, `#visionos`, `#apple-vision-pro`, `#retro-computing`, `#unix`
 
 ---
 
 <a id="item-12"></a>
-## [GLM 5.2 高努力级别：仅用一半推理 tokens 达 98%智能](https://www.reddit.com/r/LocalLLaMA/comments/1uar4e2/glm_52_98_of_max_level_intelligence_with_less/) ⭐️ 7.0/10
+## [CSSQuake：用 CSS 和 JS 在浏览器中重现《雷神之锤》](https://cssquake.com/) ⭐️ 6.0/10
 
-一位本地用户发现，将 GLM 5.2 的努力级别从默认的'max'调为'high'，可将推理 tokens 使用量从 36.7k 降至一半以下，同时编码任务表现仍能达到约 98%的最高智能水平。 这一优化使得 GLM 5.2 在资源有限的本地硬件上更加实用，能够在不显著牺牲质量的前提下，降低延迟和内存占用。 测试在一台旧 Xeon 配置上使用 Q4 量化版 GLM 5.2 进行。高努力级别下，模型仅用 6k tokens 回答了一道数学题，而 max 级别下则需时极长。答案质量几乎一致，仅表述有微小差异。但结果基于单次测试，可能存在波动。
+CSSQuake 是一个基于浏览器的《雷神之锤》引擎重现，通过 PolyCSS 引擎将 3D 世界渲染成可审查的 HTML 与 CSS，未使用 WebGL 或 Canvas。 该演示突破了 CSS 的极限，将经典 3D 游戏变成了 DOM 元素，尽管性能严重受限，但可能启发非传统的网页图形实验。 它依赖 JavaScript 处理游戏逻辑及原版《雷神之锤》数据到 JSON 的预处理；性能明显不如 1996 年的原版硬件，即使在 M1 Mac 上也会卡顿。
 
-reddit · r/LocalLLaMA · /u/perelmanych · 6月20日 08:19
+hackernews · msalsas · 6月20日 10:49 · [社区讨论](https://news.ycombinator.com/item?id=48608223)
 
-**背景**: GLM-5.2 是来自 Z.ai 的开源大语言模型，具备 1M-token 上下文窗口。它使用推理 tokens（内部思维链步骤），其数量随努力级别变化：高努力级别能提升推理能力，但消耗更多计算资源。Q4 等量化技术通过降低模型精度以减少内存占用和加速推理，通常会带来轻微的精度损失。
+**背景**: 《雷神之锤》（Quake，1996）是里程碑式的第一人称射击游戏，采用 BSP 引擎进行实时 3D 渲染。现代浏览器支持 CSS 3D 变换，可在 3D 坐标系中定位和动画 DOM 元素。PolyCSS 是一个自定义引擎，将 3D 场景数据转换为 CSS 变换的 HTML 元素，使游戏世界可审查。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/GLM-5.2">GLM-5.2</a></li>
-<li><a href="https://willitrunai.com/blog/quantization-q4-q8-fp16-explained">Quantization Explained: Q4 vs Q8 vs FP16 — What You Actually ...</a></li>
+<li><a href="https://cssquake.com/">cssQuake - Powered by PolyCSS</a></li>
+<li><a href="https://github.com/LayoutitStudio/cssQuake">GitHub - LayoutitStudio/cssQuake: A port of Quake (1996), powered by the PolyCSS 3D engine. · GitHub</a></li>
+<li><a href="https://nielsleenheer.com/articles/2026/css-is-doomed-rendering-doom-in-3d-with-css/">CSS is DOOMed - Rendering DOOM in 3D with CSS | Hello my name ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#LLM efficiency`, `#GLM-5.2`, `#reasoning tokens`, `#local LLMs`, `#inference optimization`
+**社区讨论**: 评论者赞赏技术成就，但强调严重的性能问题，有人指出在 M1 Mac 上的运行速度不如老硬件。还有人发现游戏行为差异，并指出 JavaScript 的必要性，质疑「纯 CSS」的说法。
+
+**标签**: `#css`, `#quake`, `#javascript`, `#browser-game`, `#technical-demo`
 
 ---
 
 <a id="item-13"></a>
-## [MSI RTX 5090 AI 负载下电源线熔毁，功耗 500W](https://www.reddit.com/r/LocalLLaMA/comments/1ualh0e/rtx_5090_msi_only_inference_or_training_at/) ⭐️ 7.0/10
+## [Show HN：StartupWiki——Crunchbase 的免费替代品](https://startupwiki.tech/) ⭐️ 6.0/10
 
-Reddit 用户报告称，其每日用于扩散模型训练和 LLM 推理的 MSI RTX 5090（功耗 475–500W）电源线接口意外熔化，此前无任何错误提示，纯属偶然发现。 该亲身经历凸显了 12VHPWR/12V-2x6 接口在 AI 长时间高负载下的持续安全隐患，提醒用户注意线缆布设，并推动厂商改进设计以防范火灾。 该卡为 MSI RTX 5090，工作功耗 475–500W，用于扩散训练和 LLM 推理；用户备有非 MSI 原装黄色线缆，显卡仍可工作。熔化的接头疑为 12VHPWR 或 12V-2x6，若未完全插紧或弯折易过热。
+开发者推出了 StartupWiki，一个无需登录的免费初创公司数据库，旨在替代 Crunchbase 等付费服务。目前提供公司资料、搜索、分类和开发中的 API。 它回应了对开放获取初创公司数据日益增长的需求，可能降低当前依赖昂贵订阅的研究人员、创始人和投资者的门槛。但数据缺失严重限制了其当前实用性。 早期反馈显示数据严重缺失，许多 YC 支持的或知名初创公司搜索无结果。验证徽章目前未提供来源证明，降低了可信度。
 
-reddit · r/LocalLLaMA · /u/panchovix · 6月20日 03:03
+hackernews · shpran · 6月20日 15:59 · [社区讨论](https://news.ycombinator.com/item?id=48610224)
 
-**背景**: 12VHPWR 接口随 NVIDIA RTX 40 系显卡推出，最高支持 600W 供电；升级版 12V-2x6 通过缩短侦测针脚确保完全插入，但熔毁事故依旧发生，尤其在 AI 训练等高功率持续负载下。弯折接口附近的线缆会导致接触不良和过热。
+**背景**: 像 Crunchbase 这样的初创公司数据库是商业平台，提供公司、融资和创始人的信息，通常需要付费计划才能完整访问。像维基百科那样免费、社区驱动的替代方案一直备受期待，但在数据广度和准确性上面临挑战。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/12VHPWR">12VHPWR</a></li>
+**社区讨论**: 社区反馈批评居多，指出数据库中缺失许多已知初创公司。建议包括从投资者组合页面抓取数据，同时对不透明的验证系统表示不信任。
 
-</ul>
-</details>
-
-**标签**: `#RTX 5090`, `#power cable`, `#melting`, `#AI hardware`, `#safety warning`
+**标签**: `#startups`, `#open-source`, `#databases`, `#webapp`, `#community-feedback`
 
 ---
 
 <a id="item-14"></a>
-## [EXL3 量化现已在苹果芯片 Mac 上可用](https://www.reddit.com/r/LocalLLaMA/comments/1ub0vqa/you_can_now_convert_exl3_quants_on_apple_silicon/) ⭐️ 7.0/10
+## [AMD 将在 7 月 BIOS 更新中恢复锐龙 9000 的 TSME 功能](https://www.tomshardware.com/pc-components/cpus/amd-will-reinstate-memory-encryption-on-ryzen-9000-cpus-through-a-bios-update-in-july-tsme-is-coming-back-after-valuable-community-feedback) ⭐️ 6.0/10
 
-此前仅限 CUDA GPU 使用的 EXL3 量化格式，现在可在苹果芯片 Mac 上进行模型转换和推理。工具如 PonyExl3（Apache 2.0 许可证）实现了这一点，在 MiniCPM5 和 Qwen3.6-27B 上的测试显示质量几乎与 RTX 转换相当。 这使高保真模型压缩变得更加普及，让拥有更实惠苹果芯片硬件（如 64GB+统一内存）的用户也能以接近 CUDA 的质量运行大模型。它极大地扩展了本地大语言模型生态，不再局限于昂贵的专用 GPU。 关键细节：EXL3 格式来自 ExLlamaV3，相比 MLX 量化，每权重可节省约半个比特。Kullback–Leibler 散度（KLD）测量显示与 RTX 生成的量化几乎持平。该工具开源，采用 Apache 2.0 许可证，位于 github.com/beamivalice/PonyExl3。
+AMD 宣布将于 2025 年 7 月通过 BIOS 更新，在锐龙 9000 非 PRO 桌面处理器上重新启用透明安全内存加密（TSME），回应用户对其移除的批评。 恢复 TSME 表明 AMD 重视用户反馈，并保留了基于硬件的安全层，可防范物理攻击，这对注重隐私的消费者日益重要。 TSME 利用 CPU 内置的 AES 引擎，以启动时生成的密钥自动加密所有 DRAM 内容，需要 BIOS 支持；该功能在锐龙 9000 上被悄然移除，但将通过 AGESA 固件更新回归。
 
-reddit · r/LocalLLaMA · /u/Beamsters · 6月20日 16:29
+hackernews · roboror · 6月20日 19:19 · [社区讨论](https://news.ycombinator.com/item?id=48612098)
 
-**背景**: EXL3 是 turboderp 在 ExLlamaV3 中开发的高质量量化格式，能在减少模型大小的同时最大限度保持质量。MLX 量化是苹果的替代方案，但 EXL3 压缩效率更高。苹果芯片 Mac 采用统一内存架构，使得在消费级硬件上推理大模型成为可能。此前，此类量化需要 CUDA 兼容 GPU，价格昂贵且专业性强。
+**背景**: TSME 是 AMD 基于硬件的内存加密技术，2017 年随锐龙 PRO 推出，可透明加密系统内存，防范冷启动攻击和物理篡改。2025 年初，AMD 从消费级锐龙 9000 中移除了该功能，引发社区不满，现计划通过 7 月 BIOS 更新恢复。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/turboderp-org/exllamav3">GitHub - turboderp-org/exllamav3: An optimized quantization and inference library for running LLMs locally on modern consumer-class GPUs · GitHub</a></li>
-<li><a href="https://ml-explore.github.io/mlx/build/html/python/_autosummary/mlx.core.quantize.html">mlx .core. quantize — MLX 0.28.0 documentation</a></li>
+<li><a href="https://videocardz.com/newz/amd-to-bring-back-tsme-memory-encryption-on-ryzen-9000-non-pro-cpus-after-backlash">AMD to bring back "TSME" memory encryption on Ryzen 9000 non-PRO CPUs after backlash - VideoCardz.com</a></li>
+<li><a href="https://www.techpowerup.com/350142/amd-to-restore-tsme-memory-encryption-on-consumer-ryzen-processors-after-backlash">AMD to Restore TSME (Memory Encryption) on Consumer Ryzen Processors After Backlash | TechPowerUp</a></li>
+<li><a href="https://www.guru3d.com/story/amd-reportedly-removes-tsme-memory-encryption-support-from-ryzen-cpus/">AMD Reportedly Removes TSME Memory Encryption Support from Ryzen CPUs</a></li>
 
 </ul>
 </details>
 
-**标签**: `#EXL3`, `#quantization`, `#Apple-Silicon`, `#local-LLM`, `#machine-learning`
+**社区讨论**: 社区反应不一：一些人认为即使在台式机上 TSME 对物理安全也至关重要，另一些人则因使用率低而质疑其实用性。也有人猜测移除可能属意外或与 AGESA 内存稳定性调整有关。
+
+**标签**: `#AMD`, `#Ryzen`, `#security`, `#TSME`, `#BIOS update`
 
 ---
 
 <a id="item-15"></a>
-## [Headroom 工具将 LLM 令牌用量降低 60-95%](https://github.com/chopratejas/headroom) ⭐️ 7.0/10
+## [英伟达推出机器人视频生成技术：速度提升 7 倍，成本仅 1/2000](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898544&idx=2&sn=cfe10353a03883fd093bb4e654b1788d) ⭐️ 6.0/10
 
-Headroom 是一款新近流行的 Python 工具，能在信息到达大语言模型之前压缩工具输出、日志、文件和 RAG 分块等输入，将令牌用量降低 60-95%而不影响回答质量。 令牌用量直接影响大语言模型应用的成本和延迟。Headroom 通过压缩输入可大幅降低运营开销并支持处理更长的上下文，惠及依赖外部工具或检索增强生成的 AI 工程师。 Headroom 以库、代理和 MCP 服务器三种形式提供，便于集成到不同架构中。它很可能采用语义压缩技术，但对结构化数据的压缩质量以及可能的信息损失尚未有详细说明。
+英伟达宣布一项新的机器人研究工作，其视频生成管线速度比谷歌 Veo 3 快 7 倍，成本仅为其 1/2000，通过系统级重构长视频剪辑管线实现。 这一突破可大幅降低机器人仿真和训练所需的计算资源，使机器人学习系统更具可扩展性和经济性，同时加剧 AI 视频生成领域的竞争。 该管线从“工件层面”重构以优化长视频编辑，但目前仅是一则简短预告，无技术论文或除速度和成本声明外的基准测试。
 
-ossinsight · chopratejas · 6月20日 21:17
+rss · 量子位 · 6月20日 09:01
 
-**背景**: 检索增强生成（RAG）通过从分块文档中提供外部知识来增强大语言模型，但大分块会消耗大量令牌。模型上下文协议（MCP）则为应用向 LLM 提供上下文的方式制定了标准。像 Headroom 这样的令牌压缩工具在提示词送入模型前减少冗余文本，从而解决处理大提示词的高成本问题。
+**背景**: Veo 3 是谷歌 DeepMind 的视频生成模型，具备高级创意控制能力，用于高质量视频合成。英伟达一直利用其 GPU 优势拓展机器人仿真领域。此次发布表明英伟达将高效视频生成应用于机器人，可能用于生成训练数据或模拟复杂环境。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol - Wikipedia</a></li>
-<li><a href="https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/rag/rag-chunking-phase">Develop a RAG Solution - Chunking Phase - Azure Architecture ...</a></li>
-<li><a href="https://github.com/base76-research-lab/token-compressor">base76-research-lab/token-compressor - GitHub</a></li>
+<li><a href="https://deepmind.google/models/veo/">Veo 3.1 — Google DeepMind</a></li>
 
 </ul>
 </details>
 
-**标签**: `#LLM`, `#token-compression`, `#Python`, `#developer-tools`, `#AI-engineering`
+**标签**: `#Nvidia`, `#robotics`, `#video generation`, `#AI`
 
 ---
 
 <a id="item-16"></a>
-## [Codebase Memory MCP 服务器：支持 158 种语言的亚毫秒级查询](https://github.com/DeusData/codebase-memory-mcp) ⭐️ 7.0/10
+## [无需数学基础的构建 LLM 工作坊视频发布至 YouTube](https://www.reddit.com/r/MachineLearning/comments/1uazlnd/hi_reddit_i_posted_my_build_your_own_llm_workshop/) ⭐️ 6.0/10
 
-DeusData 发布了 codebase-memory-mcp，这是一个 MCP 服务器，能将代码仓库索引为持久化知识图谱，支持 158 种编程语言的亚毫秒级查询和 99%的 token 用量缩减。它以单个静态 C 语言二进制文件分发，无任何依赖。 该工具通过最小化 token 用量，同时保持深入的代码理解，能大幅降低 LLM 驱动的代码助手的成本和延迟。它还能在大型代码库上实现即时、低延迟查询，惠及处理复杂项目的开发者。 索引每个仓库仅需毫秒；查询响应时间低于一毫秒。99%的 token 缩减表明它用简洁的知识图谱检索替代了冗长的代码上下文。它支持 158 种语言，用 C 语言编写，无外部依赖。
+一个从零构建大型语言模型的综合工作坊视频发布到 YouTube，涵盖从机器学习基础到 transformer 架构的内容，使没有数学或机器学习背景的学习者也能参与。 该工作坊通过使用代码和 Excel 示例而非复杂数学，降低理解现代 LLM 的门槛，可能吸引更多对 AI 开发感兴趣的受众。 工作坊涵盖广泛主题，包括激活函数（GELU、SwiGLU）、归一化（RMSNorm）、注意力机制（MHA、GQA）和训练技巧，并提供幻灯片、实践 Excel 练习和代码示例。假设没有 ML 先验知识，但不涉及扩展和部署。
 
-ossinsight · DeusData · 6月20日 21:17
+reddit · r/MachineLearning · /u/JustinAngel · 6月20日 15:36
 
-**背景**: MCP（模型上下文协议）是一种将工具和数据源连接到大型语言模型的标准，使其能与外部系统交互。知识图谱是一种数据结构，将信息存储为相互连接的实体和关系，从而支持高效的语义查询。Token 减少是指减少 LLM 的输入 token 数量，以降低运营成本并在有限的上下文窗口中容纳更多信息。
+**背景**: Transformer 架构是现代 LLM（如 GPT）的基础。GELU 是变压器中常用的平滑激活函数。SwiGLU 是一种门控变体，可提升性能。RMSNorm 是一种归一化技术，比 LayerNorm 更高效地稳定训练。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Knowledge_graph">Knowledge graph</a></li>
-<li><a href="https://mcpservers.org/">Awesome MCP Servers</a></li>
+<li><a href="https://lzwjava.github.io/gelu-overview-en">GELU Activation Function Overview | Zhiwei Li</a></li>
+<li><a href="https://abdulkaderhelwan.medium.com/swiglu-activation-function-77627e0b2b52">SwiGLU Activation Function . SwiGLU (Swish-Gated Linear... | Medium</a></li>
+<li><a href="https://arxiv.org/abs/1910.07467">[1910.07467] Root Mean Square Layer Normalization - arXiv.org</a></li>
 
 </ul>
 </details>
 
-**标签**: `#code-intelligence`, `#mcp-server`, `#knowledge-graph`, `#performance`, `#developer-tools`
+**标签**: `#machine learning`, `#large language models`, `#tutorial`, `#workshop`, `#deep learning`
 
 ---
 
 <a id="item-17"></a>
-## [Windows 11 媒体播放器内存占用增 3.5 倍，HEVC 解码器收费](https://www.extremetech.com/computing/windows-11s-new-media-player-uses-35x-more-ram-charges-for-popular-video) ⭐️ 6.0/10
+## [无顶会论文的机器学习博士能否毕业？](https://www.reddit.com/r/MachineLearning/comments/1uazlhg/would_you_let_an_ml_phd_student_graduate_without/) ⭐️ 6.0/10
 
-基于 HTML/JS 构建的 Windows 11 全新媒体播放器，内存占用提升至原来的 3.5 倍。微软还对 HEVC 视频编解码器扩展收费，声称源于 HEVC 专利池许可费用。 资源膨胀和新增费用凸显了核心应用转向 Web 框架的广泛趋势，影响性能和用户成本。这引发了人们对托管代码效率及编解码器许可给消费者带来负担的担忧。 新版播放器采用 Windows App SDK 和 HTML/JS 开发，导致内存占用比原生 C++版本高出 3.5 倍。HEVC 编解码器在微软商店售价 0.99 美元，但可通过设备制造商免费获取。
+一位机器学习导师在 Reddit 上询问，一名有扎实论文工作但无顶会论文的学生是否应该毕业，重新引发了关于发表标准的讨论。 这场讨论凸显了顶级会议发表压力与研究贡献评估之间的紧张关系，影响着博士生的职业道路和机器学习研究文化。 该学生已就读四年，形成了连贯的论文方向，在 A 级会议上发表了 3 篇一作论文，但未在 NeurIPS、ICML、ICLR 等顶级会议发表。
 
-hackernews · tcp_handshaker · 6月20日 14:08 · [社区讨论](https://news.ycombinator.com/item?id=48609343)
+reddit · r/MachineLearning · /u/Hope999991 · 6月20日 15:36
 
-**背景**: HEVC（H.265）是一种涉及复杂专利池的视频编解码标准，许可费常转嫁给软件商。Windows 11 用基于 Windows App SDK 和 Web 前端技术（HTML/JS）的现代化应用取代了旧版 C++媒体播放器，遵循了为更易开发而使用托管代码的趋势，但付出了资源代价。
+**背景**: 在机器学习学术界，毕业时没有 A*顶会论文可能引发争议。NeurIPS、ICML 等顶级会议常被用作研究质量的代名词，尽管 A 级会议的工作也受到尊重。这场辩论反映出对过分强调会议等级的担忧。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Media_Player_(Windows_11)">Windows Media Player (2022) - Wikipedia</a></li>
-<li><a href="https://mspoweruser.com/microsoft-joins-the-hevc-codec-licensing-pool/">Microsoft joins the HEVC codec licensing pool</a></li>
-<li><a href="https://www.videoproc.com/resource/hevc-codec-windows-11.htm">HEVC Codec for Windows 11: Free Download & Install (2026)</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者将内存膨胀归咎于从原生 C++转向托管、基于 Web 的前端代码（HTML/JS）。许可成本被视为 HEVC 收费的原因。整体情绪对性能妥协持批评态度，但承认许可和开发便利性的论点。
-
-**标签**: `#windows`, `#media-player`, `#performance`, `#codecs`, `#software-engineering`
+**标签**: `#machine learning`, `#academia`, `#PhD`, `#publication standards`, `#discussion`
 
 ---
 
 <a id="item-18"></a>
-## [英伟达宣布比 Veo 3 快 7 倍、成本仅 1/2000 的视频技术](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898544&idx=2&sn=cfe10353a03883fd093bb4e654b1788d) ⭐️ 6.0/10
+## [DVD-JEPA：一个最小化且可复现的 JEPA 世界模型](https://www.reddit.com/r/MachineLearning/comments/1uatlzx/dvdjepa_an_opensource_fullyreproducible_jepa/) ⭐️ 6.0/10
 
-英伟达宣布了一项用于长视频剪辑或机器人的新技术，声称其速度是谷歌 Veo 3 的 7 倍，成本仅为 1/2000。该公司还开放了 3 个不限边界的岗位，包括实习机会。 这一进展可能大幅降低 AI 视频生成或机器人模拟的成本与时间，使高质量内容创作更加普及。它将使英伟达成为谷歌 DeepMind 的强大竞争者，可能颠覆 AI 视频市场。 该技术据称从工件层面重构了长视频剪辑管线，但具体技术细节未公开。速度和成本的说法尚未经独立验证。
+一个开源的 JEPA 世界模型实现，利用弹跳 DVD 标志学习捕获位置的潜在表示，无需标签或解码器即可实现未来帧预测和异常检测。 它提供了一个完全可复现的最小化 JEPA 示例，使该架构易于理解和实验，尽管其范围有限。 模型使用 32 维潜在空间，线性探测以 0.73 像素精度恢复位置，可梦想未来帧约 20 步，异常检测信号超过基线 88 倍。
 
-rss · 量子位 · 6月20日 09:01
+reddit · r/MachineLearning · /u/NielsRogge · 6月20日 10:52
 
-**背景**: Veo 3 是谷歌 DeepMind 开发的一种文本转视频 AI 模型，于 2025 年 5 月发布，以生成逼真的带音频视频而闻名。英伟达以 GPU 闻名，但一直在向 AI 和机器人领域扩展，提供训练和模拟平台。
+**背景**: JEPA（联合嵌入预测架构）是一种自监督学习方法，通过预测抽象表示而非原始像素来学习世界模型。AI 中的世界模型构建环境的内部表示以预测未来状态。线性探测通过冻结特征训练简单线性模型来评估所学表示。弹跳 DVD 标志作为一个简单且确定性的环境，用于测试世界模型。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Veo_3">Veo 3</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Veo_(text-to-video_model)">Veo (text-to-video model) - Wikipedia</a></li>
+<li><a href="https://github.com/AI-in-Transportation-Lab/awesome-jepa">Awesome JEPA - Joint Embedding Predictive Architecture</a></li>
+<li><a href="https://en.wikipedia.org/wiki/World_model_(artificial_intelligence)">World model (artificial intelligence) - Wikipedia</a></li>
+<li><a href="https://sidn.baulab.info/probing/">Probing</a></li>
 
 </ul>
 </details>
 
-**标签**: `#NVIDIA`, `#Robotics`, `#Video Generation`, `#AI`, `#Technology`
+**标签**: `#JEPA`, `#world-model`, `#representation-learning`, `#open-source`, `#reproducibility`
 
 ---
 
 <a id="item-19"></a>
-## [GLM 5.2 本地推理速度社区基准测试](https://www.reddit.com/r/LocalLLaMA/comments/1ub69xu/glm_52_what_speeds_are_we_getting_locally/) ⭐️ 6.0/10
+## [TSAuditor：用于审计时间序列数据质量的开源工具](https://www.reddit.com/r/MachineLearning/comments/1ub15wf/tsauditor_a_timeseries_auditing_framework_p/) ⭐️ 6.0/10
 
-一位 Reddit 用户请求社区分享在本地运行 GLM 5.2 模型的基准测试数据，并公布了自己的配置：使用 llama.cpp 搭配 6 块 RTX 3090、128 GB DDR5 内存和 i7-13700K 处理器，采用 unsloth UD-IQ2_M 量化，90K 上下文及 Q8_0 KV 缓存，达到 7.8 令牌/秒的生成速度和约 40 令牌/秒的提示处理速度。 这种众包数据有助于社区了解大型 GLM 5.2 模型在不同硬件上的实际性能，指导用户在进行顶级开源模型的本地部署时选择合适的硬件和量化策略。 该模型使用 2 比特动态量化（UD-IQ2_M，239 GB）和 8 比特 KV 缓存（Q8_0），以便在 6 块 GPU 上容纳 90K 上下文，但速度一般。发帖者欢迎对高吞吐配置提出后续问题。
+一款名为 TSAuditor 的新型开源 Python 工具已在 PyPI 上发布，旨在帮助数据科学家捕捉常见的时间序列陷阱，如时间顺序中断、数据泄露和缺失数据模式，这些问题通常被标准分析工具忽略。 标准数据分析工具可能忽略时间序列特定问题，导致虚假信心和模型失败。TSAuditor 通过针对性检查填补了这一空白，有望节省时间并防止代价高昂的建模错误。 该工具不仅能检测问题，还能提供证据并建议修复方法。它无需定义领域即可使用，并附带一个 Jupyter 笔记本，用于与传统分析工具进行并排比较。
 
-reddit · r/LocalLLaMA · /u/neverbyte · 6月20日 20:11
+reddit · r/MachineLearning · /u/severecaseofsarcarsm · 6月20日 16:41
 
-**背景**: GLM 5.2 是 Z.ai 最新的开源大语言模型，具备 100 万令牌上下文窗口，针对长时间编码任务进行了优化。llama.cpp 是一个广泛使用的 C++ 推理引擎，用于在各种硬件上本地运行 LLM。Unsloth 提供了 UD-IQ2_M 等优化的量化格式来减小模型体积。Q8_0 指的是对键值缓存进行 8 比特量化，是一种几乎无损耗且节省内存的技术。
+**背景**: 时间序列数据是按时间顺序排列的序列；常见陷阱包括数据泄露（使用未来信息训练模型）、时间顺序中断（时间顺序的不连续性）以及聚合统计数据可能掩盖的缺失数据模式。探索性数据分析（EDA）对于发现这些问题至关重要，但现有的分析工具通常缺乏针对时间序列的检查，这使得自动化审计变得有价值。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://docs.z.ai/guides/llm/glm-5.2">GLM-5.2 - Overview - Z.AI DEVELOPER DOCUMENT</a></li>
-<li><a href="https://unsloth.ai/docs/models/glm-5.2">GLM-5.2 - How to Run Locally | Unsloth Documentation</a></li>
-<li><a href="https://www.techplained.com/kv-cache-quantization">KV Cache Quantization: Q8 vs FP16 (and Q4 Pitfalls)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Leakage_(machine_learning)">Leakage ( machine learning ) - Wikipedia</a></li>
+<li><a href="https://medium.com/@lakshmiteja.ip/data-leakage-in-machine-learning-a1294fd7a8f8">Data Leakage in Machine Learning . Data is the most vital... | Medium</a></li>
 
 </ul>
 </details>
 
-**标签**: `#GLM-5.2`, `#local-llm`, `#benchmarking`, `#inference-speed`, `#hardware-specs`
+**标签**: `#time-series`, `#data-auditing`, `#machine-learning`, `#data-quality`, `#validation`
 
 ---
 
 <a id="item-20"></a>
-## [自然语言控制多智能体足球战术](https://www.reddit.com/r/LocalLLaMA/comments/1uawkdg/research_project_injecting_naturallanguage/) ⭐️ 6.0/10
+## [开发者利用时间对齐特征构建全球 PM2.5 预测模型](https://www.reddit.com/r/MachineLearning/comments/1uar4vc/built_a_global_aq_pm25_forecaster_ml_model_p/) ⭐️ 6.0/10
 
-该项目研究高层自然语言战术指令（如“积极压迫”）能否持续影响足球模拟中多个自主 AI 智能体的行为，而非依赖直接的低级控制。 这代表了向直观的人机协作转变，人类沟通意图，AI 智能体处理动态执行，可能变革教练、机器人技术及任何需要多智能体协调的领域。 该项目以足球为测试平台，强调长时间跨度上的持续影响和团队级协调；尚处早期阶段，未展示具体结果，且重点在于意图而非语言理解。
+一位开发者分享了一个端到端的流程，通过使用与预测期限对齐的自回归特征和 3 天滚动波动矩阵，改善了高波动地区 PM2.5 的预测效果，将全局 MASE 降至 1.0 以下，并在 30 天预测周期达到了 57%的准确率。 该项目解决了时间序列预测中一个常见问题：在混乱环境下模型被朴素基线超越。它表明特征工程可以在不改变底层模型的情况下显著提升性能，展示了环境监测的实用技术，可能有助于空气质量管理。 模型采用无状态梯度提升回归器（scikit-learn GBR），但计划迁移到 XGBoost 或 LightGBM 以更好地处理稀疏特征。预测期限对齐架构将 h=1、7、14、30 天的预测解耦，防止递归误差累积。波动矩阵基于最近 3 天计算，无数据泄露。流程使用 OpenAQ 和 NASA 数据，后端为 FastAPI，前端为 Next.js。
 
-reddit · r/LocalLLaMA · /u/Working_Original9624 · 6月20日 13:24
+reddit · r/MachineLearning · /u/Divyanshailani · 6月20日 08:20
 
-**背景**: 多智能体系统涉及多个 AI 智能体在共享环境中交互。谷歌 DeepMind 的 TacticAI 等近期工作辅助足球战术预测，但不提供实时自然语言控制。该项目旨在桥接高层人类意图和底层智能体动作，实现教练式界面。
+**背景**: PM2.5 指细颗粒物，对健康有害。时间序列预测在高波动地区常出现问题，简单方法如沿用上一个值可能优于机器学习模型。MASE（平均绝对标度误差）将预测误差与朴素基线比较；值大于 1 表示差于朴素方法。梯度提升是一种集成技术，串行构建决策树，常用于回归任务。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://deepmind.google/blog/tacticai-ai-assistant-for-football-tactics/">TacticAI: an AI assistant for football tactics - Google DeepMind</a></li>
-<li><a href="https://www.nature.com/articles/s41467-024-45965-x">TacticAI: an AI assistant for football tactics - Nature</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mean_absolute_scaled_error_(MASE)">Mean absolute scaled error (MASE)</a></li>
 
 </ul>
 </details>
 
-**标签**: `#multi-agent systems`, `#natural language interfaces`, `#human-AI interaction`, `#reinforcement learning`, `#sports AI`
-
----
-
-<a id="item-21"></a>
-## [Llama.cpp 中 Qwen 3.6 27B 双 GPU 优化配置](https://www.reddit.com/r/LocalLLaMA/comments/1uarvk4/best_settings_for_48gb_vram_qwen_36_27b/) ⭐️ 6.0/10
-
-一位 Reddit 用户分享了使用 llama.cpp 在 RTX 4090 和 RTX 3090 双 GPU 上运行 Qwen 3.6 27B Q8_0 模型的详细配置，实现了 75-100 tokens/s 的生成速度和 1500 tokens/s 的提示处理速度，并支持 250k 上下文窗口和 MTP 推测解码。 该配置展示了在消费级硬件上高效运行 27B 大模型并实现长上下文和视觉能力的可行方案，使得高级本地 LLM 功能更易获取，同时体现了张量分割和推测解码技术的实际效用。 该配置使用了张量分割、250k 上下文、MTP（最大草稿 4）、并行请求、统一 KV 缓存和 mmproj-F16 视觉模型。生成速度达 75-100 tokens/s，但需要 48GB 总显存，且在不同 GPU 组合下可能需要调整参数。
-
-reddit · r/LocalLLaMA · /u/viperx7 · 6月20日 09:07
-
-**背景**: llama.cpp 是一个广泛使用的本地 LLM 推理框架，支持 GGUF 量化、GPU 卸载和推测解码。Q8_0 是一种 8 位对称量化格式，精度损失小。MTP（多令牌预测）是一种自推测解码技术，通过辅助头预测多个未来令牌来提高吞吐量。张量分割将模型层分布到多个 GPU 上，以突破单卡显存限制。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://docs.vllm.ai/en/latest/features/speculative_decoding/mtp/">MTP (Multi-Token Prediction) - vLLM</a></li>
-<li><a href="https://medium.com/@paul.ilvez/demystifying-llm-quantization-suffixes-what-q4-k-m-q8-0-and-q6-k-really-mean-0ec2770f17d3">Demystifying LLM Quantization Suffixes: What Q4_K_M, Q8_0 ...</a></li>
-<li><a href="https://deepwiki.com/ggml-org/llama.cpp/8.4-multi-gpu-and-distributed-inference">Multi-GPU and Distributed Inference | ggml-org/llama.cpp ...</a></li>
-
-</ul>
-</details>
-
-**标签**: `#local-llm`, `#qwen`, `#gpu-config`, `#speculative-decoding`, `#llama-cpp`
-
----
-
-<a id="item-22"></a>
-## [开源棋盘项目：每个格子都是 AI 智能体](https://www.reddit.com/r/LocalLLaMA/comments/1ub3e2x/board_where_every_tile_is_an_agent/) ⭐️ 6.0/10
-
-一位开发者发布了一个开源项目，数字棋盘上的每一块瓦片都是一个自我维护的 AI 智能体，运行需要安装 Claude Code 或 OpenAI Codex 等编程智能体。 这一概念为多智能体系统实验提供了新颖的视觉框架，可能使其对本地大语言模型爱好者来说更直观、更易用。 该项目仍处于实验阶段，详细技术说明有限，且明确要求安装编程智能体才能运行。
-
-reddit · r/LocalLLaMA · /u/1amrocket · 6月20日 18:13
-
-**背景**: 编程智能体是一种能自主执行软件开发任务（如编辑代码或运行终端命令）的 AI 工具。Claude Code（由 Anthropic 开发）和 OpenAI Codex 是此类工具的示例，可与开发环境集成。多智能体系统包含多个相互交互的 AI 智能体，常用于模拟复杂行为。基于棋盘的交互形式借鉴元胞自动机的思路，为观察这些智能体的协作提供了直观方式。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Claude_Code">Claude Code</a></li>
-<li><a href="https://openai.com/index/openai-codex/">OpenAI Codex</a></li>
-<li><a href="https://grokipedia.com/page/Coding_agent">Coding agent</a></li>
-
-</ul>
-</details>
-
-**标签**: `#multi-agent systems`, `#LLM agents`, `#open-source`, `#board-simulation`, `#LocalLLaMA`
+**标签**: `#machine-learning`, `#time-series-forecasting`, `#air-quality`, `#gradient-boosting`, `#feature-engineering`
 
 ---
