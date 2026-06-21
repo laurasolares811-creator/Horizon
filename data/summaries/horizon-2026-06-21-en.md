@@ -1,489 +1,395 @@
 # Horizon Daily - 2026-06-21
 
-> From 31 items, 22 important content pieces were selected
+> From 32 items, 17 important content pieces were selected
 
 ---
 
-1. [Linux removes strncpy after six-year, 360-patch effort](#item-1) ⭐️ 9.0/10
-2. [Loupe iOS app exposes hidden app data access](#item-2) ⭐️ 8.0/10
-3. [SMPTE Makes Its Standards Freely Accessible](#item-3) ⭐️ 8.0/10
-4. [Cloudflare Launches 60-Minute Ephemeral Workers for AI Agents](#item-4) ⭐️ 8.0/10
-5. [Bun Proposes Shared-Memory Threads for JavaScriptCore](#item-5) ⭐️ 8.0/10
-6. [Tesco Sues VMware for Breach of Contract](#item-6) ⭐️ 8.0/10
-7. [Time Series Modeling Needs a Dynamical Systems Perspective](#item-7) ⭐️ 8.0/10
-8. [Headroom: Compress LLM Inputs to Cut Token Usage by 60-95%](#item-8) ⭐️ 8.0/10
-9. [UHF X11 brings classic X11 apps to Apple Vision Pro](#item-9) ⭐️ 7.0/10
-10. [Wholesale Plagiarism of Obscure Sorrows Book Exposed](#item-10) ⭐️ 7.0/10
-11. [South Korea's Arms Industry Booms on Price Advantage](#item-11) ⭐️ 7.0/10
-12. [Build Your Own LLM Workshop Now Free on YouTube](#item-12) ⭐️ 7.0/10
-13. [DVD-JEPA: an open-source, fully-reproducible JEPA world model](#item-13) ⭐️ 7.0/10
-14. [An Open Handbook for LLM Inference Optimization at Scale](#item-14) ⭐️ 7.0/10
-15. [minFLUX: Minimal Open-Source FLUX Implementation for Easier Study](#item-15) ⭐️ 7.0/10
-16. [Global PM2.5 Forecaster Overcomes Variance Trap with Horizon-Decoupled AR](#item-16) ⭐️ 7.0/10
-17. [High-Performance MCP Server Indexes Codebases into Knowledge Graph](#item-17) ⭐️ 7.0/10
-18. [TownSquare: Lightweight Presence Layer for Real-Time Chat](#item-18) ⭐️ 6.0/10
-19. [F-15 Strike Eagle II Reversing Project Seeks DOS Test Pilots](#item-19) ⭐️ 6.0/10
-20. [Show HN: StartupWiki – A Free Alternative to Crunchbase](#item-20) ⭐️ 6.0/10
-21. [Debate: Should ML PhD Students Graduate Without Top-tier Papers?](#item-21) ⭐️ 6.0/10
-22. [Ponytail: AI Agents Code Less, Like Lazy Senior Devs](#item-22) ⭐️ 6.0/10
+1. [Who Owns Your ATProto Identity? It's Probably Not You](#item-1) ⭐️ 8.0/10
+2. [The Case Against Geometric Algebra (2024)](#item-2) ⭐️ 8.0/10
+3. [Slow Breathing with Prolonged Exhalation Increases Risk-Taking](#item-3) ⭐️ 8.0/10
+4. [Epoll vs io_uring: Linux I/O Performance Compared](#item-4) ⭐️ 8.0/10
+5. [2019 CORS Article Resurfaces on HN, Igniting Developer Debate](#item-5) ⭐️ 8.0/10
+6. [Hackers Send Unauthorized Emergency Alert Across Brazil](#item-6) ⭐️ 8.0/10
+7. [Softmax-Free Attention Model Released: GPT-2 Medium, Open Weights, Custom Kernels](#item-7) ⭐️ 8.0/10
+8. [DeusData/codebase-memory-mcp: Fast MCP Code Intelligence Server Gains 64 Stars/Day](#item-8) ⭐️ 8.0/10
+9. [3D Voxel Game Engine Written in APL](#item-9) ⭐️ 7.0/10
+10. [Headroom: Compress LLM Inputs by 60-95% Tokens, Maintaining Quality](#item-10) ⭐️ 7.0/10
+11. [OpenMontage: First Open-Source Agentic Video Production System](#item-11) ⭐️ 7.0/10
+12. [rtk-ai/rtk: A Rust CLI Proxy for 60-90% LLM Token Reduction](#item-12) ⭐️ 7.0/10
+13. [Google Hits 50% IPv6 Traffic](#item-13) ⭐️ 6.0/10
+14. [Agent-Reach CLI Lets AI Agents Access Social Media Free](#item-14) ⭐️ 6.0/10
+15. [LLM-Powered Stock Analysis for A/H/US Markets](#item-15) ⭐️ 6.0/10
+16. [Anthropic Cybersecurity Skills Repository Gains Traction](#item-16) ⭐️ 6.0/10
+17. [Real-time AI Dashboard for News, Geopolitics, and Infrastructure](#item-17) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Linux removes strncpy after six-year, 360-patch effort](https://www.phoronix.com/news/Linux-7.2-Drops-strncpy) ⭐️ 9.0/10
+## [Who Owns Your ATProto Identity? It's Probably Not You](https://kevinak.se/blog/who-actually-owns-your-atproto-identity-hint-its-probably-not-you) ⭐️ 8.0/10
 
-After six years and 360 patches, the Linux kernel has completely removed the strncpy function, which was a persistent source of bugs due to its non-intuitive behavior around NUL termination and redundant zero-filling. Eliminating this bug-prone function significantly reduces the risk of buffer overflows and other memory safety issues in the kernel, benefiting the entire ecosystem that depends on Linux's stability and security. This cleanup also highlights a shift towards safer coding practices in critical infrastructure. The strncpy function's flaws stem from its non-guaranteed NUL termination and mandatory zero-padding, which led to off-by-one errors and inefficiencies. The kernel replaced it with safer alternatives like strscpy that provide clearer semantics and better performance.
+A critical analysis reveals that ATProto user identities often remain controlled by third-party Personal Data Server (PDS) providers, despite the protocol's decentralization promises. Self-hosting solutions like Cirrus and easy migration paths offer some autonomy. This clarifies a common misconception about ATProto identity ownership, highlighting that true self-sovereignty requires self-hosting. It matters for users needing censorship-resistant identities, such as journalists and activists, and challenges the decentralization narrative of platforms like Bluesky. On ATProto, your identity is a DID linked to a domain, but the PDS host can revoke access or impersonate you. Self-hosting a PDS is feasible using Docker and SQLite, but dependencies like domain registrars and CDNs still pose trust risks.
 
-hackernews · simonpure · Jun 20, 20:59 · [Discussion](https://news.ycombinator.com/item?id=48612943)
+hackernews · kevinak · Jun 21, 14:09 · [Discussion](https://news.ycombinator.com/item?id=48619140)
 
-**Background**: In the C programming language, strings are typically arrays of characters terminated by a null byte (\0). The standard library function strncpy copies up to n characters from source to destination, but it does not null-terminate the destination if the source is longer than n, and it always pads the destination with nulls up to n bytes. These semantics have caused countless bugs, especially in kernel code where buffer handling is critical. Safer functions like strscpy, which always null-terminate and do not zero-fill, have been preferred.
+**Background**: The AT Protocol underpins Bluesky, a decentralized social network. It uses a Personal Data Server (PDS) to store user data, and identities are managed through Decentralized Identifiers (DIDs) linked to domain names. The protocol is designed to allow users to migrate their data between PDS providers without losing their social graph, aiming for data portability.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Strncpy">Strncpy</a></li>
-<li><a href="https://en.cppreference.com/c/string/byte/strncpy">strncpy, strncpy_s - cppreference.com</a></li>
-<li><a href="https://www.geeksforgeeks.org/c/strncpy-function-in-c/">strncpy () Function in C - GeeksforGeeks</a></li>
+<li><a href="https://en.wikipedia.org/wiki/AT_Protocol">AT Protocol</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community widely praised the removal, with commenters noting that strncpy was a common source of bugs (WalterBright) and that such cleanup work, though unrewarding, is foundational (lambdaone). Some suggested that null-terminated strings are inherently problematic and proposed length-delimited alternatives (mrlonglong, senfiaj). Overall, the effort was seen as a significant, if humble, contribution to kernel reliability.
+**Discussion**: Community members largely agree that self-hosting a PDS enhances control over identity, with tools like Cirrus making it accessible. However, many note that trust in domain providers and infrastructure remains. The discussion emphasizes that while perfect sovereignty is elusive, ATProto's data portability offers practical resilience.
 
-**Tags**: `#Linux`, `#kernel`, `#security`, `#C programming`, `#code cleanup`
+**Tags**: `#AT Protocol`, `#decentralized identity`, `#Bluesky`, `#self-hosting`, `#data ownership`
 
 ---
 
 <a id="item-2"></a>
-## [Loupe iOS app exposes hidden app data access](https://github.com/mysk-research/loupe) ⭐️ 8.0/10
+## [The Case Against Geometric Algebra (2024)](https://alexkritchevsky.com/2024/02/28/geometric-algebra.html) ⭐️ 8.0/10
 
-Loupe, an iOS app by Mysk Research, is released to demonstrate the extensive device and usage data that native apps can access without user consent, such as device setup dates, volume metadata, and persistent identifiers across reinstalls. This tool highlights privacy gaps in iOS, potentially pressuring Apple to strengthen OS-level protections and affecting all iPhone users whose data may be silently collected by third-party apps. Loupe is an open-source iOS app revealing granular data like exact device last-setup date, volume creation timestamps, pasteboard change counts, and installed apps via indirect probing; persistent identifiers like TikTok login info survive reinstallation due to embedded SDKs such as Facebook's.
+In February 2024, Alex Kritchevsky published a critical article challenging the mathematical foundations and community culture of geometric algebra, igniting a heated debate among mathematicians and practitioners. This article brings to light deep-seated disagreements within the mathematical community about the utility and elegance of geometric algebra, potentially influencing how physicists, engineers, and computer scientists choose their mathematical tools for modeling geometric problems. The article specifically argues that geometric algebra often fails to provide clearer insights compared to established methods like differential forms, and that its community includes a disproportionate number of non-rigorous contributions, as evidenced by the controversial reception in the comments.
 
-hackernews · Cider9986 · Jun 20, 12:08 · [Discussion](https://news.ycombinator.com/item?id=48608645)
+hackernews · Hbruz0 · Jun 21, 11:06 · [Discussion](https://news.ycombinator.com/item?id=48617782)
 
-**Background**: Native iOS apps can access system APIs providing device-specific information like setup dates or pasteboard history, which are intended for usability but can be exploited for fingerprinting. Despite Apple's privacy improvements, many such APIs still operate without explicit user permission.
+**Background**: Geometric algebra is a mathematical framework that unifies and extends vector algebra by introducing multivectors and operations like the geometric product. It has been promoted for use in physics, computer graphics, and robotics due to its coordinate-free formulation and ability to handle rotations and reflections elegantly. However, it has also faced criticism for being unnecessarily complex and for its proponents' claims that it can replace all other mathematical tools, leading to debates about its practical advantages over traditional vector calculus and differential forms.
 
-**Discussion**: Users expressed shock at leaks like exact device setup date and persistent identifiers, calling for OS-level randomization fixes. Some said they now avoid installing apps altogether. A commenter noted this issue was previously raised on Hacker News, showing ongoing concern.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Geometric_algebra">Geometric algebra</a></li>
 
-**Tags**: `#privacy`, `#iOS`, `#security`, `#mobile-apps`, `#awareness`
+</ul>
+</details>
+
+**Discussion**: The community discussion was polarized. Many commenters criticized the article's ad hominem tone but acknowledged its technical validity, while others defended geometric algebra's practical usefulness for engineering problems, noting that non-rigorous materials can be valuable for practitioners.
+
+**Tags**: `#geometric-algebra`, `#mathematics`, `#physics`, `#criticism`, `#hackernews-digest`
 
 ---
 
 <a id="item-3"></a>
-## [SMPTE Makes Its Standards Freely Accessible](https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community) ⭐️ 8.0/10
+## [Slow Breathing with Prolonged Exhalation Increases Risk-Taking](https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9) ⭐️ 8.0/10
 
-SMPTE has made its entire library of over 800 technical standards for motion picture and television freely available to the public, and adopted modern development practices like GitHub-based workflows, HTML authoring, and integrated publishing pipelines. This shift to open standards eliminates financial barriers, enabling broader innovation and adoption in emerging media production and distribution, and aligns SMPTE with successful models like the IETF, fostering a more open industry ecosystem. Previously paid standards such as SMPTE ST 430-10 for digital cinema are now free; the modernization includes version control on GitHub, issue tracking, and an automated publishing pipeline.
+A Neuron study reveals that slow breathing, particularly with prolonged exhalation, increases risk-taking behavior through parasympathetic nervous system activation, a finding that challenges the typical association of slow breathing with relaxation. This research has significant clinical implications for anxiety and depression, suggesting that breathing techniques could be used to modulate reward processing and risk aversion in therapeutic settings. The study highlights that only prolonged exhalation, not inhalation, selectively increases reward responsiveness by enhancing cardiac parasympathetic modulation, with potential applications for disorders featuring autonomic imbalance and maladaptive reward processing.
 
-hackernews · zdw · Jun 20, 17:01 · [Discussion](https://news.ycombinator.com/item?id=48610827)
+hackernews · croes · Jun 20, 22:22 · [Discussion](https://news.ycombinator.com/item?id=48613555)
 
-**Background**: SMPTE, founded in 1916, is a global standards body for motion picture and television engineering, responsible for fundamental standards like SMPTE timecode and color bars. Historically, access to its over 800 standards required purchase, which could hinder innovation and collaboration. Making them freely accessible follows the example of open standards organizations such as the Internet Engineering Task Force (IETF), which has long provided free access to its specifications, contributing to the explosive growth of the internet.
+**Background**: The autonomic nervous system consists of the sympathetic (fight-or-flight) and parasympathetic (rest-and-digest) branches. Slow breathing with extended exhalation is known to stimulate the vagus nerve, increasing parasympathetic tone. Typically, parasympathetic activation promotes calmness and reduces stress, making the link to heightened risk-taking both novel and counterintuitive.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/SMPTE">SMPTE</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Digital_Cinema_Package">Digital Cinema Package - Wikipedia</a></li>
+<li><a href="https://www.psychologytoday.com/us/blog/the-athletes-way/201905/longer-exhalations-are-an-easy-way-to-hack-your-vagus-nerve">Longer Exhalations Are an Easy Way to Hack Your Vagus Nerve</a></li>
+<li><a href="https://canyonvista.com/blog/activating-parasympathetic-nervous-system/">What is the Parasympathetic ... | Canyon Vista Recovery Center</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters overwhelmingly welcome the move, recalling past expenses for standards like ST 430-10. They applaud the GitHub-based modernization, draw parallels to the IETF's successful open model, and suggest that all standards bodies should provide free access by default.
+**Discussion**: Commenters discussed practical applications for public speaking, where slow breathing calms nerves and boosts confidence. Some expressed surprise at the parasympathetic-risk link, while others inquired about long-term training and wearable respiration monitors. A cautionary note mentioned that fear is sometimes rational, so reducing it may not always be beneficial.
 
-**Tags**: `#open-standards`, `#media-technology`, `#smpte`, `#industry-change`, `#policy`
+**Tags**: `#neuroscience`, `#breathing`, `#mental-health`, `#risk-taking`, `#psychophysiology`
 
 ---
 
 <a id="item-4"></a>
-## [Cloudflare Launches 60-Minute Ephemeral Workers for AI Agents](https://blog.cloudflare.com/temporary-accounts/) ⭐️ 8.0/10
+## [Epoll vs io_uring: Linux I/O Performance Compared](https://sibexi.co/posts/epoll-vs-io_uring/) ⭐️ 8.0/10
 
-Cloudflare introduced temporary accounts that allow AI agents to deploy Workers for 60 minutes using the `--temporary` flag via Wrangler CLI, with an option to claim the account and make it permanent. This opens up free, ephemeral deployments for previews, code reviews, and automated testing without needing permanent accounts, lowering the barrier for agent-driven workflows and developer collaboration. Temporary Workers expire after 60 minutes and are subject to rate limiting and abuse checks; the `--temporary` flag works even without credentials, and a claim URL allows transferring the Worker to a permanent account.
+A detailed technical comparison of Linux's epoll and io_uring I/O mechanisms was published, with community contributors sharing performance optimization suggestions and library recommendations like CPU pinning, mimalloc, and eBPF/XDP. This comparison helps developers choose the right I/O model for high‑performance networking, potentially improving server throughput and reducing latency in applications like web servers and proxies. io_uring uses submission/completion queues to batch system calls, reducing overhead; epoll remains simpler but can hit bottlenecks under extreme concurrency. Community tips include CPU pinning, zero-copy techniques, and leveraging libraries like concurrencykit and mimalloc to push performance further.
 
-hackernews · farhadhf · Jun 20, 11:19 · [Discussion](https://news.ycombinator.com/item?id=48608394)
+hackernews · Sibexico · Jun 20, 23:07 · [Discussion](https://news.ycombinator.com/item?id=48613872)
 
-**Background**: Cloudflare Workers is a serverless platform for running code at the edge. The Wrangler CLI is the official tool for deploying Workers. Ephemeral deployments are short-lived instances useful for testing and previews. AI agents can now automate these deployments for on-demand tasks without manual setup.
+**Background**: epoll, available since Linux 2.6, is an event‑polling mechanism that efficiently monitors many file descriptors. io_uring, introduced in Linux 5.1, is a newer asynchronous I/O interface that replaces multiple syscalls with shared ring buffers, drastically cutting context switches for both storage and network operations.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://blog.cloudflare.com/temporary-accounts/">Temporary Cloudflare Accounts for AI agents</a></li>
-<li><a href="https://developers.cloudflare.com/changelog/post/2026-06-19-temporary-accounts-for-agents/">Temporary accounts for AI agent deployments · Changelog</a></li>
-<li><a href="https://community.cloudflare.com/t/workers-temporary-accounts-for-ai-agent-deployments/934678">Workers - Temporary accounts for AI agent deployments - Replicate Changelog - Cloudflare Community</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Io_uring">io_uring - Wikipedia</a></li>
+<li><a href="https://man7.org/linux/man-pages/man7/io_uring.7.html">io_uring(7) - Linux manual page</a></li>
+<li><a href="https://unixism.net/loti/what_is_io_uring.html">What is io_uring? — Lord of the io_uring documentation</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community reactions are largely positive, with users excited about free scratch deployments and PR previews. However, there are concerns about abuse potential for malicious content, and a recurring request for hard billing caps to prevent unexpected charges on paid accounts.
+**Discussion**: The community discussion is enthusiastic, with users sharing practical optimization tricks: CPU pinning, mimalloc for zero‑copy alignment, eBPF/XDP for DDoS protection, and experiences porting io_uring to Rust and kTLS. Some note that going further with DPDK or FPGA would bring even more performance at the cost of complexity.
 
-**Tags**: `#cloudflare`, `#workers`, `#ai-agents`, `#ephemeral-deployment`, `#serverless`
+**Tags**: `#linux`, `#io_uring`, `#epoll`, `#performance`, `#networking`
 
 ---
 
 <a id="item-5"></a>
-## [Bun Proposes Shared-Memory Threads for JavaScriptCore](https://github.com/oven-sh/WebKit/pull/249) ⭐️ 8.0/10
+## [2019 CORS Article Resurfaces on HN, Igniting Developer Debate](https://fosterelli.co/developers-dont-understand-cors) ⭐️ 8.0/10
 
-A pull request by Jarred Sumner of Bun adds experimental support for true shared-memory multithreading to JavaScriptCore, aiming to go beyond the limitations of SharedArrayBuffer. This could enable high-performance parallelism in JavaScript without the constraints of SharedArrayBuffer, potentially impacting server-side runtimes and reducing the need for rewriting tools in other languages. The implementation is based on a design from WebKit's 'Concurrent JavaScript: It can work!' blog post, but was developed with substantial AI assistance (Anthropic), leading to community concerns over code trustworthiness and the sheer size of the PR (1,800 files).
+A 2019 article titled "Developers don't understand CORS" resurfaced on Hacker News, generating a lively discussion of 233 comments that exposes widespread confusion about Cross-Origin Resource Sharing, though the article itself was criticized for misrepresenting how CORS works. This discussion underscores a persistent knowledge gap in web security fundamentals, showing that many developers still struggle with CORS years later, which can lead to insecure implementations and misconfigurations in production. The original article incorrectly suggests that setting the Access-Control-Allow-Origin header can restrict which JavaScript can talk to a server, whereas CORS headers merely control browser behavior—servers cannot enforce origin restrictions on incoming requests via CORS alone. Additionally, community members highlighted confusion around security-relevant CORS headers like Access-Control-Allow-Headers.
 
-hackernews · gr4vityWall · Jun 20, 17:02 · [Discussion](https://news.ycombinator.com/item?id=48610841)
+hackernews · toilet · Jun 21, 01:35 · [Discussion](https://news.ycombinator.com/item?id=48614844)
 
-**Background**: JavaScriptCore is the JavaScript engine in WebKit, used by Safari and Bun. Shared-memory threads allow multiple threads in a process to access the same memory, enabling efficient communication unlike message-passing or the limited SharedArrayBuffer API (which only shares raw binary buffers with security restrictions). This PR introduces true object sharing across threads.
+**Background**: CORS (Cross-Origin Resource Sharing) is an HTTP-header based mechanism that allows servers to indicate other origins from which a browser should permit loading resources. It relaxes the Same-Origin Policy, a fundamental security measure that restricts how a script from one origin can interact with resources from another. Without CORS, modern web applications that rely on cross-domain requests would not function. Despite its critical role, CORS is often misunderstood, leading to widespread configuration errors.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/JavaScriptCore">JavaScriptCore</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer">SharedArrayBuffer - JavaScript | MDN - MDN Web Docs</a></li>
-<li><a href="https://medium.com/@jithmisha/a-brief-intro-to-shared-memory-programming-with-posix-threads-a663b590e38c">A Brief Intro to Shared-memory Programming with POSIX Threads | by Jithmi Shashirangana | Medium</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS">Cross-Origin Resource Sharing (CORS) - HTTP | MDN</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cross-origin_resource_sharing">Cross-origin resource sharing - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community reaction is mixed: some, like pizlonator, note the idea is feasible, while others express deep skepticism about AI-generated multithreading code, emphasizing that runtime code must be 'obviously no bugs' rather than merely having 'no obvious bugs.' Trust in Bun is also questioned due to the PR's scale and AI involvement.
+**Discussion**: HN comments range from agreement that CORS is poorly understood to strong criticism of the article's inaccuracies—some pointed out that the article's claim about restricting access via CORS headers is wrong, as those headers only guide the browser. Many commenters recommended reading the MDN CORS documentation, and others noted that the comment section itself contained many misunderstandings, ironically proving the author's point.
 
-**Tags**: `#javascript`, `#webkit`, `#concurrency`, `#bun`, `#open-source`
+**Tags**: `#CORS`, `#web development`, `#security`, `#HTTP`, `#developer education`
 
 ---
 
 <a id="item-6"></a>
-## [Tesco Sues VMware for Breach of Contract](https://www.theregister.com/software/2025/09/03/supermarket-giant-tesco-sues-vmware-for-breach-of-contract/1420651) ⭐️ 8.0/10
+## [Hackers Send Unauthorized Emergency Alert Across Brazil](https://www.cnn.com/2026/06/20/americas/brazil-hackers-unauthorized-alert-latam) ⭐️ 8.0/10
 
-Tesco, a major UK supermarket chain, has filed a lawsuit against VMware, alleging breach of contract. This legal action comes amid widespread enterprise dissatisfaction with Broadcom's licensing changes after its acquisition of VMware. The lawsuit highlights growing enterprise backlash against Broadcom's aggressive licensing practices, which may accelerate cloud migration and reshape the virtualization software market. While specifics of the alleged breach are not disclosed, experts note that Broadcom's licensing model has increased costs for on-premise VMware deployments, potentially forcing companies to reconsider their infrastructure strategies.
+Hackers exploited stolen VPN credentials from an employee's malware-infected personal gaming PC running Windows 7 to send an unauthorized cell broadcast emergency alert to phones nationwide in Brazil. This incident exposes critical weaknesses in operational security, including the use of end-of-life operating systems, lack of antivirus, and credential sharing, which could allow malicious actors to abuse emergency alert systems and spread panic. The hacker gained access via VPN credentials stolen from a Windows 7 PC infected by malware from a malicious game download, with two colleagues also sharing those credentials, highlighting a chain of security lapses.
 
-hackernews · wglb · Jun 20, 21:09 · [Discussion](https://news.ycombinator.com/item?id=48613008)
+hackernews · zdw · Jun 20, 20:05 · [Discussion](https://news.ycombinator.com/item?id=48612502)
 
-**Background**: VMware is a leading provider of virtualization software used to run multiple virtual machines on a single physical server. In 2023, Broadcom acquired VMware for $69 billion and subsequently changed licensing from perpetual to subscription-based models, causing significant price increases for many enterprise customers. Tesco, as a large enterprise with extensive VMware deployments, would be directly affected by these changes.
+**Background**: Cell broadcast is a technology that allows mobile network operators to send text alerts to all phones connected to specific cell towers in a geographical area, commonly used for emergency warnings. Social engineering involves manipulating individuals to reveal confidential information or install malware, often through deceptive downloads.
 
-**Discussion**: Commenters largely view the lawsuit as a negotiation strategy, with some likening Broadcom's tactics to the rent-seeking behavior of Computer Associates. There is a prevailing sentiment that VMware's long-term business has been damaged, leading many enterprises to plan their exit from the platform.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://utimaco.com/service/knowledge-base/emergency-communications-and-public-warnings/what-cell-broadcast">What is a Cell Broadcast? - Utimaco</a></li>
+<li><a href="https://www.globalalertscorp.com/understanding-cell-broadcast-emergency-alerts-how-they-work-and-why-they-matter/">Understanding Cell Broadcast Emergency Alerts: How They Work ...</a></li>
+<li><a href="https://www.cyberhaven.com/infosec-essentials/what-is-social-engineering">What is Social Engineering? Types, Examples & Prevention Tips</a></li>
 
-**Tags**: `#VMware`, `#Broadcom`, `#licensing`, `#lawsuit`, `#enterprise-software`
+</ul>
+</details>
+
+**Discussion**: Commenters highlighted the absurdity of the breach: stolen VPN credentials from a Windows 7 gaming PC without antivirus, credential sharing, and malware from a game installer. Some discussed past false alerts like the Hawaii missile scare, while others noted boredom with the hacker's message choice. Overall, the sentiment leans toward criticism of lax security and amusement at the oversight.
+
+**Tags**: `#cybersecurity`, `#incident`, `#cell-broadcast`, `#hacking`, `#social-engineering`
 
 ---
 
 <a id="item-7"></a>
-## [Time Series Modeling Needs a Dynamical Systems Perspective](https://www.reddit.com/r/MachineLearning/comments/1uark0u/time_series_modeling_needs_a_dynamical_systems/) ⭐️ 8.0/10
+## [Softmax-Free Attention Model Released: GPT-2 Medium, Open Weights, Custom Kernels](https://www.reddit.com/r/MachineLearning/comments/1ubmybr/i_released_a_softmaxfree_attention_model_at_gpt2/) ⭐️ 8.0/10
 
-A position paper at ICML 2026 argues that time series modeling should adopt a dynamical systems perspective. It proposes training techniques like generalized teacher forcing, pretraining on dynamical simulations, using modern RNNs, and addressing topological shifts to enable true out-of-domain generalization and long-term predictions. This perspective could unlock robust long-term forecasting and generalization across domains, overcoming current models' inability to capture underlying dynamical rules. It has significant implications for fields like climate science, neuroscience, and engineering where understanding system dynamics is critical. The paper emphasizes that proper training objectives outweigh model architecture, advocates modern RNNs over transformers for their recursive nature, and highlights the challenge of topological shifts—fundamental changes in system dynamics. It references generalized teacher forcing (Hess et al., 2023) and prior work on topological shifts (Goring et al., 2024).
+A user released an attention model without softmax at the scale of GPT-2 Medium (354M parameters, trained on 11.5B tokens). The model incorporates structural sparsity and custom tile-skipping Triton kernels to save VRAM during long-context inference, with open weights and kernels available. This release demonstrates that softmax-free attention can work at a meaningful scale, potentially enabling more efficient long-context processing with substantial VRAM savings. It lowers barriers for further research and deployment of efficient transformer variants. The model replaces softmax with L1-normalized attention and uses structured sparsity combined with custom Triton kernels that skip tiles to reduce memory footprint. It was trained on 11.5B tokens, achieving competitive efficiency at GPT-2 Medium size.
 
-reddit · r/MachineLearning · /u/DangerousFunny1371 · Jun 20, 08:47
+reddit · r/MachineLearning · /u/NonGameCatharsis · Jun 21, 10:46
 
-**Background**: Dynamical systems theory studies how systems evolve over time via fixed rules, often chaotic, making long-term prediction hard. Takens's theorem allows reconstructing a system from observations, the basis of dynamical systems reconstruction (DSR). Generalized teacher forcing stabilizes training on chaotic systems by correcting diverging trajectories. Transformers, popular in sequence modeling, coarse-grain time and may miss recursive dependencies essential for capturing dynamics.
+**Background**: Standard Transformer attention uses a softmax function to normalize attention scores, which is computationally expensive. Softmax-free attention replaces this with simpler normalization, like L1-norm, to improve efficiency. Structural sparsity involves constraining model parameters in a structured manner, reducing computational cost. Triton is a language and compiler for writing efficient GPU kernels for deep learning models.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Takens's_theorem">Takens's theorem - Wikipedia</a></li>
-<li><a href="https://arxiv.org/pdf/2306.04406">Generalized Teacher Forcing for Learning Chaotic Dynamics</a></li>
+<li><a href="https://arxiv.org/abs/2206.08898">[2206.08898] SimA: Simple Softmax-free Attention for Vision Transformers</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Structured_sparsity_regularization">Structured sparsity regularization</a></li>
+<li><a href="https://openai.com/index/triton/">Introducing Triton: Open-source GPU programming for neural networks | OpenAI</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#time-series`, `#dynamical-systems`, `#machine-learning`, `#ICML`, `#research-paper`
+**Tags**: `#softmax-free attention`, `#efficient transformers`, `#structural sparsity`, `#Triton kernels`, `#GPT-2`
 
 ---
 
 <a id="item-8"></a>
-## [Headroom: Compress LLM Inputs to Cut Token Usage by 60-95%](https://github.com/chopratejas/headroom) ⭐️ 8.0/10
+## [DeusData/codebase-memory-mcp: Fast MCP Code Intelligence Server Gains 64 Stars/Day](https://github.com/DeusData/codebase-memory-mcp) ⭐️ 8.0/10
 
-The open-source tool headroom gained 102 GitHub stars in 24 hours. It compresses LLM inputs such as tool outputs, logs, files, and RAG chunks, reducing token usage by 60–95% while preserving answer quality. Token reduction directly lowers cost and latency for LLM applications. By offering library, proxy, and MCP server modes, it provides a drop-in solution for developers and companies integrating large-context LLMs. The tool claims 60-95% token reduction without answer quality degradation. It supports Python library, HTTP proxy, and MCP server integrations, compressing diverse input types including tool outputs, logs, files, and RAG chunks.
+DeusData/codebase-memory-mcp is a new high-performance MCP server that indexes codebases into a persistent knowledge graph, supporting 158 languages with sub-millisecond queries and 99% fewer tokens. This tool significantly improves the efficiency of LLM-based coding tools by reducing the context size needed for code understanding, making it faster and cheaper, and potentially setting a new standard for code intelligence in AI-assisted development. Written in C, it is a single static binary with zero dependencies, can index the Linux kernel (28 million lines of code) in 3 minutes, and achieves a 99% reduction in token usage for code queries.
 
-ossinsight · chopratejas · Jun 21, 04:04
+ossinsight · DeusData · Jun 21, 17:26
 
-**Background**: Retrieval-Augmented Generation (RAG) retrieves external knowledge chunks to improve LLM accuracy; chunking splits documents into smaller pieces. Model Context Protocol (MCP) defines a standard way to expose tools and data sources to AI models via servers. Headroom compresses these inputs to save tokens.
+**Background**: Model Context Protocol (MCP) is an open standard introduced by Anthropic in November 2024 to standardize how AI models connect to external tools and data sources. MCP servers implement these connections; code intelligence MCP servers specialize in understanding and querying source code. A knowledge graph is a structured representation that captures relationships between code entities like functions and classes.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/rag/rag-chunking-phase">Develop a RAG Solution - Chunking Phase - Azure Architecture ...</a></li>
-<li><a href="https://community.databricks.com/t5/technical-blog/the-ultimate-guide-to-chunking-strategies-for-rag-applications/ba-p/113089">Mastering Chunking Strategies for RAG: Best Practices & Code ...</a></li>
-<li><a href="https://github.com/modelcontextprotocol/servers">GitHub - modelcontextprotocol/ servers : Model Context Protocol Servers</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol</a></li>
+<li><a href="https://github.com/DeusData/codebase-memory-mcp">GitHub - DeusData/codebase-memory-mcp: High-performance code ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#llm`, `#token-compression`, `#rag`, `#open-source`, `#devtools`
+**Tags**: `#MCP`, `#code-intelligence`, `#knowledge-graph`, `#performance`, `#developer-tools`
 
 ---
 
 <a id="item-9"></a>
-## [UHF X11 brings classic X11 apps to Apple Vision Pro](https://www.lispm.net/apps/uhf-x11/) ⭐️ 7.0/10
+## [3D Voxel Game Engine Written in APL](https://github.com/namgyaaal/avoxelgame) ⭐️ 7.0/10
 
-UHF X11 is a new X11 server implementation that enables classic X11 applications, such as TWM, to run on Apple Vision Pro’s visionOS, merging vintage Unix environments with modern augmented reality. This project demonstrates the remarkable longevity and adaptability of the X11 protocol, and opens up novel retro-computing and educational experiences in AR, appealing to enthusiasts and developers. Available on the App Store, UHF X11 is intended for retrocomputing, experimentation, and education; it does not encrypt X11 traffic or include a built-in VPN, and it supports GLX rendering for OpenGL clients with varying compatibility.
+A developer publicly released a 3D voxel game engine written entirely in the APL programming language, accompanied by a refreshingly honest README describing it as a buggy passion project. This project highlights APL's unexpected applicability in game development, challenging assumptions about esoteric languages and encouraging creative experimentation. It also stands out for its transparent self-assessment, promoting humility in open-source culture. The engine leverages APL's array-oriented paradigm for voxel data manipulation, but the developer honestly notes it is riddled with bugs and not production-ready. No performance benchmarks or feature list are provided.
 
-hackernews · zdw · Jun 20, 17:04 · [Discussion](https://news.ycombinator.com/item?id=48610853)
+hackernews · sph · Jun 21, 08:04 · [Discussion](https://news.ycombinator.com/item?id=48616713)
 
-**Background**: X11 is a long-standing windowing system for Unix-like operating systems, using a client-server model where the X server manages display and input. TWM (Tab Window Manager) has been the standard window manager for X since 1989. Apple Vision Pro is a mixed-reality headset running visionOS, and UHF X11 acts as an X server on that platform, letting traditional X11 applications render in an AR space.
+**Background**: APL (A Programming Language) is an array-oriented language invented in the 1960s, famous for its extreme conciseness using special symbols. A voxel game engine renders 3D worlds as grids of volumetric pixels (voxels), typical in games like Minecraft. The combination is unusual, as APL is rarely used for interactive graphics applications.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/X11_Window_System">X11 Window System</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Tab_Window_Manager">Tab Window Manager</a></li>
-<li><a href="https://apps.apple.com/us/app/uhf-x11/id6772673274">UHF X 11 App - App Store</a></li>
+<li><a href="https://en.wikipedia.org/wiki/APL_(programming_language)">APL (programming language)</a></li>
+<li><a href="https://www.luanti.org/">Luanti | Open source voxel game engine - Luanti</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments are playfully nostalgic, highlighting the irony of '3D in 2D in 3D' via GLX, and jokingly wondering if X11 will outlast visionOS. Users mention alternatives like WayVR and express interest in Linux AR headsets with prescription lenses.
+**Discussion**: Commenters expressed appreciation for the unusual use of APL and the developer's refreshing honesty. They noted that a voxel world fits APL's array model well, with the notation being the only quirky aspect. There was curiosity about the development challenges but no critical concerns.
 
-**Tags**: `#x11`, `#visionos`, `#apple-vision-pro`, `#augmented-reality`, `#retro-computing`
+**Tags**: `#APL`, `#game-development`, `#voxel`, `#esoteric-languages`, `#hobby-project`
 
 ---
 
 <a id="item-10"></a>
-## [Wholesale Plagiarism of Obscure Sorrows Book Exposed](https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/) ⭐️ 7.0/10
+## [Headroom: Compress LLM Inputs by 60-95% Tokens, Maintaining Quality](https://github.com/chopratejas/headroom) ⭐️ 7.0/10
 
-An article by waxy.org reveals that the fan site Qontour, created by Prompt Digital Inc., reproduced the entire text of John Koenig's book 'The Dictionary of Obscure Sorrows' verbatim, including the foreword and all 311 neologisms, without permission. This case highlights the vulnerability of digital intellectual property and the challenges creators face in enforcing copyright online, especially when platforms like Google and Apple are unresponsive to DMCA requests without court orders. The plagiarized site included Amazon affiliate links (tag=promptdigital-20) to the legitimate book listing, indicating a monetization motive, and was built by a Webflow premium partner, raising questions about platform accountability.
+The trending GitHub repository 'headroom' offers a new tool that compresses text inputs such as tool outputs, logs, files, and RAG chunks before they reach an LLM, achieving 60-95% token reduction without significantly affecting answer quality. It can be used as a library, proxy, or MCP server. Reducing token usage by up to 95% can dramatically lower costs in LLM-based applications, making AI pipelines more economical and scalable. This is especially significant for high-volume use cases like RAG systems, where large context windows quickly become expensive. The tool achieves compression while preserving answer quality, although specific compression techniques are not detailed. It offers flexibility through multiple integration modes: as a Python library, a proxy, or an MCP server, catering to different deployment scenarios.
 
-hackernews · ridesisapis · Jun 20, 18:05 · [Discussion](https://news.ycombinator.com/item?id=48611411)
+ossinsight · chopratejas · Jun 21, 17:26
 
-**Background**: The Digital Millennium Copyright Act (DMCA) is a U.S. law that allows copyright owners to issue takedown notices for infringing online content, but enforcement can be challenging without legal action. 'The Dictionary of Obscure Sorrows' is a popular book by John Koenig that coins neologisms for emotions, originally a blog and YouTube series before publication.
+**Background**: LLMs charge based on the number of input tokens, so compressing inputs can lead to cost savings. Retrieval-Augmented Generation (RAG) is a common pattern where external documents are retrieved and added to the prompt, often inflating token counts. The Model Context Protocol (MCP) is an open standard for connecting AI applications to external tools and data sources, enabling secure context sharing.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act">Digital Millennium Copyright Act - Wikipedia</a></li>
-<li><a href="https://www.copyright.gov/dmca/">The Digital Millennium Copyright Act | U.S. Copyright Office</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation">Retrieval - augmented generation - Wikipedia</a></li>
+<li><a href="https://aws.amazon.com/what-is/retrieval-augmented-generation/">What is RAG ? - Retrieval - Augmented Generation AI Explained - AWS</a></li>
+<li><a href="https://www.anthropic.com/news/model-context-protocol">Introducing the Model Context Protocol - Anthropic</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community members expressed outrage, sharing similar experiences of plagiarism and frustration with ineffective DMCA processes. Some noted the site likely copy-pasted the book rather than using AI, and pointed to Webflow and Amazon's role in enabling the infringement. Monetization via Amazon affiliate links was highlighted as a common tactic.
-
-**Tags**: `#plagiarism`, `#copyright`, `#DMCA`, `#intellectual-property`, `#content-theft`
+**Tags**: `#llm`, `#token-optimization`, `#compression`, `#tools`, `#rag`
 
 ---
 
 <a id="item-11"></a>
-## [South Korea's Arms Industry Booms on Price Advantage](https://www.politico.com/news/magazine/2026/06/20/south-korea-weapons-dealer-trump-00959559) ⭐️ 7.0/10
+## [OpenMontage: First Open-Source Agentic Video Production System](https://github.com/calesthio/OpenMontage) ⭐️ 7.0/10
 
-A Politico article highlights the surge in South Korea's defense exports, but community commentary reveals that cost savings of 40-60% compared to US and European systems are the key driver, alongside major pending deals like a $60 billion submarine contract with Canada. This shift challenges the dominance of traditional arms suppliers like the US and Germany, potentially reshaping global defense alliances and procurement strategies, while offering affordable high-tech weaponry to allied nations. Specific examples include the K9 Thunder howitzer at $3.5-4 million per unit versus the American M109A7 at $8 million, and the K239 Chunmoo MLRS at $2 million compared to the HIMARS at $4.5 million. Poland's rapid procurement and establishment of local factories further illustrate the operational appeal.
+OpenMontage, the world's first open-source agentic video production system, has been released, enabling AI coding assistants to orchestrate full video production with 12 pipelines, 52 tools, and over 500 agent skills. This system could democratize professional video creation, much like Cursor did for coding, by automating end-to-end production and drastically lowering the skill barrier. Built in Python, OpenMontage provides a structured, real production pipeline that covers scripting, editing, and post-production, and is designed to integrate with existing AI coding assistants.
 
-hackernews · JumpCrisscross · Jun 20, 11:44 · [Discussion](https://news.ycombinator.com/item?id=48608515)
+ossinsight · calesthio · Jun 21, 17:26
 
-**Background**: South Korea has developed a robust defense industrial base, producing advanced systems like the K9 Thunder self-propelled howitzer, K2 Black Panther main battle tank, and KF-21 Boramae fighter jet. Traditionally, the global arms market has been led by the United States, Russia, and several European nations, but South Korea's blend of quality and lower costs is gaining traction, especially among countries seeking to modernize their forces quickly.
+**Background**: Agentic video production uses autonomous AI agents to handle tasks—direction, screenwriting, editing—that traditionally require human teams. Industry observers like Andreessen Horowitz have predicted that such agents will massively increase the supply of high-quality video content, following the pattern of AI-assisted coding tools.
 
-**Discussion**: Commenters overwhelmingly emphasize cost as the primary factor, sharing detailed price comparisons and noting that mainstream reporting often overlooks this. They discuss significant deals with Canada and Poland, with the latter praised for its swift procurement and local manufacturing setup. Enthusiasm for diverse military hardware development, such as the KF-21, is also evident.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/calesthio/OpenMontage">GitHub - calesthio/OpenMontage: World's first open-source ...</a></li>
+<li><a href="https://a16z.com/its-time-for-agentic-video-editing/">It's time for agentic video editing | Andreessen Horowitz</a></li>
 
-**Tags**: `#geopolitics`, `#defense-industry`, `#economics`, `#military-technology`, `#global-trade`
+</ul>
+</details>
+
+**Tags**: `#open-source`, `#video-production`, `#ai-agents`, `#automation`, `#python`
 
 ---
 
 <a id="item-12"></a>
-## [Build Your Own LLM Workshop Now Free on YouTube](https://www.reddit.com/r/MachineLearning/comments/1uazlnd/hi_reddit_i_posted_my_build_your_own_llm_workshop/) ⭐️ 7.0/10
+## [rtk-ai/rtk: A Rust CLI Proxy for 60-90% LLM Token Reduction](https://github.com/rtk-ai/rtk) ⭐️ 7.0/10
 
-A comprehensive workshop titled 'Build Your Own LLM' has been released on YouTube, covering machine learning fundamentals, transformer architectures, and training techniques using code and Excel, with no math prerequisites. By eliminating math barriers, the workshop democratizes LLM knowledge, enabling a wider audience including developers and non-experts to understand and potentially contribute to modern AI, fostering broader AI literacy and innovation. The workshop includes slide presentations, hand-calculated Excel exercises for intuition, and coding examples using PyTorch, CUDA, and Triton. It covers topics from basic perceptrons to advanced concepts like SwiGLU activation, Kaiming initialization, and instruction tuning, with materials for self-paced learning.
+The GitHub repository rtk-ai/rtk, a Rust-based CLI proxy, gained traction with 20 new stars. It claims to reduce LLM token consumption by 60–90% on common developer commands. As LLMs become embedded into developer workflows, token costs can escalate quickly. Such a drastic reduction could significantly lower API bills and improve response times for AI-assisted coding. The tool runs as a single Rust binary with zero dependencies, acting as an intermediary to optimize prompts sent to LLM APIs. It is very early-stage with no community reviews yet, and its actual effectiveness may vary.
 
-reddit · r/MachineLearning · /u/JustinAngel · Jun 20, 15:36
+ossinsight · rtk-ai · Jun 21, 17:26
 
-**Background**: Building LLMs typically requires deep understanding of neural network training, including weight initialization to prevent unstable gradients (e.g., Kaiming initialization), activation functions that enhance learning (like SwiGLU used in LLaMA), and efficient GPU programming (such as with Triton, a Python-based language for writing custom compute kernels). The workshop teaches these concepts using intuitive Excel demonstrations and code, removing the mathematical complexity often associated with them.
+**Background**: A CLI proxy is an intermediary between command-line tools and remote servers, often used to modify or monitor requests. In the context of LLMs, tokens are the basic units of text that models process, and API providers charge per token. Reducing token count directly lowers costs and latency. The rtk tool targets common dev commands where token usage can be high.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Weight_initialization">Weight initialization - Wikipedia</a></li>
-<li><a href="https://medium.com/@s_boudefel/exploring-swiglu-the-activation-function-powering-modern-llms-9697f88221e7">Exploring SwiGLU : The Activation Function Powering Modern ...</a></li>
-<li><a href="https://triton-lang.org/main/index.html">Welcome to Triton’s documentation! — Triton documentation</a></li>
+<li><a href="https://github.com/rtk-ai/rtk">GitHub - rtk-ai/rtk: CLI proxy that reduces LLM token consumption by...</a></li>
+<li><a href="https://redis.io/blog/llm-token-optimization-speed-up-apps/">LLM Token Optimization: Cut Costs & Latency in 2026</a></li>
+<li><a href="https://en.wikipedia.org/wiki/CGI_proxy">CGI proxy</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM`, `#Tutorial`, `#Machine Learning`, `#Education`, `#Deep Learning`
+**Tags**: `#llm-tools`, `#developer-tools`, `#rust`, `#cost-optimization`, `#proxy`
 
 ---
 
 <a id="item-13"></a>
-## [DVD-JEPA: an open-source, fully-reproducible JEPA world model](https://www.reddit.com/r/MachineLearning/comments/1uatlzx/dvdjepa_an_opensource_fullyreproducible_jepa/) ⭐️ 7.0/10
+## [Google Hits 50% IPv6 Traffic](https://blog.apnic.net/2026/04/28/google-hits-50-ipv6/) ⭐️ 6.0/10
 
-DVD-JEPA is a minimal open-source implementation of a Joint-Embedding Predictive Architecture (JEPA) world model that learns structured representations from a simple bouncing logo video, predicting future latent states without pixel-level prediction, and demonstrates accurate logo tracking, dream-like video generation via an optional decoder, and anomaly detection with an 88× error spike on teleport events. It provides a clean, reproducible demonstration of JEPA's core idea—predicting representations rather than pixels—which is a key direction for building more efficient world models and self-supervised learning systems, potentially impacting fields like robotics and autonomous systems. The model uses 32-dimensional latent space, trains only MLPs, and runs client-side in the browser with ~40 lines of JavaScript. It recovers logo position within 0.73 pixels via linear probe, rolls out future frames for ~20 steps before latent drift, and detects teleport anomalies with an 88× surprise spike on the exact frame.
+Google's IPv6 traffic has reached the 50% milestone, marking a steady increase in adoption. This milestone reflects a significant shift toward the next-generation protocol, but persistent ISP and platform support gaps delay full IPv6 transition. Despite Google's progress, many ISPs like Virgin Media and T-Mobile Netherlands lack IPv6 support, and platforms like GitHub remain IPv4-only, necessitating transition mechanisms like NAT64.
 
-reddit · r/MachineLearning · /u/NielsRogge · Jun 20, 10:52
+hackernews · barqawiz · Jun 21, 08:21 · [Discussion](https://news.ycombinator.com/item?id=48616800)
 
-**Background**: JEPA, proposed by Yann LeCun, is a self-supervised architecture that predicts in an abstract representation space rather than at the pixel level, allowing the model to discard unpredictable details. It has been implemented in models like I-JEPA (for images) and V-JEPA (for video). World models aim to learn an internal representation of an environment from sensory data, enabling prediction and planning.
+**Background**: IPv6 is the latest Internet Protocol, designed to replace IPv4 due to address exhaustion. It uses 128-bit addresses, vastly expanding the address space, and offers improved routing and configuration. Adoption has been gradual, with many networks still dependent on IPv4 and transition technologies.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2301.08243">[2301.08243] Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture</a></li>
-<li><a href="https://www.turingpost.com/p/jepa">What is Joint Embedding Predictive Architecture (JEPA)?</a></li>
-<li><a href="https://ai.meta.com/blog/yann-lecun-ai-model-i-jepa/">I-JEPA: The first AI model based on Yann LeCun’s vision for more human-like AI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/IPv6">IPv6</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#machine-learning`, `#jepa`, `#world-models`, `#representation-learning`, `#self-supervised-learning`
+**Discussion**: Hacker News commenters shared anecdotes of lacking IPv6 support from ISPs, GitHub, and Ubiquiti gateways. Some noted ISPs profit from static IPv4 address fees, reducing incentive to adopt IPv6. Pure IPv6 setups remain impractical due to these gaps.
+
+**Tags**: `#IPv6`, `#adoption`, `#Google`, `#networking`, `#ISP`
 
 ---
 
 <a id="item-14"></a>
-## [An Open Handbook for LLM Inference Optimization at Scale](https://www.reddit.com/r/MachineLearning/comments/1uavduv/an_open_handbook_on_llm_inference_at_scale_gpu/) ⭐️ 7.0/10
+## [Agent-Reach CLI Lets AI Agents Access Social Media Free](https://github.com/Panniantong/Agent-Reach) ⭐️ 6.0/10
 
-A new open handbook on optimizing large language model inference at scale is being developed, covering GPU execution, memory bottlenecks, KV cache, batching, and popular serving frameworks like vLLM and SGLang. It is a work-in-progress personal learning project with the latest chapter added on GPU execution and memory internals. This handbook provides a practical, accessible resource for engineers to understand and optimize LLM inference, tackling real-world bottlenecks like GPU underutilization and memory constraints. By demystifying key internals and frameworks, it can help accelerate the deployment of efficient, cost-effective LLM serving. The handbook includes mermaid diagrams to illustrate GPU execution flow and memory hierarchy, specifically explaining why GPUs often remain idle during inference and how memory constraints limit throughput. It references major serving frameworks like vLLM, SGLang, and TensorRT-LLM, and the author actively seeks feedback from production practitioners.
+Agent-Reach is a newly trending open-source Python CLI tool that enables AI agents to search and read content from multiple social media platforms like Twitter, Reddit, YouTube, GitHub, Bilibili, and XiaoHongShu, entirely without API fees. It eliminates the cost and complexity of using official social media APIs, making it cheaper and easier for developers to build AI agents that rely on real-time web and social data, which could accelerate innovation in agent-based applications. Agent-Reach installs and manages upstream scraping tools for each platform via a CLI and agent skill interface, but it relies on web scraping which may be brittle and violate platform terms of service. The project is very early-stage with only 6 forks and no pull requests.
 
-reddit · r/MachineLearning · /u/YouFirst295 · Jun 20, 12:27
+ossinsight · Panniantong · Jun 21, 17:26
 
-**Background**: In LLM inference, the KV cache stores key and value vectors from previous tokens to avoid recomputation, greatly speeding up generation. vLLM and SGLang are high-performance serving engines that manage this cache and batching efficiently. GPU memory hierarchy (like HBM and SRAM) is critical because large model weights and KV caches must fit, often causing memory-bound bottlenecks.
+**Background**: AI agents are autonomous programs that perceive their environment and take actions. A CLI (Command-Line Interface) is a text-based way to interact with software. Web scraping extracts data from websites without official APIs. Platforms like Twitter, Reddit, and Bilibili typically require paid API access, and scraping can be an alternative though it may violate terms of service.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://magazine.sebastianraschka.com/p/coding-the-kv-cache-in-llms">Understanding and Coding the KV Cache in LLMs from Scratch</a></li>
-<li><a href="https://lzwjava.github.io/vllm-serving-llm-en">vLLM : High-Performance LLM Serving</a></li>
-<li><a href="https://github.com/sgl-project/sglang">GitHub - sgl-project/sglang: SGLang is a high-performance serving framework for large language models and multimodal models. · GitHub</a></li>
+<li><a href="https://a2a-mcp.org/entry/a">Agent Reach Directory: CLI and Agent Skill for Web Access | a2a mcp</a></li>
+<li><a href="https://pyshine.com/Agent-Reach-AI-Agent-Internet-Search-Tool/">Agent - Reach : Give Your AI Agent Eyes to Search the Entire... | PyShine</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM inference`, `#GPU optimization`, `#handbook`, `#deep learning systems`, `#vLLM`
+**Tags**: `#AI agents`, `#web scraping`, `#CLI tool`, `#social media`, `#open-source`
 
 ---
 
 <a id="item-15"></a>
-## [minFLUX: Minimal Open-Source FLUX Implementation for Easier Study](https://www.reddit.com/r/MachineLearning/comments/1ub1db3/studying_flux_in_diffusers_library_was_hard_so_i/) ⭐️ 7.0/10
+## [LLM-Powered Stock Analysis for A/H/US Markets](https://github.com/ZhuLinsen/daily_stock_analysis) ⭐️ 6.0/10
 
-A researcher created minFLUX, a minimal open-source PyTorch implementation of FLUX diffusion models, to simplify studying the complex diffusers library. It reveals that FLUX.2 is not just a scaled-up FLUX.1, with improvements in transformer blocks, modulation, and VAE normalization. By providing a stripped-down, educational codebase, minFLUX lowers the barrier to understanding state-of-the-art diffusion models like FLUX.1 and FLUX.2, which are pivotal in high-quality text-to-image generation. The implementation includes flow matching training with velocity MSE loss and Euler ODE inference, with line-by-line mappings to HuggingFace diffusers. Notable architectural differences in FLUX.2 include improved transformer blocks, modulation, feed-forward networks, VAE normalization, and position IDs.
+A new LLM-powered system analyzes A/H/US stocks with multi-source data and dashboards. It gained 29 GitHub stars in 24 hours. It makes AI-driven stock analysis accessible to retail investors with automated, zero-cost multi-market insights. Built in Python, it uses real-time news and multi-source data, with dashboards, push notifications, and free scheduled runs.
 
-reddit · r/MachineLearning · /u/Other-Eye-8152 · Jun 20, 16:50
+ossinsight · ZhuLinsen · Jun 21, 17:26
 
-**Background**: FLUX is a family of text-to-image diffusion models developed by Black Forest Labs, known for high-quality generation. The HuggingFace diffusers library provides standard implementations of diffusion models but can be complex for study due to its abstractions. Flow matching is a recent training paradigm for continuous normalizing flows that avoids simulating the ODE during training, using velocity prediction.
+**Background**: A-shares are Chinese mainland stocks, H-shares are Hong Kong-listed Chinese stocks, and US markets refer to American exchanges. LLMs (large language models) like GPT-4 can process financial text. This project combines these to offer automated stock dashboards and analysis.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Flux_(text-to-image_model)">Flux (text-to-image model) - Wikipedia</a></li>
-<li><a href="https://github.com/huggingface/diffusers">GitHub - huggingface/diffusers: 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.</a></li>
-<li><a href="https://arxiv.org/abs/2210.02747">[2210.02747] Flow Matching for Generative Modeling - arXiv.org</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#diffusion models`, `#generative models`, `#open source`, `#computer vision`, `#tutorial`
+**Tags**: `#llm`, `#stock-analysis`, `#python`, `#github-trending`, `#finance`
 
 ---
 
 <a id="item-16"></a>
-## [Global PM2.5 Forecaster Overcomes Variance Trap with Horizon-Decoupled AR](https://www.reddit.com/r/MachineLearning/comments/1uar4vc/built_a_global_aq_pm25_forecaster_ml_model_p/) ⭐️ 7.0/10
+## [Anthropic Cybersecurity Skills Repository Gains Traction](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) ⭐️ 6.0/10
 
-An end-to-end PM2.5 forecasting pipeline was built and its gradient boosting model was improved by replacing standard recursive autoregression with horizon-decoupled lag vectors and rolling volatility features, reducing MASE below 1.0 in high-variance regions like India and the UK. This method enables reliable long-horizon air quality forecasts in regions that previously defied ML models, critical for public health alerts and environmental policy. It demonstrates a practical architecture to mitigate compounding error in multi-step time series forecasting. The model engineered independent autoregressive features for each forecast horizon (1, 7, 14, 30 days) and introduced a 3-day rolling volatility matrix that stops at the inference boundary to prevent data leakage. Even at a 30-day horizon, it maintains 57% predictive accuracy over the chaotic thermodynamic baseline.
+A new open-source repository offers 754 structured cybersecurity skills for AI agents, mapped to industry frameworks like MITRE ATT&CK and NIST CSF 2.0, and compatible with platforms such as Claude Code and GitHub Copilot. It addresses the growing need for AI agents to perform cybersecurity tasks in a standardized way, potentially improving security automation and interoperability across tools. The skills are structured according to the agentskills.io standard, cover 26 security domains, and are released under the Apache 2.0 license.
 
-reddit · r/MachineLearning · /u/Divyanshailani · Jun 20, 08:20
+ossinsight · mukul975 · Jun 21, 17:26
 
-**Background**: MASE (Mean Absolute Scaled Error) compares a model's forecast error to that of a naive baseline; a MASE > 1 means the model is worse than a simple carryover guess. Rolling volatility is a moving window measure of variance, often used in finance to track changing risk. In time series forecasting, recursive autoregressive models can suffer from error compounding across horizons, especially in volatile environments.
+**Background**: MITRE ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge) is a globally recognized framework categorizing cyberattack methods. NIST Cybersecurity Framework (CSF) 2.0 provides guidelines for managing cybersecurity risks. The agentskills.io standard, originally created by Anthropic, enables interoperable skill definitions for AI agents.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Mean_absolute_scaled_error">Mean absolute scaled error - Wikipedia</a></li>
-<li><a href="https://insightful-data-lab.com/2025/08/19/mase-mean-absolute-scaled-error/">MASE (Mean Absolute Scaled Error) – Your Gateway to Data Mastery</a></li>
-<li><a href="https://metricgate.com/docs/rolling-volatility/">Rolling Volatility Analysis Calculator | MetricGate</a></li>
+<li><a href="https://en.wikipedia.org/wiki/ATT&CK">ATT&CK - Wikipedia</a></li>
+<li><a href="https://www.nist.gov/cyberframework">Cybersecurity Framework | NIST</a></li>
+<li><a href="https://github.com/agentskills/agentskills">GitHub - agentskills/agentskills: Specification and ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#machine learning`, `#time series forecasting`, `#air quality`, `#gradient boosting`, `#autoregressive model`
+**Tags**: `#cybersecurity`, `#AI-agents`, `#open-source`, `#MITRE-ATT&CK`, `#NIST`
 
 ---
 
 <a id="item-17"></a>
-## [High-Performance MCP Server Indexes Codebases into Knowledge Graph](https://github.com/DeusData/codebase-memory-mcp) ⭐️ 7.0/10
+## [Real-time AI Dashboard for News, Geopolitics, and Infrastructure](https://github.com/koala73/worldmonitor) ⭐️ 6.0/10
 
-A new GitHub repository, DeusData/codebase-memory-mcp, offers an MCP server that indexes entire codebases into a persistent knowledge graph, achieving sub-millisecond queries and reducing token usage by 99%. It supports 158 programming languages and runs as a single static binary with zero dependencies. This tool could significantly enhance AI-assisted development by giving coding assistants fast, low-latency access to project context, slashing token consumption and latency. It directly tackles a major bottleneck in integrating large codebases with AI. Written in C, the server delivers sub-ms queries and claims 99% token savings versus full-code transmission. Caution is warranted: the project has no community discussion or proven track record yet, only early star activity.
+The open-source project 'koala73/worldmonitor' has gained 22 stars in 24 hours, offering a TypeScript real-time dashboard that uses AI for news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface. It provides a free, open-source tool for global situational awareness, empowering researchers, analysts, and hobbyists with AI-driven monitoring capabilities without commercial costs. The dashboard is implemented in TypeScript and leverages AI for aggregating and analyzing news, geopolitical events, and infrastructure status, though specifics on AI models or data sources are not detailed.
 
-ossinsight · DeusData · Jun 21, 04:04
+ossinsight · koala73 · Jun 21, 17:26
 
-**Background**: MCP (Model Context Protocol) is an open standard that lets AI applications connect to external data and tools. In coding, MCP servers supply real-time project context to assistants. A knowledge graph structures information as interconnected entities, here used to model code symbols and their relations for efficient retrieval.
+**Background**: Situational awareness refers to the ability to perceive, comprehend, and project the status of events in time and space, critical for decision-making in defense and emergency management. Geopolitical monitoring involves tracking international relations, conflicts, and economic developments, while infrastructure tracking observes the health and performance of physical and digital systems.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol - Wikipedia</a></li>
-<li><a href="https://modelcontextprotocol.io/">What is the Model Context Protocol ( MCP )? - Model Context Protocol</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Situation_awareness">Situation awareness - Wikipedia</a></li>
+<li><a href="https://www.geopoliticalmonitor.com/">Geopolitical Monitor</a></li>
+<li><a href="https://www.gartner.com/reviews/market/infrastructure-monitoring-tools">Best Infrastructure Monitoring Tools Reviews... | Gartner Peer Insights</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#mcp`, `#code-intelligence`, `#knowledge-graph`, `#c`, `#developer-tools`
-
----
-
-<a id="item-18"></a>
-## [TownSquare: Lightweight Presence Layer for Real-Time Chat](https://townsquare.cauenapier.com/) ⭐️ 6.0/10
-
-TownSquare is an open-source JavaScript library that adds a shared chat and cursor presence layer to websites, enabling real-time interaction among visitors. This tool can transform static websites into interactive social spaces, potentially increasing user engagement and fostering community, though content moderation remains a key challenge. The library is lightweight and enables real-time chat and cursor visibility, but faces issues with moderation and offensive behavior, as seen in live demos.
-
-hackernews · cauenapier · Jun 20, 11:55 · [Discussion](https://news.ycombinator.com/item?id=48608570)
-
-**Background**: A presence layer in web development refers to a script that makes visitors' actions, like cursor movements or messages, visible to others in real time. Similar projects include Matt Webb's Cursor Party, which also shared cursor positions among visitors.
-
-**Discussion**: The HN discussion was lively, with participants finding the concept fun and engaging. However, many noted offensive behavior in the demo, and moderation concerns were a major topic. Some compared it to earlier projects like Cursor Party, while others shared their own similar implementations.
-
-**Tags**: `#web development`, `#real-time chat`, `#presence`, `#show hn`, `#community`
-
----
-
-<a id="item-19"></a>
-## [F-15 Strike Eagle II Reversing Project Seeks DOS Test Pilots](https://neuviemeporte.github.io/f15-se2/2026/06/20/needyou.html) ⭐️ 6.0/10
-
-The reverse engineering project for the DOS game 'F-15 Strike Eagle II' is seeking testers to help identify bugs as it converts the game's code from assembly to binary-identical C. The project aims to eventually port the game to modern platforms. This effort goes beyond emulation by enabling native ports to Linux and Windows, preserving the game in a more accessible form. It also fosters discussion on software preservation methods. The project requires the original game files (version 451.03) and uses a multi-step process: first reverse to assembler, then to C, testing on DOS before porting. Reversing may introduce new bugs.
-
-hackernews · LowLevelMahn · Jun 20, 15:10 · [Discussion](https://news.ycombinator.com/item?id=48609766)
-
-**Background**: Reverse engineering involves analyzing software to understand its inner workings. Decompilation converts executable code back into a high-level language like C, often imperfectly. Emulation mimics old hardware to run original code, but decompilation allows modification and native execution on modern systems, enhancing compatibility and preservation.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Reverse_engineering">Reverse engineering</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Decompilation">Decompilation</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Emulator">Emulator - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters debated the value of decompilation versus emulation, with some noting that emulation already works perfectly for this DOS game. Others highlighted that decompilation makes porting trivial and opens doors for enhancements. The use of AI to infer structure in decompiled code was also briefly mentioned.
-
-**Tags**: `#reverse-engineering`, `#dos-games`, `#software-preservation`, `#retrocomputing`, `#assembly`
-
----
-
-<a id="item-20"></a>
-## [Show HN: StartupWiki – A Free Alternative to Crunchbase](https://startupwiki.tech/) ⭐️ 6.0/10
-
-A developer launched StartupWiki, a free, early-stage startup database offering Wikipedia-like access to company profiles without accounts or subscriptions. It currently includes search, filtering, categorization, and an in-progress public API. It addresses the common pain point of paywalled and account-gated startup databases, offering a freely accessible alternative. This could lower barriers for researchers, investors, and founders seeking company information. The database currently has limited startup coverage and lacks robust verification; its 'VERIFIED' badges do not link to provenance. An API is under development, and data sourcing methods are still evolving.
-
-hackernews · shpran · Jun 20, 15:59 · [Discussion](https://news.ycombinator.com/item?id=48610224)
-
-**Background**: Show HN is a Hacker News section where users share projects for community feedback. Crunchbase is a widely used platform providing company information, often requiring paid subscriptions for advanced features. StartupWiki aims to replicate similar data access with a free, open model inspired by Wikipedia.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://news.ycombinator.com/showhn.html">Show HN Guidelines</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Crunchbase">Crunchbase - Wikipedia</a></li>
-<li><a href="https://www.crunchbase.com/">Crunchbase</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Comments were generally supportive, praising the concept but highlighting gaps in startup coverage and verification. Suggestions included scraping Y Combinator portfolios, adding founder university details, implementing a voluntary 'startup.txt' standard, and using OAuth with OpenRouter. Users questioned the reliability of the 'VERIFIED' badge without provenance links.
-
-**Tags**: `#startup database`, `#Show HN`, `#free alternative`, `#company research`, `#API`
-
----
-
-<a id="item-21"></a>
-## [Debate: Should ML PhD Students Graduate Without Top-tier Papers?](https://www.reddit.com/r/MachineLearning/comments/1uazlhg/would_you_let_an_ml_phd_student_graduate_without/) ⭐️ 6.0/10
-
-A Reddit discussion thread asks whether a machine learning PhD advisor should allow a student with solid work but no top-tier publications to graduate. This discussion reflects the ongoing tension in the ML academic community between publication quantity, venue prestige, and the actual quality of research. The hypothetical student has been in the program for 4 years, has 3 first-author A-level papers, but no publications at top-tier venues like NeurIPS, ICML, ICLR, or CVPR, along with a solid thesis.
-
-reddit · r/MachineLearning · /u/Hope999991 · Jun 20, 15:36
-
-**Background**: In computing research, conferences are often ranked by systems like CORE, with A* being the highest tier. Top ML conferences such as NeurIPS, ICML, and ICLR are considered A* venues, known for high selectivity and prestige. An A-level paper is still good but below top-tier. The debate highlights differing views on whether PhD success should be measured by a few top papers or a broader body of work.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.core.edu.au/conference-portal">CORE Rankings Portal - core.edu.au</a></li>
-<li><a href="https://www.conferencelists.com/conference-rankings-core-qualis-era/">2026 Conference Rankings | CORE, Qualis & ERA Search Tool</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#machine learning`, `#academia`, `#PhD`, `#publication`, `#discussion`
-
----
-
-<a id="item-22"></a>
-## [Ponytail: AI Agents Code Less, Like Lazy Senior Devs](https://github.com/DietrichGebert/ponytail) ⭐️ 6.0/10
-
-The GitHub repo DietrichGebert/ponytail, a JavaScript tool that coaxes AI coding agents into producing minimal code by simulating a lazy senior developer mindset, gained 56 stars in 24 hours. It underscores a common frustration with AI-generated code bloat and advocates for conciseness, potentially leading to more efficient and maintainable software. The tool is written in JavaScript and likely functions as a prompt or configuration tweak for existing AI coding assistants, nudging them to prioritize shorter solutions.
-
-ossinsight · DietrichGebert · Jun 21, 04:04
-
-**Background**: AI coding assistants like GitHub Copilot and Cursor have been widely adopted but often produce verbose or over-engineered code. The 'lazy senior developer' is a meme that celebrates engineers who find the simplest, most elegant solution with minimal code. Ponytail taps into this sentiment, aiming to make AI agents value brevity and simplicity.
-
-**Tags**: `#AI`, `#developer-tools`, `#JavaScript`, `#code-generation`, `#humor`
+**Tags**: `#AI`, `#dashboard`, `#TypeScript`, `#monitoring`, `#open-source`
 
 ---
 
