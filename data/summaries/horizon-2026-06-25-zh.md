@@ -1,469 +1,476 @@
 # Horizon 每日速递 - 2026-06-25
 
-> 从 38 条内容中筛选出 21 条重要资讯。
+> 从 40 条内容中筛选出 22 条重要资讯。
 
 ---
 
-1. [赫库兰尼姆古卷首次借助 AI 虚拟展开被完整阅读](#item-1) ⭐️ 10.0/10
-2. [Zig 新增字节序无关的 bitCast 及 LLVM 后端改进](#item-2) ⭐️ 8.0/10
-3. [《半条命 2》已通过 WebAssembly 移植至浏览器](#item-3) ⭐️ 8.0/10
-4. [Deno 2.9 利用 AI 辅助开发提升 Node.js 兼容性](#item-4) ⭐️ 8.0/10
-5. [LastPass 因供应商遭攻击再陷数据泄露](#item-5) ⭐️ 8.0/10
-6. [Cloudflare 推出面向所有人的自管理 OAuth 服务](#item-6) ⭐️ 8.0/10
-7. [注意力沉陷与表征坍塌源于范数盲路由](#item-7) ⭐️ 8.0/10
-8. [将代理工作流编译至 LLM 权重，以百倍低成本实现接近前沿的品质](#item-8) ⭐️ 8.0/10
-9. [Hacker News 版 Google Trends：索引 18 年评论数据](#item-9) ⭐️ 7.0/10
-10. [Anthropic 指控阿里巴巴非法提取 Claude AI 模型能力](#item-10) ⭐️ 7.0/10
-11. [开源智能视频制作系统 OpenMontage 单日获 103 星](#item-11) ⭐️ 7.0/10
-12. [新 MCP 服务器将代码库索引为知识图谱，助力大模型](#item-12) ⭐️ 7.0/10
-13. [苹果因存储芯片涨价上调 MacBook 和 iPad 价格](#item-13) ⭐️ 6.0/10
-14. [Simon Willison 基于 MDN 浏览器兼容数据创建 SQLite 数据库](#item-14) ⭐️ 6.0/10
-15. [LLM 生成的求职申请导致意外匿名化](#item-15) ⭐️ 6.0/10
-16. [为 LLM 设计的专用编程语言：提升代码生成的新思路](#item-16) ⭐️ 6.0/10
-17. [MuJoFil：结合 Newton 物理与 Filament 渲染的 GPU 原生视觉 RL 模拟器](#item-17) ⭐️ 6.0/10
-18. [HDD-RoPE：高维动态旋转位置嵌入](#item-18) ⭐️ 6.0/10
-19. [Agent-Reach：无 API 费用的 CLI 工具，让 AI 代理访问网络内容](#item-19) ⭐️ 6.0/10
-20. [LLM 驱动的股票分析工具在 GitHub 上获关注](#item-20) ⭐️ 6.0/10
-21. [Headroom 压缩 LLM 输入，减少 60-95%的 token 消耗](#item-21) ⭐️ 6.0/10
+1. [首次利用 AI 完整读取赫库兰尼姆古卷](#item-1) ⭐️ 10.0/10
+2. [NVIDIA 发布扩散语言模型 Nemotron-TwoTower-30B-A3B](#item-2) ⭐️ 9.0/10
+3. [Zig 引入端序无关的 bitCast 语义与 LLVM 后端改进](#item-3) ⭐️ 8.0/10
+4. [为 Hacker News 18 年评论打造的趋势分析工具](#item-4) ⭐️ 8.0/10
+5. [OpenKnowledge：开源 AI 知识库，替代 Obsidian/Notion](#item-5) ⭐️ 7.0/10
+6. [OS9Map：为经典 Mac OS 9 打造的仅需 16MB 内存的现代地图应用](#item-6) ⭐️ 7.0/10
+7. [传闻苹果将跳过 M6 Pro/Max 芯片，加速 M7 以提升端侧 AI](#item-7) ⭐️ 7.0/10
+8. [Ornith-1.0 系列开源编程模型发布，号称 SOTA](#item-8) ⭐️ 7.0/10
+9. [为何大语言模型未能快速缩小 AMD 与 Intel 对 CUDA 的差距](#item-9) ⭐️ 7.0/10
+10. [LFM2.5 230M 模型通过定制 WebGPU 在浏览器内达 1,400 tok/s](#item-10) ⭐️ 7.0/10
+11. [在双 RTX 5090 GPU 上运行 GLM 5.2 与 Unsloth 量化](#item-11) ⭐️ 7.0/10
+12. [回溯采样器与验证器大幅提升 0.5B 微型编程模型性能](#item-12) ⭐️ 7.0/10
+13. [Anthropic 指控阿里巴巴非法提取其 AI 模型能力](#item-13) ⭐️ 7.0/10
+14. [开源智能视频制作系统 OpenMontage 走红](#item-14) ⭐️ 7.0/10
+15. [苹果大幅上调 MacBook 和 iPad 售价](#item-15) ⭐️ 6.0/10
+16. [免费医疗 RAG API 提升本地 LLM 准确性](#item-16) ⭐️ 6.0/10
+17. [AI 驱动的逆向工程与渗透测试技能路由包](#item-17) ⭐️ 6.0/10
+18. [Agent-Reach：让 AI 代理无需 API 费用即可搜索网络](#item-18) ⭐️ 6.0/10
+19. [基于 LLM 的多市场股票分析工具在 GitHub 上获关注](#item-19) ⭐️ 6.0/10
+20. [stablyai/orca：开源并行编码代理开发环境崭露头角](#item-20) ⭐️ 6.0/10
+21. [AI 网站克隆模板获 GitHub 关注](#item-21) ⭐️ 6.0/10
+22. [DeusData/codebase-memory-mcp：高效代码库索引 MCP 服务器](#item-22) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [赫库兰尼姆古卷首次借助 AI 虚拟展开被完整阅读](https://scrollprize.org/firstscroll) ⭐️ 10.0/10
+## [首次利用 AI 完整读取赫库兰尼姆古卷](https://scrollprize.org/firstscroll) ⭐️ 10.0/10
 
-首次，一卷碳化的赫库兰尼姆古卷（PHerc. 172）被数字化展开并阅读，揭示了超过 20 栏的希腊哲学文本内容。 这一突破证明 AI 能以非破坏性方式恢复大量失传的古代文本，可能打开唯一完整存世的古代图书馆，从而彻底改变古典学研究。 通过高分辨率 X 射线断层扫描、机器学习分割图层、虚拟展开和墨水检测 AI，该古卷的 22 栏文字由莎草纸学家转录审校，揭示了一部伊壁鸠鲁派哲学家斐洛德穆斯的作品。
+通过机器学习和计算机视觉，研究者首次完整地虚拟展开并阅读了一卷碳化的赫库兰尼姆古卷，揭示了古希腊哲学文本。 这一突破证明，受损无法阅读的古文本可在无需物理接触的情况下复原，有望解锁无数失传作品，彻底改变考古学和数字人文学科。 该古卷来自赫库兰尼姆的纸莎草别墅，于公元 79 年被维苏威火山掩埋。文本可能是菲洛德穆斯的哲学著作，通过“维苏威挑战”竞赛实现读取。
 
 hackernews · verditelabs · 6月25日 15:48 · [社区讨论](https://news.ycombinator.com/item?id=48675179)
 
-**背景**: 赫库兰尼姆古卷是公元 79 年维苏威火山喷发时被掩埋的 1800 多卷碳化莎草纸，构成了唯一完整存世的古代图书馆。物理展开会毁坏它们，因此开发了虚拟展开技术——一种利用 3D 扫描和计算展平的非破坏性方法。维苏威挑战赛是一项旨在利用 AI 阅读这些古卷的竞赛。
+**背景**: 赫库兰尼姆纸莎草古卷是 18 世纪发现的逾 1800 卷碳化古卷，是古典时代唯一完整保存的图书馆。物理展开会毁灭它们，研究者长期以来开发了 CT 扫描和 AI 等非侵入技术。此前仅解码过零散片段，这是首次读取整卷。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Herculaneum_scrolls">Herculaneum scrolls</a></li>
-<li><a href="https://scrollprize.org/firstscroll">An entire Herculaneum scroll has been read for the first time</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Virtual_unfolding">Virtual unfolding - Wikipedia</a></li>
+<li><a href="https://www.neh.gov/news/students-decipher-2000-year-old-herculaneum-scrolls">Students Decipher 2,000-Year-Old Herculaneum Scrolls | National Endowment for the Humanities</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者们对时间跨度表示惊叹，对翻译中的语气差异感到好奇，并对 AI 在恢复古代文本方面的潜力表达了兴奋之情，维苏威挑战赛团队成员也直接参与了讨论。
+**社区讨论**: 评论者惊叹于历史的延续和技术的正面应用，指出可能还有更多古卷埋藏于地下，并设想未来世代解码我们的媒体。一位团队成员主动提供答疑。
 
-**标签**: `#AI`, `#archaeology`, `#digital-humanities`, `#image-processing`, `#historical-texts`
+**标签**: `#archaeology`, `#machine-learning`, `#digital-humanities`, `#breakthrough`, `#history`
 
 ---
 
 <a id="item-2"></a>
-## [Zig 新增字节序无关的 bitCast 及 LLVM 后端改进](https://ziglang.org/devlog/2026/#2026-06-25) ⭐️ 8.0/10
+## [NVIDIA 发布扩散语言模型 Nemotron-TwoTower-30B-A3B](https://www.reddit.com/r/LocalLLaMA/comments/1uf4azy/nvidia_has_released/) ⭐️ 9.0/10
 
-Zig 语言引入了新的字节序无关的 @bitCast 语义，它基于逻辑位表示进行操作，确保在所有目标上行为一致，同时还有针对任意宽度整数的 LLVM 后端改进。 这一变化消除了低级代码中的字节序错误，简化了位操作，使 Zig 在数据布局至关重要的系统编程中更加可靠。 新的 @bitCast 语义按逻辑位表示处理值，因此从 [2]u8 到 u16 的转换现在在大端和小端系统上行为相同。LLVM 后端改进更好地支持任意宽度整数，如 u4 或 i13，直接映射到 LLVM 的位整数类型。
+NVIDIA 发布了 Nemotron-TwoTower-30B-A3B-Base-BF16，这是一款新颖的扩散语言模型，通过冻结的自回归上下文塔和扩散去噪塔并行生成 token，吞吐量达到自回归基线的 2.42 倍。 该模型标志着从顺序自回归生成向并行扩散的潜在范式转变，在保持基线 98.7% 质量的同时大幅提升推理速度，有望降低大语言模型部署的延迟和成本。 该模型基于 Nemotron 3 Nano 30B-A3B 骨干网络，TwoTower 架构采用冻结的自回归塔处理上下文，扩散去噪塔迭代填充被掩码的 token 块，默认掩码扩散设置实现了 2.42 倍的实际生成吞吐量。
 
-hackernews · kouosi · 6月25日 14:19 · [社区讨论](https://news.ycombinator.com/item?id=48673825)
+reddit · r/LocalLLaMA · /u/nikhilprasanth · 6月25日 08:34
 
-**背景**: 字节序决定了多字节值在内存中的字节顺序。Zig 的 @bitCast 将值的底层位重新解释为另一种类型。以前，此操作在大端和小端机器上可能产生不同结果，导致可移植性问题。LLVM 编译器基础设施为 Zig 提供后端以生成机器代码，其位整数类型能高效处理非标准宽度的整数。
+**背景**: 扩散语言模型（DLM）是自回归生成的一种替代方案，它通过对掩码 token 进行迭代去噪来生成文本，而非按顺序从左到右预测 token。这种方法允许并行生成 token，有望提升效率。NVIDIA 的 TwoTower 架构将冻结的自回归组件用于上下文，与用于去噪的扩散组件相结合，融合了两种范式。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://ziglang.org/devlog/2026/?2026-06-25">Devlog Zig Programming Language</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Endianness">Endianness - Wikipedia</a></li>
+<li><a href="https://huggingface.co/nvidia/Nemotron-TwoTower-30B-A3B-Base-BF16">nvidia/ Nemotron - TwoTower -30B-A3B-Base-BF16 · Hugging Face</a></li>
+<li><a href="https://arxiv.org/abs/2508.10875">[2508.10875] A Survey on Diffusion Language Models - arXiv.org Awesome Diffusion Language Models - GitHub What are Diffusion Language Models? | Xiaochen Zhu Gemini Diffusion — Google DeepMind Large Language Diffusion Models</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区成员广泛赞扬了开发日志的深度和这一变化的实际好处。有人指出它极大地简化了处理打包二进制数据的工作，还有人表达了对技术严谨性的热情。一位评论者质疑相比手动打包，任意宽度整数是否值得额外的复杂性，但总体情绪非常积极。
-
-**标签**: `#zig`, `#systems-programming`, `#llvm`, `#language-design`, `#bit-manipulation`
+**标签**: `#NVIDIA`, `#diffusion models`, `#language model`, `#LLM`, `#generative AI`
 
 ---
 
 <a id="item-3"></a>
-## [《半条命 2》已通过 WebAssembly 移植至浏览器](https://hl2.slqnt.dev/) ⭐️ 8.0/10
+## [Zig 引入端序无关的 bitCast 语义与 LLVM 后端改进](https://ziglang.org/devlog/2026/#2026-06-25) ⭐️ 8.0/10
 
-开发者将经典第一人称射击游戏《半条命 2》通过 WebAssembly 技术完整移植到网页浏览器中，无需本地安装即可游玩。 这表明复杂的 3A 大作可通过 Web 技术实现跨平台无障碍访问，克服操作系统兼容性问题和硬件限制，对游戏保存具有重要意义。 该移植版本缺失了一些视觉效果，如角色眼睛的着色器，渲染精度不如 noclip.website 等专业工具，社区讨论中有所提及。
+Zig 最新开发日志公布了新的 bitCast 语义，无论端序如何都能保证一致的逻辑位表示，同时对 LLVM 后端进行了多项改进。 这一改变消除了低层级位重新解释中的平台特定行为，使系统代码更可预测，并简化了在不同架构上处理打包二进制数据的工作。 新语义完全基于逻辑位定义 bitCast，例如将 [2]u8 转换为 u16 时，在大端和小端目标上行为一致，但依赖旧有端序相关行为的现有代码可能失效。
 
-hackernews · panza · 6月25日 06:00 · [社区讨论](https://news.ycombinator.com/item?id=48669534)
+hackernews · kouosi · 6月25日 14:19 · [社区讨论](https://news.ycombinator.com/item?id=48673825)
 
-**背景**: WebAssembly（Wasm）是一种低级二进制指令格式，可在现代浏览器中以接近原生的速度运行，允许将 C++等语言编写的代码编译到 Web。2004 年发布的《半条命 2》是 Valve 推出的里程碑式射击游戏，以其先进的物理和图形著称。传统上需在 Windows PC 或游戏机上运行，但此移植利用 Wasm 使游戏在浏览器中完整运行。
+**背景**: Zig 是一种注重简洁和性能的系统编程语言。内置函数 @bitCast 可将一种类型的位模式直接重新解释为另一种类型。端序指多字节值的字节顺序，不同架构有不同约定（如 x86 为小端，网络协议为大端）。LLVM 是一种编译器基础设施，Zig 将其用作生成本地代码的后端之一。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/WebAssembly">WebAssembly</a></li>
+<li><a href="https://www.openmymind.net/Zigs-bitCast/">Zig's @bitCast</a></li>
+<li><a href="https://news.ycombinator.com/item?id=48673825">Zig's New BitCast Semantics and LLVM Back End Improvements | Hacker News</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区赞赏这一技术成就，将其与 Quake 3 和 Doom 等其他浏览器移植版本进行比较。有人指出缺失的着色器和较低的视觉保真度，也有人强调其绕开 macOS 32 位限制、确保游戏在任何设备上‘无法屏蔽’的实用价值。
+**社区讨论**: 社区反应大多正面，称赞打包二进制数据处理得到改善、技术解释很有深度。但也有评论者批评新的 bitCast 语义可能是个错误，并对任意宽度整数的实用性提出质疑。
 
-**标签**: `#webassembly`, `#game-porting`, `#retro-gaming`, `#browser-technology`, `#portability`
+**标签**: `#zig`, `#compilers`, `#systems-programming`, `#llvm`, `#language-design`
 
 ---
 
 <a id="item-4"></a>
-## [Deno 2.9 利用 AI 辅助开发提升 Node.js 兼容性](https://deno.com/blog/v2.9) ⭐️ 8.0/10
+## [为 Hacker News 18 年评论打造的趋势分析工具](https://hackernewstrends.com/) ⭐️ 8.0/10
 
-Deno 2.9 发布，通过大量使用 AI（Claude）大幅改进了 Node.js 兼容性，但部分用户仍遇到迁移问题。 此版本让 Deno 对现有 Node.js 开发者更具吸引力，可能加速应用，并展示了 AI 如何应对庞大的兼容性挑战。 社区反馈显示仍存在边缘情况，如 vite 需要更新的 Node 版本，并且有用户观察到可能与 AI 生成代码相关的稳定性回归，但也有人创造性地将`deno compile`用于生产环境。
+新工具「Hacker News Trends」在 Show HN 发布，可探索 Hacker News 18 年来评论中的讨论趋势，类似评论版谷歌趋势，迅速获得 574 分和 138 条评论。 该工具通过评论文本分析技术社区的兴趣演变，为研究者、市场人员和 HN 用户发现长期趋势提供了独特视角。 该工具索引了 18 年的 HN 评论，但在高流量下出现服务器超时和数据库限流问题；另有漏洞导致某些多词对比的走势线在 2018-10 处截断。
 
-hackernews · enz · 6月25日 16:22 · [社区讨论](https://news.ycombinator.com/item?id=48675717)
+hackernews · ytkimirti · 6月25日 14:08 · [社区讨论](https://news.ycombinator.com/item?id=48673671)
 
-**背景**: Deno 是一个由 Node.js 创建者联合开发的现代 JavaScript/TypeScript 运行时，强调安全性和内置工具。其 Node.js 兼容模式旨在原生运行 npm 包。AI 辅助开发使用大语言模型（如 Claude）自动化编码任务，对于如此广泛的运行时集成是一种新方法。
+**背景**: Hacker News 是聚焦科技和创业的社交新闻网站，评论历史可追溯至 2007 年。谷歌趋势追踪搜索热度，而该工具类似地可视化 HN 讨论中词语的出现频率，更接近网页版的谷歌 Ngrams。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Deno_(software)">Deno (software) - Wikipedia</a></li>
-<li><a href="https://docs.deno.com/runtime/fundamentals/node/">Node and npm Compatibility | Deno Docs</a></li>
+**社区讨论**: 社区反馈积极，但指出稳定性问题（504/502 错误）。有人提及 ClickHouse 上已有的实时 HN 数据集，另有用户指出该工具追踪发布文本而非搜索，因此概念上与谷歌趋势不同。
 
-</ul>
-</details>
-
-**社区讨论**: 社区反响不一：有人赞赏进步和 Deno 的创造性使用，但也有人批评稳定性、过度依赖 AI 以及遗留的迁移障碍。
-
-**标签**: `#Deno`, `#JavaScript`, `#HackerNews`, `#Node.js compatibility`, `#AI-assisted development`
+**标签**: `#hackernews`, `#data-analysis`, `#trends`, `#opendata`, `#visualization`
 
 ---
 
 <a id="item-5"></a>
-## [LastPass 因供应商遭攻击再陷数据泄露](https://9to5mac.com/2026/06/23/lastpass-notifies-users-of-yet-another-data-breach/) ⭐️ 8.0/10
+## [OpenKnowledge：开源 AI 知识库，替代 Obsidian/Notion](https://github.com/inkeep/open-knowledge) ⭐️ 7.0/10
 
-LastPass 公告称，其市场调研供应商 Klue 遭攻击，导致客户业务联系信息（如姓名、电话和地址）遭泄露。 此次事件在 LastPass 屡遭安全事件后进一步削弱用户信任，并凸显第三方数据共享和供应链漏洞的风险。 泄露数据包括标准 CRM 和支持工单信息，如客户姓名、电话号码、邮件地址、实际地址和销售数据。其他受影响公司包括 Gong、Jamf、HackerOne 和 Snyk。
+OpenKnowledge 新发布了一款开源所见即所得 Markdown 编辑器，直接集成 Claude、Codex 和 Cursor，提供 macOS 应用和命令行界面。 它为开发者和团队提供免费、本地优先且开源的知识管理工具，避免供应商锁定；AI 集成简化了编码和文档流程，满足协作与隐私需求。 其核心技术包括 ProseMirror AST 与 Markdown 的无损双向转换，以及利用双观察者 CRDT 与 Git 实现实时协作；但当前仅支持 macOS，且未集成本地大语言模型。
 
-hackernews · mooreds · 6月25日 10:28 · [社区讨论](https://news.ycombinator.com/item?id=48671468)
+hackernews · engomez · 6月25日 16:04 · [社区讨论](https://news.ycombinator.com/item?id=48675435)
 
-**背景**: 供应链攻击是指通过攻击受信任的第三方供应商来危害其客户。在网络安全领域，这常表现为入侵服务提供商以获取客户数据。LastPass 作为广泛使用的密码管理器，近年来已遭遇多起事件，导致用户信心下滑。
+**背景**: Obsidian 和 Notion 是知名知识管理工具：前者基于本地 Markdown 文件，后者为云端。所见即所得编辑器直接展示格式化内容，不同于原始 Markdown。Claude 是 Anthropic 的 AI 助手，Codex 是 OpenAI 的编程智能体，Cursor 是 AI 代码编辑器。CRDT（无冲突复制数据类型）支持无冲突的实时协作。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Supply_chain_attack">Supply chain attack - Wikipedia</a></li>
-<li><a href="https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/supply-chain-attack/">What Is a Supply Chain Attack? - CrowdStrike</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_(AI)">Claude (AI) - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Codex_(AI_agent)">Codex (AI agent) - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cursor_(company)">Cursor (company) - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区普遍批评 LastPass 将客户数据交予市场调研公司的做法，并表达严重的信任问题。许多人建议改用 KeepassXC 等替代方案，并指出此次泄露波及众多其他企业，反映出对密码管理器安全的广泛不满。
+**社区讨论**: 社区反馈总体积极，称赞开源方式和基于 Git 的协作，但多位用户要求本地大语言模型支持和跨平台（尤其是 Android）可用性。部分人指出名称易与 Open Knowledge Foundation 混淆，并质疑为何仅集成特定 AI 助手。
 
-**标签**: `#cybersecurity`, `#data-breach`, `#supply-chain-attack`, `#LastPass`, `#password-management`
+**标签**: `#open-source`, `#markdown-editor`, `#AI-integration`, `#knowledge-management`, `#Show HN`
 
 ---
 
 <a id="item-6"></a>
-## [Cloudflare 推出面向所有人的自管理 OAuth 服务](https://blog.cloudflare.com/oauth-for-all/) ⭐️ 8.0/10
+## [OS9Map：为经典 Mac OS 9 打造的仅需 16MB 内存的现代地图应用](https://yllan.org/software/OS9Map/) ⭐️ 7.0/10
 
-Cloudflare 推出了自管理 OAuth 客户端，使开发者能够使用 OAuth 2.0 替代传统 API 令牌来集成应用程序与 Cloudflare。 此举简化了开发者的认证与授权流程，提升了安全性，并为更广泛的 Cloudflare 应用与集成生态系统奠定了基础。 自管理 OAuth 提供细粒度访问控制，是基于 OAuth 2.0 标准的一种更用户友好、更安全的 API 令牌替代方案。
+一款名为 OS9Map 的地图应用最近发布，面向经典 Mac OS 9 系统，仅需 16 MB 内存即可运行。它为这个几十年前的操作系统带来了现代地图功能。 这展现了极其高效的软件设计，与消耗大量内存的现代应用形成鲜明对比。它激励了复古计算社区，并证明了在老旧系统上构建实用工具的可能性。 关于底层技术的细节有限，但社区成员询问了有关 TLS、HTTP/2 和 Unicode 支持库的信息。该应用在 PowerPC 硬件上的经典 Mac OS 9 中运行。
 
-hackernews · terryds · 6月25日 02:18 · [社区讨论](https://news.ycombinator.com/item?id=48668033)
+hackernews · LaSombra · 6月25日 15:01 · [社区讨论](https://news.ycombinator.com/item?id=48674484)
 
-**背景**: OAuth 是一种开放的访问委托标准，广泛用于基于令牌的身份验证。Cloudflare 是一家全球性 Web 基础设施公司。自管理 OAuth 允许客户自行控制 OAuth 客户端，无需依赖 Cloudflare 管理的凭证，从而提升了灵活性与安全性。
+**背景**: 经典 Mac OS 9 是 Apple 在 20 世纪 90 年代末发布的原始 Macintosh 操作系统的最后一个主要版本，随后过渡到基于 Unix 的 Mac OS X。它运行在基于 PowerPC 的 Macintosh 电脑上，按今天的标准，内存和存储极为有限。复古计算爱好者维护并为这些老式系统开发软件，经常创作出突破硬件极限的新应用。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://blog.cloudflare.com/oauth-for-all/">Unlocking the Cloudflare app ecosystem with OAuth for all</a></li>
-<li><a href="https://cloudflare-docs.cloudflare-docs.workers.dev/changelog/post/2026-06-03-public-oauth-clients/">Introducing self - managed OAuth clients · Changelog</a></li>
+**社区讨论**: 社区反应热烈且带有幽默感，赞扬该应用极小的内存占用与现代“臃肿”应用的对比。一些用户表达了构建类似复古软件的兴趣，还有一位询问了所用技术基础，如 TLS 和 HTTP/2 库。
 
-</ul>
-</details>
-
-**社区讨论**: 社区反应褒贬不一：许多人赞赏该功能及其性能（就连 Ory Hydra 的作者也给予了称赞），但也有人感叹 OAuth 固有的复杂性，并对 Cloudflare 维护新项目的一贯表现表示怀疑。
-
-**标签**: `#OAuth`, `#Cloudflare`, `#Identity Management`, `#Security`, `#Infrastructure`
+**标签**: `#retrocomputing`, `#mac-os-9`, `#mapping`, `#low-resource-software`, `#hackernews`
 
 ---
 
 <a id="item-7"></a>
-## [注意力沉陷与表征坍塌源于范数盲路由](https://www.reddit.com/r/MachineLearning/comments/1ufgwxl/r_all_routes_lead_to_collapse_attention_sinks/) ⭐️ 8.0/10
+## [传闻苹果将跳过 M6 Pro/Max 芯片，加速 M7 以提升端侧 AI](https://www.reddit.com/r/LocalLLaMA/comments/1ufhu3s/report_apple_to_skip_m6_promax_chips_fasttrack_m7/) ⭐️ 7.0/10
 
-一项统一理论指出，Transformer 中的注意力沉陷、表征坍塌和范数分层都是内容路由在忽略键范数变化的相似度度量下的表现。该现象在九个预训练 Transformer、图注意力网络、Mamba、RWKV 和 AttnRes 等架构中均得到验证。 该工作将多种注意力异常现象纳入统一的几何框架，加深了对 Transformer 不稳定性的理解，并可能为设计更稳健高效的模型提供指导。 Softmax 注意力仅在键范数相同时等价于欧氏距离上的玻尔兹曼分布；实际模型违反该条件，导致路由集中、低秩表示和键范数分层。坍塌的发生时机与强度受 RoPE 或衰减机制等位置偏置调节。
+据传，苹果计划跳过 M6 Pro 和 M6 Max 芯片变体，优先开发针对设备端 AI 性能强化的下一代 M7 处理器。 若消息属实，这将大幅提升未来 Mac 的本地 AI 能力，使设备端大语言模型及其他 AI 任务更快、更高效，直接惠及依赖边缘计算的开发者和用户。 M7 芯片被描述为“AI 优先”，可能对神经网络引擎有重大升级。但该报道未经证实，入门级 M6 芯片预计仍会用于基础 Mac 机型。M7 可能于 2027 年左右推出。
 
-reddit · r/MachineLearning · /u/entropy_- · 6月25日 17:38
+reddit · r/LocalLLaMA · /u/fallingdowndizzyvr · 6月25日 18:11
 
-**背景**: 注意力沉陷指初始标记因 softmax 总和为 1 的特性而获得过多权重；表征坍塌指不同输入被映射到几乎相同的嵌入，丧失区分能力；范数分层即键向量形成明显差异的范数簇。标准注意力采用点积相似度，当键范数不恒定时，该度量对范数变化不敏感。
+**背景**: 自 2020 年起，苹果的 M 系列片上系统（SoC）一直为 Mac 和 iPad 提供动力，每代提供 Pro、Max 和 Ultra 等变体，以扩展 CPU、GPU 和神经网络引擎核心数量。现有芯片已能处理 AI 任务，但专门的 AI 优先设计可能为本地推理带来显著的性能提升。这一传闻表明，苹果正在加速其芯片路线图，以在日益增长的边缘 AI 市场中竞争。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2309.17453">Efficient Streaming Language Models with Attention Sinks</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Representation_collapse">Representation collapse</a></li>
+<li><a href="https://www.macworld.com/article/3177046/report-apple-to-skip-m6-pro-max-chips-fast-track-m7-for-local-ai.html">Report: Apple to skip M 6 Pro / Max chips , fast-track M7 for... | Macworld</a></li>
+<li><a href="https://appleinsider.com/articles/26/06/25/apple-will-skip-m6-pro-max-chips-in-favor-of-m7-ai-alternatives">Apple will skip M 6 Pro , Max chips in favor of M7 AI alternatives</a></li>
+<li><a href="https://www.macrumors.com/2026/06/25/2027-macs-m7-chips/">2027 Macs to Get AI-Focused M7 Chips as Apple Skips High-End M6</a></li>
 
 </ul>
 </details>
 
-**标签**: `#transformer`, `#attention`, `#representation-learning`, `#deep-learning`, `#machine-learning`
+**标签**: `#Apple`, `#AI hardware`, `#local LLM`, `#M7 chip`, `#rumor`
 
 ---
 
 <a id="item-8"></a>
-## [将代理工作流编译至 LLM 权重，以百倍低成本实现接近前沿的品质](https://www.reddit.com/r/MachineLearning/comments/1ufgpnh/r_compiling_agentic_workflows_into_llm_weights/) ⭐️ 8.0/10
+## [Ornith-1.0 系列开源编程模型发布，号称 SOTA](https://www.reddit.com/r/LocalLLaMA/comments/1ufc9vp/ornith10_released_on_hugging_face/) ⭐️ 7.0/10
 
-一篇新论文提出将代理工作流（涉及多次 LLM 调用和工具交互的编排）直接编译至小型微调模型的权重中，实现了接近前沿模型的品质，且推理成本降低百倍以上。 该方法解决了大型模型按 token 计费成本高的问题，使企业能够在更小、更便宜的模型上部署高质量 AI 能力，可能使先进 AI 在更多应用中变得经济可行。 该方法基于 SimpleTOD 和 Agent Lumos 等先前研究，通过对前沿模型生成的工作流进行监督微调来实现。不过，有评论指出论文缺乏详细的基准测试，且其在现实任务中的泛化性和实际采用情况仍有待验证。
+DeepReinforce 在 Hugging Face 上发布了 Ornith-1.0 模型系列，包括 9B 和 31B 稠密模型，以及 35B 和 397B 混合专家模型，专为智能体编程设计并声称在基准测试中达到最优。 该发布为本地大语言模型社区提供了专攻智能体编程的开源模型，其宣称的领先性能有望让先进自主编程能力更加普及。 35B 混合专家模型每次令牌仅激活约 30 亿参数，效率很高；这些模型采用自我改进训练方法，学习自身的强化学习框架，面向执行优先的智能体工作流。
 
-reddit · r/MachineLearning · /u/ThirdWaveCat · 6月25日 17:31
+reddit · r/LocalLLaMA · /u/paf1138 · 6月25日 14:52
 
-**背景**: 代理工作流指 AI 代理为完成复杂任务而进行的一系列决策、工具调用和环境交互，通常需要多次调用大语言模型。将小型模型在大型模型的工作流输出上进行微调（即蒸馏技术），可将工作流逻辑融入单次前向传播，大幅降低计算量和成本。小语言模型（SLM）参数量少、运行成本低但能力通常较弱；该方法旨在将其性能提升至接近前沿水平。
+**背景**: 混合专家（MoE）是一种神经网络架构，多个‘专家’子网络处理不同输入，但每个令牌仅激活一部分，以较低推理成本实现大规模模型。智能体编程指 AI 模型自主编写、测试和优化代码，常集成外部工具。Hugging Face 上的开源模型对透明度和本地部署至关重要。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2605.22502">[2605.22502] Compiling Agentic Workflows into LLM Weights ...</a></li>
-<li><a href="https://dijee.net/uncategorized/compiling-agentic-workflows-into-llm-weights-near-frontier-quality-at-two-orders-of-magnitude-less-cost/">Compiling Agentic Workflows into LLM Weights : Near-Frontier...</a></li>
-<li><a href="https://gentic.news/article/distilled-agentic-workflow-runs-at">Distilled Agentic Workflow Runs at 100x… | gentic.news</a></li>
+<li><a href="https://deep-reinforce.com/ornith_1_0.html">Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding | DeepReinforce Blog | Jun. 2026</a></li>
+<li><a href="https://www.marktechpost.com/2026/06/25/deepreinforce-releases-ornith-1-0-an-open-source-coding-model-family-that-learns-its-own-rl-scaffolds/">DeepReinforce Releases Ornith-1.0: An Open-Source Coding Model Family That Learns Its Own RL Scaffolds - MarkTechPost</a></li>
 
 </ul>
 </details>
 
-**标签**: `#LLM`, `#cost-efficiency`, `#agentic-workflows`, `#fine-tuning`, `#small-language-models`
+**标签**: `#LocalLLM`, `#Open-source LLM`, `#Model Release`, `#MoE`, `#SOTA benchmarks`
 
 ---
 
 <a id="item-9"></a>
-## [Hacker News 版 Google Trends：索引 18 年评论数据](https://hackernewstrends.com/) ⭐️ 7.0/10
+## [为何大语言模型未能快速缩小 AMD 与 Intel 对 CUDA 的差距](https://www.reddit.com/r/LocalLLaMA/comments/1uf0oso/if_llms_are_so_good_at_coding/) ⭐️ 7.0/10
 
-hackernewstrends.com 发布了一款新工具，索引了 Hacker News 长达 18 年的评论，展示热门话题趋势，类似于 Google Trends 但针对讨论文本。 该工具为分析科技社区话题演变提供了新视角，能揭示讨论数据中隐藏的模式，帮助追踪长期技术趋势变化。 该项目索引了 18 年的评论数据，但用户反馈了图表结果截断（如 vim/emacs/zed 对比在 2018 年 10 月中止）以及后端率限制导致 504 和 502 错误的问题。
+一篇 Reddit 帖子质疑，为何大语言模型虽擅长编码，却未能使 AMD 的 ROCm 和 Intel 的软件栈迅速改进以匹敌 NVIDIA 的 CUDA。 这突显了 GPU 驱动等复杂系统软件远非代码生成所能解决，指出了 AI 硬件竞争中的瓶颈，以及软件生态成熟对于降低价格的重要性。 ROCm 是 AMD 的开源 GPU 编程栈，但在成熟度和开发者体验上仍落后于 NVIDIA 的闭源 CUDA 生态；该帖子暗示 LLM 辅助编码理论上能加速此类软件开发，但在这些复杂栈上并未实现。
 
-hackernews · ytkimirti · 6月25日 14:08 · [社区讨论](https://news.ycombinator.com/item?id=48673671)
+reddit · r/LocalLLaMA · /u/codeanish · 6月25日 05:07
 
-**背景**: Hacker News 是重要科技论坛，其评论趋势常反映新兴技术。与跟踪搜索查询的 Google Trends 不同，该工具分析已发布评论中的词频，需要处理 18 年文本数据并应对 Web API 限制。
+**背景**: NVIDIA 的 CUDA 是成熟且专有、广泛用于 AI 的并行计算平台，而 AMD 的 ROCm 和 Intel 的 oneAPI 是开源替代方案。GPU 软件栈涉及底层硬件接口、大量库和性能调优，超越常规代码生成。大语言模型虽擅长生成代码片段，但缺乏此类系统软件所需的深层硬件特定知识和严格验证。
 
-**社区讨论**: 评论者指出该工具分析已发布文本而非搜索行为，与 Google Trends 有本质区别。部分人提到图表截断 bug，还有用户报告超时和率限制等部署问题。项目总体受欢迎，但存在技术限制的批评。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/ROCm">ROCm</a></li>
+<li><a href="https://www.linkedin.com/posts/alexey6_advancingai-rocm-openecosystem-activity-7354016927087788032-8A1v">Introducing ROCm Enterprise AI: An Open Ecosystem for AI... | LinkedIn</a></li>
 
-**标签**: `#hackernews`, `#data-analysis`, `#trends`, `#show-hn`, `#visualization`
+</ul>
+</details>
+
+**标签**: `#LLMs`, `#CUDA`, `#ROCm`, `#AI Hardware`, `#Software Ecosystems`
 
 ---
 
 <a id="item-10"></a>
-## [Anthropic 指控阿里巴巴非法提取 Claude AI 模型能力](https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/) ⭐️ 7.0/10
+## [LFM2.5 230M 模型通过定制 WebGPU 在浏览器内达 1,400 tok/s](https://www.reddit.com/r/LocalLLaMA/comments/1ufii9b/lfm25_230m_running_inbrowser_at_1400_toks_using/) ⭐️ 7.0/10
 
-Anthropic 正式指控阿里巴巴通过模型蒸馏非法提取其 Claude AI 模型的能力，引发了对合法性与伦理的争论。 这一指控凸显了 AI 知识产权紧张关系的升级，可能为训练实践树立先例，并折射出中美科技竞争。 提取可能采用黑盒蒸馏，利用 Claude 的输出指导小模型，无需直接接触权重；据悉，中国经销商通过收集用户数据训练模型，来补贴廉价的 Claude 访问。
+一个 2.3 亿参数的 Liquid LFM2.5 大语言模型在 M4 Max 的网页浏览器中完全本地运行，借助定制 WebGPU 内核达到了每秒 1,400 个 token 的速度，模型以 GGUF 格式运行，无需任何服务器处理。 此次演示凸显了在浏览器中直接实现快速、私密、低延迟设备端 AI 推理的潜力，摆脱了对云服务的依赖。它为实时代码补全或翻译等边缘应用开辟了可能，并展示了 WebGPU 处理高性能机器学习任务的能力。 该模型是 Liquid LFM2.5 230M 的 GGUF 转换版本，定制 WebGPU 内核由现已关闭的 Fable 5 与 Opus 4.8 开发。推理完全在 Apple M4 Max 芯片上本地运行，其强大的集成 GPU 保证了高吞吐量，无需任何网络调用。
 
-hackernews · htrp · 6月24日 19:48 · [社区讨论](https://news.ycombinator.com/item?id=48664814)
+reddit · r/LocalLLaMA · /u/xenovatech · 6月25日 18:35
 
-**背景**: 模型蒸馏是一种让较小的“学生”模型从较大“教师”模型的输出中学习的技术，常用于压缩大型语言模型。它可以通过黑盒查询实现，无需访问内部权重。尽管广泛用于提升效率，但以这种方式复制专有模型可能违反服务条款并引发法律问题。
+**背景**: Liquid AI 的 LFM2.5 是一系列针对设备端部署优化的小型高效语言模型。GGUF 是一种广泛用于分发量化模型以进行本地推理的二进制格式。WebGPU 是一种让浏览器直接访问 GPU 的现代网络 API，可执行机器学习等高性能任务。Apple M4 Max 配备了适合此类工作负载的高性能集成 GPU。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Knowledge_distillation">Knowledge distillation - Wikipedia</a></li>
-<li><a href="https://www.datacamp.com/blog/distillation-llm">LLM Distillation Explained: Applications, Implementation ...</a></li>
-<li><a href="https://www.geeksforgeeks.org/nlp/what-is-llm-distillation/">What is LLM Distillation? - GeeksforGeeks</a></li>
+<li><a href="https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai">Introducing LFM2.5: The Next Generation of On-Device AI | Liquid AI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/WebGPU">WebGPU</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GGUF">GGUF</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者争论合法性，指出未入侵服务器时蒸馏不违法，并因全行业使用无授权网络数据训练而称 Anthropic 虚伪。一些人详述了中国经销商如何提供廉价 Claude 访问以采集训练数据。
-
-**标签**: `#artificial intelligence`, `#model distillation`, `#terms of service`, `#China tech`, `#Anthropic`
+**标签**: `#local-llm`, `#webgpu`, `#browser-inference`, `#gguf`, `#edge-ml`
 
 ---
 
 <a id="item-11"></a>
-## [开源智能视频制作系统 OpenMontage 单日获 103 星](https://github.com/calesthio/OpenMontage) ⭐️ 7.0/10
+## [在双 RTX 5090 GPU 上运行 GLM 5.2 与 Unsloth 量化](https://www.reddit.com/r/LocalLLaMA/comments/1ufd4g8/glm_52_on_consumer_hardware/) ⭐️ 7.0/10
 
-OpenMontage 是一个开源智能视频制作系统，在 24 小时内获得 103 个 GitHub 星标，推出了 12 条流水线、52 个工具和 500 多项 AI 代理技能，用于自动化视频创作。 该系统让开发者和创作者能将 AI 编程助手用作完整的视频制作工作室，有望降低视频内容创作的成本和复杂性。 OpenMontage 使用 Python 构建，其代理技能可能适用于多种 AI 编程平台，如 Claude Code、Cursor 和 GitHub Copilot，但具体实现细节有限。
+一位用户使用 llama.cpp 在双 RTX 5090 GPU 和 512GB 内存上成功运行了经 Unsloth Dynamic 2.0 量化的 GLM 5.2 大型模型，并通过特定的优化标志达到了每秒 12 个 token 的速度。 这表明在高端消费级硬件上运行大规模开源大语言模型是可行的，有望让更多人无需数据中心基础设施即可在本地实验长上下文模型。 该配置使用了 unsloth/GLM-5.2-GGUF 的 UD-Q5_K_S 量化版本（权重 492GB），llama.cpp 针对 RTX 5090（计算能力 12.0）编译并启用了 CUDA、Flash Attention 和 NUMA 设置，在 32K 上下文下稳定达到 12 t/s。
 
-ossinsight · calesthio · 6月25日 18:08
+reddit · r/LocalLLaMA · /u/phwlarxoc · 6月25日 15:22
 
-**背景**: 智能体 AI 指能通过协调多个专业代理自主执行复杂任务的系统。代理技能是可复用的指令（通常为 SKILL.md 格式），用于教会 AI 代理执行特定任务，正成为跨平台扩展 AI 编程助手的通用方式。OpenMontage 将这一模式应用于视频制作，该领域历来需要昂贵的软件和专业知识。
+**背景**: GLM 5.2 是 Z.ai 近期开源的大语言模型，针对长时程编码任务进行了优化，支持高达 100 万 token 的上下文长度。Unsloth Dynamic 2.0 是一种量化方法，可在缩小模型体积的同时尽量保持精度。llama.cpp 是一个流行的 C++推理引擎，用于在本地运行大语言模型。Flash Attention 是一种内存高效的精确注意力算法，可加速 Transformer 的注意力计算。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/calesthio/OpenMontage">GitHub - calesthio/OpenMontage: World's first open-source ...</a></li>
-<li><a href="https://www.imagine.art/blogs/agentic-ai-in-video-production">Understanding Agentic AI for Video Production Workflows</a></li>
-<li><a href="https://www.agnt.gg/articles/100-best-ai-agent-skills">The 100 Best AI Agent Skills in 2026: The Definitive Guide</a></li>
+<li><a href="https://z.ai/blog/glm-5.2">GLM-5.2: Built for Long-Horizon Tasks</a></li>
+<li><a href="https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs">Unsloth Dynamic 2.0 GGUFs | Unsloth Documentation</a></li>
+<li><a href="https://github.com/dao-ailab/flash-attention">GitHub - Dao-AILab/flash-attention: Fast and memory-efficient exact attention · GitHub</a></li>
 
 </ul>
 </details>
 
-**标签**: `#open-source`, `#ai-agents`, `#video-production`, `#automation`, `#python`
+**标签**: `#local-llm`, `#llama.cpp`, `#model-quantization`, `#hardware-optimization`, `#open-source-llms`
 
 ---
 
 <a id="item-12"></a>
-## [新 MCP 服务器将代码库索引为知识图谱，助力大模型](https://github.com/DeusData/codebase-memory-mcp) ⭐️ 7.0/10
+## [回溯采样器与验证器大幅提升 0.5B 微型编程模型性能](https://www.reddit.com/r/LocalLLaMA/comments/1uf6ajj/new_sampler_verifier_drastically_improves_tiny/) ⭐️ 7.0/10
 
-DeusData/codebase-memory-mcp 是一个新型高性能 MCP 服务器，能将整个代码库索引为持久化知识图谱，支持 158 种编程语言，实现亚毫秒级查询并将 token 消耗降低 99%。 通过让大模型高效理解代码库，该工具可大幅降低 AI 辅助编程工具的成本和延迟，其采用的 MCP 标准确保了与 Claude、ChatGPT 等主流 AI 平台的互操作性。 该服务器采用 C 语言实现，以单一静态二进制文件发布，无任何依赖，并声称可在数毫秒内处理一个普通仓库；但目前缺少社区验证，如 issue 或 pull request。
+一种结合回溯采样器和独立训练的验证器模型的新方法，显著提升了 0.5B 参数语言模型的编程性能，使其可与 4–8 倍大的模型相媲美。 这表明，推理阶段的采样和验证可以克服小型模型的局限性，可能减少对大规模计算集群的依赖，为高效本地部署的编程助手开辟了道路。 验证器模型的规模需与生成器相近，使显存需求翻倍、计算量增加 1.5–3 倍，并带来 5–30%的解码速度损失。但其训练仅需约 0.01%的预训练数据，并可泛化到同权重级或更低参数量的模型。
 
-ossinsight · DeusData · 6月25日 18:08
+reddit · r/LocalLLaMA · /u/Dany0 · 6月25日 10:31
 
-**背景**: 模型上下文协议（MCP）是 Anthropic 于 2024 年 11 月推出的开放标准，旨在标准化 AI 应用与外部工具、数据源的连接方式。它让 GPT-4、Claude 等 AI 模型能通过通用接口访问本地文件、数据库和 API，类似于语言服务器协议（LSP）的作用。Codebase-memory-mcp 借助 MCP 为任何兼容 MCP 的客户端提供深度代码理解能力。
+**背景**: 回溯采样允许语言模型在验证器检测到低质量输出时回退并重新生成 token。验证器模型是一个经过训练的辅助模型，用于评估生成 token 的正确性。'Top-n-sigma'是一种采样参数，它根据与最高分 token 的标准差距离来过滤 token，从而在不同温度下保持稳定的采样空间。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol - Wikipedia</a></li>
-<li><a href="https://modelcontextprotocol.io/docs/getting-started/intro">What is the Model Context Protocol (MCP)? - Model Context Protocol</a></li>
+<li><a href="https://github.com/Mihaiii/backtrack_sampler">GitHub - Mihaiii/backtrack_sampler: An easy-to-understand ...</a></li>
+<li><a href="https://arxiv.org/abs/2411.07641">[2411.07641] Top -$nσ$: Not All Logits Are You Need</a></li>
 
 </ul>
 </details>
 
-**标签**: `#MCP`, `#code-intelligence`, `#knowledge-graph`, `#performance`, `#open-source`
+**标签**: `#LLM`, `#sampling`, `#coding`, `#verifier`, `#performance`
 
 ---
 
 <a id="item-13"></a>
-## [苹果因存储芯片涨价上调 MacBook 和 iPad 价格](https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/) ⭐️ 6.0/10
+## [Anthropic 指控阿里巴巴非法提取其 AI 模型能力](https://www.reddit.com/r/LocalLLaMA/comments/1ueyl2i/anthropic_accuses_alibaba_of_campaign_to_brazenly/) ⭐️ 7.0/10
 
-2026 年 6 月 25 日，苹果因存储芯片成本飙升上调 MacBook 和 iPad 全线产品价格，涨幅从 100 美元到超过 1300 美元不等，例如入门级 MacBook Neo 从 599 美元涨至 699 美元。 这轮涨价表明，受 AI 需求推动的全球存储短缺正在影响消费电子行业，可能导致更广泛的行业涨价，影响消费者和专业人士的购买力。 多数型号涨价：MacBook Neo 现起售 699 美元（涨 100 美元），13 英寸 MacBook Air 起售 1299 美元（涨 200 美元），M3 Ultra Mac Studio 涨至 5299 美元（涨 1300 美元）。涨价主因是 NAND 闪存和 DRAM 价格飙升，2026 年第二季度季度环比涨幅达 70-75%。
+Anthropic 公开指控阿里巴巴进行了一场大胆且非法的活动，旨在通过未经授权的知识蒸馏从其模型中提取 AI 能力。 这一指控凸显了 AI 行业知识产权方面日益加剧的紧张局势，可能为模型蒸馏的监管设立先例，并影响主要 AI 开发商之间的竞争。 具体涉及的方法和模型尚未完全公开，但指控很可能围绕阿里巴巴未经许可使用 Anthropic 的模型来训练更小、有竞争力的模型。
 
-hackernews · virgildotcodes · 6月25日 13:02 · [社区讨论](https://news.ycombinator.com/item?id=48672732)
+reddit · r/LocalLLaMA · /u/External_Mood4719 · 6月25日 03:20
 
-**背景**: 由于 AI 基础设施需求和供应限制，NAND 闪存和 DRAM 等存储芯片价格持续暴涨。2026 年第二季度，NAND 闪存合约价季度环比上涨 70-75%，DRAM 价格也持续攀升。这导致苹果等设备制造商的成本上升，因为其产品中大量使用这些组件。
+**背景**: 知识蒸馏是一种将大型模型的知识迁移到小型模型的技术，常用于创建可以在性能较低的硬件上运行的高效 AI 模型。但未经授权使用竞争对手的模型输出可能引发道德和法律问题。Anthropic 是一家以 Claude 模型闻名的领先 AI 公司，而阿里巴巴是开发了 Qwen 等 AI 模型的中国主要科技公司。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://nand-research.com/memory-nand-flash-crisis-may-2026-update/">Memory & NAND Flash Crisis: May 2026 Update - NAND Research</a></li>
-<li><a href="https://sourceability.com/post/tracking-memory-price-increases-across-the-last-several-quarters">Memory price increase timeline QoQ in 2026 | Sourceability</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Model_distillation">Model distillation</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区对此表示震惊和担忧，有人认为涨价可能波及整个行业，并将部分原因归咎于 OpenAI 等公司的 AI 需求推高了内存价格。另一些人从历史角度看待，指出如今计算设备已相当普及和廉价。还有用户分享了在涨价前购买设备获得“利润”的奇特现象。整体情绪为无奈与不满交织。
-
-**标签**: `#Apple`, `#pricing`, `#consumer technology`, `#memory market`, `#hardware`
+**标签**: `#AI ethics`, `#intellectual property`, `#model distillation`, `#Anthropic`, `#Alibaba`
 
 ---
 
 <a id="item-14"></a>
-## [Simon Willison 基于 MDN 浏览器兼容数据创建 SQLite 数据库](https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything) ⭐️ 6.0/10
+## [开源智能视频制作系统 OpenMontage 走红](https://github.com/calesthio/OpenMontage) ⭐️ 7.0/10
 
-Simon Willison 将 Mozilla 的全面浏览器兼容数据（mdn/browser-compat-data）转换为一个 66MB 的 SQLite 数据库，现可在 GitHub 上下载，并带有开放的 CORS 标头，支持通过 Datasette Lite 直接探索。 这为关键的 Web 平台兼容性信息提供了离线、可查询的访问方式，使开发者更容易将其集成到工具和工作流程中，并展示了 AI 辅助编程在数据工程项目中的实用性。 该数据库使用 Claude Code 和 sqlite-utils 库构建，并通过 GitHub Actions 工作流强制推送到一个孤立分支，以启用开放的 CORS 标头，因为 GitHub 发布版本不支持这些标头。
+OpenMontage 这一拥有 12 条管线、52 种工具和 500 多项代理技能的开源智能视频制作系统在一天内获得了 103 个 GitHub 星标，显示出对自主视频创作工具的浓厚兴趣。 它让 AI 编程助手能够自动化复杂的视频制作工作流程，从而降低创作者和团队的成本与技术门槛，推动视频制作的民主化。 该系统用 Python 实现，能分析参考视频（如 YouTube 视频）并生成有依据的制作计划，但其生产成熟度和输出质量的细节披露较为有限。
 
-rss · Simon Willison · 6月24日 23:59
+ossinsight · calesthio · 6月25日 21:41
 
-**背景**: MDN（Mozilla 开发者网络）维护着一个公共的浏览器兼容数据仓库，涵盖 Web API、CSS 和 JavaScript。SQLite 是一种轻量级、无服务器的数据库引擎。Datasette 是由 Willison 创建的用于探索和发布 SQLite 数据库的工具。模型上下文协议（MCP）是一种连接 AI 助手和外部工具的开放标准；Mozilla 最近为 MDN 推出的 MCP 服务器启发了这个项目。AI 辅助编程工具（如 Claude Code 和 OpenAI 的 Codex）被用于生成转换脚本和工作流。
+**背景**: 代理式 AI（Agentic AI）指多个具备特定技能的 AI 代理自主执行任务并通常以管线方式协作的系统。视频制作通常包含脚本、剪辑、特效等阶段，OpenMontage 将其组织成模块化工具和代理，旨在与 AI 编程助手集成，让开发者像编程一样处理视频创作。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://developer.mozilla.org/en-US/mcp">MDN MCP server</a></li>
-<li><a href="https://github.com/simonw/sqlite-utils">GitHub - simonw/sqlite-utils: Python CLI utility and library for ...</a></li>
-<li><a href="https://openai.com/index/introducing-the-codex-app/">Introducing the Codex app | OpenAI</a></li>
+<li><a href="https://github.com/calesthio/OpenMontage">calesthio/OpenMontage: World's first open-source, agentic video ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Agentic_AI">Agentic AI</a></li>
+<li><a href="https://www.imagine.art/blogs/agentic-ai-in-video-production">Understanding Agentic AI for Video Production Workflows</a></li>
 
 </ul>
 </details>
 
-**标签**: `#sqlite`, `#browser-compat-data`, `#mdn`, `#simon-willison`, `#open-source`
+**标签**: `#video-production`, `#ai-agents`, `#open-source`, `#python`, `#automation`
 
 ---
 
 <a id="item-15"></a>
-## [LLM 生成的求职申请导致意外匿名化](https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything) ⭐️ 6.0/10
+## [苹果大幅上调 MacBook 和 iPad 售价](https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/) ⭐️ 6.0/10
 
-Tom MacWright 观察到，最近的许多求职申请，包括作品集、GitHub 项目甚至提交消息，完全由大语言模型 (LLM) 生成，没有展示出候选人的任何真实信息。 这造成了意外的匿名化，削弱了招聘流程，使雇主难以评估真实技能和个性，并可能损害不使用这类工具的真实候选人。 MacWright 指出，这一趋势在过去几个月变得明显，作品集链接到完全由 LLM 生成的内容，导致申请材料千篇一律且缺乏个性。
+2026 年 6 月 25 日，苹果显著上调了其 MacBook 和 iPad 产品线的价格，部分型号涨幅高达 33%，例如基础款 iPad 从 349 美元涨至 449 美元。 此次涨价直接影响消费者，尤其是计划购买苹果硬件的用户，并可能预示着整个行业因内存成本飙升而进一步提价，对创意专业人士和学生等群体影响较大。 价格涨幅因型号而异，例如 M5 Max MacBook Pro 从 3,599 美元涨至 4,099 美元。报道将涨价归因于内存成本的大幅上涨。
 
-rss · Simon Willison · 6月24日 18:13
+hackernews · virgildotcodes · 6月25日 13:02 · [社区讨论](https://news.ycombinator.com/item?id=48672732)
 
-**标签**: `#ai`, `#careers`, `#llm`, `#hiring`, `#authenticity`
+**背景**: 苹果的 MacBook 和 iPad 是广受欢迎的消费电子产品，苹果通常会定期调整价格。此次涨价发生之际，全球内存市场价格因 AI 需求等因素不断攀升，可能反映了硬件成本的上升趋势。
+
+**社区讨论**: 社区成员对大幅涨价表示震惊，一些人提供了计算成本的历史视角，另一些人则将此归咎于 AI 驱动的内存需求。有用户指出，此前购买的 MacBook 甚至能以更高价格出售，突显了市场的异常。
+
+**标签**: `#Apple`, `#Price Increase`, `#Hardware`, `#MacBook`, `#iPad`
 
 ---
 
 <a id="item-16"></a>
-## [为 LLM 设计的专用编程语言：提升代码生成的新思路](https://www.reddit.com/r/MachineLearning/comments/1ufgw7z/would_having_a_dedicated_programming_language/) ⭐️ 6.0/10
+## [免费医疗 RAG API 提升本地 LLM 准确性](https://www.reddit.com/r/LocalLLaMA/comments/1ufhqys/fast_medical_rag_api_to_give_your_local_llms/) ⭐️ 6.0/10
 
-Reddit 上有人提出一种专为 LLM 设计的假设性编程语言，通过更密集的令牌语义和减少语法噪音来提升代码生成效率。 如果可行，这种语言可以大幅加速 LLM 生成代码的推理速度，在有限的上下文窗口中容纳更多信息，并可能提高生成代码的质量，对 AI 辅助编程工具产生深远影响。 该提议指出，通过让每个令牌承载更密集的语义，LLM 可以用更少的令牌表达相同逻辑，从而加快推理速度，并在 100 万令牌的上下文窗口中容纳多达 100 倍的代码。但帖子未涉及具体语言设计或训练数据问题。
+开发者发布了一个基于 Wikipedia 文章的免费快速医疗 RAG API，让本地 LLM 能检索准确的医学事实并避免幻觉；同时支持 MCP 集成。 该工具解决了较小模型在医疗问题上常见的幻觉问题，使本地设备能在不依赖云服务的情况下提供更可靠的健康答案，从而增强隐私和可访问性。 该 API 运行在单台 ARM VPS 上，使用约 2GB RAM，目标响应时间低于 1 秒，覆盖不断增长的医疗 Wikipedia 文章库；用户可请求添加新文章。一个示例显示它纠正了对 Lhermitte 征的幻觉解释。
 
-reddit · r/MachineLearning · /u/Spongebubs · 6月25日 17:38
+reddit · r/LocalLLaMA · /u/CartographerFun4221 · 6月25日 18:08
 
-**背景**: 大型语言模型（LLM）以令牌为单位处理文本，令牌是输入的基本单元。上下文窗口是 LLM 一次能考虑的最大令牌数，限制了它能分析的代码量。当前的 LLM 使用现成的编程语言训练，这些语言的语法为人类可读性设计，而非令牌效率。分词方法常将代码切分成频繁但语义空洞的令牌，浪费了模型容量。
+**背景**: 检索增强生成（RAG）是一种让语言模型在回答前从外部文档获取事实以提高准确性的技术。模型上下文协议（MCP）是 Anthropic 于 2024 年推出的开放标准，用于标准化 AI 系统与外部工具和数据源的连接方式。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.linkedin.com/pulse/llm-tokenization-explained-your-guide-how-large-language-models-du7ff">LLM Tokenization Explained: Your Guide to How Large Language ... - LinkedIn</a></li>
-<li><a href="https://www.ibm.com/think/topics/context-window">What is a context window ? | IBM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation">Retrieval-augmented generation - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**标签**: `#RAG`, `#medical`, `#local-llms`, `#API`, `#MCP`
+
+---
+
+<a id="item-17"></a>
+## [AI 驱动的逆向工程与渗透测试技能路由包](https://github.com/zhaoxuya520/reverse-skill) ⭐️ 6.0/10
+
+新的 GitHub 仓库'reverse-skill'提供一个 AI 驱动的技能路由包，可自动化逆向工程和渗透测试工作流程。它支持按需工具链自举、自进化知识库，并能与 Claude Code、Cursor、Cline 等 AI 编码客户端集成。 该工具包通过让 AI 智能体动态配置工具并适应工作流程，简化了安全研究，可能减少手动操作，并使专业人士和学习者更容易掌握高级技术。 该技能包用 PowerShell 实现，利用 AI 将任务路由到合适的技能，无需预安装即可自举必要工具，并通过交互维护一个自进化的知识库。它兼容多种 AI 编码客户端，包括 Claude Code、Kiro、Cursor 和 Cline。
+
+ossinsight · zhaoxuya520 · 6月25日 21:41
+
+**背景**: 技能路由包是一组预定义的命令，AI 智能体可以执行这些命令来完成复杂任务，例如反汇编二进制文件或扫描网络。工具链自举指按需自动安装所需工具，从而避免手动设置。Cline 是一个开源的 AI 编码智能体，能够与终端和文件交互，适合安全相关工作流。该项目通过添加专门的安全技能来扩展此类智能体。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://x.com/blackorbird/status/2069057884370149728">reverse-skill Reverse Engineering / Authorized Penetration ...</a></li>
+<li><a href="https://cline.bot/">Cline - AI Coding, Open Source and Uncompromised</a></li>
+
+</ul>
+</details>
+
+**标签**: `#security`, `#reverse-engineering`, `#penetration-testing`, `#AI`, `#PowerShell`
+
+---
+
+<a id="item-18"></a>
+## [Agent-Reach：让 AI 代理无需 API 费用即可搜索网络](https://github.com/Panniantong/Agent-Reach) ⭐️ 6.0/10
+
+新开源 Python CLI 工具 Agent-Reach 让 AI 代理能够免费搜索和阅读 Twitter、Reddit、YouTube、GitHub、Bilibili 和小红书等平台的内容。 它消除了访问网络数据的 API 费用，使 AI 代理开发更便宜、更易获得，可能加速实验和部署。 该工具是一个用 Python 编写的命令行界面，24 小时内获得 40 颗星和 5 个分支，显示出适度的早期兴趣。
+
+ossinsight · Panniantong · 6月25日 21:41
+
+**背景**: AI 代理经常需要访问网络信息。传统上，这需要通过付费 API（如 Twitter API）或商业爬虫服务来实现。Agent-Reach 通过直接爬取多个平台绕过了这些成本，使开发者更容易将网络数据集成到自主代理中。
+
+**标签**: `#ai-agents`, `#web-scraping`, `#python`, `#cli`, `#open-source`
+
+---
+
+<a id="item-19"></a>
+## [基于 LLM 的多市场股票分析工具在 GitHub 上获关注](https://github.com/ZhuLinsen/daily_stock_analysis) ⭐️ 6.0/10
+
+GitHub 仓库 ZhuLinsen/daily_stock_analysis 在过去 24 小时内获得了 34 颗星，它是一个由 LLM 驱动的股票分析系统，集成了多源行情、实时新闻、决策看板和自动通知，并支持零成本定时运行。 该工具降低了个人投资者使用 AI 驱动股票分析的门槛，将新闻情绪和市场数据整合为可操作的见解。这反映了将大型语言模型应用于金融决策的日益增长的趋势。 该系统使用 Python 构建，声称通过利用免费 API 或本地模型实现零成本运行，并支持定时自动化。但尚未被广泛采用，表明它仍处于早期阶段。
+
+ossinsight · ZhuLinsen · 6月25日 21:41
+
+**背景**: 像 GPT-4 这样的大型语言模型（LLM）是在海量文本上训练的神经网络，能够分析和生成自然语言。在金融领域，它们可以处理新闻文章、财报和社交媒体以判断市场情绪。该工具应用 LLM 来综合多源数据进行股票分析，旨在提供全面的决策支持看板。
+
+<details><summary>参考链接</summary>
+<ul>
 <li><a href="https://en.wikipedia.org/wiki/Large_language_model">Large language model - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**标签**: `#LLMs`, `#programming languages`, `#code generation`, `#token efficiency`, `#AI tools`
-
----
-
-<a id="item-17"></a>
-## [MuJoFil：结合 Newton 物理与 Filament 渲染的 GPU 原生视觉 RL 模拟器](https://www.reddit.com/r/MachineLearning/comments/1uemrch/mujoco_derived_simulator_for_high_fidelity_vision/) ⭐️ 6.0/10
-
-开发者创建了开源模拟器 MuJoFil，将 Nvidia 的 Newton 物理引擎与深度修改的 Google Filament 渲染器结合，在 GPU 上原生运行，实现高度并行的高保真视觉强化学习训练，目前已在 PyPI 提供早期版本。 现有模拟器如 MuJoCo 受限于 CPU，难以大规模进行视觉强化学习训练，而商业方案需要昂贵 GPU 和许可。MuJoFil 通过免费、GPU 原生的方式填补了这一空白，有望让更多研究人员开展高保真视觉策略训练。 MuJoFil 采用基于 MuJoCo 算法的 Nvidia Newton GPU 物理引擎和自定义的 Filament 分支，实现并行 GPU 渲染，支持 PBR 纹理、GLB 和 OpenUSD 等格式。需要 CUDA 环境，目前仍处于早期开发阶段，存在已知缺陷。
-
-reddit · r/MachineLearning · /u/MT1699 · 6月24日 19:07
-
-**背景**: MuJoCo 是一款广泛用于机器人和机器学习的物理模拟器，其 CPU 依赖性限制了并行模拟的规模。MJX 提供了 GPU 加速但未针对视觉任务优化，NVIDIA Isaac Sim 虽然视觉效果好但需要高端 GPU 和付费许可。Newton 是基于 MuJoCo 的开源 GPU 物理引擎，而 Filament 是 Google 最初为 Android 开发的跨平台物理渲染引擎。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/MuJoCo">MuJoCo</a></li>
-<li><a href="https://mujoco.org/">MuJoCo — Advanced Physics Simulation</a></li>
-<li><a href="https://github.com/google/filament">google / filament : Filament is a real-time physically based rendering ...</a></li>
-
-</ul>
-</details>
-
-**标签**: `#Reinforcement Learning`, `#Simulation`, `#GPU Computing`, `#Open Source`, `#MuJoCo`
-
----
-
-<a id="item-18"></a>
-## [HDD-RoPE：高维动态旋转位置嵌入](https://www.reddit.com/r/MachineLearning/comments/1uelcm9/high_dimensional_dynamic_rotary_positional/) ⭐️ 6.0/10
-
-新的位置嵌入方法 HDD-RoPE 扩展了旋转位置嵌入（RoPE），使用更高维度的分块（如每组 4 个）和数据依赖的旋转角度。在 TinyStories 数据集上训练类似 GPT-2 的模型时，它显示出比 xPos 更快的收敛速度。 这种方法通过更灵活的多维方式建模位置信息，可能提高 Transformer 训练效率，有助于 NLP 系统实现更好的语言理解和更长上下文建模。 该方法在一个 4 块、768 维的 GPT-2 模型上对 TinyStories 进行测试，使用累积矩阵乘积进行旋转。旋转是数据依赖的，允许模型从层激活中学习位置推进。
-
-reddit · r/MachineLearning · /u/mikayahlevi · 6月24日 18:16
-
-**背景**: RoPE 是 Transformer 中常用的位置编码，它在二维空间中旋转查询和键对。xPos 是另一种为长度外推设计的位置编码。TinyStories 是一个用于小规模语言模型研究的合成儿童短篇故事数据集。HDD-RoPE 将 RoPE 推广到更高维，并使旋转角度动态化，让模型能够学习超越简单线性序列的位置关系。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/mikayahlevi/hdd-rope/">GitHub - mikayahlevi/hdd-rope</a></li>
-<li><a href="https://arxiv.org/abs/2212.10554">[2212.10554] A Length-Extrapolatable Transformer - arXiv.org Positional Encoding in Transformers: From Sinusoidal to RoPE Comparison of RoPE and xPos positional embeddings ... - GitHub Positional Encoding in Transformers - GeeksforGeeks</a></li>
-<li><a href="https://huggingface.co/datasets/roneneldan/TinyStories/tree/main">roneneldan/ TinyStories at main</a></li>
-
-</ul>
-</details>
-
-**标签**: `#machine-learning`, `#positional-encoding`, `#transformers`, `#NLP`, `#research-project`
-
----
-
-<a id="item-19"></a>
-## [Agent-Reach：无 API 费用的 CLI 工具，让 AI 代理访问网络内容](https://github.com/Panniantong/Agent-Reach) ⭐️ 6.0/10
-
-名为 Agent-Reach 的新 Python CLI 工具，可以让 AI 代理无需使用官方 API 即可抓取并搜索 Twitter、Reddit、YouTube 和 GitHub 等平台的内容。过去 24 小时内，它在 GitHub 上获得了 40 颗星。 该工具减少了对昂贵的平台专用 API 的依赖，让开发者能更轻松地构建可访问最新网络数据的 AI 代理，用于市场调研或趋势分析等任务。这反映了为 AI 代理提供数据访问工具的蓬勃生态。 Agent-Reach 通过直接抓取网站来运行，这可能违反某些平台的服务条款并面临 IP 封锁的风险。它用 Python 编写，并设计为命令行界面。
-
-ossinsight · Panniantong · 6月25日 18:08
-
-**背景**: 网页抓取是从网站自动提取数据的技术，通常在官方 API 不可用或成本高昂时使用。AI 代理是能够使用工具达成目标的自主软件系统；赋予其抓取网络的能力可扩展其数据来源。通常，从社交媒体平台获取数据需使用其官方 API，这可能涉及费用和速率限制。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Web_scraping">Web scraping</a></li>
-<li><a href="https://en.wikipedia.org/wiki/AI_agent">AI agent</a></li>
-
-</ul>
-</details>
-
-**标签**: `#web-scraping`, `#cli`, `#python`, `#ai-agents`, `#data-access`
+**标签**: `#python`, `#stock-analysis`, `#llm`, `#finance`, `#trading`
 
 ---
 
 <a id="item-20"></a>
-## [LLM 驱动的股票分析工具在 GitHub 上获关注](https://github.com/ZhuLinsen/daily_stock_analysis) ⭐️ 6.0/10
+## [stablyai/orca：开源并行编码代理开发环境崭露头角](https://github.com/stablyai/orca) ⭐️ 6.0/10
 
-开源项目 ZhuLinsen/daily_stock_analysis 将大语言模型与实时市场数据和新闻相结合，提供自动化的多市场股票分析，并在 GitHub 上 24 小时内获得了 34 颗星。 它展示了 LLM 在金融科技中具有成本效益的应用，使个人投资者无需付费即可获取自动化洞察与决策支持。 该 Python 系统集成了多源数据、实时新闻、决策看板和定时推送通知，全部设计为零成本运行，但尚未提供详细的性能指标。
+开源代理开发环境（ADE）stablyai/orca 在 GitHub 上成为热门工具，它允许开发者使用自己的订阅并行运行多个基于命令行的编码代理。 该工具应对了 AI 辅助编码中对并行处理的日益需求，通过在隔离环境中同时编排多个代理来加快开发周期，且无需额外的基础设施成本。 Orca 使用 TypeScript 构建，利用隔离的 Git 工作树在桌面和移动平台上并行运行 Claude Code、Codex、Gemini 和 Cursor CLI 等代理。它免费且开源，支持定制和本地优先运行。
 
-ossinsight · ZhuLinsen · 6月25日 18:08
+ossinsight · stablyai · 6月25日 21:41
 
-**背景**: 大语言模型（LLM）能够分析金融新闻并总结复杂数据，对股票分析非常有用。传统上，投资者依赖手动研究或付费软件。该开源工具通过获取实时数据并应用 LLM 生成见解，实现了流程自动化，降低了进行复杂金融分析的门槛。
-
-**标签**: `#llm`, `#stock-analysis`, `#python`, `#fintech`, `#automation`
-
----
-
-<a id="item-21"></a>
-## [Headroom 压缩 LLM 输入，减少 60-95%的 token 消耗](https://github.com/chopratejas/headroom) ⭐️ 6.0/10
-
-新的 Python 库 Headroom 在工具输出、日志和 RAG 块到达 LLM 之前对其进行压缩，在保持回答质量的同时减少 60-95%的 token 消耗。它可作为库、代理或 MCP 服务器使用。 Token 成本是 LLM 应用的主要瓶颈；该工具可大幅降低 API 费用，并有效延长上下文窗口。它将直接惠及依赖大量工具调用或检索增强生成的 LLM 应用开发者。 Headroom 采用 Python 实现，提供三种集成方式：直接库调用、HTTP 代理和 MCP 服务器。其压缩声称保留关键信息而去除冗余，但具体算法和严格的基准测试结果尚未公开。
-
-ossinsight · chopratejas · 6月25日 18:08
-
-**背景**: 大语言模型（LLM）按处理的 token 数量计费，且上下文窗口大小有限。检索增强生成（RAG）通常会注入大量文档块，工具输出也可能冗长，导致 token 浪费。Token 压缩技术旨在缩短输入文本，同时保留准确响应所需的信息。模型上下文协议（MCP）标准化了应用向 LLM 提供上下文的方式。
+**背景**: 代理开发环境（ADE）是用于创建、测试和监控 AI 编码代理的工具包。并行编码代理将任务同时分配给多个 AI 代理，打破了传统的单代理顺序处理模式。Orca 提供了一个统一界面来管理这些代理集群，并使用隔离的 Git 工作树防止冲突。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.aussieai.com/research/token-compression">Token Compression</a></li>
+<li><a href="https://github.com/stablyai/orca">GitHub - stablyai/orca: Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile. · GitHub</a></li>
+<li><a href="https://www.onorca.dev/">Orca — The most powerful Agent Development Environment (ADE)</a></li>
 
 </ul>
 </details>
 
-**标签**: `#token optimization`, `#LLM`, `#compression`, `#proxy`, `#Python`
+**标签**: `#agents`, `#dev-tools`, `#typescript`, `#ai`, `#parallel-computing`
+
+---
+
+<a id="item-21"></a>
+## [AI 网站克隆模板获 GitHub 关注](https://github.com/JCodesMore/ai-website-cloner-template) ⭐️ 6.0/10
+
+JCodesMore/ai-website-cloner-template 仓库使用 AI 编程代理，通过一条命令即可克隆任意网站，过去 24 小时内在 GitHub 获得 25 颗星。 该模板利用自主 AI 代理降低了网站克隆的门槛，可用于快速原型设计和学习，并反映了软件开发中智能编程工具日益普及的趋势。 该工具通过检测目标网址，提取设计令牌和资源，编写组件规范，并使用并行构建器重建网站；它基于 TypeScript 实现，可能需要与 Cursor 或 Windsurf 等兼容的 AI 编程代理配合使用。
+
+ossinsight · JCodesMore · 6月25日 21:41
+
+**背景**: AI 编程代理是能够自主规划和执行多步编程任务的工具，超越简单的代码补全，可理解整个代码库。网站克隆传统上需要手动重新创建站点的布局、样式和资源。此模板通过提供代理指令来自动化逆向工程，利用代理分析 HTML/CSS 并生成相应的组件代码。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://github.com/JCodesMore/ai-website-cloner-template">GitHub - JCodesMore/ai-website-cloner-template: Clone any website with one command using AI coding agents · GitHub</a></li>
+<li><a href="https://agentic.ai/best/coding-agents">18 Best AI Coding Agents in 2026 — Agentic.ai</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AI`, `#website-cloning`, `#TypeScript`, `#template`, `#automation`
+
+---
+
+<a id="item-22"></a>
+## [DeusData/codebase-memory-mcp：高效代码库索引 MCP 服务器](https://github.com/DeusData/codebase-memory-mcp) ⭐️ 6.0/10
+
+DeusData/codebase-memory-mcp 是一个新发布的 MCP 服务器，能将整个代码库索引为持久化知识图谱，提供亚毫秒级查询并支持 158 种编程语言。 它声称能将 token 使用量减少 99%，这可能使 AI 代码辅助对大型项目更高效、更具可扩展性。 用 C 语言编写，编译为单一静态二进制文件，无任何依赖，据称能在毫秒级内索引普通代码库。
+
+ossinsight · DeusData · 6月25日 21:41
+
+**背景**: 模型上下文协议（MCP）是 Anthropic 于 2024 年推出的开放标准，用于连接 AI 模型与外部工具和数据源。代码智能工具帮助开发者导航和理解代码库；通过 MCP 服务器集成可使 AI 助手高效查询代码结构。本项目利用知识图谱实现持久化快速索引。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol</a></li>
+<li><a href="https://modelcontextprotocol.io/docs/getting-started/intro">What is the Model Context Protocol (MCP)?</a></li>
+
+</ul>
+</details>
+
+**标签**: `#code-intelligence`, `#knowledge-graph`, `#mcp-server`, `#indexing`, `#developer-tools`
 
 ---
 
