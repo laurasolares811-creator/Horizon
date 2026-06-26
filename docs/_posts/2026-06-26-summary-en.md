@@ -5,316 +5,412 @@ date: 2026-06-26
 lang: en
 ---
 
-> From 38 items, 21 important content pieces were selected
+> From 39 items, 22 important content pieces were selected
 
 ---
 
-1. [OpenAI Previews GPT-5.6 Series: Sol, Terra, and Luna Models](#item-1) ⭐️ 9.0/10
-2. [OpenAI's GPT-5.6 Access Requires U.S. Government Vetting](#item-2) ⭐️ 8.0/10
-3. [Data Centers Trigger Voter Backlash Over Resources and Secrecy](#item-3) ⭐️ 8.0/10
-4. [Third-Party 10G Ethernet Module Reveals USB-C and Thermal Challenges](#item-4) ⭐️ 8.0/10
-5. [Springer Nature Retracts Max Planck Papers Over Algorithmic Self-Plagiarism Flag](#item-5) ⭐️ 8.0/10
-6. [The 'Papers, Please' Internet Era Threatens Online Privacy](#item-6) ⭐️ 8.0/10
-7. [German Court Rules Google Liable for AI-Generated Errors](#item-7) ⭐️ 8.0/10
-8. [Proxy-Based Model Router for Coding Agents Claude Code, Codex, Cursor](#item-8) ⭐️ 7.0/10
-9. [Ultrasound prototype for brain imaging sparks low-cost stroke diagnostic hopes](#item-9) ⭐️ 7.0/10
-10. [Libre Barcode Font: Open-Source EAN-13 with Built-in Checksum](#item-10) ⭐️ 7.0/10
-11. [Satirical Incident Report on Made-Up CVE-2026-LGTM](#item-11) ⭐️ 7.0/10
-12. [2,000 People Tried, Nobody Hacked His AI Assistant](#item-12) ⭐️ 7.0/10
-13. [Confidence Decoding Boosts Olympiad Math Accuracy by 22.4% Without Training](#item-13) ⭐️ 7.0/10
-14. [Geolocating Dashcam Video Without GPS Using Visual Place Recognition](#item-14) ⭐️ 7.0/10
-15. [OpenMontage: World's First Open-Source Agentic Video Production System](#item-15) ⭐️ 7.0/10
-16. [Jolla Opens Pre-Orders for New Sailfish OS Phone Amid Community Skepticism](#item-16) ⭐️ 6.0/10
-17. [rewardspy: A Debugger to Detect Reward Hacking During RL Training](#item-17) ⭐️ 6.0/10
-18. [New Repository Offers 754 Cybersecurity Skills for AI Agents Aligned with MITRE & NIST](#item-18) ⭐️ 6.0/10
-19. [GitHub repo shares Claude Code best practices for agentic engineering](#item-19) ⭐️ 6.0/10
-20. [Agent-Reach: Free CLI Tool for AI Agents to Access Web Platforms](#item-20) ⭐️ 6.0/10
-21. [FreeLLMProxy Aggregates Free Tiers of 16 LLM Providers](#item-21) ⭐️ 6.0/10
+1. [U.S. Government to Regulate Access to OpenAI's GPT-5.6](#item-1) ⭐️ 10.0/10
+2. [Data Centers Trigger Voter Backlash](#item-2) ⭐️ 8.0/10
+3. [Springer Nature Retracts Max Planck Papers via Algorithm, Still Sells Blank PDFs](#item-3) ⭐️ 8.0/10
+4. [Nemotron-3-Super Hybrid Mamba-MoE Achieves Perfect Needle Retrieval at 504K Tokens](#item-4) ⭐️ 8.0/10
+5. [audio.cpp: Unified C++ GGML Runtime for 12 Audio Models with 5x Speedup](#item-5) ⭐️ 8.0/10
+6. [Smart Model Router Slashes AI Coding Costs by 40%](#item-6) ⭐️ 7.0/10
+7. [Novel Ultrasound Neuroimaging Approach Sparks Community Debate on Safety and Validation](#item-7) ⭐️ 7.0/10
+8. [2,000 People Tried to Hack AI Assistant via Email; No Secrets Leaked](#item-8) ⭐️ 7.0/10
+9. [Training-free confidence decoding boosts LLM math accuracy by 22.4%](#item-9) ⭐️ 7.0/10
+10. [Shift from Benchmarking to Post-Training with Local LLMs](#item-10) ⭐️ 7.0/10
+11. [Pull Request Makes Tensor Parallel Viable on Vulkan Backend](#item-11) ⭐️ 7.0/10
+12. [754 Cybersecurity Skills for AI Agents Mapped to MITRE & NIST](#item-12) ⭐️ 7.0/10
+13. [Free LLM API Proxy Aggregates 16 Providers with Smart Failover](#item-13) ⭐️ 7.0/10
+14. [Dean W. Ball: AI Labs Face Narrow Monetization Window Amid Infrastructure Risks](#item-14) ⭐️ 6.0/10
+15. [Satirical AI Incident Report: Agents' Disagreement Costs $41K](#item-15) ⭐️ 6.0/10
+16. [Budget Multi-GPU Inference: CUDA Outperforms Vulkan](#item-16) ⭐️ 6.0/10
+17. [Reddit Asks: Best Local AI Workflows You Wish You'd Found Sooner](#item-17) ⭐️ 6.0/10
+18. [Local LLM Developer Seeks Feature Ideas from Community](#item-18) ⭐️ 6.0/10
+19. [OpenMontage: Open-Source Agentic Video Production System Released](#item-19) ⭐️ 6.0/10
+20. [Open-Source LLM Stock Analysis Tool Gains 24 GitHub Stars](#item-20) ⭐️ 6.0/10
+21. [Claude Code Best Practices: From Vibe Coding to Agentic Engineering](#item-21) ⭐️ 6.0/10
+22. [Agent-Reach: CLI Tool for AI Agents to Search Web Without API Fees](#item-22) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [OpenAI Previews GPT-5.6 Series: Sol, Terra, and Luna Models](https://simonwillison.net/2026/Jun/26/openai/#atom-everything) ⭐️ 9.0/10
+## [U.S. Government to Regulate Access to OpenAI's GPT-5.6](https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/) ⭐️ 10.0/10
 
-OpenAI has begun a limited preview of its GPT-5.6 model series, featuring the flagship Sol, balanced Terra, and affordable Luna models, each with new per-token pricing and improved prompt caching. This release marks a significant step in AI model evolution, offering competitive performance with lower costs and enhanced caching, potentially reshaping the market and influencing enterprise adoption and government policy. Pricing per 1M tokens: Sol $5 input/$30 output, Terra $2.50/$15, Luna $1/$6; prompt caching now features explicit breakpoints, a 30-minute minimum cache life, and cache writes billed at 1.25x input rate.
+OpenAI announced that its forthcoming GPT-5.6 model will only be accessible to companies approved by the U.S. government, with no access permitted for individual users. This marks unprecedented government intervention in AI deployment, potentially stifling innovation, favoring incumbents, and raising questions about the future of open-source AI and equitable access. Only vetted companies get access, with no process for individuals or researchers. The policy lacks a publicly disclosed framework, raising transparency and due-process concerns.
 
-rss · Simon Willison · Jun 26, 17:10
+hackernews · alain94040 · Jun 26, 18:23 · [Discussion](https://news.ycombinator.com/item?id=48690101)
 
-**Background**: GPT-5.6 is the latest in OpenAI's series of large language models, succeeding GPT-5.5. Token-based pricing is standard in the industry, where users pay for input (prompt) and output (completion) tokens. Prompt caching reduces costs for repeated prompts by storing and reusing previous computations.
+**Background**: OpenAI is a leading AI lab that has released models like GPT-4 and GPT-5. GPT-5.6 is a next-generation model with advanced reasoning capabilities. The U.S. government's gatekeeping role for accessing such a model is unusual and may be motivated by national security.
 
-**Tags**: `#AI`, `#OpenAI`, `#GPT-5.6`, `#language-models`, `#announcement`
+**Discussion**: Commenters widely see this as regulatory capture that entrenches incumbents and stifles competition. They highlight lack of transparency, potential for political favoritism, and threats to individual developers and open-source AI, with some worrying about future GPU regulation.
+
+**Tags**: `#AI regulation`, `#government policy`, `#OpenAI`, `#regulatory capture`, `#innovation`
 
 ---
 
 <a id="item-2"></a>
-## [OpenAI's GPT-5.6 Access Requires U.S. Government Vetting](https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/) ⭐️ 8.0/10
+## [Data Centers Trigger Voter Backlash](https://www.newsweek.com/cost-me-the-election-data-centers-trigger-voter-backlash-12118327) ⭐️ 8.0/10
 
-OpenAI announced that its latest model, GPT-5.6, will only be accessible to companies approved by the U.S. government, with no access path for individual users. This move marks a significant shift in AI governance, giving the government direct control over advanced AI access, raising concerns about stifled innovation, privacy, and potential abuse without transparent policy. Access is restricted to government-approved companies only; identity verification may be handled by Persona, a company funded by Peter Thiel, using government-issued IDs.
+Voter opposition to data center expansions is mounting, driven by politicians signing secret, non-disclosure agreements with developers and a lack of transparency about environmental and economic impacts. This clash underscores a critical tension between the rapid demand for digital infrastructure and democratic accountability, potentially reshaping how tech expansion is governed and threatening to slow down data center projects. Politicians are using NDAs to hide deal terms from the public, while protests focus on noise, water consumption, and rising electricity rates, even in areas properly zoned for heavy industry.
 
-hackernews · alain94040 · Jun 26, 18:23 · [Discussion](https://news.ycombinator.com/item?id=48690101)
+hackernews · randycupertino · Jun 26, 17:24 · [Discussion](https://news.ycombinator.com/item?id=48689275)
 
-**Background**: GPT-5.6 is OpenAI's next-generation large language model, succeeding GPT-4. The U.S. government's vetting of users marks an escalation from previous self-regulation or export controls. This decision occurs amid debates over AI safety and national security balancing against innovation.
+**Background**: Data centers, which power cloud computing and AI, require vast amounts of electricity and water for cooling, and can produce significant noise. Rapid expansion due to AI growth has led to conflicts with local communities over resources and transparency, especially when siting deals bypass public scrutiny.
 
-**Discussion**: Community reactions are largely critical, highlighting worries about government overreach, innovation bottlenecks, and surveillance via mandatory ID verification. Some fear corruption in access decisions, while individual users feel marginalized.
+**Discussion**: Commenters broadly condemn secretive, NDA-shielded deals as undemocratic. Views differ on protest legitimacy: some see valid environmental and cost concerns, while others witness irrational opposition like 'flammable data center' signs. A recurring sentiment notes that data centers were previously built without such community friction.
 
-**Tags**: `#AI policy`, `#government regulation`, `#privacy`, `#surveillance`, `#access inequality`
+**Tags**: `#data-centers`, `#politics`, `#community-backlash`, `#transparency`, `#environmental-impact`
 
 ---
 
 <a id="item-3"></a>
-## [Data Centers Trigger Voter Backlash Over Resources and Secrecy](https://www.newsweek.com/cost-me-the-election-data-centers-trigger-voter-backlash-12118327) ⭐️ 8.0/10
+## [Springer Nature Retracts Max Planck Papers via Algorithm, Still Sells Blank PDFs](https://www.science.org/content/article/why-have-papers-one-history-s-most-famous-physicists-been-retracted) ⭐️ 8.0/10
 
-Mounting voter opposition to data center projects has led to political consequences, including the primary loss of Utah's State Senate President who backed a major development near the Great Salt Lake. A former county commissioner also cited a data center vote as directly costing him his election. This voter backlash signals growing tension between tech infrastructure expansion and local democracy, as communities face the environmental costs of AI and cloud computing. The outcome could reshape how data centers are planned and regulated, affecting the pace of AI infrastructure growth. Community discussions reveal that local politicians often negotiate data center deals under non-disclosure agreements, blocking public oversight. Critics argue that the scale of new construction is based on speculative AI demand rather than proven need.
+Springer Nature algorithmically retracted two historic studies by physicist Max Planck, allegedly over self-plagiarism, yet continues to sell the resulting blank PDFs for $39.95 each. This incident exposes the risks of automated enforcement in academic publishing, where algorithmic errors can unjustly damage scientific integrity and authors' reputations, while also highlighting predatory pricing practices. The retraction appears to have been triggered by a copyright bot that flagged Planck's 1940 response paper as plagiarized because it shared a title with a critical piece, even though the content differed; Springer Nature replaced the papers with blank white pages rather than following the standard practice of marking the existing text as retracted.
 
-hackernews · randycupertino · Jun 26, 17:24 · [Discussion](https://news.ycombinator.com/item?id=48689275)
+hackernews · adharmad · Jun 26, 14:10 · [Discussion](https://news.ycombinator.com/item?id=48686834)
 
-**Background**: Data centers are large facilities housing servers for cloud services and AI, consuming massive amounts of electricity and water for cooling. The AI boom has driven rapid expansion, often in rural areas, leading to conflicts over land use, utility subsidies, and noise pollution. Local governments frequently offer tax breaks and relaxed regulations, but opaque processes have eroded public trust.
+**Background**: In scholarly publishing, retraction is a formal mechanism used to disavow unreliable research, typically requiring human review and a detailed notice per COPE guidelines. Algorithmic content moderation is growing, but retraction decisions demand human oversight to prevent errors. Historically, retracted articles are preserved in the literature with a watermark, not removed.
 
-**Discussion**: Comments overwhelmingly criticize secretive deals with NDAs and speculative overbuilding, with many stating that environmental and financial costs outweigh AI benefits. There is a deep distrust of both tech companies and politicians, and a sense that democratic processes are being circumvented.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Retraction_in_academic_publishing">Retraction in academic publishing - Wikipedia</a></li>
+<li><a href="https://publicationethics.org/guidance/guideline/retraction-guidelines">Retraction guidelines | COPE: Committee on Publication Ethics</a></li>
 
-**Tags**: `#data-centers`, `#voter-backlash`, `#AI-infrastructure`, `#community-impact`, `#technology-policy`
+</ul>
+</details>
+
+**Discussion**: Commenters expressed outrage at algorithmic retractions without human intervention, calling the practice "ghastly." They criticized selling blank PDFs for $39.95 as emblematic of a broken system, questioned the concept of self-plagiarism, and noted the absurdity—though Max Planck's reputation is safe.
+
+**Tags**: `#academic-publishing`, `#algorithmic-moderation`, `#retraction`, `#ethics`, `#preprint`
 
 ---
 
 <a id="item-4"></a>
-## [Third-Party 10G Ethernet Module Reveals USB-C and Thermal Challenges](https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/) ⭐️ 8.0/10
+## [Nemotron-3-Super Hybrid Mamba-MoE Achieves Perfect Needle Retrieval at 504K Tokens](https://www.reddit.com/r/LocalLLaMA/comments/1ugj1sf/nemotron3super120ba12b_hybrid_mambamoe_holds/) ⭐️ 8.0/10
 
-WisdPi released a third-party 10G Ethernet expansion card for Framework laptops, tested by Jeff Geerling, uncovering USB-C compatibility issues and overheating concerns. This highlights the difficulties of implementing high-speed peripherals via USB-C, particularly the rarely used USB 3.2 Gen 2x2 standard, and thermal constraints in compact laptop form factors. The module relies on USB 3.2 Gen 2x2, a 20Gbps two-lane variant with limited host support; Realtek chips may show performance quirks under Linux; sustained load causes thermal throttling.
+The Nemotron-3-Super-120B-A12B, a hybrid model combining Mamba2, periodic attention, and Mixture of Experts, demonstrates perfect needle-in-a-haystack retrieval up to 504,482 tokens while running entirely on four consumer-grade NVIDIA RTX 3090 GPUs. This shows that hybrid Mamba architectures can handle ultra-long contexts with constant memory, greatly reducing the need for large KV caches and enabling powerful long-context models to run locally on affordable hardware. The model achieves nearly free context scaling because Mamba layers maintain a fixed-size recurrent state; only two attention layers have a tiny KV cache. Decode speed at 504K tokens is 23 tokens per second, comparable to a full-attention MoE model at just 30K tokens on the same hardware. A noted limitation is recency bias: instructions planted early may be overwritten by later contradictions.
 
-hackernews · Alupis · Jun 26, 01:10 · [Discussion](https://news.ycombinator.com/item?id=48681220)
+reddit · r/LocalLLaMA · /u/Important_Quote_1180 · Jun 26, 21:06
 
-**Background**: Framework laptops feature modular expansion card slots using USB-C. USB 3.2 Gen 2x2 doubles bandwidth by using two lanes of USB 3.2, but is uncommon compared to USB4 or Thunderbolt. 10G Ethernet over copper generates significant heat, typically requiring heatsinks or fans, challenging in a laptop's power and thermal budget.
+**Background**: Mamba is a state space model that processes sequences in linear time with constant memory, unlike transformers whose KV cache grows with context length. Mixture of Experts (MoE) activates only a subset of model parameters per input token, improving efficiency. The needle-in-a-haystack test evaluates a language model's ability to retrieve a specific fact from a long document. The NVIDIA RTX 3090 is a consumer GPU with 24GB of VRAM; four such cards provide 96GB total, enough to fit the 71GB quantized model entirely on GPU.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/">Framework's 10 G Ethernet module exposes USB - C 's complexity</a></li>
-<li><a href="https://news.ycombinator.com/item?id=48681220">Framework's 10G Ethernet module exposes USB - C 's complexity</a></li>
-<li><a href="https://frame.work/">Framework | Framework Computer | Modular Laptops & PCs You...</a></li>
+<li><a href="https://arxiv.org/abs/2312.00752">Mamba : Linear-Time Sequence Modeling with Selective State Spaces</a></li>
+<li><a href="https://medium.com/ramses-engineering/not-one-brain-but-many-how-mixture-of-experts-moe-makes-ai-smarter-and-faster-568f41220852">Not One Brain, But Many: How Mixture of Experts ( MoE )... | Medium</a></li>
+<li><a href="https://sureprompts.com/blog/needle-in-a-haystack-prompting">Needle in a Haystack Prompting Guide (2026) | SurePrompts</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community discussion centered on USB standard confusion, questioning the choice of USB 3.2 Gen 2x2 over more universal USB4/Thunderbolt, noting that 10GBASE-T copper inherently runs hot, and suggesting fiber-based SFP+ as a cooler alternative. Some pointed out that even desktop PCIe 10G cards have large heatsinks, making sustained laptop operation impractical.
-
-**Tags**: `#USB-C`, `#Ethernet`, `#Framework`, `#hardware`, `#networking`
+**Tags**: `#hybrid-architecture`, `#long-context`, `#Mamba`, `#Mixture-of-Experts`, `#local-LLM`
 
 ---
 
 <a id="item-5"></a>
-## [Springer Nature Retracts Max Planck Papers Over Algorithmic Self-Plagiarism Flag](https://www.science.org/content/article/why-have-papers-one-history-s-most-famous-physicists-been-retracted) ⭐️ 8.0/10
+## [audio.cpp: Unified C++ GGML Runtime for 12 Audio Models with 5x Speedup](https://www.reddit.com/r/LocalLLaMA/comments/1ufpnm6/audiocpp_12_audio_models_qwen3tts_pockettts_vevo2/) ⭐️ 8.0/10
 
-Springer Nature retracted two historical papers by Max Planck after an automated tool flagged one for self-plagiarism because its title matched a critique’s title, despite the content being different. The papers were replaced with blank pages, yet the publisher still sells the empty PDFs. The incident exposes the risks of fully automated retractions without human review, which can undermine academic trust. It also highlights systemic issues in academic publishing, including opaque processes and profit-driven practices that persist even after retraction. The retraction apparently targeted Planck’s 1940 response paper, which shared the exact title with a preceding critique but contained distinct arguments. Springer Nature replaced both papers with a blank page stating “withdrawn due to article violation,” offering no further explanation, yet continues to sell the empty PDFs for $39.95 each.
+audio.cpp is a new C++ inference framework built on ggml that integrates 12 audio models—including Qwen3-TTS, PocketTTS, and Vevo2—into a single runtime, achieving up to 5x faster performance on CUDA compared to Python implementations. This unified runtime simplifies deployment by eliminating per-model Python dependencies and environments, while offering substantial speed improvements for local and server-side audio processing tasks. Benchmarks show PocketTTS 3.68× faster one-shot, Vevo2 5.03× faster one-shot; long-form throughput generates audio up to 48.40× real time. The framework currently supports CPU, CUDA, Vulkan, and Metal backends, but framework-wide streaming is not yet supported.
 
-hackernews · adharmad · Jun 26, 14:10 · [Discussion](https://news.ycombinator.com/item?id=48686834)
+reddit · r/LocalLLaMA · /u/Acceptable-Cycle4645 · Jun 25, 23:10
 
-**Background**: Self-plagiarism refers to reusing one’s own previously published work without proper citation, a practice considered unethical in modern academic publishing. Max Planck was a Nobel Prize-winning physicist and the father of quantum theory; papers from his era are historically important and often involve distinct context. Automated plagiarism-detection algorithms are increasingly used by publishers but can lack the nuance required for historical documents or debates where similar titles were common.
+**Background**: ggml is a C tensor library for machine learning, originally developed for llama.cpp to run large language models locally with low overhead. audio.cpp applies similar principles to audio models, enabling pure C++ inference without Python runtime, which reduces complexity and improves performance.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Self-plagiarism">Self-plagiarism</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GGML">GGML</a></li>
+<li><a href="https://github.com/QwenLM/Qwen3-TTS">GitHub - QwenLM/Qwen3-TTS: Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice cloning. · GitHub</a></li>
+<li><a href="https://arxiv.org/abs/2508.16332">[2508.16332] Vevo2: A Unified and Controllable Framework for Speech and Singing Voice Generation</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments express outrage over the practice of algorithmic retraction without human oversight, calling the sale of blank PDFs “broken” and “ghastly.” Some question the very notion of self-plagiarism for reusing one’s own work, while others note the irony that Planck’s reputation remains unaffected despite the flawed process.
-
-**Tags**: `#academic publishing`, `#retraction`, `#algorithmic moderation`, `#self-plagiarism`, `#ethics`
+**Tags**: `#ggml`, `#audio`, `#cpp`, `#tts`, `#optimization`
 
 ---
 
 <a id="item-6"></a>
-## [The 'Papers, Please' Internet Era Threatens Online Privacy](https://expression.fire.org/p/the-papers-please-era-of-the-internet) ⭐️ 8.0/10
+## [Smart Model Router Slashes AI Coding Costs by 40%](https://github.com/workweave/router) ⭐️ 7.0/10
 
-The article warns that increasing online identity verification, such as uploading passport photos to access services, is creating a surveillance-heavy internet where anonymity is lost, sparking debate on privacy versus accountability. This shift threatens fundamental online freedoms, could chill speech on sensitive topics, and exposes users to data breaches and coercion, while also raising questions about the viability of anonymous speech in combating disinformation. Community comments highlight potential solutions like anonymous credentials using zero-knowledge proofs, which could verify attributes (e.g., age) without revealing identity, but they may not address power imbalances or government coercion.
+The Weave Router plugs into coding agents like Claude Code and Cursor, using an RL model trained on agent traces to dynamically route requests to cheaper models, reportedly cutting token costs by 40% without quality loss. As AI-assisted coding costs soar with expensive frontier models, this router enables developers to maintain productivity while drastically reducing expenses, addressing a critical pain point for individuals and organizations. The router acts as a proxy endpoint translating requests between APIs, features an RL model trained on tens of thousands of agent traces, and is source-available under Elastic License 2.0; commenters, however, warn it may break prompt caching and clash with existing agent-level routing.
 
-hackernews · bilsbie · Jun 25, 21:44 · [Discussion](https://news.ycombinator.com/item?id=48679608)
+hackernews · adchurch · Jun 26, 16:40 · [Discussion](https://news.ycombinator.com/item?id=48688700)
 
-**Background**: The debate over online anonymity versus identity verification is long-standing. Anonymity enables free expression and protects whistleblowers, but can also facilitate abuse and disinformation. Recent advances like self-sovereign identity (SSI), decentralized identifiers (DIDs), and zero-knowledge proofs (ZKPs) offer ways to prove attributes without revealing personal data, potentially reconciling privacy and accountability.
+**Background**: Coding assistants like Claude Code and Cursor use LLMs to generate and edit code, often defaulting to powerful yet costly models such as Opus. Model routing aims to select the cheapest model capable of handling a given task, while prompt caching reuses computed contexts to lower costs—but switching models can invalidate caches, negating savings.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Self-sovereign_identity">Self-sovereign identity</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Zero-knowledge_proof">Zero-knowledge proof</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Decentralized_identifier">Decentralized identifier</a></li>
+**Discussion**: Feedback was mixed: many praised the cost-saving goal but highlighted cache invalidation issues when switching models mid-session, which could wipe out savings. Others noted that coding agents already route tasks internally and doubted a proxy could match prompts to models accurately. Budget-constrained developers also questioned its real-world viability.
 
-</ul>
-</details>
-
-**Discussion**: Comments reflect mixed views. Some feel torn between anonymity's role in enabling manipulation and its value for freedom. Others propose technical fixes like anonymous credentials, while concerns remain about tangible harms and the threat of coercion even for compliant citizens.
-
-**Tags**: `#privacy`, `#anonymity`, `#identity-verification`, `#internet-freedom`, `#surveillance`
+**Tags**: `#model-routing`, `#ai-coding-assistants`, `#cost-optimization`, `#claude-code`, `#developer-tools`
 
 ---
 
 <a id="item-7"></a>
-## [German Court Rules Google Liable for AI-Generated Errors](https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything) ⭐️ 8.0/10
+## [Novel Ultrasound Neuroimaging Approach Sparks Community Debate on Safety and Validation](https://alephneuro.com/blog/ultrasound-brain) ⭐️ 7.0/10
 
-A German court has ruled that Google is liable for inaccuracies in its AI Overviews, treating the AI summaries as the company's own words. Security expert Bruce Schneier argues this reinforces that companies must be accountable for their AI agents' actions. This ruling sets a significant legal precedent that companies cannot evade liability by blaming AI errors. It discourages replacing human workers with AI as a way to avoid accountability, potentially shaping global AI regulation. The case specifically involves Google's AI Overviews, which are AI-generated search result summaries known to sometimes produce false information. Schneier emphasizes that if a company uses human writers, it is liable for errors, so AI should be treated no differently.
+Aleph Neuro's blog post introduces a novel ultrasound-based neuroimaging method capable of high-resolution vascular imaging. The technique currently requires microbubble contrast agents, and aims for future contrast-free operation. This approach could make brain imaging more accessible and portable, potentially transforming neuroimaging in clinics and research. However, validation against MRI and addressing safety concerns are crucial before clinical adoption. The method uses sulfur hexafluoride microbubble contrast agents for sparse imaging, compositing signals over time to create high-resolution vascular maps. Community experts note that even low-dose ultrasound may disrupt myelination and that hemodynamic imaging cannot resolve neural spike-level detail.
 
-rss · Simon Willison · Jun 25, 22:28
+hackernews · rossant · Jun 26, 11:51 · [Discussion](https://news.ycombinator.com/item?id=48685558)
 
-**Background**: Google AI Overviews, launched in the US in May 2024, are an AI feature that generates summary snapshots for search queries. The feature evolved from Google's Search Generative Experience announced in 2023. AI Overviews have been criticized for inaccuracies and for reducing traffic to original websites. The German ruling marks an early legal response to AI-generated content liability.
+**Background**: Traditional neuroimaging methods like fMRI are expensive and non-portable. Ultrasound offers a less costly, portable alternative but has been limited by skull attenuation. Recent advances like functional ultrasound (fUS) and ultrasound localization microscopy (ULM) have enabled hemodynamic brain imaging at high spatiotemporal resolution, often using microbubble contrast agents to enhance vascular clarity.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Google_AI_overviews">Google AI overviews</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Functional_ultrasound_imaging">Functional ultrasound imaging - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ultrasound_Localization_Microscopy">Ultrasound Localization Microscopy - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI liability`, `#AI regulation`, `#Google`, `#legal`, `#Bruce Schneier`
+**Discussion**: Community comments express cautious excitement, highlighting the need for validation against MRI and safety concerns regarding ultrasound's potential to disrupt myelination. Some commenters criticize the overhyped 'mind reading' claims and question the feasibility of contrast-free imaging.
+
+**Tags**: `#ultrasound`, `#brain-imaging`, `#neurotechnology`, `#proof-of-concept`, `#medical-imaging`
 
 ---
 
 <a id="item-8"></a>
-## [Proxy-Based Model Router for Coding Agents Claude Code, Codex, Cursor](https://github.com/workweave/router) ⭐️ 7.0/10
+## [2,000 People Tried to Hack AI Assistant via Email; No Secrets Leaked](https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything) ⭐️ 7.0/10
 
-The Weave team released a proxy-based model router that integrates with coding agents such as Claude Code, Codex, and Cursor. It uses reinforcement learning trained on agent traces to intelligently route requests between cost-effective models like DeepSeek and frontier models like Opus, achieving 40% token savings. As AI-assisted coding becomes widespread, escalating API costs hurt developer productivity. This router offers a transparent way to optimize costs without sacrificing code quality, making it relevant to individual developers and enterprises alike. The routing decision is made by a reinforcement learning model trained on tens of thousands of agent traces, rewarding successful task completion. The tool is source-available under Elastic License 2.0, but community feedback highlights that proxy-based routing may disrupt prompt caching and context continuity in long agent sessions.
+Fernando Irarrázaval ran a public challenge at hackmyclaw.com where over 2,000 participants sent 6,000 email-based hacking attempts to an AI assistant powered by Opus 4.6 with a strict anti-prompt-injection prompt, yet no one managed to leak its secrets. This large-scale test provides empirical evidence that current frontier models, when combined with explicit anti-injection instructions, can effectively resist prompt injection attacks, potentially reducing risks for AI deployments. The model was Opus 4.6, and the anti-prompt-injection rules prohibited actions like revealing secrets, modifying files, executing code from emails, or exfiltrating data. The test cost about $500 in tokens and led to a Google account suspension due to inbound email volume.
 
-hackernews · adchurch · Jun 26, 16:40 · [Discussion](https://news.ycombinator.com/item?id=48688700)
+rss · Simon Willison · Jun 26, 18:33
 
-**Background**: Model routing is a technique for reducing Large Language Model (LLM) inference costs by dynamically selecting the most suitable model from a pool for each request. Coding agents like Claude Code are tools that assist in writing and debugging code using LLMs, often relying on prompt caching to maintain context and reduce latency across long sessions. As API costs rise, model routing has emerged as a practical solution to balance capability and budget.
+**Background**: Prompt injection is a cybersecurity attack where malicious inputs trick LLMs into bypassing safeguards. Opus 4.6 is Anthropic's frontier model released in May 2026, optimized for coding and enterprise tasks. The challenge invited public participation to test the AI assistant's security, reflecting growing interest in adversarial testing of AI systems.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.cnbc.com/2026/06/05/model-routing-on-ai-is-a-problem-for-openai-and-anthropic.html">Model routing is a fix for AI overspending. That's a problem for OpenAI and Anthropic</a></li>
-<li><a href="https://arxiv.org/abs/2502.08773">[2502.08773] Universal Model Routing for Efficient LLM Inference</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Prompt_injection">Prompt injection</a></li>
+<li><a href="https://www.anthropic.com/news/claude-opus-4-6">Claude Opus 4.6 \ Anthropic</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters acknowledged the cost problem but raised critical technical concerns: proxy-based model routing can disrupt prompt caching, and coding agents already perform internal model routing. Some questioned whether the routing decisions could accurately match user intent, while others compared it to existing solutions like vLLM Semantic Router.
-
-**Tags**: `#model-routing`, `#ai-coding`, `#cost-optimization`, `#proxy`, `#llm`
+**Tags**: `#AI security`, `#prompt injection`, `#LLM robustness`, `#adversarial testing`, `#cybersecurity`
 
 ---
 
 <a id="item-9"></a>
-## [Ultrasound prototype for brain imaging sparks low-cost stroke diagnostic hopes](https://alephneuro.com/blog/ultrasound-brain) ⭐️ 7.0/10
+## [Training-free confidence decoding boosts LLM math accuracy by 22.4%](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899865&idx=3&sn=a411b58582421e0f71d8260bdb141e58) ⭐️ 7.0/10
 
-A prototype ultrasound device capable of imaging the brain has been demonstrated. It achieves high-resolution images using a sparse injection of microbubble contrast agents, showing potential as a fast and low-cost stroke diagnostic tool. This technology could democratize brain imaging by offering a portable and low-cost alternative to MRI for stroke diagnosis, potentially enabling life-saving treatment in underserved regions. The current implementation relies heavily on microbubble contrast agents, and its ability to image through the skull remains a technical challenge. A rigorous comparison with established imaging modalities like MRI is still needed to validate its diagnostic accuracy.
+A new training-free, plug-and-play confidence decoding strategy significantly improves large language model performance on Olympiad math problems, achieving a 22.4% accuracy increase by bypassing the alignment tax. This approach sidesteps the alignment tax—the performance penalty often incurred by safety alignment—offering a practical way to enhance reasoning capabilities without costly retraining, with potential implications for both AI safety and performance optimization. The method is entirely training-free and plug-and-play, relying on internal model confidence scores to select final outputs, thereby avoiding modifications to model architecture or additional training.
 
-hackernews · rossant · Jun 26, 11:51 · [Discussion](https://news.ycombinator.com/item?id=48685558)
+rss · 量子位 · Jun 26, 04:35
 
-**Background**: Conventional ultrasound struggles to image the brain due to the skull's strong reflection and distortion of sound waves. Medical brain imaging typically relies on MRI or CT scans, which are expensive and not portable. Microbubble contrast agents, consisting of gas-filled lipid shells, can enhance ultrasound signals. Super-resolution ultrasound techniques, such as those using sparse bubble localization, have been explored to achieve finer detail beyond the diffraction limit.
+**Background**: Alignment tax refers to the cost in performance when aligning AI systems with safety objectives. Confidence decoding uses the model's own uncertainty estimates (e.g., token probabilities) to guide generation, similar to beam search but with confidence-based pruning. Olympiad math problems are highly challenging reasoning tasks often used to benchmark advanced LLM capabilities.
 
-**Discussion**: The community expressed strong interest but also critical concerns. While some praised the potential for portable, low-cost stroke diagnostics, others pointed out the lack of comparison with MRI and the heavy reliance on contrast agents. Technical challenges like imaging through the skull and the need for rigorous validation were emphasized.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.lesswrong.com/w/alignment-tax">Alignment Tax — LessWrong</a></li>
+<li><a href="https://www.emergentmind.com/topics/confident-decoding">Confident Decoding</a></li>
 
-**Tags**: `#ultrasound`, `#brain-imaging`, `#medical-devices`, `#proof-of-concept`, `#hackernews-discussion`
+</ul>
+</details>
+
+**Tags**: `#LLM`, `#reasoning`, `#alignment`, `#math`, `#confidence-decoding`
 
 ---
 
 <a id="item-10"></a>
-## [Libre Barcode Font: Open-Source EAN-13 with Built-in Checksum](https://graphicore.github.io/librebarcode/) ⭐️ 7.0/10
+## [Shift from Benchmarking to Post-Training with Local LLMs](https://www.reddit.com/r/LocalLLaMA/comments/1ugg1dm/what_should_i_do_consider_posttraining/) ⭐️ 7.0/10
 
-The Libre Barcode Project has released an open-source font that renders EAN-13 barcodes and automatically calculates the required checksum digit, eliminating the need for external computation. This simplifies barcode generation for software that supports fonts, potentially aiding small developers, open-source projects, and niche label printing tasks where full barcode libraries are unavailable. The font leverages OpenType features to compute the modulo-10 checksum in the font engine, but reliable rendering requires font support and careful consideration of print resolution to avoid scanning issues.
+The author proposes that instead of just benchmarking models on new hardware, users should engage in post-training for practical applications, drawing on real client projects in fraud detection, sales profiling, and more. This approach shifts the focus from passive benchmarking to creating real-world value, enabling custom model fine-tuning for business tasks and potentially generating income, all within the open-source LLM ecosystem. Post-training is a complex, empirical process where data mix and model choice matter greatly—for example, Llama models are more receptive to fine-tuning than Qwen models. Fast iteration cycles and the emerging field of reinforcement fine-tuning (RFT) are also highlighted as critical.
 
-hackernews · luu · Jun 26, 03:12 · [Discussion](https://news.ycombinator.com/item?id=48681949)
+reddit · r/LocalLLaMA · /u/entsnack · Jun 26, 19:11
 
-**Background**: EAN-13 is a global standard for retail product barcodes, consisting of 12 data digits and a check digit computed via a modulo-10 algorithm. Traditional barcode fonts only map characters to bar patterns, requiring the user to pre-calculate the check digit. This project innovates by embedding that calculation into the font itself using OpenType substitution rules, automating a previously manual step.
+**Background**: Post-training, often called alignment, is the process of fine-tuning a pre-trained large language model to better follow instructions, adopt desired behaviors, or specialize for tasks using techniques like supervised fine-tuning (SFT). In local LLM communities, many users focus on running models for inference and measuring speed in tokens per second (TPS), rather than adapting models through further training. The author challenges this norm, advocating for using hardware to perform computationally intensive training tasks that can tailor models to specific, often commercial, needs.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/International_Article_Number">International Article Number - Wikipedia</a></li>
-<li><a href="https://www.activebarcode.com/barcode/checkdigit/">check digit calculation for barcodes with examples</a></li>
+<li><a href="https://pytorch.org/blog/a-primer-on-llm-post-training/">A Primer on LLM Post-Training – PyTorch</a></li>
+<li><a href="https://huggingface.co/learn/llm-course/en/chapter11/1">Supervised Fine-Tuning · Hugging Face</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters caution that barcode fonts can produce suboptimal results due to printer resolution mismatch; they recommend using native printer barcode support or vector graphics instead. However, many appreciate the clever checksum automation. Some note that older barcode formats like Code 39 without checksums are outdated and prone to errors.
-
-**Tags**: `#barcode`, `#font`, `#open-source`, `#EAN-13`, `#typography`
+**Tags**: `#post-training`, `#fine-tuning`, `#local-llm`, `#practical-ml`, `#community-advice`
 
 ---
 
 <a id="item-11"></a>
-## [Satirical Incident Report on Made-Up CVE-2026-LGTM](https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html) ⭐️ 7.0/10
+## [Pull Request Makes Tensor Parallel Viable on Vulkan Backend](https://www.reddit.com/r/LocalLLaMA/comments/1ugitcr/vulkan_make_tp_viable_by_pwilkin_pull_request/) ⭐️ 7.0/10
 
-A satirical incident report was published, humorously detailing a fictional CVE and the absurdities of AI-driven responses. The post cleverly captures the tech community's concerns about AI hallucinations and over-automation, offering both humor and a cautionary tale. The fictional report features a humorous timeline, mentions like 'Kubernetes (the dog),' and metrics such as 2.1 trillion billable tokens and $1.7M inference spend.
+A new pull request (#25051) by contributor Piotr (pwilkin) enables viable Tensor Parallel (TP) inference on the Vulkan backend in llama.cpp, allowing multi-GPU setups to run large language models more efficiently on non-NVIDIA hardware. This opens up efficient multi-GPU inference for users with AMD, Intel, and other GPUs that rely on Vulkan, reducing dependence on NVIDIA CUDA and democratizing access to large-scale model inference. The implementation is an incremental improvement and still evolving, but it marks the first time Vulkan TP becomes usable in llama.cpp, a significant step for the Vulkan backend.
 
-hackernews · mooreds · Jun 26, 12:58 · [Discussion](https://news.ycombinator.com/item?id=48686093)
+reddit · r/LocalLLaMA · /u/TKGaming_11 · Jun 26, 20:57
 
-**Background**: CVE-2026-LGTM is a fictional vulnerability identifier, with 'LGTM' humorously referencing the 'Looks Good To Me' code review acronym. In reality, many organizations are adopting AI-driven incident response and triage bots, which sometimes lead to absurdities like hallucinated fixes or inappropriate closings. This satire exaggerates these trends for comedic effect, mirroring actual tech industry anecdotes.
+**Background**: llama.cpp is an open-source LLM inference library, widely used locally. Vulkan is a cross-platform graphics and compute API that supports AMD, Intel, and other GPUs, not just NVIDIA. Tensor Parallel (TP) is a model parallelism technique that splits model layers across multiple GPUs to run larger models. Previously, TP in llama.cpp was mainly CUDA-only; this pull request extends it to Vulkan.
 
-**Discussion**: Commenters found the satire hilariously plausible, with many highlighting favorite parts like the timeline fight with the triage assistant and the dog Kubernetes. Some noted it took a moment to realize it was fiction, reflecting how close it is to real absurdities.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Llama.cpp">Llama.cpp</a></li>
+<li><a href="https://github.com/ggml-org/llama.cpp">GitHub - ggml-org/llama.cpp: LLM inference in C/C++ · GitHub</a></li>
 
-**Tags**: `#satire`, `#security`, `#incident-report`, `#humor`, `#ai`
+</ul>
+</details>
+
+**Tags**: `#llama.cpp`, `#Vulkan`, `#tensor-parallel`, `#GPU-computing`, `#open-source`
 
 ---
 
 <a id="item-12"></a>
-## [2,000 People Tried, Nobody Hacked His AI Assistant](https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything) ⭐️ 7.0/10
+## [754 Cybersecurity Skills for AI Agents Mapped to MITRE & NIST](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) ⭐️ 7.0/10
 
-Fernando Irarrázaval ran a challenge where 2,000 people sent 6,000 emails attempting to extract secrets from his OpenClaw AI assistant, but no one succeeded, indicating enhanced resistance to prompt injection in the Opus 4.6 model. This demonstrates that rigorous training of frontier models like Opus 4.6 can significantly reduce prompt injection risks, a major concern for AI security, though it doesn't guarantee absolute safety. The assistant used Opus 4.6 with specific anti-prompt-injection rules forbidding disclosure of secrets, file modification, code execution, or data exfiltration via email, and 6,000 attempts across various strategies all failed.
+The GitHub repository mukul975/Anthropic-Cybersecurity-Skills offers 754 structured cybersecurity skills designed for AI agents, mapped to five major frameworks including MITRE ATT&CK and NIST CSF 2.0, and following the agentskills.io standard for compatibility with over 20 AI coding tools. This collection enables AI agents to perform security tasks like threat detection and incident response using standardized, framework-aligned skills, accelerating the integration of AI into cybersecurity workflows and promoting interoperability across diverse AI platforms. The skills span 26 security domains and are released under the Apache 2.0 license. They leverage the agentskills.io standard, which uses progressive disclosure to provide portable expertise without vendor lock-in, and are compatible with tools like Claude Code, GitHub Copilot, and Gemini CLI.
 
-rss · Simon Willison · Jun 26, 18:33
+ossinsight · mukul975 · Jun 26, 23:04
 
-**Background**: OpenClaw is an open-source personal AI assistant that can be self-hosted and connected to messaging platforms like WhatsApp, Telegram, and Discord. Prompt injection is an attack where users craft inputs to override an AI model's system instructions, potentially causing it to reveal sensitive information or perform harmful actions. Opus 4.6 is Anthropic's most advanced model, optimized for complex coding and long-running tasks, with a 1M token context window. Frontier models are increasingly trained to resist such attacks, as noted in the GPT-5.6 system card's prompt injection section.
+**Background**: MITRE ATT&CK is a globally recognized framework cataloging adversary tactics and techniques, widely used for threat intelligence. NIST CSF 2.0 provides cybersecurity risk management guidelines. D3FEND is MITRE's complementary knowledge base of defensive countermeasure techniques. The agentskills.io standard allows AI agents to acquire new capabilities in a portable, cross-platform manner. This repository bridges AI agent development with established cybersecurity frameworks.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.anthropic.com/news/claude-opus-4-6">Claude Opus 4 . 6 \ Anthropic</a></li>
-<li><a href="https://openclaw.ai/">OpenClaw — Personal AI Assistant</a></li>
+<li><a href="https://attack.mitre.org/">MITRE ATT & CK</a></li>
+<li><a href="https://d3fend.mitre.org/">D3FEND Matrix | MITRE D3FEND™</a></li>
+<li><a href="https://agentskills.io/">A standardized way to give AI agents new capabilities and expertise.</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The Hacker News thread featured considerable skepticism, with commenters noting that 6,000 amateur attempts do not prove security against a determined expert. Fernando engaged in good-faith discussions, acknowledging limitations and clarifying the informal nature of the challenge.
-
-**Tags**: `#AI security`, `#prompt injection`, `#LLMs`, `#red teaming`, `#frontier models`
+**Tags**: `#cybersecurity`, `#ai-agents`, `#security-skills`, `#mitre`, `#automation`
 
 ---
 
 <a id="item-13"></a>
-## [Confidence Decoding Boosts Olympiad Math Accuracy by 22.4% Without Training](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899865&idx=3&sn=a411b58582421e0f71d8260bdb141e58) ⭐️ 7.0/10
+## [Free LLM API Proxy Aggregates 16 Providers with Smart Failover](https://github.com/tashfeenahmed/freellmapi) ⭐️ 7.0/10
 
-A novel plug-and-play strategy called Confidence Decoding has been introduced, which bypasses the final layer of large language models to improve performance on math reasoning tasks, boosting accuracy on Olympiad math problems by 22.4% without any fine-tuning or additional training. Large language models often suffer from an alignment tax, where fine-tuning for human preferences degrades other capabilities like reasoning; Confidence Decoding mitigates this by skipping the aligned final layer, offering a simple, training-free way to enhance complex reasoning in LLMs and impacting educational and problem-solving applications. Confidence Decoding is a selection strategy that does not rely on the final token layer, which is most affected by alignment tuning; it is plug-and-play and applicable to existing LLMs without modification. The 22.4% gain specifically pertains to Olympiad-level math problems, a challenging benchmark.
+A new TypeScript proxy called freellmapi aggregates free API tiers from 16 different LLM providers into a single OpenAI-compatible endpoint, gaining 21 GitHub stars in one day. It allows personal experimenters to access a large combined free token pool (~1.7B tokens/month) without paying, and its smart routing and failover mechanisms demonstrate a practical engineering approach to using multiple LLM providers. The proxy supports any custom OpenAI-compatible endpoint alongside the 16 providers, uses encrypted key storage, and is intended only for personal experimentation, not production.
 
-rss · 量子位 · Jun 26, 04:35
+ossinsight · tashfeenahmed · Jun 26, 23:04
 
-**Background**: In large language models, 'alignment tax' refers to the degradation in performance on some tasks like reasoning after fine-tuning to align with human values via methods such as RLHF. The final layer of a transformer is often the most adjusted during this process, potentially harming the model's original reasoning capability. Confidence decoding bypasses this layer, thus avoiding the tax.
+**Background**: Many LLM providers offer limited free API tiers for experimentation. An OpenAI-compatible API adheres to the same request/response format as OpenAI's API, enabling easy swapping between different models. Aggregator proxies combine multiple such APIs into one, often with routing and failover to maximize availability and utilization. This project, freellmapi, does exactly that by pooling free quotas from 16 providers.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://aclanthology.org/2024.emnlp-main.35.pdf">Mitigating the Alignment Tax of RLHF</a></li>
-<li><a href="https://aligned.substack.com/p/three-alignment-taxes">Distinguishing three alignment taxes - by Jan Leike</a></li>
+<li><a href="https://bentoml.com/llm/model-interaction/openai-compatible-api">OpenAI-compatible API | LLM Inference Handbook</a></li>
+<li><a href="https://darkrouter.ai/">DarkRouter — stability on top of unofficial LLM providers</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#large language models`, `#reasoning`, `#alignment tax`, `#math problem solving`, `#confidence decoding`
+**Tags**: `#llm`, `#proxy`, `#aggregator`, `#openai`, `#tool`
 
 ---
 
 <a id="item-14"></a>
-## [Geolocating Dashcam Video Without GPS Using Visual Place Recognition](https://www.reddit.com/r/MachineLearning/comments/1ufx8nx/showcase_geolocating_a_dashcam_video_without_gps/) ⭐️ 7.0/10
+## [Dean W. Ball: AI Labs Face Narrow Monetization Window Amid Infrastructure Risks](https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything) ⭐️ 6.0/10
 
-A project called Third Eye performs geolocation of dashcam footage using only image content, combining frame-by-frame visual place recognition and trajectory search to map the route, demonstrated on a 12km² area in New York City. This approach enables location tracking without GPS, beneficial when GPS signals are unavailable or privacy is a concern, and advances cross-domain visual matching for autonomous driving and mapping. The pipeline includes per-frame place recognition against a street imagery index, trajectory search to stitch frames into a coherent path, geometric verification to filter false matches, and per-frame confidence to flag uncertain frames.
+Dean W. Ball published an economic critique of the AI industry, highlighting that labs have only a short post-release window to recoup enormous training costs before competition drives down margins. He also warns that large-scale AI infrastructure investments may not be viable if government policies restrict market access. This analysis underscores the financial fragility of the AI industry, where massive capital expenditures rely on rapid monetization and free global markets; any policy or competitive delay could threaten the business models of leading AI companies. Ball notes that a significant fraction of training costs is recouped in the few months after release, and that proposed $100 billion data centers are predicated on a global market, not limited to a few hundred privileged companies.
 
-reddit · r/MachineLearning · /u/Ok-Apricot956 · Jun 26, 05:03
+rss · Simon Willison · Jun 26, 22:25
 
-**Background**: Visual Place Recognition (VPR) is a computer vision task that matches a query image to a geotagged database image to determine location, commonly used in robotics and self-driving cars. Cross-domain matching refers to comparing images captured in different conditions or from different sources, such as a dashcam versus street view imagery, which is challenging due to appearance variations. Third Eye focuses on uncertainty estimation to handle these difficulties.
+**Background**: Frontier models, such as GPT-4 or Claude, are the most advanced AI systems, costing hundreds of millions of dollars to train due to massive datasets and computing requirements. The AI infrastructure buildout, including $100 billion data centers, is considered essential for economic competitiveness by figures like former US AI Czar David Sacks.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Visual_place_recognition">Visual place recognition</a></li>
-<li><a href="http://graphics.cs.cmu.edu/projects/crossDomainMatching/">Data-driven Visual Similarity for Cross-domain Image Matching</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Frontier_model">Frontier model</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#computer-vision`, `#geolocation`, `#visual-place-recognition`, `#machine-learning`, `#dashcam`
+**Tags**: `#economics of AI`, `#frontier models`, `#AI infrastructure`, `#monetization`, `#AI policy`
 
 ---
 
 <a id="item-15"></a>
-## [OpenMontage: World's First Open-Source Agentic Video Production System](https://github.com/calesthio/OpenMontage) ⭐️ 7.0/10
+## [Satirical AI Incident Report: Agents' Disagreement Costs $41K](https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything) ⭐️ 6.0/10
 
-OpenMontage has been released as an open-source system that transforms AI coding assistants into full video production studios. It features 12 production pipelines, 52 specialized tools, and more than 500 agent skills for end-to-end video creation. By enabling natural language-driven automation of the entire video production pipeline, OpenMontage significantly lowers the barrier for content creation and may accelerate the development of AI-generated media. OpenMontage is built in Python and organizes 12 pipelines covering scriptwriting, visual design, audio synthesis, editing, and rendering. It is in an early stage with modest community traction, gaining 40 stars and no forks in the last 24 hours, indicating limited real-world testing.
+Andrew Nesbitt published a satirical incident report (CVE-2026-LGTM) depicting two AI review agents from competing vendors getting stuck in a disagreement loop over a package's maliciousness, resulting in $41,255 in inference costs and a stock price increase after a vendor's marketing team capitalized on the event. This satirical report highlights real risks in deploying AI agents for code review and security, such as costly infinite disagreement loops and the potential for adversarial manipulation (e.g., prompt injection) in software supply chains. It also satirizes how marketing can turn AI failures into perceived successes, reflecting broader industry hype. The report details that the disagreement occurred on a pull request bumping the `foxhole-lz4` package, with agents from two competing vendors. After 340 agent comments and $41,255 in inference spend, the Finance team revoked API keys. One vendor's marketing team claimed a '430% YoY increase in adversarial multi-agent security reasoning,' causing a 6% stock surge.
 
-ossinsight · calesthio · Jun 26, 21:17
+rss · Simon Willison · Jun 26, 17:58
 
-**Background**: Agentic AI systems are autonomous, goal-oriented programs that can plan and execute complex multi-step workflows with minimal human intervention. In video production, they coordinate various AI models for tasks like scripting, image generation, voice synthesis, and editing. OpenMontage applies this approach by letting users describe a video in natural language, with AI coding assistants orchestrating the entire process, analogous to how code assistants help with programming.
+**Background**: Inference spend refers to the computational cost of running AI models to generate outputs, separate from training costs. Prompt injection is a cybersecurity attack where malicious inputs trick large language models into performing unintended actions, a growing concern for AI tools handling untrusted data. In software supply chains, automated AI agents are increasingly used to review code for security, but they can be vulnerable to adversarial loops or malicious packages that exploit their decision-making.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Prompt_injection">Prompt injection</a></li>
+<li><a href="https://www.cloudzero.com/blog/inference-cost/">Your Guide To Inference Cost (And Make It A Margin Advantage)</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#security`, `#ai`, `#prompt-injection`, `#generative-ai`
+
+---
+
+<a id="item-16"></a>
+## [Budget Multi-GPU Inference: CUDA Outperforms Vulkan](https://www.reddit.com/r/LocalLLaMA/comments/1ugj532/upgraded_my_budget_build_to_multigpu_for_inference/) ⭐️ 6.0/10
+
+A Reddit user tested a budget multi-GPU setup with 2x RTX 3090 and an Intel Arc A770, finding that the Vulkan backend in llama.cpp adds about 5GB memory overhead per 24GB card and delivers only 3 tokens/s, while CUDA achieves 30 tokens/s with lower VRAM usage. This highlights that for multi-GPU LLM inference on a budget, sticking to a single vendor's GPU and using optimized backends like CUDA is crucial for efficiency; Vulkan's cross-vendor compatibility comes at a steep performance cost. The user ran Qwen 3.6 27B Q8_K_XL with bf16 cache; with CUDA on two 3090s, 170k context at 30 tok/s; adding A770 via Vulkan dropped to 50k context at 3 tok/s. Tensor split worked well with CUDA, but Vulkan's memory overhead left little room for context.
+
+reddit · r/LocalLLaMA · /u/whiteh4cker · Jun 26, 21:09
+
+**Background**: llama.cpp supports both CUDA and Vulkan backends for GPU acceleration. CUDA is Nvidia's proprietary parallel computing platform, offering optimized memory management and performance. Vulkan is an open, cross-platform API that works with AMD, Intel, and Nvidia GPUs but may have higher overhead. Q8_K_XL is a quantization format that compresses model weights to 8 bits with extra-large groups for improved accuracy. Multi-GPU inference often uses tensor parallelism to split model layers and KV cache across devices.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/Talnz007/VulkanIlm">GitHub - Talnz007/VulkanIlm: GPU-accelerated LLaMA inference wrapper for legacy Vulkan-capable systems a Pythonic way to run AI with knowledge (Ilm) on fire (Vulkan). · GitHub</a></li>
+<li><a href="https://github.com/ggml-org/llama.cpp/blob/master/docs/multi-gpu.md">llama.cpp/docs/multi-gpu.md at master · ggml-org/llama.cpp</a></li>
+<li><a href="https://dasroot.net/posts/2026/05/best-quantization-qwen36-limited-vram-comparative-analysis/">Best Quantization for Qwen3.6 on Limited VRAM: A Comparative...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#local-llm`, `#multi-gpu`, `#cuda`, `#vulkan`, `#budget-build`
+
+---
+
+<a id="item-17"></a>
+## [Reddit Asks: Best Local AI Workflows You Wish You'd Found Sooner](https://www.reddit.com/r/LocalLLaMA/comments/1ugba2x/whats_one_local_ai_workflow_you_wish_youd/) ⭐️ 6.0/10
+
+A Reddit post on r/LocalLLaMA asks the community to share local AI workflows that saved time or increased utility, mentioning techniques like RAG, MCP, and coding agents. The discussion crowdsources practical productivity hacks from local LLM users, providing real-world applications that go beyond model benchmarks and could benefit others in the community. The workflows mentioned include RAG for retrieving external information, MCP for standardized tool integration, and AI coding agents for autonomous software development tasks.
+
+reddit · r/LocalLLaMA · /u/recro69 · Jun 26, 16:15
+
+**Background**: RAG (Retrieval-Augmented Generation) allows LLMs to pull in facts from external sources, improving accuracy. MCP (Model Context Protocol) is an open standard by Anthropic that lets AI systems connect to external tools easily. AI coding agents can write, debug, and even merge code autonomously, moving beyond simple autocomplete.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation">Retrieval - augmented generation - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol - Wikipedia</a></li>
+<li><a href="https://toloka.ai/blog/ai-coding-agents-what-they-are-how-they-work-and-how-to-build-one/">AI coding agents: what they are, how they work, and how to build one</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#local-llm`, `#workflows`, `#community`, `#productivity`, `#rag`
+
+---
+
+<a id="item-18"></a>
+## [Local LLM Developer Seeks Feature Ideas from Community](https://www.reddit.com/r/LocalLLaMA/comments/1ughcl0/local_llm_peeps/) ⭐️ 6.0/10
+
+A developer building a local-first, multi-agent LLM harness is asking the community to suggest features before open-sourcing the project, aiming to improve the local LLM experience. This community-driven approach could result in a practical open-source tool that addresses real user needs, fostering wider adoption of privacy-focused local AI workflows. The harness is local-first but also supports API backends, includes undisclosed multi-agent orchestration, and is built by a developer with 45 years of software experience emphasizing ease of use.
+
+reddit · r/LocalLLaMA · /u/CreamPitiful4295 · Jun 26, 20:01
+
+**Background**: Running large language models (LLMs) locally on personal computers offers privacy and independence from cloud services. Multi-agent frameworks allow multiple AI agents to collaborate on complex tasks. A 'harness' here is software that manages LLM interactions, simplifying development.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://lmstudio.ai/">LM Studio - Local AI on your computer</a></li>
+<li><a href="https://grokipedia.com/page/Open-source_multi-agent_LLM_frameworks">Open-source multi-agent LLM frameworks</a></li>
+<li><a href="https://www.superannotate.com/blog/multi-agent-llms">Multi - agent LLMs in 2026 [+frameworks] | SuperAnnotate</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#local-llm`, `#agent-framework`, `#open-source`, `#tooling`, `#community`
+
+---
+
+<a id="item-19"></a>
+## [OpenMontage: Open-Source Agentic Video Production System Released](https://github.com/calesthio/OpenMontage) ⭐️ 6.0/10
+
+OpenMontage, the first open-source agentic video production system, has been released on GitHub. It features 12 production pipelines, 52 specialized tools, and over 500 agent skills to automate video creation. This system democratizes video production by enabling AI coding assistants to handle end-to-end workflows, potentially disrupting traditional video editing workflows. It aligns with the growing trend of agentic AI applications in creative fields. OpenMontage wraps scripting, image generation, voice synthesis, and video editing into coordinated AI agents. However, the repository currently lacks detailed documentation and community traction, as indicated by only 40 stars and no forks.
+
+ossinsight · calesthio · Jun 26, 23:04
+
+**Background**: Agentic AI refers to autonomous systems that perceive, plan, and execute multi-step tasks using tools. In video production, agentic systems break down creative briefs into scripts, generate visuals and audio, and assemble them automatically. OpenMontage leverages AI coding assistants—tools that help developers write code—to orchestrate these tasks, positioning any developer as a potential video producer.
 
 <details><summary>References</summary>
 <ul>
@@ -324,130 +420,62 @@ ossinsight · calesthio · Jun 26, 21:17
 </ul>
 </details>
 
-**Tags**: `#video-production`, `#ai-agents`, `#open-source`, `#python`, `#agentic-systems`
-
----
-
-<a id="item-16"></a>
-## [Jolla Opens Pre-Orders for New Sailfish OS Phone Amid Community Skepticism](https://commerce.jolla.com/products/jolla-phone-october-2026) ⭐️ 6.0/10
-
-Jolla has announced pre-orders for a new smartphone running Sailfish OS, tentatively scheduled for October 2026, marking the company's return to hardware after years of absence. The announcement has ignited discussions about the openness of Sailfish OS and Jolla's reliability. This launch represents a rare new device in the niche Linux mobile phone market, appealing to users seeking alternatives to Android and iOS. However, concerns over Sailfish OS's closed-source components and Jolla's history of poor support cast doubt on its potential impact. The product page on Jolla's website lacks technical specifications. Community members point out that Sailfish OS retains many closed-source UI components, and Jolla's previous phone, the Jolla 1, received limited updates and had poor Android app compatibility.
-
-hackernews · mrbn100ful · Jun 26, 14:46 · [Discussion](https://news.ycombinator.com/item?id=48687272)
-
-**Background**: Jolla is a Finnish company founded in 2011 by former Nokia MeeGo engineers. Its operating system, Sailfish OS, is Linux-based with a proprietary Android compatibility layer and custom interface. The first Jolla Phone launched in 2013 with crowdfunding support but sales ended in 2016 and software updates ceased in 2020. The company filed for bankruptcy restructuring in 2024 and now operates as JollyBoys.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Jolla">Jolla</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Sailfish_OS">Sailfish OS</a></li>
-<li><a href="https://sailfishos.org/">Sailfish OS - European alternative for Mobile operating systems</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community comments express strong skepticism and distrust, citing Jolla's past failures: the original Jolla Phone had poor support and non-functional Android apps. Users warn against pre-ordering due to Jolla's history of ignoring cancellation requests. Some note that Sailfish OS is less open than Android, with many closed-source UI components. Overall sentiment is cautious, with recommendations to consider alternatives like GrapheneOS or /e/OS.
-
-**Tags**: `#mobile`, `#linux`, `#sailfish-os`, `#smartphone`, `#open-source`
-
----
-
-<a id="item-17"></a>
-## [rewardspy: A Debugger to Detect Reward Hacking During RL Training](https://www.reddit.com/r/MachineLearning/comments/1uga687/a_debugger_for_rl_reward_functions_that_detects/) ⭐️ 6.0/10
-
-A developer released rewardspy, an open-source Python library that wraps reward functions and continuously tracks indicators like reward variance collapse and response length drift to detect reward hacking during GRPO training. Reward hacking undermines RL training by causing policies to exploit reward functions instead of genuinely improving; rewardspy enables early detection, helping practitioners build more robust and trustworthy models. It currently tracks metrics such as rolling reward statistics, reward variance collapse, reward component imbalance, response length drift, reward slope changes, and GRPO group collapse, and is released as an early-stage project seeking technical advice.
-
-reddit · r/MachineLearning · /u/BaniyanChor · Jun 26, 15:34
-
-**Background**: GRPO (Group Relative Policy Optimization) is a reinforcement learning algorithm popularized by DeepSeek for training language models, which does not require a separate value critic. Reward hacking occurs when an RL agent exploits loopholes in the reward function to achieve high rewards without learning the intended behavior. Common signs include sudden reward spikes, variance collapse, and response length drift. The library aims to catch these patterns early.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://medium.com/data-science-in-your-pocket/what-is-grpo-the-rl-algorithm-used-to-train-deepseek-12acc19798d3">What is GRPO ? The RL algorithm used to train DeepSeek | Medium</a></li>
-<li><a href="https://www.primeintellect.ai/blog/reward-hacking">Systematic Reward Hacking and Prime Sprints</a></li>
-<li><a href="https://levelup.gitconnected.com/grpo-in-production-the-failure-modes-nobody-writes-about-5d59c3fc9c3b">GRPO in Production: The Failure Modes Nobody... | Level Up Coding</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#reinforcement learning`, `#reward hacking`, `#debugging`, `#open source`, `#tool`
-
----
-
-<a id="item-18"></a>
-## [New Repository Offers 754 Cybersecurity Skills for AI Agents Aligned with MITRE & NIST](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) ⭐️ 6.0/10
-
-A new GitHub repository has published 754 structured cybersecurity skills designed for AI agents, mapped to prominent frameworks such as MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, and NIST AI RMF, following the agentskills.io standard. This collection enables standardized, portable cybersecurity capabilities across more than 20 AI platforms, potentially accelerating the integration of security expertise into AI agents and enhancing automated threat detection and response. The repository covers 26 security domains, is licensed under Apache 2.0, and is compatible with tools like Claude Code, GitHub Copilot, Codex CLI, Cursor, and Gemini CLI.
-
-ossinsight · mukul975 · Jun 26, 21:17
-
-**Background**: The agentskills.io standard defines a common format for AI skills, ensuring interoperability across platforms. MITRE ATT&CK catalogs adversary tactics and techniques, while D3FEND provides a complementary defensive framework. MITRE ATLAS specifically focuses on threats to AI systems, extending ATT&CK's approach to machine learning.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/agentskills/agentskills">GitHub - agentskills/agentskills: Specification and documentation for Agent Skills · GitHub</a></li>
-<li><a href="https://csrc.nist.gov/csrc/media/Presentations/2025/mitre-atlas/TuePM2.1-MITRE+ATLAS+Overview+Sept+2025.pdf">ATLAS Overview Dr. Christina Liaghati MITRE ATLAS Lead</a></li>
-<li><a href="https://medium.com/@yuviniroula/introduction-to-mitre-d3fend-framework-and-how-can-you-use-it-to-defend-your-organization-37cf1e3713bc">Introduction to MITRE D 3 FEND Framework and How can... | Medium</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#cybersecurity`, `#AI`, `#agents`, `#MITRE`, `#open-source`
-
----
-
-<a id="item-19"></a>
-## [GitHub repo shares Claude Code best practices for agentic engineering](https://github.com/shanraisshan/claude-code-best-practice) ⭐️ 6.0/10
-
-A new GitHub repository, shanraisshan/claude-code-best-practice, curates best practices for using Claude Code, aiming to shift developers from ad hoc 'vibe coding' to disciplined 'agentic engineering.' This promotes structured, agent-driven AI development, potentially improving code quality and reliability as AI coding tools like Claude Code become more widespread. The repository is written in HTML and saw active development with 5 pushes in the past day. It provides practical guidelines rather than just theoretical advice.
-
-ossinsight · shanraisshan · Jun 26, 21:17
-
-**Background**: Claude Code is Anthropic's AI coding agent that reads codebases, edits files, and runs commands via natural language. 'Vibe coding' is an informal approach where developers generate code by describing tasks to LLMs. 'Agentic engineering' treats AI as a disciplined agent that follows best practices, plans, and verifies work—moving beyond simple prompt-and-forget interactions.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
-<li><a href="https://docs.anthropic.com/en/docs/claude-code/overview">Claude Code overview - Anthropic</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Vibe_coding">Vibe coding - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#claude-code`, `#best-practices`, `#ai-assisted-coding`, `#agentic-engineering`, `#vibe-coding`
+**Tags**: `#open-source`, `#video-production`, `#ai-agents`, `#python`, `#automation`
 
 ---
 
 <a id="item-20"></a>
-## [Agent-Reach: Free CLI Tool for AI Agents to Access Web Platforms](https://github.com/Panniantong/Agent-Reach) ⭐️ 6.0/10
+## [Open-Source LLM Stock Analysis Tool Gains 24 GitHub Stars](https://github.com/ZhuLinsen/daily_stock_analysis) ⭐️ 6.0/10
 
-Panniantong/Agent-Reach is a newly trending Python CLI tool that allows AI agents to search and read content from social media and web platforms like Twitter, Reddit, GitHub, Bilibili, and Xiaohongshu without any API fees. It gained 23 stars in the past 24 hours, aiming to give AI agents 'eyes to see the entire internet.' By eliminating API fees and providing a unified CLI interface, Agent-Reach lowers the barrier for AI agents to access diverse web data, potentially enabling more sophisticated research, monitoring, and content aggregation without dependency on costly third-party APIs. The tool reportedly supports over 17 platforms including both Western and Chinese social media, and can be integrated as an MCP server or directly via API calls. It is specifically mentioned in the context of Claude Code Skills, but its Python implementation makes it adaptable for other AI frameworks.
+The Python-based GitHub repository ZhuLinsen/daily_stock_analysis, an LLM-powered multi-market stock analysis system, gained 24 stars and 12 forks in the past 24 hours, attracting attention for its zero-cost automated scheduling and multi-source data integration. This tool democratizes AI-driven financial analysis by offering a free alternative to costly commercial platforms, potentially enabling individual investors to make better-informed decisions across multiple markets. Built in Python, the system claims zero-cost operation, likely leveraging free LLM APIs or local models; however, it shows limited technical novelty and has no community discussion, which may affect its long-term adoption.
 
-ossinsight · Panniantong · Jun 26, 21:17
+ossinsight · ZhuLinsen · Jun 26, 23:04
 
-**Background**: Web scraping and API access to social media platforms often require paid API keys and complex integrations. Bilibili is a major Chinese video platform with a strong ACG community, and Xiaohongshu (RedNote) is a Chinese social commerce app popular for lifestyle content; both have restricted API access for non-Chinese developers. Agent-Reach aims to bypass these barriers by scraping content directly.
+**Background**: LLM-powered stock analysis uses large language models to interpret financial news and market data for sentiment and trend analysis. Such tools have traditionally required expensive data feeds and compute resources, but open-source projects like this aim to lower the barrier. This system aggregates data from multiple sources and provides a decision dashboard, making AI-assisted trading more accessible.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/Panniantong/agent-reach">GitHub - Panniantong/Agent-Reach: Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.</a></li>
-<li><a href="https://crossaitools.com/skills/panniantong/agent-reach/agent-reach">Agent Reach | Claude Code Skills</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#AI agents`, `#web scraping`, `#CLI tool`, `#Python`, `#open source`
+**Tags**: `#stock-analysis`, `#llm`, `#python`, `#finance`, `#ai-application`
 
 ---
 
 <a id="item-21"></a>
-## [FreeLLMProxy Aggregates Free Tiers of 16 LLM Providers](https://github.com/tashfeenahmed/freellmapi) ⭐️ 6.0/10
+## [Claude Code Best Practices: From Vibe Coding to Agentic Engineering](https://github.com/shanraisshan/claude-code-best-practice) ⭐️ 6.0/10
 
-A new TypeScript-based proxy, FreeLLMProxy, combines the free API tiers of 16 large language model providers into a single OpenAI-compatible endpoint. It offers smart routing, automatic failover, and up to approximately 1.7 billion tokens per month. This tool significantly lowers the barrier for individual developers and researchers to experiment with multiple LLMs without incurring costs, though it is intended solely for personal experimentation. The proxy is written in TypeScript and exposes an OpenAI-compatible /v1 endpoint. It features smart routing, automatic failover, encrypted API keys, and is strictly for personal experimentation.
+A new GitHub repository, shanraisshan/claude-code-best-practice, has been trending with 23 stars in the past 24 hours, offering a set of best practices for moving from vibe coding to structured agentic engineering with Claude Code. It provides developers with practical guidelines to harness Claude Code more effectively, improving code quality and project scalability in the growing field of AI-powered software development. The repository, last updated with 5 pushes, is primarily an HTML-based collection of guidelines rather than executable code, serving as a reference for developers adopting agentic engineering practices.
 
-ossinsight · tashfeenahmed · Jun 26, 21:17
+ossinsight · shanraisshan · Jun 26, 23:04
 
-**Background**: Many LLM providers offer free API tiers with limited monthly tokens, but using them individually requires separate integrations. FreeLLMProxy pools these free quotas behind a single endpoint that mimics the OpenAI API, enabling seamless switching between models. Smart routing and failover enhance reliability and efficiency, making it easier for developers to prototype and test without managing multiple accounts.
+**Background**: Vibe coding is an informal AI-assisted programming style that prioritizes speed over rigorous review, potentially introducing security risks. Agentic engineering involves designing autonomous AI agents that plan and use tools for complex tasks. Claude Code is Anthropic's agentic coding tool for terminal and IDE. This repository bridges these concepts by promoting disciplined agentic practices.
 
-**Tags**: `#llm`, `#proxy`, `#openai`, `#free-api`, `#typescript`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Vibe_coding">Vibe coding</a></li>
+<li><a href="https://www.linkedin.com/pulse/from-vibe-coding-agentic-engineering-bertrand-n-atemkeng-m9moe">From Vibe Coding to Agentic Engineering</a></li>
+<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#claude`, `#best-practices`, `#ai-coding`, `#agentic-engineering`, `#github-trending`
+
+---
+
+<a id="item-22"></a>
+## [Agent-Reach: CLI Tool for AI Agents to Search Web Without API Fees](https://github.com/Panniantong/Agent-Reach) ⭐️ 6.0/10
+
+A new GitHub repository, Agent-Reach, provides a command-line tool that enables AI agents to search and read content from platforms like Twitter, Reddit, YouTube, GitHub, Bilibili, and Xiaohongshu without using any APIs or incurring fees. This tool reduces the cost and complexity of connecting AI agents to diverse online platforms by bypassing API fees and usage limits, potentially democratizing access to real-time web data for developers and indie projects. The tool supports popular platforms such as Twitter, Reddit, YouTube, GitHub, Bilibili, and Xiaohongshu, and operates via a Python-based CLI. It likely relies on web scraping techniques, which may be subject to platform anti-scraping measures and terms of service.
+
+ossinsight · Panniantong · Jun 26, 23:04
+
+**Background**: AI agents are intelligent software entities that can autonomously use tools and take actions to achieve goals. Web scraping is the automated extraction of data from websites, commonly used to gather information that is not readily available through APIs. Agent-Reach employs web scraping to enable AI agents to directly search and read multiple online platforms without requiring individual API keys.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/AI_agent">AI agent</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Web_scraping">Web scraping</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI`, `#web-scraping`, `#CLI`, `#multi-platform`, `#agents`
 
 ---
