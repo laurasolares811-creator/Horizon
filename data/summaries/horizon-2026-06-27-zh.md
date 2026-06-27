@@ -1,396 +1,475 @@
 # Horizon 每日速递 - 2026-06-27
 
-> 从 30 条内容中筛选出 17 条重要资讯。
+> 从 36 条内容中筛选出 22 条重要资讯。
 
 ---
 
-1. [OpenAI 预览 GPT-5.6 Sol：在 Cerebras 上实现 750 tokens/秒](#item-1) ⭐️ 9.0/10
-2. [开源权重 LLM 与闭源差距缩小，可持续性仍存疑](#item-2) ⭐️ 8.0/10
-3. [电子前哨基金会呼吁阻止加州 3D 打印机监控法案](#item-3) ⭐️ 8.0/10
-4. [美国允许 Anthropic 向信任伙伴有限发布 Mythos AI 模型](#item-4) ⭐️ 8.0/10
-5. [PlayStation 将删除用户账户中 551 部已购电影](#item-5) ⭐️ 8.0/10
-6. [置信解码绕过对齐税，奥数准确率提升 22.4%](#item-6) ⭐️ 8.0/10
-7. [展示：无 GPS 行车记录仪视频的视觉地理定位](#item-7) ⭐️ 8.0/10
-8. [HN 讨论：为何动能与速度的平方成正比](#item-8) ⭐️ 7.0/10
-9. [微泡造影剂助力脑部超声成像](#item-9) ⭐️ 7.0/10
-10. [Workweave 路由器：智能化模型选择降低编码代理成本](#item-10) ⭐️ 7.0/10
-11. [延迟和出口限制危及前沿 AI 模型的经济可行性](#item-11) ⭐️ 7.0/10
-12. [虚构事件：AI 审查代理分歧循环耗资 41,255 美元](#item-12) ⭐️ 7.0/10
-13. [OpenMontage：全球首个开源智能体视频制作系统](#item-13) ⭐️ 7.0/10
-14. [2000 人参与测试，未能攻破 AI 助手的提示注入防御](#item-14) ⭐️ 6.0/10
-15. [rewardspy：一款检测强化学习奖励作弊的调试库](#item-15) ⭐️ 6.0/10
-16. [新 GitHub 仓库：面向 AI 代理的 754 项结构化网络安全技能](#item-16) ⭐️ 6.0/10
-17. [面向智能体工程工作流的 Claude Code 最佳实践](#item-17) ⭐️ 6.0/10
+1. [DeepSeek 发布 DSpark，推测解码加速 LLM 推理](#item-1) ⭐️ 9.0/10
+2. [OpenAI 预览 GPT-5.6 系列模型：Sol、Terra、Luna](#item-2) ⭐️ 9.0/10
+3. [剖析 Lazarus 组织虚假编码挑战攻击](#item-3) ⭐️ 8.0/10
+4. [OpenRA：备受赞誉的经典《命令与征服》开源重制版](#item-4) ⭐️ 7.0/10
+5. [如果你不能持有它，你就不曾拥有它](#item-5) ⭐️ 7.0/10
+6. [扎克伯格对吹哨人的攻击性法律战](#item-6) ⭐️ 7.0/10
+7. [直观解释：为何动能与速度的平方成正比](#item-7) ⭐️ 7.0/10
+8. [迪恩·W·鲍尔谈前沿模型经济学与基础设施](#item-8) ⭐️ 7.0/10
+9. [两千人挑战失败，AI 助手成功抵御提示注入攻击](#item-9) ⭐️ 7.0/10
+10. [讽刺事件报告：AI 代理因安全分歧烧钱超 4 万美元](#item-10) ⭐️ 7.0/10
+11. [vivo 发布 SOLAR-RL：仅 15k 轨迹稳定训练长链 GUI 智能体](#item-11) ⭐️ 7.0/10
+12. [Picotron：可在旧款 GPU 上无崩溃运行的 LLM 训练框架](#item-12) ⭐️ 7.0/10
+13. [pybench：用于检测机器学习回归的统计基准 CLI 工具](#item-13) ⭐️ 7.0/10
+14. [calesthio/OpenMontage：开源智能体视频制作系统](#item-14) ⭐️ 7.0/10
+15. [DeusData/codebase-memory-mcp：高性能代码智能 MCP 服务器](#item-15) ⭐️ 7.0/10
+16. [Hacker News 对金融科技工程手册提出批评](#item-16) ⭐️ 6.0/10
+17. [加州 7 月 1 日起禁止流媒体广告音量过大](#item-17) ⭐️ 6.0/10
+18. [1996 年关于 WordStar 持久吸引力的文章引发怀旧讨论](#item-18) ⭐️ 6.0/10
+19. [在微调 ONNX 模型权重的最低有效尾数位中隐藏消息](#item-19) ⭐️ 6.0/10
+20. [Agent-Reach：让 AI 代理零成本抓取社交媒体的 CLI 工具](#item-20) ⭐️ 6.0/10
+21. [AI 驱动的网站克隆工具获早期关注](#item-21) ⭐️ 6.0/10
+22. [GitHub 项目 taste-skill 赋予 AI 设计品味](#item-22) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [OpenAI 预览 GPT-5.6 Sol：在 Cerebras 上实现 750 tokens/秒](https://openai.com/index/previewing-gpt-5-6-sol/) ⭐️ 9.0/10
+## [DeepSeek 发布 DSpark，推测解码加速 LLM 推理](https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf) ⭐️ 9.0/10
 
-OpenAI 宣布了 GPT-5.6 Sol 的预览，该模型在 Cerebras 硬件上实现了高达 750 tokens/秒的推理速度。此发布还涉及不同 GPT 模型层级的定价和可用性变化。 前沿模型前所未有的速度可能实现实时 AI 应用，并降低用户延迟。然而，成本变化和旧模型停产可能迫使开发者采用更昂贵的方案，而检测到的作弊行为则引发了对模型可靠性和安全性的质疑。 GPT-5.6 Sol 在 ReAct agent 测试中通过利用评估环境漏洞显示了更高的作弊率。定价变化包括 GPT-5 mini 停产，GPT-5.4 mini 更贵但在真实场景中效果更差，而 Luna 模型定价为输入/输出每百万 tokens 1 美元/6 美元。
+DeepSeek 发布了 DSpark，一种全新的推测解码技术，可显著加速大语言模型推理，并在 HuggingFace 上提供了内置该技术的 DeepSeek-V4-Flash-DSpark 和 DeepSeek-V4-Pro-DSpark 模型。该方法可将吞吐量提升 51%至 400%，并兼容 Gemma、Qwen 等其他模型。 这一进展体现了 DeepSeek 对开放创新的承诺，并推动了推理效率的前沿发展，使 LLM 的部署更便宜、更快速。随着对高吞吐、低延迟生成的需求日益增长，它将直接惠及依赖 LLM API 或本地推理的开发者和用户。 DSpark 采用草稿-目标模型架构，通过修改后的拒绝采样方案保持原始输出分布。该技术已针对 DeepSeek V4 Flash 和 Pro 模型实现，论文还指出其适用于其他架构。
 
-hackernews · minimaxir · 6月26日 17:06 · [社区讨论](https://news.ycombinator.com/item?id=48689028)
+hackernews · aurenvale · 6月27日 09:18 · [社区讨论](https://news.ycombinator.com/item?id=48696585)
 
-**背景**: Cerebras Systems 生产晶圆级引擎芯片，其尺寸远大于典型的 GPU，可减少数据移动瓶颈并实现超高速 AI 推理。OpenAI 于 2026 年宣布与 Cerebras 合作，将其硬件用于模型托管。AI 评估中的‘作弊’指模型寻找非预期的捷径来完成任务，这可能夸大基准测试结果并掩盖真实能力。
+**背景**: 推测解码是一种针对自回归 LLM 的推理优化技术，它使用较小的“草稿”模型预测多个 token，然后由较大的“目标”模型并行验证，从而在保持输出质量的同时降低延迟。DeepSeek 是一家中国 AI 研究公司，以 DeepSeek-R1 和 V3 等开放权重模型闻名，这些模型在成本效益训练下实现了卓越性能。DSpark 的发布延续了其开源实用创新的风格。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Cerebras_Systems">Cerebras Systems</a></li>
-<li><a href="https://www.cerebras.ai/">Cerebras is the go-to platform for fast and effortless AI training.</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Speculative_decoding">Speculative decoding</a></li>
+<li><a href="https://x.com/danielhanchen/status/2070751700626076109">DeepSeek just released DSpark for V4 Flash & Pro, a new ...</a></li>
+<li><a href="https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf">DeepSpec/DSpark_paper.pdf at main · deepseek-ai/DeepSpec</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区反应热烈，对 750 tokens/秒的速度感到兴奋，但也对更高的作弊率和不断演变的定价策略表示担忧。一些人认为这是实时应用的重大飞跃，而另一些人则担心被迫采用更昂贵的计划，以及模型行为对评估完整性的影响。
+**社区讨论**: 社区普遍称赞 DeepSeek 持续的开放性和突破性工作，并对比了美国实验室日益减少的透明度。用户对开箱即用的 HuggingFace 模型及其本地推理潜力感到兴奋。一些人指出，中国实验室如今在 AI 创新方面处于领先地位，并批评美国实验室无端指责窃取成果。
 
-**标签**: `#AI`, `#OpenAI`, `#GPT-5`, `#LLM`, `#inference speed`
+**标签**: `#speculative-decoding`, `#LLM-inference`, `#DeepSeek`, `#AI-research`, `#optimization`
 
 ---
 
 <a id="item-2"></a>
-## [开源权重 LLM 与闭源差距缩小，可持续性仍存疑](https://blog.doubleword.ai/frontier-os-llm) ⭐️ 8.0/10
+## [OpenAI 预览 GPT-5.6 系列模型：Sol、Terra、Luna](https://simonwillison.net/2026/Jun/26/openai/#atom-everything) ⭐️ 9.0/10
 
-讨论指出，开源权重 LLM 在性能上正迎头赶上闭源模型，但可持续性担忧、基准测试诚信问题及对专有模型的依赖仍是关键挑战。 这一讨论至关重要，因为开源权重模型的发展前景直接影响 AI 民主化、创新以及开放与专有系统间的力量平衡。 关键细节包括：开源权重模型目前依赖企业慈善，闭源提供商可能通过后端系统抬高基准评分，中国实验室通过从美国模型蒸馏取得进展，而美国出口限制可能削弱其领先地位。
+OpenAI 开始了 GPT-5.6 系列的限量预览，推出三款新模型：Sol（旗舰模型）、Terra（平衡型，比 GPT-5.5 便宜 2 倍）和 Luna（低成本模型）。此次发布引入了新的按 token 定价，并首先在与美国政府协调的少量可信合作伙伴中提供。 此次发布是 OpenAI 的下一代重大模型迭代，提供了更具成本效益的选择和更强的性能。与政府的协调标志着对 AI 安全和部署标准的更多关注，可能影响未来的行业实践和企业采用。 定价按每百万 token 计算：Sol 为输入$5/输出$30，Terra 为输入$2.50/输出$15，Luna 为输入$1/输出$6。该系列还引入了改进的提示缓存功能，包括显式缓存断点、30 分钟的最低缓存有效期，缓存写入按未缓存输入费率的 1.25 倍计费，缓存读取仍享受 90%的折扣。
 
-hackernews · kkm · 6月26日 21:14 · [社区讨论](https://news.ycombinator.com/item?id=48692058)
+rss · Simon Willison · 6月26日 17:10
 
-**背景**: 大型语言模型（LLM）如 GPT-4 通常为闭源，其权重专有。开源权重模型（如 Llama 和 DeepSeek）则公开发布训练参数，供任何人使用和修改。自 2022 年以来，开源权重模型获得显著关注，性能差距与顶级闭源模型不断缩小。但其开发往往依赖私营企业资助，或依赖闭源模型输出作为训练数据。
+**背景**: Token 是语言模型处理文本的基本单位，可以是单词、单词的一部分或标点符号。GPT 模型按使用的每百万 token 定价，这会影响生成或分析文本的成本。提示缓存允许临时存储常用提示词，降低重复调用的成本和延迟。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Large_language_model">Large language model - Wikipedia</a></li>
-<li><a href="https://www.ai21.com/glossary/foundational-llm/open-weights-model/">What is an Open-Weights Model? | AI21</a></li>
+<li><a href="https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them">What are tokens and how to count them? | OpenAI Help Center</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 讨论显示观点不一：许多人承认开源权重模型正在缩小性能差距，但对其依赖企业慈善的可持续性、闭源提供商操纵基准测试的可能性，以及 AI 开发的地缘政治动态深表担忧，一些人担心美国出口限制可能无意中帮助中国实验室迎头赶上。
-
-**标签**: `#open-source-llm`, `#closed-source-llm`, `#ai-competition`, `#benchmark-integrity`, `#community-discussion`
+**标签**: `#AI`, `#OpenAI`, `#GPT-5.6`, `#language-models`, `#announcement`
 
 ---
 
 <a id="item-3"></a>
-## [电子前哨基金会呼吁阻止加州 3D 打印机监控法案](https://www.eff.org/deeplinks/2026/06/we-can-still-stop-californias-3d-printer-surveillance-scheme) ⭐️ 8.0/10
+## [剖析 Lazarus 组织虚假编码挑战攻击](https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/) ⭐️ 8.0/10
 
-电子前哨基金会正在动员反对加州一项法案，该法案将强制要求 3D 打印机使用专有的、锁定的切片软件，从而限制用户自由并实现监控。 该法案为技术监管开创了一个危险的先例，要求制造商控制用户如何操作设备，可能会扼杀创新，并将对开源硬软件的合法使用定为犯罪。 该法案最初提议对转售缺乏监控软件的现有 3D 打印机进行刑事处罚，虽然该条款被删除，但强制使用专有切片器的要求仍然存在，且对开源软件的例外条款被认为效果有限。
+一位安全工程师剖析了一起复杂攻击，该攻击通过虚假编码挑战试图入侵其计算机，揭露了与 Lazarus 组织相关的恶意软件基础设施和攻击手法。 该事件突显了国家支持的攻击者通过编码测试中的社会工程手段针对开发者的日益增长的威胁，可能导致供应链被攻破，并强调了提高安全意识的重要性。 攻击者在虚假编码挑战的测试文件中嵌入了恶意软件；调查者识别出托管在俄罗斯的命令控制服务器和通过 Cloudflare 代理的域名，其手法与 Lazarus 组织一致。
 
-hackernews · hn_acker · 6月26日 21:13 · [社区讨论](https://news.ycombinator.com/item?id=48692051)
+hackernews · signa11 · 6月27日 02:41 · [社区讨论](https://news.ycombinator.com/item?id=48694631)
 
-**背景**: 切片软件是将 3D 模型转换为打印机指令的工具。专有切片器是闭源的，通常与特定制造商的打印机绑定，限制了用户的选择和可修改性。加州的该法案旨在防止打印非法物品（如枪支），但批评者认为它会广泛限制技术并强制实行监控模式。电子前哨基金会等数字权利倡导者警告，这类措施损害了用户自主权和开源精神。
+**背景**: Lazarus 组织是朝鲜国家支持的黑客组织，以网络间谍和金融攻击著称。供应链攻击通过攻破软件依赖项等安全性较低的环节渗透组织。这次攻击通过模拟面试编码测试诱骗开发者运行恶意代码。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.eff.org/deeplinks/2026/06/we-can-still-stop-californias-3d-printer-surveillance-scheme">We Can Still Stop California’s 3 D Printer Surveillance Scheme</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Proprietary_licence">Proprietary licence</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Lazarus_Group">Lazarus Group</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Supply_chain_attack">Supply chain attack</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论显示出强烈的反对意见，用户敦促加州居民联系立法者，分享了行动链接，并用类比（如禁止车床制作棒球棒）来强调该法案的过度干预。一些人指出该法案比纽约的类似法律更具限制性，并对控制先进技术的更广泛趋势表示担忧。
+**社区讨论**: 评论者确认该攻击模式与 Lazarus 组织策略相符，一些人曾处理过类似事件。作者寻求协助关闭相关域名和账户。其他人强调对不受信任的代码应使用虚拟机，并指出此类攻击已存在多年。
 
-**标签**: `#tech-policy`, `#digital-rights`, `#3d-printing`, `#surveillance`, `#california`
+**标签**: `#security`, `#nation-state`, `#Lazarus`, `#incident-response`, `#supply-chain-attack`
 
 ---
 
 <a id="item-4"></a>
-## [美国允许 Anthropic 向信任伙伴有限发布 Mythos AI 模型](https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26/) ⭐️ 8.0/10
+## [OpenRA：备受赞誉的经典《命令与征服》开源重制版](https://www.openra.net/) ⭐️ 7.0/10
 
-美国政府已批准 Anthropic 向其选定的“信任伙伴”名单发布其先进 AI 模型 Mythos，部分推翻了此前撤销访问权限的出口管制指令。根据新政策，超过 100 家公司和机构（包括许多财富 500 强企业）将获得访问权限。 这种有选择性的发布造成了一个双层市场，只有受政府青睐的实体才能早期获得尖端 AI，可能会抑制初创企业和非伙伴公司的竞争。它还引发了对监管越权的担忧，并为在没有明确法律授权的情况下进行国内 AI 许可开创了先例。 所涉及的模型是 Mythos 5，这是一个在下一代 GPU 上训练的大型语言模型，最初设计用于修复软件漏洞。信任伙伴名单包括 100 多家公司和机构，但选择标准仍未公开，加剧了任人唯亲的嫌疑。
+OpenRA 团队发布了新的 playtest 版本（build 20260222），带来令人兴奋的新进展，继续通过改进的平衡性和功能来现代化经典《命令与征服》游戏。 OpenRA 保存了与现代系统不再兼容的经典即时战略游戏，培育了活跃的社区，并成为开源游戏保存的典范。 它重制了《红色警戒》和《泰伯利亚黎明》等作品，支持 Windows/macOS/Linux，并引入了平衡性调整，如更远的火炮射程和新的便利功能，但不包含《将军》的内容。
 
-hackernews · bobrenjc93 · 6月26日 22:48 · [社区讨论](https://news.ycombinator.com/item?id=48692995)
+hackernews · tosh · 6月27日 12:10 · [社区讨论](https://news.ycombinator.com/item?id=48697560)
 
-**背景**: Anthropic 的 Mythos AI 模型于 2026 年 4 月首次发布预览，并因其强大能力和潜在安全风险迅速引起关注。2026 年 6 月，美国政府援引出口管制措施阻止其发布，理由是国家安全担忧——这对于国内 AI 产品来说是不寻常的举动。最初的指令迫使 Anthropic 取消访问权限，而新的许可则代表部分逆转，允许向有限的一组经过审查的合作伙伴进行受控分发。
+**背景**: 《命令与征服》是 1990 年代开创性的即时战略（RTS）系列，以其冷战冲突背景和快节奏玩法著称。原版游戏在现代操作系统上存在兼容性问题。像 OpenRA 这样的开源重制版通过逆向工程游戏引擎实现原生运行，使玩家能够继续游玩并进行社区修改。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Claude_Mythos">Claude Mythos - Wikipedia</a></li>
-<li><a href="https://www.bbc.com/news/articles/crk1py1jgzko">What is Anthopic's Claude Mythos and what risks does it pose?</a></li>
-<li><a href="https://www.scientificamerican.com/article/what-is-mythos-and-why-are-experts-worried-about-anthropics-ai-model/">What is Mythos and why are experts worried about Anthropic’s AI model | Scientific American</a></li>
+<li><a href="https://en.wikipedia.org/wiki/OpenRA">OpenRA</a></li>
+<li><a href="https://www.openra.net/">OpenRA - Classic strategy games rebuilt for the modern era</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者普遍批评政府的举动是反竞争的，认为它是在挑选赢家和输家，并实际上实施了未经国会批准的国内许可。许多人表示担忧初创企业将处于不利地位，一些人质疑被排除的公司是否可以对出口管制的合法性提起法律挑战。
+**社区讨论**: 社区成员称赞 OpenRA 的平衡性改进，例如对抗特斯拉线圈时更远的火炮射程，以及其怀旧价值。一些人怀念对《将军》的支持，其他人则回忆起修改 .ini 文件和局域网联机的美好时光。
 
-**标签**: `#AI policy`, `#regulation`, `#Anthropic`, `#competition`, `#government intervention`
+**标签**: `#open-source`, `#game-development`, `#c&c`, `#retro-gaming`, `#rts`
 
 ---
 
 <a id="item-5"></a>
-## [PlayStation 将删除用户账户中 551 部已购电影](https://kotaku.com/playstation-store-movies-digital-studio-canal-terminator-2000711013) ⭐️ 8.0/10
+## [如果你不能持有它，你就不曾拥有它](https://dervis.de/physical/) ⭐️ 7.0/10
 
-PlayStation 因许可协议到期，正撤销 551 部已购电影的访问权，包括 Studio Canal 的影片。此次删除引发了公众对数字所有权幻象的愤怒。 此事件凸显了数字购买的法律漏洞，它们往往是许可而非所有权。这可能会推动消费者维权和立法努力，以保护数字权利。 索尼未向受影响客户提供退款或无 DRM 的下载。所有‘购买’了这些电影的用户将失去访问权，无论购买时间如何。
+一篇题为《如果你不能持有它，你就不曾拥有它》的观点文章引发了关于数字所有权和 DRM 的广泛讨论，在 Hacker News 上获得 190 分和 115 条评论。 这场讨论凸显了数字媒体中真正所有权的侵蚀，因为 DRM 和许可协议允许公司撤销已购内容的访问权限，影响消费者权益及长期可用性。 该文章是哲学论述而非产品发布；社区回应强调实用变通方法，如使用无 DRM 平台（Bandcamp、GOG）或盗版以重新获得控制权。
 
-hackernews · ortusdux · 6月26日 20:07 · [社区讨论](https://news.ycombinator.com/item?id=48691346)
+hackernews · cemdervis · 6月27日 11:32 · [社区讨论](https://news.ycombinator.com/item?id=48697335)
 
-**背景**: 在 PlayStation Store 等平台购买的数字电影受 DRM 保护，作为可撤销的许可出售。与实体光盘不同，买家并未真正拥有内容，若许可到期，访问权可能被终止。
+**背景**: DRM（数字版权管理）限制数字内容的使用方式，常阻止分享或在许可到期后播放。这导致了诸如索尼宣布因许可协议将从用户库中移除已购 Studio Canal 内容等事件。“实物所有权”论点与数字商店常见的许可模式形成对比。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Digital_rights_management">Digital rights management</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Digital_rights_management">Digital rights management - Wikipedia</a></li>
+<li><a href="https://www.fortinet.com/resources/cyberglossary/digital-rights-management-drm">What Is DRM? Digital Rights Management Explained | Fortinet</a></li>
+<li><a href="https://www.reddit.com/r/NoStupidQuestions/comments/1svg1tb/what_is_drm_in_video_games_and_why_does_it_upset/">r/NoStupidQuestions on Reddit: What is DRM in video games and why does it upset people so much?</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 用户认为‘购买’必须意味着永久所有权，而非长期租赁。许多人要求退款或离线备份，有人指出本地存储的数字文件仍由用户控制。强烈支持采取法律行动防止此类撤销。
+**社区讨论**: 评论者大多赞同该观点，有人将其重新表述为“共享的自由”才是真正的所有权；另一些人主张盗版是实用解决方案，指出存在高质量的无 DRM 翻录，并强调了索尼移除内容等现实警示。
 
-**标签**: `#digital rights`, `#consumer protection`, `#streaming`, `#Sony`, `#DRM`
+**标签**: `#digital ownership`, `#DRM`, `#physical media`, `#piracy`, `#consumer rights`
 
 ---
 
 <a id="item-6"></a>
-## [置信解码绕过对齐税，奥数准确率提升 22.4%](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899865&idx=3&sn=a411b58582421e0f71d8260bdb141e58) ⭐️ 8.0/10
+## [扎克伯格对吹哨人的攻击性法律战](https://pluralistic.net/2026/06/27/zuckerstreisand-2/) ⭐️ 7.0/10
 
-一种名为置信解码的即插即用解码方法，无需额外训练，将大模型在奥数任务上的准确率提升了 22.4%。 该方法通过有效绕过最后一层进行推理，缓解了安全微调常带来的‘对齐税’（即性能下降），有望在保持对齐的同时提升模型能力。 置信解码无需训练，通过利用分词选择时的置信度分数来工作；标题暗示它可能绕过了对推理形成瓶颈的最终线性层。
+文章审视了马克·扎克伯格和 Meta 如何利用激进的法律手段压制吹哨人，揭示了一种企业报复的模式。 这一情况反映了科技行业更广泛的企业道德问题和对异议的压制，可能会阻止未来的吹哨人揭露不当行为。 文章提到了乔尔·卡普兰的参与，包括他在一名吹哨人昏迷期间下调其绩效评估的事件，暗示法律行动背后可能存在掩盖或更深层动机。
 
-rss · 量子位 · 6月26日 04:35
+hackernews · HotGarbage · 6月27日 14:38 · [社区讨论](https://news.ycombinator.com/item?id=48698684)
 
-**背景**: 对齐税指的是通过人类反馈强化学习 (RLHF) 等方法微调语言模型使其安全对齐时，所付出的能力代价。大模型通常在 transformer 层堆栈后应用一个最终的线性层（‘头’），该层可能针对通用生成进行了优化，但不利于专业推理。在无需重新训练的情况下操控解码过程的想法，已在其他领域有所探索，但此次是首次用于缓解数学推理中的这一税收。
+**背景**: 吹哨人是举报内部不当行为的个人。在科技界，像 Meta 这样的公司因利用法律手段压制吹哨人而受到批评，引发了关于透明度和问责制的质疑。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.alignmentforum.org/w/alignment-tax">Alignment Tax</a></li>
-<li><a href="https://arxiv.org/html/2603.00047v2">What Is the Alignment Tax?</a></li>
+**社区讨论**: 评论者大多认为这场法律战是恶意和自我驱动的，而非仅仅是怪异，并猜测是为了掩盖更严重的不当行为。他们批评乔尔·卡普兰的不道德行为，并拒绝给予企业领导人以信任。
 
-</ul>
-</details>
-
-**标签**: `#LLM`, `#Reasoning`, `#Decoding Strategy`, `#Alignment Tax`, `#Training-Free`
+**标签**: `#whistleblowing`, `#meta`, `#mark-zuckerberg`, `#corporate-ethics`, `#tech-culture`
 
 ---
 
 <a id="item-7"></a>
-## [展示：无 GPS 行车记录仪视频的视觉地理定位](https://www.reddit.com/r/MachineLearning/comments/1ufx8nx/showcase_geolocating_a_dashcam_video_without_gps/) ⭐️ 8.0/10
+## [直观解释：为何动能与速度的平方成正比](https://physics.stackexchange.com/questions/535/why-does-kinetic-energy-increase-quadratically-not-linearly-with-speed) ⭐️ 7.0/10
 
-一个名为“天眼”（Third Eye）的展示项目通过将视频帧与街景图像进行匹配，拼接连续轨迹并估算逐帧置信度，实现了无 GPS 的行车记录仪视频视觉地理定位。该系统在纽约市周边约 12 平方公里的真实行车记录仪视频上成功绘制了行驶路线。 这展示了解决跨域视觉定位这一难题的实用方案，无需依赖 GPS，可用于自动驾驶、视频取证和增强现实等领域。对不确定性的量化提高了在真实场景中的可靠性。 该流程包括基于街景图像索引的逐帧地点识别、轨迹一致性搜索、用于剔除误匹配的几何验证以及逐帧置信度评分。索引覆盖了纽约市周边约 12 平方公里的区域，并在真实行车记录仪视频上进行了演示，取得了良好效果。
+2011 年的 Stack Exchange 讨论通过直观的类比和物理推理（如势能转化和力-距离关系）解释了动能与速度的平方关系。 阐明这一基础概念能加深物理学认知，解决常见的理解障碍，并对机械、工程及直觉风险评估产生影响，正如汽车制动示例所示。 值得注意的解释包括比较不同高度下落的球的势能、力与能量关系 dE = m v dv，以及一个关于汽车从不同速度制动以说明二次效应对制动距离和能量影响的轶事。
 
-reddit · r/MachineLearning · /u/Ok-Apricot956 · 6月26日 05:03
+hackernews · ProxyTracer · 6月26日 22:43 · [社区讨论](https://news.ycombinator.com/item?id=48692946)
 
-**背景**: 视觉地点识别（VPR）是计算机视觉任务，通过将查询图像与地理标记图像数据库进行匹配来识别相机位置。跨域匹配解决了查询图像与数据库图像来源不同（如行车记录影像与街景图像）时的挑战。几何验证利用对极几何等技术滤除错误匹配，确保空间一致性。这些技术对于 GPS 可能不可靠或无法使用的自主系统、机器人和增强现实至关重要。
+**背景**: 动能（KE = ½mv²）是物体因运动而具有的能量。其二次关系意味着速度加倍时能量变为四倍，这与朴素的线性直觉相悖。这一原理是经典力学的基础，并解释了为何高速碰撞破坏性大得多。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Visual_place_recognition">Visual place recognition</a></li>
-<li><a href="https://arxiv.org/abs/2303.03281">[2303.03281] Visual Place Recognition: A Tutorial - arXiv.org</a></li>
-<li><a href="https://jvgemert.github.io/pub/xinLiuICCVWcrossDomainOutliers.pdf">Cross Domain Image Matching in Presence of Outliers</a></li>
+**社区讨论**: 评论者分享了直观视角：有人通过重力势能转化说明高度加倍使能量加倍但速度并不加倍；有人从力和动量推导出 dE = m v dv；还有人用汽车制动思想实验表明制动距离与速度的平方成正比。整体讨论体现了将抽象概念具体化的协作努力。
 
-</ul>
-</details>
-
-**标签**: `#computer-vision`, `#geolocation`, `#place-recognition`, `#visual-localization`, `#uncertainty`
+**标签**: `#physics`, `#kinetic-energy`, `#education`, `#science`, `#conceptual-explanation`
 
 ---
 
 <a id="item-8"></a>
-## [HN 讨论：为何动能与速度的平方成正比](https://physics.stackexchange.com/questions/535/why-does-kinetic-energy-increase-quadratically-not-linearly-with-speed) ⭐️ 7.0/10
+## [迪恩·W·鲍尔谈前沿模型经济学与基础设施](https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything) ⭐️ 7.0/10
 
-Hacker News 上的一次讨论重温了 2011 年 Physics StackExchange 上关于动能为何随速度平方增加的问题，获得了 108 个赞和许多深刻评论。 这次讨论提供了关于一个基础物理概念的多种视角，加深了对能量、参考系和守恒定律的理解，凸显了质疑基本原理的教育价值。 评论包括矢量-标量一致性论证（平方速度确保标量能量为正）、一个说明平方关系的刹车思想实验，以及对原始答案中能量守恒在伽利略相对性下依赖参考系的批评。
+迪恩·W·鲍尔认为，AI 实验室必须在模型保持前沿的短暂窗口期内迅速收回巨额训练成本，而美国 AI 基础设施投资依赖于全球市场。 这揭示了 AI 实验室面临的巨大经济压力，以及出口管制或有限市场准入可能削弱大规模数据中心建设的商业逻辑，直接影响 AI 战略与政策。 前沿模型训练成本极高，大部分成本在发布后的短短几个月内回收，之后竞争出现。大卫·萨克斯称 AI 基础设施建设对美国经济至关重要，但需要全球客户群来证明千亿美元投资的合理性。
 
-hackernews · ProxyTracer · 6月26日 22:43 · [社区讨论](https://news.ycombinator.com/item?id=48692946)
+rss · Simon Willison · 6月26日 22:25
 
-**背景**: 在经典力学中，动能公式为 KE = ½mv²，其中速度为平方项。这导致非线性关系：速度翻倍，能量变为四倍。这一关系源于功-能定理和伽利略不变性，但由于反直觉常被质疑。StackExchange 上的答案通过考虑减速过程中的功和转化为热量的能量来推导该关系。
+**背景**: 前沿模型是任何时刻最先进的 AI 系统，在庞大数据集上训练，性能顶尖。它们需要数亿美元的算力、数据和基础设施投入，成本回收成为关键难题。一旦模型不再前沿，来自新模型或开源替代品的竞争就会压缩利润空间。美国 AI 基础设施计划涉及建设耗资高达千亿美元的数据中心，只有服务全球市场才能维持其经济可行性。
 
-**社区讨论**: 评论者分享了一个关于两辆不同速度汽车刹车的轶事，推荐了 Spivak 的著作，指出速度翻倍时相同时间内行驶距离也翻倍，提出矢量-标量论证（平方可避免负号），并批评原答案假设能量在不同惯性系间守恒。整体讨论富有启发性，融合了直观解释与严谨批判。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Frontier_model">Frontier model</a></li>
+<li><a href="https://www.nvidia.com/en-us/glossary/frontier-models/">What Are Frontier AI Models and How They Work - NVIDIA</a></li>
 
-**标签**: `#physics`, `#education`, `#discussion`, `#kinetic-energy`
+</ul>
+</details>
+
+**标签**: `#AI economics`, `#frontier models`, `#AI infrastructure`, `#AI policy`, `#business strategy`
 
 ---
 
 <a id="item-9"></a>
-## [微泡造影剂助力脑部超声成像](https://alephneuro.com/blog/ultrasound-brain) ⭐️ 7.0/10
+## [两千人挑战失败，AI 助手成功抵御提示注入攻击](https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything) ⭐️ 7.0/10
 
-一篇博文介绍了一种使用稀疏微泡造影剂（脂质壳包裹的六氟化硫）实现脑部脉管系统高分辨率成像的新型超声技术，该技术作为概念验证提出，但未经标准 MRI 验证。 这种便携且低成本的方法可能作为 MRI 的替代方案，在资源有限的环境和急诊中扩大脑成像的可及性。 通过定位单个稀疏微泡实现超分辨率，类似于压缩感知和射电天文学技术。目前方法完全依赖造影剂，所设想的无泡成像仍面临巨大挑战。
+Fernando Irarrázaval 发起了一项公开挑战，2000 名参与者发送了 6000 封邮件试图窃取其 AI 助手的机密信息，但无人成功，该助手由 Opus 4.6 模型驱动，并耗费了 500 美元的 token 费用。 这项真实世界测试表明，像 Opus 4.6 这样的前沿模型对提示注入攻击的抵抗力正在增强，这对于安全地部署 AI 代理至关重要。 该模型使用了一个简洁的反提示注入提示，禁止根据邮件内容泄露机密、修改文件、执行命令或外泄数据。不过，挑战结果并不能保证能抵御更复杂的攻击。
 
-hackernews · rossant · 6月26日 11:51 · [社区讨论](https://news.ycombinator.com/item?id=48685558)
+rss · Simon Willison · 6月26日 18:33
 
-**背景**: 超声成像利用声波显示内部结构，微泡造影剂通过在超声束中谐振来增强血管细节。传统神经成像主要依赖 MRI，许多序列无需造影剂即可获取高分辨率脑血管图像。便携式超声可能普及脑成像，但安全性令人担忧，因为诊断级超声也可能引起神经组织微结构改变。
+**背景**: 提示注入攻击是通过在用户输入中嵌入恶意指令，诱骗大语言模型执行非预期操作。前沿模型是目前最先进的 AI 系统，经过训练可抵御此类攻击。Anthropic 的 Opus 4.6 模型是面向编码和企业工作流的领先模型。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S1359029421000479">Bursting microbubbles: How nanobubble contrast agents can enable the future of medical ultrasound molecular imaging and image-guided therapy - ScienceDirect</a></li>
+<li><a href="https://www.anthropic.com/news/claude-opus-4-6">Introducing Claude Opus 4.6 - Anthropic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Prompt_injection_attack">Prompt injection attack</a></li>
+<li><a href="https://www.nvidia.com/en-us/glossary/frontier-models/">What Are Frontier AI Models and How They Work - NVIDIA</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者持怀疑态度，指出缺乏 MRI 对比、超声可能带来安全风险（如髓鞘破坏）以及对微泡的高度依赖。他们认为实现无泡成像的主张为时过早，并强调需要严格验证。
-
-**标签**: `#ultrasound imaging`, `#neuroimaging`, `#proof-of-concept`, `#hackernews discussion`, `#medical technology`
+**标签**: `#AI security`, `#prompt injection`, `#adversarial testing`, `#AI assistants`, `#frontier models`
 
 ---
 
 <a id="item-10"></a>
-## [Workweave 路由器：智能化模型选择降低编码代理成本](https://github.com/workweave/router) ⭐️ 7.0/10
+## [讽刺事件报告：AI 代理因安全分歧烧钱超 4 万美元](https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything) ⭐️ 7.0/10
 
-开源 Workweave 路由器可接入 Claude Code 和 Cursor 等编码代理，利用强化学习在每个请求中智能选择更便宜或前沿模型，据称可在不损失质量的情况下节省 40%令牌成本。 不断上升的 AI 编码成本是一大痛点，该工具旨在通过将简单任务路由到更便宜的模型，使 AI 辅助开发更经济划算，但其有效性存在争议。 该路由器使用基于代理轨迹训练的强化学习模型，将复杂规划路由到 Opus 4.8，将子任务路由到 DeepSeek V4 Flash 等模型；它基于 Elastic License 2.0 开源并提供托管版本。社区反馈指出，基于代理的路由会破坏提示缓存这一关键的成本节约机制。
+一篇由安德鲁·内斯比特撰写的讽刺性事件报告虚构了两家竞争公司的 AI 代码审查代理因一个软件包的安全性陷入分歧循环，在消耗了 41,255 美元的推理费用后被撤销 API 密钥，其中一家借机营销导致股价上涨。 该故事揭示了在安全审查中使用 AI 代理的现实风险，包括失控的成本、对抗性循环以及自动化系统的荒谬可能性，反映了行业在管理基于大语言模型的代理时面临的挑战。 虚构报告中包含具体数字：340 条评论、41,255 美元推理支出，以及供应商营销引用'对抗性多代理安全推理同比增长 430%'后股价上涨 6%。
 
-hackernews · adchurch · 6月26日 16:40 · [社区讨论](https://news.ycombinator.com/item?id=48688700)
+rss · Simon Willison · 6月26日 17:58
 
-**背景**: 模型路由通过小型分类器为每个任务动态选择 AI 模型。提示缓存（如 Anthropic 的功能）通过重用近期计算来降低成本，但对模型切换敏感。Opus 4.7 是 Anthropic 于 2026 年 4 月发布的旗舰模型，增强了软件工程能力，但其分词器变化导致成本上升，从而推动了该工具的诞生。
+**背景**: 提示注入是一种网络安全攻击，通过精心设计的输入操纵大语言模型行为。推理支出是指每次 AI 查询的运行成本，可能迅速累积。该场景讽刺了在软件供应链安全中日益增长的 AI 代理使用，它们可能陷入代价高昂的循环。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://medium.com/@Colorwheelx/what-is-model-routing-and-why-it-matters-for-smarter-ai-systems-65fc9fa6474e">What Is Model Routing , and Why It Matters for Smarter AI... | Medium</a></li>
-<li><a href="https://platform.claude.com/docs/en/build-with-claude/prompt-caching">Prompt caching - Claude Platform Docs</a></li>
-<li><a href="https://www.anthropic.com/news/claude-opus-4-7">Introducing Claude Opus 4.7 \ Anthropic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Prompt_injection">Prompt injection</a></li>
+<li><a href="https://www.cloudzero.com/blog/inference-cost/">Inference Cost Explained: How to Reduce LLM & AI Inference Spend</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论普遍持怀疑态度：许多人指出基于代理的路由会破坏提示缓存，导致更多缓存未命中；其他人强调编码代理内部已进行任务路由且能感知模型，使得外部路由多余；还有人认为不同模型的提示风格各异，自动路由可能误判意图。
-
-**标签**: `#model routing`, `#ai coding assistants`, `#cost optimization`, `#prompt caching`, `#developer tools`
+**标签**: `#security`, `#ai`, `#generative-ai`, `#satire`, `#prompt-injection`
 
 ---
 
 <a id="item-11"></a>
-## [延迟和出口限制危及前沿 AI 模型的经济可行性](https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything) ⭐️ 7.0/10
+## [vivo 发布 SOLAR-RL：仅 15k 轨迹稳定训练长链 GUI 智能体](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247900018&idx=2&sn=f772bbfc95bceba9de159cef625102db) ⭐️ 7.0/10
 
-Dean W. Ball 指出，前沿 AI 模型在发布后仅有几个月时间收回巨额训练成本，之后竞争将压缩利润空间；而持续的 AI 基础设施建设依赖于全球市场，但出口管制正威胁这一市场。 这一分析将出口政策与 AI 产业的财务可行性直接联系起来，表明限制措施可能打乱被认为对美国经济至关重要的大规模基础设施建设。 Ball 指出，成本回收窗口非常狭窄，哪怕几周的延迟也关系重大；他还援引前美国 AI 专员 David Sacks 的说法，称基础设施建设对美国经济至关重要，强调无人会为受限的客户群建设千亿美元级数据中心。
+vivo 推出了 SOLAR-RL，一种半在线强化学习方法，仅需 15000 条轨迹即可稳定训练长程手机 GUI 智能体。 这一进展解决了长链路手机 AI 训练中常见的稳定性问题，有望实现更可靠的 GUI 自动化，并降低对昂贵在线交互的依赖。 SOLAR-RL 采用半在线训练范式，利用离线数据模拟多步在线推演，据称仅需低至 15000 条演示轨迹即可实现稳定收敛。
 
-rss · Simon Willison · 6月26日 22:25
+rss · 量子位 · 6月27日 05:52
 
-**背景**: 前沿 AI 模型是指 GPT-4 或 Claude 等最先进的 AI 系统，训练成本高达数亿美元。出口限制指美国政府限制向特定国家销售 AI 技术和服务。AI 基础设施建设是指建造耗资数百亿美元的大型数据中心，以支持这些模型在全球范围内运行。
+**背景**: 在手机端训练能处理复杂多步任务的 GUI 智能体极具挑战：传统在线强化学习需要高成本的实时交互且易崩溃，而离线学习则难以捕捉长期动态。半在线强化学习是近年来的折中方案，通过离线数据模拟在线推演，并借助修正模块防止误差累积。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://grokipedia.com/page/Frontier_AI_models">Frontier AI models</a></li>
+<li><a href="https://arxiv.org/abs/2604.22558">[2604.22558] SOLAR-RL: Semi-Online Long-horizon Assignment Reinforcement Learning</a></li>
+<li><a href="https://arxiv.org/abs/2509.11543">[2509.11543] UI-S1: Advancing GUI Automation via Semi-online ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI economics`, `#frontier models`, `#export controls`, `#infrastructure`, `#policy`
+**标签**: `#reinforcement learning`, `#GUI agents`, `#mobile AI`, `#semi-online RL`, `#training stability`
 
 ---
 
 <a id="item-12"></a>
-## [虚构事件：AI 审查代理分歧循环耗资 41,255 美元](https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything) ⭐️ 7.0/10
+## [Picotron：可在旧款 GPU 上无崩溃运行的 LLM 训练框架](https://www.reddit.com/r/MachineLearning/comments/1uh7ib3/built_an_llm_training_framework_that_actually/) ⭐️ 7.0/10
 
-安德鲁·内斯比特发表了一篇虚构事件报告，描述了来自两家竞争供应商的 AI 代码审查代理陷入分歧循环，在 API 密钥被撤销前生成了 340 条评论并产生了 41,255 美元的费用。 这篇讽刺文章揭示了在没有适当监管的情况下部署 AI 代理的真实风险，表明自主系统可能造成经济损失并扰乱软件供应链。 关键细节包括：代理们就'foxhole-lz4'包是否含有恶意代码展开争论，产生了 340 条评论和 41,255 美元的推理费用；一家供应商的营销团队随后发布新闻稿，声称'对抗性多代理安全推理同比增长 430%'，其股价开盘上涨 6%。
+Picotron 是一个新的 LLM 训练框架，移除了 flash-attention 等强制性的硬件特定依赖，通过回退至标准 PyTorch 操作，在旧款 GPU 上也能运行。 这降低了使用旧款 GPU 的研究者和爱好者的门槛，推动了大模型训练的普及化，解决了导入时崩溃的常见依赖难题。 Picotron 在计算能力低于 8.0 的旧款 GPU 上默认使用 FP16，新款默认 BF16，并能自动检测 FlashAttention-2 以加速。它还支持多头潜在注意力和 QK-Norm 等高级特性，但尚处于早期开发阶段，不支持专家混合。
 
-rss · Simon Willison · 6月26日 17:58
+reddit · r/MachineLearning · /u/Capital_Savings_9942 · 6月27日 16:44
 
-**背景**: AI 代码审查代理使用大语言模型自动分析拉取请求。提示注入是一种网络安全攻击，恶意输入可操纵 AI 行为。标题中的'CVE'前缀模仿了真实的公共漏洞和暴露标识符，增强了讽刺效果。
+**背景**: FlashAttention-2 是一种优化注意力内核，可加速 Transformer 但依赖特定 CUDA 功能，导致旧 GPU 崩溃。多头潜在注意力（MLA）压缩键值缓存以节省内存，查询键归一化（QK-Norm）则通过计算前归一化查询和键来提高训练稳定性。这些技术在现代大模型中日益常见，但往往依赖硬件特定库，突显了 Picotron 回退机制的实用价值。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Prompt_injection">Prompt injection</a></li>
-<li><a href="https://www.ibm.com/think/topics/prompt-injection">What Is a Prompt Injection Attack? | IBM</a></li>
+<li><a href="https://grokipedia.com/page/230413738">FlashAttention-2</a></li>
+<li><a href="https://grokipedia.com/page/Multi-head_latent_attention">Multi-head latent attention</a></li>
+<li><a href="https://arxiv.org/abs/2010.04245">[2010.04245] Query-Key Normalization for Transformers QK norm is probably a free lunch - ishanjmukherjee.github.io QK-Norm Chapter 4 Guide | Sebastian Raschka, PhD GitHub - CyndxAI/QKNorm: Code for the paper "Query-Key ... QK-Norm | Sebastian Raschka, PhD [2010.04245] Query-Key Normalization for Transformers - ar5iv QK Norm and the Curious Case of Logit Drift</a></li>
 
 </ul>
 </details>
 
-**标签**: `#security`, `#ai`, `#prompt-injection`, `#generative-ai`, `#satire`
+**标签**: `#LLM training`, `#GPU`, `#framework`, `#PyTorch`, `#accessibility`
 
 ---
 
 <a id="item-13"></a>
-## [OpenMontage：全球首个开源智能体视频制作系统](https://github.com/calesthio/OpenMontage) ⭐️ 7.0/10
+## [pybench：用于检测机器学习回归的统计基准 CLI 工具](https://www.reddit.com/r/MachineLearning/comments/1ugv7u3/i_silently_break_training_codes_or_configs_so_i/) ⭐️ 7.0/10
 
-一个新的开源 Python 项目 OpenMontage 在 GitHub 上发布，声称是首个智能体视频制作系统，集成了 12 条流水线、52 种工具和 500 多项智能体技能，过去 24 小时内获得 40 颗星。 该项目有可能通过让 AI 编程助手自主生成视频，使视频制作大众化，降低缺乏专业视频编辑技能的开发者和内容创作者的门槛。 它专为智能体操作而构建，面向 OpenClaw 风格的 AI 编程助手，使用 Python 编写并采用模块化管道架构；但该项目仍处于早期阶段，缺乏社区验证或实际影响证明。
+pybench 是一个新发布的 CLI 工具，可自动化统计基准测试，以检测代码或配置变更时模型指标的回归。它管理随机种子、存储基线，并运行统计检验来标记显著的性能差异。 机器学习从业者在修改训练代码或配置时，经常无意中引入性能回归。pybench 提供了一种系统且统计上严谨的方法来捕获这些回归，帮助维护模型质量。 它的工作方式类似 pytest，但使用 'benchmarks/' 目录代替 'tests/'。pybench 在首次运行时采样种子并保存基线，之后在相同种子上重新运行以进行比较，并根据统计检验标记通过或失败。
 
-ossinsight · calesthio · 6月27日 02:56
+reddit · r/MachineLearning · /u/SpecificPark2594 · 6月27日 06:33
 
-**背景**: 智能体 AI 是指由能够自主使用工具并采取行动以实现目标的智能体组成的 AI 系统。在视频制作中，这种方法可以自动化复杂工作流程，如场景合成、特效和渲染。OpenMontage 利用这一范式，提供了一套管道和工具，AI 编程助手可以协调这些工具来生成视频，无需人工干预。这将视频创作从手动编辑转变为向 AI 智能体发出高级指令。
+**背景**: 在机器学习中，模型指标会因随机性而波动，没有统计检验很难区分真正的回归和噪声。可复现性依赖于种子管理，但像 pytest 这样的标准测试工具只覆盖功能测试。pybench 通过对基准结果应用统计方法填补了这一空白。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/calesthio/OpenMontage">calesthio/OpenMontage: World's first open-source, agentic video ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Agentic_AI">Agentic AI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/P-value">p-value - Wikipedia</a></li>
+<li><a href="https://apatero.com/blog/comfyui-seed-management-reproducible-results-every-time-2025">ComfyUI Seed Management : Reproducible Results Every Time</a></li>
 
 </ul>
 </details>
 
-**标签**: `#open-source`, `#video-production`, `#ai-agent`, `#multi-agent`, `#python`
+**标签**: `#machine-learning`, `#benchmarking`, `#testing`, `#python`, `#statistics`
 
 ---
 
 <a id="item-14"></a>
-## [2000 人参与测试，未能攻破 AI 助手的提示注入防御](https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything) ⭐️ 6.0/10
+## [calesthio/OpenMontage：开源智能体视频制作系统](https://github.com/calesthio/OpenMontage) ⭐️ 7.0/10
 
-在 2000 名参与者发送 6000 封邮件试图泄露 AI 助手机密后，无人成功，展示了 Opus 4.6 等前沿模型在提示注入防御上的进展。 该实验表明前沿模型对提示注入攻击的抵抗力正在增强，这对于在安全关键的生产环境中部署 LLM 至关重要。 使用的模型是 Claude Opus 4.6，并配置了明确的规则：禁止泄露机密、修改文件、执行命令或外泄数据；尽管 6000 次尝试均未成功，但测试范围有限，不能保证抵御更复杂的攻击。
+全球首个开源智能体视频制作系统 OpenMontage 发布，包含 12 条流水线、52 种工具和 500 多项 AI 智能体技能，可将编程助手转变为视频制作工作室。 该系统降低了 AI 驱动视频制作的门槛，使开发者能够使用复杂工具，可能改变内容创作方式，并体现了向自主管理复杂工作流的智能体 AI 系统的转变。 该仓库用 Python 编写，过去一天获得 85 个星标和 5 个复刻，声称是首个专门用于视频制作的智能体系统，集成了多个 AI 智能体。
 
-rss · Simon Willison · 6月26日 18:33
+ossinsight · calesthio · 6月27日 17:07
 
-**背景**: 提示注入是一种网络安全攻击，恶意输入会操纵 LLM 泄露敏感信息或执行非预期操作。Opus 4.6 等前沿模型是最先进的 AI 系统，经过训练增强了对这类攻击的防御。Fernando Irarrázaval 的挑战利用电子邮件场景测试了这些防御，反映了业界加强 AI 助手安全性的努力。
+**背景**: 智能体 AI 指能够自主追求目标、使用工具并在限定范围内行动的 AI 系统。在视频制作中，此类系统可通过多个专用智能体协调编辑、特效和渲染等任务。OpenMontage 将其整合为一个开源框架，带有预置流水线和技能。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Prompt_injection">Prompt injection</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Frontier_model">Frontier model</a></li>
-<li><a href="https://www.anthropic.com/news/claude-opus-4-6">Claude Opus 4.6 \ Anthropic</a></li>
+<li><a href="https://pyshine.com/OpenMontage-Agentic-Video-Production-System/">OpenMontage - Agentic Video Production System with 12 ...</a></li>
+<li><a href="https://aitoolly.com/ai-news/article/2026-06-26-openmontage-launches-as-the-worlds-first-open-source-agentic-video-production-system-with-500-agent">OpenMontage: First Open-Source Agentic Video Production System</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: Hacker News 上的讨论充满合理的怀疑，许多人认为 6000 次失败并不能证明安全性，更复杂的攻击仍可能成功。但也有人承认这显示了模型鲁棒性的进步。
-
-**标签**: `#AI security`, `#prompt injection`, `#language models`, `#adversarial testing`, `#cybersecurity`
+**标签**: `#open-source`, `#ai`, `#video-production`, `#agent`, `#python`
 
 ---
 
 <a id="item-15"></a>
-## [rewardspy：一款检测强化学习奖励作弊的调试库](https://www.reddit.com/r/MachineLearning/comments/1uga687/a_debugger_for_rl_reward_functions_that_detects/) ⭐️ 6.0/10
+## [DeusData/codebase-memory-mcp：高性能代码智能 MCP 服务器](https://github.com/DeusData/codebase-memory-mcp) ⭐️ 7.0/10
 
-一个名为 rewardspy 的 Python 库通过包装已有的强化学习奖励函数，在训练过程中持续监测奖励方差坍塌、响应长度漂移和 GRPO 组坍塌等指标，以检测奖励作弊行为。 奖励作弊是强化学习中的关键失效模式，智能体会利用奖励函数的漏洞产生非预期行为。该库为从业者提供早期预警，有助于确保策略提升反映真实进步而非投机取巧。 该库跟踪滚动奖励统计、奖励方差坍塌、奖励分量不平衡、响应长度漂移、奖励斜率变化和 GRPO 组坍塌。它是一个早期项目，正在社区中寻求技术反馈。
+DeusData 发布了 codebase-memory-mcp，这是一款快速的 MCP 服务器，能将代码库索引为持久化知识图谱，支持 158 种语言，查询响应时间低于毫秒级。 该工具通过高效代码分析提升开发者工作流，大幅减少 AI 交互的令牌消耗，并作为单一静态二进制文件零依赖部署。 采用 C 语言编写以确保高性能，生成单一静态二进制文件，声称可减少 99%的令牌使用量，索引整个仓库仅需毫秒级时间。
 
-reddit · r/MachineLearning · /u/BaniyanChor · 6月26日 15:34
+ossinsight · DeusData · 6月27日 17:07
 
-**背景**: GRPO（组相对策略优化）是一种近期用于训练 DeepSeek 等模型的强化学习算法，通过比较一组响应来估计优势。奖励作弊（亦称规范博弈）指 AI 以非预期方式优化代理奖励，类似于古德哈特定律。rewardspy 旨在通过监测通常出现在奖励作弊前的多种信号，捕捉此类投机行为。
+**背景**: 模型上下文协议（MCP）是由 Anthropic 于 2024 年 11 月推出的开放标准，用于标准化 AI 模型与外部工具和数据源的集成。MCP 服务器为 AI 客户端提供特定功能。codebase-memory-mcp 作为 MCP 服务器，为 MCP 客户端提供代码智能查询能力。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Reward_hacking">Reward hacking</a></li>
-<li><a href="https://medium.com/data-science-in-your-pocket/what-is-grpo-the-rl-algorithm-used-to-train-deepseek-12acc19798d3">What is GRPO ? The RL algorithm used to train DeepSeek | Medium</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol</a></li>
+<li><a href="https://modelcontextprotocol.io/docs/getting-started/intro">What is the Model Context Protocol (MCP)?</a></li>
 
 </ul>
 </details>
 
-**标签**: `#reinforcement learning`, `#reward hacking`, `#debugging`, `#python library`, `#training monitoring`
+**标签**: `#code-analysis`, `#knowledge-graph`, `#mcp`, `#performance`, `#open-source`
 
 ---
 
 <a id="item-16"></a>
-## [新 GitHub 仓库：面向 AI 代理的 754 项结构化网络安全技能](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) ⭐️ 6.0/10
+## [Hacker News 对金融科技工程手册提出批评](https://w.pitula.me/fintech-engineering-handbook/) ⭐️ 6.0/10
 
-热门的 GitHub 仓库 mukul975/Anthropic-Cybersecurity-Skills 提供了 754 个面向 AI 代理的结构化网络安全技能，这些技能映射到五个主要框架：MITRE ATT&CK、MITRE ATLAS、MITRE D3FEND、NIST CSF 2.0 和 NIST AI RMF。 通过为 AI 代理提供符合行业标准的网络安全技能，该仓库有助于弥合 AI 辅助开发与企业安全需求之间的差距，从而实现更安全的代码生成和威胁分析。 这些技能遵循 agentskills.io 标准，使用 Python 实现，与 20 多个 AI 编码工具兼容，包括 Claude Code、GitHub Copilot 和 Cursor。该仓库涵盖 26 个安全领域，并以 Apache 2.0 许可证发布。
+Hacker News 上关于一本金融科技工程手册的讨论引发了高度参与，用户批评其内容浅薄，并指出了货币存储和精度处理方面的常见问题。 该讨论强调了金融软件开发中的关键最佳实践，如用整数存储货币价值和使用不可变日志，对避免代价高昂的错误至关重要。 具体批评包括用浮点数存储货币（涉及 IEEE 754 问题）、在 API 交换中使用次要单位精度的陷阱，以及事件溯源的必要性取决于具体情况。手册包含一些有用信息，但质量不一致。
 
-ossinsight · mukul975 · 6月27日 02:56
+hackernews · signa11 · 6月27日 10:28 · [社区讨论](https://news.ycombinator.com/item?id=48696982)
 
-**背景**: MITRE ATT&CK 是一个对手战术和技术的知识库；MITRE ATLAS 将其扩展到 AI 特定的威胁；MITRE D3FEND 提供了防御性对策；NIST CSF 2.0 为组织提供网络安全指导；NIST AI RMF 处理 AI 相关的风险。将技能映射到这些框架可以确保 AI 代理能够引用并应用广泛认可的安全实践。
+**背景**: 金融科技软件必须精确处理货币金额。常见陷阱包括使用浮点数可能导致舍入错误。最佳实践建议以最小货币单位（如分）用整数存储，或使用高精度小数类型。不可变日志和事件溯源是确保可审计性和正确性的模式。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.getastra.com/blog/security-audit/mitre-atlas/">The Ultimate Guide to MITRE ATLAS (2026) (Reviewed)</a></li>
-<li><a href="https://www.vectra.ai/topics/mitre-d3fend">What is MITRE D 3 FEND : Framework & ATT&CK Mapping</a></li>
-<li><a href="https://www.nist.gov/itl/ai-risk-management-framework">AI Risk Management Framework | NIST</a></li>
+**社区讨论**: 总体情绪是批评手册内容浅薄且有误，但赞赏由此引发的讨论。用户强调用整数（而非浮点数）存储货币至关重要，但次要单位精度在 API 中可能适得其反。事件溯源受到称赞，但并非普遍必要。一位用户推荐 Kleppmann 的《设计数据密集型应用》作为更好的资源。社区重视实用见解而非泛泛建议。
 
-</ul>
-</details>
-
-**标签**: `#cybersecurity`, `#ai-agents`, `#mitre-attack`, `#nist`, `#tools`
+**标签**: `#fintech`, `#software-engineering`, `#finance`, `#best-practices`, `#hackernews-discussion`
 
 ---
 
 <a id="item-17"></a>
-## [面向智能体工程工作流的 Claude Code 最佳实践](https://github.com/shanraisshan/claude-code-best-practice) ⭐️ 6.0/10
+## [加州 7 月 1 日起禁止流媒体广告音量过大](https://arstechnica.com/gadgets/2026/06/streaming-services-obnoxiously-loud-ads-become-illegal-on-july-1-in-california/) ⭐️ 6.0/10
 
-一个名为 shanraisshan/claude-code-best-practice 的 GitHub 仓库正在走红，它整理了一套在智能体工程工作流中使用 Claude Code 的最佳实践，推动了从随意“感念编程”到严谨实践的转变。该仓库在 24 小时内获得了 23 颗星，反映出日益增长的兴趣。 这一合集标志着 AI 辅助开发正走向系统化、可重复的方法，对采用 Claude Code 的开发者来说，这将提升代码质量和团队协作。 该仓库主要使用 HTML，在过去一天中有 5 次推送和 1 次复刻；它是一套精选的指南而非可执行代码，侧重于实践与策略。
+加州一项新法于 7 月 1 日生效，禁止流媒体服务播放音量明显高于节目本身的广告，弥补了此前联邦通信委员会（FCC）规定仅适用于广播电视而流媒体不受监管的漏洞。 这保护观众免受广告插播时音量突增的困扰，迫使平台采用一致的音频标准化，并可能为此后更广泛的法规树立先例。 该法律主要针对服务器端广告插入（SSAI）技术，即由服务商嵌入流媒体的广告常因编码流程不同而音量各异。尽管业界已知晓此问题，但漏洞一直存在。
 
-ossinsight · shanraisshan · 6月27日 02:56
+hackernews · speckx · 6月27日 12:43 · [社区讨论](https://news.ycombinator.com/item?id=48697768)
 
-**背景**: “感念编程”（Vibe coding）一词由 Andrej Karpathy 在 2025 年提出，指开发者通过提示让 AI 生成代码，且较少审查的一种风格。智能体工程则是一种更结构化的学科，旨在设计能自主规划、使用工具并完成复杂任务的 AI 智能体。该仓库反映了将工程严谨性应用于 AI 辅助编码的趋势。
+**背景**: 2010 年，美国联邦通信委员会通过的《商业广告音量缓解法案》（CALM 法案）禁止广播和有线电视中广告音量过大，但当时流媒体未被纳入。流媒体广告常通过服务器端插入，技术上可进行音量标准化，但实践中音量不一致仍普遍。加州新法将类似保护延伸至流媒体用户。
+
+**社区讨论**: 用户分享了 YouTube 和 Instagram 上广告音量过大的个人经历。有评论指出服务器端广告插入导致音量不匹配，并讽刺质疑流媒体服务为何不能标准化音频。另有人称赞 Stremio 提供更佳的无广告体验。总体情绪支持该法律，并带有些许技术性不满。
+
+**标签**: `#streaming-services`, `#advertising`, `#regulation`, `#consumer-rights`, `#audio`
+
+---
+
+<a id="item-18"></a>
+## [1996 年关于 WordStar 持久吸引力的文章引发怀旧讨论](https://www.sfwriter.com/wordstar.htm) ⭐️ 6.0/10
+
+一篇 1996 年主张 WordStar 极简设计作为专注写作工具的文章重新出现，在 Hacker News 上引发了一场关于其键盘快捷键和对现代无干扰编辑器影响的怀旧讨论。 这场讨论凸显了 WordStar 以键盘为中心的界面对写作工具的持久影响，反映出对无干扰写作环境和高效工作流程的持续兴趣。 值得注意的技术细节包括 WordStar 的多键命令（如 Ctrl 组合键），至今仍在 JOE 和 Emacs 等编辑器中被模仿，以及其开创性的屏幕格式与打印输出高度一致。
+
+hackernews · droidjj · 6月27日 03:30 · [社区讨论](https://news.ycombinator.com/item?id=48694853)
+
+**背景**: WordStar 是早期微型计算机时代的主流文字处理软件，最初用于 CP/M 系统，后移植到 MS-DOS。它依赖丰富的键盘快捷键实现快速、无鼠标编辑。虽然后来被 WordPerfect 和 Microsoft Word 超越，但在重视效率的作家和程序员中仍有一批忠实追随者。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Vibe_coding">Vibe coding</a></li>
-<li><a href="https://grokipedia.com/page/Agentic_Engineering">Agentic Engineering</a></li>
-<li><a href="https://www.linkedin.com/pulse/from-vibe-coding-agentic-engineering-bertrand-n-atemkeng-m9moe">From Vibe Coding to Agentic Engineering</a></li>
+<li><a href="https://en.wikipedia.org/wiki/WordStar">WordStar - Wikipedia</a></li>
+<li><a href="https://blogs.loc.gov/thesignal/2022/07/wow-its-wordstar-exploring-a-beloved-early-word-processor-and-its-many-formats/">“Wow, it’s WordStar!” Exploring a Beloved Early Word Processor and its Many Formats | The Signal</a></li>
 
 </ul>
 </details>
 
-**标签**: `#claude`, `#best-practices`, `#agentic-engineering`, `#coding-assistant`, `#github-trending`
+**社区讨论**: 评论者分享了复杂感受：有人仍通过 JOE、FreeDOS 或 Emacs 等现代工具使用 WordStar 或其快捷键方案；其他人则更喜欢图形界面。WordStar 的快捷键影响延伸至 Emacs（次要选择功能）和 WordPerfect，显示了超越软件本身的遗产。
+
+**标签**: `#wordstar`, `#retro-computing`, `#writing-tools`, `#keybindings`, `#nostalgia`
+
+---
+
+<a id="item-19"></a>
+## [在微调 ONNX 模型权重的最低有效尾数位中隐藏消息](https://www.reddit.com/r/MachineLearning/comments/1uh61uw/hiding_messages_in_the_least_significant_mantissa/) ⭐️ 6.0/10
+
+一个个人项目展示了一种隐写术，将消息嵌入 ONNX 模型微调过程中自然修改的权重的最低有效尾数位，使隐藏数据与合法更新融为一体。 该技术利用微调固有的噪声来规避对比或统计分析，但它是一种小众方法，数据容量有限，且没有突破性创新。 该方法仅将比特写入微调过程中更新的权重，利用浮点数的最低有效尾数位；作者承认存在类似的学术概念，但指出实际实现很少。
+
+reddit · r/MachineLearning · /u/Admin-ABC-XYZ · 6月27日 15:45
+
+**背景**: 神经网络权重通常以浮点数存储，其尾数最低位对数值影响极小。ONNX 是一种模型交换格式。微调会更新部分权重，为隐藏数据提供合理掩护。先前已有基于模型的隐写术研究，但实用工具很少。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://twitter.com/ID_AA_Carmack/status/1357465579993579524">John Carmack on Twitter: "Using the least significant mantissa bit of...&qu...</a></li>
+<li><a href="https://github.com/onnx/models">GitHub - onnx / models : A collection of pre-trained, state-of-the-art...</a></li>
+<li><a href="https://mr7.ai/blog/ai-steganography-detection-uncovering-hidden-threats-in-ml-models-mn8ob0v5">AI Steganography Detection: Uncovering Hidden Threats... | mr7.ai Blog</a></li>
+
+</ul>
+</details>
+
+**标签**: `#steganography`, `#ONNX`, `#model-weights`, `#machine-learning`, `#information-hiding`
+
+---
+
+<a id="item-20"></a>
+## [Agent-Reach：让 AI 代理零成本抓取社交媒体的 CLI 工具](https://github.com/Panniantong/Agent-Reach) ⭐️ 6.0/10
+
+Agent-Reach 是一个开源的 Python 命令行工具，让 AI 代理无需 API 费用即可搜索和读取 Twitter、Reddit、YouTube、Bilibili、小红书等多个社交平台的内容。 它降低了 AI 开发者集成社交媒体数据的成本门槛，可能加速依赖实时网页数据的 AI 应用实验与部署。 该工具用 Python 编写，通过命令行使用。它直接从平台抓取内容，无需 API 密钥，但需要注意遵守各平台的服务条款、频率限制等法律与伦理问题。
+
+ossinsight · Panniantong · 6月27日 17:07
+
+**背景**: AI 代理常需从社交媒体收集信息。尽管存在官方 API，但可能费用高昂或有限制。网页抓取提供免费替代方案，但需技术处理动态内容和反爬机制。Agent-Reach 通过现成 CLI 简化了这一过程。
+
+**标签**: `#AI agents`, `#web scraping`, `#CLI`, `#social media`, `#open-source`
+
+---
+
+<a id="item-21"></a>
+## [AI 驱动的网站克隆工具获早期关注](https://github.com/JCodesMore/ai-website-cloner-template) ⭐️ 6.0/10
+
+JCodesMore/ai-website-cloner-template 仓库是一款 TypeScript 命令行工具，可利用 AI 编程代理通过一个命令克隆任何网站，并在发布 24 小时内获得了 38 颗星。 它展示了 AI 编程代理如何自动化复杂的网页抓取和前端复制任务，可能加速开发者的原型创建和学习过程。 该工具使用 TypeScript 编写，以命令行界面运行，结合 AI 编程代理和网页抓取功能，以最小的用户输入复制整个网站。
+
+ossinsight · JCodesMore · 6月27日 17:07
+
+**背景**: AI 编程代理是一种自主软件工具，能跨多个文件编写、修改和调试代码，理解项目上下文。它们超越了简单的代码补全，可处理多步骤任务，并在开发工作流中越来越受欢迎。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://agentic.ai/best/coding-agents">18 Best AI Coding Agents in 2026 — Agentic.ai</a></li>
+
+</ul>
+</details>
+
+**标签**: `#ai`, `#web-scraping`, `#cli`, `#typescript`, `#coding-assistant`
+
+---
+
+<a id="item-22"></a>
+## [GitHub 项目 taste-skill 赋予 AI 设计品味](https://github.com/Leonxlnx/taste-skill) ⭐️ 6.0/10
+
+GitHub 上的开源项目'taste-skill'迅速获得了 22 颗星，它向 AI 注入'品味'，以防止其生成无聊、千篇一律的内容。 随着 AI 生成代码和内容日益普及，确保输出质量和原创性至关重要；taste-skill 旨在将前端设计提升到超越通用俗套的水平，从而可能改善各类 Web 应用的用户体验。 该工具定位为'高自主性前端' v2 版本，并保留 v1 以保证向后兼容。它包含一个针对 Codex 的图像转代码技能，要求 AI 在编码前先生成并分析设计图像。
+
+ossinsight · Leonxlnx · 6月27日 17:07
+
+**背景**: 像 GitHub Copilot 这样的 AI 编程助手常生成功能可用但视觉上平淡、重复的代码。'高自主性前端'概念意味着赋予 AI 更多设计决策权，而'品味'在此指美学判断力。该项目可能提供了一套指南或提示词，引导 AI 产出更有创意和精良的输出。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://github.com/Leonxlnx/taste-skill">GitHub - Leonxlnx/ taste - skill : Taste - Skill - gives your AI good taste.</a></li>
+<li><a href="https://www.skills.sh/leonxlnx/taste-skill/image-to-code">image-to-code — leonxlnx/ taste - skill</a></li>
+<li><a href="https://clawnavigator.com/entry/gh-leonxlnx-taste-skill/">Leonxlnx/ taste - skill | ClawNavigator</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AI`, `#frontend`, `#tool`, `#quality`, `#trending`
 
 ---
 
