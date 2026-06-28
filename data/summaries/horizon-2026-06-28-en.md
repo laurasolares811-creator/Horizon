@@ -1,444 +1,355 @@
 # Horizon Daily - 2026-06-28
 
-> From 32 items, 20 important content pieces were selected
+> From 31 items, 15 important content pieces were selected
 
 ---
 
-1. [DeepSeek Releases DSpark: Open-Source Speculative Decoding for Faster LLM Inference](#item-1) ⭐️ 9.0/10
-2. [AMD Strix Halo RDMA Cluster Guide for Efficient LLM Inference](#item-2) ⭐️ 8.0/10
-3. [IP Crawl: A Living Atlas of Open Webcams Exposes Global Privacy Lapses](#item-3) ⭐️ 7.5/10
-4. [Decomp Academy Teaches Matching Decompilation of GameCube Games](#item-4) ⭐️ 7.0/10
-5. [OpenRA: Open-Source Engine Revives and Modernizes Classic RTS Games](#item-5) ⭐️ 7.0/10
-6. [Comparison Guide for Public DNS Resolvers with Privacy and Filtering Criteria](#item-6) ⭐️ 7.0/10
-7. [The Case for Physical Media Ownership Ignites DRM Debate](#item-7) ⭐️ 7.0/10
-8. [Asian AI Startups Release Models to Rival Anthropic's Mythos Amid Export Ban](#item-8) ⭐️ 7.0/10
-9. [The Best Response to AI Slop Is from Robin Williams](#item-9) ⭐️ 7.0/10
-10. [Suspicious Discontinuities in Marathons, Taxes, and More](#item-10) ⭐️ 7.0/10
-11. [Post-Mythos Cybersecurity: Keeping Calm Amid AI Hype](#item-11) ⭐️ 7.0/10
-12. [OpenMontage: First Open-Source Agentic Video Production System Gains Traction](#item-12) ⭐️ 7.0/10
-13. [New MCP Server Indexes Codebases into Knowledge Graph, Slashing LLM Tokens by 99%](#item-13) ⭐️ 7.0/10
-14. [Fintech Engineering Handbook Draws Criticism but Spurs Discussion](#item-14) ⭐️ 6.0/10
-15. [TownSquare: A Lightweight Ephemeral Presence Widget for Websites](#item-15) ⭐️ 6.0/10
-16. [U.S. Ban on Polestar, Not Volvo, May Be Due to Telemetry Fears](#item-16) ⭐️ 6.0/10
-17. [MathFormer: Testing if Symbolic Math is Pattern Matching or Reasoning](#item-17) ⭐️ 6.0/10
-18. [NagaTranslate: Translation and Voice Pipeline for Low-Resource Nagaland Creoles](#item-18) ⭐️ 6.0/10
-19. [ML Models Automatically Detect and Timestamp MMA Fight Events for Searchable Timelines](#item-19) ⭐️ 6.0/10
-20. [AI-Driven Tool Creates Fully Editable PowerPoints from Documents](#item-20) ⭐️ 6.0/10
+1. [Open Issue on Excluding Sensitive Files in OpenAI Codex](#item-1) ⭐️ 8.0/10
+2. [Flock Cameras Spread Rapidly, Tracking More Than License Plates](#item-2) ⭐️ 8.0/10
+3. [A Comprehensive Guide to Choosing a Public DNS Resolver](#item-3) ⭐️ 8.0/10
+4. [DeepSpec: DeepSeek's Full-Stack Toolkit for Speculative Decoding](#item-4) ⭐️ 8.0/10
+5. [The Curious Case of the Disappearing Polish S in Digital Typography](#item-5) ⭐️ 7.0/10
+6. [Google Limits Meta's Access to Gemini AI Due to Capacity Constraints](#item-6) ⭐️ 7.0/10
+7. [EU Open Sources Ten-Year Network Development Planning Tools](#item-7) ⭐️ 7.0/10
+8. [AMD Strix Halo RDMA Cluster Setup Guide](#item-8) ⭐️ 7.0/10
+9. [Wayfinder Router: Deterministic Routing for Local and Hosted LLMs](#item-9) ⭐️ 7.0/10
+10. [Decomp Academy: Learn to Decompile GameCube Games into Matching C](#item-10) ⭐️ 7.0/10
+11. [DFlash Support Merged into llama.cpp](#item-11) ⭐️ 7.0/10
+12. [Pure C CPU-Only Inference Engine for Qwen 3 Models](#item-12) ⭐️ 7.0/10
+13. [Model Registry: Torrents for Open Models with Hugging Face as Fallback Web Seed](#item-13) ⭐️ 7.0/10
+14. [A Curated Collection of 5,000 Restaurant Menus from 1880–1920](#item-14) ⭐️ 6.0/10
+15. [Reddit User Refutes Dario Amodei on Open-Source AI](#item-15) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [DeepSeek Releases DSpark: Open-Source Speculative Decoding for Faster LLM Inference](https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf) ⭐️ 9.0/10
+## [Open Issue on Excluding Sensitive Files in OpenAI Codex](https://github.com/openai/codex/issues/2847) ⭐️ 8.0/10
 
-DeepSeek has released DSpark, an open-source speculative decoding framework that significantly accelerates LLM inference, accompanied by models on Hugging Face. This release democratizes access to high-speed inference, potentially reducing costs and latency for AI applications, and highlights a shift toward open research from Chinese labs. DSpark uses a draft model to generate candidate tokens, verified by the target model to preserve output quality; models are available as DeepSeek-V4-Flash-DSpark and DeepSeek-V4-Pro-DSpark.
+GitHub issue #2847 highlights that OpenAI Codex lacks a built-in method to exclude sensitive files, risking accidental upload of credentials when the agent executes commands that read such files. This exposes developers to potential secret leaks, emphasizing the need for robust security controls in AI coding assistants as they gain deeper access to development environments. Workarounds such as chmod or containerization exist but are not user-friendly; some commenters propose an opt-in file access model, while others warn that a partial fix could create a false sense of security.
 
-hackernews · aurenvale · Jun 27, 09:18 · [Discussion](https://news.ycombinator.com/item?id=48696585)
+hackernews · pikseladam · Jun 28, 12:27 · [Discussion](https://news.ycombinator.com/item?id=48706714)
 
-**Background**: Speculative decoding is an inference-time optimization that uses a smaller draft model to propose multiple tokens in parallel, then the larger target model verifies them in a single forward pass, achieving faster generation without altering the output distribution.
+**Background**: OpenAI Codex is an AI coding agent that runs in the user’s shell and can access the workspace. It is powered by an LLM and may send file contents to OpenAI servers for processing. Sensitive files like .env often store API keys, and without explicit exclusion, the agent can inadvertently include them in tool outputs sent externally.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Speculative_decoding">Speculative decoding</a></li>
+<li><a href="https://openai.com/codex/">Codex | AI Coding Partner from OpenAI</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community members praised DeepSeek's openness and innovation, with users sharing positive experiences of fast, cheap inference and excitement for local deployment. Some speculated the release timing was a response to regulation.
+**Discussion**: Commenters are divided: some suggest practical mitigation using file permissions or containers (TheDong, petcat), others argue for an opt-in approach (nikhilsimha) or highlight data collection concerns (kennethops). There is consensus that the core issue—LLM unpredictability and data exfiltration—requires systemic changes beyond a simple file exclusion feature.
 
-**Tags**: `#speculative-decoding`, `#LLM`, `#inference-acceleration`, `#DeepSeek`, `#open-source`
+**Tags**: `#security`, `#ai-tools`, `#openai`, `#codex`, `#developer-tools`
 
 ---
 
 <a id="item-2"></a>
-## [AMD Strix Halo RDMA Cluster Guide for Efficient LLM Inference](https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md) ⭐️ 8.0/10
+## [Flock Cameras Spread Rapidly, Tracking More Than License Plates](https://www.engadget.com/2203000/flock-cameras-recording-license-plate/) ⭐️ 8.0/10
 
-A new guide details how to build an RDMA cluster using AMD Strix Halo processors, enabling efficient large language model inference on consumer hardware. The setup uses high-bandwidth unified memory and Mellanox ConnectX-5 NICs to pool resources across multiple nodes. This guide makes it practical for enthusiasts and homelab users to run large models like DeepSeek locally, using affordable AMD APUs with RDMA networking. It democratizes access to high-performance LLM inference beyond expensive datacenter hardware. The guide utilizes kyuz0's vLLM toolboxes and Mellanox ConnectX-5 NICs for RDMA over PCIe 4.0. Community-shared benchmarks show usable speeds for models like DeepSeek V4 Flash, while some larger models like GLM 5.2 remain slow. A multi-node agentic OS factory setup is also being explored.
+Flock Safety's surveillance cameras are rapidly proliferating across the U.S. and expanding their capabilities beyond automatic license plate recognition to include broader AI-powered monitoring, raising significant privacy concerns. This expansion of a privately operated, nationwide surveillance network threatens public privacy and civil liberties, as it enables warrantless tracking of individuals. However, grassroots pushback has led to over 70 local bans, showing that civic action can combat invasive surveillance. Flock cameras are cloud-connected, allow police to search nationwide databases, and may capture additional data like vehicle make, color, and even behavior. Critics note that while marketed for crime reduction, proven effectiveness remains questionable, and their use has been banned in many cities.
+
+hackernews · SanjayMehta · Jun 28, 14:35 · [Discussion](https://news.ycombinator.com/item?id=48707673)
+
+**Background**: Flock Safety is a company that provides automatic license plate recognition (ALPR) systems to law enforcement and private communities. ALPR technology uses cameras to read license plates and store location data, often creating large databases. Unlike traditional CCTV, modern systems like Flock's use AI to analyze footage in real time, enabling broader surveillance beyond just plate reading.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.aclu.org/news/privacy-technology/flock-roundup">Flock’s Aggressive Expansions Go Far Beyond Simple Driver Surveillance | American Civil Liberties Union</a></li>
+<li><a href="https://deflock.org/">DeFlock</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Automatic_number-plate_recognition">Automatic number-plate recognition - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community comments reflect a mix of concern and optimism. Some highlight successful bans in over 70 cities and urge local civic engagement. Others express skepticism about the cameras' crime-fighting effectiveness, note their rapid spread even in rural areas, and criticize the misleading comparison to traditional surveillance. A few commenters point out inconsistencies in surveillance regulation across states.
+
+**Tags**: `#privacy`, `#surveillance`, `#ALPR`, `#technology governance`, `#AI`
+
+---
+
+<a id="item-3"></a>
+## [A Comprehensive Guide to Choosing a Public DNS Resolver](https://evilbit.de/dns-resolver-guide.html) ⭐️ 8.0/10
+
+A detailed guide published on evilbit.de evaluates public DNS resolvers on privacy, filtering, and DNSSEC support, sparking active community discussion. Choosing the right DNS resolver affects internet speed, privacy, and security; this guide helps users navigate trade-offs and make informed decisions. The guide covers features like DNSSEC validation, malware filtering, and logging policies, but does not address SNI exposure or captive portal issues raised in comments.
+
+hackernews · pawal · Jun 27, 22:11 · [Discussion](https://news.ycombinator.com/item?id=48702273)
+
+**Background**: DNS resolvers translate domain names to IP addresses. Public alternatives like Google DNS and Cloudflare 1.1.1.1 offer options beyond ISP defaults. DNSSEC adds cryptographic authentication to prevent spoofing, while DNS filtering can block malicious or unwanted content.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/DNSSEC">DNSSEC</a></li>
+<li><a href="https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/">What is DNS filtering? | Secure DNS servers - Cloudflare 9 Best DNS Filtering Software in 2026 - Geekflare Home Internet Security | OpenDNS 9 Best DNS Filtering Tools for 2026 (Free & Paid) - Comparitech What is DNS Filtering? How Does it Work? | DNSFilter 18 Best Web Filtering Solutions - 2026 - Cyber Security News</a></li>
+<li><a href="https://www.xda-developers.com/dns-servers-you-can-self-host/">Supercharge your home network with these 5 self-hosted DNS ...</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters debated self-hosting vs. public resolvers, with some preferring ISP DNS for lower latency and CDN optimization, while others emphasized privacy concerns like SNI leaks and the need for corroborating encryption.
+
+**Tags**: `#DNS`, `#networking`, `#privacy`, `#security`, `#infrastructure`
+
+---
+
+<a id="item-4"></a>
+## [DeepSpec: DeepSeek's Full-Stack Toolkit for Speculative Decoding](https://www.reddit.com/r/LocalLLaMA/comments/1uhyhl3/deepspec_a_deepseekai_collection/) ⭐️ 8.0/10
+
+DeepSeek released DeepSpec, a full-stack codebase and pre-trained draft models for speculative decoding, supporting Qwen3 and Gemma architectures. Speculative decoding is a key technique for accelerating LLM inference without quality loss; this release provides open tools and checkpoints to easily adopt and reproduce state-of-the-art acceleration methods. The release includes Eagle3, DFlash, and DSpark draft models trained on open-perfectblend data in non-thinking mode; fair comparisons require aligned settings, and domain-specific use may need fine-tuning for thinking mode.
+
+reddit · r/LocalLLaMA · /u/pmttyji · Jun 28, 14:18
+
+**Background**: Speculative decoding is an inference optimization technique introduced in 2022 that accelerates LLMs by using a draft model to propose multiple tokens simultaneously, which are then verified by the target model. This reduces latency without sacrificing output quality. Draft models are smaller and faster, trained to mimic the target model. The approach is widely adopted in production LLM serving.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://developer.nvidia.com/blog/an-introduction-to-speculative-decoding-for-reducing-latency-in-ai-inference/">An Introduction to Speculative Decoding for Reducing Latency in AI Inference | NVIDIA Technical Blog</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#speculative-decoding`, `#deepseek`, `#codebase`, `#machine-learning`, `#inference-optimization`
+
+---
+
+<a id="item-5"></a>
+## [The Curious Case of the Disappearing Polish S in Digital Typography](https://aresluna.org/the-curious-case-of-the-disappearing-polish-s/) ⭐️ 7.0/10
+
+An article from 2015 revisits a quirky behavior where the Polish letter 'S' (often with diacritic) vanishes or renders incorrectly in digital text environments, resurfacing discussions on technical and cultural facets. This typographic glitch exposes hidden challenges in multilingual computing, affecting Polish speakers and highlighting the need for robust Unicode handling and cross-platform consistency in text rendering. Technically, the anomaly relates to Unicode normalization: 8 of 9 Polish diacritical letters decompose into a base letter plus combining mark (except 'ł'), which can cause issues in full-text search and input handling. Browsers also often lack clean key-combination detection, leading to blocked shortcuts.
+
+hackernews · colinprince · Jun 28, 12:44 · [Discussion](https://news.ycombinator.com/item?id=48706814)
+
+**Background**: The Latin-based Polish alphabet adds diacritics like ogonek (ą, ę), acute (ć, ś, ź, ń, ó), and dot (ż) to represent unique sounds. In Unicode, many such letters can be encoded either as single precomposed characters or as a base letter followed by a combining diacritical mark. This dual encoding can lead to rendering inconsistencies, especially when text engines or fonts fail to properly stack marks or apply ligature substitutions. OpenType features and text shaping engines like HarfBuzz are responsible for correctly positioning these glyphs.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Combining_character">Combining character - Wikipedia</a></li>
+<li><a href="https://learn.microsoft.com/en-us/typography/opentype/spec/gsub">GSUB — Glyph Substitution Table (OpenType 1.9.1) - Typography</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters noted the cultural significance of the Latin alphabet for Poland's Western alignment, complained about Microsoft Copilot interfering with typing Polish letters, highlighted the lack of proper browser key-combination APIs, and pointed out that 'ł' uniquely resists Unicode decomposition, complicating text normalization for search.
+
+**Tags**: `#typography`, `#polish-language`, `#unicode`, `#browser-bugs`, `#linguistics`
+
+---
+
+<a id="item-6"></a>
+## [Google Limits Meta's Access to Gemini AI Due to Capacity Constraints](https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html) ⭐️ 7.0/10
+
+Google is reportedly limiting Meta's access to its Gemini AI models, primarily due to capacity constraints rather than intentional restrictions on model usage or capabilities. This development highlights the surging demand for AI infrastructure and the challenges in scaling large language model services for enterprise customers. It could affect how major tech companies collaborate and prioritize AI resource allocation. The limitation is due to capacity constraints, not a restriction on which models or capabilities Meta can use. Google is prioritizing supply to meet overwhelming demand for Gemini.
+
+hackernews · root-parent · Jun 28, 13:30 · [Discussion](https://news.ycombinator.com/item?id=48707103)
+
+**Background**: Gemini is a family of multimodal large language models developed by Google DeepMind, announced in December 2023 as the successor to LaMDA and PaLM 2. It powers Google's AI chatbot and is available via API through services like Vertex AI. Meta, a major technology conglomerate, utilizes advanced AI for platforms like Facebook and Instagram, including image and video generation tools.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Gemini_(AI_model)">Gemini (AI model)</a></li>
+<li><a href="https://ai.google.dev/gemini-api/docs/models">Models | Gemini API | Google AI for Developers</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters noted that the headline was misleading, emphasizing that the limitation is due to capacity, not deliberate restriction. Some questioned the split between paid and free Google AI usage, while others predicted that enterprise access to top models will involve capacity and KYC constraints, with individuals getting degraded service. There was also mention of Gemini Flash's cost-effectiveness for image/video understanding and the recognition that Google is a key enterprise-grade LLM supplier struggling with demand.
+
+**Tags**: `#AI`, `#Gemini`, `#capacity constraints`, `#Google`, `#Meta`
+
+---
+
+<a id="item-7"></a>
+## [EU Open Sources Ten-Year Network Development Planning Tools](https://github.com/open-energy-transition/open-tyndp) ⭐️ 7.0/10
+
+The EU has released open-source tools for its Ten-Year Network Development Plan (TYNDP) on GitHub, allowing public access to the planning process for Europe's electricity transmission grid. This move could enhance transparency and collaboration in energy grid planning, potentially leading to more efficient integration of renewable sources. However, it also raises concerns about exposing critical infrastructure details to adversaries. The tools are hosted on GitHub under the open-energy-transition organization and likely relate to ENTSO-E's 2024 TYNDP, which analyzed 178 transmission and 33 storage projects. The release includes planning models, but specific technical details are not clarified.
+
+hackernews · lyoncy · Jun 28, 14:05 · [Discussion](https://news.ycombinator.com/item?id=48707361)
+
+**Background**: The Ten-Year Network Development Plan (TYNDP) is a biennial plan by the European Network of Transmission System Operators for Electricity (ENTSO-E) that outlines necessary electricity transmission infrastructure to meet EU energy and climate goals. It assesses cross-border interconnections, national grid reinforcements, and storage projects to support the energy transition. Open-sourcing the planning tools means making the methodologies and data publicly available, fostering innovation and scrutiny.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.entsoe.eu/news/2025/01/31/new-ten-year-network-development-plan-highlights-power-transmission-and-storage-needs-to-meet-the-energy-transition-targets/">New Ten-Year Network Development Plan highlights power ...</a></li>
+<li><a href="https://www.acer.europa.eu/electricity/infrastructure/network-development/ten-year-network-development-plan">Ten-Year Network Development Plan | www.acer.europa.eu</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community reactions are mixed: some see it as a step toward a more efficient, interconnected renewable grid, citing the UK's ability to rely on French nuclear when wind is low. Others warn it could aid adversaries like Russia in targeting infrastructure, arguing sensitive data should not be openly accessible. A few question the practical motivation behind open-sourcing these tools.
+
+**Tags**: `#open-source`, `#energy`, `#infrastructure`, `#network-planning`, `#eu`
+
+---
+
+<a id="item-8"></a>
+## [AMD Strix Halo RDMA Cluster Setup Guide](https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md) ⭐️ 7.0/10
+
+A new GitHub guide provides detailed instructions for setting up RDMA on AMD Strix Halo systems, enabling distributed inference of large language models across multiple consumer-grade nodes. This bridges the gap between consumer hardware and expensive server GPUs, allowing enthusiasts and homelab users to run massive models by pooling memory across nodes, potentially lowering the cost barrier for advanced AI experimentation. The guide covers RoCE (RDMA over Converged Ethernet) configuration, integration with tools like vllm and ds4, and achieves usable token generation speeds for models such as DeepSeek V4 Flash, though performance remains slower than dedicated high-memory accelerators like Apple M4/M5 chips.
 
 hackernews · jakogut · Jun 28, 00:46 · [Discussion](https://news.ycombinator.com/item?id=48703258)
 
-**Background**: AMD's Strix Halo is a high-performance APU with integrated graphics and unified memory, offering up to 128GB of shared memory with bandwidth comparable to high-end GPUs. RDMA (Remote Direct Memory Access) allows one computer to access another's memory directly over a network, bypassing the OS for low-latency data transfer. For large language models, which require significant memory capacity, combining multiple Strix Halo nodes via RDMA effectively pools their memory, enabling inference on models that exceed a single node's capacity.
+**Background**: AMD Strix Halo (Ryzen AI Max+ 395) is a powerful APU with 16 Zen 5 CPU cores, an integrated RDNA 3.5 GPU, and up to 128GB of unified memory, making it attractive for local AI workloads. RDMA (Remote Direct Memory Access) is a networking technology that allows direct memory-to-memory data transfer between computers without involving the CPU, reducing latency and overhead. Distributed inference splits large language models across multiple machines, combining their memory to run models that wouldn't fit on a single device.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://www.amd.com/en/blogs/2025/amd-ryzen-ai-max-395-processor-breakthrough-ai-.html">AMD Ryzen™ AI MAX+ 395 Processor: Breakthrough AI Performance ...</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Remote_direct_memory_access">Remote direct memory access - Wikipedia</a></li>
-<li><a href="https://www.amd.com/en/products/processors/desktops/ryzen/ryzen-ai-halo.html">AMD Ryzen™ AI Halo for AI Developers</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community is highly enthusiastic, with users sharing multi-node setups and performance benchmarks. One user notes that DeepSeek V4 Flash inference speed is satisfactory, while larger models remain slow. There is interest in using cheaper NICs like ConnectX-3, but ConnectX-5 offers PCIe 4.0 advantages. Some express hope for Apple to enable RDMA on Thunderbolt 4 Macs. The guide is seen as a valuable resource for homelab AI experimentation.
+**Discussion**: Community response is highly positive, with users excited about using Strix Halo for homelab distributed inference. Some report workable speeds with DeepSeek V4 Flash using ds4. Others note the setup bridges the memory gap from 24GB GPUs to 128/256GB. There is also hope that Apple will enable RDMA on Thunderbolt 4 Macs for similar clustering.
 
-**Tags**: `#AMD Strix Halo`, `#RDMA`, `#LLM inference`, `#homelab`, `#cluster computing`
-
----
-
-<a id="item-3"></a>
-## [IP Crawl: A Living Atlas of Open Webcams Exposes Global Privacy Lapses](https://ipcrawl.com/) ⭐️ 7.5/10
-
-The website ipcrawl.com has been discovered, serving as a living atlas that aggregates live feeds from thousands of unsecured webcams around the world, revealing widespread security failures in IoT devices. It underscores the critical lack of security in consumer IoT devices and the ease with which private moments can be exposed, affecting millions of unsuspecting users. The site likely relies on scanning for cameras that use default credentials or have no password set, and it allows anyone to view streams sorted by location, including feeds from private homes and businesses.
-
-hackernews · arm32 · Jun 27, 19:09 · [Discussion](https://news.ycombinator.com/item?id=48700834)
-
-**Background**: Many IP cameras are shipped with default usernames and passwords (such as admin/admin) and are often connected directly to the internet without firewalls, making them easily discoverable by automated scans. Sites like Shodan have long indexed such devices, but ipcrawl.com presents them in a more browsable, map-based interface. This issue has been known since at least 2012, yet remains prevalent due to user negligence and poor manufacturer practices.
-
-**Discussion**: Commenters express concern over the invasion of privacy, with one noting the difference between a neighbor leaving blinds open and using a telescope to peek, implying that ipcrawl.com acts like the telescope. Some reference historical precedents, and others point out specific feeds showing potentially illegal activities or humorous signs, highlighting the ethical ambiguity and voyeuristic nature of the site.
-
-**Tags**: `#privacy`, `#IoT`, `#security`, `#webcam`, `#surveillance`
+**Tags**: `#amd-strix-halo`, `#rdma`, `#distributed-inference`, `#llm`, `#homelab`
 
 ---
 
-<a id="item-4"></a>
-## [Decomp Academy Teaches Matching Decompilation of GameCube Games](https://decomp-academy.dev/) ⭐️ 7.0/10
+<a id="item-9"></a>
+## [Wayfinder Router: Deterministic Routing for Local and Hosted LLMs](https://github.com/itsthelore/wayfinder-router) ⭐️ 7.0/10
 
-Decomp Academy, a free and open-source interactive platform, launched to teach matching decompilation of GameCube games by writing C code that compiles to identical PowerPC assembly, using a live Metrowerks CodeWarrior compiler. It lowers the barrier to entry for game decompilation, a niche but passionate community, and could accelerate preservation and modding of classic titles by providing structured education. The site offers 250+ lessons starting from basics, includes real functions from projects like Star Fox Adventures and Metroid Prime, and enforces a strict one-bit mismatch check; future C++ lessons are planned.
+A new CLI tool called Wayfinder Router has been released on GitHub, enabling deterministic routing of queries between local and hosted LLM models. It addresses growing interest in AI infrastructure abstraction, potentially reducing costs and improving privacy by offloading simple queries to local models. The tool also intensifies debate on maintaining context continuity across different models. The router uses deterministic rules to assign queries to local or hosted models, but as a CLI tool it may not seamlessly preserve conversation context, risking regressions or hallucinations when switching models.
 
-hackernews · jackpriceburns · Jun 28, 01:21 · [Discussion](https://news.ycombinator.com/item?id=48703412)
+hackernews · handfuloflight · Jun 28, 04:31 · [Discussion](https://news.ycombinator.com/item?id=48704373)
 
-**Background**: Matching decompilation aims to recreate source code that compiles to a byte-perfect binary copy of the original game, ensuring accuracy for porting and preservation. Metrowerks CodeWarrior was a widely used IDE for GameCube development, targeting PowerPC architecture. Decompilation communities work on various games, and tools like this facilitate learning.
+**Background**: LLM routing directs prompts to different models based on criteria like complexity or cost. Deterministic routing relies on fixed rules rather than learned classifiers. Local LLMs run on-device for privacy and low latency, while hosted LLMs offer higher capability at a per-use cost. Wayfinder Router provides a command-line interface to define such routing logic, simplifying integration for developers.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/CodeWarrior">CodeWarrior - Wikipedia</a></li>
-<li><a href="https://www.ibm.com/docs/en/aix/7.2.0?topic=reference-appendix-f-powerpc-instructions">Appendix F PowerPC® instructions - IBM</a></li>
-<li><a href="https://decomp.dev/projects">Decompilation progress reports</a></li>
+<li><a href="https://github.com/itsthelore/wayfinder-router">GitHub - itsthelore/wayfinder-router: Simple CLI tool for deterministic routing of queries between local and hosted LLM models · GitHub</a></li>
+<li><a href="https://news.ycombinator.com/item?id=48704373">Wayfinder Router: deterministic routing of queries between local and hosted LLM | Hacker News</a></li>
+<li><a href="https://blog.n8n.io/llm-routing/">LLM routing strategies for quality in AI applications – n8n Blog</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters expressed a mix of enthusiasm and practical concerns: some found lessons challenging, others asked about piecemeal decompilation and LLM use; overall, the tool was praised but the steep learning curve was acknowledged.
+**Discussion**: Commenters suggest routing should be an OS-level service like mobile data, with a single payment for AI infrastructure. However, concerns are raised about context loss when switching models, causing regressions or hallucinations. Some also note the need for better composability in routing, ideally integrated into AI harnesses rather than external proxies.
+
+**Tags**: `#LLM`, `#routing`, `#local-first`, `#AI`, `#developer-tools`
+
+---
+
+<a id="item-10"></a>
+## [Decomp Academy: Learn to Decompile GameCube Games into Matching C](https://decomp-academy.dev/) ⭐️ 7.0/10
+
+Decomp Academy is a new interactive platform that teaches users to decompile PowerPC assembly into matching C code for GameCube games, starting from basics with over 250 lessons. This fills a major educational gap in game decompilation, making it easier for newcomers to learn and contribute to preserving classic games, which is crucial for historical documentation and modding communities. The site uses a live Metrowerks CodeWarrior GC/2.0 compiler for exact assembly matching, and includes real functions from decomp projects like Star Fox Adventures and Metroid Prime; all lessons are open source in Markdown.
+
+hackernews · jackpriceburns · Jun 28, 01:21 · [Discussion](https://news.ycombinator.com/item?id=48703412)
+
+**Background**: Matching decompilation is the process of converting assembly back into C source code that compiles to byte-for-byte identical machine code, used to recreate source for classic games. The GameCube uses a PowerPC processor, and its games were often compiled with Metrowerks CodeWarrior, a development environment that was standard for the platform.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://gambiconf.substack.com/p/can-llms-really-do-matching-decompilation">Can LLMs Really Do Matching Decompilation? I Tested 60 ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Metrowerks_CodeWarrior">Metrowerks CodeWarrior</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters appreciated the concept but noted challenges with exact assembly matching, expressed interest in decompiling new games piecemeal, and suggested improvements like a primer on assembly and integration with LLM tools.
 
 **Tags**: `#decompilation`, `#gamecube`, `#reverse-engineering`, `#education`, `#assembly`
 
 ---
 
-<a id="item-5"></a>
-## [OpenRA: Open-Source Engine Revives and Modernizes Classic RTS Games](https://www.openra.net/) ⭐️ 7.0/10
-
-OpenRA is an open-source game engine that recreates classic real-time strategy titles like Command & Conquer: Red Alert, Command & Conquer, and Dune 2000 from scratch, introducing improved balance, modern conveniences, and cross-platform support. By preserving and enhancing beloved classics with a volunteer-driven open-source model, OpenRA ensures these games remain accessible and enjoyable on modern systems, fostering a vibrant community and setting an example for game preservation. The engine is not a mod but a complete reimplementation, offering native support for Windows, macOS, and Linux; gameplay changes include smarter unit pathfinding, rebalanced unit ranges (e.g., Allied artillery can outrange Soviet Tesla coils), and a refined user interface.
-
-hackernews · tosh · Jun 27, 12:10 · [Discussion](https://news.ycombinator.com/item?id=48697560)
-
-**Background**: Classic RTS games like Command & Conquer: Red Alert, originally developed by Westwood Studios in the 1990s, are no longer maintained and face compatibility issues on modern hardware. Electronic Arts, the current rights holder, released them as freeware but without ongoing support. OpenRA fills this gap by providing a community-maintained, feature-rich engine built with modern development practices.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.openra.net/">OpenRA - Classic strategy games rebuilt for the modern era</a></li>
-<li><a href="https://en.wikipedia.org/wiki/OpenRA">OpenRA</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The community is highly enthusiastic, praising OpenRA's balance tweaks and added features. Many note that the player base remains surprisingly strong, and some highlight the existence of OpenRA2 and the positive precedent set by EA open-sourcing the older games. Competitive match replays and YouTube channels are frequently shared.
-
-**Tags**: `#open-source`, `#gaming`, `#rts`, `#game-development`, `#classic-games`
-
----
-
-<a id="item-6"></a>
-## [Comparison Guide for Public DNS Resolvers with Privacy and Filtering Criteria](https://evilbit.de/dns-resolver-guide.html) ⭐️ 7.0/10
-
-A detailed guide comparing public DNS resolvers on filtering, privacy, and performance was published, sparking community discussion on self-hosting and real-world usage. Choosing a DNS resolver affects browsing speed, privacy, and security; this guide helps users make informed trade-offs between convenience and control. The comparison includes support for DNS over HTTPS (DoH) and DNSSEC, ad and malware filtering, and notes a strong community preference for self-hosted solutions like Unbound.
-
-hackernews · pawal · Jun 27, 22:11 · [Discussion](https://news.ycombinator.com/item?id=48702273)
-
-**Background**: DNS resolvers translate domain names to IP addresses. Public resolvers like Cloudflare 1.1.1.1 offer alternatives to ISP defaults, often improving speed or privacy. DNS over HTTPS (DoH) encrypts queries to prevent eavesdropping, while DNSSEC authenticates responses to prevent spoofing. Self-hosting gives users full control over filtering and logging.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/DNS_over_HTTPS">DNS over HTTPS</a></li>
-<li><a href="https://en.wikipedia.org/wiki/DNSSEC">DNSSEC</a></li>
-<li><a href="https://www.xda-developers.com/dns-servers-you-can-self-host/">5 powerful DNS servers you can self-host to supercharge your home network</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters are split between self-hosting advocates who value full control and those who prefer managed services like NextDNS for simplicity. Practical challenges with public Wi‑Fi captive portals were raised, along with suggestions for local encrypted resolvers and a built‑in speed test feature.
-
-**Tags**: `#dns`, `#privacy`, `#networking`, `#security`, `#self-hosting`
-
----
-
-<a id="item-7"></a>
-## [The Case for Physical Media Ownership Ignites DRM Debate](https://dervis.de/physical/) ⭐️ 7.0/10
-
-An essay advocating for physical media ownership triggered a high-engagement discussion on Hacker News, where users debated digital rights, DRM, and the value of true ownership. The conversation included personal strategies for DRM-free content and examples of digital purchases being revoked. The debate reflects growing consumer concern over the ephemeral nature of digital purchases, where DRM and licensing can strip away access to bought content. It underscores the tension between convenience and ownership, with implications for media preservation and consumer rights. Commenters highlighted DRM-free platforms like Bandcamp for music and GOG for games, as well as the use of MakeMKV for personal rips. They also noted past failures such as the Ultraviolet DRM locker shutting down and Sony recently announcing removal of purchased Studio Canal content from users' libraries.
-
-hackernews · cemdervis · Jun 27, 11:32 · [Discussion](https://news.ycombinator.com/item?id=48697335)
-
-**Background**: Digital rights management (DRM) technologies restrict how digital content can be used, often tying it to specific devices or services. This means that purchased digital media can become inaccessible if the licensing provider goes out of business or changes terms, as seen with the Ultraviolet platform. In contrast, physical media like CDs and DVDs offer permanent ownership without such restrictions, preserving access regardless of corporate decisions.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Digital_rights_management">Digital rights management - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Overall, the community expressed strong agreement with the problems of DRM and non-ownership. Some argued that true ownership requires the freedom to share, regardless of format, while others proposed piracy as a practical solution. A recurring theme was the convenience-ownership trade-off, with many willing to sacrifice convenience for control, but recognizing that mainstream consumers prioritize ease of use.
-
-**Tags**: `#digital ownership`, `#DRM`, `#physical media`, `#consumer rights`, `#tech policy`
-
----
-
-<a id="item-8"></a>
-## [Asian AI Startups Release Models to Rival Anthropic's Mythos Amid Export Ban](https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/) ⭐️ 7.0/10
-
-Asian AI startups, including Sakana AI with its Fugu system, are launching models that claim performance comparable to Anthropic's unreleased Mythos model, as the U.S. export ban on advanced AI chips persists. This underscores how export restrictions are accelerating regional AI development and challenging Western dominance, while also igniting debates over model evaluation standards and the real-world usefulness of 'Mythos-like' claims. The Fugu offering is not a single model but a learned multi-agent orchestration system that routes tasks to various underlying models; users report slow performance, high cost, and inferior coding results compared to Anthropic's Opus, with no reliable benchmarks available for direct comparison.
-
-hackernews · bogdiyan · Jun 27, 13:10 · [Discussion](https://news.ycombinator.com/item?id=48697958)
-
-**Background**: Anthropic's Mythos is a powerful model deemed too dangerous for public release due to cybersecurity and biosecurity risks, provoking global alarm. The U.S. export ban on advanced AI chips to certain nations has limited Asian firms' access to cutting-edge hardware, driving them to create alternative systems that work around these constraints.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.anthropic.com/claude/mythos">Claude Mythos \ Anthropic</a></li>
-<li><a href="https://www.scientificamerican.com/article/what-is-mythos-and-why-are-experts-worried-about-anthropics-ai-model/">What is Mythos, Anthropic’s unreleased AI model, and how ...</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The Hacker News community is largely skeptical, dismissing 'Mythos-like' claims without robust benchmarks. Some note Fugu is merely a routing system, not a real model, and one user detailed poor coding performance compared to Anthropic's Opus. Others speculate about impending bans on foreign LLMs under safety pretexts.
-
-**Tags**: `#AI`, `#Large Language Models`, `#Geopolitics`, `#Anthropic`, `#Export Controls`
-
----
-
-<a id="item-9"></a>
-## [The Best Response to AI Slop Is from Robin Williams](https://jayacunzo.com/blog/your-move-chief) ⭐️ 7.0/10
-
-A new commentary piece uses Robin Williams' monologue from 'Good Will Hunting' to argue that AI-generated content falls short because it cannot share real human experiences, sparking vigorous debate. This highlights a fundamental limitation of AI in creating authentic, experience-based work, challenging techno-optimism and questioning the existential value of AI-generated content. The monologue stresses that AI lacks sensory and emotional experiences like tasting a strawberry or losing a loved one, fueling ongoing discussions about LLMs' inability to convey lived reality.
-
-hackernews · herbertl · Jun 28, 01:28 · [Discussion](https://news.ycombinator.com/item?id=48703452)
-
-**Background**: 'AI slop' refers to low-effort, meaningless digital content generated by AI, often clickbait, and became a prominent term in 2024-2025. Robin Williams' speech is from the 1997 film 'Good Will Hunting,' where his therapist character shares personal experiences to challenge a young genius.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/AI_slop">AI slop</a></li>
-<li><a href="https://www.britannica.com/technology/AI-slop">AI slop | Meaning, Meme, Generator, Image, Text, & Facts | Britannica</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Some comments agree the monologue nails LLMs' uneasiness due to their lack of lived experience; others find it smug and patronizing; a few draw parallels to other contexts like the 'tears in rain' speech from Blade Runner.
-
-**Tags**: `#AI`, `#LLMs`, `#philosophy`, `#content-quality`, `#commentary`
-
----
-
-<a id="item-10"></a>
-## [Suspicious Discontinuities in Marathons, Taxes, and More](https://danluu.com/discontinuities/) ⭐️ 7.0/10
-
-Dan Luu's 2020 analysis identifies suspicious statistical jumps where data distributions show abrupt shifts, such as marathon finishing times bunching just before round numbers and tax systems creating sharp cliffs that drastically change take-home pay. These discontinuities reveal how arbitrary thresholds distort behavior, whether runners pushing to beat a time goal or workers avoiding promotions to keep benefits. They highlight flaws in policy design that can create perverse incentives and inefficiencies in economics, sports, and beyond. Notable examples include marathon pace groups causing finishes to cluster at 30-minute intervals, U.S. tax cliffs that can make a $1 raise cost thousands in lost benefits, and suspicious patterns in Polish language exam scores suggesting possible manipulation. The analysis also touches on p-hacking and auction bid distributions.
-
-hackernews · tosh · Jun 27, 13:32 · [Discussion](https://news.ycombinator.com/item?id=48698151)
-
-**Background**: A discontinuity in data is an abrupt jump or change in a trend at a specific threshold, often studied via regression discontinuity design (RDD). RDD is a quasi-experimental method used to estimate causal effects by comparing observations just above and below a cutoff. Cliff effects, like tax cliffs, occur when a small change in income leads to a disproportionate loss in benefits or increase in tax rate, creating a 'cliff' in net income.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://danluu.com/discontinuities/">Suspicious discontinuities</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Regression_discontinuity_design">Regression discontinuity design</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters shared personal stories: one runner pushed to finish a half-marathon under 2:30, confirming the statistical pattern. Others pointed out the UK's severe childcare and tax cliffs, with marginal rates exceeding 60%. Some argued for eliminating means testing in government benefits to avoid such cliffs. Another noted that marathon pace runners naturally create the observed time clusters.
-
-**Tags**: `#data analysis`, `#statistics`, `#behavioral economics`, `#tax policy`, `#discontinuities`
-
----
-
 <a id="item-11"></a>
-## [Post-Mythos Cybersecurity: Keeping Calm Amid AI Hype](https://cephalosec.com/blog/cybersecurity-in-the-post-mythos-era-keep-calm-and-carry-on/) ⭐️ 7.0/10
+## [DFlash Support Merged into llama.cpp](https://www.reddit.com/r/LocalLLaMA/comments/1uhx862/dflash_support_merged_into_llamacpp/) ⭐️ 7.0/10
 
-A newly published analysis challenges the exaggerated cybersecurity threats from AI models like Mythos, advocating for pragmatic, calm approaches instead of succumbing to fear. This perspective counters industry hype and refocuses attention on foundational security practices such as memory safety, which could reshape how organizations allocate resources against real versus perceived threats. The article highlights that most security issues stem from bad configurations and practices, not AI; memory-safe languages like Rust can mitigate many vulnerabilities that AI might exploit. Vendors are accused of leveraging Mythos fear to sell products without evidence of its capabilities.
+The DFlash attention mechanism, a block diffusion-based approach for speculative decoding, has been integrated into the llama.cpp library. This integration allows llama.cpp users to leverage DFlash's efficient speculative decoding, potentially accelerating local LLM inference and reducing latency, which is crucial for real-time and resource-constrained environments. DFlash employs a non-causal attention mask that allows generating multiple draft tokens in parallel, improving throughput over autoregressive drafting methods.
 
-hackernews · Versipelle · Jun 27, 14:23 · [Discussion](https://news.ycombinator.com/item?id=48698559)
+reddit · r/LocalLLaMA · /u/sammcj · Jun 28, 13:24
 
-**Background**: Mythos is a large language model developed by Anthropic to find software vulnerabilities, but its public release was restricted due to misuse concerns. Memory safety refers to protections against bugs like buffer overflows, often enforced by languages such as Rust and Java, which are critical for secure software.
+**Background**: llama.cpp is a popular open-source library for running large language models (LLMs) locally on consumer hardware. Speculative decoding speeds up LLM inference by using a small draft model to predict multiple tokens, which are then verified by the main model. DFlash is a draft model that employs block diffusion—a technique that generates multiple tokens simultaneously using a non-causal attention mask—to further improve efficiency.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Mythos_(model)">Mythos (model)</a></li>
-<li><a href="https://www.memorysafety.org/docs/memory-safety/">What is memory safety and why does it matter? - Prossimo</a></li>
+<li><a href="https://arxiv.org/abs/2602.06036">[2602.06036] DFlash: Block Diffusion for Flash Speculative Decoding</a></li>
+<li><a href="https://github.com/z-lab/dflash">GitHub - z-lab/dflash: DFlash: Block Diffusion for Flash Speculative Decoding · GitHub</a></li>
+<li><a href="https://docs.vllm.ai/projects/speculators/en/latest/user_guide/algorithms/dflash/">Dflash - Speculators Docs - vLLM Documentation</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters largely agree with the article's skepticism, emphasizing memory safety as a key defense. Some criticize vendors for fear-mongering, while others note that even open-source models like DeepSeek V4 Flash can find serious vulnerabilities, suggesting that LLMs have permanently changed security assessments.
-
-**Tags**: `#cybersecurity`, `#AI`, `#memory-safety`, `#hype`, `#risk-assessment`
+**Tags**: `#llama.cpp`, `#DFlash`, `#attention`, `#local-llm`, `#inference`
 
 ---
 
 <a id="item-12"></a>
-## [OpenMontage: First Open-Source Agentic Video Production System Gains Traction](https://github.com/calesthio/OpenMontage) ⭐️ 7.0/10
+## [Pure C CPU-Only Inference Engine for Qwen 3 Models](https://www.reddit.com/r/LocalLLaMA/comments/1uht9rf/a_barebones_cpuonly_inference_engine_for_qwen_3/) ⭐️ 7.0/10
 
-OpenMontage has emerged as the first open-source, agentic video production system, comprising 12 pipelines, 52 tools, and over 500 agent skills, and gained significant attention with 85 new GitHub stars in 24 hours. This project marks a significant step in applying agentic AI to creative workflows, enabling developers and content creators to automate complex video production tasks with an open-source, customizable framework. Built in Python, OpenMontage is designed to integrate with existing AI coding assistants, but initial releases lack detailed documentation on pipeline maturity or real-world performance.
+A developer built a minimal inference engine for Qwen 3 models (4B and below) entirely in C with no external dependencies, loading from safetensors and supporting 4-bit affine quantization. It runs CPU-only and is intentionally slow, prioritizing code readability for educational purposes. This project offers a transparent, from-scratch implementation that helps developers and hobbyists understand LLM inference internals without relying on complex frameworks, lowering the learning barrier in the local LLM ecosystem. The engine implements tokenization, transformer math, KV caching, and 4-bit affine quantization, but achieves only ~1 token/second on an Intel i5-1240P. It uses cJSON for config parsing and optionally supports OpenMP parallelization.
 
-ossinsight · calesthio · Jun 28, 07:49
+reddit · r/LocalLLaMA · /u/jakint0sh · Jun 28, 09:58
 
-**Background**: Agentic AI systems are designed to autonomously perform complex, multi-step tasks, and video production traditionally involves multiple stages from scripting to editing. OpenMontage integrates 'agent skills' — modular instructions and scripts — to orchestrate these stages through 12 specialized pipelines, mirroring the industry trend of using large language models to control software tools.
+**Background**: Qwen 3 is a family of open-source large language models ranging from 0.6B to 235B parameters, supporting dense and mixture-of-experts architectures. Affine quantization maps floating-point model weights to lower-bit integers (e.g., 4-bit) to reduce memory usage with minimal accuracy loss. Safetensors is a secure file format for storing tensors that prevents arbitrary code execution during loading, commonly used in the Hugging Face ecosystem.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://pyshine.com/OpenMontage-Agentic-Video-Production-System/">OpenMontage - Agentic Video Production System with 12 ...</a></li>
-<li><a href="https://aitoolly.com/ai-news/article/2026-06-26-openmontage-launches-as-the-worlds-first-open-source-agentic-video-production-system-with-500-agent">OpenMontage: First Open-Source Agentic Video Production System</a></li>
+<li><a href="https://insiderllm.com/guides/qwen3-complete-guide/">Qwen3 Complete Guide: Every Model from 0.6B to 235B</a></li>
+<li><a href="https://developer.nvidia.com/blog/model-quantization-concepts-methods-and-why-it-matters/">Model Quantization: Concepts, Methods, and Why It Matters | NVIDIA Technical Blog</a></li>
+<li><a href="https://huggingface.co/docs/safetensors/index">Safetensors · Hugging Face</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#open-source`, `#video-production`, `#ai-agents`, `#python`, `#automation`
+**Tags**: `#inference engine`, `#Qwen`, `#C programming`, `#educational`, `#local LLMs`
 
 ---
 
 <a id="item-13"></a>
-## [New MCP Server Indexes Codebases into Knowledge Graph, Slashing LLM Tokens by 99%](https://github.com/DeusData/codebase-memory-mcp) ⭐️ 7.0/10
+## [Model Registry: Torrents for Open Models with Hugging Face as Fallback Web Seed](https://www.reddit.com/r/LocalLLaMA/comments/1uhevvf/model_registry_torrents_for_open_models_using/) ⭐️ 7.0/10
 
-DeusData released codebase-memory-mcp, a high-performance MCP server that indexes codebases into a persistent knowledge graph, enabling sub-millisecond queries and 99% token reduction across 158 languages. By drastically reducing token usage and providing fast, structured code queries, this tool could make AI-powered code analysis more efficient and cost-effective, benefiting developers who integrate LLMs into their workflows. The server is a single static binary with zero dependencies, written in C, and utilizes a persistent knowledge graph for indexing. It supports 158 programming languages, claims sub-millisecond query performance, and integrates via the Model Context Protocol (MCP) standard.
+The developer launched a repository and website that publish torrent files for popular open models, with Hugging Face configured as a web seed fallback to ensure reliable downloads when peers are scarce. A custom backend service was built to redirect BitTorrent client requests to the correct Hugging Face endpoint depending on whether a file is stored in Git LFS or not. This approach distributes bandwidth costs, reduces reliance on central servers, and improves download resilience for large AI models. It could ease the burden on platforms like Hugging Face and accelerate access, especially in bandwidth-constrained environments. The system implements the BEP 19 web seeding standard and handles Git LFS pointers to serve the correct files from Hugging Face. It remains experimental, with occasional CDN errors that usually resolve with retries. Future automation via GitHub Actions is planned, but free runners' 100 GB disk limit poses a challenge for models exceeding that size.
 
-ossinsight · DeusData · Jun 28, 07:49
+reddit · r/LocalLLaMA · /u/Ravindra-Marella · Jun 27, 21:45
 
-**Background**: The Model Context Protocol (MCP) is an open standard that enables AI applications to securely interact with external data sources and tools via standardized server interfaces. MCP servers, like this one, provide specific capabilities—here, indexing code into a knowledge graph that captures entities and relationships, allowing LLMs to query code structure without processing raw files, thus saving tokens.
+**Background**: BitTorrent is a peer-to-peer file sharing protocol where users download pieces of files from multiple peers. Web seeding allows BitTorrent clients to also download from HTTP/FTP sources, acting as a fallback. Hugging Face is a popular platform for sharing machine learning models, and it often uses Git LFS to store large files, keeping only pointers in the Git repository. To use Hugging Face as a web seed, the project must correctly resolve LFS pointers to fetch the actual file content from Hugging Face's storage backend.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://modelcontextprotocol.io/docs/learn/server-concepts">Understanding MCP servers - Model Context Protocol</a></li>
-<li><a href="https://github.com/modelcontextprotocol/servers">Model Context Protocol servers - GitHub</a></li>
+<li><a href="https://en.wikipedia.org/wiki/BitTorrent">BitTorrent - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Git_LFS">Git LFS</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#code-intelligence`, `#llm-tools`, `#knowledge-graph`, `#mcp-server`, `#developer-tools`
+**Tags**: `#open-source-models`, `#torrent`, `#huggingface`, `#model-distribution`, `#web-seed`
 
 ---
 
 <a id="item-14"></a>
-## [Fintech Engineering Handbook Draws Criticism but Spurs Discussion](https://w.pitula.me/fintech-engineering-handbook/) ⭐️ 6.0/10
+## [A Curated Collection of 5,000 Restaurant Menus from 1880–1920](https://pudding.cool/2026/06/menu-collection/) ⭐️ 6.0/10
 
-A new fintech engineering handbook was published online, but it quickly received criticism for containing shallow and questionable advice, particularly on monetary representation. Despite its flaws, the handbook generated extensive discussion among developers about best practices in fintech software engineering. The debate highlights the challenges in establishing reliable best practices for fintech development, where small mistakes like incorrect monetary representation can lead to significant financial errors. The discussion underscores the importance of community-driven knowledge sharing in a domain where correctness is critical. The handbook's advice on storing monetary amounts as floats was widely criticized; practitioners emphasized using integers or decimal types to avoid IEEE 754 rounding issues. Other debated points included the use of minor-units precision and event sourcing, with commenters offering nuanced takes based on their fintech experience.
+The Pudding has published a curated digital collection of 5,000 restaurant menus spanning 1880 to 1920, highlighting historical dining trends, menu design, and pricing. This collection serves as a valuable primary source for food historians and cultural researchers, while allowing the public to explore changes in cuisine, affordability, and design across four decades. The dataset reveals bygone menu categories like 'Boiled' and prices that seem remarkably low even after inflation adjustment. It is part of The Pudding's data visualization project, likely sourced from public archives.
 
-hackernews · signa11 · Jun 27, 10:28 · [Discussion](https://news.ycombinator.com/item?id=48696982)
+hackernews · xbryanx · Jun 28, 14:44 · [Discussion](https://news.ycombinator.com/item?id=48707763)
 
-**Background**: Fintech engineering involves building software for financial services, where representing monetary values accurately is crucial. Using floating-point numbers for currency can cause rounding errors, so developers often use integer types (e.g., storing cents) or specialized decimal libraries. The community frequently debates the best approaches, as trade-offs exist between precision, performance, and compatibility.
+**Background**: The late 19th and early 20th centuries witnessed the rise of the modern restaurant, with printed menus reflecting new culinary trends, immigration influences, and economic shifts. This era saw menus evolve into an art form, and dishes like boiled meats were common. The collection offers a window into everyday historical life and design aesthetics.
 
-**Discussion**: Community comments strongly criticized the handbook's recommendation to store monetary values as floats, with many insisting on integers. Others warned against minor-units precision due to interoperability issues and cautioned about overusing event sourcing. Some acknowledged the handbook's value as a collection of existing knowledge while recommending additional resources like Kleppmann's book.
+**Discussion**: Commenters were delighted by the collection, sharing trivia like the legal implications of beer mat tallies in Germany and the charm of 2000s Chinese takeout menus. They noted how little menu formats have changed, except for the disappearance of boiled dishes and significantly lower historical prices.
 
-**Tags**: `#fintech`, `#software-engineering`, `#monetary-computation`, `#discussion`, `#hackernews`
+**Tags**: `#history`, `#food`, `#menus`, `#data-visualization`, `#culture`
 
 ---
 
 <a id="item-15"></a>
-## [TownSquare: A Lightweight Ephemeral Presence Widget for Websites](https://cauenapier.com/blog/townsquare_release/) ⭐️ 6.0/10
+## [Reddit User Refutes Dario Amodei on Open-Source AI](https://www.reddit.com/r/LocalLLaMA/comments/1ui241x/the_number_1_public_enemy_of_opensource/) ⭐️ 6.0/10
 
-TownSquare is a new embeddable widget that adds a real-time, ephemeral presence layer to any website, allowing visitors to see each other as stick figures, walk around, and chat without accounts or permanent data. It revives the nostalgic feeling of shared online spaces, contrasting with today's isolated browsing experience, and could foster serendipitous interactions and a sense of community on otherwise static sites. The widget supports simple left/right walking, bench interactions, real-time chat that disappears when users leave, and it is intentionally minimal with no accounts or profiles, built using vibe coding.
+A Reddit user refuted Dario Amodei's recent claims that open-source AI models are not transparent, cannot benefit from community collaboration, and require cloud hosting, arguing that open weights allow model inspection, fine-tunes show real improvements, and many models run locally. This exchange highlights the ongoing debate between open-source and proprietary AI, with implications for innovation speed, accessibility, and the concentration of power in the AI industry. The user cited GLM 5.2, fully open-source Nemotron3 Ultra (55B active MoE with released data and scripts), and locally runnable Qwen 27B as counterexamples; Nemotron3 Ultra's release was confirmed by NVIDIA in recent weeks.
 
-hackernews · eustoria · Jun 27, 17:11 · [Discussion](https://news.ycombinator.com/item?id=48699928)
+reddit · r/LocalLLaMA · /u/Complete-Sea6655 · Jun 28, 16:44
 
-**Background**: Earlier social widgets like MyBlogLog and ff0000 provided similar shared presence on websites but have largely disappeared. Modern web browsing is often solitary, and TownSquare aims to reintroduce a lightweight sense of co-presence without the overhead of social networks. The project is a nostalgic return to the early web's community features.
+**Background**: Open weights AI models provide public access to trained parameters, enabling inspection and modification. Mixture of Experts (MoE) is an architecture that activates only a subset of total parameters per input, making large models more compute-efficient. Local deployment means running AI on personal hardware without relying on the cloud, often achieved with smaller dense models or quantized versions.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/cauenapier/TownSquare/">GitHub - cauenapier/TownSquare</a></li>
+<li><a href="https://opensource.org/ai/open-weights">Open Weights: not quite what you’ve been told</a></li>
+<li><a href="https://huggingface.co/blog/moe">Mixture of Experts Explained</a></li>
+<li><a href="https://research.nvidia.com/labs/nemotron/Nemotron-3-Ultra/">NVIDIA Nemotron 3 Ultra - NVIDIA Nemotron</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments show mixed reactions: some users fondly recall similar past services and even meeting spouses through them, while others find the widget confusing or see greater potential for organizing offline gatherings rather than casual online chats.
-
-**Tags**: `#web development`, `#social presence`, `#user experience`, `#community`, `#nostalgia`
-
----
-
-<a id="item-16"></a>
-## [U.S. Ban on Polestar, Not Volvo, May Be Due to Telemetry Fears](https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you) ⭐️ 6.0/10
-
-An analysis by The Drive suggests that the U.S. government's ban on the Chinese-owned Polestar electric vehicle, while allowing Volvo to continue sales, likely stems from concerns over vehicle telemetry data being sent to China rather than the car's manufacturing origin. This highlights how data privacy and national security issues are becoming critical factors in automotive market access, signaling that connected car data practices may face increasing regulatory scrutiny. The ban reflects a policy where the U.S. may prohibit vehicles that transmit telemetry to Chinese servers, regardless of where they are assembled; however, the article does not confirm whether Volvo's telemetry still connects to China.
-
-hackernews · mraniki · Jun 28, 01:55 · [Discussion](https://news.ycombinator.com/item?id=48703613)
-
-**Background**: Vehicle telemetry involves automated data collection from onboard sensors, including GPS, diagnostics, and driver behavior, often integrated into telematics systems. Modern connected cars commonly use cellular networks to send data for software updates and remote services. Concerns have grown over the security risks of transmitting such data to servers in foreign countries, particularly those with perceived geopolitical risks, leading to increased regulatory focus.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Telematics">Telematics - Wikipedia</a></li>
-<li><a href="https://www.geotab.com/glossary/telemetry/">What is Telemetry? How it Works and Why Fleets Need it | Geotab</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters noted the article's omission of whether Volvo's telemetry still connects to China, which could explain the different treatment. Others criticized the inconsistency of tariffs based on assembly location when many parts originate from China, and one provided historical context of Geely's acquisition of Volvo. The overall sentiment reflects skepticism and frustration with opaque U.S. policies.
-
-**Tags**: `#geopolitics`, `#automotive`, `#data-privacy`, `#China`, `#regulation`
-
----
-
-<a id="item-17"></a>
-## [MathFormer: Testing if Symbolic Math is Pattern Matching or Reasoning](https://www.reddit.com/r/MachineLearning/comments/1uhatw8/mathformer_testing_whether_symbolic_math_is/) ⭐️ 6.0/10
-
-Researchers trained a 4-million-parameter seq2seq model on symbolic expression expansion without any math knowledge. It achieved 98.6% accuracy, indicating that it learned token-level structure transformations rather than mathematical reasoning. This suggests that large language models may be performing large-scale pattern completion rather than true mathematical reasoning, which could shift how we evaluate and trust their problem-solving abilities. The model focuses on expanding factorized expressions into polynomial forms; its near-perfect accuracy on a narrow task highlights the potential for pattern-based shortcuts, but it remains unclear if this generalizes to more complex math or reasoning tasks.
-
-reddit · r/MachineLearning · /u/AlphaCode1 · Jun 27, 18:57
-
-**Background**: Symbolic artificial intelligence traditionally involves manipulating symbols according to formal rules. In neural networks, pattern completion refers to the ability to reconstruct a full pattern from partial input, a capacity often observed in autoassociative models. The MathFormer experiment extends this idea to symbolic mathematics, testing whether sequence-to-sequence models can perform algebraic expansion through pattern-based token transformations rather than by applying mathematical rules. This relates to the broader discussion on whether large language models genuinely reason or merely exploit statistical patterns.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence">Symbolic artificial intelligence - Wikipedia</a></li>
-<li><a href="https://arxiv.org/html/2507.11393">A Neural Network Model of Complementary Learning Systems ...</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#symbolic-math`, `#pattern-matching`, `#reasoning`, `#transformers`, `#machine-learning`
-
----
-
-<a id="item-18"></a>
-## [NagaTranslate: Translation and Voice Pipeline for Low-Resource Nagaland Creoles](https://www.reddit.com/r/MachineLearning/comments/1uhlvjv/nagatranslate_building_a_translation_and_voice/) ⭐️ 6.0/10
-
-The project builds a translation and speech pipeline for low-resource Nagaland languages (Nagamese, Ao, Sema) using Whisper for ASR, VITS for TTS, and a commercial LLM for translation, with plans to transition to open-weights models. It demonstrates practical application of existing ML tools to underserved languages, potentially aiding communication and preservation of oral cultures, and highlights challenges like spelling variation and accent robustness in low-resource NLP. The translation backend currently uses a commercial LLM API with few-shot prompting after switching from a fine-tuned NLLB model to improve naturalness; ASR and TTS models are fine-tuned Whisper and VITS hosted on Hugging Face Spaces ZeroGPU. Challenges include handling non-standardized spelling, self-hosting with limited GPU, and accent variations.
-
-reddit · r/MachineLearning · /u/Material_Dinner_1924 · Jun 28, 03:05
-
-**Background**: Nagaland languages like Nagamese are primarily oral with limited written data, making them low-resource. Whisper is a speech recognition model by OpenAI, VITS is an end-to-end text-to-speech model using variational inference and adversarial training, and NLLB (No Language Left Behind) is Meta's multilingual translation model supporting 200 languages. Low-resource NLP faces challenges due to scarce parallel corpora and lack of standardization.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/jaywalnut310/vits">GitHub - jaywalnut310/vits: VITS: Conditional Variational ...</a></li>
-<li><a href="https://ai.meta.com/blog/nllb-200-high-quality-machine-translation/">200 languages within a single AI model: A breakthrough in ...</a></li>
-<li><a href="https://spotintelligence.com/2025/09/30/low-resource-nlp-made-simple-challenges-strategies-tools-libraries/">Low-Resource NLP Made Simple [Challenges, Strategies & Tools]</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#low-resource NLP`, `#speech translation`, `#Whisper`, `#VITS`, `#project`
-
----
-
-<a id="item-19"></a>
-## [ML Models Automatically Detect and Timestamp MMA Fight Events for Searchable Timelines](https://www.reddit.com/r/MachineLearning/comments/1ugwrmz/showcase_building_ml_models_that_watch_mma_fights/) ⭐️ 6.0/10
-
-A developer with an MMA background has built AI models that watch MMA fights and automatically detect events like takedowns, knockdowns, and positional changes (standing, clinching, ground), then mark them on a searchable timeline. The project, available at cagesight.ai, aims to make fight analysis more granular over time. This application of computer vision to sports analytics could revolutionize how fighters, coaches, and fans consume and analyze MMA content, making it easy to locate specific moments without manually scrubbing through hours of footage. It highlights a growing trend of AI being used to extract structured data from video for enhanced searchability and engagement. The current system detects broad positional states (standing, clinching, ground) and specific events like knockdowns and takedowns, with plans for more granular detection. The timeline interface allows users to jump directly to marked moments, but technical details on model architecture, accuracy, or training data are not disclosed.
-
-reddit · r/MachineLearning · /u/UnholyCathedral · Jun 27, 08:01
-
-**Background**: Mixed Martial Arts (MMA) involves various fighting disciplines, with constant transitions between positions. Brazilian Jiu-Jitsu (BJJ) focuses on ground grappling. Automatic event detection in combat sports is a niche application of computer vision, often involving action recognition, pose estimation, and temporal localization. Projects like this require large annotated fight datasets, which are scarce and expensive to create.
-
-**Tags**: `#sports analytics`, `#computer vision`, `#event detection`, `#MMA`, `#timeline search`
-
----
-
-<a id="item-20"></a>
-## [AI-Driven Tool Creates Fully Editable PowerPoints from Documents](https://github.com/hugohe3/ppt-master) ⭐️ 6.0/10
-
-A new GitHub repository, hugohe3/ppt-master, uses AI to convert any document into a fully editable PowerPoint file. It supports custom templates, native PowerPoint shapes, and can even voice speaker notes as audio narration. This tool automates the tedious process of creating professional presentations, potentially saving hours of manual work. It enhances accessibility by generating audio narration from speaker notes and preserves full editability, unlike image-based solutions, making it valuable for content creators, educators, and business professionals. The Python-based tool follows user-provided .pptx templates and generates native shapes and animations, ensuring fully editable output. As a new project with only 25 stars, it may still have early-stage limitations.
-
-ossinsight · hugohe3 · Jun 28, 07:49
-
-**Tags**: `#AI`, `#PowerPoint`, `#presentation-generation`, `#Python`, `#automation`
+**Tags**: `#open-source`, `#AI debate`, `#Dario Amodei`, `#local LLMs`, `#misconceptions`
 
 ---
 
