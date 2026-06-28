@@ -1,355 +1,407 @@
 # Horizon 每日速递 - 2026-06-28
 
-> 从 31 条内容中筛选出 15 条重要资讯。
+> 从 29 条内容中筛选出 19 条重要资讯。
 
 ---
 
-1. [OpenAI Codex 敏感文件排除功能相关议题仍悬而未决](#item-1) ⭐️ 8.0/10
-2. [Flock 摄像头迅速扩张，监控远超车牌识别](#item-2) ⭐️ 8.0/10
-3. [选择公共 DNS 解析器的综合指南](#item-3) ⭐️ 8.0/10
-4. [DeepSpec：DeepSeek 推出的推测解码全栈工具包](#item-4) ⭐️ 8.0/10
-5. [波兰语字母 S 在数字排版中消失的奇特案例](#item-5) ⭐️ 7.0/10
-6. [谷歌因容量限制限制 Meta 使用 Gemini AI 模型](#item-6) ⭐️ 7.0/10
-7. [欧盟开源十年电网发展规划工具](#item-7) ⭐️ 7.0/10
-8. [AMD Strix Halo RDMA 集群配置指南](#item-8) ⭐️ 7.0/10
-9. [Wayfinder Router：本地与托管 LLM 的确定性查询路由](#item-9) ⭐️ 7.0/10
-10. [Decomp Academy：学习将 GameCube 游戏反编译为匹配 C 代码](#item-10) ⭐️ 7.0/10
-11. [DFlash 支持已合并入 llama.cpp](#item-11) ⭐️ 7.0/10
-12. [纯 C 编写的 Qwen 3 模型 CPU 推理引擎](#item-12) ⭐️ 7.0/10
-13. [Model Registry：以 Hugging Face 为后备 Web 种子的开放模型种子](#item-13) ⭐️ 7.0/10
-14. [1880 至 1920 年的 5000 份餐厅菜单精选集](#item-14) ⭐️ 6.0/10
-15. [Reddit 用户反驳 Dario Amodei 对开源 AI 的批评](#item-15) ⭐️ 6.0/10
+1. [Claude Code 分析肩部 MRI 引发 AI 医疗信任讨论](#item-1) ⭐️ 8.0/10
+2. [OpenAI Codex 缺乏内置机密文件排除机制](#item-2) ⭐️ 8.0/10
+3. [欧盟在秘密三方会谈中推进聊天控制立法](#item-3) ⭐️ 8.0/10
+4. [《KIDS 法案》将强制上网年龄验证](#item-4) ⭐️ 8.0/10
+5. [Flock 摄像头监控扩大超车牌范围并迅速扩散](#item-5) ⭐️ 8.0/10
+6. [DLL 未卸载却从内存消失：一个引用计数漏洞](#item-6) ⭐️ 8.0/10
+7. [DFlash 注意力优化已整合进 llama.cpp](#item-7) ⭐️ 8.0/10
+8. [Ornith-1.0-35B 嫁接 MTP 头实现本地 LLM 推理 1.3 倍加速](#item-8) ⭐️ 8.0/10
+9. [模型注册表：使用 Hugging Face 作为后备网络种子的种子文件分享](#item-9) ⭐️ 8.0/10
+10. [波兰字母“Ś”消失之谜：键盘快捷键冲突与文化影响](#item-10) ⭐️ 7.0/10
+11. [密歇根州新提案禁止雇主要求员工下班后通讯](#item-11) ⭐️ 7.0/10
+12. [因容量限制，谷歌限制 Meta 访问 Gemini](#item-12) ⭐️ 7.0/10
+13. [中国称在网络安全领域追平 Anthropic，或重塑 AI 竞赛格局](#item-13) ⭐️ 7.0/10
+14. [DeepSpec：DeepSeek 开源的推测解码草稿模型代码与检查点](#item-14) ⭐️ 7.0/10
+15. [1880-1920 年间的 5000 份数字化餐厅菜单](#item-15) ⭐️ 6.0/10
+16. [The number 1 public enemy of open-source.](#item-16) ⭐️ 6.0/10
+17. [纯 C 语言从零编写的 Qwen 3 CPU 推理引擎](#item-17) ⭐️ 6.0/10
+18. [Koboldcpp v1.116 发布，包含小更新和漏洞修复](#item-18) ⭐️ 6.0/10
+19. [玩家以 80GB 显存和 RTX Pro 5000 跑满本地大语言模型配置](#item-19) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [OpenAI Codex 敏感文件排除功能相关议题仍悬而未决](https://github.com/openai/codex/issues/2847) ⭐️ 8.0/10
+## [Claude Code 分析肩部 MRI 引发 AI 医疗信任讨论](https://antoine.fi/mri-analysis-using-claude-code-opus) ⭐️ 8.0/10
 
-GitHub 议题 #2847 指出 OpenAI Codex 缺少内置的敏感文件排除机制，当代理执行命令读取文件时，可能意外上传凭证。 这将开发者置于密钥泄露风险之下，凸显了随着 AI 编码助手对开发环境访问权限加深，需要更健全的安全控制机制。 现有 chmod 或容器化等变通方案但不够友好；部分评论者建议采用文件访问显式授权模式，但也有人警告不彻底的修复可能带来虚假安全感。
+一位用户分享了使用 Claude Code（Anthropic 的 AI 模型）分析肩部 MRI 扫描的经历，获得了 AI 生成的第二诊疗意见，由此引发了关于 AI 辅助诊断潜力与陷阱的热烈讨论。 该案例表明公众越来越愿意将 AI 用于个人健康决策，引发了关于信任、准确性以及 AI 在普及医疗专业知识中未来作用的重大问题，同时也凸显了不完整或有缺陷分析带来的误用风险。 一位放射科医生评论称，全面的 MRI 评估需要获取完整的 3D 数据集，并指出该用户之前治疗中使用的超声检查并不可靠，无法准确评估钙化，这强调了基于部分数据的 AI 分析的当前局限性。
 
-hackernews · pikseladam · 6月28日 12:27 · [社区讨论](https://news.ycombinator.com/item?id=48706714)
+hackernews · engmarketer · 6月28日 16:35 · [社区讨论](https://news.ycombinator.com/item?id=48708941)
 
-**背景**: OpenAI Codex 是一个在用户 Shell 中运行的 AI 编码代理，可访问工作区。它由大语言模型驱动，可能将文件内容发送到 OpenAI 服务器进行处理。像 .env 这样的敏感文件常存储 API 密钥，若未显式排除，代理可能无意中将其包含在向外发送的工具输出中。
+**背景**: Claude 由 Anthropic 开发，是一种具备视觉能力的大型语言模型，能够解读图像和文本。尽管它并非专为医疗诊断设计，但其通用推理能力已促使人们尝试用它来解读医学扫描图像。MRI（磁共振成像）是一种常用于观察肩部等软组织的技术，但准确的解读通常需要大量训练和完整的 3D 成像数据。这次实验反映出将通用 AI 工具应用于专业任务的更广泛趋势，既带来了提高医疗可及性的希望，也引发了对可靠性的担忧。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://openai.com/codex/">Codex | AI Coding Partner from OpenAI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Code">Claude Code</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者意见分歧：有人建议通过文件权限或容器等实际措施缓解（TheDong, petcat），也有人主张采用显式授权模式（nikhilsimha）或对数据收集表示担忧（kennethops）。共识在于核心问题——大语言模型的不可预测性与数据外泄——需要超越简单文件排除功能的全系统变革。
+**社区讨论**: 讨论中有放射科医生强调完整的 3D 数据对正确解读 MRI 的必要性，评论者既对过度依赖 AI 感到不安，又对其可及性着迷。一些人分享了肩部治疗的个人经历，还有人指出了用 AI 发现与专家对质的不安动态。
 
-**标签**: `#security`, `#ai-tools`, `#openai`, `#codex`, `#developer-tools`
+**标签**: `#AI in healthcare`, `#medical imaging`, `#second opinion`, `#Claude`, `#trust in AI`
 
 ---
 
 <a id="item-2"></a>
-## [Flock 摄像头迅速扩张，监控远超车牌识别](https://www.engadget.com/2203000/flock-cameras-recording-license-plate/) ⭐️ 8.0/10
+## [OpenAI Codex 缺乏内置机密文件排除机制](https://github.com/openai/codex/issues/2847) ⭐️ 8.0/10
 
-Flock Safety 的监控摄像头在全美迅速普及，功能已从自动车牌识别扩展到更广泛的 AI 驱动监控，引发重大隐私担忧。 这种私人运营的全国性监控网络的扩张威胁着公众隐私和公民自由，因为它允许无证追踪个人。然而，草根抵制已促成 70 多个地方禁令，表明公民行动可以对抗侵入性监控。 Flock 摄像头与云端连接，允许警方搜索全国数据库，并可能捕获车辆品牌、颜色甚至行为等额外数据。批评者指出，尽管以减少犯罪为卖点，其实际有效性存疑，许多城市已禁止使用。
+该 GitHub 议题指出 OpenAI Codex 目前无法排除敏感文件被 AI 代理访问，存在意外泄露风险，引发了关于变通方案和安全影响的广泛讨论。 这对 AI 编码助手的安全性至关重要，用户可能无意中上传 API 密钥等机密信息。缺乏内置方案，开发者只能依赖手动变通方法，增加了数据泄露风险。 议题建议采用选择加入文件访问模式而非选择退出，社区成员提议使用文件权限、容器或沙箱终端。有人认为由于大语言模型的不可预测性，简单的拦截列表还不够。
 
-hackernews · SanjayMehta · 6月28日 14:35 · [社区讨论](https://news.ycombinator.com/item?id=48707673)
+hackernews · pikseladam · 6月28日 12:27 · [社区讨论](https://news.ycombinator.com/item?id=48706714)
 
-**背景**: Flock Safety 是一家为执法部门和私人社区提供自动车牌识别（ALPR）系统的公司。ALPR 技术通过摄像头读取车牌并存储位置数据，常形成大型数据库。与传统闭路电视不同，Flock 等现代系统利用 AI 实时分析图像，实现超越车牌识别的更广泛监控。
+**背景**: OpenAI Codex 是一个集成到 VS Code 等编辑器中的 AI 编码助手，以用户级文件权限运行。像 .env 或配置文件等敏感文件可能包含 API 密钥和机密。目前没有机制阻止代理读取这些文件并通过工具输出可能泄露。此问题反映了保护与本地系统交互的 AI 代理的广泛挑战。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.aclu.org/news/privacy-technology/flock-roundup">Flock’s Aggressive Expansions Go Far Beyond Simple Driver Surveillance | American Civil Liberties Union</a></li>
-<li><a href="https://deflock.org/">DeFlock</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Automatic_number-plate_recognition">Automatic number-plate recognition - Wikipedia</a></li>
+**社区讨论**: 社区意见存在分歧：一些人认为文件权限 (chmod) 足够，内置功能会带来虚假安全感；其他人主张选择加入访问或沙箱方法。多位用户分享了定制方案，如沙箱终端或远程开发容器代理。
 
-</ul>
-</details>
-
-**社区讨论**: 社区评论反映出担忧与乐观交织。一些人强调已有 70 多个城市成功禁用，呼吁参与地方政务。其他人则对摄像头的打击犯罪效果表示怀疑，指出其甚至在农村地区迅速扩散，并批评与传统监控的误导性比较。少数评论者指出各州监控法规的不一致性。
-
-**标签**: `#privacy`, `#surveillance`, `#ALPR`, `#technology governance`, `#AI`
+**标签**: `#security`, `#ai-coding`, `#openai-codex`, `#file-permissions`, `#best-practices`
 
 ---
 
 <a id="item-3"></a>
-## [选择公共 DNS 解析器的综合指南](https://evilbit.de/dns-resolver-guide.html) ⭐️ 8.0/10
+## [欧盟在秘密三方会谈中推进聊天控制立法](https://www.patrick-breyer.de/en/double-threat-to-private-communications-undemocratic-chat-control-backroom-deals-and-imminent-concessions-spark-relaunch-of-fightchatcontrol-eu/) ⭐️ 8.0/10
 
-evilbit.de 发布了一份详细指南，从隐私、过滤和 DNSSEC 支持等维度评估公共 DNS 解析器，引发了积极的社区讨论。 选择合适的 DNS 解析器会影响上网速度、隐私和安全；该指南帮助用户在权衡中做出明智决策。 指南涵盖了 DNSSEC 验证、恶意软件过滤和日志策略等功能，但未涉及评论中提出的 SNI 泄露或强制门户问题。
+欧盟正通过不民主的幕后交易推进聊天控制法规，推动恢复早期版本（聊天控制 1.0）并安排最终三方会谈，以实施对私人通信的永久性大规模扫描，绕过公开辩论。 这威胁到所有欧盟公民的端到端加密和隐私权，为大规模监控树立了危险的先例，并破坏了民主进程。 该法规正式名称为《儿童性虐待法规》（CSAR），于 2022 年 5 月提出，要求扫描所有数字消息。目前仅有四个欧盟国家——捷克、意大利、荷兰和波兰——反对，而丹麦据报道正在推动其通过。
 
-hackernews · pawal · 6月27日 22:11 · [社区讨论](https://news.ycombinator.com/item?id=48702273)
+hackernews · NeutralForest · 6月28日 14:40 · [社区讨论](https://news.ycombinator.com/item?id=48707719)
 
-**背景**: DNS 解析器将域名转换为 IP 地址。公共解析器如 Google DNS 和 Cloudflare 1.1.1.1 提供了 ISP 默认设置之外的选择。DNSSEC 通过加密认证防止欺骗，而 DNS 过滤可以屏蔽恶意或不受欢迎的内容。
+**背景**: 欧盟的聊天控制提案自 2022 年提出以来一直备受争议，因其要求破坏加密而遭到隐私倡导者、科技公司和部分成员国的强烈反对。最近的推进是长期努力的一部分，欧盟理事会经过多年辩论终于就立场达成一致。反对运动网站 FightChatControl.eu 已重新启动以对抗这些不民主的举动。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/DNSSEC">DNSSEC</a></li>
-<li><a href="https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/">What is DNS filtering? | Secure DNS servers - Cloudflare 9 Best DNS Filtering Software in 2026 - Geekflare Home Internet Security | OpenDNS 9 Best DNS Filtering Tools for 2026 (Free & Paid) - Comparitech What is DNS Filtering? How Does it Work? | DNSFilter 18 Best Web Filtering Solutions - 2026 - Cyber Security News</a></li>
-<li><a href="https://www.xda-developers.com/dns-servers-you-can-self-host/">Supercharge your home network with these 5 self-hosted DNS ...</a></li>
+<li><a href="https://fightchatcontrol.eu/">Fight Chat Control - Protect Digital Privacy in the EU</a></li>
+<li><a href="https://www.eff.org/deeplinks/2025/12/after-years-controversy-eus-chat-control-nears-its-final-hurdle-what-know">After Years of Controversy, the EU’s Chat Control Nears Its Final Hurdle: What to Know | Electronic Frontier Foundation</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者就自托管与公共解析器展开辩论，一些人倾向于使用 ISP DNS 以获得更低延迟和 CDN 优化，而其他人则强调 SNI 泄露等隐私问题以及对配套加密的需求。
+**社区讨论**: 评论者表达了对不民主过程的担忧，一些人呼吁提高立法推动者的透明度。虽然少数人承认需要打击网络犯罪，但总体情绪批评欧盟的监管过度及其对隐私的影响。一些人质疑丹麦的角色，并批评欧盟更广泛的技术政策失败。
 
-**标签**: `#DNS`, `#networking`, `#privacy`, `#security`, `#infrastructure`
+**标签**: `#privacy`, `#legislation`, `#EU`, `#surveillance`, `#chat-control`
 
 ---
 
 <a id="item-4"></a>
-## [DeepSpec：DeepSeek 推出的推测解码全栈工具包](https://www.reddit.com/r/LocalLLaMA/comments/1uhyhl3/deepspec_a_deepseekai_collection/) ⭐️ 8.0/10
+## [《KIDS 法案》将强制上网年龄验证](https://www.eff.org/deeplinks/2026/06/kids-act-would-require-age-checks-get-online) ⭐️ 8.0/10
 
-DeepSeek 发布了 DeepSpec，这是一个用于推测解码的全栈代码库和预训练草案模型，支持 Qwen3 和 Gemma 架构。 推测解码是一种在不损失质量的情况下加速 LLM 推理的关键技术；此发布为社区提供了开放工具和检查点，以便轻松采用和复现最先进的加速方法。 该发布包含在 open-perfectblend 数据上以非思考模式训练的 Eagle3、DFlash 和 DSpark 草案模型；公平比较需要对齐设置，领域特定使用可能需要针对思考模式微调。
+《KIDS 法案》提议要求任何人在上网前进行强制性年龄验证，标志着从自愿匿名向强制身份核验的转变。 这将从根本上改变在线隐私格局，可能助长大规模监控并削弱所有互联网用户的数字权利。 年龄验证的技术机制尚未明确，引发对可行性、安全性以及可能建立集中式个人数据库的担忧。
 
-reddit · r/LocalLLaMA · /u/pmttyji · 6月28日 14:18
+hackernews · bilsbie · 6月28日 11:56 · [社区讨论](https://news.ycombinator.com/item?id=48706560)
 
-**背景**: 推测解码是一种于 2022 年提出的推理优化技术，通过使用草案模型同时提出多个令牌，再由目标模型验证，从而加速 LLM 推理。这种方法在不降低输出质量的前提下减少延迟。草案模型更小更快，经过训练以模仿目标模型。该技术已在生产环境的 LLM 服务中广泛采用。
+**背景**: 在线年龄验证的争议长期存在，常将儿童安全与隐私对立。过去如社交平台身份验证等提案曾遭遇强烈反对。提及“信息灾难四骑士”的梗暗指政府历来以保护儿童为借口实施监控。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://developer.nvidia.com/blog/an-introduction-to-speculative-decoding-for-reducing-latency-in-ai-inference/">An Introduction to Speculative Decoding for Reducing Latency in AI Inference | NVIDIA Technical Blog</a></li>
+**社区讨论**: 评论普遍反对该法案，认为这是大规模监控的阴谋且威胁隐私。有人建议采用零知识证明，但也指出政府缺乏推行此类隐私保护措施的政治意愿。
 
-</ul>
-</details>
-
-**标签**: `#speculative-decoding`, `#deepseek`, `#codebase`, `#machine-learning`, `#inference-optimization`
+**标签**: `#privacy`, `#surveillance`, `#legislation`, `#age-verification`, `#digital-rights`
 
 ---
 
 <a id="item-5"></a>
-## [波兰语字母 S 在数字排版中消失的奇特案例](https://aresluna.org/the-curious-case-of-the-disappearing-polish-s/) ⭐️ 7.0/10
+## [Flock 摄像头监控扩大超车牌范围并迅速扩散](https://www.engadget.com/2203000/flock-cameras-recording-license-plate/) ⭐️ 8.0/10
 
-一篇 2015 年的文章重新探讨了波兰语字母 S（常带变音符号）在数字文本环境中消失或渲染错误的奇特行为，引发了关于技术和文化层面的讨论。 这一排版故障揭示了多语言计算中的隐藏挑战，影响了波兰语使用者，并凸显了对稳健的 Unicode 处理和跨平台文本渲染一致性的需求。 技术上，该异常与 Unicode 标准化有关：9 个波兰语字母中有 8 个（除了ł）可分解为基础字母加组合变音标记，这可能导致全文搜索和输入处理问题。浏览器也常缺乏清晰的组合键检测，导致快捷键被拦截。
+Flock Safety 的自动车牌识别摄像头现在不仅记录车牌，还抓取车辆特征和背景细节等数据，且在全国范围内部署加快。 这种大规模监控的扩张引发了严重的隐私担忧，并已引发地方禁令和基层行动，因为社区反对无节制的数据收集。 这些联网摄像头将数据上传至中央服务器，使警方能进行全国性搜索；美国公民自由联盟（ACLU）警告称 Flock 的功能远超简单的车牌读取。
 
-hackernews · colinprince · 6月28日 12:44 · [社区讨论](https://news.ycombinator.com/item?id=48706814)
+hackernews · SanjayMehta · 6月28日 14:35 · [社区讨论](https://news.ycombinator.com/item?id=48707673)
 
-**背景**: 基于拉丁字母的波兰语字母表增加了变音符号，如反尾形符（ą, ę）、锐音符（ć, ś, ź, ń, ó）和点符（ż）来表示独特发音。在 Unicode 中，这类字母可编码为预组合字符或基础字母加组合变音标记。这种双重编码会导致渲染不一致，尤其是当文本引擎或字体未能正确堆叠标记或应用连字替换时。OpenType 功能和文本塑形引擎（如 HarfBuzz）负责正确定位这些字形。
+**背景**: 自动车牌读取器（ALPR）是抓拍车牌号的摄像头，常用于执法追踪车辆。Flock Safety 销售 AI 驱动的摄像头，同时记录车辆品牌、颜色等细节，并将数据保存在可搜索数据库中。批评者认为这形成了无孔不入的监控网络，缺乏适当监管。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Combining_character">Combining character - Wikipedia</a></li>
-<li><a href="https://learn.microsoft.com/en-us/typography/opentype/spec/gsub">GSUB — Glyph Substitution Table (OpenType 1.9.1) - Typography</a></li>
+<li><a href="https://deflock.org/">DeFlock</a></li>
+<li><a href="https://www.aclu.org/news/privacy-technology/flock-roundup">Flock’s Aggressive Expansions Go Far Beyond Simple Driver Surveillance | American Civil Liberties Union</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者指出了拉丁字母对波兰西向认同的文化意义，抱怨 Microsoft Copilot 干扰波兰语字母输入，强调浏览器缺乏合适的组合键 API，并指出“ł”独特地抵抗 Unicode 分解，使文本标准化搜索复杂化。
+**社区讨论**: 评论者指出已有 70 多个城市禁用 Flock 摄像头，并敦促地方行动；其他人对减少犯罪的声称表示怀疑，批评私有化大规模监控，有人指出类似的 AI 分析无需专用硬件也可实现。
 
-**标签**: `#typography`, `#polish-language`, `#unicode`, `#browser-bugs`, `#linguistics`
+**标签**: `#surveillance`, `#privacy`, `#license-plate-readers`, `#local-policy`, `#AI`
 
 ---
 
 <a id="item-6"></a>
-## [谷歌因容量限制限制 Meta 使用 Gemini AI 模型](https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html) ⭐️ 7.0/10
+## [DLL 未卸载却从内存消失：一个引用计数漏洞](https://devblogs.microsoft.com/oldnewthing/20260625-00/?p=112467) ⭐️ 8.0/10
 
-据报道，谷歌限制了 Meta 对其 Gemini AI 模型的访问，主要原因是容量限制，而非有意限制模型使用或功能。 这一发展凸显了人工智能基础设施需求的激增，以及为大型企业客户扩展大语言模型服务所面临的挑战。它可能影响大型科技公司之间的合作方式和人工智能资源分配的优先级。 这一限制是由于容量限制，而非限制 Meta 可以使用哪些模型或功能。谷歌正在优先供应以满足对 Gemini 的旺盛需求。
+Raymond Chen 最近的一次调试调查发现了一个微妙的引用计数漏洞，该漏洞导致一个 DLL 虽然在内存中未被正式卸载（通过 FreeLibrary），却看似已消失。 这个故事凸显了 Windows DLL 管理和引用计数的复杂性，为处理模块加载问题和 TLS 回调的开发者提供了宝贵经验。 根本原因是 TLS 回调触发了 LoadLibrary 和 FreeLibrary 调用不匹配，导致 DLL 的引用计数过早降至零，而此时仍有代码依赖它。
 
-hackernews · root-parent · 6月28日 13:30 · [社区讨论](https://news.ycombinator.com/item?id=48707103)
+hackernews · ibobev · 6月28日 09:53 · [社区讨论](https://news.ycombinator.com/item?id=48705910)
 
-**背景**: Gemini 是谷歌 DeepMind 开发的一系列多模态大语言模型，于 2023 年 12 月发布，作为 LaMDA 和 PaLM 2 的后续产品。它为谷歌的 AI 聊天机器人提供支持，并通过 Vertex AI 等服务提供 API 访问。Meta 是一家大型科技集团，为 Facebook 和 Instagram 等平台使用先进人工智能，包括图像和视频生成工具。
+**背景**: 在 Windows 中，每个进程为每个已加载的 DLL 维护一个引用计数。调用 LoadLibrary 会递增该计数，FreeLibrary 会递减；仅当计数降为零时，DLL 才会被卸载。某些 DLL 初始化路径（如 TLS 回调）如果管理不当，可能会无意中改变引用计数，导致悬垂引用和崩溃。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Gemini_(AI_model)">Gemini (AI model)</a></li>
-<li><a href="https://ai.google.dev/gemini-api/docs/models">Models | Gemini API | Google AI for Developers</a></li>
+<li><a href="http://chee-yang.blogspot.com/2008/12/windows-get-reference-count-of-dll-in.html">Chau Chee Yang Technical Blog: Windows: Get Reference Count of DLL in a process</a></li>
+<li><a href="https://social.msdn.microsoft.com/Forums/en-US/9b391db0-6429-4f63-88c3-a8b010f76da7/dll-reference-counter?forum=vcgeneral">DLL reference counter | Microsoft Learn</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者指出标题具有误导性，强调限制是由于容量而非故意限制。一些人质疑谷歌 AI 付费和免费使用之间的比例，另一些人预测企业访问顶级模型将面临容量和 KYC 限制，个人用户将获得降级服务。还有人提到 Gemini Flash 在图像/视频理解方面具有成本效益，并认为谷歌是关键的 enterprise-grade LLM 供应商，正努力应对需求。
+**社区讨论**: 评论者赞赏了这篇深入剖析，并指出找出根本原因非常困难，其中一位开玩笑说 shell32 团队是受害者。其他评论者反思了软件的复杂性，以及在没有顶级支持的情况下让微软调查漏洞的挑战。
 
-**标签**: `#AI`, `#Gemini`, `#capacity constraints`, `#Google`, `#Meta`
+**标签**: `#debugging`, `#windows-internals`, `#dll`, `#raymond-chen`, `#software-engineering`
 
 ---
 
 <a id="item-7"></a>
-## [欧盟开源十年电网发展规划工具](https://github.com/open-energy-transition/open-tyndp) ⭐️ 7.0/10
+## [DFlash 注意力优化已整合进 llama.cpp](https://www.reddit.com/r/LocalLLaMA/comments/1uhx862/dflash_support_merged_into_llamacpp/) ⭐️ 8.0/10
 
-欧盟在 GitHub 上开源了其十年电网发展规划（TYNDP）工具，使欧洲输电网络的规划过程向公众开放。 此举可能提高电网规划的透明度和协作，从而更有效地整合可再生能源。但同时也引发了将关键基础设施细节暴露给潜在对手的担忧。 这些工具托管在 GitHub 上的 open-energy-transition 组织下，可能与 ENTSO-E 的 2024 年 TYNDP 相关，该计划分析了 178 个输电项目和 33 个储能项目。发布内容包括规划模型，但具体技术细节未明确说明。
+DFlash 块扩散投机解码技术已被合并到 llama.cpp 推理库中，为本地大语言模型解码提供了更快的注意力优化。 这次整合使得通过 llama.cpp 本地运行大语言模型的用户能够显著加速，在不牺牲输出质量的情况下降低延迟并提高效率。 DFlash 利用经过块扩散训练的草案模型并行生成整个令牌块，然后由目标模型验证，在支持的硬件上实现高达 15 倍的加速。
 
-hackernews · lyoncy · 6月28日 14:05 · [社区讨论](https://news.ycombinator.com/item?id=48707361)
+reddit · r/LocalLLaMA · /u/sammcj · 6月28日 13:24
 
-**背景**: 十年电网发展规划（TYNDP）是欧洲输电系统运营商网络（ENTSO-E）每两年制定的计划，旨在规划必要的输电基础设施，以实现欧盟的能源和气候目标。该计划评估跨境互联、国家电网加强和储能项目，以支持能源转型。开源规划工具意味着将方法和数据公之于众，促进创新和审查。
+**背景**: 投机解码是一种技术，通过小型草案模型生成候选令牌，再由主目标模型并行验证，从而加快生成速度。DFlash 通过使用块级扩散一次性生成多个令牌，克服了传统逐令牌生成草案模型的顺序瓶颈。llama.cpp 是一个广泛使用的 C/C++推理引擎，用于在多种硬件上本地部署大语言模型。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.entsoe.eu/news/2025/01/31/new-ten-year-network-development-plan-highlights-power-transmission-and-storage-needs-to-meet-the-energy-transition-targets/">New Ten-Year Network Development Plan highlights power ...</a></li>
-<li><a href="https://www.acer.europa.eu/electricity/infrastructure/network-development/ten-year-network-development-plan">Ten-Year Network Development Plan | www.acer.europa.eu</a></li>
+<li><a href="https://arxiv.org/html/2602.06036v1">DFlash: Block Diffusion for Flash Speculative Decoding</a></li>
+<li><a href="https://developer.nvidia.com/blog/boost-inference-performance-up-to-15x-on-nvidia-blackwell-using-dflash-speculative-decoding/">Boost Inference Performance up to 15x on NVIDIA Blackwell Using DFlash Speculative Decoding | NVIDIA Technical Blog</a></li>
+<li><a href="https://www.spheron.network/blog/dflash-block-diffusion-speculative-decoding-gpu-cloud/">DFlash on GPU Cloud: 6x Faster LLM Inference with Block Diffusion Speculative Decoding (2026) | Spheron Blog</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区反应不一：一些人认为这是迈向更高效、互联的可再生能源电网的一步，例证是英国在风力不足时可依赖法国核电。另一些人则警告这可能帮助俄罗斯等对手瞄准基础设施，认为敏感数据不应公开。少数人质疑开源这些工具的实际动机。
-
-**标签**: `#open-source`, `#energy`, `#infrastructure`, `#network-planning`, `#eu`
+**标签**: `#llama.cpp`, `#LLM optimization`, `#inference`, `#attention mechanism`, `#DFlash`
 
 ---
 
 <a id="item-8"></a>
-## [AMD Strix Halo RDMA 集群配置指南](https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md) ⭐️ 7.0/10
+## [Ornith-1.0-35B 嫁接 MTP 头实现本地 LLM 推理 1.3 倍加速](https://www.reddit.com/r/LocalLLaMA/comments/1ui4yn6/ornith1035b_gguf_update_native_mtp/) ⭐️ 8.0/10
 
-一份新的 GitHub 指南详细介绍了如何在 AMD Strix Halo 系统上配置 RDMA，实现在多台消费级硬件上分布式运行大语言模型推理。 这弥合了消费级硬件与昂贵服务器 GPU 之间的差距，使爱好者和家庭实验室用户能够通过跨节点池化内存运行大规模模型，有望降低高级 AI 实验的成本门槛。 该指南涵盖 RoCE（融合以太网上的 RDMA）配置，以及与 vllm、ds4 等工具的集成，在一些模型（如 DeepSeek V4 Flash）上达到了可用的令牌生成速度，但性能仍慢于苹果 M4/M5 等专用高内存加速器。
+开发者将原生 MTP（多令牌预测）草案头嫁接到 IQ4_XS 量化的 Ornith-1.0-35B 模型上，实现自推测解码，单流解码速度提升 1.3 倍（从 172.6 到 233.8 tok/s），同时保持逐字节相同的下一个令牌分布。 这种实用优化在保证质量的前提下显著提升了量化 35B 模型本地推理速度，使高参数模型在单 GPU 环境下更易用。它展示了一种新颖技术（嫁接 MTP 头），可惠及本地 LLM 社区。 嫁接的头使用 Q6 精度，结合 IQ4_XS 主体，模型大小约 19.6 GB。保真度测试显示与纯目标模型的下一个令牌分布 KLD 为 0.0，但长生成并非始终逐位精确（令牌匹配率 93.4%）。基准测试涵盖多种量化的吞吐量、首个令牌时间（TTFT）和长上下文指标。
 
-hackernews · jakogut · 6月28日 00:46 · [社区讨论](https://news.ycombinator.com/item?id=48703258)
+reddit · r/LocalLLaMA · /u/Blahblahblakha · 6月28日 18:35
 
-**背景**: AMD Strix Halo（锐龙 AI Max+ 395）是一款强大的 APU，拥有 16 个 Zen 5 CPU 核心、集成 RDNA 3.5 GPU 和最高 128GB 的统一内存，非常适合本地 AI 工作负载。RDMA（远程直接内存访问）是一种网络技术，允许计算机之间直接进行内存到内存的数据传输，无需 CPU 干预，从而降低延迟和开销。分布式推理将大语言模型分割到多台机器上，合并它们的内存以运行单台设备无法容纳的模型。
+**背景**: MTP 是一种推测解码方法，通过在模型中添加小型预测头来猜测多个未来令牌，以减少延迟。IQ4_XS 是一种先进的量化技术，利用重要性矩阵保留关键权重，在 4 位压缩下保持良好精度。推测解码通过并行生成多个令牌并用目标模型验证来加速推理。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.amd.com/en/blogs/2025/amd-ryzen-ai-max-395-processor-breakthrough-ai-.html">AMD Ryzen™ AI MAX+ 395 Processor: Breakthrough AI Performance ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Remote_direct_memory_access">Remote direct memory access - Wikipedia</a></li>
+<li><a href="https://docs.vllm.ai/en/latest/features/speculative_decoding/mtp/">MTP (Multi-Token Prediction) - vLLM</a></li>
+<li><a href="https://developer.nvidia.com/blog/an-introduction-to-speculative-decoding-for-reducing-latency-in-ai-inference/">An Introduction to Speculative Decoding for Reducing Latency in AI Inference | NVIDIA Technical Blog</a></li>
+<li><a href="https://dasroot.net/posts/2026/04/iq4-xs-vs-q8-0-quantization-llm-vram-performance/">IQ4_XS vs Q8_0 Quantization: Balancing Accuracy, VRAM Usage, and Performance for Large Context LLMs on Laptops · Technical news about AI, coding and all</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区反应非常积极，用户对于在家庭实验室中使用 Strix Halo 进行分布式推理感到兴奋。有人报告称使用 ds4 运行 DeepSeek V4 Flash 的速度尚可。还有人指出该配置弥合了从 24GB GPU 到 128/256GB 的内存差距。大家也希望苹果能在 Thunderbolt 4 的 Mac 上启用 RDMA 以实现类似集群。
-
-**标签**: `#amd-strix-halo`, `#rdma`, `#distributed-inference`, `#llm`, `#homelab`
+**标签**: `#speculative-decoding`, `#llama.cpp`, `#model-quantization`, `#local-llm-inference`, `#performance-optimization`
 
 ---
 
 <a id="item-9"></a>
-## [Wayfinder Router：本地与托管 LLM 的确定性查询路由](https://github.com/itsthelore/wayfinder-router) ⭐️ 7.0/10
+## [模型注册表：使用 Hugging Face 作为后备网络种子的种子文件分享](https://www.reddit.com/r/LocalLLaMA/comments/1uhevvf/model_registry_torrents_for_open_models_using/) ⭐️ 8.0/10
 
-GitHub 上发布了名为 Wayfinder Router 的新命令行工具，可在本地和托管 LLM 模型之间实现查询的确定性路由。 它回应了对 AI 基础设施抽象日益增长的兴趣，通过将简单查询卸载到本地模型，可能降低成本并提高隐私性。该工具还加剧了关于在不同模型之间保持上下文连续性的争论。 该路由器使用确定性规则将查询分配给本地或托管模型，但作为命令行工具，它可能无法无缝保留对话上下文，在切换模型时存在退化或幻觉的风险。
+项目作者推出了一个实验性的代码库和网站 (modelregistry.io)，自动为流行的开源 AI 模型生成种子文件，并利用 Hugging Face 作为后备网络种子，以确保即使没有对等节点也能下载。 这为大型 AI 模型提供了一种弹性的分发方式，通过点对点共享减少对中心服务器的依赖，提高下载可靠性和速度，同时 Hugging Face 作为可靠后备。 该工具通过自定义后端实现 BEP 19 网络种子，将 BitTorrent 请求重定向到 Hugging Face 端点，并区分处理 Git LFS 和非 LFS 文件；偶发的 Hugging Face CDN 错误需要客户端重试。计划通过 GitHub Actions 自动化，但受限于运行器磁盘空间（约 100 GB），无法处理超过 100 GB 的模型。
 
-hackernews · handfuloflight · 6月28日 04:31 · [社区讨论](https://news.ycombinator.com/item?id=48704373)
+reddit · r/LocalLLaMA · /u/Ravindra-Marella · 6月27日 21:45
 
-**背景**: LLM 路由根据复杂性或成本等标准将提示导向不同的模型。确定性路由依赖于固定规则，而非学习分类器。本地 LLM 在设备上运行，提供隐私和低延迟，而托管 LLM 则以每次使用成本提供更高能力。Wayfinder Router 提供了命令行界面来定义这种路由逻辑，简化了开发者的集成。
+**背景**: BitTorrent 网络种子是可以充当种子服务器角色的 HTTP/FTP 服务器，允许客户端在没有对等节点时直接从网络下载。Git LFS 是一种 Git 扩展，可将模型等大型文件存储在远程服务器上，Hugging Face 正是用它来托管模型权重。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/itsthelore/wayfinder-router">GitHub - itsthelore/wayfinder-router: Simple CLI tool for deterministic routing of queries between local and hosted LLM models · GitHub</a></li>
-<li><a href="https://news.ycombinator.com/item?id=48704373">Wayfinder Router: deterministic routing of queries between local and hosted LLM | Hacker News</a></li>
-<li><a href="https://blog.n8n.io/llm-routing/">LLM routing strategies for quality in AI applications – n8n Blog</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Glossary_of_BitTorrent_terms">Glossary of BitTorrent terms - Wikipedia</a></li>
+<li><a href="https://git-lfs.com/">Git Large File Storage | Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise.</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者建议路由应像移动数据一样成为操作系统级服务，为 AI 基础设施统一付费。然而，有人担心切换模型时上下文丢失会导致退化或幻觉。还有人指出需要更好的路由组合性，理想情况下应集成到 AI Harness 中，而不是通过外部代理。
-
-**标签**: `#LLM`, `#routing`, `#local-first`, `#AI`, `#developer-tools`
+**标签**: `#torrent`, `#model-distribution`, `#huggingface`, `#open-source`, `#AI-models`
 
 ---
 
 <a id="item-10"></a>
-## [Decomp Academy：学习将 GameCube 游戏反编译为匹配 C 代码](https://decomp-academy.dev/) ⭐️ 7.0/10
+## [波兰字母“Ś”消失之谜：键盘快捷键冲突与文化影响](https://aresluna.org/the-curious-case-of-the-disappearing-polish-s/) ⭐️ 7.0/10
 
-Decomp Academy 是一个新的交互式平台，教授用户将 PowerPC 汇编代码反编译为匹配的 C 代码（针对 GameCube 游戏），从基础开始，提供超过 250 个课程。 这填补了游戏反编译教育领域的重大空白，降低了新人学习和贡献的门槛，对经典游戏的保存、历史记录和模组社区具有重要意义。 该网站使用实时的 Metrowerks CodeWarrior GC/2.0 编译器进行精确汇编匹配（即使差一条指令也算失败），并包含来自《星际火狐大冒险》《银河战士 Prime》等真实反编译项目的函数；所有课程均为开源 Markdown 格式。
+文章探讨了波兰字母“ś”在软件中经常消失的技术和历史原因：波兰程序员键盘布局使用右 Alt+S 产生“ś”，而这与常用的 Ctrl+S 保存快捷键冲突，导致字母被覆盖。 该问题凸显了非英语用户面临的键盘快捷键冲突这一普遍问题，影响了日常工作效率和软件可用性，强调了在依赖修饰键输入变音符号的语言环境中，用户界面设计必须考虑国际化。 波兰程序员布局使用右 Alt 键输入变音符号，但许多应用拦截 Ctrl+S 或 Alt+S，阻止字符输入。Unicode 规范化中，多数波兰变音字母分解为基本字母加组合标记，唯独“ł”保持不变。
 
-hackernews · jackpriceburns · 6月28日 01:21 · [社区讨论](https://news.ycombinator.com/item?id=48703412)
+hackernews · colinprince · 6月28日 12:44 · [社区讨论](https://news.ycombinator.com/item?id=48706814)
 
-**背景**: 匹配反编译是将汇编代码转换回 C 源代码，并编译出逐字节完全相同的机器码的过程，用于重现经典游戏的源码。GameCube 使用 PowerPC 处理器，其游戏通常用 Metrowerks CodeWarrior 编译，这是该平台标准的开发环境。
+**背景**: 波兰语使用带变音符号的拉丁字母。主要键盘布局有两种：传统的 QWERTZ 打字员布局和基于 QWERTY 的程序员布局，后者使用右 Alt 键输入波兰字符。程序员布局在波兰流行，但与 Ctrl+S 等全局快捷键冲突。死键是另一种输入方式，但源自打字机的 AltGr 方法导致了这些冲突。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://gambiconf.substack.com/p/can-llms-really-do-matching-decompilation">Can LLMs Really Do Matching Decompilation? I Tested 60 ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Metrowerks_CodeWarrior">Metrowerks CodeWarrior</a></li>
+<li><a href="https://github.com/RickStrahl/MarkdownMonster/issues/93">Keyboard shortcuts collide with writing polish letters mechanism (Alt + letter) · Issue #93 · RickStrahl/MarkdownMonster</a></li>
+<li><a href="https://talkpal.ai/culture/what-is-the-programmers-polish-keyboard-layout/">What is the Programmer's Polish keyboard layout? - Talkpal</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Dead_key">Dead key - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者认可这一概念，但提到了精确汇编匹配的困难，表示对逐步反编译新游戏的兴趣，并建议增加汇编语言入门指南以及与大语言模型工具的集成。
+**社区讨论**: 评论者普遍认同快捷键冲突导致输入波兰字符的挫败感，例如 Copilot 截取了“Ć”。有人指出深层技术问题，如浏览器缺乏适当的键组合 API。另有人提到“ł”在 Unicode 规范化中的例外增加了处理复杂性。文化层面的比较凸显了拉丁字母使波兰更容易与西方接轨。
 
-**标签**: `#decompilation`, `#gamecube`, `#reverse-engineering`, `#education`, `#assembly`
+**标签**: `#typography`, `#polish`, `#unicode`, `#keyboard-shortcuts`, `#history`
 
 ---
 
 <a id="item-11"></a>
-## [DFlash 支持已合并入 llama.cpp](https://www.reddit.com/r/LocalLLaMA/comments/1uhx862/dflash_support_merged_into_llamacpp/) ⭐️ 7.0/10
+## [密歇根州新提案禁止雇主要求员工下班后通讯](https://www.cbsnews.com/detroit/news/workplace-boundaries-act-employees-after-hours/) ⭐️ 7.0/10
 
-基于块扩散的推测解码框架 DFlash 的注意力机制已被合并入 llama.cpp 库。 此次整合使 llama.cpp 用户能够利用 DFlash 高效的推测解码能力，有望加速本地大语言模型推理并降低延迟，对实时和资源受限环境尤为重要。 DFlash 采用非因果注意力掩码，能并行生成多个草稿令牌，相比自回归起草方法可提升吞吐量。
+密歇根州提出《工作场所边界法案》，将禁止雇主要求员工在非工作时间查看或回复工作相关的消息。 该法案凸显了远程办公时代对工作与生活平衡的日益关注，可能为其他州树立先例，重塑雇主对非工作时间在线的期望。 违规行为可向州劳工与经济机会部举报，雇主可能面临罚款并需支付员工加班费。批评者指出执法可能困难，因为雇主可以声称没有正式要求。
 
-reddit · r/LocalLLaMA · /u/sammcj · 6月28日 13:24
+hackernews · cebert · 6月28日 14:46 · [社区讨论](https://news.ycombinator.com/item?id=48707769)
 
-**背景**: llama.cpp 是一个流行的开源库，用于在消费级硬件上本地运行大语言模型。推测解码通过使用小型起草模型预测多个令牌，再由主模型验证，从而加速推理。DFlash 是一种起草模型，它采用块扩散技术，利用非因果注意力掩码并行生成多个令牌，进一步提升效率。
+**背景**: 近年来，智能手机和即时通讯 APP 模糊了工作与个人时间的界限，形成了“随时待命”文化。法国、西班牙等国已颁布“断联权”法律，密歇根的提案是美国州级层面的类似尝试。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://arxiv.org/abs/2602.06036">[2602.06036] DFlash: Block Diffusion for Flash Speculative Decoding</a></li>
-<li><a href="https://github.com/z-lab/dflash">GitHub - z-lab/dflash: DFlash: Block Diffusion for Flash Speculative Decoding · GitHub</a></li>
-<li><a href="https://docs.vllm.ai/projects/speculators/en/latest/user_guide/algorithms/dflash/">Dflash - Speculators Docs - vLLM Documentation</a></li>
+**社区讨论**: 社区讨论意见分歧：一些人支持保护工作与生活平衡，另一些人则倾向于基于补偿的解决方案。评论者强调执法挑战，指出雇主可轻易否认强制要求下班后工作。个人经历描述了雇主取消待命加班费的情况，强化了法律保障的必要性。
 
-</ul>
-</details>
-
-**标签**: `#llama.cpp`, `#DFlash`, `#attention`, `#local-llm`, `#inference`
+**标签**: `#labor laws`, `#work-life balance`, `#remote work`, `#legislation`, `#employment`
 
 ---
 
 <a id="item-12"></a>
-## [纯 C 编写的 Qwen 3 模型 CPU 推理引擎](https://www.reddit.com/r/LocalLLaMA/comments/1uht9rf/a_barebones_cpuonly_inference_engine_for_qwen_3/) ⭐️ 7.0/10
+## [因容量限制，谷歌限制 Meta 访问 Gemini](https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html) ⭐️ 7.0/10
 
-一位开发者用纯 C 语言构建了一个极简的 Qwen 3 模型（4B 及以下）推理引擎，无外部依赖，可从 safetensors 加载并支持 4 位仿射量化。它仅运行在 CPU 上，故意牺牲速度以强调代码可读性，主要用于教育。 该项目以透明、从零实现的方式帮助开发者和爱好者理解大语言模型推理的内部原理，无需依赖复杂框架，降低了本地 LLM 的学习门槛。 该引擎实现了分词、Transformer 数学运算、KV 缓存和 4 位仿射量化，但在 Intel i5-1240P 上仅能达到约每秒 1 个 token。它使用 cJSON 解析配置，并可选支持 OpenMP 并行化。
+谷歌因需求量过大导致容量不足，而非政策限制，限制了 Meta 对其 Gemini AI 模型的使用。这反映出扩展 AI 服务面临的基础设施挑战。 这一进展凸显了 AI 计算基础设施日益紧张，并暗示顶级模型的访问可能越来越受到配额限制。这可能影响那些严重依赖第三方 AI 供应商的公司。 该限制明确归因于容量有限，而非内容或使用政策，且据报道 Meta 是 Gemini 模型的重度用户，可能出于成本或战略原因，尽管这些模型在编程方面并非最先进。
 
-reddit · r/LocalLLaMA · /u/jakint0sh · 6月28日 09:58
+hackernews · root-parent · 6月28日 13:30 · [社区讨论](https://news.ycombinator.com/item?id=48707103)
 
-**背景**: Qwen 3 是一系列开源大语言模型，参数规模从 0.6B 到 235B，支持稠密和混合专家架构。仿射量化将浮点模型权重映射到低比特整数（如 4 位），以减少内存占用并尽量保持精度。Safetensors 是一种安全的张量存储格式，可防止加载时执行任意代码，被 Hugging Face 等社区广泛使用。
+**背景**: Gemini 是谷歌的大型语言模型系列，旨在与 OpenAI 的 GPT-4 等竞争。像 Meta 这样的公司通常依赖谷歌等提供商的云 API，将 AI 功能集成到产品和服务中。AI 采用率的激增导致容量紧张，大规模提供这些模型所需的计算资源可能变得稀缺，迫使提供商管理访问权限。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://insiderllm.com/guides/qwen3-complete-guide/">Qwen3 Complete Guide: Every Model from 0.6B to 235B</a></li>
-<li><a href="https://developer.nvidia.com/blog/model-quantization-concepts-methods-and-why-it-matters/">Model Quantization: Concepts, Methods, and Why It Matters | NVIDIA Technical Blog</a></li>
-<li><a href="https://huggingface.co/docs/safetensors/index">Safetensors · Hugging Face</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gemini_(language_model)">Gemini (language model) - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**标签**: `#inference engine`, `#Qwen`, `#C programming`, `#educational`, `#local LLMs`
+**社区讨论**: 评论者指出标题有误导性，因为限制是出于容量而非政策原因。有人推测顶级模型的访问受限将成为常态，个人用户可能面临性能下降的服务。还有人质疑 Meta 为何选择谷歌模型而非其他公司，暗示可能出于成本或战略动机。
+
+**标签**: `#AI`, `#Gemini`, `#infrastructure`, `#industry-news`, `#capacity-limits`
 
 ---
 
 <a id="item-13"></a>
-## [Model Registry：以 Hugging Face 为后备 Web 种子的开放模型种子](https://www.reddit.com/r/LocalLLaMA/comments/1uhevvf/model_registry_torrents_for_open_models_using/) ⭐️ 7.0/10
+## [中国称在网络安全领域追平 Anthropic，或重塑 AI 竞赛格局](https://www.reddit.com/r/LocalLLaMA/comments/1ui3tck/china_has_matched_anthropic_in_cybersecurity/) ⭐️ 7.0/10
 
-开发者发布了一个仓库和网站，用于分发流行开放模型的种子文件，并将 Hugging Face 配置为 Web 种子后备，以便在对等节点不足时保证可靠下载。同时构建了一个自定义后端服务，根据文件是否存储在 Git LFS 中，将 BitTorrent 客户端请求重定向到正确的 Hugging Face 端点。 该方法分散了带宽成本，降低了对中心服务器的依赖，并提高了大型 AI 模型下载的可靠性。它有可能减轻 Hugging Face 等平台的负担，并加速访问，尤其是在带宽受限的环境中。 该系统实现了 BEP 19 Web 种子标准，并处理 Git LFS 指针以从 Hugging Face 提供正确的文件。目前仍处于实验阶段，偶尔会出现 CDN 错误，通常重试后可解决。未来计划通过 GitHub Actions 实现自动化，但免费运行器 100 GB 的磁盘空间限制对超过该大小的模型构成了挑战。
+一条 Reddit 帖子声称中国在网络安全能力上已追平 Anthropic，暗示 AI 竞争格局可能发生变化，但该说法缺乏详细证据。 如果属实，这标志着全球 AI 竞赛的重大转变，缩小了美中 AI 公司在网络安全领域的差距，可能影响国际技术主导权和网络安全战略。 该说法出现在 Reddit 上，未附链接或技术细节，无法核实；未提及具体中国模型或技术如何达到与 Anthropic 防御性网络安全工具（如 Project Glasswing 或 Claude Code Security）同等的水平。
 
-reddit · r/LocalLLaMA · /u/Ravindra-Marella · 6月27日 21:45
+reddit · r/LocalLLaMA · /u/pscoutou · 6月28日 17:51
 
-**背景**: BitTorrent 是一种点对点文件共享协议，用户从多个对等节点下载文件片段。Web 种子允许 BitTorrent 客户端同时从 HTTP/FTP 源下载，作为后备方案。Hugging Face 是共享机器学习模型的流行平台，常使用 Git LFS 存储大文件，仅在 Git 仓库中保留指针。要将 Hugging Face 用作 Web 种子，该项目必须正确解析 LFS 指针，以从 Hugging Face 的存储后端获取实际文件内容。
+**背景**: Anthropic 是一家总部位于美国的 AI 公司，以注重安全的 Claude 等大型语言模型（LLM）闻名，并推出了 Project Glasswing 和 Claude Code Security 等网络安全计划，用于防御关键系统。中国也拥有先进的 LLM 开发商，该 Reddit 帖子暗示中国 AI 在防御性网络安全能力上已能与 Anthropic 匹敌。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/BitTorrent">BitTorrent - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Git_LFS">Git LFS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Anthropic">Anthropic - Wikipedia</a></li>
+<li><a href="https://www.anthropic.com/glasswing">Project Glasswing: Securing critical software for the AI era \ Anthropic</a></li>
+<li><a href="https://www.weforum.org/stories/2026/04/anthropic-mythos-ai-cybersecurity/">Anthropic’s Mythos moment: how frontier AI is redefining cybersecurity | World Economic Forum</a></li>
 
 </ul>
 </details>
 
-**标签**: `#open-source-models`, `#torrent`, `#huggingface`, `#model-distribution`, `#web-seed`
+**标签**: `#AI race`, `#cybersecurity`, `#China`, `#Anthropic`, `#LLMs`
 
 ---
 
 <a id="item-14"></a>
-## [1880 至 1920 年的 5000 份餐厅菜单精选集](https://pudding.cool/2026/06/menu-collection/) ⭐️ 6.0/10
+## [DeepSpec：DeepSeek 开源的推测解码草稿模型代码与检查点](https://www.reddit.com/r/LocalLLaMA/comments/1uhyhl3/deepspec_a_deepseekai_collection/) ⭐️ 7.0/10
 
-The Pudding 发布了一个包含 1880 年至 1920 年间 5000 份餐厅菜单的精选数字合集，展示了历史餐饮趋势、菜单设计和价格。 这个合集为食物历史学家和文化研究者提供了宝贵的一手资料，同时让公众得以探索四十年来菜系、价格和设计的变化。 该数据集展示了已消失的“水煮”类菜品，即使考虑通货膨胀，价格也显得异常低廉。它是 The Pudding 数据可视化项目的一部分，可能源自公共档案。
+DeepSeek 发布了 DeepSpec，一个全栈代码库和检查点集合，用于训练和评估推测解码草稿模型，涵盖 Eagle3、DFlash 和 DSpark 架构，针对 Qwen3-4B/8B/14B 和 Gemma-4-12B-it。 该发布提供了开箱即用的草稿模型和可复现的训练流程，使开发者能够轻松加速 Qwen3 和 Gemma 等主流模型的推理速度。通过开源先进的推测解码技术，它推动了 LLM 推理优化的民主化。 发布的检查点均使用各自目标模型在非思考模式下生成的 open-perfectblend 数据进行训练，直接对应于论文表 1 中的结果。对于特定领域或目标模型运行在思考模式下的场景，建议重新微调草稿模型以获得更好效果。
 
-hackernews · xbryanx · 6月28日 14:44 · [社区讨论](https://news.ycombinator.com/item?id=48707763)
+reddit · r/LocalLLaMA · /u/pmttyji · 6月28日 14:18
 
-**背景**: 19 世纪末至 20 世纪初，现代餐厅兴起，印刷菜单反映了新的烹饪潮流、移民影响和经济变迁。这一时期菜单演变成一种艺术形式，水煮肉类等菜品十分常见。该合集为人们了解过去的日常生活和设计美学提供了一个窗口。
-
-**社区讨论**: 评论者们对该合集津津乐道，分享了德国啤酒杯垫记账的法律影响和 2000 年代中餐外卖菜单的魅力等趣闻。他们指出，除了水煮菜品消失和历史价格极低外，菜单格式几乎没变。
-
-**标签**: `#history`, `#food`, `#menus`, `#data-visualization`, `#culture`
-
----
-
-<a id="item-15"></a>
-## [Reddit 用户反驳 Dario Amodei 对开源 AI 的批评](https://www.reddit.com/r/LocalLLaMA/comments/1ui241x/the_number_1_public_enemy_of_opensource/) ⭐️ 6.0/10
-
-一名 Reddit 用户驳斥了 Dario Amodei 近期关于开源 AI 模型不透明、无法从社区协作中获益且必须云端托管的说法，指出开源权重可供检查，社区微调带来实际改进，且许多模型可本地运行。 这场辩论凸显了开源与闭源 AI 之间的持续对峙，对创新速度、可及性及 AI 行业权力集中化具有深远影响。 该用户引用 GLM 5.2、完全开源的 Nemotron3 Ultra（55B 活跃 MoE，已发布数据和脚本）和可本地运行的 Qwen 27B 作为反例；NVIDIA 在近几周确认了 Nemotron3 Ultra 的发布。
-
-reddit · r/LocalLLaMA · /u/Complete-Sea6655 · 6月28日 16:44
-
-**背景**: 开源权重 AI 模型公开提供训练参数，允许检查与修改。混合专家（MoE）是一种每次输入仅激活部分总参数的架构，使大模型计算更高效。本地部署指在个人硬件上运行 AI，无需依赖云端，通常通过小型密集模型或量化版本来实现。
+**背景**: 推测解码通过使用小型草稿模型生成多个候选 token，再由大型目标模型并行验证，从而加速 LLM 推理。Eagle3 通过将轻量预测头附加到目标模型内部层来高效生成候选 token；DFlash 是一种并行块扩散模型，可同时生成整个 token 块；DSpark 则采用置信调度策略，使草稿更可靠。这些技术可将推理速度提升 2-6 倍，对于本地部署 LLM 至关重要。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://opensource.org/ai/open-weights">Open Weights: not quite what you’ve been told</a></li>
-<li><a href="https://huggingface.co/blog/moe">Mixture of Experts Explained</a></li>
-<li><a href="https://research.nvidia.com/labs/nemotron/Nemotron-3-Ultra/">NVIDIA Nemotron 3 Ultra - NVIDIA Nemotron</a></li>
+<li><a href="https://developer.nvidia.com/blog/an-introduction-to-speculative-decoding-for-reducing-latency-in-ai-inference/">An Introduction to Speculative Decoding for Reducing Latency in AI Inference | NVIDIA Technical Blog</a></li>
+<li><a href="https://www.lmsys.org/blog/2026-06-15-next-generation-speculative-decoding-dflash-v2/">The next generation of speculative decoding: DFlash and Spec V2 - LMSYS Org</a></li>
+<li><a href="https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1/">DeepSeek Releases DSpark, a Speculative Decoding Framework That Accelerates DeepSeek-V4 Per-User Generation 60–85% Over MTP-1 - MarkTechPost</a></li>
 
 </ul>
 </details>
 
-**标签**: `#open-source`, `#AI debate`, `#Dario Amodei`, `#local LLMs`, `#misconceptions`
+**标签**: `#speculative-decoding`, `#deepseek`, `#draft-models`, `#open-source`, `#llm-optimization`
+
+---
+
+<a id="item-15"></a>
+## [1880-1920 年间的 5000 份数字化餐厅菜单](https://pudding.cool/2026/06/menu-collection/) ⭐️ 6.0/10
+
+Pudding.cool 发布了一个包含 5,000 份数字化餐厅菜单的交互式合集，时间跨度为 1880 年至 1920 年，让用户可以探索历史上的饮食潮流和菜单项目。 这个合集为餐饮历史和餐厅文化的演变提供了一个宝贵的窗口，将原本难以访问的档案向公众和研究人员开放，具有重要的文化价值。 该合集通过交互式网站呈现，支持筛选和探索；并配有一个“菜单故事”引导用户了解关键历史趋势，例如早期菜单中煮制菜肴的普遍性。
+
+hackernews · xbryanx · 6月28日 14:44 · [社区讨论](https://news.ycombinator.com/item?id=48707763)
+
+**社区讨论**: 社区反响积极，用户分享了相关的文化趣闻（如德国用纸垫记录啤酒数量的传统），并推荐阅读策划好的故事。一些人注意到早期菜单中“煮制”菜肴的持久存在，并将其与现代外卖菜单的美学联系起来。还有一则幽默评论戏称 2020-2026 年的菜单版本将仅由二维码组成。
+
+**标签**: `#data-visualization`, `#history`, `#food`, `#culture`, `#dataset`
+
+---
+
+<a id="item-16"></a>
+## [The number 1 public enemy of open-source.](https://www.reddit.com/r/LocalLLaMA/comments/1ui241x/the_number_1_public_enemy_of_opensource/) ⭐️ 6.0/10
+
+A Reddit user argues against Anthropic CEO Dario Amodei's criticisms of open-source AI, defending the accessibility and innovation of open-weight models.
+
+reddit · r/LocalLLaMA · /u/Complete-Sea6655 · 6月28日 16:44
+
+**标签**: `#open-source`, `#large language models`, `#debate`, `#LocalLLaMA`, `#community`
+
+---
+
+<a id="item-17"></a>
+## [纯 C 语言从零编写的 Qwen 3 CPU 推理引擎](https://www.reddit.com/r/LocalLLaMA/comments/1uht9rf/a_barebones_cpuonly_inference_engine_for_qwen_3/) ⭐️ 6.0/10
+
+一名开发者用纯 C 语言构建了一个极简的仅 CPU 推理引擎，针对 Qwen 3 模型（最多 4B 参数），具备即时 4 位仿射量化和 KV 缓存功能，主要用于教育目的。 该项目提供了一个难得且透明的 LLM 推理内部机制视图，为希望在不依赖复杂框架的情况下理解 Transformer 模型的开发者提供了极佳的教育资源。它也突显了在消费级硬件上实现轻量、无依赖本地推理的潜力。 该引擎除了 libc、libm、cJSON 和可选的 OpenMP 外无外部依赖；直接从 safetensors 加载模型，即时进行 4 位仿射量化，并内置聊天界面。但在现代 i5 CPU 上速度很慢，约每秒 1 个 token，且仅支持 4B 参数以下的模型。
+
+reddit · r/LocalLLaMA · /u/jakint0sh · 6月28日 09:58
+
+**背景**: Qwen 3 是阿里巴巴最新的 LLM 系列，提供密集和混合专家模型，规模从 0.6B 到 235B 参数。即时量化是指在推理过程中将模型权重量化为低位宽（如 4 位）而无需校准数据，从而减少内存占用。KV 缓存是 Transformer 推理中的标准技术，通过存储先前的键和值避免冗余计算，从而加速生成。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://huggingface.co/collections/Qwen/qwen3">Qwen3 - a Qwen Collection</a></li>
+<li><a href="https://arxiv.org/abs/2202.07471">[2202.07471] SQuant: On-the-Fly Data-Free Quantization via Diagonal Hessian Approximation</a></li>
+<li><a href="https://huggingface.co/blog/not-lain/kv-caching">KV Caching Explained: Optimizing Transformer Inference Efficiency</a></li>
+
+</ul>
+</details>
+
+**标签**: `#inference-engine`, `#qwen`, `#c-language`, `#educational`, `#local-llm`
+
+---
+
+<a id="item-18"></a>
+## [Koboldcpp v1.116 发布，包含小更新和漏洞修复](https://www.reddit.com/r/LocalLLaMA/comments/1uhj4aw/koboldcpp_v1116_released/) ⭐️ 6.0/10
+
+Koboldcpp 是一款独立的 GGUF 模型 AI 文本生成工具，已发布版本 1.116，带来了增量改进和错误修复。 作为一款流行的本地 LLM 推理工具，此更新确保了稳定性和与最新 llama.cpp 更改的兼容性，使本地 AI 社区受益。 公告中未提供官方更新日志，但用户可查看 GitHub 仓库的提交历史。Koboldcpp 支持量化 KV 缓存和多种后端。
+
+reddit · r/LocalLLaMA · /u/Fcking_Chuck · 6月28日 00:51
+
+**背景**: Koboldcpp 是一个单文件可执行程序，可使用受 KoboldAI 启发的界面运行 GGML/GGUF 模型。它基于 llama.cpp 构建，并添加了上下文移位、RoPE 缩放和 GPU 加速等功能。广泛用于 LLaMA、Mistral 等 LLM 的本地推理。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://github.com/lostruins/koboldcpp">GitHub - LostRuins/koboldcpp: Run GGUF models easily with a KoboldAI UI. One File. Zero Install. · GitHub</a></li>
+<li><a href="https://grokipedia.com/page/KoboldCpp">KoboldCpp</a></li>
+
+</ul>
+</details>
+
+**标签**: `#Koboldcpp`, `#Local LLM`, `#Inference`, `#Release`, `#Tools`
+
+---
+
+<a id="item-19"></a>
+## [玩家以 80GB 显存和 RTX Pro 5000 跑满本地大语言模型配置](https://www.reddit.com/r/LocalLLaMA/comments/1uhkqug/finally_my_rig_is_maxed_out/) ⭐️ 6.0/10
+
+用户终于安装了一块 RTX Pro 5000 GPU，尽管遭遇涨价和 Nvidia Inception 计划被拒，仍完成了本地大语言模型配置的极限搭建，拥有 80GB 总显存（可能由 RTX 5090 和 RTX Pro 5000 组合）、192GB 系统内存和 AMD 9950X3D CPU。 这个配置突显了爱好者构建强大本地 AI 工作站以私下运行大语言模型的趋势，展示了前沿硬件组合可实现可观的总显存池，用于高级大语言模型推理和多 GPU 工作负载，尽管成本高昂且供应受限。 RTX Pro 5000 拥有 48GB 或 72GB GDDR7 ECC 显存，搭配 RTX 5090（32GB）后用户实现 80GB 显存，可运行大模型但逼近 1300W 电源极限。9950X3D 通过 3D V-Cache 提供 16 核和 128MB 三级缓存，适合混合工作负载。
+
+reddit · r/LocalLLaMA · /u/Dry_Mortgage_4646 · 6月28日 02:09
+
+**背景**: 本地大语言模型爱好者常搭建多 GPU 工作站运行 Llama 等模型，每块 GPU 的显存决定了可加载的最大模型尺寸——例如 8 位量化的 70B 模型约需 70GB 显存。RTX Pro 5000 是 Blackwell 架构的专业 GPU，带有大容量 ECC 显存，面向 AI 开发；消费级 RTX 5090 是最新的高端游戏卡。AMD 9950X3D 通过 3D V-Cache 堆叠额外缓存来提升游戏性能。Nvidia Inception 是支持初创公司的计划，提供硬件折扣，但该用户申请被拒。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-5000/">RTX PRO 5000 Blackwell | NVIDIA</a></li>
+<li><a href="https://grokipedia.com/page/Ryzen_9_9950X3D">Ryzen 9 9950X3D</a></li>
+
+</ul>
+</details>
+
+**标签**: `#local-llm`, `#hardware`, `#gpu`, `#pc-building`, `#rtx-pro-5000`
 
 ---
 
