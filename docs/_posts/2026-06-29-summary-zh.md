@@ -5,480 +5,543 @@ date: 2026-06-29
 lang: zh
 ---
 
-> 从 34 条内容中筛选出 21 条重要资讯。
+> 从 36 条内容中筛选出 24 条重要资讯。
 
 ---
 
-1. [布朗大学教授揭露考试中大规模 AI 作弊行为](#item-1) ⭐️ 8.0/10
-2. [KIDS 法案拟强制要求网络访问年龄验证](#item-2) ⭐️ 8.0/10
-3. [4 路 DGX Spark 运行 GLM-5.2 NVFP4：128K 上下文 15-16 tokens/秒](#item-3) ⭐️ 8.0/10
-4. [Ornith-1.0-35B GGUF：原生 MTP 推测解码提速 1.3 倍](#item-4) ⭐️ 8.0/10
-5. [GLM 5.2 在 Semgrep 网络安全基准测试中超越 Claude](#item-5) ⭐️ 7.0/10
-6. [用户用 Claude Code 分析 MRI 寻求第二诊疗意见](#item-6) ⭐️ 7.0/10
-7. [Librepods：逆向工程解锁 AirPods 跨平台功能](#item-7) ⭐️ 7.0/10
-8. [Tokenmaxxing 已死，Tokenmaxxing 万岁](#item-8) ⭐️ 7.0/10
-9. [OpenAI Codex 仍缺少排除敏感文件功能，引发安全担忧](#item-9) ⭐️ 7.0/10
-10. [开发者分享基于本地模型的 NPC 引擎](#item-10) ⭐️ 7.0/10
-11. [DFlash 推测解码已合并到 llama.cpp](#item-11) ⭐️ 7.0/10
-12. [DeepSeek 发布 DeepSpec：全套推测解码代码库及预训练草案模型](#item-12) ⭐️ 7.0/10
-13. [使用 MLX 在苹果芯片上 LoRA 微调的 DIY 指南](#item-13) ⭐️ 7.0/10
-14. [1960-2026 内存价格历史趋势可视化](#item-14) ⭐️ 6.0/10
-15. [The Pudding 可视化纽约公共图书馆 5000 份历史菜单](#item-15) ⭐️ 6.0/10
-16. [台杉：日本传承 600 年的树上长树林业技术](#item-16) ⭐️ 6.0/10
-17. [波兰字母Ś消失之谜](#item-17) ⭐️ 6.0/10
-18. [乌德尔：翻转“人在回路”叙事](#item-18) ⭐️ 6.0/10
-19. [国产光子方案：太空计算新途径，比马斯克和英伟达更高效](#item-19) ⭐️ 6.0/10
-20. [800M 参数模型利用因果扩散本地化让静态图像变为可玩角色](#item-20) ⭐️ 6.0/10
-21. [HuggingFace 低质微调模型泛滥，或为简历镀金](#item-21) ⭐️ 6.0/10
+1. [美最高法院裁定地理围栏令需合宪](#item-1) ⭐️ 9.0/10
+2. [ChatGPT 推翻了陈立杰苦思 7 年的计算几何难题](#item-2) ⭐️ 9.0/10
+3. [火箭实验室收购铱星公司，获取频谱与发射协同](#item-3) ⭐️ 8.0/10
+4. [深入解析 CUDA 内核执行过程](#item-4) ⭐️ 8.0/10
+5. [欧洲 ISP 寻求版权方为滥封担责](#item-5) ⭐️ 8.0/10
+6. [HackerRank 开源 ATS 揭示 AI 招聘评分不一致](#item-6) ⭐️ 8.0/10
+7. [Instagram 用用户照片推广 Meta 智能眼镜](#item-7) ⭐️ 8.0/10
+8. [三星、SK 海力士、美光在美遭内存价格操纵诉讼](#item-8) ⭐️ 8.0/10
+9. [PlayStation 商店移除已购 StudioCanal 电影且不退款](#item-9) ⭐️ 8.0/10
+10. [Anthropic CEO Dario Amodei 警告：开源 AI 模型可能走向危险](#item-10) ⭐️ 8.0/10
+11. [DeepSeek V4 可通过 llama.cpp 本地运行](#item-11) ⭐️ 8.0/10
+12. [桑迪亚国家实验室的辐射加固 SA3000 8085 CPU 探秘](#item-12) ⭐️ 7.0/10
+13. [Tidal 发布 AI 音乐政策，允许 AI 曲目但须遵守诚信准则](#item-13) ⭐️ 7.0/10
+14. [七巨头股票因 AI 支出担忧开始跑输大盘](#item-14) ⭐️ 7.0/10
+15. [Mullvad 共同所有者个人捐款给瑞典政党引发隐私工具信任争议](#item-15) ⭐️ 7.0/10
+16. [谷歌协助针对批评文章的虚假 DMCA 删除行动](#item-16) ⭐️ 7.0/10
+17. [Ornith-1.0：面向自主编程的自支架大模型系列](#item-17) ⭐️ 7.0/10
+18. [Jon Udell 主张将 AI 代理当作团队一员纳入开发流程](#item-18) ⭐️ 7.0/10
+19. [开发者展示基于本地 AI 模型的游戏通用 NPC 引擎](#item-19) ⭐️ 7.0/10
+20. [NASA 为太空任务测试本地大语言模型推理](#item-20) ⭐️ 7.0/10
+21. [双 GPU 通过并行小模型编排提升编码吞吐量](#item-21) ⭐️ 7.0/10
+22. [Bolt Graphics GPU 配备双 DDR5 SODIMM 插槽，支持超 100GB 内存](#item-22) ⭐️ 7.0/10
+23. [Qwen 3.6 27B：本地 LLM 最佳选择，但硬件成本高昂](#item-23) ⭐️ 6.0/10
+24. [纯 CPU 运行 4-bit GLM 5.2：Epyc 与 512GB 内存生成 3D 游戏](#item-24) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [布朗大学教授揭露考试中大规模 AI 作弊行为](https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html) ⭐️ 8.0/10
+## [美最高法院裁定地理围栏令需合宪](https://www.theguardian.com/us-news/2026/jun/29/supreme-court-geofence-warrants-case-decision) ⭐️ 9.0/10
 
-布朗大学一名教授揭露了学生在考试中普遍使用 AI 作弊的行为，暴露了学术诚信的严重问题。 这一事件凸显了教育机构迫切需要针对 AI 时代重新设计评估方式，因为传统考试越来越容易受到作弊影响，从而威胁学术证书的价值。 该事件引发了关于应对措施的讨论，例如进行现场手写考试和一对一面试以验证学生的理解程度，因为在达特茅斯等其他学校也报告了类似的作弊行为。
+美国最高法院裁定地理围栏搜查令构成第四修正案下的搜查，要求执法部门基于合理根据获得令状，从而将宪法隐私保护延伸至数字位置数据。 这一里程碑式的裁决大幅限制了广泛的地理围栏搜查令的使用，确保个人数字位置历史免受政府无差别访问，并重塑了数字时代执法与隐私权之间的平衡。 由大法官埃琳娜·卡根撰写的多数意见认为，此类搜查需依据第四修正案获得令状。但实际应用中可能要求执法部门在获取位置数据前确立对特定嫌疑人的合理根据，而非基于地理位置广撒网式寻找嫌疑人。
 
-hackernews · geox · 6月28日 16:41 · [社区讨论](https://news.ycombinator.com/item?id=48708991)
+hackernews · cdrnsf · 6月29日 15:54 · [社区讨论](https://news.ycombinator.com/item?id=48720924)
 
-**背景**: 随着 ChatGPT 等生成式 AI 的兴起，学生可以轻松生成论文答案和代码，导致无监督的在线考试变得脆弱。全球大学都在努力更新评估方法，布朗大学的这一事件就是问题严重性的一个例证。
+**背景**: 地理围栏搜查令是一种反向位置搜查，迫使谷歌等公司披露在特定时间窗口内出现在指定区域的所有设备。它们依赖于存储用户历史位置的数据库，如 Sensorvault。第四修正案保护人民免受无理搜查和扣押，该裁决澄清了即使由第三方持有的数字位置数据也可受到保护。
 
-**社区讨论**: 评论者表达了对传统教育的怀疑和实用解决方案的混合看法。一些人认为需要进行现场手写考试，而另一些人分享了对抗性课程设计等方法，以确保即使学生为了分数最大化也能达到学习目标。还有人建议采用法学院式的安全计算机。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.theguardian.com/us-news/2026/jun/29/supreme-court-geofence-warrants-case-decision">US supreme court rules geofence warrants require constitutional privacy protections | US supreme court | The Guardian</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Geofence_warrant">Geofence warrant</a></li>
 
-**标签**: `#ai`, `#education`, `#academic-integrity`, `#cheating`, `#higher-education`
+</ul>
+</details>
+
+**社区讨论**: 社区评论包括非数字识别的示例、谷歌提供数据过程的详细描述，以及对裁决实际影响的讨论。一些人对反对意见表示惊讶，另一些人则寻求对获取位置令状新法律标准的澄清。
+
+**标签**: `#privacy`, `#law`, `#supreme-court`, `#geofence`, `#surveillance`
 
 ---
 
 <a id="item-2"></a>
-## [KIDS 法案拟强制要求网络访问年龄验证](https://www.eff.org/deeplinks/2026/06/kids-act-would-require-age-checks-get-online) ⭐️ 8.0/10
+## [ChatGPT 推翻了陈立杰苦思 7 年的计算几何难题](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652709773&idx=2&sn=68bde762eb0070f5bd61518728971232) ⭐️ 9.0/10
 
-美国众议院提出的 KIDS 法案将要求用户访问网络平台时必须进行年龄验证，旨在保护儿童，但引发了隐私和执行方面的担忧。 该立法可能从根本上改变网络匿名性，为政府强制年龄验证开创先例，并影响所有互联网用户的言论自由和隐私。 该法案由众议员布雷特·格思里（共和党-肯塔基州）发起，弗兰克·帕隆（民主党-新泽西州）共同发起。年龄验证的具体技术实现未明确，网站如何合规以及个人数据如何处理仍悬而未决。
+OpenAI 的 GPT-5.5 Pro 生成了一个数学证明，解决了计算几何中一个陈立杰钻研七年未果的核心难题。该解决方案建立在 OpenAI 此前推翻埃尔德什单位距离猜想的基础之上。 这一突破表明 AI 解决高等数学中具有挑战性的开放问题的能力不断增强，有望加速理论计算机科学和几何学的研究。它可能改变数学家处理猜想的范式，并凸显了 AI 作为研究合作者的角色。 所解决的问题是计算几何中一个未具体说明的核心问题，证明依赖代数数论的技术，类似于对埃尔德什猜想的证伪。该证明的独立验证尚待完成。
 
-hackernews · bilsbie · 6月28日 11:56 · [社区讨论](https://news.ycombinator.com/item?id=48706560)
+rss · 新智元 · 6月29日 05:01
 
-**背景**: 全球立法者都在争论年龄验证法以保护儿童上网安全，但批评者认为这些法律威胁匿名性并可能引发侵入性数据收集。以往此类立法尝试曾遭遇法律挑战，并受到电子前哨基金会等数字权利团体的反对，他们认为这破坏了言论自由和隐私。
+**背景**: 陈立杰是知名计算机科学家，毕业于清华大学姚班，现为加州大学伯克利分校助理教授。他以计算复杂性理论研究著称，曾花费七年时间试图解决这一计算几何难题。2026 年 5 月，OpenAI 的模型通过构造一个无限点配置族，推翻了长达 80 年的埃尔德什单位距离猜想，为 AI 辅助数学研究树立了里程碑。当前问题的解决据称延续了这一方法。
 
-**社区讨论**: 评论显示出人们对国际上突然推动年龄控制的担忧、对社交媒体与心理健康问题关联研究的怀疑，以及呼吁联系议员的混合情绪。一些人认为保护网络身份有其价值，而另一些人则指出，过去建议不要透露个人信息，现在却被迫在要求下出示个人信息的讽刺。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.163.com/dy/article/L0JHJQ7U0511ABV6.html">刚刚，姚班传奇陈立杰苦思7年的计算几何核心难题，被ChatGPT推翻了|质数|代数|定理|算法|数域_网易订阅</a></li>
+<li><a href="https://pasqualepillitteri.it/en/news/3065/openai-erdos-unit-distance-conjecture-ai-breakthrough">OpenAI Disproves Erdős Conjecture: AI Solves 80-Year Math Problem</a></li>
 
-**标签**: `#privacy`, `#age-verification`, `#online-safety`, `#legislation`, `#internet-regulation`
+</ul>
+</details>
+
+**标签**: `#AI`, `#mathematics`, `#computational geometry`, `#ChatGPT`, `#breakthrough`
 
 ---
 
 <a id="item-3"></a>
-## [4 路 DGX Spark 运行 GLM-5.2 NVFP4：128K 上下文 15-16 tokens/秒](https://www.reddit.com/r/LocalLLaMA/comments/1uidtb8/highquality_glm52_quant_on_4x_dgx_spark_guide/) ⭐️ 8.0/10
+## [火箭实验室收购铱星公司，获取频谱与发射协同](https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully) ⭐️ 8.0/10
 
-该指南展示了如何在四台 DGX Spark 上运行高质量的 NVFP4 量化 GLM-5.2 模型，通过解码上下文并行和多令牌预测技术，在 128K 上下文下实现 15-16 tokens/秒的生成速度。 该配置表明，像 GLM-5.2 这样的大型模型可以在多台 DGX Spark 上以可接受的性能本地运行，实现自主智能体应用而不依赖云端，并凸显了 NVIDIA 硬件上 MLA 内核支持相对于 Mac 的优势。 NVFP4 量化将模型内存占用从 1.5TB 降至 410GB，仅对专家前馈网络量化，注意力和路由器保持 BF16；随上下文增长，生成速度从约 15 降至约 13 t/s，表现优雅衰退，而 Mac 因缺乏 MLA 内核导致严重性能崩溃。
+火箭实验室已收购铱星通信公司，从而掌控其全球卫星电话和数据网络、宝贵的 L 波段频谱权利，并确保其运载火箭拥有内部客户。 此举使火箭实验室能够复制 SpaceX 的星链模式，通过保证稳定的发射流来缓解市场波动，巩固其端到端航天公司地位。该交易还凸显了频谱作为战略资产的重要性，可能推动航天领域的整合。 铱星星座由 66 颗低轨卫星组成，提供真正的全球覆盖，其 L 波段频谱在可靠移动通信中备受青睐。火箭实验室计划利用此次收购为其电子号火箭和即将推出的中子号大火箭锁定发射任务，但监管审批和整合挑战依然存在。
 
-reddit · r/LocalLLaMA · /u/llamaCTO · 6月29日 00:45
+hackernews · everfrustrated · 6月29日 14:09 · [社区讨论](https://news.ycombinator.com/item?id=48719485)
 
-**背景**: DGX Spark 是搭载 NVIDIA GB10 Grace Blackwell 超芯片的个人 AI 计算机，专为本地 AI 工作负载设计。NVFP4 是 NVIDIA 的 4 位浮点量化格式，可大幅缩小模型体积且精度损失极小。多头潜在注意力（MLA）是 DeepSeek 等模型采用的高效注意力机制，需要专用内核支持才能获得最佳性能。
+**背景**: 铱星是一家卫星通信服务商，以其由 66 颗低轨卫星组成的全球覆盖网络而闻名，即使在最偏远地区也能提供语音和数据服务。频谱牌照授予使用特定无线电频率的排他性权利，随着太空日益拥挤，其价值不断上升。继 SpaceX 利用星链实现发射内需后，将发射服务与卫星运营垂直整合可带来竞争优势，确保稳定的发射频率并减少对外部客户的依赖。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.marktechpost.com/2026/02/01/nvidia-ai-brings-nemotron-3-nano-30b-to-nvfp4-with-quantization-aware-distillation-qad-for-efficient-reasoning-inference/">NVIDIA AI Brings Nemotron-3-Nano-30B to NVFP 4 with Quantization ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/DGX_Spark">DGX Spark</a></li>
-<li><a href="https://medium.com/google-cloud/attention-evolved-how-multi-head-latent-attention-works-427a922dd6a1">Attention Evolved: How Multi-Head Latent Attention Works | Medium</a></li>
+<li><a href="https://www.youtube.com/watch?v=2cMtp0JYDLY">EchoStar sells satellite spectrum to SpaceX for $17 billion - YouTube</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Space_sustainability">Space sustainability</a></li>
 
 </ul>
 </details>
 
-**标签**: `#LLM quantization`, `#DGX Spark`, `#NVFP4`, `#LocalLLM`, `#GLM-5.2`
+**社区讨论**: 社区评论普遍认可这一战略逻辑，许多人将其与 SpaceX 的星链模式相类比。但也有人担忧更多发射带来的太空碎片和大气影响，另有人指出公司从新西兰发源转向美国身份的变化。
+
+**标签**: `#space`, `#acquisition`, `#satellites`, `#rocketry`, `#business-strategy`
 
 ---
 
 <a id="item-4"></a>
-## [Ornith-1.0-35B GGUF：原生 MTP 推测解码提速 1.3 倍](https://www.reddit.com/r/LocalLLaMA/comments/1ui4yn6/ornith1035b_gguf_update_native_mtp/) ⭐️ 8.0/10
+## [深入解析 CUDA 内核执行过程](https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/) ⭐️ 8.0/10
 
-在 Ornith-1.0-35B GGUF 的 IQ4_XS 量化主体上嫁接了原生 MTP 草稿头，实现自推测解码，单流解码速度提升 1.3–1.35 倍（从 172.6 tok/s 增至 233.8 tok/s），且下一个 token 的分布与目标模式字节级一致。 这展示了原生 MTP 推测解码在本地大模型部署中保持质量的实际应用，在无需牺牲输出保真度的前提下显著提速，这对硬件资源有限且输出质量要求严格的场景至关重要。 该嫁接在 IQ4_XS 主体上使用 Q6 量化的 MTP 头，模型大小约 19.6 GB。与 BF16 的 KL 散度为 0.073，优于 Q4_K_M（0.086）。长上下文预填充从 512 token 时的 94ms 扩展到 32k token 时的约 6.3 秒。长文本确定性解码并非比特级一致（token 匹配率 93.4%）。基准测试在单块 RTX PRO 6000 Blackwell 96GB GPU 上进行，tp=1。
+一篇新的综合性技术博客详细解释了 NVIDIA GPU 上 CUDA 内核从启动到完成的整个生命周期，包括流管理、warp 调度以及对开放硬件文档的引用。 这篇文章通过提供清晰的底层执行视图，填补了关键的知识空白，帮助开发者编写更高效的 CUDA 代码，并更好地理解 GPU 架构以进行性能优化。 默认的 CUDA 流会执行隐式同步，与 Vulkan 的显式同步模型不同，文章还引用了 NVIDIA 的 open-gpu-doc 以获取硬件层面的见解。同时解释了 warp 的符合执行条件和调度策略。
 
-reddit · r/LocalLLaMA · /u/Blahblahblakha · 6月28日 18:35
+hackernews · mezark · 6月29日 13:11 · [社区讨论](https://news.ycombinator.com/item?id=48718863)
 
-**背景**: 多 token 预测（MTP）是一种推测解码方法，模型内置多个预测头，可一次性预测多个未来 token，在保持目标模型输出的同时降低推理延迟。GGUF 是专为量化大语言模型快速加载而优化的二进制格式，常用于消费级硬件。推测解码通过草稿模型生成候选 token 再由目标模型验证来加速文本生成。首 token 时间（TTFT）指从请求到生成第一个 token 的延迟，对交互式应用至关重要。
+**背景**: CUDA 是 NVIDIA 的并行计算平台。内核是在 GPU 上由许多线程并行执行的函数。线程被组织成由 32 个线程组成的 warp，在流式多处理器上以锁步方式运行。流可以实现并发执行，默认流会隐式同步命令。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://docs.vllm.ai/en/latest/features/speculative_decoding/mtp/">MTP (Multi-Token Prediction) - vLLM</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Llama.cpp">llama.cpp - Wikipedia</a></li>
-<li><a href="https://rumn.medium.com/benchmarking-llm-performance-token-per-second-tps-time-to-first-token-ttft-and-gpu-usage-8c50ee8387fa">Benchmarking LLMs: TPS, TTFT , GPU Usage | Medium</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Thread_block_(CUDA_programming)">Thread block (CUDA programming) - Wikipedia</a></li>
+<li><a href="https://leimao.github.io/blog/CUDA-Stream/">Understand CUDA Stream Based Concurrency from High Level</a></li>
 
 </ul>
 </details>
 
-**标签**: `#LLM optimization`, `#speculative decoding`, `#GGUF`, `#llama.cpp`, `#performance benchmarking`
+**社区讨论**: 评论者称赞了文章的深度，特别是默认流信号量与 Vulkan 的比较解释。他们强调了开放硬件文档可供进一步学习，并讨论了对内核优化公司的影响。有人指出驱动 API 提供了更高的执行可见性。
+
+**标签**: `#CUDA`, `#GPU computing`, `#kernel`, `#low-level programming`, `#HPC`
 
 ---
 
 <a id="item-5"></a>
-## [GLM 5.2 在 Semgrep 网络安全基准测试中超越 Claude](https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/) ⭐️ 7.0/10
+## [欧洲 ISP 寻求版权方为滥封担责](https://torrentfreak.com/european-isps-want-rightsholders-held-accountable-for-overblocking-damage/) ⭐️ 8.0/10
 
-Semgrep 的最新基准测试显示，开源模型 GLM 5.2 在检测网络安全漏洞方面表现优于 Claude，以更低的每次漏洞发现成本找出更多漏洞。 这表明开源模型在专业安全任务上已能与商业 AI 抗衡甚至超越，有望降低漏洞检测成本并提高透明度。 GLM 5.2 是一个拥有 7530 亿参数的模型，在基准测试中成功发现漏洞的比率为 32%，每次漏洞发现成本 0.17 美元，但需注意该测试比较的是 Claude Code 智能体套件，而非特定的 Claude 语言模型。
+欧洲互联网服务提供商（ISP）要求版权方在因打击盗版而过度封锁网站、导致合法内容被误封时承担经济损失责任。 此举可望遏制过于激进的封锁令，保护网络开放性，并为追究版权方在附带审查中的责任开创先例，影响欧盟乃至全球的版权执法。 过度封锁已导致如西班牙西甲联赛造成 Cloudflare 和 Docker 镜像被封等事件，实际损害不仅限于 ISP 客服电话，还包括公民被浪费的数百万小时时间。
 
-hackernews · jms703 · 6月28日 17:50 · [社区讨论](https://news.ycombinator.com/item?id=48709670)
+hackernews · Brajeshwar · 6月29日 16:07 · [社区讨论](https://news.ycombinator.com/item?id=48721072)
 
-**背景**: GLM 5.2 是智谱 AI 推出的开源大语言模型，专为长周期编码任务设计，在编程基准测试中与前沿模型具有竞争力。Semgrep 是一种用于发现代码中安全漏洞的静态分析工具，其公司也提供了应用安全平台，可能集成了此类模型以实现自动化漏洞检测。
+**背景**: 过度封锁指网络过滤或法院强制封锁措施超出预期，限制了更多内容访问。在欧洲，版权方可获得法院命令要求 ISP 屏蔽侵权网站，但这些封锁常基于 IP 地址或 DNS，可能同时屏蔽不相关的网站和服务。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://openlm.ai/glm-5.2/">GLM-5.2 - openlm.ai</a></li>
-<li><a href="https://z.ai/blog/glm-5.2">GLM-5.2: Built for Long-Horizon Tasks - z.ai</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Semgrep">Semgrep</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Overblocking">Overblocking</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者普遍称赞 GLM 5.2 是一个性价比高、能力强的编程助手，但也有人指出其他开源模型如 DeepSeek V4 Pro 在个人基准测试中表现更优。有用户对其大参数规模带来的硬件要求表示担忧，并澄清该基准测试比较的是 Claude Code（智能体套件）而非特定 Claude 模型，因此直接对比需谨慎。
+**社区讨论**: 社区评论大多支持 ISP 的立场。许多人以美国 DMCA 为例，指出类似的下架措施出错也无需负责。有人认为 ISP 本应从一开始就抵制封锁令。西班牙用户强调西甲联赛的过度行为，有人指出连 Docker 镜像都无法访问。有评论强调，真正的代价是被浪费的数百万小时。
 
-**标签**: `#ai`, `#large-language-models`, `#benchmark`, `#security`, `#open-source-models`
+**标签**: `#internet censorship`, `#ISP liability`, `#copyright enforcement`, `#digital rights`, `#policy`
 
 ---
 
 <a id="item-6"></a>
-## [用户用 Claude Code 分析 MRI 寻求第二诊疗意见](https://antoine.fi/mri-analysis-using-claude-code-opus) ⭐️ 7.0/10
+## [HackerRank 开源 ATS 揭示 AI 招聘评分不一致](https://danunparsed.com/p/hackerrank-open-source-ats) ⭐️ 8.0/10
 
-一位用户使用 Anthropic 的 Claude Code 分析其肩部 MRI 扫描以获得第二诊疗意见，并在线分享了过程和结果。 该实验凸显了 AI 在普及医疗第二意见方面的潜力，以及依赖非专用工具的风险，引发了关于信任 AI 还是医生的讨论。 AI 分析与放射科医生的报告进行了对比，但评论区的一位放射科医生指出，该模型可能缺乏足够的医学图像训练，且准确评估需要完整的三维数据集。
+调查发现，HackerRank 开源的基于 LLM 的申请人跟踪系统（ATS）对同一份简历给出的分数极端不一致，在 74 到 90 分之间波动。 这揭示了 AI 驱动招聘工具内在的随机不公平性，结果取决于概率而非能力，可能导致歧视并削弱求职者信心。 即使将温度设置为 0.1（旨在降低随机性），LLM 仍然产生高度可变的分数，证明此类模型并非确定性的。
 
-hackernews · engmarketer · 6月28日 16:35 · [社区讨论](https://news.ycombinator.com/item?id=48708941)
+hackernews · sambellll · 6月29日 01:44 · [社区讨论](https://news.ycombinator.com/item?id=48713832)
 
-**背景**: Claude Code 是 Anthropic 开发的 AI 智能体，专为软件开发任务设计，但也能处理并描述图像。MRI（磁共振成像）是一种用于可视化内部结构的医学成像技术。放射科医生是接受过专门训练以解读这类影像的专家，而第二诊疗意见常用于确认诊断。
+**背景**: 申请人跟踪系统（ATS）是雇主用来筛选和排名求职申请的软件。近来，一些平台集成了大型语言模型（LLM）以实现自动化筛选，承诺提高效率。HackerRank 是一家技术评估公司，开源了其 ATS，允许公众审查。测试表明，基于 LLM 的决策可能不稳定，引发了伦理和法律方面的担忧。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Claude_Code">Claude Code</a></li>
-<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Applicant_tracking_system">Applicant tracking system - Wikipedia</a></li>
+<li><a href="https://medium.com/@leofgonzalez/how-i-built-an-llm-powered-resume-optimizer-to-beat-ats-filters-8ace36d5d32c">How I Built an LLM-Powered Resume Optimizer to Beat ATS Filters | by Leonardo Gonzalez | Medium</a></li>
+<li><a href="https://deepintellica.com/ai-work/ai-bias-workplace/">Bias at Work: Can AI Make Hiring and Promotions... - Deep Intellica</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 总体而言，社区持谨慎态度，一位放射科医生强调目前 AI 模型在解读医学图像方面表现不佳，且完整的三维数据集至关重要。其他用户反思了患者、医生与 AI 之间的舒适度和信任关系，一些人分享了个人误诊经历，强调了可靠第二意见的必要性。
+**社区讨论**: 评论者普遍认同 LLM 招聘工具本质上的不可靠性，有人指出其可能违反欧盟反歧视法。一位评论者强调，考虑到高申请量，35%的通过率实际上仍然有用，但大家一致对公平性和透明度的缺失持批评态度。
 
-**标签**: `#AI`, `#healthcare`, `#MRI`, `#trust`, `#second-opinion`
+**标签**: `#AI hiring`, `#LLM bias`, `#resume screening`, `#stochastic processes`, `#discrimination`
 
 ---
 
 <a id="item-7"></a>
-## [Librepods：逆向工程解锁 AirPods 跨平台功能](https://github.com/librepods-org/librepods) ⭐️ 7.0/10
+## [Instagram 用用户照片推广 Meta 智能眼镜](https://twitter.com/i/status/2071277885646868536) ⭐️ 8.0/10
 
-Librepods 是一个在 GitHub 上发布的开源项目，它通过逆向工程 Apple 的私有协议，让非苹果设备能够使用 AirPods 的额外功能，例如电池电量和无缝切换。 该项目通过跨平台释放 AirPods 的全部潜力来降低用户锁定效应，但可能促使 Apple 封堵相关漏洞，从而影响其长期可用性。 该实现由社区驱动且处于早期阶段，可能因固件更新而失效。AirPods 本身已能作为标准蓝牙耳机使用；该项目针对的是私有扩展功能，而非基础音频。
+Instagram 开始将用户的个人照片用于 Meta 智能眼镜的赞助广告，此举与 2013 年 Facebook 备受争议的做法如出一辙。 这一做法引发了严重的隐私担忧，因为用户可能不知晓自己的照片被商用，也凸显了 Meta 服务条款中极为宽泛的授权。 广告在未获得明确同意的情况下使用了用户照片，与 Facebook 2013 年的广告计划类似。而 Meta 眼镜本身也因录制指示灯太小、无法有效警示旁人而备受批评。
 
-hackernews · rbanffy · 6月28日 18:48 · [社区讨论](https://news.ycombinator.com/item?id=48710232)
+hackernews · notRobot · 6月29日 13:26 · [社区讨论](https://news.ycombinator.com/item?id=48719027)
 
-**背景**: Apple AirPods 虽然通过蓝牙通信，但也使用私有协议来实现即时配对、Siri 访问和电量报告等功能，这些功能在非苹果设备上无法使用。逆向工程通过分析无线通信来模拟这些交互。此前类似尝试（如 OpenPods）曾遭 Apple 封堵，而 Apple 正在发展新的协议（如用于无损音频的 SPR AVS），这可能会进一步增加兼容难度。
+**背景**: Meta 眼镜（如 2023 年推出的 Ray-Ban Meta 智能眼镜）是 Meta 与雷朋合作的产品，内置摄像头、开放式扬声器和 Meta AI，支持免提拍照、录像和直播，但因其录制指示灯太小而引发隐私担忧。Instagram 为 Meta 所有，其服务条款允许公司将用户生成内容（包括个人头像）用于商业或赞助目的。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.notebookcheck.net/Apple-is-moving-beyond-Bluetooth-with-new-SPR-AVS-protocol-starting-with-the-iPhone-17-series.1114408.0.html">Apple is moving beyond Bluetooth with new SPR AVS protocol ...</a></li>
-<li><a href="https://itnext.io/reverse-engineering-bluetooth-devices-82d868edec0c">Reverse Engineering Bluetooth Devices | by Tobias... | ITNEXT</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Meta_glasses">Meta glasses</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者赞赏其技术能力，但同时怀疑 Apple 不会对此置之不理，很可能通过补丁封堵。有人指出 AirPods 本身已可作为蓝牙耳机使用，该项目只针对额外功能。还有人表示希望看到 AirDrop 等其他服务也被解放。
+**社区讨论**: 评论者回忆起 Facebook 在 2013 年的类似做法，既觉得好笑又感到担忧。许多人承认服务条款技术上允许此类使用，但认为这仍是对用户信任的滥用。一些评论强调了这对依赖 Instagram 这个免费平台的小企业造成的负面影响，另一些人则干脆建议彻底离开该平台。
 
-**标签**: `#reverse-engineering`, `#bluetooth`, `#open-source`, `#apple`, `#airpods`
+**标签**: `#privacy`, `#social-media`, `#advertising`, `#meta`, `#instagram`
 
 ---
 
 <a id="item-8"></a>
-## [Tokenmaxxing 已死，Tokenmaxxing 万岁](https://12gramsofcarbon.com/p/agentics-tech-things-tokenmaxxing) ⭐️ 7.0/10
+## [三星、SK 海力士、美光在美遭内存价格操纵诉讼](https://en.sedaily.com/international/2026/06/29/samsung-sk-hynix-micron-sued-in-us-over-memory-price-fixing) ⭐️ 8.0/10
 
-文章宣称，将 tokenmaxxing 作为强制企业指标的时代正在终结，一种“复合正确性”的新范式已经出现，即投入更多 token 确实能提升结果质量。 这一转变可能重新定义企业衡量 AI 采用的方式，从关注 token 数量转向结果质量，并可能影响 agentic AI 系统的发展。 “复合正确性”概念认为更多 token 带来更好结果，但怀疑者指出，若没有细致的上下文管理，agentic 系统可能退化。仅特定用例，如安全漏洞扫描，可能从不受限的 token 消耗中获益。
+三星、SK 海力士和美光成为美国一项新的反垄断诉讼的目标，指控它们合谋操纵 DRAM 内存价格，这标志着这个集中市场面临的又一次法律挑战。 由于 DRAM 市场高度集中，三大厂商若操纵价格会推高消费者和企业成本，尤其在 AI 需求激增背景下。该诉讼可能影响内存芯片供应和定价，并凸显对关键半导体供应链的反垄断审查。 社区指出，此前 2022 年类似诉讼因无法证明存在协议而失败。此次诉讼可能聚焦于三大厂商协调减产或控制 DDR5 等新世代内存供应的行为。此外，三星和 SK 海力士作为非美国公司，可能质疑美国法院的管辖权，甚至考虑停止对美销售。
 
-hackernews · theahura · 6月28日 16:24 · [社区讨论](https://news.ycombinator.com/item?id=48708795)
+hackernews · donohoe · 6月29日 11:58 · [社区讨论](https://news.ycombinator.com/item?id=48718102)
 
-**背景**: Tokenmaxxing 作为一种工作场所生产力指标，将 AI token 消耗量视为员工努力和 AI 采纳程度的代表。Token 是 AI 服务计费的处理单位，常对应词元。Agentic AI 指能够自主追求目标并使用工具的系统。这一转变反映了从将 token 用作粗暴的采纳衡量指标，转向利用其实现真正性能提升的成熟过程。
+**背景**: DRAM（动态随机存取存储器）是计算机和电子设备中广泛使用的主内存。全球 DRAM 市场长期以来由三星、SK 海力士和美光三家公司寡头垄断，历史上曾多次出现价格操纵丑闻，如 2000 年代初的集体诉讼案。近年来，受 AI 和 HBM 需求推动，DRAM 价格大幅上涨，供应链集中度引发监管关注。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Token_maxxing">Token maxxing</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Agentic_AI">Agentic AI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/DRAM">DRAM</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: Hacker News 上的讨论表现出深深的怀疑。一些人认为 tokenmaxxing 只是强制采用 AI 的临时阶段；另一些人怀疑更多 token 总能带来更好的结果，并指出需要不断清空上下文。一位评论者讽刺地将这一想法比作 Meta 的元宇宙转型。总体而言，“复合正确性”的说法并未被广泛接受。
+**社区讨论**: 社区讨论总体持怀疑态度，指出类似诉讼过去因证据不足被驳回。有人认为停止生产 DDR3 和 DDR4 以转向 DDR5 是正常市场行为，不一定是价格操纵。也有用户质疑三星和 SK 海力士是否受美国司法管辖，认为这些厂商可能不再向美国供货。
 
-**标签**: `#ai`, `#tokenization`, `#agentic-ai`, `#corporate-strategy`, `#hn-discussion`
+**标签**: `#DRAM`, `#price fixing`, `#antitrust`, `#semiconductor`, `#legal`
 
 ---
 
 <a id="item-9"></a>
-## [OpenAI Codex 仍缺少排除敏感文件功能，引发安全担忧](https://github.com/openai/codex/issues/2847) ⭐️ 7.0/10
+## [PlayStation 商店移除已购 StudioCanal 电影且不退款](https://www.playstation.com/en-gb/legal/psvideocontent/) ⭐️ 8.0/10
 
-GitHub 上请求 OpenAI Codex 添加排除敏感文件功能的议题仍未解决，尚无官方实现。 该缺失功能对开发者构成安全风险，因为 Codex 可能无意中泄露 API 密钥等敏感数据，从而可能削弱对 AI 编程工具的信任。 社区建议通过文件权限限制（chmod）、沙箱或容器运行 Codex 作为变通方法；有人认为由于大语言模型的不可预测性，黑名单功能可能带来虚假的安全感。
+因许可协议到期，PlayStation 正从用户库中删除 StudioCanal 电影，且不提供退款。 此事凸显了数字购买的脆弱性和缺乏真正所有权的问题，重新引发了对数字内容消费者权益的辩论。 超过 550 部 StudioCanal 电影受影响；用户得不到补偿，删除源于索尼与制片厂的许可协议。
 
-hackernews · pikseladam · 6月28日 12:27 · [社区讨论](https://news.ycombinator.com/item?id=48706714)
+hackernews · kugelblitz · 6月29日 13:20 · [社区讨论](https://news.ycombinator.com/item?id=48718967)
 
-**背景**: OpenAI Codex 是一种 AI 代理，能自动化编码任务，通过访问本地文件系统来读取和修改代码。敏感文件（如包含 API 密钥的.env）可能在使用工具时被意外读取，存在泄露风险。沙箱是一种安全机制，可隔离程序，防止其访问系统的敏感部分。
+**背景**: 数字购买常伴随限制性 DRM，允许提供商撤销访问权。历史上，亚马逊从 Kindle 删除《1984》等事件显示了数字'所有权'的风险。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/OpenAI_Codex_(language_model)">OpenAI Codex (language model) - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Sandbox_(computer_security)">Sandbox (computer security) - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Digital_rights_management">Digital rights management - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区讨论显示出对系统级解决方案（如文件权限和沙箱）的偏好，而非内置黑名单功能，担心黑名单可能因大语言模型的不可预测性而带来虚假的安全感。
+**社区讨论**: 社区反应大多批评，用户认为索尼应为已购内容确保持久许可。许多人建议物理媒体或无 DRM 副本才是真正的所有权，而其他人指出盗版者无此限制。
 
-**标签**: `#AI security`, `#developer tools`, `#OpenAI Codex`, `#sensitive data`, `#LLM safety`
+**标签**: `#digital ownership`, `#DRM`, `#licensing`, `#consumer rights`, `#PlayStation`
 
 ---
 
 <a id="item-10"></a>
-## [开发者分享基于本地模型的 NPC 引擎](https://www.reddit.com/r/LocalLLaMA/comments/1uibt9o/npc_engine_using_local_models/) ⭐️ 7.0/10
+## [Anthropic CEO Dario Amodei 警告：开源 AI 模型可能走向危险](https://www.reddit.com/r/LocalLLaMA/comments/1uixcof/anthropics_amodei_open_source_models_could_take/) ⭐️ 8.0/10
 
-一位开发者分享了一个与游戏无关的 NPC 引擎，该引擎利用本地模型——NVIDIA Parakeet 0.6 进行语音转文字、Gemma 4 26B A4B 进行语言生成、Qwen3-TTS 进行语音合成——并通过 RAG 仅注入与上下文相关的动作，实现了快速高效的交互。 该项目展示了本地运行的 AI 模型如何以低延迟创建动态 NPC 交互，预示着 RPG 游戏未来将拥有更加灵敏和智能的角色，且无需依赖云端服务。 该引擎使用 RAG 将数百种可能的 NPC 动作过滤为仅与玩家消息相关的动作，保持提示词精简并防止模型过载。它遵循 SillyTavern 风格的后端架构，使其可适配多种游戏。
+Anthropic 首席执行官达里奥·阿莫代伊表示，开源 AI 模型可能把我们带向一个非常危险的地方，这一言论重新引发了关于公开可访问 AI 风险的辩论。 作为领先的 AI 安全公司，Anthropic 的立场会影响全球 AI 治理讨论，并对开源社区推动透明化和民主化的努力构成挑战。 Amodei 的警告可能是在 AI 能力快速进步的背景下发出的，但提供的摘要中并未引用具体事件或模型。
 
-reddit · r/LocalLLaMA · /u/goodive123 · 6月28日 23:13
+reddit · r/LocalLLaMA · /u/johnnyApplePRNG · 6月29日 16:27
 
-**背景**: SillyTavern 是一个流行的前端工具，用于与 AI 角色聊天和角色扮演，通常与本地或云端 LLM 配合使用。RAG（检索增强生成）允许 AI 模型引入相关外部信息来改进回答——在这里，它根据上下文动态选择有效的 NPC 动作。像 Gemma 和 Parakeet 这样的本地模型完全在用户自己的硬件上运行，提供了隐私保护并避免了云端费用。
+**背景**: Anthropic 是一家由达里奥·阿莫代伊和其姐姐丹妮拉·阿莫代伊创立的 AI 研究公司，专注于开发安全可靠的 AI 系统。该公司的 Claude 语言模型与其他主要实验室竞争，其对安全性的重视使其成为 AI 监管辩论的关键参与者。开源 AI 模型允许任何人检查、修改和分发代码和权重，常因促进创新和透明度而受研究者和开发者青睐，但批评者担忧其滥用风险。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.reddit.com/r/SillyTavernAI/comments/1ds4utc/lorebooks_npc_characters/">Lorebooks & npc characters? : r/SillyTavernAI - Reddit</a></li>
-<li><a href="https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3">nvidia/parakeet-tdt-0.6b-v3 · Hugging Face</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation">Retrieval-augmented generation - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Anthropic">Anthropic</a></li>
 
 </ul>
 </details>
 
-**标签**: `#local-llm`, `#npc-ai`, `#rag`, `#game-development`, `#speech-synthesis`
+**标签**: `#AI safety`, `#open source AI`, `#Anthropic`, `#Dario Amodei`, `#AI policy`
 
 ---
 
 <a id="item-11"></a>
-## [DFlash 推测解码已合并到 llama.cpp](https://www.reddit.com/r/LocalLLaMA/comments/1uhx862/dflash_support_merged_into_llamacpp/) ⭐️ 7.0/10
+## [DeepSeek V4 可通过 llama.cpp 本地运行](https://www.reddit.com/r/LocalLLaMA/comments/1uindb2/deepseek_v4_by_am17an_pull_request_24162/) ⭐️ 8.0/10
 
-DFlash 是一种推测解码方法，利用块扩散模型并行生成草稿令牌，现已合并至 llama.cpp。该集成可将支持的本地大语言模型推理速度提升 2-3 倍。 作为在消费级硬件上运行大语言模型的核心工具，llama.cpp 集成 DFlash 可大幅提升推理速度和内存效率，使高级模型在本地更易用。这符合边缘 AI 性能优化的整体趋势。 DFlash 部署一个独立的类扩散草稿模型，利用双向注意力一次性生成多个草稿令牌，再经目标模型验证。用户可通过`--fastpath-max-tokens`参数选择短响应快速路径。
+llama.cpp 的 GitHub 仓库收到了一个拉取请求（PR #24162），添加了对 DeepSeek V4 模型的支持，允许用户在本地运行 DeepSeek V4。 这一进展让强大的开源权重模型 DeepSeek V4 可以在本地离线运行，使开发者和注重隐私的用户无需依赖云服务就能利用前沿 AI。 该拉取请求（PR #24162）由“am17an”提交，将 DeepSeek V4 集成到 llama.cpp 中，可通过量化等优化技术在消费级硬件上实现高效推理。
 
-reddit · r/LocalLLaMA · /u/sammcj · 6月28日 13:24
+reddit · r/LocalLLaMA · /u/jacek2023 · 6月29日 09:13
 
-**背景**: 推测解码通过小型草稿模型提议候选令牌，再经大型目标模型验证，以此加速大语言模型推理。块扩散模型可同时生成多个令牌，而非传统的逐个生成。llama.cpp 是一个广泛使用的 C++库，可在 CPU 和 GPU 上高效运行大语言模型，常用于本地 AI 部署。
+**背景**: llama.cpp 是一个广泛使用的开源 C/C++ 推理引擎，可在本地硬件上高效运行大语言模型，通常配合量化技术使用，为 Ollama 和 LM Studio 等工具提供动力。DeepSeek V4 是中国人工智能公司 DeepSeek 最新发布的预览版模型，拥有 1 万亿参数、混合专家架构，以及顶尖的推理和智能体能力，并以开放权重形式提供，便于本地部署。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://icml.cc/virtual/2026/poster/64301">ICML Poster DFlash: Block Diffusion for Flash Speculative ...</a></li>
-<li><a href="https://pyshine.com/DFlash-Block-Diffusion-Speculative-Decoding/">DFlash : Block Diffusion for Lightning-Fast LLM Speculative... | PyShine</a></li>
-<li><a href="https://docs.vllm.ai/projects/speculators/en/latest/user_guide/algorithms/dflash/">Dflash - Speculators Docs</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Llama.cpp">Llama.cpp</a></li>
+<li><a href="https://en.wikipedia.org/wiki/DeepSeek">DeepSeek</a></li>
+<li><a href="https://www.deepseek.com/en/">DeepSeek</a></li>
 
 </ul>
 </details>
 
-**标签**: `#llama.cpp`, `#DFlash`, `#attention-mechanism`, `#LLM-inference`, `#open-source`
+**标签**: `#LLM`, `#Local Models`, `#llama.cpp`, `#DeepSeek`, `#Open Source`
 
 ---
 
 <a id="item-12"></a>
-## [DeepSeek 发布 DeepSpec：全套推测解码代码库及预训练草案模型](https://www.reddit.com/r/LocalLLaMA/comments/1uhyhl3/deepspec_a_deepseekai_collection/) ⭐️ 7.0/10
+## [桑迪亚国家实验室的辐射加固 SA3000 8085 CPU 探秘](https://www.cpushack.com/2026/06/03/sandia-national-labs-sa3000-8085-cpu/) ⭐️ 7.0/10
 
-DeepSeek 发布了 DeepSpec，一个用于训练和评估推测解码草案模型的全套代码库，以及针对 Qwen3 和 Gemma-4 模型的 Eagle3、DFlash 和 DSpark 算法预训练检查点。 推测解码能大幅降低大语言模型推理延迟且不损失输出质量，这些即用型草案模型为从业者节省大量训练成本，直接满足本地 LLM 社区的效率需求。 这些检查点在非思考模式下使用 open-perfectblend 数据训练；对于特定领域或思考模式的使用场景，建议进行微调，且新论文的对比实验必须与仓库的训练设置对齐才有意义。
+CPU Shack 博物馆刊文介绍了桑迪亚国家实验室的 SA3000，这是一款于 20 世纪 80 年代初开发的辐射加固 8085 CPU，用于航天和军事领域。 这篇文章揭示了早期辐射加固计算的起源，这也是现代航天和国防电子器件的基础，并引发了关于政府自主技术能力持续重要性的讨论。 SA3000 采用 n-on-n+外延衬底、保护环和加固氧化物制造，以抗辐射并防止闩锁，工作温度范围为-55°C 至 125°C，而现代辐射加固处理器如 BAE RAD5500 现在使用 IBM POWER 架构。
 
-reddit · r/LocalLLaMA · /u/pmttyji · 6月28日 14:18
+hackernews · rbanffy · 6月29日 10:20 · [社区讨论](https://news.ycombinator.com/item?id=48717287)
 
-**背景**: 推测解码利用一个小型草案模型提出多个候选 token，然后由大型目标模型并行验证，在保持精确输出分布的同时将延迟降低 2-3 倍。Eagle3、DFlash 和 DSpark 是较新的草案模型架构；Eagle3 在目标模型上添加外推头，而 DFlash 和 DSpark 则使用块扩散等技术更高效地生成草案。
+**背景**: 辐射加固技术使电子元器件能够抵御电离辐射的损害，这对航天器、卫星和核武器至关重要。Intel 8085 是一款于 1976 年推出的 8 位微处理器。桑迪亚国家实验室是一家政府研究机构，在 20 世纪 70 年代末建立了内部芯片制造能力，以生产辐射加固器件。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Speculative_decoding">Speculative decoding</a></li>
-<li><a href="https://www.e2enetworks.com/blog/Accelerating_LLM_Inference_with_EAGLE">EAGLE-3 Speculative Decoding: 2-6x Faster LLM Inference Guide | E2E Networks</a></li>
-<li><a href="https://www.emergentmind.com/papers/2602.06036">DFlash : Block Diffusion for Speculative Decoding</a></li>
+<li><a href="https://www.cpushack.com/2009/04/10/cpu-of-the-day-radiation-hardened-8085-processor/">CPU of the Day: Radiation Hardened 8085 ... | The CPU Shack Museum</a></li>
+<li><a href="https://interestingengineering.com/innovation/bae-systems-endura-radiation-hardened-space-chip">BAE Systems tests radiation - hardened chip for space missions</a></li>
 
 </ul>
 </details>
 
-**标签**: `#speculative-decoding`, `#draft-models`, `#llm-inference`, `#deepseek`, `#efficient-ai`
+**社区讨论**: 评论者指出，现代辐射加固 CPU 如 MOOG BRE440 和 BAE RAD5500 都基于 IBM POWER 架构。他们表达了对政府内部技术能力的更多需求，一些人还幽默地反思了核武器中使用如此原始的处理器的情况。
+
+**标签**: `#history-of-computing`, `#radiation-hardened`, `#cpu`, `#sandia-labs`, `#vintage-computing`
 
 ---
 
 <a id="item-13"></a>
-## [使用 MLX 在苹果芯片上 LoRA 微调的 DIY 指南](https://www.reddit.com/r/LocalLLaMA/comments/1uid54g/mlx_finetune_example_guide/) ⭐️ 7.0/10
+## [Tidal 发布 AI 音乐政策，允许 AI 曲目但须遵守诚信准则](https://tidal.com/ai-policy) ⭐️ 7.0/10
 
-一名用户使用 MLX 在苹果芯片上本地对 7B 指令模型进行了 LoRA 微调，使其掌握高奇幻文学风格，并分享了详细指南、输出示例和经验教训。 这证明了在消费级苹果硬件上针对小众创意风格进行实用的语言模型微调是可行的，降低了个人爱好者的门槛，推动了本地化、隐私化的 AI 定制。 该指南采用了 LoRA（低秩适应）以实现内存高效的训练，并展示了从普通奇幻风格到复杂托尔金式散文的明显输出转变，不过叙述质量并非主要目标。
+Tidal 推出新政策，允许 AI 生成音乐在其平台上架，但禁止利用艺人名称、肖像或欺骗听众的行为，并对 AI 曲目提出更高的诚信要求。 这为流媒体服务树立了监管先例，在技术创新与道德保障之间取得平衡，有望减少损害艺人和听众的 AI 欺诈行为。 值得注意的是，该政策并未全面禁止 AI 音乐，而是专门针对冒充、欺骗和质量下降行为；但未具体说明检测和执行机制。
 
-reddit · r/LocalLLaMA · /u/Mbando · 6月29日 00:13
+hackernews · hn8726 · 6月29日 13:09 · [社区讨论](https://news.ycombinator.com/item?id=48718840)
 
-**背景**: MLX 是苹果公司开发的开源数组框架，针对搭载 M 系列芯片的 Mac 进行了优化，提供了类似 NumPy 的 Python API，用于高效的机器学习。LoRA 是一种参数高效的微调技术，仅训练少量适配器权重，使得在内存有限的设备上调整大型模型成为可能。两者结合，可以在苹果芯片上本地运行和定制大语言模型，无需依赖云端。
+**背景**: AI 音乐生成工具（如 Suno 和 Udio）使音乐创作变得容易，有时导致冒充真实艺人的内容。Deezer 等平台已开发 AI 音乐检测工具，而内容真实性倡议等行业组织推广溯源标准以验证数字内容的来源。Tidal 的政策出台正值人们对 AI 对艺术诚信和版权影响的担忧日益加剧之际。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/ml-explore/mlx">GitHub - ml-explore/ mlx : MLX : An array framework for Apple silicon</a></li>
-<li><a href="https://medium.com/lolml/introduction-to-mlx-apples-machine-learning-framework-527b81f23fa5">Introduction to MLX : Apple’s Machine Learning Framework | Medium</a></li>
-<li><a href="https://martinlwx.github.io/en/lora-finetuning/">LoRA fine - tuning - MartinLwx's Blog</a></li>
+<li><a href="https://grokipedia.com/page/Detection_of_AI-generated_music">Detection of AI-generated music</a></li>
+<li><a href="https://grokipedia.com/page/content-provenance-in-ai-publishing">Content Provenance in AI Publishing</a></li>
 
 </ul>
 </details>
 
-**标签**: `#MLX`, `#fine-tuning`, `#LoRA`, `#Apple Silicon`, `#local-llm`
+**社区讨论**: 社区普遍欢迎该政策，认为这是合理之举，但许多人呼吁提供完全避开 AI 音乐的选项。有人反映 AI 曲目已充斥推荐，并对执行效果持怀疑态度。
+
+**标签**: `#AI`, `#music`, `#policy`, `#streaming`, `#ethics`
 
 ---
 
 <a id="item-14"></a>
-## [1960-2026 内存价格历史趋势可视化](https://dam.stanford.edu/memory-prices.html) ⭐️ 6.0/10
+## [七巨头股票因 AI 支出担忧开始跑输大盘](https://www.apollo.com/content/dam/apolloaem/pdf/daily-spark/2026/jun/28/062826-Mag7.pdf) ⭐️ 7.0/10
 
-斯坦福大学的 dam.stanford.edu 网站发布了一个可视化图表，展示从 1960 年到 2026 年每 GB 内存的历史成本，该数据源自已关闭的 jcmit.com 数据集。该图表引发了关于通胀调整、重复出现的价格周期以及人工智能对内存需求影响的讨论。 它提供了一个罕见的内存价格长期视角，揭示了由制造产能和外部需求冲击驱动的周期性模式。理解这些趋势有助于硬件采购者、投资者和分析师预测未来成本波动，尤其是在人工智能推动高带宽内存需求前所未有的情况下。 价格未经过通胀调整，这使得早期年份看起来较低；1990 年之前的每 GB 定价是名义上的，因为当时这种容量并不常见。该数据集源自 John C. McCallum 的 jcmit.com，并通过 archive.org 得以保存。社区评论指出约每 3-4 年出现一次明显的周期，可能与晶圆厂产能扩张有关，并将近期价格飙升归因于人工智能相关需求的激增。
+包括苹果、微软和英伟达在内的七巨头科技股开始跑输大盘，引发了对它们在人工智能相关领域巨额资本支出回报的担忧，阿波罗公司的最新分析指出了这一点。 这种跑输大盘的现象可能预示着市场情绪的转变，投资者质疑投入人工智能基础设施的数千亿美元能否转化为盈利增长，这可能会影响整个科技行业。 该分析指出，这些股票的高估值与人工智能投资不确定的回报之间存在分歧，历史数据显示，表现最佳的股票往往在随后几年面临急剧逆转。
 
-hackernews · vga1 · 6月28日 18:32 · [社区讨论](https://news.ycombinator.com/item?id=48710092)
+hackernews · mooreds · 6月29日 14:12 · [社区讨论](https://news.ycombinator.com/item?id=48719532)
 
-**背景**: DRAM（动态随机存取存储器）是计算机和服务器中的主要内存。其市场历来经历繁荣-衰退周期：当供过于求时价格暴跌，导致制造商削减投资，随后短缺导致价格飙升，刺激新晶圆厂建设。摩尔定律曾带来每比特成本的持续下降，但周期依然存在。在 2020 年代，人工智能和数据中心极大增加了对内存的需求，尤其是高带宽内存（HBM），导致 2025-2026 年预测中出现急剧价格上涨。斯坦福的这个页面复活了原本可能丢失的私人数据收集成果。
+**背景**: “七巨头”指的是苹果、微软、Alphabet、亚马逊、英伟达、Meta 和特斯拉这七家巨型科技公司，近年来在人工智能乐观情绪的推动下，它们推动了股市的大部分涨幅。这些公司每年总计在人工智能数据中心和芯片上投入超过 2000 亿美元。然而，成本上升和模糊的盈利途径已开始令投资者担忧。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/High_Bandwidth_Memory">High Bandwidth Memory - Wikipedia</a></li>
-<li><a href="https://siliconanalysts.com/market-data/dram-ddr4-price">DDR4 8Gb Contract & Spot Price — Historical Data & Chart | Silicon Analysts</a></li>
-<li><a href="https://siliconanalysts.com/market-data">Historical Semiconductor Market Data — Wafer Prices, HBM & DRAM Pricing | Silicon Analysts</a></li>
+**社区讨论**: 评论者大多对人工智能资本支出表示怀疑。有人指出历史数据显示，过去的赢家在未来十年往往表现不佳。另一些人认为，市场正在惩罚大型科技公司将利润用于数据中心支出却看不到明确回报的行为，并质疑像谷歌这样的公司估值增长是否合理。有人强调了股票回购与分红在维持股价表现中的作用。
 
-</ul>
-</details>
-
-**社区讨论**: 评论者指出需要进行通胀调整，质疑 1990 年前每 GB 价格的实际意义，并回忆起早期昂贵内存模块的个人经历。人们对反复出现的 3-4 年价格周期表现出浓厚兴趣，猜测这与晶圆厂投资节奏有关。许多人认为近期的 AI 需求激增是一次重大干扰，一些人担心潜在的市场操纵。jcmit 数据集的复活受到欢迎。
-
-**标签**: `#memory`, `#history`, `#economics`, `#hardware`, `#data-visualization`
+**标签**: `#tech-stocks`, `#ai-investment`, `#market-trends`, `#capital-expenditure`, `#financial-analysis`
 
 ---
 
 <a id="item-15"></a>
-## [The Pudding 可视化纽约公共图书馆 5000 份历史菜单](https://pudding.cool/2026/06/menu-story/) ⭐️ 6.0/10
+## [Mullvad 共同所有者个人捐款给瑞典政党引发隐私工具信任争议](https://det.social/@lostgen/116820546568940358) ⭐️ 7.0/10
 
-The Pudding 发布了一个交互式数据故事，探索了来自纽约公共图书馆 Buttolph 馆藏的 5000 份历史菜单（1880-1920 年），揭示了当时的用餐趋势和烹饪演变。 该项目使历史餐饮数据对大众开放并引人入胜，展示了数据可视化如何揭示一个逝去时代的文化历史与用餐趋势。 该项目使用了纽约公共图书馆 Buttolph 馆藏的 5000 份菜单，提供了一个交互式网页界面来探索菜品频率、价格和随时间的变化。数据故事先引导观众浏览精选的洞察，再开放自由探索。
+Mullvad 共同所有者 Fredrik Strömberg 澄清，Daniel Berntsson 对Örebro 党的捐款纯属个人行为，与 Mullvad 的价值观或使命无关。 此事件引发了对主流隐私工具的伦理信任担忧，用户质疑共同所有者的政治关联是否与公司以隐私为核心的使命相冲突，可能影响用户留存和市场声誉。 Mullvad 有两名共同所有者：Daniel Berntsson 和 Fredrik Strömberg；捐款是 Berntsson 私人进行的，Örebro 党被一些评论者描述为民族主义而非极右翼。
 
-hackernews · xbryanx · 6月28日 14:44 · [社区讨论](https://news.ycombinator.com/item?id=48707763)
+hackernews · Risse · 6月29日 10:45 · [社区讨论](https://news.ycombinator.com/item?id=48717469)
 
-**背景**: Buttolph 馆藏由纽约公共图书馆持有，是一个包含超过 25000 份历史菜单的著名档案，主要来自 19 世纪末和 20 世纪初，由 Frank E. Buttolph 编纂。The Pudding 是一家以创建沉浸式、数据驱动视觉文章而闻名的数字出版物，探索文化话题。该项目利用这些菜单的一个子集，制作了一个关于美国烹饪历史的互动叙事。
+**背景**: Mullvad VPN 是一家以强大隐私保护和行业领先地位著称的 VPN 服务，曾在超级碗上做广告。Örebro 党是瑞典的一个地方性政党，持民族主义政策。该新闻在 Hacker News 上引发了关于隐私工具伦理影响的讨论。
 
-**社区讨论**: 评论者对这个项目表示热情，分享了一些相关轶事，比如德国啤酒杯垫的法律效力、当代中餐外卖菜单的美学，以及对历史菜单中“水煮”类别的观察。一位用户建议先浏览精心策划的故事，另一位则将其与一本包含餐厅菜单的复古食谱相提并论，指出除了价格外变化甚微。
+**社区讨论**: 用户表达了担忧，考虑转向其他 VPN 替代方案；一些人争论该党的意识形态，认为其属民族主义而非极右翼。共同所有者 Fredrik Strömberg 强调捐款的个人性质以安抚用户。
 
-**标签**: `#data-visualization`, `#history`, `#food`, `#culture`, `#hackernews`
+**标签**: `#privacy`, `#vpn`, `#mullvad`, `#politics`, `#ethics`
 
 ---
 
 <a id="item-16"></a>
-## [台杉：日本传承 600 年的树上长树林业技术](https://www.openculture.com/2020/10/daisugi.html) ⭐️ 6.0/10
+## [谷歌协助针对批评文章的虚假 DMCA 删除行动](https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/) ⭐️ 7.0/10
 
-Open Culture 在 2020 年 10 月的一篇文章重新介绍了古老的日本林业技术台杉（daisugi），该技术从现有雪松的树桩或树枝上培育新树，以生产出异常笔直和致密的木材。 台杉提供了一种无需皆伐即可生产高品质木材的可持续林业模式，其木材比普通雪松柔韧度高 140%，密度大 200%，非常适合在台风多发地区用于建筑。 该方法先修剪雪松形成宽大稳固的基座，再引导树枝垂直向上生长；此技术十分劳力密集，只适用于特定雪松品种，木材还会经过独特的砂磨抛光处理。
+针对一篇关于 Callum Negus-Fancey 的批评性博文，有人提交了虚假的 DMCA 版权删除请求，谷歌据此将该文章从搜索结果中移除。文章作者 Gergely Orosz 揭露了这一滥用行为，并通过反通知成功让文章恢复。 这一事件表明，DMCA 的安全港条款可能被武器化以压制批评声音，因为平台几乎没有动力核实投诉。它引发了关于平台责任、法律滥用以及史翠珊效应意外放大审查内容的讨论。 被删除的文章原本是关于 Callum Negus-Fancey 及其公司的。作者提交反通知后，谷歌恢复了文章，但最初的移除表明虚假投诉可以轻易得逞。
 
-hackernews · MaysonL · 6月28日 16:28 · [社区讨论](https://news.ycombinator.com/item?id=48708859)
+hackernews · taubek · 6月29日 09:28 · [社区讨论](https://news.ycombinator.com/item?id=48716902)
 
-**背景**: 台杉（意为'平台雪松'）起源于 14 世纪日本京都的北山地区，当时为了在陡峭山坡上应对木材短缺而发展起来。它常被比作欧洲的矮林作业和截枝法，这两种方法也是通过砍伐后的树桩或树枝再生，但台杉专门培育用于建筑的高大笔直原木。该技术是日本精良林业传统的一部分，强调美观与功能性并重。
+**背景**: 根据 DMCA，在线平台在收到删除通知后迅速移除内容即可获得‘安全港’保护，免于版权侵权责任，且通常无需验证投诉的真实性。这可能导致滥用，即利用虚假通知压制内容。史翠珊效应指的是试图隐藏信息反而意外引起更多关注的现象，正如本次事件中删除尝试使文章更加广为人知。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.openculture.com/2020/10/daisugi.html">Daisugi, the 600-Year-Old Japanese Technique of Growing Trees Out of Other Trees, Creating Perfectly Straight Lumber | Open Culture</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Daisugi">Daisugi - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Coppicing">Coppicing</a></li>
+<li><a href="https://en.wikipedia.org/wiki/DMCA_takedown">DMCA takedown</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Streisand_effect">Streisand effect</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者们将台杉与欧洲的截枝法和矮林作业进行对比，有些人认为它是类似做法的日本版名称。另一些人补充了技术细节，指出其劳力密集的本质和对特定雪松品种的依赖。也有人对木材为何具有更优越的强度和柔韧性提出科学解释的疑问。
+**社区讨论**: 评论者指出使用虚假 DMCA 投诉是绝望之举，需要针对虚假通知的惩罚措施，并指出了史翠珊效应的讽刺意味——文章因此更加可见。也有人强调了声誉管理公司在滥用删除系统中的作用。
 
-**标签**: `#forestry`, `#traditional engineering`, `#Japanese culture`, `#woodworking`, `#history`
+**标签**: `#DMCA`, `#censorship`, `#Google`, `#Streisand effect`, `#content moderation`
 
 ---
 
 <a id="item-17"></a>
-## [波兰字母Ś消失之谜](https://aresluna.org/the-curious-case-of-the-disappearing-polish-s/) ⭐️ 6.0/10
+## [Ornith-1.0：面向自主编程的自支架大模型系列](https://simonwillison.net/2026/Jun/29/ornith/#atom-everything) ⭐️ 7.0/10
 
-一篇文章探讨了波兰字母“ś”在不同语境中常被省略或替换的历史和语言原因。 这突显了少数语言在数字文本编码中面临的挑战，也表明看似微小的正字法特性如何影响文化认同和软件兼容性。 Unicode 规范化可将多数波兰字母分解为基本字符加组合变音符，但“ł”保持不变，导致 SQLite FTS 等文本处理工具出现问题。
+DeepReinforce 发布了 Ornith-1.0 开源权重模型系列，采用 MIT 许可，基于 Gemma 4 和 Qwen 3.5 等宽松许可基座模型，涵盖 9B 稠密至 397B 混合专家等多种规格，在相近规模模型的代码基准测试中达到领先水平，并支持自支架式智能体编程。 该模型以宽松的 MIT 许可提供强大的智能体编程能力，降低了开发者构建自主编程助手的门槛，有望加速人工智能驱动的软件开发。 模型系列包含稠密（9B、31B）和混合专家（35B、397B）版本；采用自支架技术，让 LLM 迭代生成并优化编码支架。初步测试显示，其能熟练执行带工具调用的智能体任务，推理速度达每秒 103 个 tokens。
 
-hackernews · colinprince · 6月28日 12:44 · [社区讨论](https://news.ycombinator.com/item?id=48706814)
+rss · Simon Willison · 6月29日 16:17
 
-**背景**: 波兰语使用拉丁字母加变音符号表示斯拉夫发音；由于历史打字限制和键盘快捷键，“ś”常被替换。Unicode 的规范化形式和死键进一步使跨系统的一致表示复杂化。
+**背景**: 自支架是一种让 LLM 生成支架（如步骤序列）指导自身解决问题，并通过强化学习迭代优化的技术。智能体编程指 AI 代理以最少人工干预自主编写、测试和修改代码。混合专家（MoE）是一种利用多个专门子模型高效提升容量的架构。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Combining_Diacritical_Marks">Combining Diacritical Marks</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Dead_key">Dead key</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Unicode_normalization">Unicode normalization</a></li>
+<li><a href="https://medium.com/data-science-in-your-pocket/ornith-1-0-self-learning-llm-for-coding-318c9a830bfc">Ornith 1.0 : Self Learning LLM for Coding | by Mehul Gupta | Medium</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Agentic_coding">Agentic coding</a></li>
+<li><a href="https://huggingface.co/blog/moe">Mixture of Experts Explained</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者指出，除“ł”外，8/9 的波兰字母在 Unicode 中可分解，影响文本规范化。其他人分享了键盘快捷键干扰输入变音符号的烦恼，例如输入“Ć”时 Copilot 会弹出，并讨论了拉丁字母如何帮助波兰与西方文化对齐。
-
-**标签**: `#linguistics`, `#unicode`, `#poland`, `#history`, `#keyboard-shortcuts`
+**标签**: `#LLM`, `#open-source`, `#coding`, `#agentic`, `#self-scaffolding`
 
 ---
 
 <a id="item-18"></a>
-## [乌德尔：翻转“人在回路”叙事](https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything) ⭐️ 6.0/10
+## [Jon Udell 主张将 AI 代理当作团队一员纳入开发流程](https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything) ⭐️ 7.0/10
 
-乔恩·乌德尔在最近的博客文章中批评“人在回路”（HITL）这一说法让渡了人类的主导权，并提议翻转叙事，将 AI 代理视为被招募加入现有开发流程的成员。 这种重新定位强调了 AI 辅助开发中的人类主导权与协作，可能影响开发者如何整合编程代理——将其视为队友而非自主的黑箱。 乌德尔的文章回应了 AI 代理生成不可审核的 PRs 的问题，主张代理辅助流程保持透明，并与现有软件实践相结合。
+Jon Udell 主张，软件开发团队应重新定义与 AI 编码代理的合作方式，即邀请它们加入由人类主导的开发循环，而非采用将控制权让渡给机器的“人机闭环”模式。 这一观点的重要性在于，它保留了人类的主动性，并鼓励透明、可审查的 AI 辅助工作流，避免代理生成黑箱式、难以审查的代码变更，从而损害软件质量。 Udell 特别警告不要让代理生成无法审查的拉取请求（PR），主张代理的贡献应保持透明并接受人类监督，避免黑箱式工作流程。
 
 rss · Simon Willison · 6月28日 21:57
 
-**背景**: “人在回路”（HITL）一词描述的是人类干预自动化决策的系统。在软件领域，由大语言模型驱动的编程代理能自主编写代码，引发了关于质量和监督的讨论。乔恩·乌德尔是知名技术专家和作家，以其对软件开发与协作的洞察而闻名。
+**背景**: 在 AI 辅助开发中，“人机闭环”通常指人类监督或纠正机器输出。AI 编码代理（如 Copilot 或自主编码工具）能生成代码甚至提交拉取请求（PR）——需经审查的代码变更提议。Udell 重新定义了这种关系，建议将代理视为人类驱动流程中的团队成员，而非自主推送变更、人类只需批准的黑箱。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Human-in-the-loop">Human-in-the-loop</a></li>
-<li><a href="https://cloud.google.com/discover/what-is-agentic-coding">What is agentic coding? How it works and use cases | Google Cloud</a></li>
-
-</ul>
-</details>
-
-**标签**: `#human-in-the-loop`, `#coding-agents`, `#software-development`, `#AI-assisted-development`, `#opinion`
+**标签**: `#agents`, `#software-development`, `#ai`, `#human-in-the-loop`, `#coding-agents`
 
 ---
 
 <a id="item-19"></a>
-## [国产光子方案：太空计算新途径，比马斯克和英伟达更高效](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247900104&idx=1&sn=3b0889c74d995686a0a178fe84cebbb4) ⭐️ 6.0/10
+## [开发者展示基于本地 AI 模型的游戏通用 NPC 引擎](https://www.reddit.com/r/LocalLLaMA/comments/1uibt9o/npc_engine_using_local_models/) ⭐️ 7.0/10
 
-一个中国技术项目提出了基于光子学的太空计算方案，宣称比马斯克的星链和英伟达的电子硬件更高效，并将天基计算推进到可验证、可迭代的工程阶段。 这可能通过提供低功耗、高速的替代方案，彻底改变天基人工智能和边缘计算，减少对地面数据中心的依赖，并实现实时太空应用。 虽然具体技术细节尚未公开，但该项目强调可验证的工程路线，可能利用了开源工具（如 GitHub 2 万星标暗示）。然而，太空光子计算面临辐射加固和与现有卫星系统集成等挑战。
+一位开发者构建了一个游戏通用 NPC 引擎，该引擎完全依靠本地模型进行语音识别、语言生成和语音合成，并利用检索增强生成（RAG）技术保持提示词高效且符合上下文。 这种方法使得在消费级硬件上实现动态、自然的 NPC 互动成为可能，无需依赖云端 API 即可带来更丰富、反应更灵敏的非玩家角色，有望革新角色扮演游戏。 该引擎使用 NVIDIA Parakeet 0.6 进行语音识别、Gemma 4 26B A4B 作为语言模型、Qwen3-TTS 进行文本转语音。RAG 从数百个动作中动态注入与上下文相关的内容，避免提示词过载。
 
-rss · 量子位 · 6月28日 04:08
+reddit · r/LocalLLaMA · /u/goodive123 · 6月28日 23:13
 
-**背景**: 天基计算旨在将计算节点部署在轨道上，以克服地面数据中心在能耗和散热方面的限制。光子计算利用光代替电子进行数据处理，有望实现更高的速度和能效。像 Lightmatter 这样的公司正在开发光子 AI 加速器，而英伟达的 GPU 在传统计算中仍占主导地位。SpaceX 的星链正在建设庞大的卫星星座，但其星上处理主要依赖电子芯片。
+**背景**: SillyTavern 是一个用于与大语言模型进行角色扮演的开源前端，常被用来创建互动 AI 角色。检索增强生成（RAG）是一种在生成文本前从知识库中检索相关信息的技术，可减少幻觉并提升相关性。NVIDIA Parakeet 0.6 是顶尖的自动语音识别模型，而 Gemma 4 26B A4B 和 Qwen3-TTS 则是紧凑但功能强大的本地对话与语音合成模型。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://finance.sina.cn/stock/jdts/2026-03-23/detail-inhrxmec8166324.d.html?vt=4&cid=76993&node_id=76993">把算力中心和智能体送上太空，上海体系化布局“天基计算”未来产业|上海市|卫星|星座|中科|生态_手机新浪网</a></li>
-<li><a href="https://jeit.ac.cn/cn/article/doi/10.11999/JEIT250633?viewType=HTML">天基计算芯片：现状、趋势与关键技术</a></li>
-<li><a href="http://www.microphotons.net/Article-4418046.html">光 计 算 vs...</a></li>
+<li><a href="https://sillytavern.app/">SillyTavern - LLM Frontend for Power Users [Official Homepage]</a></li>
+<li><a href="https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2">nvidia / parakeet -tdt- 0 . 6 b-v2 · Hugging Face</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation">Retrieval-augmented generation</a></li>
 
 </ul>
 </details>
 
-**标签**: `#space-computing`, `#photonics`, `#chinese-technology`, `#hardware-innovation`
+**标签**: `#local-llm`, `#game-ai`, `#npc`, `#rag`, `#open-source`
 
 ---
 
 <a id="item-20"></a>
-## [800M 参数模型利用因果扩散本地化让静态图像变为可玩角色](https://www.reddit.com/r/LocalLLaMA/comments/1uicq8x/locally_running_mode_turns_an_image_into_a_cute/) ⭐️ 6.0/10
+## [NASA 为太空任务测试本地大语言模型推理](https://www.reddit.com/r/LocalLLaMA/comments/1uisspl/nasa_testing_local_llm_inference_for_future_space/) ⭐️ 7.0/10
 
-一个全新的 8 亿参数模型，作为之前较小版本的续作，利用因果扩散技术将单张静态图像转换为可控的动画角色，并且能够在消费级 GPU 上本地运行。 该工作通过实现本地硬件上的实时交互式动画，无需依赖云端，普及了角色动画技术，吸引了 AI 爱好者、游戏开发者以及寻求低成本创意工具的小型工作室。 该模型将上下文帧数增加到 12 个潜在帧，提升了稳定性但仍存在一致性问题；其 5 亿参数版本在 RTX 5090 上达到超过 60 fps，使用滑动窗口键值缓存来管理帧历史。
+NASA 正在开发宇航员医疗官数字助手（CMO-DA），这是一个使用 llama.cpp 和 RamaLama 本地运行大语言模型的人工智能系统，旨在帮助宇航员在月球或火星任务中离线诊断和治疗医疗症状。 由于深空通信存在光延迟和中断，依赖地球的远程医疗并不实际，这种本地优先的架构消除了对云的依赖，可能为在关键任务且断网的环境中应用可信的 AI 铺平道路。 该系统利用检索增强生成（RAG）技术查询太空飞行医学文献，并正在国际空间站上 HPE 太空计算机的地面孪生系统上进行测试。模型被视为可移植、可加密验证的构件，以确保在无法触及的太空硬件上实现可复现和安全的部署。
 
-reddit · r/LocalLLaMA · /u/lucidml_lover · 6月28日 23:55
+reddit · r/LocalLLaMA · /u/Careless-Car_ · 6月29日 13:39
 
-**背景**: 因果扩散是一种生成方法，结合了下一标记预测与扩散技术，逐帧执行去噪步骤并将过去帧存储在键值缓存中。扩散强制是一种训练方法，其中每个标记的噪声水平独立采样，从而实现灵活的序列生成。键值缓存通常用于大语言模型中，存储先前步骤的键值对以避免重复计算，这里被用来存储潜在帧。该模型使用预训练的变分自编码器将帧压缩到潜在空间后再进行处理。
+**背景**: llama.cpp 是一个流行的 C/C++ 库，能够在各种硬件上以最小配置本地运行大语言模型推理。RamaLama 是一个开源命令行工具，封装了 llama.cpp 等推理引擎，让用户能像使用容器一样拉取和运行 AI 模型，确保可移植性和可复现性。检索增强生成（RAG）是一种通过查询外部知识库来提高大语言模型回答准确性的技术。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2412.12095">[2412.12095] Causal Diffusion Transformers for Generative Modeling</a></li>
-<li><a href="https://arxiv.org/abs/2407.01392">[2407.01392] Diffusion Forcing: Next-token Prediction Meets ...</a></li>
-<li><a href="https://grokipedia.com/page/KV_cache">KV cache</a></li>
+<li><a href="https://github.com/ggml-org/llama.cpp">GitHub - ggml-org/llama.cpp: LLM inference in C/C++ · GitHub</a></li>
+<li><a href="https://developers.redhat.com/articles/2024/11/22/how-ramalama-makes-working-ai-models-boring">How RamaLama makes working with AI models boring | Red Hat Developer</a></li>
+<li><a href="https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/">What Is Retrieval - Augmented Generation aka RAG | NVIDIA Blogs</a></li>
 
 </ul>
 </details>
 
-**标签**: `#local-ai`, `#diffusion-models`, `#character-animation`, `#generative-ai`, `#open-source`
+**标签**: `#local-llm`, `#nasa`, `#medical-ai`, `#edge-inference`, `#rag`
 
 ---
 
 <a id="item-21"></a>
-## [HuggingFace 低质微调模型泛滥，或为简历镀金](https://www.reddit.com/r/LocalLLaMA/comments/1ui7xoj/trying_to_understand_why_so_many_trash_finetuned/) ⭐️ 6.0/10
+## [双 GPU 通过并行小模型编排提升编码吞吐量](https://www.reddit.com/r/LocalLLaMA/comments/1uiuyyp/going_from_single_gpu_to_dual_gpu_is_nice_but_not/) ⭐️ 7.0/10
 
-一位 Reddit 用户抱怨 HuggingFace 上低性能微调模型泛滥，推测这些模型可能是为 AI 职位求职者增加简历分量而制作。 这反映了社区对模型质量和开源贡献动机的日益关注，低质模型可能误导用户、浪费资源，也折射出 AI 就业市场中数量重于质量的趋势。 文中提及类似'Qwhoppass-27B-Mother-Ultimate-Lord'的模型名称，反映了命名随意甚至浮夸的现象。作者将此举类比为过去通过 GitHub 项目增强个人信誉的行为，并指出这些模型性能往往不如基础模型。
+一位 Reddit 用户发现，使用两块 24GB GPU 并行运行多个较小语言模型——一个编排者加多个子代理——相比单纯使用更大量化或更多上下文的单个大模型，能显著提高编码吞吐量。 这挑战了人们对缓慢运行超大模型的常见执念，表明在本地编码辅助中，将任务智能分配给更小的专用模型更为实用高效，惠及拥有多 GPU 配置的爱好者。 该设置使用 Qwen 27B UD-Q4-XL 作为编排者，Qwen 35B-A3B 作为子代理，每个最多 115k 上下文。子代理完成狭义任务后报告，无需频繁上下文压缩，主代理压缩频率也降低，从而实现更高总体吞吐量。
 
-reddit · r/LocalLLaMA · /u/BoogerheadCult · 6月28日 20:31
+reddit · r/LocalLLaMA · /u/cibernox · 6月29日 15:02
 
-**背景**: Hugging Face 是一个分享机器学习模型和数据集的平台，尤其专注于自然语言处理。微调是指对预训练模型进行额外训练以适应特定任务的过程。虽然微调可以创建强大的专用模型，但低质量的微调可能导致性能下降。众多用户将模型上传至 HuggingFace Hub，但并非所有都经过充分测试或有益。
+**背景**: 量化（如 Q4、Q6、Q8）通过降低模型精度节省显存，使更大模型能在有限硬件上运行，但会牺牲一定质量。代理编排是一种由中央 LLM 将任务委派给多个较小模型以实现并行执行的技术。许多本地 LLM 爱好者试图使用系统内存运行 100B+模型，导致推理缓慢，而该方法表明小模型的并行处理更有效。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Hugging_Face">Hugging Face - Wikipedia</a></li>
+<li><a href="https://medium.com/@techresearchspace/what-is-quantization-in-llm-01ba61968a51">What is Quantization in LLM . Large Language Models... | Medium</a></li>
+<li><a href="https://www.ibm.com/think/tutorials/llm-agent-orchestration-with-langchain-and-granite">LLM Agent Orchestration: A Step by Step Guide | IBM</a></li>
 
 </ul>
 </details>
 
-**标签**: `#fine-tuning`, `#HuggingFace`, `#model quality`, `#AI community`, `#job market`
+**标签**: `#multi-gpu`, `#agent-orchestration`, `#parallel-inference`, `#local-llm`, `#coding-assistance`
+
+---
+
+<a id="item-22"></a>
+## [Bolt Graphics GPU 配备双 DDR5 SODIMM 插槽，支持超 100GB 内存](https://www.reddit.com/r/LocalLLaMA/comments/1uiueqw/bolt_graphics_gpu_will_have_2_ddr5_laptop_dimm/) ⭐️ 7.0/10
+
+Bolt Graphics 公司展示了一款原型 GPU，它配备两个 DDR5 笔记本 SODIMM 插槽。该设计可在板载 LPDDR5X 基础上扩展内存，总容量可超过 100GB，主要面向创作者和 AI 工作负载。 这种设计可能大幅降低大容量显存 GPU 的成本并提高灵活性，用户可通过标准笔记本内存条升级显存。这有望让大容量 VRAM 的 AI 推理更加普及。 该 GPU 采用 5nm 制程，板载 LPDDR5X 作为主显存，DDR5 SODIMM 用于溢出扩展；具备双 PCIe Gen5 x16 接口、一个 RJ-45 千兆网口，目标功耗 120W。预生产样品计划在 2025 年底前完成，量产则定于 2027 年圣诞节。
+
+reddit · r/LocalLLaMA · /u/tomByrer · 6月29日 14:41
+
+**背景**: DDR5 SODIMM 是一种常用于笔记本的小型内存模块。传统 GPU 的显存通常焊接在板上且不可升级。Bolt Graphics 的设计添加了标准笔记本内存插槽，方便用户增加总内存容量。“溢出”内存的概念是使用较慢但更便宜的 DDR5 作为更快但容量有限的板载 LPDDR5X 的扩展，并通过增加缓存来缓解带宽差异。这种方法或许能让需要大内存但对带宽要求不那么敏感的大语言模型运行成为可能。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/DDR5_SDRAM">DDR 5 SDRAM - Wikipedia</a></li>
+<li><a href="https://directmacro.com/blog/post/sodimm-vs-dimm">SODIMM vs DIMM : Laptop vs Desktop Memory Compared</a></li>
+
+</ul>
+</details>
+
+**标签**: `#hardware`, `#GPU`, `#LLM`, `#memory`, `#prototype`
+
+---
+
+<a id="item-23"></a>
+## [Qwen 3.6 27B：本地 LLM 最佳选择，但硬件成本高昂](https://quesma.com/blog/qwen-36-is-awesome/) ⭐️ 6.0/10
+
+一篇新评测将 Qwen 3.6 27B 定位为本地 LLM 开发的“最佳平衡点”，其性能媲美更大模型，但需要昂贵的 128GB MacBook Pro 才能有效运行。 这很重要，因为它凸显了开源权重模型在本地隐私保护开发中日益增长的能力与高昂硬件成本之间的矛盾，可能迫使开发者转而依赖云 API。 Qwen 3.6 27B 是阿里巴巴于 2026 年 4 月发布的稠密 27B 参数模型，在编码任务上表现优于更大模型。要发挥其最佳性能，需要配备至少 128GB 统一内存的 MacBook Pro，起价 6699 美元。
+
+hackernews · stared · 6月29日 17:05 · [社区讨论](https://news.ycombinator.com/item?id=48721903)
+
+**背景**: Qwen 是阿里巴巴开发的大语言模型系列，3.6 系列注重稳定性和实际使用。本地 LLM 开发使开发者能在自己的硬件上运行模型，以实现隐私保护和低延迟，但模型大小受设备内存限制。27B 参数大小常被视为能力与资源消耗的平衡点，但要全精度或长上下文运行此类模型，需要高内存，尤其是在苹果芯片上，GPU 与系统内存共享，因此高端 MacBook Pro 成为本地推理的常见选择。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://huggingface.co/rico03/Qwen3.6-27B-Claude-Opus-Reasoning-Distilled">rico03/ Qwen 3 . 6 - 27 B -Claude-Opus-Reasoning-Distilled · Hugging Face</a></li>
+<li><a href="https://openrouter.ai/qwen/qwen3.6-27b">Qwen 3 . 6 27 B - API Pricing & Benchmarks | OpenRouter</a></li>
+<li><a href="https://ollama.com/library/qwen3.6:27b">qwen 3 . 6 : 27 b</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 社区反应不一：有人质疑该模型在“实际工作”中的实用性，认为仅适用于简单的零样本任务；另有人批评 128GB MacBook Pro 高达 6699 至 10000 美元的高昂成本。有人提到了在专用 GPU 上运行 Gemma4 31B 等替代方案，也有人对用较低配置运行较小的 Qwen 模型感兴趣。
+
+**标签**: `#Local LLM`, `#Qwen`, `#MacBook Pro`, `#AI Development`, `#Model Comparison`
+
+---
+
+<a id="item-24"></a>
+## [纯 CPU 运行 4-bit GLM 5.2：Epyc 与 512GB 内存生成 3D 游戏](https://www.reddit.com/r/LocalLLaMA/comments/1uiqiqc/cpuonly_glm_52_epyc_and_512gb_ram/) ⭐️ 6.0/10
+
+一位用户在一台仅用 CPU 的 Epyc Rome 7452 服务器（512GB 内存）上测试了 4-bit 量化的 GLM 5.2 模型，通过详细提示生成了一个完整的 3D 竞技场 HTML 游戏。生成过程耗时 2 小时 29 分钟，输出了 15510 个 token 的高质量代码。 这表明像 GLM 5.2 这样的超大规模语言模型可以在没有 GPU 的高内存 CPU 系统上运行，使得硬件预算有限的用户也能获得先进的 AI 能力。它凸显了通过量化技术在前沿模型上进行纯 CPU 推理的潜力。 使用的模型为 GLM-5.2-UD-Q4_K_XL，是约 753B 参数混合专家模型的 4-bit 量化版，运行在单颗 AMD EPYC 7452 CPU 和 512GB 内存上。生成速度未报告，但总时间和 token 数表明推理速率极慢。
+
+reddit · r/LocalLLaMA · /u/FastHotEmu · 6月29日 12:01
+
+**背景**: GLM 5.2 是 Z.ai 于 2026 年 6 月发布的 753B 参数混合专家大语言模型，以 MIT 许可证开源，针对智能编码和百万 token 长上下文任务设计。4-bit 量化通过降低数值精度来压缩模型，大幅减少内存占用（例如从超过 1TB 降至 256GB 以下），同时保留大部分性能，使得模型能在高内存 CPU 服务器上运行。当有足够内存时，纯 CPU 推理对大型模型越来越可行，但速度远慢于基于 GPU 的推理。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.buildfastwithai.com/blogs/glm-5-2-review-2026">GLM - 5 . 2 Review 2026: Z.ai's 1M-Context AI Model</a></li>
+<li><a href="https://recipes.vllm.ai/zai-org/GLM-5.2">zai-org/ GLM - 5 . 2 | vLLM Recipes</a></li>
+<li><a href="https://insiderllm.com/guides/llm-quantization-explained/">Quantization Explained: What It Means for Local AI | InsiderLLM</a></li>
+
+</ul>
+</details>
+
+**标签**: `#local-llm`, `#cpu-inference`, `#glm-5`, `#epyc`, `#game-generation`
 
 ---
