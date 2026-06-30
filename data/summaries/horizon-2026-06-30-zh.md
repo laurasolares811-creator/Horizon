@@ -1,242 +1,428 @@
 # Horizon 每日速递 - 2026-06-30
 
-> 从 36 条内容中筛选出 24 条重要资讯。
+> 从 36 条内容中筛选出 23 条重要资讯。
 
 ---
 
-1. [PostgreSQL 19 Beta 功能预览引发社区热议](#item-1) ⭐️ 9.0/10
-2. [vLLM v0.24.0 发布：新增 MiniMax-M3 支持与 DeepSeek-V4 优化](#item-2) ⭐️ 8.0/10
-3. [Claude Code 被发现使用隐写术标记 API 请求](#item-3) ⭐️ 8.0/10
-4. [美国一县拥有 37 个数据中心却要求学校节电](#item-4) ⭐️ 8.0/10
-5. [欧洲数字身份钱包依赖谷歌与苹果，引发主权争议](#item-5) ⭐️ 8.0/10
-6. [Fil-C 实现内存安全的上下文切换](#item-6) ⭐️ 8.0/10
-7. [LongCat-2.0 发布：1.6T 总参数量、48B 激活参数的 MoE 模型，基于 AI ASIC 集群](#item-7) ⭐️ 8.0/10
-8. [华为开源盘古 2.0-Flash 模型](#item-8) ⭐️ 8.0/10
-9. [PageStorm 发布：全书籍创意写作模型与数据集](#item-9) ⭐️ 8.0/10
-10. [单张 RTX 3090 上 Qwen 3.6 27B 推测解码近 100 TPS](#item-10) ⭐️ 8.0/10
-11. [1852 年经典著作《大癫狂》引发关于投机泡沫的讨论](#item-11) ⭐️ 7.0/10
-12. [Knoppix：开创性的 Live CD Linux 发行版](#item-12) ⭐️ 7.0/10
-13. [支持自托管和数字身份的 .self 顶级域名提案](#item-13) ⭐️ 7.0/10
-14. [shot-scraper 1.10 新增视频录制功能，助力编程智能体](#item-14) ⭐️ 7.0/10
-15. [浏览器工具可从粘贴内容提取 HTML 表格并转换格式](#item-15) ⭐️ 7.0/10
-16. [NVIDIA 发布基于 NVFP4 的 Qwen3.6-27B 模型](#item-16) ⭐️ 7.0/10
-17. [微软移除 FastContext 模型及所有资源](#item-17) ⭐️ 7.0/10
-18. [Hugging Face 新增硬件兼容性筛选功能](#item-18) ⭐️ 7.0/10
-19. [保留范数消除拒绝：Qwen3.6-35B-A3B 实现零拒绝率](#item-19) ⭐️ 7.0/10
-20. [美劳工份额战后新低，但属周期性](#item-20) ⭐️ 6.0/10
-21. [2025 年研究：高强度间歇训练可减少老年人身体脂肪](#item-21) ⭐️ 6.0/10
-22. [AI 伦理测验“AI 指南针”将用户分为 30 种原型](#item-22) ⭐️ 6.0/10
-23. [OpenAI 首席研究官：AGI 留给人类的时间窗口很小](#item-23) ⭐️ 6.0/10
-24. [Bartowski 发布 DeepSeek V4 Flash 的 GGUF 量化版本](#item-24) ⭐️ 6.0/10
+1. [Claude Sonnet 5 发布，成本争议引关注](#item-1) ⭐️ 9.0/10
+2. [Claude Code 在 API 请求中嵌入隐写标识符](#item-2) ⭐️ 8.0/10
+3. [我们可能是最后一代真正理解技术运作的人](#item-3) ⭐️ 8.0/10
+4. [PostgreSQL 19 预览引发社区对列存储等功能的热议](#item-4) ⭐️ 8.0/10
+5. [拥有 37 个数据中心的弗吉尼亚郡要求学校节电](#item-5) ⭐️ 8.0/10
+6. [1852 年经典《疯狂的人群》引发 HN 热议](#item-6) ⭐️ 8.0/10
+7. [ZLUDA 6 发布：非 Nvidia GPU 上运行 CUDA 应用](#item-7) ⭐️ 8.0/10
+8. [LongCat-2.0：1.6 万亿 MoE 模型，基于定制 AI ASIC 训练](#item-8) ⭐️ 8.0/10
+9. [华为开源 OpenPangu-2.0-Flash：92B 总参、6B 激活的 MoE 模型](#item-9) ⭐️ 8.0/10
+10. [PageStorm：单轮全本创意写作模型](#item-10) ⭐️ 8.0/10
+11. [Qwen3.6-35B-A3B 上的保范消除拒绝实现零拒绝](#item-11) ⭐️ 8.0/10
+12. [Anthropic 推出面向科学家的 AI 工作台 Claude Science](#item-12) ⭐️ 7.0/10
+13. [Nano Banana 2 Lite 发布：极速图像生成模型上线](#item-13) ⭐️ 7.0/10
+14. [Waag 将 Bluesky 数据迁移至 Eurosky 以实践数据主权](#item-14) ⭐️ 7.0/10
+15. [欧洲数字身份钱包依赖谷歌和苹果服务](#item-15) ⭐️ 7.0/10
+16. [OpenAI 首席研究官警告：人类为 AGI 准备的时间窗口极小](#item-16) ⭐️ 7.0/10
+17. [NVIDIA 发布 NVFP4 量化版 Qwen3.6-27B 模型](#item-17) ⭐️ 7.0/10
+18. [Bartowski 发布 DeepSeek-V4 Flash GGUF 模型](#item-18) ⭐️ 7.0/10
+19. [审阅者框架比模型大小更关键，提升编码可靠性](#item-19) ⭐️ 7.0/10
+20. [Qwen 3.6 27B 借助投机解码在 RTX 3090 上实现约 100 TPS](#item-20) ⭐️ 7.0/10
+21. [Hugging Face 新增硬件兼容性筛选功能](#item-21) ⭐️ 7.0/10
+22. [shot-scraper 1.10 新增视频命令，方便代理录制演示](#item-22) ⭐️ 6.0/10
+23. [HTML 表格提取工具将粘贴表格转换为多种格式](#item-23) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [PostgreSQL 19 Beta 功能预览引发社区热议](https://www.snowflake.com/en/blog/engineering/postgresql-19-features-beta/) ⭐️ 9.0/10
+## [Claude Sonnet 5 发布，成本争议引关注](https://www.anthropic.com/news/claude-sonnet-5) ⭐️ 9.0/10
 
-PostgreSQL 19 测试版预览了图数据库查询、增强的 COPY 命令和逻辑复制改进等新功能。社区讨论迅速聚焦在轻量级连接处理、原生列式存储和 SQL:2011 时间数据支持等长期需求上。 PostgreSQL 是关键的开源基础设施，图查询和时间数据处理等功能的加入将使其能力现代化。社区对连接开销和列式存储的强调，揭示了影响高并发和分析型工作负载的关键架构缺口。 预览指出这些功能尚处测试阶段，最终版本可能有变。提议的 GRAPH_TABLE 图查询语法与标准 SQL 有差异，时间数据支持似乎基于外部提案，而非已确定的核心功能。
+Anthropic 发布了 Claude Sonnet 5，该模型针对自主代理任务优化，能自主规划和利用浏览器、终端等工具，性能达到以往需更大模型才能实现的水平，但基准测试显示其成本效益不佳且网络安全任务能力下降。 此发布突显了向自主代理 AI 的战略推进，但其成本与性能的权衡可能限制采用，尤其对认为 Opus 模型更经济的用户。这凸显了行业在自主性与效率之间平衡的挑战。 在 CyberGym 漏洞发现测试中，Sonnet 5 得分低于 Sonnet 4.6 和 Opus 4.8，启用默认安全措施时得分为零。每任务成本图显示，在中等努力以上，Opus 更便宜，令人质疑 Sonnet 5 的定位。
 
-hackernews · thinkingemote · 6月30日 14:14 · [社区讨论](https://news.ycombinator.com/item?id=48733031)
+hackernews · marinesebastian · 6月30日 17:59 · [社区讨论](https://news.ycombinator.com/item?id=48736605)
 
-**背景**: PostgreSQL 是广泛使用的开源关系型数据库。测试版让用户提前试用即将推出的功能。图数据库能力支持通过模式匹配查询关系，而列式存储将数据按列组织以加速分析查询，这与 PostgreSQL 默认的行存储不同。
+**背景**: 自主代理 AI（Agentic AI）指能够设定目标、规划并以最少人工干预执行任务的人工智能系统，常使用浏览器、终端等外部工具。Anthropic 的 Claude 模型涵盖 Sonnet（均衡型）到 Opus（最强型），此前 Sonnet 版本在编程中广受欢迎。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.epsio.io/blog/postgres-columnar-storage-4-popular-extensions-and-a-quick-tutorial">Postgres Columnar Storage: 4 Popular Extensions and a Quick Tutorial</a></li>
-<li><a href="https://wiki.postgresql.org/wiki/Temporal_Extensions">Temporal Extensions - PostgreSQL wiki</a></li>
+<li><a href="https://en.wikipedia.org/wiki/AI_agent">AI agent - Wikipedia</a></li>
+<li><a href="https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained">Agentic AI, explained | MIT Sloan</a></li>
+<li><a href="https://cloud.google.com/discover/what-is-agentic-ai">What is agentic AI? Definition and differentiators | Google Cloud</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者高度认可 PostgreSQL 的优点，但对缺失功能表示担忧：轻量级连接以降低内存开销、适用于大数据集的原生列式存储，以及 SQL:2011 时间表支持。提出的图查询语法因其非标准外观受到批评，而 COPY 和逻辑复制的改进则受到欢迎。
+**社区讨论**: 社区反应不一：有人视 Sonnet 5 为编程任务的有用增量更新，但其他人批评其在高努力级别下相比 Opus 的成本效益。对网络安全能力退步的担忧浮现，有用户指出 Sonnet 5 启用安全措施后在 CyberGym 得分为零，还有用户偏好自主性较低的模型进行辅助开发。
 
-**标签**: `#postgresql`, `#database`, `#beta`, `#features`, `#open-source`
+**标签**: `#AI`, `#LLM`, `#Anthropic`, `#agentic`, `#cost-efficiency`
 
 ---
 
 <a id="item-2"></a>
-## [vLLM v0.24.0 发布：新增 MiniMax-M3 支持与 DeepSeek-V4 优化](https://github.com/vllm-project/vllm/releases/tag/v0.24.0) ⭐️ 8.0/10
+## [Claude Code 在 API 请求中嵌入隐写标识符](https://thereallo.dev/blog/claude-code-prompt-steganography) ⭐️ 8.0/10
 
-vLLM v0.24.0 引入了对 MiniMax-M3 模型的支持（包含 BF16/FP8 索引、MXFP4 量化及 AMD ROCm 优化），并为 DeepSeek-V4 带来了显著的性能优化，例如通过 FlashInfer 稀疏索引缓存减少首 token 延迟 2-4%，以及通过预填充分块规划提升端到端吞吐量 4%。 该版本提升了 vLLM 的推理效率与模型覆盖范围，尤其针对 MiniMax-M3 和 DeepSeek-V4 等前沿中文模型，使高性能推理对社区更为易用且更具成本效益。 关键技术亮点包括 MiniMax-M3 采用的 MXFP4 4-bit 量化以降低内存占用，DeepSeek-V4 的 FlashInfer 稀疏索引缓存，以及新增的 device_ids 参数取代了内部的 CUDA_VISIBLE_DEVICES 设置，为用户提供更明确的设备选择控制。
-
-github · khluu · 6月29日 19:41
-
-**背景**: vLLM 是一个广受欢迎的开源大语言模型推理引擎，以其高吞吐量和低延迟著称。MiniMax-M3 由上海的 MiniMax 公司开发，是一个原生多模态模型，支持高达 100 万 token 的上下文窗口，并采用专有的 MiniMax Sparse Attention（MSA）架构。DeepSeek-V4 是深度求索公司近期推出的高性能模型。MXFP4（4 位浮点量化）和 FlashInfer（高效注意力计算内核库）等技术对减少 GPU 内存占用和加速推理至关重要。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.minimax.io/models/text/m3">MiniMax M3 - Coding & Agentic Frontier, 1M Context, Multimodal | MiniMax</a></li>
-<li><a href="https://huggingface.co/docs/transformers/en/quantization/mxfp4">MXFP4 · Hugging Face</a></li>
-<li><a href="https://github.com/flashinfer-ai/flashinfer">GitHub - flashinfer-ai/flashinfer: FlashInfer: Kernel Library for LLM Serving · GitHub</a></li>
-
-</ul>
-</details>
-
-**标签**: `#vLLM`, `#LLM-serving`, `#release-notes`, `#model-optimization`, `#DeepSeek-V4`
-
----
-
-<a id="item-3"></a>
-## [Claude Code 被发现使用隐写术标记 API 请求](https://thereallo.dev/blog/claude-code-prompt-steganography) ⭐️ 8.0/10
-
-Anthropic 的 Claude Code 工具被发现在发出的 API 请求中嵌入了隐藏的隐写标记，此前这一做法并未公开。反向工程显示，这些标记被插入以追踪并可能控制使用行为。 这种隐蔽追踪在无用户同意和透明度的情况下运作，削弱了开发者信任并引发了隐私担忧。它也凸显了 AI 工具中反滥用措施与用户权利之间的更广泛冲突。 标记嵌入在请求结构中（如头部或内容），设计上难以察觉。观察者指出该实现颇为粗糙，通过反向工程相对容易被发现，且可能无意中影响合法开发者。
+Anthropic 的 Claude Code 工具被发现在 API 请求中嵌入了隐藏的隐写标识符，以追踪和阻止未经授权的使用，例如模型蒸馏。 这揭示了广泛使用的 AI 工具缺乏透明度，引发了对信任和用户隐私的道德担忧，可能影响开发者对 AI 工具的接受度。 隐写方法实现得较为粗糙，容易被发现，可能旨在识别从事模型蒸馏的中国公司；博客作者担心这可能会误伤普通开发者。
 
 hackernews · kirushik · 6月30日 15:44 · [社区讨论](https://news.ycombinator.com/item?id=48734373)
 
-**背景**: 隐写术是一种将信息隐藏在其他数据中的技术，使得消息的存在本身被掩盖，这不同于仅混淆内容的加密。Claude Code 是 Anthropic 的一款 AI 编码助手，广泛用于软件开发。这一发现来自社区反向工程，而非官方文档。
+**背景**: 隐写术是将信息隐藏在其它数据中的做法，使之不被察觉。与开源的 Codex CLI 不同，Claude Code 是专有软件，用户对其操作了解有限。模型蒸馏是一种通过从大型模型的输出中学习来训练小型模型的技术，有时未经授权。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Steganography">Steganography</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Claude_Code">Claude Code</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区反应不一：一些人认为隐写术是合理的反滥用措施，另一些人则视其为失信行为。许多人批评实现粗糙、容易探测，并推荐 Codex CLI 等开源替代品以获得更好透明度。用户对 Claude Code 频繁而无沟通的更改也感到失望。
+**社区讨论**: 评论反应不一：一些用户为隐蔽做法辩护，认为对安全必要，另一些则批评缺乏透明度。有人指出实现粗糙，还有人建议使用开源的 Codex CLI 以避免隐藏行为。关于隐写措施的道德和实用性存在辩论。
 
-**标签**: `#steganography`, `#ai`, `#privacy`, `#security`, `#anthropic`
+**标签**: `#steganography`, `#AI ethics`, `#model security`, `#Claude`, `#API`
+
+---
+
+<a id="item-3"></a>
+## [我们可能是最后一代真正理解技术运作的人](https://unix.foo/posts/last-people-who-know-how-it-works/) ⭐️ 8.0/10
+
+一篇反思性文章指出，每一代技术人员对技术底层原理的理解都在减少，引发了关于深层技术知识逐渐流失的讨论。 这种以牺牲深度换取便利的文化转变，引发了对长期创新、安全以及关键基础设施维护和控制能力的担忧。 文章怀旧地将透明的老式计算机与充满遥测和隐藏进程的现代不透明系统进行对比。评论者强调，知识往往仅限于少数几个抽象层，加剧了失去自主权和日益增长的不安感。
+
+hackernews · cylo · 6月30日 16:59 · [社区讨论](https://news.ycombinator.com/item?id=48735633)
+
+**背景**: 在计算机领域，抽象层隐藏了复杂性，加快了开发速度，但往往牺牲了对底层硬件、操作系统和协议的深入理解。这导致每一代人都依赖前代的工作，有时缺乏深入探究的工具或知识。
+
+**社区讨论**: 评论者普遍认同文章观点，分享了知识流失的亲身经历。他们惋惜从透明、可修复的系统转向不透明、经过策划的界面，并对年轻一代缺乏基础计算机技能感到不安。
+
+**标签**: `#technology-culture`, `#knowledge-loss`, `#abstraction`, `#systems-programming`, `#software-engineering`
 
 ---
 
 <a id="item-4"></a>
-## [美国一县拥有 37 个数据中心却要求学校节电](https://www.404media.co/henrico-virginia-datacenter-energy-cost-email/) ⭐️ 8.0/10
+## [PostgreSQL 19 预览引发社区对列存储等功能的热议](https://www.snowflake.com/en/blog/engineering/postgresql-19-features-beta/) ⭐️ 8.0/10
 
-弗吉尼亚州一个拥有 37 个数据中心的县要求其公立学校减少用电，因为数据中心导致的电力需求给当地电网带来了压力。 这凸显了人工智能和云计算繁荣背后的隐性成本，引发了关于谁来为电网升级买单以及如何平衡经济增长与社区需求的紧迫问题。 亨里科县属于 Dominion Energy 的服务区域，根据州法律，该公司必须在 2045 年前实现 100%可再生能源供电，这导致新发电项目上线时电价上涨。
+Snowflake 工程博客预览了 PostgreSQL 19 的新功能，在 Hacker News 上引发活跃讨论，社区成员对列存储、轻量连接和原生时态数据支持表现出浓厚兴趣。 PostgreSQL 是基础性的开源数据库；实现这些功能将大幅提升其分析性能，降低运维开销，并吸引更多企业采用。 讨论中具体提及了降低单连接内存占用、同步更新物化视图以及支持 SQL:2011 应用时态数据等需求。也有用户指出容器化环境中主版本升级的困难。
+
+hackernews · thinkingemote · 6月30日 14:14 · [社区讨论](https://news.ycombinator.com/item?id=48733031)
+
+**背景**: PostgreSQL 默认使用行存储，适合事务型工作负载，但在扫描大量列的分析查询中效率较低。列存储按列组织数据，可提升压缩率和查询速度。轻量连接能降低每个并发连接的内存开销。时态数据支持涉及内置的历史数据状态管理，符合 SQL:2011 标准。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Column_storage">Column storage</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 整体氛围热情且建设性强，许多长期用户分享了功能期望。轻量连接和列存储获得广泛认同，也有人回顾了开发者生态从 MySQL 向 PostgreSQL 的转变。
+
+**标签**: `#postgresql`, `#database`, `#open-source`, `#features`, `#community`
+
+---
+
+<a id="item-5"></a>
+## [拥有 37 个数据中心的弗吉尼亚郡要求学校节电](https://www.404media.co/henrico-virginia-datacenter-energy-cost-email/) ⭐️ 8.0/10
+
+弗吉尼亚州亨利科郡拥有 37 个数据中心，已要求当地学校节约用电，凸显了数据中心能源消耗对电网造成的压力。 这一事件凸显了数据中心快速扩张与当地电网容量之间日益加剧的矛盾，可能导致社区电费上涨和供电可靠性下降。 节能要求特别针对学校，而该郡所在的弗吉尼亚州数据中心发展迅猛，并在《弗吉尼亚清洁经济法案》下进行能源转型。
 
 hackernews · 01-_- · 6月30日 16:05 · [社区讨论](https://news.ycombinator.com/item?id=48734699)
 
-**背景**: 北弗吉尼亚州是全球最大的数据中心市场，亨里科县拥有 37 个设施。2020 年通过的《弗吉尼亚清洁经济法案》要求向可再生能源转型，迫使 Dominion 公司大力投资新发电项目，而与此同时，美国过去 20 年的电力产出一直处于平稳状态。数据中心需求的突然激增（现因人工智能进一步放大）带来了电网挑战，现有基础设施和规划难以轻松应对。
+**背景**: 弗吉尼亚州，特别是北弗吉尼亚，是支撑互联网的数据中心主要枢纽。该州 2020 年通过的《弗吉尼亚清洁经济法案》要求到 2045 年实现 100%可再生能源，这需要公用事业公司进行投资，导致电价上涨。与此同时，美国发电量在过去二十年基本持平，这使得容纳数据中心的新增大规模用电需求变得困难。
 
-**社区讨论**: 评论观点不一：有人将电价上涨归咎于州政府的清洁能源强制令，有人批评科技公司的贪婪并预测将引发政治反弹，还有少数人指出个人节约用电微不足道，或认为数据中心应为电网升级预付费用。
+**社区讨论**: 评论者指出，《弗吉尼亚清洁经济法案》推高了电价以资助可再生能源项目，而关灯等节能措施只是象征性的。他们强调了高昂的需求电费，并担心数据中心耗电会引发政治反弹，一些人认为美国停滞不前的发电量是根本原因。
 
 **标签**: `#data-centers`, `#energy`, `#virginia`, `#sustainability`, `#infrastructure`
 
 ---
 
-<a id="item-5"></a>
-## [欧洲数字身份钱包依赖谷歌与苹果，引发主权争议](https://waag.org/en/article/european-digital-id-wallets-are-gift-google-and-apple/) ⭐️ 8.0/10
+<a id="item-6"></a>
+## [1852 年经典《疯狂的人群》引发 HN 热议](https://www.gutenberg.org/ebooks/24518) ⭐️ 8.0/10
 
-欧洲数字身份钱包（EUDI Wallet）的参考实现强制要求使用 Google Play Integrity 和苹果的设备认证服务，使核心安全功能依赖于美国科技公司。 这种依赖削弱了欧盟的数字主权，让美国企业控制了欧洲公民的数字身份，并将用户限制在谷歌或苹果批准的操作系统上，可能为政府监控后门打开方便之门。 Android 参考钱包明确要求使用 Google Play 服务，排除了 GrapheneOS 等替代系统。苹果的安全隔区和私有访问令牌类似地将用户锁定在 iOS 上。这种集中化带来了监管俘获的风险，并抑制了创新。
+查尔斯·麦凯 1852 年的著作《非同寻常的大众幻想与群众性癫狂》在 Hacker News 上被分享，获得 136 个赞和 39 条评论，讨论其历史准确性和心理学洞见。 该书对非理性群体行为的探索至今仍极具现实意义，正如当前 AI 股票的投机热潮所示，凸显了理解金融狂热的永恒需求。 评论者指出麦凯对郁金香狂热的描述有夸张成分，现代研究表明其经济影响有限；另有人推荐加尔布雷思的《金融狂热简史》作为补充读物。
+
+hackernews · lstodd · 6月30日 12:47 · [社区讨论](https://news.ycombinator.com/item?id=48731989)
+
+**背景**: 查尔斯·麦凯 1852 年的经典著作通过郁金香狂热和南海泡沫等事件，审视了经济泡沫、群体心理学和集体妄想。郁金香狂热是 17 世纪 30 年代荷兰的投机泡沫，郁金香球茎价格飙升后崩盘，但其严重性如今备受争议。该书的主题与从互联网泡沫到 AI 股票狂热的现代金融狂热相呼应。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Tulip_mania">Tulip mania</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 总体评价正面但带有批判性；评论者欣赏该书的生动风格，但质疑其历史准确性，尤其是对郁金香狂热的描述。一些人将其与当前的 AI 投资热潮类比，并推荐了加尔布雷思等人的相关著作。一位评论者反思了心理学课程如何打破了自己对理性的幻想。
+
+**标签**: `#history`, `#psychology`, `#finance`, `#bubbles`, `#crowds`
+
+---
+
+<a id="item-7"></a>
+## [ZLUDA 6 发布：非 Nvidia GPU 上运行 CUDA 应用](https://vosen.github.io/ZLUDA/blog/zluda-update-q1q2-2026/) ⭐️ 8.0/10
+
+ZLUDA 6 版本发布，为非 Nvidia GPU 带来更广泛的 CUDA 兼容性，新增包括 32 位 PhysX 支持在内的功能。在商业资助结束后，该项目现在由开发者的个人兴趣驱动。 此版本使用户能够在更广泛的硬件上运行依赖 CUDA 的应用程序，减少对 Nvidia GPU 的锁定。特别值得注意的是，它为像 32 位 PhysX 这样 Nvidia 曾考虑放弃的功能提供了替代解决方案。 ZLUDA 6 是一个周末项目，优先级基于娱乐而非商业可行性。32 位 PhysX 支持填补了 Nvidia 最初从 RTX 5000 系列中移除该功能所留下的空白。通过翻译层实现接近原生的性能，通常通过 ROCm 面向 AMD GPU。
+
+hackernews · Tiberium · 6月30日 10:34 · [社区讨论](https://news.ycombinator.com/item?id=48730713)
+
+**背景**: CUDA 是 Nvidia 的并行计算平台和 API，广泛用于 GPU 加速计算，但仅限于 Nvidia 硬件。ZLUDA 是一个开源兼容层，允许未经修改的 CUDA 应用程序在其他 GPU 上运行，主要通过 ROCm 在 AMD GPU 上实现。PhysX 是一个物理模拟引擎，32 位支持已被 Nvidia 逐步淘汰，导致与旧游戏的兼容性问题。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://github.com/vosen/ZLUDA">GitHub - vosen/ZLUDA: CUDA on non-NVIDIA GPUs · GitHub</a></li>
+<li><a href="https://grokipedia.com/page/ZLUDA">ZLUDA</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 评论者赞赏开发者以娱乐为导向的方法，并欢迎 32 位 PhysX 支持，指出在 Nvidia 取消移除决定后其相关性。有人询问与 Vulkan 相比的 LLM 性能，还有人提到 ZLUDA 名称的双关意为「幻影」。
+
+**标签**: `#CUDA`, `#GPU`, `#translation-layer`, `#ZLUDA`, `#open-source`
+
+---
+
+<a id="item-8"></a>
+## [LongCat-2.0：1.6 万亿 MoE 模型，基于定制 AI ASIC 训练](https://longcat.chat/blog/longcat-2.0/) ⭐️ 8.0/10
+
+LongCat-2.0 是一个大规模混合专家（MoE）语言模型，总参数 1.6 万亿，激活参数 480 亿，宣布开源，并基于数万个定制 AI ASIC（可能为华为昇腾芯片）集群训练，但下载资源尚未提供。 该模型展示了在非英伟达硬件上训练大型 AI 模型的进展，可能降低对受限 GPU 供应链的依赖，推动中国本土 AI 基础设施发展。若真能开源，将促进更广泛的访问和创新。 LongCat-2.0 采用 MoE 架构，每个 token 仅激活 480 亿参数，使 1.6 万亿总参数模型可实现高效推理。但尚未发布权值、代码或部署资源，且该公司既往延迟历史引发了对其开源声明的质疑。
+
+hackernews · benjiro29 · 6月30日 00:30 · [社区讨论](https://news.ycombinator.com/item?id=48727116)
+
+**背景**: 混合专家（MoE）是一种机器学习技术，将模型划分为多个专家子网络，通过门控机制按输入选择性激活，从而以可控算力实现巨量参数。AI ASIC（专用集成电路）是为 AI 工作负载定制的芯片，相比通用 GPU 具有效率优势。华为昇腾系列（如 910C 和 950PR）是中国为应对美国出口限制而开发的 AI 加速器，旨在实现硬件自主。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Mixture_of_experts">Mixture of experts - Wikipedia</a></li>
+<li><a href="https://hashrateindex.com/blog/what-is-an-ai-asic-guide-ai-chips/">What Is an AI ASIC? The Complete Guide</a></li>
+<li><a href="https://www.huaweicentral.com/ascend-950pr-ai-chip-everything-you-need-to-know/">Ascend 950PR AI Chip: Everything you need to know - Huawei Central</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 社区反应不一：有人称赞其采用非英伟达硬件的雄心是走向独立的一步，另一些人则批评无下载内容可能为“骗局”。技术测试显示在冷门问题上表现合格，但敏感话题（如历史提问）存在审查，且有推测认为该模型与 stealth 发布的 openrouter/owl-alpha 有关。
+
+**标签**: `#large-language-models`, `#mixture-of-experts`, `#ai-hardware`, `#china-tech`, `#open-source-ai`
+
+---
+
+<a id="item-9"></a>
+## [华为开源 OpenPangu-2.0-Flash：92B 总参、6B 激活的 MoE 模型](https://www.reddit.com/r/LocalLLaMA/comments/1ujn5u3/huawei_opensources_openpangu20flash_92b_total6b/) ⭐️ 8.0/10
+
+华为开源了 OpenPangu-2.0-Flash，这是一个拥有 920 亿总参数的混合专家语言模型，每个 token 激活 60 亿参数，支持 512K 上下文长度，并发布了权重、推理代码和训练方法。 此次发布标志着一家大型科技公司携高效 MoE 架构加入开源大模型竞争，有望普及长上下文大模型的使用，并加剧与 Llama、Mistral 等开源模型的竞争态势。 Flash 模型通过混合专家设计实现高效推理，每个 token 仅激活 92B 总参数中的 6B。一个更大的 Pro 模型（总参数 505B，激活参数 18B）计划于 2025 年 7 月发布。
+
+reddit · r/LocalLLaMA · /u/soteko · 6月30日 11:58
+
+**背景**: 混合专家（MoE）模型将神经网络划分为多个专门的“专家”子模型，并通过门控机制为每个输入选择子集，从而在扩大总参数的同时降低计算成本。华为此前已针对其昇腾 NPU 硬件开发了 OpenPangu 系列模型，此次发布延续了该路线，但未明确硬件兼容性细节。OpenPangu-2.0-Flash 除权重外还包含推理代码和训练流程，比许多开源模型发布更为开放。其 512K 上下文窗口大幅超越如 GPT-4（通常为 128K）等标准模型，能够处理极长文档。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Mixture_of_experts">Mixture of experts - Wikipedia</a></li>
+<li><a href="https://huggingface.co/blog/moe">Mixture of Experts Explained</a></li>
+<li><a href="https://arxiv.org/abs/2512.23367">[2512.23367] Post-Training Quantization of OpenPangu Models for Efficient Deployment on Atlas A2</a></li>
+
+</ul>
+</details>
+
+**标签**: `#open-source`, `#LLM`, `#mixture-of-experts`, `#Huawei`, `#long-context`
+
+---
+
+<a id="item-10"></a>
+## [PageStorm：单轮全本创意写作模型](https://www.reddit.com/r/LocalLLaMA/comments/1ujr69g/pagestorm_a_model_built_for_creative_book_writing/) ⭐️ 8.0/10
+
+PageStorm Research Preview 模型已发布，专为单轮全本创意写作设计，并附有论文和 Hugging Face 上的开放模型权重。 这一进展对本地大语言模型和创意 AI 社区意义重大，因为全本生成挑战了现有模型在连贯性和长度方面的能力，可能催生新的创作工具。 该模型基于此前公布的 LongPage 数据集训练，以单次生成方式输出整本书籍，无需迭代提示。
+
+reddit · r/LocalLLaMA · /u/XMasterDE · 6月30日 14:43
+
+**背景**: 大语言模型是经过海量文本训练的神经网络，用于各类文本生成任务，但在书籍长度的输出中保持连贯性仍是一大难题。现有模型通常需要反复提示或总结才能创作长篇内容，而 PageStorm 则尝试一次性生成整本书。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Large_language_model">Large language model - Wikipedia</a></li>
+<li><a href="https://aws.amazon.com/what-is/large-language-model/">What is LLM? - Large Language Models Explained - AWS</a></li>
+
+</ul>
+</details>
+
+**标签**: `#creative-writing`, `#language-model`, `#book-generation`, `#research-preview`, `#open-source`
+
+---
+
+<a id="item-11"></a>
+## [Qwen3.6-35B-A3B 上的保范消除拒绝实现零拒绝](https://www.reddit.com/r/LocalLLaMA/comments/1ujktg5/normpreserving_abliteration_on_qwen3635ba3b_0/) ⭐️ 8.0/10
+
+一种保范双向投影消融技术被应用于 Qwen3.6-35B-A3B，彻底消除了拒绝回答现象，且数学和代码基准测试得分未降。该模型、代码和经过丰富的有害数据集已开源。 这解决了传统消融中的基准退化问题，使得在移除审查的同时仍能保持推理能力，让本地 LLM 用户能够获得既不受限制又不失智能的模型。 关键技术创新包括在正交化后将权重向量缩放到原始 L2 范数、使用 einsum 对 MoE 进行逐专家投影，以及处理混合注意力层。使用了包含 7356 个提示、35 个类别和 10 种风格的丰富数据集，以提取纯粹的拒绝方向。
+
+reddit · r/LocalLLaMA · /u/BriefCardiologist656 · 6月30日 09:54
+
+**背景**: 消融技术通过找到激活空间中的“拒绝方向”并将其从权重中投影出去，以移除模型的拒绝行为。原始消融会缩小权重范数，导致基准测试性能下降。保范双向投影将权重重新缩放到原始大小，保留了模型的认知能力。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Abliteration">Abliteration</a></li>
+<li><a href="https://huggingface.co/blog/grimjim/norm-preserving-biprojected-abliteration">Norm-Preserving Biprojected Abliteration</a></li>
+
+</ul>
+</details>
+
+**标签**: `#mechanistic-interpretability`, `#abliteration`, `#norm-preserving`, `#LLM`, `#Qwen`
+
+---
+
+<a id="item-12"></a>
+## [Anthropic 推出面向科学家的 AI 工作台 Claude Science](https://claude.com/product/claude-science) ⭐️ 7.0/10
+
+Anthropic 发布了 Claude Science，这是一个可定制的数据科学平台，利用大语言模型执行数据分析和可视化等任务，并直接集成数据库和高性能计算集群。 通过自动化日常数据处理并连接到机构的计算资源，Claude Science 有望加速科学发现，并简化跨学科研究人员的协作流程。 该平台以完全可追溯的方式运行分析，生成可审计的输出，并支持数据可视化的图像理解（一个尚未充分探索的 LLM 用例），但目前处于测试阶段，可能引发研究人员对数据隐私的担忧。
+
+hackernews · lebovic · 6月30日 17:07 · [社区讨论](https://news.ycombinator.com/item?id=48735770)
+
+**背景**: 数据科学工作流通常包括在 Jupyter Notebook 中编写 pandas 代码并组合各种工具。Claude Science 将大语言模型直接集成到这一过程中，使科学家能够用自然语言描述任务，让系统执行分析、生成图表并与远程集群交互——这一概念类似于“Jupyter Notebook 2.0”。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.anthropic.com/news/claude-science-ai-workbench">Claude Science, an AI workbench for scientists, is now available</a></li>
+<li><a href="https://claude.com/product/claude-science">Claude Science beta | Claude by Anthropic</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 评论显示了兴奋与谨慎的混合态度：一位构建者强调了 HPC 集成的价值，而其他人则担心以 LLM 为中心的工具可能会掩盖基础科学话题，并引发数据隐私和原创性问题。
+
+**标签**: `#LLM`, `#data-science`, `#product-launch`, `#AI`, `#tooling`
+
+---
+
+<a id="item-13"></a>
+## [Nano Banana 2 Lite 发布：极速图像生成模型上线](https://deepmind.google/models/gemini-image/flash-lite/) ⭐️ 7.0/10
+
+谷歌发布了 Nano Banana 2 Lite，这是 Gemini 系列中一款新的轻量级图像生成模型，针对速度和成本进行了优化，同时保持了良好的文本渲染能力。 该模型能够以更快的速度和更低的成本实现规模化图像生成，适用于实时设计工具和内容创作等高吞吐量应用，有可能推动 AI 图像生成的普及。 Nano Banana 2 Lite 是 Nano Banana 2 的蒸馏版本，在文本渲染方面表现出色，但对高度细微的提示词处理能力有限；且不支持编程强制设置宽高比，现已在 Google AI Studio、Gemini API 和 Gemini Enterprise 中提供。
+
+hackernews · minimaxir · 6月30日 16:48 · [社区讨论](https://news.ycombinator.com/item?id=48735444)
+
+**背景**: Nano Banana 是谷歌旗下的图像生成模型系列，此前包括 Nano Banana 1 和 Nano Banana 2。Nano Banana 2 以其高质量和对细微差别的理解而闻名，而该 Lite 版本则优先考虑速度和效率，类似于其他“轻量”模型以一定质量换取性能的做法。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/">Start building with Nano Banana 2 Lite and Gemini Omni Flash</a></li>
+<li><a href="https://deepmind.google/models/gemini-image/flash-lite/">Gemini 3.1 Flash-Lite Image – Nano Banana 2 Lite</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 早期测试者称赞该模型的速度（不足 5 秒，而基础版 NB2 约需 30 秒）和成本效益，但也指出与完整 NB2 相比，其在细节表现上有所减弱。部分用户对房地产列表可能滥用此技术来粉饰房产状况表示担忧，还有用户强调其不支持编程控制宽高比的功能限制。整体态度积极，但存在实际使用中的顾虑。
+
+**标签**: `#ai`, `#image-generation`, `#model-release`, `#gemini`, `#performance`
+
+---
+
+<a id="item-14"></a>
+## [Waag 将 Bluesky 数据迁移至 Eurosky 以实践数据主权](https://waag.org/en/article/why-we-moved-our-bluesky-data-eurosky/) ⭐️ 7.0/10
+
+荷兰研究机构 Waag 将其 Bluesky 数据迁移到自托管的 Eurosky 实例，展示了 AT 协议所支持的数据可移植性。 此举证明用户能够脱离中心化平台而不丢失社交图谱，这是 AT 协议的核心承诺，同时也凸显了自托管基础设施的现实挑战。 Eurosky 是 AT 协议的一个自托管个人数据服务器(PDS)，允许用户存储自有数据并与 Bluesky 网络保持连接，但需要技术维护，且未必能自动提升隐私。
+
+hackernews · dotcoma · 6月30日 15:17 · [社区讨论](https://news.ycombinator.com/item?id=48733937)
+
+**背景**: AT 协议是支持 Bluesky 的去中心化社交网络开放标准。个人数据服务器(PDS)保管用户数据并可自托管，支持在不同服务商之间无缝迁移。数据主权是指用户应拥有并控制其个人在线信息。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/AT_Protocol">AT Protocol</a></li>
+<li><a href="https://atproto.com/">AT Protocol</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 社区评论褒贬不一：有人称赞自托管为系统管理员带来职业机遇，有人质疑新意或担忧 AT 协议的透明性可能更便于监控而非保护隐私。
+
+**标签**: `#decentralization`, `#Bluesky`, `#self-hosting`, `#AT Protocol`, `#data sovereignty`
+
+---
+
+<a id="item-15"></a>
+## [欧洲数字身份钱包依赖谷歌和苹果服务](https://waag.org/en/article/european-digital-id-wallets-are-gift-google-and-apple/) ⭐️ 7.0/10
+
+欧盟数字身份钱包的参考实现强制要求使用 Google Play 服务，意大利的 IO 应用拒绝支持 GrapheneOS，暴露了对美国科技巨头的深度依赖。 这削弱了欧盟的数字主权目标，可能让美国公司控制关键身份服务的访问权，影响所有欧盟公民。 这种依赖包括 Android 基于硬件的密钥库认证（其根源与谷歌相关）和苹果的安全隔区，导致 GrapheneOS 等替代操作系统被排除。
 
 hackernews · donohoe · 6月30日 10:36 · [社区讨论](https://news.ycombinator.com/item?id=48730729)
 
-**背景**: EUDI 钱包是 eIDAS 2.0 法规的一部分，目标是在 2026 年前为所有欧盟公民提供安全的数字身份。Google Play Integrity 和苹果安全隔区是基于硬件的认证服务，用于验证设备完整性，最初用于应用安全，但现在被用来强制平台合规性。批评者认为，这种依赖违背了欧盟的数字主权议程，并可能导致供应商锁定。
+**背景**: eIDAS 2.0 是更新的欧盟法规，要求所有成员国在 2026 年前提供数字身份钱包，让公民能够数字化存储和分享身份文件。Android 安全依赖谷歌的 SafetyNet 和硬件认证，苹果则使用安全隔区，两者均形成对美方基础设施的依赖。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://www.eudi-wallet.eu/">EUDI Wallet Hub - The Guide to eIDAS 2, Use Cases & Standards</a></li>
-<li><a href="https://medium.com/technology-hits/device-trust-without-the-fuss-apple-private-access-tokens-vs-google-play-integrity-safetynets-e995df2f0462">Device Trust without the Fuss: Apple Private Access Tokens vs Google Play Integrity (SafetyNet’s successor) | by Melvin Prince | Technology Hits | Medium</a></li>
+<li><a href="https://developer.android.com/identity/digital-credentials/credential-issuer/keystore-attestation">Implement hardware-backed attestation for digital credentials | Identity | Android Developers</a></li>
 <li><a href="https://support.apple.com/guide/security/the-secure-enclave-sec59b0b31ff/web">The Secure Enclave - Apple Support</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论对欧盟形式化的主权表示愤慨，用户指出参考实现封堵了替代操作系统，并担心远程认证会导致后门。有人认为此类法规制造垄断，也有人认为这是欧盟故意对设备施加控制。
+**社区讨论**: 社区评论强烈批评这种依赖是对数字主权的背叛、蓄意控制用户的手段，并阻碍开源系统使用。许多人呼吁采取法律行动，认为这是象征性的监管。
 
-**标签**: `#digital-identity`, `#digital-sovereignty`, `#google`, `#apple`, `#privacy`
+**标签**: `#digital sovereignty`, `#mobile platforms`, `#digital identity`, `#privacy`, `#government regulation`
 
 ---
 
-<a id="item-6"></a>
-## [Fil-C 实现内存安全的上下文切换](https://fil-c.org/context_switches) ⭐️ 8.0/10
+<a id="item-16"></a>
+## [OpenAI 首席研究官警告：人类为 AGI 准备的时间窗口极小](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710037&idx=2&sn=942dd7ab7358a3a8a5729c96860e9831) ⭐️ 7.0/10
 
-一篇文章深入探讨了 setjmp/longjmp 和 ucontext 的内存安全隐患，并展示了 Fil-C 这种内存安全的 C 实现如何通过能力验证和垃圾收集来缓解这些风险。 setjmp/longjmp 和 ucontext 广泛用于系统软件的错误处理和用户级线程，其内存安全问题可能导致严重错误和安全漏洞。Fil-C 提供了一个实用且完全兼容的内存安全替代方案，提高了可靠性。 Fil-C 为每个 jmp_buf 和 ucontext 分配能力标签，在 longjmp 时验证栈帧祖先关系，并依赖并发垃圾收集安全管理栈内存，遇到安全违规会触发 panick。
+OpenAI 首席研究官公开表示，人类为人工通用智能（AGI）做好准备所剩的时间非常有限，强调了技术进展的快速。 来自领先 AI 实验室高级研究员的这一警告表明，AGI 的到来可能比预期更快，加剧了关于安全、治理和社会影响的紧迫讨论。 没有提供具体的时间表，但这一声明凸显了 AGI 发展的紧迫性。它与近期其他 AI 领袖关于需要主动准备的类似警告一致。
 
-hackernews · modeless · 6月30日 00:38 · [社区讨论](https://news.ycombinator.com/item?id=48727177)
+rss · 新智元 · 6月30日 04:32
 
-**背景**: setjmp/longjmp 是 C 标准库中用于非本地跳转的机制，通过 jmp_buf 缓冲区保存和恢复执行上下文（寄存器、栈指针）。如果保存时的栈帧被销毁（如函数返回），则使用不安全。ucontext 将这一思想扩展到多个用户级线程，每个线程拥有独立栈，增加了生命周期管理的复杂性。Fil-C 是一种内存安全的 C 实现，使用并发垃圾收集和基于能力的内存访问，确保这些底层操作的安全性。
+**背景**: 人工通用智能（AGI）是指在各种任务上具备人类般认知能力的 AI。以 ChatGPT 和 GPT-4 闻名的 OpenAI 明确目标是构建安全的 AGI。AGI 的时间表仍存在激烈争论，预测从几年到几十年不等，但大型语言模型的加速突破缩短了许多预测。
+
+**标签**: `#AGI`, `#OpenAI`, `#AI safety`, `#timelines`
+
+---
+
+<a id="item-17"></a>
+## [NVIDIA 发布 NVFP4 量化版 Qwen3.6-27B 模型](https://www.reddit.com/r/LocalLLaMA/comments/1ujlltn/nvidiaqwen3627bnvfp4_just_dropped/) ⭐️ 7.0/10
+
+NVIDIA 在 Hugging Face 上发布了 Qwen3.6-27B-NVFP4 模型，这是使用 NVIDIA NVFP4 4 位浮点格式量化的 Qwen3.6-27B 大语言模型版本。 此次发布使得在 NVIDIA 即将推出的 Blackwell GPU 上高效本地部署强大的 27B 模型成为可能，可能降低内存需求并提升本地 LLM 社区的推理速度。 NVFP4 格式是为 Blackwell 架构定制的 4 位浮点量化，该模型专门针对这些 GPU 进行了优化，不同于以往的整数型 4 比特方法。
+
+reddit · r/LocalLLaMA · /u/vanbukin · 6月30日 10:39
+
+**背景**: Qwen3.6 是由阿里支持的 Qwen 系列推出的大语言模型。NVFP4 是 NVIDIA 为其 Blackwell GPU 架构推出的新型 4 位浮点格式，旨在提高吞吐量、减少内存占用，同时保持比传统 4 比特整数量化更高的精度。
+
+**标签**: `#quantization`, `#NVIDIA`, `#Qwen`, `#local-llm`, `#model-release`
+
+---
+
+<a id="item-18"></a>
+## [Bartowski 发布 DeepSeek-V4 Flash GGUF 模型](https://www.reddit.com/r/LocalLLaMA/comments/1ujlwbm/bartowski_has_delivered_ds4_gguf/) ⭐️ 7.0/10
+
+Bartowski 发布了 DeepSeek-V4 Flash 模型的 GGUF 量化版本，使其能在消费级硬件上进行本地推理。 DeepSeek-V4 Flash 是先进的语言模型，其 GGUF 量化版本降低了硬件需求，使更多用户能本地运行，这对注重隐私或缺乏高端 GPU 的用户尤为重要。 GGUF 格式适用于 llama.cpp 等推理工具。尽管未列出具体量化类型，但 Bartowski 通常提供 Q4_K_M、Q5_K_M 等变体，以平衡模型质量和体积。
+
+reddit · r/LocalLLaMA · /u/challis88ocarina · 6月30日 10:55
+
+**背景**: DeepSeek-V4 Flash 是 DeepSeek 公司开发的强大语言模型。GGUF（GPT-generated unified format）是一种量化格式，用于压缩模型以实现高效本地运行，常与 llama.cpp 搭配使用。Bartowski 是本地 LLM 社区的活跃贡献者，经常在 Hugging Face 上发布 GGUF 量化模型。
+
+**标签**: `#DeepSeek-V4`, `#GGUF`, `#quantization`, `#local-LLM`, `#Hugging Face`
+
+---
+
+<a id="item-19"></a>
+## [审阅者框架比模型大小更关键，提升编码可靠性](https://www.reddit.com/r/LocalLLaMA/comments/1ujwot0/the_harness_matters_more_than_the_model_a_27b/) ⭐️ 7.0/10
+
+一位开发者展示了将 Qwen3.6-27B 与三审阅者框架（代码审查、测试审查和 Playwright e2e）结合，可实现可靠的编码工作，大幅缩小与大型前沿模型的差距。 这一见解将关注点从追求更大模型转向构建稳健的验证管线，有可能通过使更小、更具成本效益的模型可用于生产环境，从而普及可靠的代码生成。 三审阅者框架为每个审阅者提供全新上下文以避免自我审查偏见，Qwen3.6-27B 是一个 270 亿参数的密集模型，支持 262K 上下文和混合注意力机制，于 2026 年 4 月发布。
+
+reddit · r/LocalLLaMA · /u/recro69 · 6月30日 18:05
+
+**背景**: “审阅者框架”是指由独立的模型或算法审查主模型输出、在不简单重复错误的情况下捕获错误的编排方式。Qwen3.6-27B 是一款中型开源大语言模型，通常与前沿模型相比在复杂编码任务上表现较差。该帖子来自 LocalLLaMA 社区，该社区强调在本地运行大语言模型而非依赖云 API。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Setjmp/longjmp">Setjmp/longjmp</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Ucontext.h">Ucontext.h</a></li>
-<li><a href="https://github.com/pizlonator/fil-c">GitHub - pizlonator/fil-c: Fil-C: completely compatible memory safety for C and C++ · GitHub</a></li>
+<li><a href="https://huggingface.co/Qwen/Qwen3.6-27B">Qwen/Qwen3.6-27B · Hugging Face</a></li>
+<li><a href="https://openrouter.ai/qwen/qwen3.6-27b">Qwen3.6 27B - API Pricing & Benchmarks | OpenRouter</a></li>
+<li><a href="https://recipes.vllm.ai/Qwen/Qwen3.6-27B">Qwen/Qwen3.6-27B | vLLM Recipes</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论对文章深入分析表示赞赏，有用户分享了对 setjmp 栈帧失效的长期困惑。其他人讨论了 ucontext 与轻量级纤程实现的性能和复杂性，并指出 setjmp/longjmp 代码往往还带有内存安全之外的风险。有人提出关于栈帧术语的细微修正。
-
-**标签**: `#Memory Safety`, `#Context Switching`, `#C Programming`, `#Systems Programming`, `#setjmp/longjmp`
+**标签**: `#LLMs`, `#software engineering`, `#code generation`, `#reliability`, `#agent harness`
 
 ---
 
-<a id="item-7"></a>
-## [LongCat-2.0 发布：1.6T 总参数量、48B 激活参数的 MoE 模型，基于 AI ASIC 集群](https://longcat.chat/blog/longcat-2.0/) ⭐️ 8.0/10
+<a id="item-20"></a>
+## [Qwen 3.6 27B 借助投机解码在 RTX 3090 上实现约 100 TPS](https://www.reddit.com/r/LocalLLaMA/comments/1ujo46r/qwen_36_27b_speculative_decoding_bench_pushing/) ⭐️ 7.0/10
 
-新发布的 LongCat-2.0 是一个混合专家（MoE）模型，总参数量 1.6 万亿，激活参数 480 亿，在数万个 AI ASIC 超级节点组成的大规模集群上训练和部署，很可能使用了华为昇腾芯片。 这表明中国利用国产硬件训练大规模 AI 模型的能力日益增强，在出口管制下减少了对英伟达 GPU 的依赖，并验证了定制 AI ASIC 在尖端 MoE 架构中的可行性，可能加速硬件生态系统的多样化。 MoE 架构每个 token 仅激活 480 亿参数以优化效率，基础设施运行在数万个 AI ASIC 超级节点上，据推测为华为昇腾 910C 芯片；但 Hugging Face 上无法下载模型权重，引发对开放性的质疑。
-
-hackernews · benjiro29 · 6月30日 00:30 · [社区讨论](https://news.ycombinator.com/item?id=48727116)
-
-**背景**: 混合专家（MoE）是一种机器学习方法，将模型划分为多个专门子网络，每个输入仅激活一部分专家，从而高效扩展到数万亿参数。AI ASIC 超级节点是由定制设计的 AI 加速器（如谷歌 TPU 或华为昇腾芯片）互连而成的大规模系统，提供强大的并行计算能力，是英伟达 GPU 基础设施的替代方案。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://huggingface.co/blog/moe">Mixture of Experts Explained</a></li>
-<li><a href="https://www.tomshardware.com/tech-industry/semiconductors/custom-ai-asics-examined-from-broadcom-to-mtia">The custom AI ASIC state of play (May 2026) — Broadcom deals, Google TPUs, Meta MTIA & beyond | Tom's Hardware</a></li>
-<li><a href="https://www.reddit.com/r/China/comments/1lhbv9r/how_huaweis_ascend_ai_chips_outperform_nvidia/">r/China on Reddit: How Huawei’s Ascend AI chips outperform Nvidia processors in running DeepSeek’s R1 model</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区反应不一：一些人赞扬使用华为昇腾芯片的基础设施成就和 OpenRouter 上的免费托管，另一些人则批评 Hugging Face 上缺少可下载权重并称其为骗局；一位用户证实模型能很好处理棘手的核工程问题，但政治问题的审查也被指出，反映了技术好奇心和开放性的怀疑。
-
-**标签**: `#large-language-models`, `#mixture-of-experts`, `#AI-hardware`, `#open-source`, `#Huawei-Ascend`
-
----
-
-<a id="item-8"></a>
-## [华为开源盘古 2.0-Flash 模型](https://www.reddit.com/r/LocalLLaMA/comments/1ujn5u3/huawei_opensources_openpangu20flash_92b_total6b/) ⭐️ 8.0/10
-
-华为开源了 OpenPangu-2.0-Flash，这是一个拥有 920 亿总参数、每次推理仅激活 60 亿参数的混合专家语言模型，具备 512K token 上下文窗口，并提供了模型权重和推理代码。 这一发布为开源大语言模型生态贡献了一个高性能的混合专家模型，在强大性能与推理效率之间取得平衡，有望推动尤其在中文 AI 领域的创新和竞争。 该模型采用混合专家架构，92B 总参数中仅 6B 激活，实现高效推理。更大旗舰型号 OpenPangu-2.0-Pro（505B 总/18B 激活）计划于 7 月发布，年内还将开源更多组件。
-
-reddit · r/LocalLLaMA · /u/soteko · 6月30日 11:58
-
-**背景**: 混合专家模型在处理每笔输入时仅激活部分参数，从而在增大模型总容量的同时不显著增加计算开销，这与全部参数都参与计算的稠密模型形成对比。GPT-4、Mixtral 8x7B 等模型已采用 MoE 架构。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Mixture_of_experts">Mixture of experts - Wikipedia</a></li>
-<li><a href="https://medium.com/@csburakkilic/understanding-moe-architectures-the-difference-between-total-and-active-parameters-ad1d161fccaa">Understanding MoE Architectures: The Difference Between Total and Active Parameters | by Burak Kılıç | Medium</a></li>
-
-</ul>
-</details>
-
-**标签**: `#open-source`, `#large language models`, `#Huawei`, `#mixture-of-experts`, `#AI`
-
----
-
-<a id="item-9"></a>
-## [PageStorm 发布：全书籍创意写作模型与数据集](https://www.reddit.com/r/LocalLLaMA/comments/1ujr69g/pagestorm_a_model_built_for_creative_book_writing/) ⭐️ 8.0/10
-
-PageStorm Research Preview 被宣布为一种能够单次生成全书籍创意写作的模型，同时发布 LongPage 数据集和 arXiv 技术论文。 这代表了长文本生成的新颖方法，为全书籍写作这一小众领域提供开源工具，可能推动创意 AI 应用的进一步创新。 发布包括两个模型尺寸：14B 参数的全书模型和 24B 仅首章变体，采用 3D 并行训练和自定义代码库；这些模型仅支持单轮交互，无法多轮对话。
-
-reddit · r/LocalLLaMA · /u/XMasterDE · 6月30日 14:43
-
-**背景**: 传统大语言模型在生成长篇小说等极长文本时难以保持连贯性和情节一致性。LongPage 数据集基于公共领域书籍和合成规划轨迹构建，旨在教会模型进行有结构推理的长篇写作。PageStorm 是所得模型，尝试从单次提示生成完整本书。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.reddit.com/r/LocalLLaMA/comments/1ujr69g/pagestorm_a_model_built_for_creative_book_writing/">PageStorm: A Model Built for Creative Book Writing : r/LocalLLaMA - Reddit</a></li>
-<li><a href="https://huggingface.co/Pageshift-Entertainment/pagestorm-research-preview-14b-full-book">Pageshift-Entertainment/pagestorm-research-preview-14b-full-book - Hugging Face</a></li>
-<li><a href="https://huggingface.co/datasets/Pageshift-Entertainment/LongPage">Pageshift-Entertainment/LongPage · Datasets at Hugging Face</a></li>
-
-</ul>
-</details>
-
-**标签**: `#creative-writing`, `#LLM`, `#book-generation`, `#open-source-model`, `#local-llm`
-
----
-
-<a id="item-10"></a>
-## [单张 RTX 3090 上 Qwen 3.6 27B 推测解码近 100 TPS](https://www.reddit.com/r/LocalLLaMA/comments/1ujo46r/qwen_36_27b_speculative_decoding_bench_pushing/) ⭐️ 8.0/10
-
-一项基准测试在单张 RTX 3090 上运行 Qwen 3.6 27B，使用多种推测解码技术，利用 beellama 的 DFlash 引擎在代码生成中达到了每秒 96.8 个 token 的速度。 这表明消费级 GPU 能以近乎交互式的速度运行 270 亿参数的大模型，使得无需昂贵硬件即可使用高质量本地 AI 助手。 值得注意的是，beellama DFlash 分支在代码生成上达到 96.8 TPS，但叙述任务仅 45.6 TPS，且首 token 时间高达 504ms；主线 llama.cpp 在不同上下文长度下速度最稳定，退化仅 6.6%；ik_llama 的 MTP+ngram 混合方案在代码和叙述上分别达到 87.8 TPS 和 58.6 TPS。
+一项社区基准测试显示，Qwen 3.6 27B 在单张 RTX 3090 上使用 llama.cpp 的投机解码分支，实现了约 100 tokens/秒的生成速度，并详细比较了多种引擎配置与量化方案。 这表明消费级 GPU 也能实现接近实时的大型模型推理，有助于降低先进 AI 的使用门槛，并推动本地化 LLM 部署的进一步优化。 测试涵盖 ik_llama、beellama、Spiritbuun 等引擎，其中 beellama 的 DFlash 在代码生成场景下达到 96.8 TPS，ik_llama 的 MTP+ngram 为 87.8 TPS；显存占用 20–22 GiB，部分方案在长上下文（72k→128k）下性能衰减超 30%。
 
 reddit · r/LocalLLaMA · /u/old-mike · 6月30日 12:40
 
-**背景**: 推测解码通过使用小型草稿模型并行生成多个候选 token，再由大模型一次性验证，从而加速大语言模型推理并保持输出分布一致。多 token 预测（MTP）是一种训练技术，使模型一次性预测多个未来 token，提高效率。Llama.cpp 的各分支通常针对本地硬件实现这些优化，通过量化和定制推理引擎，使得大模型能在消费级 GPU 上运行。
+**背景**: 投机解码是一种推理优化技术，通过小模型草拟候选 token、大模型并行验证，在不改变输出分布的前提下降低延迟，类似 CPU 的投机执行。llama.cpp 是面向消费级硬件的流行 LLM 推理框架，其社区分支常集成投机解码等实验性功能。
 
 <details><summary>参考链接</summary>
 <ul>
@@ -245,79 +431,39 @@ reddit · r/LocalLLaMA · /u/old-mike · 6月30日 12:40
 </ul>
 </details>
 
-**标签**: `#speculative-decoding`, `#local-llm`, `#benchmark`, `#llama.cpp`, `#qwen`
+**标签**: `#speculative-decoding`, `#LLM-optimization`, `#benchmark`, `#Qwen`, `#local-llama`
 
 ---
 
-<a id="item-11"></a>
-## [1852 年经典著作《大癫狂》引发关于投机泡沫的讨论](https://www.gutenberg.org/ebooks/24518) ⭐️ 7.0/10
+<a id="item-21"></a>
+## [Hugging Face 新增硬件兼容性筛选功能](https://www.reddit.com/r/LocalLLaMA/comments/1ujnjcw/new_on_hugging_face_filter_by_hardware/) ⭐️ 7.0/10
 
-Hacker News 上的一次讨论重温了查尔斯·麦基于 1852 年的著作，审视其关于群体妄想的历史轶事，以及它们与当今科技和金融领域投机行为的相似之处。 该书对群体非理性的探讨为金融泡沫提供了永恒的洞见，正如当前讨论将其教训与 AI 投资热潮相比较所证明的那样。 讨论指出，麦基对郁金香狂热的描述常因夸大而受到批评，缺乏历史准确性，但该书仍是对投机愚行的生动叙述。
+Hugging Face 推出了一个新的筛选选项，允许用户根据硬件兼容性搜索机器学习模型，便于找到适用于特定设备的模型。 这一功能简化了本地大语言模型爱好者的模型发现流程，大大减少了手动验证模型是否支持其 GPU、CPU 或其他硬件配置的时间。 该筛选器可能依赖于元数据标签来指示支持的硬件，例如“cuda”、“rocm”或“cpu-only”，尽管公告未详细说明具体实现机制。
 
-hackernews · lstodd · 6月30日 12:47 · [社区讨论](https://news.ycombinator.com/item?id=48731989)
+reddit · r/LocalLLaMA · /u/paf1138 · 6月30日 12:15
 
-**背景**: 查尔斯·麦基于 1852 年出版的《非同寻常的大众幻想与群众性癫狂》记录了历史上大众歇斯底里的情节，包括荷兰郁金香狂热、南海泡沫和猎巫等。它已成为行为经济学和群体心理学的经典著作，常在对投机泡沫的讨论中被引用。该书普及了“群众性癫狂”一词，并影响了后来的作品，如约翰·肯尼斯·加尔布雷斯的《金融狂热简史》。
-
-**社区讨论**: 评论者赞扬书中趣闻，但指出其历史夸张，尤其郁金香狂热部分；有人推荐相关书籍，有人类比当前 AI 投资热，还有人反思心理学揭示理性局限。
-
-**标签**: `#history`, `#psychology`, `#economics`, `#crowds`, `#classic-books`
-
----
-
-<a id="item-12"></a>
-## [Knoppix：开创性的 Live CD Linux 发行版](https://www.knopper.net/knoppix/index-en.html) ⭐️ 7.0/10
-
-社区深情回顾了 Knoppix 这一开创性的 Live CD Linux 发行版，它允许用户无需安装即可体验基于 Debian 的 Linux，并引发了早期 Linux 用户的怀旧讨论。 Knoppix 开创了 Live CD 概念，大幅降低了体验 Linux 的门槛，并影响了许多便携式操作系统和恢复工具的发展。 它从 CD 运行完整的基于 Debian 的系统，无需安装，使用 KDE 桌面环境，并包含硬件自动检测功能。
-
-hackernews · hoangvmpc · 6月30日 12:54 · [社区讨论](https://news.ycombinator.com/item?id=48732056)
-
-**背景**: Live CD 是一种可启动光盘，内含完整操作系统，可直接从光盘加载到内存运行，无需安装到硬盘。它允许用户在不改变现有系统的情况下测试操作系统。Knoppix 是最早流行的 Linux Live CD 之一，在 Debian 安装较复杂的时代降低了使用门槛。随着光驱逐渐淘汰，Live CD 已演变为 Live USB 等便携式解决方案。
+**背景**: Hugging Face 是分享和发现开源机器学习模型的主要平台。在本地运行大语言模型通常需要兼容的 GPU 和足够的显存，而兼容性可能取决于模型量化和后端框架。这一功能解决了用户在不同硬件上部署模型时的常见痛点。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Live_CD">Live CD</a></li>
+<li><a href="https://www.geeksforgeeks.org/machine-learning/hardware-requirements-for-machine-learning/">Hardware Requirements for Machine Learning - GeeksforGeeks</a></li>
+<li><a href="https://lmstudio.ai/">LM Studio - Local AI on your computer</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区成员分享了将 Knoppix 作为第一次 Linux 体验的美好回忆，常用于绕过计算机限制或从双启动失败中恢复。它提供了学习和实验的安全环境，也有人回忆起定制构建或使用 USB 持久存储进行系统恢复。
-
-**标签**: `#linux`, `#live-cd`, `#debian`, `#open-source`, `#nostalgia`
+**标签**: `#Hugging Face`, `#hardware compatibility`, `#local LLMs`, `#feature update`, `#model discovery`
 
 ---
 
-<a id="item-13"></a>
-## [支持自托管和数字身份的 .self 顶级域名提案](https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/) ⭐️ 7.0/10
+<a id="item-22"></a>
+## [shot-scraper 1.10 新增视频命令，方便代理录制演示](https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything) ⭐️ 6.0/10
 
-一则新提案建议创建一个 .self 顶级域名（TLD），为每个人提供免费的子域名以支持自托管，旨在实现以人为中心的数字身份。该提案引发了关于可行性、滥用预防和替代方案的讨论。 如果实现，.self 能让个人在不依赖集中式平台的情况下掌控自己的在线存在，但其成功取决于解决滥用和可持续性问题，而这些问题曾困扰过 .tk 等先前的免费域名。 .self TLD 将免费提供，但阻止抢注和滥用行为在技术和财务上具有挑战性。该提案来自 HCCF，社区成员提出了注重隐私的身份替代方案，如 Microsoft Vega。
-
-hackernews · HumanCCF · 6月29日 19:49 · [社区讨论](https://news.ycombinator.com/item?id=48724230)
-
-**背景**: 顶级域名（TLD）是网址的最后一部分，如 .com 或 .org。自托管是指运行自己的服务器来托管网站或服务。.tk TLD 曾经免费提供，但因垃圾邮件和诈骗而臭名昭著，导致被广泛屏蔽。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Top-level_domain">Top-level domain - Wikipedia</a></li>
-<li><a href="https://news.ycombinator.com/item?id=48724230">.self: A new top-level domain designed to support self-hosting | Hacker News</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Self-hosting_(network)">Self-hosting (network) - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论指出了风险：像 .tk 这样的免费域名招来了诈骗者并被屏蔽。在没有身份验证的情况下，执行“禁止抢注”非常困难；有人建议撤销不活跃域名。不收费运营 TLD 的成本受到质疑。有人提出像 Microsoft Vega 这样保护隐私的身份解决方案。
-
-**标签**: `#self-hosting`, `#domain`, `#digital-identity`, `#decentralization`, `#community-discussion`
-
----
-
-<a id="item-14"></a>
-## [shot-scraper 1.10 新增视频录制功能，助力编程智能体](https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything) ⭐️ 7.0/10
-
-shot-scraper 1.10 引入新的 'video' 命令，基于 YAML 故事板录制网页交互，允许开发者使用 Playwright 自动捕获 Web 应用程序的视频演示。 此功能旨在让编程智能体（AI 助手）通过生成视频演示来证明其工作成果，解决了验证 AI 生成代码的难题。它为将 AI 集成到开发工作流（尤其是 Web 应用程序）提供了实用工具。 该 'video' 命令使用 storyboard.yml 文件定义点击、键入和暂停等步骤，支持通过 Cookie 进行身份验证，并可输出 MP4 视频。它还允许注入 JavaScript 以模拟浏览器 API（例如剪贴板），从而获得更可靠的录制效果。
+shot-scraper 1.10 版本新增了 `video` 命令，它接受一个定义浏览器交互的 YAML 故事板文件，并使用 Playwright 录制整个过程的视频。这让编程代理能够轻松创建其工作的视觉演示。 该功能让开发者和 AI 编程代理能够生成工作证明演示，增强了自动化 Web 交互的透明度和信任度。这与软件开发中对可观测代理工作流程日益增长的需求相契合。 故事板文件可以定义带有点击、暂停和 JavaScript 执行等操作的场景，并支持通过 cookie 进行身份验证。输出格式可以是 WebM 或 MP4，视频录制与 Playwright 的浏览器自动化相集成。
 
 rss · Simon Willison · 6月30日 16:54
 
-**背景**: shot-scraper 是一个基于 Playwright 的命令行工具，最初用于自动截图和网页抓取。Playwright 是一个浏览器自动化库，可以控制无头浏览器并录制视频。该视频功能扩展了 shot-scraper，可录制整个交互序列，使其适用于文档编写和演示。
+**背景**: shot-scraper 是一个基于 Playwright 的命令行工具，用于自动截取网页截图和抓取数据。它使用 YAML 配置文件（通常称为 shots.yml 或 storyboard.yml）来定义 URL、选择器和操作。该工具在文档自动化和数据提取方面很受欢迎。新的视频功能将其从静态图像扩展到了完整的动态录制。
 
 <details><summary>参考链接</summary>
 <ul>
@@ -327,200 +473,28 @@ rss · Simon Willison · 6月30日 16:54
 </ul>
 </details>
 
-**标签**: `#web-scraping`, `#automation`, `#playwright`, `#developer-tools`, `#ai-agents`
-
----
-
-<a id="item-15"></a>
-## [浏览器工具可从粘贴内容提取 HTML 表格并转换格式](https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything) ⭐️ 7.0/10
-
-Simon Willison 发布了一个基于浏览器的工具，可接受粘贴的富文本，检测其中的 HTML 表格，并将每个表格转换为 HTML、Markdown、CSV、TSV 或 JSON 格式。 这简化了从网页提取表格数据的繁琐步骤，让数据能立刻用于分析、文档撰写或数据处理流程。 该工具完全在浏览器中运行，且近期更新加入了维基百科的 CORS API 支持，可直接搜索页面并导入表格。
-
-rss · Simon Willison · 6月29日 23:38
-
-**背景**: Simon Willison 以制作实用、专注的小工具而闻名。从浏览器复制的富文本常含有隐藏的 HTML 表格。CORS（跨域资源共享）是一种机制，允许网页应用从不同域名请求数据，维基百科为其 API 启用了该机制。
-
-**标签**: `#tool`, `#html`, `#data-extraction`, `#markdown`, `#conversion`
-
----
-
-<a id="item-16"></a>
-## [NVIDIA 发布基于 NVFP4 的 Qwen3.6-27B 模型](https://www.reddit.com/r/LocalLLaMA/comments/1ujlltn/nvidiaqwen3627bnvfp4_just_dropped/) ⭐️ 7.0/10
-
-NVIDIA 发布了 Qwen3.6-27B 大语言模型的量化版本，采用其 NVFP4 4 位浮点格式，专为在兼容硬件上进行高效本地推理而优化。 此版本通过 NVIDIA 定制的 4 位浮点量化，在显著降低资源需求的同时保持精度，使高性能本地大语言模型推理得以实现，减少了内存占用并提升了速度。 该模型采用 NVFP4 4 位浮点格式，具备两级缩放机制，包括细粒度的 E4M3 缩放因子和二级 FP32 标量，旨在超低精度下平衡准确性和效率。模型已在 Hugging Face 上发布，可供下载并集成到本地推理流程中。
-
-reddit · r/LocalLLaMA · /u/vanbukin · 6月30日 10:39
-
-**背景**: NVFP4 是 NVIDIA 为低精度 AI 推理推出的 4 位浮点格式。与整数量化相比，浮点量化通过动态分配指数和尾数位，能在极低位宽下更好地保持模型精度。量化可降低大语言模型的内存和计算需求，使其能在消费级硬件上进行本地部署。Qwen3.6-27B 是阿里巴巴 Qwen 系列的 270 亿参数语言模型，以强大的性能著称。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/">Introducing NVFP4 for Efficient and Accurate Low-Precision Inference | NVIDIA Technical Blog</a></li>
-<li><a href="https://en.wikipedia.org/wiki/NVFP4">NVFP4</a></li>
-
-</ul>
-</details>
-
-**标签**: `#LLM`, `#model-release`, `#quantization`, `#NVIDIA`, `#local-llm`
-
----
-
-<a id="item-17"></a>
-## [微软移除 FastContext 模型及所有资源](https://www.reddit.com/r/LocalLLaMA/comments/1ujjk9s/microsoft_has_taken_down_fastcontext_model_from/) ⭐️ 7.0/10
-
-微软突然从 Hugging Face 和 GitHub 上移除了 FastContext 模型及其相关代码库，且未提供任何下架解释。 大型 AI 公司突然下架近期开源的模型，引发了公众对模型可用性可靠性的担忧，并可能干扰基于该模型的编程智能体系统的研发工作。 FastContext 是一个 40 亿参数的轻量级仓库探索子代理模型，提供监督微调（SFT）和强化学习（RL）版本。模型在 Hugging Face 的页面和 GitHub 代码库均被完全清空，官方未发布任何说明；arXiv 上的论文仍可访问。
-
-reddit · r/LocalLLaMA · /u/robert896r1 · 6月30日 08:39
-
-**背景**: FastContext 是微软开发的一款专用语言模型，旨在提升编程智能体的效率。它作为轻量级子代理，将仓库探索与任务求解分离，通过并行工具调用返回精炼的上下文。这一方法能减少令牌消耗和干扰。该模型在开源仅数周后便被无故移除，引起了 AI 辅助编程领域开发者的关注。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/microsoft/fastcontext">GitHub - microsoft/fastcontext: FastContext: Training Efficient Repository Explorer for Coding Agents · GitHub</a></li>
-<li><a href="https://huggingface.co/microsoft/FastContext-1.0-4B-SFT">microsoft/FastContext-1.0-4B-SFT · Hugging Face</a></li>
-<li><a href="https://arxiv.org/abs/2606.14066">[2606.14066] FastContext: Training Efficient Repository Explorer for Coding Agents</a></li>
-
-</ul>
-</details>
-
-**标签**: `#LLM`, `#Microsoft`, `#FastContext`, `#takedown`, `#AI`
-
----
-
-<a id="item-18"></a>
-## [Hugging Face 新增硬件兼容性筛选功能](https://www.reddit.com/r/LocalLLaMA/comments/1ujnjcw/new_on_hugging_face_filter_by_hardware/) ⭐️ 7.0/10
-
-Hugging Face 新增了一个基于硬件兼容性的筛选选项，用户现在可以根据 GPU 类型、CPU 或 Apple Silicon 等硬件条件搜索模型。 这一功能极大简化了特定硬件用户寻找可本地运行模型的过程，减少了反复尝试，提高了本地 LLM 社区的易用性。 该筛选器已在 Hugging Face 模型库中提供，可能通过模型元数据中的硬件标签实现，但具体技术细节尚未公开。
-
-reddit · r/LocalLLaMA · /u/paf1138 · 6月30日 12:15
-
-**背景**: Hugging Face 是一个广受欢迎的机器学习模型分享与发现平台。随着本地 LLM 的普及，用户常在自己的硬件上运行模型，而硬件性能差异很大。此前的搜索筛选主要围绕任务类型和模型大小，缺少直接按硬件要求筛选的方式，导致难以找到适合特定配置的模型。
-
-**标签**: `#huggingface`, `#hardware-compatibility`, `#model-discovery`, `#local-llm`, `#filtering`
-
----
-
-<a id="item-19"></a>
-## [保留范数消除拒绝：Qwen3.6-35B-A3B 实现零拒绝率](https://www.reddit.com/r/LocalLLaMA/comments/1ujktg5/normpreserving_abliteration_on_qwen3635ba3b_0/) ⭐️ 7.0/10
-
-一种新的保留范数的双投影方法被应用于 Qwen3.6-35B-A3B 模型，完全消除了安全拒绝行为，同时保持了基准测试分数。经削弱的模型、开源数据集和量化版本均已发布。 该技术避免了先前削弱方法中常见的性能下降问题，使得无审查的本地大语言模型保持完整能力。它展示了如何通过精确干预模型内部来改变行为而不损害智能，推动了机械可解释性研究。 该方法将每个权重行与拒绝方向正交化，然后重新缩放至原始 L2 范数。由于 Qwen3.6-35B-A3B 混合注意力层和三维专家张量的特殊性，需要特殊处理；并使用了包含 7356 个提示的多样化有害数据集来提取稳健的拒绝方向。
-
-reddit · r/LocalLLaMA · /u/BriefCardiologist656 · 6月30日 09:54
-
-**背景**: 削弱（abliteration）是一种通过从权重中投影出“拒绝方向”来消除语言模型拒绝回答有害请求能力的技术。先前的方法通常因为缩小了权重范数而导致基准性能下降。Transformer 中的残差流是发现这些方向的地方。Qwen3.6-35B-A3B 是一个包含 256 个专家和一个共享专家的混合专家模型，同时使用了标准注意力和线性注意力。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://huggingface.co/blog/grimjim/norm-preserving-biprojected-abliteration">Norm-Preserving Biprojected Abliteration</a></li>
-<li><a href="https://github.com/NousResearch/llm-abliteration">GitHub - NousResearch/llm-abliteration: Make abliterated models with transformers, easy and fast · GitHub</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Mechanistic_interpretability">Mechanistic interpretability</a></li>
-
-</ul>
-</details>
-
-**标签**: `#mechanistic interpretability`, `#abliteration`, `#refusal`, `#norm-preserving`, `#Qwen`
-
----
-
-<a id="item-20"></a>
-## [美劳工份额战后新低，但属周期性](https://libertystreeteconomics.newyorkfed.org/2026/06/the-post-covid-decline-in-the-labor-share/) ⭐️ 6.0/10
-
-纽约联储分析发现，美国劳工收入份额在新冠疫情后的下降主要遵循以往衰退的历史周期性模式，而非一次独特的结构性变化。 劳工收入份额衡量国民收入中工人所得的比例；其长期下降表明收入不平等加剧，以及生产力与工资之间的差距扩大。 该报告从两个维度考察了劳工份额的走势：疫情后复苏阶段的下降与以往衰退相似，且下降主要由周期性因素驱动，几乎没有证据表明出现了明显的全新趋势。
-
-hackernews · loughnane · 6月30日 15:35 · [社区讨论](https://news.ycombinator.com/item?id=48734234)
-
-**背景**: 劳工收入份额（或称工资份额）是指国民收入中分配给工资和福利的部分，常被用作经济平等的指标。历史上，它在 20 世纪中期上升，但从 2000 年左右开始在发达经济体中普遍下降。这一下降与自动化、全球化和工会化率下降等因素有关。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Labor_share">Labor share - Wikipedia</a></li>
-<li><a href="https://www.bls.gov/opub/mlr/2017/article/estimating-the-us-labor-share.htm">Estimating the U.S. labor share : Monthly Labor Review : U.S. Bureau of Labor Statistics</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论指出，文章标题耸人听闻，实际结论强调疫情后下降的周期性。许多人指出，自 2000 年以来的长期下降仍是主要担忧。一些人认为，新冠疫情期间的激增凸显了低薪雇主的过度反应。
-
-**标签**: `#economics`, `#labor-share`, `#income-inequality`, `#COVID-recovery`, `#New-York-Fed`
-
----
-
-<a id="item-21"></a>
-## [2025 年研究：高强度间歇训练可减少老年人身体脂肪](https://www.maturitas.org/article/S0378-5122(25)00571-7/fulltext) ⭐️ 6.0/10
-
-一项针对 123 名健康老年人（平均年龄 72 岁）的六个月随机对照试验发现，进行高强度间歇训练（HIIT）的参与者身体脂肪显著减少，效果优于中等强度持续训练或低强度对照组。 维持健康的体成分对健康老龄化至关重要，HIIT 提供了一种高效的非药物策略，可广泛用于对抗与年龄相关的脂肪堆积及代谢风险。 45 分钟训练课根据心率处方在跑步机上进行：HIIT 包含 4 分钟 85–95%峰值心率的间歇，穿插 3 分钟积极恢复；身体成分通过双能 X 线吸收法在基线、3 个月和 6 个月时测量。研究聚焦于心肺运动，而非抗阻训练。
-
-hackernews · bookofjoe · 6月30日 10:31 · [社区讨论](https://news.ycombinator.com/item?id=48730694)
-
-**背景**: 高强度间歇训练（HIIT）交替进行短时间接近最大努力的运动和恢复期，充分调动无氧能量系统。它因能在较短时间内改善心肺适能和代谢健康而闻名，但在老年人群中的长期效果与安全性研究较少。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/High-intensity_interval_training">High-intensity interval training</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者澄清该研究比较的是有氧运动而非力量训练，并指出获益可能部分源于未经训练者的“新手效应”，对长期可持续性存疑。有人以个人经历警示无监督极限 HIIT 可能引发心律问题。
-
-**标签**: `#health`, `#exercise`, `#aging`, `#research`, `#fitness`
-
----
-
-<a id="item-22"></a>
-## [AI 伦理测验“AI 指南针”将用户分为 30 种原型](https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything) ⭐️ 6.0/10
-
-Simon Willison 分享了一个名为“AI 指南针”的测验，由 bambamramfan 创作，通过 29 个关于 AI 及 AI 伦理的问题，将用户归类为 30 种原型之一，例如“车库工匠”。 该测验为人们反思自己的 AI 伦理立场提供了一种可及且有趣的方式，有助于将 AI 话语的参与范围扩展到技术圈之外。 该测验是一个单页 React 应用，通过 <script type='text/babel'> 技巧避免了构建步骤，其源代码可在 GitHub 上获取。
-
-rss · Simon Willison · 6月30日 17:39
-
-**背景**: 受政治光谱测验启发，“AI 指南针”将用户定位在“善与恶”和“变革性与过度炒作”的坐标轴上。知名开发者兼博主 Simon Willison 被归类为“车库工匠”，体现了一种动手实践且乐观的 AI 态度。
-
-**标签**: `#AI`, `#ethics`, `#quiz`, `#community`, `#classification`
+**标签**: `#shot-scraper`, `#video-recording`, `#agent-demos`, `#web-automation`, `#tools`
 
 ---
 
 <a id="item-23"></a>
-## [OpenAI 首席研究官：AGI 留给人类的时间窗口很小](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710037&idx=2&sn=942dd7ab7358a3a8a5729c96860e9831) ⭐️ 6.0/10
+## [HTML 表格提取工具将粘贴表格转换为多种格式](https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything) ⭐️ 6.0/10
 
-OpenAI 首席研究官近日表示，在通用人工智能（AGI）到来之前，留给人类的时间窗口非常小，暗示 AGI 可能即将出现。 来自领先 AI 公司的这一警告表明，AGI 的发展正在加速，引发了关于安全、治理和社会影响的紧迫问题，并凸显了立即做好准备的必要性。 文章还提到了能聊天、唱歌和玩游戏的先进多模态聊天机器人，以及 AI 硬件中持续存在的内存瓶颈，但首席研究官的表态缺乏具体技术细节或确切时间表。
+Simon Willison 发布了一个 HTML 表格提取工具，可接受粘贴的富文本，并将嵌入的表格转换为 HTML、Markdown、CSV、TSV 或 JSON。该工具现在还支持通过 Wikipedia 的 CORS API 搜索页面并直接导入表格。 该工具简化了从网页表格中提取数据的过程，省去了手动复制和重新格式化的麻烦。它为开发者快速进行数据交换提供了一个有用的工具补充。 该工具利用浏览器的富文本粘贴功能来捕获完整的 HTML 表格结构。它提供多种输出格式，并与 Wikipedia 支持 CORS 的解析 API 集成，可从中直接提取表格。
 
-rss · 新智元 · 6月30日 04:32
+rss · Simon Willison · 6月29日 23:38
 
-**背景**: 通用人工智能（AGI）指的是具有人类水平或超越人类的通用学习和推理能力，能处理各种任务的人工智能系统。OpenAI 是一家领先的人工智能研究机构。多模态聊天机器人整合文本、图像和声音，提供更丰富的交互体验。此外，AI 硬件面临‘内存墙’问题，即内存带宽落后于计算需求，可能减缓迈向 AGI 的进展。
+**背景**: TSV（制表符分隔值）是一种简单的文本表格数据格式，字段之间用制表符分隔，类似于 CSV 但使用制表符作为分隔符。富文本粘贴使浏览器能够管理剪贴板中的 HTML 内容，包括表格。Simon Willison 的粘贴转换工具集包含多种实用程序，可将粘贴的内容转换为不同格式。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://hai.stanford.edu/ai-definitions/what-is-agi-artificial-general-intelligence">What is AGI (Artificial General Intelligence)? - Stanford HAI</a></li>
-<li><a href="https://tailortalk.ai/blogs/what-is-a-multimodal-chatbot-and-why-it-matters-in-2025">What Is a Multimodal Chatbot and Why It Matters in 2025</a></li>
-<li><a href="https://www.scientificamerican.com/article/high-bandwidth-memory-is-a-bottleneck-for-ai-chips/">Why high-bandwidth memory is a bottleneck for AI chips | Scientific American</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tab-separated_values">Tab-separated values - Wikipedia</a></li>
+<li><a href="https://www.imf.org/external/help/tsv.htm">How To Use Tab Separated Value (TSV) files</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AGI`, `#OpenAI`, `#AI Ethics`, `#AI Commentary`, `#Technology News`
-
----
-
-<a id="item-24"></a>
-## [Bartowski 发布 DeepSeek V4 Flash 的 GGUF 量化版本](https://www.reddit.com/r/LocalLLaMA/comments/1ujlwbm/bartowski_has_delivered_ds4_gguf/) ⭐️ 6.0/10
-
-Bartowski 在 Hugging Face 上发布了 DeepSeek V4 Flash 模型的 GGUF 量化文件，使得在消费级硬件上高效本地推理成为可能。发布内容包含与 Antirez 的 iMatrix 量化版本的对比。 该发布使本地 LLM 社区能够在个人设备上运行 DeepSeek 最新的高效 MoE 模型，降低了硬件门槛并促进了实验。这延续了让前沿 AI 可离线使用的趋势。 GGUF 文件支持多种量化级别（如 Q4_K_M、Q5_K_M）以提供灵活性。iMatrix 版本使用重要性加权量化，可能在相同位宽下提升困惑度表现，但需要校准数据。
-
-reddit · r/LocalLLaMA · /u/challis88ocarina · 6月30日 10:55
-
-**背景**: GGUF 是一种二进制文件格式，专为存储量化的大语言模型而优化，可通过 llama.cpp 和 Ollama 等工具实现高效的本地推理。DeepSeek V4 Flash 是一个 2840 亿参数的混合专家模型（130 亿激活参数），支持百万 token 上下文窗口，专为快速推理设计。重要性加权（iMatrix）量化使用校准数据，优先保护重要权重的精度，可能比标准均匀量化获得更好的性能。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/GGUF">GGUF</a></li>
-<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">deepseek-ai/DeepSeek-V4-Flash · Hugging Face</a></li>
-<li><a href="https://docs.vllm.ai/projects/llm-compressor/en/latest/examples/imatrix/">iMatrix Importance-Weighted Quantization - LLM Compressor Docs</a></li>
-
-</ul>
-</details>
-
-**标签**: `#GGUF`, `#DeepSeek`, `#quantization`, `#LocalLLaMA`, `#LLM`
+**标签**: `#html`, `#table-extraction`, `#data-conversion`, `#utility`, `#web-development`
 
 ---
 
