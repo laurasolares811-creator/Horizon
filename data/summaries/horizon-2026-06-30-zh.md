@@ -1,340 +1,330 @@
 # Horizon 每日速递 - 2026-06-30
 
-> 从 27 条内容中筛选出 15 条重要资讯。
+> 从 27 条内容中筛选出 14 条重要资讯。
 
 ---
 
-1. [Anthropic 发布性能接近 Opus 的 Claude Sonnet 5，价格更低](#item-1) ⭐️ 9.0/10
-2. [Claude Code 在 API 请求中嵌入隐写标记](#item-2) ⭐️ 8.0/10
-3. [Anthropic 推出面向数据驱动研究的 Claude Science](#item-3) ⭐️ 8.0/10
-4. [Nano Banana 2 Lite：更快的 Gemini 图像模型](#item-4) ⭐️ 8.0/10
-5. [Cursor iOS 应用安装导致隐私设置被强制更改且无法恢复](#item-5) ⭐️ 8.0/10
-6. [ZLUDA 6 发布：非 Nvidia GPU 可运行原版 CUDA 应用](#item-6) ⭐️ 8.0/10
-7. [概念验证型毫米波材料分类雷达（2025）](#item-7) ⭐️ 7.0/10
-8. [《大癫狂》经典重读：金融泡沫与群众疯狂](#item-8) ⭐️ 7.0/10
-9. [加密行业为 2026 年美国大选已投入 1.89 亿美元](#item-9) ⭐️ 7.0/10
-10. [shot-scraper 1.10 新增视频命令，支持故事板 YAML 录制网页自动化演示](#item-10) ⭐️ 7.0/10
-11. [1100 万篇论文的语义相似度与时间切片交互地图](#item-11) ⭐️ 7.0/10
-12. [Knoppix 主页勾起早期 Live Linux 怀旧回忆](#item-12) ⭐️ 6.0/10
-13. [Simon Willison 评价趣味 AI 伦理测验《AI Compass》](#item-13) ⭐️ 6.0/10
-14. [免费 CV 面试清单新增分割、OCR 和 VLM 专项](#item-14) ⭐️ 6.0/10
-15. [EACL 2027 改革：作者回复与审稿人讨论分阶段](#item-15) ⭐️ 6.0/10
+1. [Claude Sonnet 5 发布：更趋代理化的中端模型](#item-1) ⭐️ 8.0/10
+2. [Anthropic 推出面向数据科学与研究的 Claude Science](#item-2) ⭐️ 8.0/10
+3. [浏览器版 Kubernetes 面世，助力教育探索](#item-3) ⭐️ 8.0/10
+4. [shot-scraper 1.10 新增视频录制命令](#item-4) ⭐️ 8.0/10
+5. [EACL 2027 将作者回复与审稿人讨论分为独立阶段](#item-5) ⭐️ 8.0/10
+6. [Claude Code 被发现利用隐写术标记请求](#item-6) ⭐️ 7.0/10
+7. [谷歌推出 Nano Banana 2 Lite 高速图像生成模型](#item-7) ⭐️ 7.0/10
+8. [Hacker News 用户分享关于 Knoppix 的怀旧回忆](#item-8) ⭐️ 7.0/10
+9. [HN 讨论 1852 年群体疯狂经典著作](#item-9) ⭐️ 7.0/10
+10. [ZLUDA 6 发布：CUDA 可运行于非 Nvidia GPU，新增 32 位 PhysX 支持](#item-10) ⭐️ 7.0/10
+11. [Simon Willison 的 HTML 表格提取工具](#item-11) ⭐️ 7.0/10
+12. [基于 SPECTER2 和 UMAP 的 1100 万论文时间切片交互地图](#item-12) ⭐️ 7.0/10
+13. [自制毫米波雷达用于材料分类，石棉检测功能未实现](#item-13) ⭐️ 6.0/10
+14. [为什么在实例表示学习中使用噪声对比估计而非直接近似分母？](#item-14) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Anthropic 发布性能接近 Opus 的 Claude Sonnet 5，价格更低](https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything) ⭐️ 9.0/10
+## [Claude Sonnet 5 发布：更趋代理化的中端模型](https://www.anthropic.com/news/claude-sonnet-5) ⭐️ 8.0/10
 
-Anthropic 发布了 Claude Sonnet 5，该模型性能接近高端 Opus 4.8，但 API 价格与 Sonnet 4.6 相同；不过新分词器使英文文本的实际成本增加约 30%。该模型移除了多个采样参数，默认启用自适应思考，并支持 100 万 token 的上下文窗口和 12.8 万最大输出 token。 该版本以更低价格让开发者能获得接近顶级的 AI 性能，可能加速其在编程、智能体工作流和专业任务中的采用。其以安全为重的设计也规避了美国政府限制，确保模型能持续使用而无重大部署障碍。 采样参数 temperature、top_p 和 top_k 不再支持；新分词器使英文 token 数增加约 30%，导致许多用例实际成本上升；自适应思考默认开启；且该模型在网络安全任务上的能力低于 Sonnet 4.6。
+Anthropic 发布了 Claude Sonnet 5，这是其中端模型的新版本，设计上更具代理性，能够自主规划、使用浏览器和终端等工具，并以此前只有更大更贵模型才能达到的水平自主运行。 该发布标志着更强大且更具性价比的代理 AI 向开发者迈进，但其相比高端 Opus 模型的成本效益权衡引发了关于何时使用 Sonnet 还是 Opus 的争论。 Sonnet 5 在遵循复杂指令方面表现出显著改进，但基准测试显示其在冷知识问答和工具调用任务上存在弱点；社区测试表明其大约达到 GLM-5.2 的水平，但成本和速度均为其两倍。
 
-rss · Simon Willison · 6月30日 21:23
+hackernews · marinesebastian · 6月30日 17:59 · [社区讨论](https://news.ycombinator.com/item?id=48736605)
 
-**背景**: Claude 是 Anthropic 开发的一系列大语言模型，通常分为三个等级：Haiku（快速）、Sonnet（均衡）和 Opus（最强）。先前如 Opus 4.8 和 Mythos 5 等模型代表顶尖水准，但部分因网络安全能力受到美国政府限制。Sonnet 5 旨在提供高性能的同时避免触发此类管控。
+**背景**: Anthropic 提供一系列模型：Haiku（轻量、快速）、Sonnet（中端、均衡）和 Opus（高端、能力最强但昂贵）。代理式 AI 指能够自主使用工具并进行多步骤规划来执行任务的系统。Claude Sonnet 5 是 Sonnet 系列的最新版本，强调了此前仅在更大模型中才具备的代理能力。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Claude_Opus_4.8">Claude Opus 4.8</a></li>
-<li><a href="https://www.anthropic.com/news/claude-opus-4-8">Introducing Claude Opus 4.8 \ Anthropic</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Claude_Mythos">Claude Mythos - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Agentic_AI">Agentic AI</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 许多用户质疑 Sonnet 5 相比 Opus 4.8 的价值，指出在单位任务成本图表上，Opus 在较高努力级别上仍更高效。一些人担心模型对智能体能力的强化可能降低其在辅助开发中的表现，还有担忧认为削弱网络安全能力可能导致生成的代码安全性降低。
+**社区讨论**: 社区反应整体褒贬不一。用户注意到 Sonnet 5 在编辑代理中改进了指令遵循能力，但质疑其与 Opus 相比的成本效益，一些人认为在相同成本下，低努力级别的 Opus 往往优于 Sonnet 5。也有人强调其速度和作为 Opus 额度耗尽时的廉价替代方案的潜力。
 
-**标签**: `#AI`, `#LLM`, `#Claude`, `#Anthropic`, `#Model Release`
+**标签**: `#AI`, `#LLM`, `#Anthropic`, `#agentic AI`, `#model release`
 
 ---
 
 <a id="item-2"></a>
-## [Claude Code 在 API 请求中嵌入隐写标记](https://thereallo.dev/blog/claude-code-prompt-steganography) ⭐️ 8.0/10
+## [Anthropic 推出面向数据科学与研究的 Claude Science](https://claude.com/product/claude-science) ⭐️ 8.0/10
 
-研究人员发现 Claude Code 在系统提示中秘密嵌入不可见的 Unicode 隐写标记，根据 API 基础 URL 和时区对请求进行指纹识别，且未向用户披露。 这种隐蔽标记引发了严重的透明度和伦理担忧，因为用户在不知情的情况下请求被追踪；这不仅影响对 Anthropic 的信任，也突显了反蒸馏措施与开发者自由之间的紧张关系。 标记通过 Unicode 零宽度字符实现，肉眼不可见，并依据 API 基础 URL 和时区生成，使 Anthropic 能检测出绕过默认网关的请求；但实现方式被指粗糙，逆向工程较为容易。
-
-hackernews · kirushik · 6月30日 15:44 · [社区讨论](https://news.ycombinator.com/item?id=48734373)
-
-**背景**: 隐写术是将信息隐藏在其他数据中的技术，例如利用 Unicode 控制字符嵌入不可见文本。模型蒸馏是指用大模型的输出训练小模型，从而复制其能力。有中国 AI 公司被指控利用西方模型的 API 进行蒸馏，违反服务条款。Anthropic 的隐藏标记正是为了检测并阻止此类未经授权的使用。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://byteiota.com/claude-code-is-marking-requests-what-anthropic-hid/">Claude Code Is Marking Requests: What Anthropic Hid</a></li>
-<li><a href="https://aiproductivity.ai/news/claude-code-prompt-steganography-hidden-markers/">Claude Code Prompt Steganography Discovered - aiproductivity.ai</a></li>
-<li><a href="https://thereallo.dev/blog/claude-code-prompt-steganography">Claude Code Is Steganographically Marking Requests</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: Hacker News 上的讨论分歧明显：一些人强烈谴责缺乏透明度，认为无论目的如何，未披露的指纹识别都是不道德的；另一些人则认为其目的可以理解，且对正常用户无害。粗糙的实现方式受到批评，有人建议使用更可信的开源替代品。
-
-**标签**: `#steganography`, `#AI tools`, `#transparency`, `#security`, `#ethics`
-
----
-
-<a id="item-3"></a>
-## [Anthropic 推出面向数据驱动研究的 Claude Science](https://claude.com/product/claude-science) ⭐️ 8.0/10
-
-Anthropic 推出了 Claude Science，一款专为科学研究设计的测试版 AI 工作台。它具备本地服务器和基于 Web 的用户界面，集成了数据库和高性能计算集群，主要针对制药和生命科学领域常见的封锁式研究环境。 该工具允许研究人员通过安全的本地界面直接访问机构数据和计算资源，克服了传统 AI 辅助分析中遇到的障碍。它通过将 AI 深度整合到现有研究工作流中，有望显著加速科学发现。 该产品运行本地服务器并使用 Web 界面，不同于 Claude Code 的紧密耦合方式，并包含特定集成如 Biomni HPC。它专注于数据科学任务，如可视化和探索性分析，但目前仍处于测试阶段。
+Anthropic 发布了 Claude Science，这是一个可定制的 AI 工作台，集成本地服务器、数据库和机构集群，为科学家简化数据分析流程。它提供基于 Web 的用户界面和可审计的产出物，旨在取代零散的数据流水线。 Claude Science 解决了制药等高度监管行业对本地数据分析的关键需求，这些行业的数据不能离开本地环境。它直接在敏感数据上提供 AI 驱动的洞察，加速研究并保持合规性和可复现性。 它运行本地服务器并通过浏览器提供 UI，不同于 Claude Code 或 Cowork。早期测试显示其方法胜任但有时较为初级（如 RNAi 设计），AI 能意识到自身局限。集成包括机构 HPC 集群和各类数据库。
 
 hackernews · lebovic · 6月30日 17:07 · [社区讨论](https://news.ycombinator.com/item?id=48735770)
 
-**背景**: 许多研究环境，尤其是制药领域，由于严格的数据安全协议，禁止将外部设备连接到敏感数据源。Claude Science 通过本地部署来解决这一问题，允许科学家通过本地浏览器界面访问数据和计算集群。它利用了 Anthropic 的 Claude AI 模型，旨在创建可审计、可复现的工作流，类似于增强版的 Jupyter 环境。
+**背景**: Claude 是 Anthropic 的 AI 助手系列。Claude Science 是面向科学数据分析的专用扩展，将自然语言交互与沙盒代码执行相结合。它允许研究者在本地或远程计算资源上运行 Python 和 R 脚本，每一步都可追溯审计，适合学术和工业研究。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.anthropic.com/news/claude-science-ai-workbench">Claude Science, an AI workbench for scientists, is now available</a></li>
+<li><a href="https://www.anthropic.com/news/claude-science-ai-workbench">Claude Science, an AI workbench for scientists \ Anthropic</a></li>
 <li><a href="https://claude.com/product/claude-science">Claude Science beta | Claude by Anthropic</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者赞扬了本地服务器架构，认为这是用于气隙实验室的突破，并指出它能直接与机构 HPC 系统集成。有人指出它更像是一个数据科学工具而非通用科学工具，但承认其在数据可视化和探索性数据分析方面的潜力。其他人则担心科学讨论过度聚焦于 LLM，而参与该工具发布的相关开发者则强调了它在自动化、可审计研究流程方面的价值。
+**社区讨论**: 评论指出本地服务器架构对制药业的价值，但认为该工具严重偏向数据科学，以 pandas 为中心的 UI。一些人认为它能胜任快速任务（如 RNAi 设计），另一些人则认为它没有宣传的那么革命性，在基于图像的数据可视化方面潜力被低估。对集成的热情因对专业领域深度的疑虑而有所减弱。
 
-**标签**: `#ai`, `#data-science`, `#anthropic`, `#product-launch`, `#tooling`
+**标签**: `#AI`, `#data-science`, `#product-launch`, `#scientific-computing`, `#claude`
+
+---
+
+<a id="item-3"></a>
+## [浏览器版 Kubernetes 面世，助力教育探索](https://ngrok.com/blog/i-ported-kubernetes-to-the-browser) ⭐️ 8.0/10
+
+ngrok 团队发布了‘webernetes’，一个完全在浏览器中运行的 Kubernetes 移植版本，利用 WebAssembly 技术，允许用户交互式地探索集群概念，并包含一个可控制时间的步进时钟。 它降低了学习 Kubernetes 的门槛，无需搭建真实集群即可在浏览器中理解和实验核心概念，对教育和培训有重要价值，并展示了 WebAssembly 在模拟复杂系统方面的潜力。 目前 Pod 尚未运行在 Web Worker 中，但通过 Clock 机制可以步进控制集群时间；实现可能利用了 SharedArrayBuffer 和原子操作。项目在 GitHub 上开源并提供了在线演示。
+
+hackernews · peterdemin · 6月30日 20:48 · [社区讨论](https://news.ycombinator.com/item?id=48738985)
+
+**背景**: Kubernetes 是一个用于自动部署、扩展和管理容器化应用的开源平台。WebAssembly（Wasm）是一种低级二进制指令格式，可在浏览器中以接近原生速度执行代码，支持 C、C++、Rust 等语言。将 Kubernetes 移植到浏览器，展示了 Wasm 在沙箱环境中运行复杂服务器端基础设施的能力。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/WebAssembly">WebAssembly</a></li>
+<li><a href="https://webassembly.org/">WebAssembly</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 社区反响热烈，讨论集中在利用 Web Worker 实现线程化、与 Katacoda 等教育平台的比较、对 AI 辅助验证工作流的兴趣以及教育价值上。有人分享了类似项目，整体讨论提出了未来改进的构想。
+
+**标签**: `#kubernetes`, `#browser`, `#education`, `#simulation`, `#webassembly`
 
 ---
 
 <a id="item-4"></a>
-## [Nano Banana 2 Lite：更快的 Gemini 图像模型](https://deepmind.google/models/gemini-image/flash-lite/) ⭐️ 8.0/10
+## [shot-scraper 1.10 新增视频录制命令](https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything) ⭐️ 8.0/10
 
-谷歌发布了 Nano Banana 2 Lite，这是 Gemini 图像模型的精简版，生成速度更快，文字渲染优于 Nano Banana 1，但在处理高细节提示时略有不足。 该模型的速度和成本效益使其适用于房地产展示和儿童故事应用等高吞吐量场景，降低了开发者集成 AI 图像生成的门槛，体现了谷歌通过分层模型平衡性能与价格的策略。 Nano Banana 2 Lite 生成一张图片不到 5 秒，而基础模型约需 30 秒，但无法通过编程强制宽高比，并在精细提示下丢失部分细微特征。文字渲染明显优于 Nano Banana 1。
+shot-scraper 1.10 新增 'video' 命令，可根据 YAML 故事板文件定义的操作流程，使用 Playwright 录制 Web 应用交互视频。 这使得编码代理可以自动化生成视频演示来展示成果，并简化了 Web 交互的文档编写和测试过程。 该 video 命令支持通过场景定义点击、暂停、注入 JavaScript 等动作；可通过 Cookie 进行认证；输出格式为 MP4 或 WebM；录制前可先启动服务器。
 
-hackernews · minimaxir · 6月30日 16:48 · [社区讨论](https://news.ycombinator.com/item?id=48735444)
+rss · Simon Willison · 6月30日 16:54
 
-**背景**: Nano Banana 是谷歌 Gemini 模型的图像生成功能。此前 Nano Banana 1 在文字渲染上表现不佳，Nano Banana 2 提升了质量但速度较慢。Nano Banana 2 Lite 通过模型蒸馏实现高速度和低成本，保留了良好的文字渲染能力，但牺牲了部分细节。该模型可通过 Google AI Studio、Gemini API 和 Gemini Enterprise 使用。
+**背景**: shot-scraper 是一个基于 Playwright 的命令行工具，用于自动化网页截图，由 Simon Willison 于 2022 年创建，常用于文档截图和数据抓取。此次新增的视频功能将其扩展到录制完整的交互序列。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/">Start building with Nano Banana 2 Lite and Gemini Omni Flash</a></li>
-<li><a href="https://deepmind.google/models/gemini-image/flash-lite/">Gemini 3.1 Flash-Lite Image – Nano Banana 2 Lite</a></li>
-<li><a href="https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available/">Nano Banana 2 Lite and Gemini Omni Flash available | Google Cloud Blog</a></li>
+<li><a href="https://simonwillison.net/2022/Mar/10/shot-scraper/">shot-scraper: automated screenshots for documentation, built on Playwright</a></li>
+<li><a href="https://shot-scraper.datasette.io/">shot-scraper</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 早期测试者证实了模型的速度和文字渲染改进，但也指出无法通过编程强制宽高比，复杂提示下会丢失细节。部分用户批评谷歌 AI Studio 需要付费 Google One 账户，且与 Workspace 账户不兼容。还有人注意到对比图中未包含 ChatGPT，引发透明度质疑。
-
-**标签**: `#AI`, `#image-generation`, `#Gemini`, `#Google`, `#hackernews`
+**标签**: `#shot-scraper`, `#web scraping`, `#video recording`, `#automation`, `#testing`
 
 ---
 
 <a id="item-5"></a>
-## [Cursor iOS 应用安装导致隐私设置被强制更改且无法恢复](https://news.ycombinator.com/item?id=48737226) ⭐️ 8.0/10
+## [EACL 2027 将作者回复与审稿人讨论分为独立阶段](https://www.reddit.com/r/MachineLearning/comments/1ujj63g/eacl_2027_author_response_and_authorreviewer/) ⭐️ 8.0/10
 
-在安装 Cursor iOS 应用后，用户的账户被自动从严格的“隐私模式(旧版)”切换到更宽松的新隐私模式，且未明确告知；旧版选项已消失，支持团队表示无法恢复。 此事件暴露了严重的隐私侵犯行为：用户设置在未获同意的情况下被修改，可能导致代码被意外存储。这损害了用户对 AI 驱动开发工具的信任，并凸显了依赖 LLM 客服带来的风险。 支持回复可能由 LLM 生成，确认设置是在启用 Cloud Agents 时被切换的，但表示无法恢复旧版设置。此外，该移动应用功能有限，无法独立启动代理会话，仅能从电脑端接手现有会话。
+EACL 2027 将作者回复与作者-审稿人讨论拆分为两个独立阶段，并延长了时间：作者回复期为 2026 年 9 月 14 日至 19 日，审稿人讨论期为 9 月 20 日至 24 日，而以往 ARR 周期总共仅有五天。 这一改变解决了长期以来时间紧张的问题，使作者有更充足的时间准备回复并与审稿人深入交流，有望提升审稿质量与公平性。 拆分后总时长从 5 天增至 9 天，回复期（5 天）和讨论期（4 天）相互独立。ARR 指南仍建议回复期间不添加新实验，但更充裕的时间缓解了压力。
 
-hackernews · zkldi · 6月30日 18:33
+reddit · r/MachineLearning · /u/S4M22 · 6月30日 08:16
 
-**背景**: Cursor 是由旧金山公司 Anysphere 开发的 AI 赋能代码编辑器。其隐私设置包括“隐私模式(旧版)”，承诺不存储用户代码，以及较新的“隐私模式”，允许为后台代理等功能存储代码。旧版模式被隐藏在额外选项中，公司的数据使用政策说明隐私模式会阻止客户数据用于训练。iOS 应用在设置时可能提示用户启用 Cloud Agents，从而触发了设置更改。
+**背景**: ARR（ACL 滚动审稿）是许多 NLP 会议使用的集中式同行评审平台。传统上，作者在收到评审意见后，只有短暂的合并窗口进行回复并与审稿人讨论，之后形成综合评审决定。此前紧迫的时间表常被诟病为压力大且不利于深入交流。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Cursor_(code_editor)">Cursor (code editor)</a></li>
-<li><a href="https://cursor.com/data-use">Cursor · Data Use & Privacy Overview</a></li>
+<li><a href="http://aclrollingreview.org/dates">Dates and Venues – ACL Rolling Review – A peer review ...</a></li>
+<li><a href="http://aclrollingreview.org/in-cycle-author-response/">In Cycle Author Response – ACL Rolling Review – A peer review ...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者指出支持回复可能出自 LLM，建议通过 Twitter 或此帖进行申诉。有人分享了类似经历，还有用户指出移动应用功能有限，并推荐了如 Paseo 等开源替代品。
-
-**标签**: `#privacy`, `#cursor`, `#ios`, `#security`, `#user-trust`
+**标签**: `#NLP`, `#peer-review`, `#conferences`, `#ARR`, `#machine learning`
 
 ---
 
 <a id="item-6"></a>
-## [ZLUDA 6 发布：非 Nvidia GPU 可运行原版 CUDA 应用](https://vosen.github.io/ZLUDA/blog/zluda-update-q1q2-2026/) ⭐️ 8.0/10
+## [Claude Code 被发现利用隐写术标记请求](https://thereallo.dev/blog/claude-code-prompt-steganography) ⭐️ 7.0/10
 
-ZLUDA 6 版本发布，允许在非 Nvidia GPU 上运行原版 CUDA 应用。新增功能包括 32 位 PhysX 支持，且开发转向作者个人兴趣驱动。 该版本进一步打破了 Nvidia CUDA 的生态垄断，使 AMD 等 GPU 也能运行 CUDA 独占软件。新增的 32 位 PhysX 支持及时回应了 Nvidia 此前考虑移除该功能的争议。 ZLUDA 现已转为作者的周末兴趣项目，优先实现个人趣味功能（如 32 位 PhysX）而非商业需求。它通过 ROCm 在 AMD GPU 上达到接近原生性能。
+近期调查发现，Anthropic 的 Claude Code 工具在其 API 请求中嵌入了隐藏的隐写标记，可能是为了检测外部的未经授权的模型蒸馏行为。 这一发现引发了对透明度和信任的严重关切，因为用户未被告知其请求被修改，可能影响企业采用和 AI 工具的伦理标准。 该标记技术似乎以微妙方式修改请求的元数据或内容，但具体实现未公开。该方法因相对容易被检测和逆向工程而受到批评，暗示本可有更复杂的混淆手段。
 
-hackernews · Tiberium · 6月30日 10:34 · [社区讨论](https://news.ycombinator.com/item?id=48730713)
+hackernews · kirushik · 6月30日 15:44 · [社区讨论](https://news.ycombinator.com/item?id=48734373)
 
-**背景**: ZLUDA 是一个开源翻译层，使原版 CUDA 应用能在非 Nvidia GPU（主要通过 ROCm 支持 AMD）上运行。CUDA 是 Nvidia 的并行计算平台，广泛用于 AI 与渲染，造成软件锁定。2024 年，Nvidia 更新 EULA 明确禁止此类翻译层，引发社区对 ZLUDA 等替代方案的高度关注。
+**背景**: 隐写术是一种将信息隐藏在普通数据中以躲避检测的技术。模型蒸馏是通过训练较小的模型来模仿较大模型的行为，从而压缩模型知识的过程，但可能被滥用以复制闭源模型。Claude Code 是 Anthropic 推出的智能编程代理工具，可与开发环境集成以自动化任务。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.tomshardware.com/pc-components/gpus/nvidia-bans-using-translation-layers-for-cuda-software-to-run-on-other-chips-new-restriction-apparently-targets-zluda-and-some-chinese-gpu-makers">Nvidia bans using translation layers for CUDA software — previously the prohibition was only listed in the online EULA, now included in installed files [Updated] | Tom's Hardware</a></li>
-<li><a href="https://github.com/vosen/ZLUDA">GitHub - vosen/ZLUDA: CUDA on non-NVIDIA GPUs · GitHub</a></li>
+<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
+<li><a href="https://aisecurityandsafety.org/en/glossary/steganographic-communication/">Steganographic Communication — AI Safety & Security ...</a></li>
+<li><a href="https://alan-turing-institute.github.io/tea-techniques/techniques/model-distillation/">Model Distillation - TEA Techniques</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者赞赏开发转向娱乐驱动的模式。他们强调 32 位 PhysX 支持的重要性，尤其是 Nvidia 此前计划在 50 系显卡上移除该功能。也有人询问 ZLUDA 在 LLM 上相较 Vulkan 的表现，并注意到项目名称在波兰语中意为“海市蜃楼”。
+**社区讨论**: 社区反应存在分歧：一些人批评 Anthropic 缺乏透明度，引发伦理担忧；另一些人则认为这种标记是无害的，仅针对恶意的模型蒸馏行为。技术评论指出实现方式过于草率，本可更隐蔽；还有人主张在沙箱中运行 AI 工具以降低风险。
+
+**标签**: `#steganography`, `#claude-code`, `#ai-tools`, `#transparency`, `#reverse-engineering`
+
+---
+
+<a id="item-7"></a>
+## [谷歌推出 Nano Banana 2 Lite 高速图像生成模型](https://deepmind.google/models/gemini-image/flash-lite/) ⭐️ 7.0/10
+
+谷歌发布了 Nano Banana 2 Lite（Gemini 3.1 Flash-Lite 图像模型），这是其 Nano Banana 系列中最快、最具成本效益的图像生成和编辑模型，针对快速创意探索和大规模内容创作进行了优化。 该模型降低了开发者和企业将快速、廉价的图像生成集成到应用中的门槛，使社交媒体内容、广告变体测试和交互设计工具等实时用例成为可能。 它像是 Nano Banana 2 的蒸馏版本，在文字渲染方面表现强劲，与基础模型相当，但处理精细提示词时细腻度不足；不支持编程方式控制宽高比，且仅通过 Google AI Studio 提供，需要兼容的 Google 账户。
+
+hackernews · minimaxir · 6月30日 16:48 · [社区讨论](https://news.ycombinator.com/item?id=48735444)
+
+**背景**: Nano Banana 是 Google DeepMind 的文生图模型系列，包括 Nano Banana 1 和 Nano Banana 2 等早期版本。这些模型能将自然语言描述转换为图像，并支持通过对话式提示进行编辑。“Lite”变体优先考虑速度和成本效益，适用于高吞吐量、延迟敏感的应用。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://deepmind.google/models/gemini-image/flash-lite/">Gemini 3.1 Flash-Lite Image – Nano Banana 2 Lite — Google ...</a></li>
+<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/">Start building with Nano Banana 2 Lite and Gemini Omni Flash</a></li>
+<li><a href="https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available/">Nano Banana 2 Lite and Gemini Omni Flash available | Google ...</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 评论者担心房地产经纪人使用人工智能美化房产图片误导买家。早期测试者指出生成速度更快（5 秒内对比基础版 NB2 的 30 秒），文字渲染良好，但细腻度有所降低，且无法通过编程方式强制设置宽高比。其他人批评谷歌的账户要求，指出 Workspace 账户与 Google One 不兼容，造成访问障碍。还有人对于官方比较中未包含 ChatGPT 表示遗憾。
+
+**标签**: `#image-generation`, `#ai-models`, `#google-deepmind`, `#hackernews`, `#technology`
+
+---
+
+<a id="item-8"></a>
+## [Hacker News 用户分享关于 Knoppix 的怀旧回忆](https://www.knopper.net/knoppix/index-en.html) ⭐️ 7.0/10
+
+Hacker News 上关于 Knoppix 网站的热门讨论引来众多用户分享，他们回忆了在 2000 年代初期这款 Linux live CD 如何引领他们走入编程和 Linux 的世界，引发了一场高度参与的怀旧讨论（获得 233 个赞和 94 条评论）。 这些真挚的故事凸显了 Knoppix 作为许多人接触 Linux 和开源技术教育门户的重要作用，表明无需安装的 live 发行版所产生的持久影响。 讨论中包含来自世界各地用户的个人轶事，许多人回忆起在学校或家中使用 Knoppix 绕过受限制的 Windows 环境，并将其归功于自己科技职业生涯的起点。还有评论者提到最近刚下载了最新版 Knoppix。
+
+hackernews · hoangvmpc · 6月30日 12:54 · [社区讨论](https://news.ycombinator.com/item?id=48732056)
+
+**背景**: Knoppix 是一个基于 Debian 的 Linux live CD/DVD，由德国开发者 Klaus Knopper 于 2000 年首次发布。它率先实现了自动硬件检测功能，允许用户从可移动介质直接启动完整的 Linux 系统而无需安装，这使得尝试 Linux 和从损坏系统中恢复数据变得安全可行。在 live USB 普及之前，像 Knoppix 这样的 live CD 在 2000 年代初期对 Linux 的普及起到了关键作用。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Knoppix">Knoppix</a></li>
+<li><a href="https://www.knopper.net/knoppix/index-en.html">KNOPPIX - Live Linux Filesystem On CD</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Live_CD">Live CD</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 评论整体非常积极和怀旧，用户们感谢 Klaus Knopper 和他的妻子 Adriane 打造了如此易用的工具。许多人分享了使用 live CD 学习编程、绕过学校电脑限制或激发其当前 DevOps 和 SRE 职业道路的具体回忆。未出现负面情绪。
+
+**标签**: `#linux`, `#knoppix`, `#live-cd`, `#nostalgia`, `#programming-education`
+
+---
+
+<a id="item-9"></a>
+## [HN 讨论 1852 年群体疯狂经典著作](https://www.gutenberg.org/ebooks/24518) ⭐️ 7.0/10
+
+一篇黑客新闻帖子介绍查尔斯·麦凯 1852 年的著作《非同寻常的大众幻想与群体性疯狂》，获得了 159 个积分和 52 条评论。 该书是行为经济学的基础著作，揭示了市场中经久不衰的非理性模式，此次讨论强化了它对当代金融泡沫的现实意义。 评论指出麦凯对郁金香狂热的记述多有夸张，并推荐了奎因和特纳的《繁荣与萧条》等更严谨的替代著作。
+
+hackernews · lstodd · 6月30日 12:47 · [社区讨论](https://news.ycombinator.com/item?id=48731989)
+
+**背景**: 该书初版于 1841 年，1852 年增补，剖析了南海泡沫和郁金香狂热等历史泡沫，论证人群会陷入集体非理性。当代史学家提醒，书中轶事常有夸张。
+
+**社区讨论**: 社区讨论中既有赞赏也有质疑：有人称赞书中南海泡沫骗局的幽默轶事，另有人引用学界对麦凯耸人听闻手法的批评，并推荐了《繁荣与萧条》等基于证据的著作。
+
+**标签**: `#psychology`, `#history`, `#finance`, `#bubbles`, `#crowd-behavior`
+
+---
+
+<a id="item-10"></a>
+## [ZLUDA 6 发布：CUDA 可运行于非 Nvidia GPU，新增 32 位 PhysX 支持](https://vosen.github.io/ZLUDA/blog/zluda-update-q1q2-2026/) ⭐️ 7.0/10
+
+ZLUDA 6 作为一个周末项目发布，不再有商业资金支持，新增了 32 位 PhysX 支持及其他趣味特性。它允许在非 Nvidia GPU 上运行未经修改的 CUDA 应用程序。 该更新通过让 CUDA 软件可在其他硬件上运行来应对厂商锁定问题，且 32 位 PhysX 支持特别值得关注，因为 Nvidia 最初在 5000 系列中移除了该功能。它突显了以娱乐而非商业利益为导向的社区驱动开发模式。 ZLUDA 是 CUDA 的直接替代方案，通过 ROCm 在 AMD GPU 上实现接近原生的性能。该项目现在以个人兴趣维护，开发者根据个人兴趣而非商业需求添加功能。
+
+hackernews · Tiberium · 6月30日 10:34 · [社区讨论](https://news.ycombinator.com/item?id=48730713)
+
+**背景**: CUDA 是 Nvidia 的并行计算平台，将软件锁定在其 GPU 上。ZLUDA 将 CUDA 调用转译为 ROCm 等其他框架，使 AMD GPU 能够运行 CUDA 代码。PhysX 是一个物理引擎，历史上在 Nvidia GPU 上加速运行，Nvidia 曾在新款显卡中弃用 32 位 PhysX 支持，引起传统游戏爱好者的担忧。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://github.com/vosen/ZLUDA">GitHub - vosen/ZLUDA: CUDA on non-NVIDIA GPUs</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PhysX">PhysX</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 社区评论赞赏项目转向娱乐驱动，并注意到在 Nvidia 弃用情况下 32 位 PhysX 支持的实用价值。有人询问与 Vulkan 相比的 LLM 性能，并对项目名在波兰语中意为“幻影”感到有趣。
 
 **标签**: `#CUDA`, `#GPU`, `#translation-layer`, `#open-source`, `#compatibility`
 
 ---
 
-<a id="item-7"></a>
-## [概念验证型毫米波材料分类雷达（2025）](https://gauthier-lechevalier.com/radar) ⭐️ 7.0/10
-
-一名爱好者搭建并记录了一个用于材料分类的毫米波雷达概念验证系统，但发现其灵敏度不足以可靠地区分相似材料，例如含石棉的材料。 该实验凸显了毫米波传感在材料分类中的现实挑战，为硬件爱好者提供了宝贵的经验教训，并揭示了实验室概念与实际应用之间的差距。 该系统使用毫米波雷达（可能为 60GHz 或 76-81GHz 波段）并对常见材料进行了测试，但未能满足石棉检测等关键应用所需的灵敏度。作者得出结论，在解决核心灵敏度问题之前，客户不太可能感兴趣。
-
-hackernews · GL26 · 6月30日 17:29 · [社区讨论](https://news.ycombinator.com/item?id=48736137)
-
-**背景**: 毫米波雷达工作在 30–300 GHz 频率范围，通过发射电磁波并分析反射信号来探测物体和材料。利用雷达进行材料分类是一个活跃的研究领域，通常借助机器学习根据不同材料的介电特性进行区分。主要挑战包括对细微材料差异的灵敏度以及环境干扰。该项目是一次构建此类系统的 DIY 尝试。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Mmwave_sensing">mmWave sensing - Wikipedia</a></li>
-<li><a href="https://www.ti.com/lit/spyy005">The fundamentals of millimeter wave radar sensors Cesar Iovescu</a></li>
-<li><a href="https://arxiv.org/abs/2202.05169">[2202.05169] Radar-based Materials Classification Using Deep Wavelet Scattering Transform: A Comparison of Centimeter vs. Millimeter Wave Units</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者批评该原型未能解决核心的石棉分类问题，分享了毫米波成像雷达的先前研究，并赞赏从失败中汲取的教训。有人提出了利用材料不连续性进行检测的替代思路。
-
-**标签**: `#mmWave`, `#radar`, `#material-classification`, `#embedded-systems`, `#hardware`
-
----
-
-<a id="item-8"></a>
-## [《大癫狂》经典重读：金融泡沫与群众疯狂](https://www.gutenberg.org/ebooks/24518) ⭐️ 7.0/10
-
-一条链接到查尔斯·麦凯 1852 年著作《大癫狂》古腾堡计划免费版的 Hacker News 帖子获得广泛关注，得到 149 分和 46 条评论，人们就其历史叙述与现实意义展开讨论。 该书对金融狂潮与人群心理的剖析在今日仍极具现实意义，从加密货币泡沫到模因股狂潮，现代市场反复上演相似的投机过度，凸显了非理性繁荣的永恒本性。 尽管麦凯的著作以生动的叙事著称，但现代学者批评其夸大了 17 世纪荷兰郁金香狂热等事件；更严谨的历史替代读物包括威廉·奎因和约翰·特纳合著的《繁荣与萧条》。
-
-hackernews · lstodd · 6月30日 12:47 · [社区讨论](https://news.ycombinator.com/item?id=48731989)
-
-**背景**: 《大癫狂》初版于 1852 年，是行为经济学和社会心理学的奠基之作，详述了南海泡沫、密西西比计划等著名的投机泡沫。它展示了集体妄想如何将市场推向非理性极端，影响了约翰·肯尼思·加尔布雷思等思想家及现代市场周期分析。
-
-**社区讨论**: 评论者分享了书中的幽默轶事，例如 1720 年的骗局“一项好处极大但无人知晓内容的事业”，同时就郁金香狂热叙述的历史准确性展开辩论。一些人推荐加尔布雷思的《金融狂热简史》以及奎因和特纳的《繁荣与萧条》作为更可靠的信息来源。
-
-**标签**: `#history`, `#psychology`, `#finance`, `#bubbles`, `#crowd-behavior`
-
----
-
-<a id="item-9"></a>
-## [加密行业为 2026 年美国大选已投入 1.89 亿美元](https://www.reuters.com/world/crypto-firms-have-spent-189-million-so-far-2026-us-election-report-says-2026-06-30/) ⭐️ 7.0/10
-
-报告显示，加密货币公司已为 2026 年美国大选投入 1.89 亿美元，标志着数字资产行业政治捐款大幅增加。 这笔支出凸显加密行业试图影响监管和政策，可能左右未来数字资产立法，并引发对金钱政治的广泛担忧。 1.89 亿美元的数字来自竞选财务报告，其中风投公司 Andreessen Horowitz 贡献了 5165 万美元，资金流向候选人、政党和政治行动委员会。
-
-hackernews · tartoran · 6月30日 16:44 · [社区讨论](https://news.ycombinator.com/item?id=48735376)
-
-**背景**: 2010 年联合公民案裁决允许美国企业无限制政治支出，促使各行业投入选举。面临监管不确定性的加密行业加大游说力度，以争取有利规则。
-
-**社区讨论**: 多数评论者批评金钱政治，提及最高法院近期裁决纵容无限支出和英国一桩加密资金资助政党领袖的丑闻。一些人质疑游说实效，认为加密价值取决于市场情绪，整体对制度性腐败持负面态度。
-
-**标签**: `#politics`, `#cryptocurrency`, `#campaign-finance`, `#tech-industry`, `#2026-election`
-
----
-
-<a id="item-10"></a>
-## [shot-scraper 1.10 新增视频命令，支持故事板 YAML 录制网页自动化演示](https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything) ⭐️ 7.0/10
-
-shot-scraper 1.10 新增 'video' 命令，接收 storyboard.yml 文件定义网页自动化步骤，并利用 Playwright 录制整个过程的视频，方便智能代理生成演示。 该功能满足了智能代理需要提供可验证工作成果的需求，使得自动化网页交互过程能够被直观记录和分享，随着 AI 驱动自动化的普及，这一点愈发重要。 故事板 YAML 可指定服务器启动命令、视口尺寸、鼠标显示、用于修补浏览器 API 的 JavaScript 注入（如模拟剪贴板），以及带定时操作的场景。命令支持通过 --mp4 导出 MP4，并使用 Cookie 进行身份验证。
-
-rss · Simon Willison · 6月30日 16:54
-
-**背景**: shot-scraper 是一个基于 Playwright 的开源命令行工具，主要用于自动截屏和网页抓取。Reuters 等机构曾用它生成数据仪表板。此次新增的视频命令将其功能扩展到录制浏览器自动化过程的视频，与原有的截图功能互补。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://shot-scraper.datasette.io/">shot-scraper</a></li>
-<li><a href="https://simonwillison.net/2022/Mar/10/shot-scraper/">shot-scraper: automated screenshots for documentation, built on Playwright</a></li>
-
-</ul>
-</details>
-
-**标签**: `#shot-scraper`, `#automation`, `#video-recording`, `#developer-tools`, `#playwright`
-
----
-
 <a id="item-11"></a>
-## [1100 万篇论文的语义相似度与时间切片交互地图](https://www.reddit.com/r/MachineLearning/comments/1ujn3u5/a_map_of_the_latest_11_million_papers_split_by/) ⭐️ 7.0/10
+## [Simon Willison 的 HTML 表格提取工具](https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything) ⭐️ 7.0/10
 
-免费工具‘The Global Research Space’利用 SPECTER2 嵌入和 UMAP 可视化来自 OpenAlex 和 arXiv 的 1100 万篇论文，支持按语义相似度和时间趋势进行探索。 这有助于研究人员通过揭示宏观趋势和语义搜索来应对海量出版物，可能改善文献发现过程。 该地图在高密度聚类周围使用 Voronoi 剖分，并提供用于机构、作者和主题排名的分析层；数据每日更新。
+Simon Willison 发布了一款基于浏览器的工具，可从粘贴的富文本中提取 HTML 表格，并将其转换为 HTML、Markdown、CSV、TSV 或 JSON 格式。 该工具提供了一种无需安装的快速方法，可将 HTML 表格转换为结构化数据格式，为经常处理网页数据的开发人员和分析师节省时间。 该工具利用浏览器的富文本粘贴功能获取表格结构，并支持多种输出格式。最近更新增加了通过 Wikipedia 开放 CORS API 搜索页面并自动导入表格的功能。
 
-reddit · r/MachineLearning · /u/icannotchangethename · 6月30日 11:55
+rss · Simon Willison · 6月29日 23:38
 
-**背景**: SPECTER2 是一种基于标题和摘要生成科学论文嵌入的模型，通过引文网络训练，使相似论文在嵌入空间中靠近。UMAP 是一种降维技术，将高维数据投影到二维同时保留全局结构，常用于可视化。Voronoi 图将空间划分为围绕点的单元，此处用于在可视化中划分聚类。
+**背景**: Simon Willison 是知名开发者，以 Datasette 等工具闻名。他一直在构建一系列在线转换工具。网页上经常包含 HTML 表格，但手动或编程提取可能非常耗时。该工具提供了一个简洁的替代方案，可从任何富文本源快速复制表格数据。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://allenai.org/blog/specter2-adapting-scientific-document-embeddings-to-multiple-fields-and-task-formats-c95686c06567">SPECTER2: Adapting scientific document embeddings to multiple fields and task formats | Ai2</a></li>
-<li><a href="https://arxiv.org/abs/1802.03426">[1802.03426] UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Voronoi_diagram">Voronoi diagram - Wikipedia</a></li>
+<li><a href="https://tools.simonwillison.net/html-table-extractor">HTML table extractor</a></li>
+<li><a href="https://simonwillison.net/2026/Jun/29/html-table-extractor/">Tool: HTML table extractor</a></li>
 
 </ul>
 </details>
 
-**标签**: `#visualization`, `#scientific literature`, `#embeddings`, `#UMAP`, `#machine learning`
+**标签**: `#web tools`, `#html parsing`, `#data conversion`, `#developer tools`, `#utilities`
 
 ---
 
 <a id="item-12"></a>
-## [Knoppix 主页勾起早期 Live Linux 怀旧回忆](https://www.knopper.net/knoppix/index-en.html) ⭐️ 6.0/10
+## [基于 SPECTER2 和 UMAP 的 1100 万论文时间切片交互地图](https://www.reddit.com/r/MachineLearning/comments/1ujn3u5/a_map_of_the_latest_11_million_papers_split_by/) ⭐️ 7.0/10
 
-Knoppix 主页引发了一场热烈讨论，资深用户们深情回忆起这款开创性 Live 发行版在 2000 年代初期如何带领他们入门 Linux。 此次讨论凸显了 Knoppix 作为首批广泛使用的 Live 发行版之一的持久遗产，它让 Linux 实验变得安全且易于上手，最终影响了许多 IT 职业生涯。 Knoppix 由 Klaus Knopper 于 2000 年首次发布，是一款基于 Debian 的 Live 系统，无需安装即可从 CD、DVD 或 USB 启动。它常用于系统救援、教育和作为便携式操作系统，并衍生出如用于科学计算的 Quantian 等分支。
+一个免费的交互式地图利用 SPECTER 2 嵌入和 UMAP 降维，对来自 OpenAlex 和 Arxiv 的 1100 万篇最新科学论文进行可视化，并采用 Voronoi 标签和时间切片来支持趋势分析。 该工具使研究人员能够宏观探索科学文献随时间变化的趋势，发现新兴主题，并对机构和作者进行排名，让大规模学术分析更加直观易用。 该地图使用带任务适配器的 SPECTER 2 嵌入、UMAP 投影、围绕高密度峰的 Voronoi 细分，并支持关键词和语义搜索，每日更新。
 
-hackernews · hoangvmpc · 6月30日 12:54 · [社区讨论](https://news.ycombinator.com/item?id=48732056)
+reddit · r/MachineLearning · /u/icannotchangethename · 6月30日 11:55
 
-**背景**: Live Linux 发行版完全从可移动介质（如 CD 或 U 盘）运行，不会触碰主机硬盘。这在 2000 年代初期是尝试 Linux 的关键无风险方式，而 Knoppix 是最早普及这一方式的发行版之一，让新手也能轻松上手。
+**背景**: SPECTER 2 是一种科学文档嵌入模型，经过多任务多领域训练，可生成语义表示。UMAP 是一种降维技术，在保留全局和局部结构的同时将高维数据降至二维。Voronoi 图根据点集将空间划分为距离每个点最近的区域，在此用于标注聚类。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Knoppix">Knoppix - Wikipedia</a></li>
-<li><a href="https://www.knopper.net/knoppix/index-en.html">KNOPPIX - Live Linux Filesystem On CD</a></li>
+<li><a href="https://allenai.org/blog/specter2-adapting-scientific-document-embeddings-to-multiple-fields-and-task-formats-c95686c06567">SPECTER2: Adapting scientific document embeddings to multiple fields and task formats | Ai2</a></li>
+<li><a href="https://umap-learn.readthedocs.io/en/latest/">UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Voronoi_diagram">Voronoi diagram</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者主要表达怀旧和感激之情，分享在学校或家用共享电脑上通过 Knoppix 发现 Linux 的个人轶事。许多人将其视为自己科技职业生涯的开端，还有回忆起如 Quantian 等小众衍生版本。整体语气充满赞赏，没有明显分歧或批评。
-
-**标签**: `#linux`, `#live-distribution`, `#knoppix`, `#nostalgia`, `#history`
+**标签**: `#scientific literature`, `#visualization`, `#embeddings`, `#UMAP`, `#SPECTER2`
 
 ---
 
 <a id="item-13"></a>
-## [Simon Willison 评价趣味 AI 伦理测验《AI Compass》](https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything) ⭐️ 6.0/10
+## [自制毫米波雷达用于材料分类，石棉检测功能未实现](https://gauthier-lechevalier.com/radar) ⭐️ 6.0/10
 
-Simon Willison 参与了一个名为 AI Compass 的测验，该测验通过 29 道关于 AI 及 AI 伦理的问题将用户划分为 30 种 AI 原型之一。他的测试结果为“车库修理工”，该原型的守护神正是 Simon 本人，他对此感到既有趣又贴切。 该测验以轻松幽默的方式引导人们反思自己对 AI 的信念和态度，促进 AI 社区的自我认知。其传播性强的形式也有助于在技术圈之外引发关于 AI 伦理的讨论。 该测验是一个用 React 编写的单页应用，通过 <script type='text/babel'> 技巧免去了构建步骤，源代码在 GitHub 上公开。由 bambamramfan 制作，包含 30 种 AI 原型，其中“车库修理工”以 Simon Willison 为守护神。
+一位创客构建了一个概念验证毫米波雷达系统，旨在进行材料分类，特别是石棉检测，但该设备仅演示了区分常见材料，并未测试石棉。 建筑物石棉检测通常昂贵且需要物理采样；非接触式雷达检测方法可大幅简化流程，但该项目凸显了实现可靠分类的重大技术障碍。 该系统使用毫米波频率，可分类木材和金属等常见材料，但关键问题——能否在低浓度下区分含石棉材料——仍未解答，限制其实用价值。
 
-rss · Simon Willison · 6月30日 17:39
+hackernews · GL26 · 6月30日 17:29 · [社区讨论](https://news.ycombinator.com/item?id=48736137)
 
-**背景**: “政治罗盘”是一种流行的在线测验格式，根据用户的回答将其映射到二维网格上，常用于可视化政治意识形态。在此测验中，坐标轴为“好 vs 坏”与“过度炒作 vs 变革性”，用以划分对 AI 的态度。“车库修理工”这一原型代表那些喜欢动手在本地运行 AI 模型、而不参与宏观伦理讨论的人。
+**背景**: 毫米波雷达工作在 30-300 GHz 频率范围，常用于汽车、工业和安全领域的非接触式传感。通过雷达进行材料分类通常利用反射率和介电特性的差异，但由于信号差异微弱，区分外观相似的材料（如有石棉和无石棉的干墙）具有挑战性。
 
-**标签**: `#AI`, `#quizzes`, `#ethics`, `#fun`, `#personal`
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Mmwave_sensing">mmWave sensing - Wikipedia</a></li>
+<li><a href="https://article.murata.com/en-us/article/mmwave-radar-sensing">What Is mmWave Radar? Principles and Usage Examples</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 评论者指出，该概念验证并未尝试检测石棉，有人认为关于客户兴趣的结论为时过早。其他人赞扬作者分享了经验教训，并讨论了替代传感方式，如检测材料不连续性而非分类。
+
+**标签**: `#mmWave`, `#radar`, `#material-classification`, `#DIY`, `#hardware`
 
 ---
 
 <a id="item-14"></a>
-## [免费 CV 面试清单新增分割、OCR 和 VLM 专项](https://www.reddit.com/r/MachineLearning/comments/1ujlmy2/update_on_cvil_the_free_cv_interview_prep/) ⭐️ 6.0/10
+## [为什么在实例表示学习中使用噪声对比估计而非直接近似分母？](https://www.reddit.com/r/MachineLearning/comments/1uj8nse/loss_functions_in_instance_representation/) ⭐️ 6.0/10
 
-开源 CV 面试准备清单 CVIL 新增了三个专项学习路径，分别聚焦于图像分割、光学字符识别（OCR）和视觉语言模型（VLM）。 该资源为计算机视觉求职者提供了一套结构化、经过社区验证的学习课程，并纳入了当前行业岗位中需求日益增长的新兴主题。 该清单从数学和 CNN 开始，逐步推进到 ViT 和目标检测，再提供专项方向；贡献者可通过 GitHub PR 添加 3D 视觉和姿态估计等模块。
+一位 Reddit 用户提问，为何在实例表示学习中使用噪声对比估计（NCE）而非直接近似 softmax 分母，因为两者最终都涉及分母估计。该帖还询问了有偏估计量以及随着噪声样本增加 NCE 梯度是否与负对数似然梯度匹配。 理解这一设计选择对于在大规模数据集上训练表示学习模型至关重要，因为直接计算 softmax 分母在计算上不可行。清晰认识 NCE 的优势有助于实践者选择高效的对比学习损失函数。 该问题引用了 Wu 等人的非参数 softmax 方法，其中类别数量等于数据集大小，使得最大似然估计（MLE）不可行。NCE 将损失转化为针对噪声的二分类问题，并且随着噪声样本增加其梯度渐近逼近真实梯度。
 
-reddit · r/MachineLearning · /u/PolarIceBear_ · 6月30日 10:40
+reddit · r/MachineLearning · /u/No_Balance_9777 · 6月29日 23:34
 
-**背景**: 图像分割是对图像中每个像素进行分类，OCR 从视觉数据中提取文字，视觉语言模型（VLM）结合图像理解和自然语言处理。视觉 Transformer（ViT）将 Transformer 架构应用于图像块，提供了 CNN 之外的另一种选择。
+**背景**: 噪声对比估计（NCE）是一种通过区分数据样本与噪声来训练非归一化模型的方法，从而避免昂贵的配分函数计算。在实例表示学习中，每个数据点被视为自己的类别，导致 softmax 分母需要对所有实例求和，对大数据集而言计算代价极高。非参数 softmax 利用 NCE 来近似对数似然梯度，无需完整归一化，鼓励真实对高相似度、噪声对低相似度，分母估计作为副产品出现。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Vision_transformer">Vision transformer</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Vision_Language_Models_(VLM)">Vision Language Models (VLM)</a></li>
+<li><a href="https://www.jmlr.org/papers/volume13/gutmann12a/gutmann12a.pdf">Noise-Contrastive Estimation of Unnormalized Statistical ...</a></li>
+<li><a href="https://medium.com/@weidagang/demystifying-noise-contrastive-estimation-nce-in-machine-learning-32ded05401f4">Demystifying Neural Networks: Noise Contrastive Estimation (NCE) | by Dagang Wei | Medium</a></li>
 
 </ul>
 </details>
 
-**标签**: `#computer-vision`, `#interview-preparation`, `#machine-learning`, `#checklist`, `#github`
-
----
-
-<a id="item-15"></a>
-## [EACL 2027 改革：作者回复与审稿人讨论分阶段](https://www.reddit.com/r/MachineLearning/comments/1ujj63g/eacl_2027_author_response_and_authorreviewer/) ⭐️ 6.0/10
-
-EACL 2027 的征稿启事中宣布了对 ACL 滚动审稿（ARR）流程的一项重要变更：作者回复阶段和作者与审稿人讨论阶段现已分离为两个独立环节。作者回复窗口延长至 2026 年 9 月 14 日至 19 日，随后是 9 月 20 日至 24 日的审稿人参与和讨论期，比以往仅五天的合并窗口更为充裕。 这一分离解决了 NLP 同行评审中长期存在的痛点——此前紧凑的时间安排迫使作者仓促回应，且难以与审稿人展开实质性对话。为两个阶段分别分配专门时间，有望提升学术讨论质量，缓解作者与审稿人的压力，并可能促成更合理的论文录用决定。 新截止日期适用于使用 ARR 的 EACL 2027 投稿周期，作者回复期为 2026 年 9 月 14 日至 19 日，审稿人参与和讨论期为 9 月 20 日至 24 日。相比之下，常规 ARR 周期（如 2026 年 5 月）仍将两者合并为一个为期六天的阶段（7 月 7 日至 13 日），凸显该分离方案在 EACL 中的试行性质。
-
-reddit · r/MachineLearning · /u/S4M22 · 6月30日 08:16
-
-**背景**: ACL 滚动审稿（ARR）是一个集中式同行评审平台，被 ACL、NAACL、EACL 等多个顶级 NLP 会议使用。在传统 ARR 流程中，作者收到审稿意见后，只有一个约 5-7 天的讨论期来回应审稿人并进行交互讨论。这一紧凑窗口常使作者难以给出详尽回复，尤其在需要补充实验时。EACL 2027 正试点将时间线拆分以缓解这一瓶颈。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="http://aclrollingreview.org/">ACL Rolling Review – A peer review platform for the Association for Computational Linguistics</a></li>
-<li><a href="https://openreview.net/group?id=aclweb.org/ACL/ARR">ACL ARR | OpenReview</a></li>
-
-</ul>
-</details>
-
-**标签**: `#machine-learning`, `#nlp`, `#peer-review`, `#academic-publishing`, `#arr`
+**标签**: `#machine-learning`, `#representation-learning`, `#loss-functions`, `#noise-contrastive-estimation`, `#softmax`
 
 ---
 
