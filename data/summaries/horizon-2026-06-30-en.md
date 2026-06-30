@@ -1,466 +1,526 @@
 # Horizon Daily - 2026-06-30
 
-> From 35 items, 21 important content pieces were selected
+> From 36 items, 24 important content pieces were selected
 
 ---
 
-1. [US Supreme Court Rules Geofence Warrants Require Constitutional Protections](#item-1) ⭐️ 9.0/10
-2. [vLLM v0.24.0 Released with MiniMax-M3 Support and DeepSeek-V4 Optimizations](#item-2) ⭐️ 8.0/10
-3. [Rocket Lab Acquires Iridium in Strategic Spectrum and Launch Deal](#item-3) ⭐️ 8.0/10
-4. [WATaBoy: JIT-Compiling Game Boy Instructions to WebAssembly Beats Native Interpreter](#item-4) ⭐️ 8.0/10
-5. [Inside the CUDA Kernel Launch: From CPU Call to GPU Execution](#item-5) ⭐️ 8.0/10
-6. [Formal Verification: What Guarantees Can It Provide?](#item-6) ⭐️ 8.0/10
-7. [Sandia National Labs' Custom Radiation-Hardened 8085 CPU from the 1970s](#item-7) ⭐️ 8.0/10
-8. [Anthropic CEO warns open-source AI models could be very dangerous](#item-8) ⭐️ 8.0/10
-9. [3-Critic Harness Boosts Qwen3.6-27B Coding to Near-Frontier Quality](#item-9) ⭐️ 8.0/10
-10. [Qwen 3.6 27B: The Sweet Spot for Local Development](#item-10) ⭐️ 7.0/10
-11. [Proposal for Free .self Top-Level Domain for Self-Hosting](#item-11) ⭐️ 7.0/10
-12. [Programmer Details Claude AI's Coding Assistance Strengths and Weaknesses](#item-12) ⭐️ 7.0/10
-13. [Ornith-1.0: Open-Source Self-Scaffolding LLMs for Coding](#item-13) ⭐️ 7.0/10
-14. [ChatGPT Reportedly Solves Chen Lijie's 7-Year Computational Geometry Problem](#item-14) ⭐️ 7.0/10
-15. [LongCat-2.0: A 1.6T Parameter MoE Model Stealth-Released on Openrouter](#item-15) ⭐️ 7.0/10
-16. [DeepSeek V4 Support Merged into llama.cpp](#item-16) ⭐️ 7.0/10
-17. [Krea-2-Turbo Uncensored via SGLang Prompt Rebalancing](#item-17) ⭐️ 7.0/10
-18. [NASA Testing Local LLM Inference for Astronaut Medical AI Assistant](#item-18) ⭐️ 7.0/10
-19. [South Korea to Invest $1 Trillion in Memory Chips and Humanoid Robots](#item-19) ⭐️ 6.0/10
-20. [A native graphical shell for SSH](#item-20) ⭐️ 6.0/10
-21. [Simon Willison’s HTML Table Extractor: Convert Pasted Tables to Multiple Formats](#item-21) ⭐️ 6.0/10
+1. [PostgreSQL 19 Beta Features Preview Sparks Community Discussion](#item-1) ⭐️ 9.0/10
+2. [vLLM v0.24.0 Adds MiniMax-M3 and DeepSeek-V4 Optimizations](#item-2) ⭐️ 8.0/10
+3. [Claude Code Found Embedding Steganographic Markers in API Requests](#item-3) ⭐️ 8.0/10
+4. [Virginia County with 37 Data Centers Asks Schools to Conserve Power](#item-4) ⭐️ 8.0/10
+5. [EU Digital ID Wallets Rely on Google and Apple, Sparking Sovereignty Debate](#item-5) ⭐️ 8.0/10
+6. [Memory Safe Context Switching with Fil-C](#item-6) ⭐️ 8.0/10
+7. [LongCat-2.0: 1.6T Total, 48B Active MoE Model on AI ASIC Clusters](#item-7) ⭐️ 8.0/10
+8. [Huawei Open-Sources OpenPangu-2.0-Flash MoE Model](#item-8) ⭐️ 8.0/10
+9. [PageStorm Released: Full-Book Creative Writing Model and Dataset](#item-9) ⭐️ 8.0/10
+10. [Qwen 3.6 27B Hits ~100 TPS via Speculative Decoding on Single RTX 3090](#item-10) ⭐️ 8.0/10
+11. [1852 Classic 'Extraordinary Popular Delusions' Sparks Fresh Discussion](#item-11) ⭐️ 7.0/10
+12. [Knoppix: Pioneering Live CD Linux Distribution](#item-12) ⭐️ 7.0/10
+13. [Proposal for .self TLD for Self-Hosting and Digital Identity](#item-13) ⭐️ 7.0/10
+14. [shot-scraper 1.10 Adds Video Recording for Coding Agents](#item-14) ⭐️ 7.0/10
+15. [Browser tool extracts HTML tables to Markdown, CSV, JSON](#item-15) ⭐️ 7.0/10
+16. [NVIDIA Releases Qwen3.6-27B in NVFP4 4-bit Format](#item-16) ⭐️ 7.0/10
+17. [Microsoft Takes Down FastContext Model and Repository](#item-17) ⭐️ 7.0/10
+18. [Hugging Face Adds Hardware Compatibility Filter](#item-18) ⭐️ 7.0/10
+19. [Norm-Preserving Abliteration Yields 0% Refusal on Qwen3.6-35B-A3B](#item-19) ⭐️ 7.0/10
+20. [US Labor Share Hits Postwar Low, But Post-COVID Drop Is Cyclical](#item-20) ⭐️ 6.0/10
+21. [High-intensity interval training reduces body fat in older adults, 2025 study](#item-21) ⭐️ 6.0/10
+22. [AI Ethics Quiz 'The AI Compass' Classifies Users into 30 Archetypes](#item-22) ⭐️ 6.0/10
+23. [OpenAI CRO Warns: Small Window for Humanity Before AGI Arrives](#item-23) ⭐️ 6.0/10
+24. [Bartowski Releases GGUF Quantizations of DeepSeek V4 Flash](#item-24) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [US Supreme Court Rules Geofence Warrants Require Constitutional Protections](https://www.theguardian.com/us-news/2026/jun/29/supreme-court-geofence-warrants-case-decision) ⭐️ 9.0/10
+## [PostgreSQL 19 Beta Features Preview Sparks Community Discussion](https://www.snowflake.com/en/blog/engineering/postgresql-19-features-beta/) ⭐️ 9.0/10
 
-The US Supreme Court ruled that geofence warrants constitute a Fourth Amendment search, requiring law enforcement to respect individuals' reasonable expectation of privacy even in public areas. This ruling limits law enforcement's ability to obtain broad location data without proper judicial oversight, strengthening digital privacy protections and setting a precedent for how tech companies handle location data. Google typically provides location data in three stages: first an anonymized device list, then detailed location histories, and finally account holder information. The case involved Google's Sensorvault database, and Justice Kagan's opinion cited Riley v. California to underscore cell phones' pervasive role.
+A preview of PostgreSQL 19 beta reveals upcoming features including graph database queries, enhanced COPY commands, and logical replication improvements. Community discussion swiftly focused on longstanding needs such as lightweight connection handling, native columnar storage, and SQL:2011 temporal data support. PostgreSQL remains critical infrastructure for countless applications; feature additions like graph query support and temporal data handling could modernize its capabilities. The community's emphasis on connection overhead and columnar storage underscores key architectural gaps that impact high-concurrency and analytical workloads. The preview notes that features are in beta and may evolve before the final release. The proposed graph query syntax (GRAPH_TABLE) diverges from standard SQL, and temporal data support appears to be based on an external proposal rather than a committed core feature.
 
-hackernews · cdrnsf · Jun 29, 15:54 · [Discussion](https://news.ycombinator.com/item?id=48720924)
+hackernews · thinkingemote · Jun 30, 14:14 · [Discussion](https://news.ycombinator.com/item?id=48733031)
 
-**Background**: A geofence warrant (or reverse location warrant) compels tech companies to disclose all mobile devices present in a specific area during a given time, often to identify criminal suspects. The Fourth Amendment protects against unreasonable searches and requires warrants based on probable cause. These warrants are controversial because they collect location data from many innocent bystanders, potentially violating privacy rights.
+**Background**: PostgreSQL is a widely-used open-source relational database management system. Beta releases allow users to test upcoming features before they are finalized. Graph database capabilities enable querying relationships with pattern matching, while columnar storage organizes data by columns to speed up analytics, differing from PostgreSQL's default row-based storage.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.theguardian.com/us-news/2026/jun/29/supreme-court-geofence-warrants-case-decision">US supreme court rules geofence warrants require constitutional privacy protections | US supreme court | The Guardian</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Geofence_warrant">Geofence warrant - Wikipedia</a></li>
+<li><a href="https://www.epsio.io/blog/postgres-columnar-storage-4-popular-extensions-and-a-quick-tutorial">Postgres Columnar Storage: 4 Popular Extensions and a Quick Tutorial</a></li>
+<li><a href="https://wiki.postgresql.org/wiki/Temporal_Extensions">Temporal Extensions - PostgreSQL wiki</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters noted Google's three-stage data disclosure process, cited historical examples of de-anonymization without phones (e.g., Paula Broadwell), and praised Justice Kagan for providing sources. The overall sentiment supports the ruling and raises concerns about the ease of modern surveillance.
+**Discussion**: Commenters expressed strong appreciation for PostgreSQL but voiced concerns about missing features: lightweight connections to reduce memory overhead, native columnar storage for large datasets, and SQL:2011 temporal table support. The proposed graph query syntax drew criticism for its non-standard appearance, while enhancements to COPY and logical replication were welcomed.
 
-**Tags**: `#privacy`, `#law`, `#surveillance`, `#Supreme Court`, `#geofence`
+**Tags**: `#postgresql`, `#database`, `#beta`, `#features`, `#open-source`
 
 ---
 
 <a id="item-2"></a>
-## [vLLM v0.24.0 Released with MiniMax-M3 Support and DeepSeek-V4 Optimizations](https://github.com/vllm-project/vllm/releases/tag/v0.24.0) ⭐️ 8.0/10
+## [vLLM v0.24.0 Adds MiniMax-M3 and DeepSeek-V4 Optimizations](https://github.com/vllm-project/vllm/releases/tag/v0.24.0) ⭐️ 8.0/10
 
-vLLM v0.24.0, a major release of the open-source LLM inference engine, introduces support for the MiniMax-M3 model and extensive performance optimizations for DeepSeek-V4. It also adds a new streaming parser engine, DiffusionGemma integration, and a maturing Rust frontend, with 571 commits from 256 contributors. This release significantly broadens vLLM's model coverage with cutting-edge architectures like MiniMax-M3 and deepens optimizations for the popular DeepSeek-V4, enhancing inference efficiency. The device selection overhaul and Rust frontend improvements also refine developer control and API accessibility. Key technical highlights include MXFP4 4-bit quantization for MiniMax-M3, a FlashInfer sparse index cache improving DeepSeek-V4 time-to-first-token by 2-4%, and default quantized model support in Model Runner V2. Additionally, a new device_ids parameter replaces automatic CUDA_VISIBLE_DEVICES setting.
+vLLM v0.24.0 introduces support for the MiniMax-M3 model with BF16/FP8 indexing, MXFP4 quantization, and AMD ROCm tuning, along with substantial DeepSeek-V4 optimizations such as a FlashInfer sparse index cache reducing time-to-first-token by 2-4% and prefill chunk-planning boosting end-to-end throughput by 4%. This release enhances vLLM’s serving efficiency and model coverage, particularly for cutting-edge Chinese models like MiniMax-M3 and DeepSeek-V4, making high-performance inference more accessible and cost-effective for the community. Key technical highlights include MiniMax-M3’s MXFP4 4-bit quantization for reduced memory, the FlashInfer sparse index cache for DeepSeek-V4, and the new device_ids argument replacing internal CUDA_VISIBLE_DEVICES management, giving users more explicit control over device selection.
 
 github · khluu · Jun 29, 19:41
 
-**Background**: vLLM is a high-performance open-source inference engine for large language models. DeepSeek-V4 is a recent state-of-the-art LLM, and MiniMax-M3 is a newly released model. FlashInfer is a kernel library for efficient attention computation, and MXFP4 is a 4-bit floating-point quantization format that reduces memory usage.
+**Background**: vLLM is a popular open-source engine for serving large language models, known for high throughput and low latency. MiniMax-M3, developed by Shanghai-based MiniMax, is a multimodal model with up to 1 million token context and proprietary MiniMax Sparse Attention (MSA). DeepSeek-V4 is a recent high-performance model from DeepSeek AI. Techniques like MXFP4 (4-bit floating-point quantization) and FlashInfer (a kernel library for efficient attention) are critical for reducing memory footprint and accelerating inference on GPUs.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/flashinfer-ai/flashinfer">GitHub - flashinfer-ai/flashinfer: FlashInfer: Kernel Library for LLM Serving · GitHub</a></li>
+<li><a href="https://www.minimax.io/models/text/m3">MiniMax M3 - Coding & Agentic Frontier, 1M Context, Multimodal | MiniMax</a></li>
 <li><a href="https://huggingface.co/docs/transformers/en/quantization/mxfp4">MXFP4 · Hugging Face</a></li>
+<li><a href="https://github.com/flashinfer-ai/flashinfer">GitHub - flashinfer-ai/flashinfer: FlashInfer: Kernel Library for LLM Serving · GitHub</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#vllm`, `#release`, `#llm-serving`, `#optimization`, `#open-source`
+**Tags**: `#vLLM`, `#LLM-serving`, `#release-notes`, `#model-optimization`, `#DeepSeek-V4`
 
 ---
 
 <a id="item-3"></a>
-## [Rocket Lab Acquires Iridium in Strategic Spectrum and Launch Deal](https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully) ⭐️ 8.0/10
+## [Claude Code Found Embedding Steganographic Markers in API Requests](https://thereallo.dev/blog/claude-code-prompt-steganography) ⭐️ 8.0/10
 
-Rocket Lab has announced the acquisition of satellite communications provider Iridium Communications, gaining its valuable L-band spectrum licenses and a steady stream of launch contracts for the existing and future constellation. This deal provides Rocket Lab with a guaranteed launch manifest, similar to SpaceX's strategy with Starlink, while also securing scarce spectrum rights that could open new revenue opportunities in global satellite connectivity. Iridium operates a constellation of 66 active LEO satellites providing voice and data services; the acquisition is expected to add Iridium's satellite manufacturing needs to Rocket Lab's order book.
+Anthropic's Claude Code tool has been discovered to embed hidden steganographic markers in its outgoing API requests, a practice not previously disclosed. Reverse engineering revealed that these markers are inserted to track and potentially control usage. This covert tracking undermines developer trust and raises privacy concerns, as it operates without user consent or transparency. It also highlights broader industry tensions between anti-abuse measures and user rights in AI tools. The markers are embedded within request structures (e.g., headers or content) and are designed to be unnoticeable. Some observers noted the implementation was sloppy, making detection via reverse engineering relatively easy, and it may inadvertently target legitimate developers.
 
-hackernews · everfrustrated · Jun 29, 14:09 · [Discussion](https://news.ycombinator.com/item?id=48719485)
+hackernews · kirushik · Jun 30, 15:44 · [Discussion](https://news.ycombinator.com/item?id=48734373)
 
-**Background**: Satellite spectrum licensing is the process of obtaining government permission to use specific radio frequencies, a critical and limited resource in satellite communications. A launch manifest is a detailed schedule of planned satellite payloads, their launch vehicles, and target dates, which helps launch providers plan capacity and reduce risk. Rocket Lab is a leading launch and satellite manufacturing company, while Iridium is known for its global satellite phone and data network.
+**Background**: Steganography is a technique for hiding information within other data so that the very existence of the message is concealed, distinct from encryption which only scrambles content. Claude Code is an AI-powered coding assistant by Anthropic, widely used for software development. The discovery was made through community reverse-engineering efforts, not official documentation.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://satellitegroundstation.com/resources/satellite-spectrum-licensing-overview-practical-guide/">Satellite Spectrum Licensing Overview: Practical Guide</a></li>
-<li><a href="https://spacenexus.us/blog/launch-manifest-how-missions-get-scheduled-what-causes-delays">The Launch Manifest: How Missions Get Scheduled and What Causes Delays</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Steganography">Steganography</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Code">Claude Code</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community reaction is largely positive, with many drawing parallels to SpaceX's Starlink as a smart launch demand strategy. Some users express concern over increasing space debris and light pollution, while others question Rocket Lab's shift from a New Zealand to a U.S. entity. Overall, the move is seen as a strategic win for vertical integration in the space industry.
+**Discussion**: Reactions are mixed: some see the steganography as a reasonable anti-abuse measure, while others consider it a breach of trust. Many criticized the implementation as sloppy and easily detected, and several recommended open-source alternatives like Codex CLI for better transparency. There is also frustration over frequent uncommunicated changes to Claude Code.
 
-**Tags**: `#space`, `#satellites`, `#acquisition`, `#rocketry`, `#telecommunications`
+**Tags**: `#steganography`, `#ai`, `#privacy`, `#security`, `#anthropic`
 
 ---
 
 <a id="item-4"></a>
-## [WATaBoy: JIT-Compiling Game Boy Instructions to WebAssembly Beats Native Interpreter](https://humphri.es/blog/WATaBoy/) ⭐️ 8.0/10
+## [Virginia County with 37 Data Centers Asks Schools to Conserve Power](https://www.404media.co/henrico-virginia-datacenter-energy-cost-email/) ⭐️ 8.0/10
 
-WATaBoy is an undergraduate project that implements a Game Boy emulator using a JIT-to-Wasm approach, and benchmarks show it outperforms a native interpreter. It leverages the browser's WASM engine to achieve JIT compilation even on iOS, where JIT is normally restricted. This demonstrates a clever workaround for iOS's JIT restrictions by running within a browser's WASM engine, potentially enabling high-performance emulators on iOS without jailbreaking. It also highlights how JIT compilation can significantly boost emulation performance. The project uses a JIT-to-Wasm technique, templating SM83 instructions into WebAssembly modules at runtime. Performance varies by browser: Chrome and Safari are faster than Firefox, showing browser engine differences.
+A Virginia county with 37 data centers has asked its public schools to reduce electricity usage as data center-driven demand strains the local grid. This highlights the hidden costs of the AI and cloud boom, raising urgent questions about who pays for grid upgrades and how to balance economic growth with community needs. Henrico County is in Dominion Energy's territory, which must reach 100% renewables by 2045 under state law, contributing to rate hikes as new generation projects come online.
 
-hackernews · energeticbark · Jun 29, 15:02 · [Discussion](https://news.ycombinator.com/item?id=48720190)
+hackernews · 01-_- · Jun 30, 16:05 · [Discussion](https://news.ycombinator.com/item?id=48734699)
 
-**Background**: Game Boy emulation typically uses interpreters, which simulate CPU instructions one by one, leading to overhead. Just-in-time (JIT) compilation translates code to native machine code at runtime for speed. iOS restricts JIT for security, except in web browsers that use JIT for JavaScript and WebAssembly. WebAssembly (Wasm) is a portable binary format that runs in browsers at near-native speed.
+**Background**: Northern Virginia is the world's largest data center market, with Henrico County hosting 37 facilities. The Virginia Clean Economy Act of 2020 mandates a shift to renewables, forcing Dominion to invest heavily in new generation, even as U.S. electricity output has been flat for two decades. The sudden surge in demand from data centers, now amplified by AI, creates grid challenges that existing infrastructure and planning cannot easily meet.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://humphri.es/blog/WATaBoy/">WATaBoy: JIT-ing Game Boy Instructions to Wasm Beats a Native Interpreter</a></li>
-<li><a href="https://news.ycombinator.com/item?id=48720190">WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter | Hacker News</a></li>
-<li><a href="https://www.howtogeek.com/what-is-jit-how-apples-rules-are-holding-back-iphone-game-emulators/">What Is JIT? How Apple's Rules Are Holding Back iPhone Game Emulators</a></li>
+**Discussion**: Comments are mixed: some blame the state's clean energy mandate for rate hikes, others criticize tech firms' greed and predict a political backlash, while a few note the insignificance of individual conservation or the need for data centers to pay upfront for grid upgrades.
 
-</ul>
-</details>
-
-**Discussion**: Comments highlight the cleverness of bypassing iOS JIT limits via WASM, with one noting the performance gap between Firefox and Chrome. Another appreciates the simplicity of using JavaScript's eval for JIT templates. Overall, the community finds the approach impressive for an undergraduate project.
-
-**Tags**: `#webassembly`, `#jit`, `#emulation`, `#ios`, `#gameboy`
+**Tags**: `#data-centers`, `#energy`, `#virginia`, `#sustainability`, `#infrastructure`
 
 ---
 
 <a id="item-5"></a>
-## [Inside the CUDA Kernel Launch: From CPU Call to GPU Execution](https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/) ⭐️ 8.0/10
+## [EU Digital ID Wallets Rely on Google and Apple, Sparking Sovereignty Debate](https://waag.org/en/article/european-digital-id-wallets-are-gift-google-and-apple/) ⭐️ 8.0/10
 
-The blog post from Fergus Finn provides a comprehensive low-level walkthrough of a CUDA kernel launch, detailing the submission queue, QMD (Queue Meta Data), doorbell mechanism, and stream synchronization, covering the entire path from a CPU function call to actual GPU execution. This deep dive clarifies the opaque CPU-to-GPU command submission process, helping developers write more efficient GPU code, understand performance bottlenecks, and appreciate CUDA's implicit synchronization compared to explicit APIs like Vulkan. The article explains how the CUDA driver fills out QMD structures and writes to a doorbell register to notify the GPU of pending work; it also highlights that the default stream uses semaphores for implicit synchronization, making parallel streams an opt-in feature.
+The European digital identity wallet (EUDI Wallet) reference implementation mandates Google Play Integrity and Apple's device attestation services, making core security functions dependent on US tech companies. This dependency undermines the EU's digital sovereignty, gives US corporations control over European citizens' digital identities, and restricts users to Google- or Apple-approved operating systems, potentially enabling government surveillance backdoors. The Android reference wallet explicitly requires Google Play Services, blocking alternative OSes like GrapheneOS. Apple's Secure Enclave and Private Access Tokens similarly lock users into iOS. This centralization poses risks of regulatory capture and stifles innovation.
 
-hackernews · mezark · Jun 29, 13:11 · [Discussion](https://news.ycombinator.com/item?id=48718863)
+hackernews · donohoe · Jun 30, 10:36 · [Discussion](https://news.ycombinator.com/item?id=48730729)
 
-**Background**: CUDA (Compute Unified Device Architecture) is NVIDIA's parallel computing platform. A kernel is a function that runs on the GPU. Launching a kernel involves the CPU sending commands via the CUDA driver, which creates hardware-specific command buffers and uses mechanisms like doorbell registers to signal the GPU's command processor. Understanding this process is essential for optimizing GPU workloads and debugging performance issues.
+**Background**: The EUDI Wallet is part of the eIDAS 2.0 regulation, aiming to provide all EU citizens with a secure digital identity by 2026. Google Play Integrity and Apple's Secure Enclave are hardware-backed attestation services that verify a device's integrity, originally designed for app security but now used to enforce platform compliance. Critics argue that such reliance contradicts the EU's digital sovereignty agenda and could lead to vendor lock-in.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/">What happens when you run a CUDA kernel</a></li>
-<li><a href="https://arxiv.org/html/2604.26889v1">Revealing NVIDIA Closed-Source Driver Command Streams for CPU-GPU ...</a></li>
+<li><a href="https://www.eudi-wallet.eu/">EUDI Wallet Hub - The Guide to eIDAS 2, Use Cases & Standards</a></li>
+<li><a href="https://medium.com/technology-hits/device-trust-without-the-fuss-apple-private-access-tokens-vs-google-play-integrity-safetynets-e995df2f0462">Device Trust without the Fuss: Apple Private Access Tokens vs Google Play Integrity (SafetyNet’s successor) | by Melvin Prince | Technology Hits | Medium</a></li>
+<li><a href="https://support.apple.com/guide/security/the-secure-enclave-sec59b0b31ff/web">The Secure Enclave - Apple Support</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Readers greatly appreciated the article, especially the doorbell and QMD explanations; one mentioned that the hardware documentation is now partially open, another wished they'd had it before their HPC class, and a comment speculated on future kernel optimization libraries.
+**Discussion**: Comments express anger over the EU's performative sovereignty, with users noting that the reference implementation blocks alternative OSes and fearing that remote attestation will lead to backdoors. Some argue that regulations like these create monopolies, while others see it as intentional control by the EU over devices.
 
-**Tags**: `#CUDA`, `#GPU`, `#Kernel`, `#HPC`, `#Systems Programming`
+**Tags**: `#digital-identity`, `#digital-sovereignty`, `#google`, `#apple`, `#privacy`
 
 ---
 
 <a id="item-6"></a>
-## [Formal Verification: What Guarantees Can It Provide?](https://queue.acm.org/detail.cfm?id=3819084) ⭐️ 8.0/10
+## [Memory Safe Context Switching with Fil-C](https://fil-c.org/context_switches) ⭐️ 8.0/10
 
-A new ACM Queue article explores the practical limits and benefits of formal verification in software, discussing what guarantees it can provide and the challenges of applying it to real-world systems. Understanding the boundaries of formal verification helps set realistic expectations for software reliability and influences the adoption of formal methods in industry. The article highlights that formal verification can guarantee core logic correctness, but real-world aspects like UI and network calls often remain unverified, and proving financial conservation remains controversial.
+An in-depth article explores memory safety pitfalls in setjmp/longjmp and ucontext, and demonstrates how the Fil-C memory-safe C implementation mitigates them through capability validation and garbage collection. setjmp/longjmp and ucontext are widely used in systems software for error handling and user-level threading, and their memory safety issues can lead to critical bugs and security vulnerabilities. Fil-C offers a practical, fully compatible memory-safe alternative, improving reliability. Fil-C assigns a capability to each jmp_buf and ucontext, validates stack frame ancestry on longjmp, and relies on concurrent garbage collection to safely manage stack memory, panicking on safety violations.
 
-hackernews · eatonphil · Jun 29, 14:12 · [Discussion](https://news.ycombinator.com/item?id=48719521)
+hackernews · modeless · Jun 30, 00:38 · [Discussion](https://news.ycombinator.com/item?id=48727177)
 
-**Background**: Formal verification uses mathematical methods to prove software correctness against a specification. It is commonly used in safety-critical systems like avionics and verified compilers (e.g., CompCert), but applying it to everyday business software is difficult due to system complexity and changing requirements.
+**Background**: setjmp/longjmp is a C standard library mechanism for non-local jumps, saving and restoring the execution context (registers, stack pointer) via a jmp_buf buffer. It is unsafe if the original stack frame has been destroyed, e.g., by a function return. ucontext extends this to multiple user-level threads, each with its own stack, adding complexity in lifetime management. Fil-C is a memory-safe C implementation using concurrent garbage collection and capability-based memory access to enforce safety even for low-level operations.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Formal_verification">Formal verification</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Formal_methods">Formal methods</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Setjmp/longjmp">Setjmp/longjmp</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ucontext.h">Ucontext.h</a></li>
+<li><a href="https://github.com/pizlonator/fil-c">GitHub - pizlonator/fil-c: Fil-C: completely compatible memory safety for C and C++ · GitHub</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments are mixed: some see formal verification as too limited for app developers, while others successfully use it to write cleaner code faster. There is skepticism about concepts like 'financial conservation' and recognition that proof maintenance is challenging.
+**Discussion**: Comments appreciate the thorough analysis, with one user sharing a long-held frustration about setjmp stack frame invalidation. Others discuss the performance and complexity of ucontext compared to lightweight fibers, and note that setjmp/longjmp code often carries risks beyond memory safety. A minor correction about stack frame terminology is raised.
 
-**Tags**: `#formal-verification`, `#software-engineering`, `#reliability`, `#correctness`, `#discussion`
+**Tags**: `#Memory Safety`, `#Context Switching`, `#C Programming`, `#Systems Programming`, `#setjmp/longjmp`
 
 ---
 
 <a id="item-7"></a>
-## [Sandia National Labs' Custom Radiation-Hardened 8085 CPU from the 1970s](https://www.cpushack.com/2026/06/03/sandia-national-labs-sa3000-8085-cpu/) ⭐️ 8.0/10
+## [LongCat-2.0: 1.6T Total, 48B Active MoE Model on AI ASIC Clusters](https://longcat.chat/blog/longcat-2.0/) ⭐️ 8.0/10
 
-A historical analysis details the SA3000, a custom radiation-hardened 8085 microprocessor developed in-house by Sandia National Labs in the late 1970s for nuclear weapon systems. It highlights early government in-house semiconductor design capabilities and the extreme engineering required for radiation-hardened computing, a field still critical for space and defense today. The SA3000 used an n-on-n+ epitaxial substrate, guard rings, and hardened oxides to withstand up to 1×10^6 rads with only a 25% performance drop, and 3×10^6 rads with a 40% drop.
+LongCat-2.0, a mixture-of-experts (MoE) model with 1.6 trillion total parameters and 48 billion active parameters, has been released, trained and deployed on large-scale clusters of tens of thousands of AI ASIC superpods, likely using Huawei Ascend chips. This demonstrates China's growing capability to train large-scale AI models on domestic hardware, reducing reliance on Nvidia GPUs amid export restrictions, and validates custom AI ASICs for cutting-edge MoE architectures, potentially accelerating hardware ecosystem diversification. The MoE architecture activates only 48B parameters per token, optimizing efficiency, while the infrastructure runs on tens of thousands of AI ASIC superpods, speculated to be Huawei Ascend 910C chips; however, no model weights are available for download on Hugging Face, raising openness concerns.
 
-hackernews · rbanffy · Jun 29, 10:20 · [Discussion](https://news.ycombinator.com/item?id=48717287)
+hackernews · benjiro29 · Jun 30, 00:30 · [Discussion](https://news.ycombinator.com/item?id=48727116)
 
-**Background**: Sandia National Laboratories is a U.S. Department of Energy lab focused on national security and nuclear weapons. Radiation hardening involves making electronics resistant to ionizing radiation to prevent malfunction or damage. The Intel 8085, released in 1976, was an 8-bit microprocessor with a single +5V supply, binary compatible with the 8080.
+**Background**: Mixture of experts (MoE) is a machine learning approach that divides a model into multiple specialized sub-networks, activating only a subset per input to scale to trillions of parameters efficiently. AI ASIC superpods are large-scale systems of custom-designed AI accelerators (like Google's TPUs or Huawei's Ascend chips) interconnected for massive parallel computation, serving as alternatives to Nvidia's GPU-based infrastructure.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Radiation_hardening">Radiation hardening - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Intel_8085">Intel 8085</a></li>
+<li><a href="https://huggingface.co/blog/moe">Mixture of Experts Explained</a></li>
+<li><a href="https://www.tomshardware.com/tech-industry/semiconductors/custom-ai-asics-examined-from-broadcom-to-mtia">The custom AI ASIC state of play (May 2026) — Broadcom deals, Google TPUs, Meta MTIA & beyond | Tom's Hardware</a></li>
+<li><a href="https://www.reddit.com/r/China/comments/1lhbv9r/how_huaweis_ascend_ai_chips_outperform_nvidia/">r/China on Reddit: How Huawei’s Ascend AI chips outperform Nvidia processors in running DeepSeek’s R1 model</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters discussed modern radiation-hardened CPUs like the MOOG BRE440 and BAE RAD5500 (both POWER architecture), praised government in-house tech capability, and humorously compared the 8085 to TRS-80s in nuclear weapons. One user criticized the article for mangled scientific notation.
+**Discussion**: Community reactions are mixed: some praise the infrastructure achievement using Huawei Ascend chips and free hosting on OpenRouter, while others criticize the lack of downloadable weights on Hugging Face and call it a scam; a user confirmed the model handles a tricky nuclear engineering question well, but censorship on a political query was noted, reflecting both technical curiosity and skepticism about openness.
 
-**Tags**: `#radiation-hardened`, `#computing-history`, `#8085`, `#Sandia-Labs`, `#hardware`
+**Tags**: `#large-language-models`, `#mixture-of-experts`, `#AI-hardware`, `#open-source`, `#Huawei-Ascend`
 
 ---
 
 <a id="item-8"></a>
-## [Anthropic CEO warns open-source AI models could be very dangerous](https://www.reddit.com/r/LocalLLaMA/comments/1uixcof/anthropics_amodei_open_source_models_could_take/) ⭐️ 8.0/10
+## [Huawei Open-Sources OpenPangu-2.0-Flash MoE Model](https://www.reddit.com/r/LocalLLaMA/comments/1ujn5u3/huawei_opensources_openpangu20flash_92b_total6b/) ⭐️ 8.0/10
 
-Anthropic CEO Dario Amodei stated that open-source AI models could lead to very dangerous outcomes, raising concerns about their proliferation. This statement from a leading AI safety company highlights the ongoing debate over open-source versus proprietary AI development, potentially influencing regulatory approaches and industry practices. The warning comes without specific examples or proposed measures, but aligns with Anthropic's focus on AI safety and its development of the Claude LLM series.
+Huawei has open-sourced OpenPangu-2.0-Flash, a 92-billion-parameter mixture-of-experts language model with only 6 billion active parameters per token, featuring a 512K-token context window. The release includes both model weights and inference code. This release enriches the open-source large language model ecosystem with a high-capacity MoE model that balances strong performance with inference efficiency. It may accelerate innovation and competition, particularly from Chinese AI developers. The model uses a Mixture-of-Experts architecture, where 6B of its 92B total parameters are active at a time, enabling cost-effective inference. A larger flagship model, OpenPangu-2.0-Pro (505B/18B active), is announced for July, with more components promised later in 2025.
 
-reddit · r/LocalLLaMA · /u/johnnyApplePRNG · Jun 29, 16:27
+reddit · r/LocalLLaMA · /u/soteko · Jun 30, 11:58
 
-**Background**: Anthropic is an AI company founded by former OpenAI members, emphasizing AI safety. Dario Amodei is its CEO and a prominent voice in AI risk discussions. Open-source AI models are those whose weights and sometimes training code are publicly released, enabling widespread use and modification. While promoting innovation, open-source models can be harder to control and may be misused.
+**Background**: Mixture-of-experts (MoE) models activate only a fraction of their parameters for each input, allowing larger total capacity without proportionally higher computational cost. This contrasts with dense models where all parameters are always used. MoE architectures have been employed in models like GPT-4 and Mixtral 8x7B.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Anthropic">Anthropic</a></li>
-<li><a href="https://en.wikipedia.org/wiki/LLM">LLM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mixture_of_experts">Mixture of experts - Wikipedia</a></li>
+<li><a href="https://medium.com/@csburakkilic/understanding-moe-architectures-the-difference-between-total-and-active-parameters-ad1d161fccaa">Understanding MoE Architectures: The Difference Between Total and Active Parameters | by Burak Kılıç | Medium</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI safety`, `#open source`, `#LLM`, `#Anthropic`, `#regulation`
+**Tags**: `#open-source`, `#large language models`, `#Huawei`, `#mixture-of-experts`, `#AI`
 
 ---
 
 <a id="item-9"></a>
-## [3-Critic Harness Boosts Qwen3.6-27B Coding to Near-Frontier Quality](https://www.reddit.com/r/LocalLLaMA/comments/1uj9viw/been_running_qwen3627b_through_a_3critic_harness/) ⭐️ 8.0/10
+## [PageStorm Released: Full-Book Creative Writing Model and Dataset](https://www.reddit.com/r/LocalLLaMA/comments/1ujr69g/pagestorm_a_model_built_for_creative_book_writing/) ⭐️ 8.0/10
 
-A practitioner ran Qwen3.6-27B (8-bit) through a custom 3-critic harness (code review, test review, Playwright e2e) and discovered that the pipeline catches extra mistakes, elevating the final code quality to be indistinguishable from frontier model output, albeit with a noisier process. They suggest an optimal split where a frontier model like GLM5.2 handles planning and Qwen3.6 handles execution. This workflow allows local LLM practitioners to achieve frontier-level coding results at a fraction of the cost by pairing a cheap execution model with an error-catching pipeline, potentially reducing reliance on expensive frontier models for high-volume implementation tasks. The harness uses three independent critics each with fresh context, and handles retry overhead without breaking flow. Qwen3.6-27B generates more mistakes than frontier models, but the critics compensate; the planning for this run was written by GLM5.2, and the model was used in 8-bit quantized form.
+PageStorm Research Preview is announced as a model capable of single-turn full-book creative writing, accompanied by the LongPage dataset and a technical paper on arXiv. This represents a novel approach to long-form generation, offering open-source tools for the niche of full-book writing, which could drive further innovation in creative AI applications. The release includes two model sizes: a 14B parameter full-book model and a 24B first-chapter-only variant, trained with 3D parallelism using a custom codebase; the models are single-turn and cannot handle multi-turn interactions.
 
-reddit · r/LocalLLaMA · /u/workout_JK · Jun 30, 00:25
+reddit · r/LocalLLaMA · /u/XMasterDE · Jun 30, 14:43
 
-**Background**: Qwen3.6-27B is a dense 27-billion-parameter open-weight model from Alibaba’s Qwen Team, released in April 2026, known for strong coding performance yet occasional verbosity. A critic harness is a multi-step validation pipeline that reviews generated code, tests, and end-to-end behavior before final acceptance. GLM5.2 is a flagship model from Z.ai (formerly Zhipu AI), specialized in long-horizon agentic tasks.
+**Background**: Large language models traditionally struggle with maintaining coherence and plot over extremely long outputs like novels. The LongPage dataset, built from public-domain books with synthetic planning traces, was designed to teach models long-form novel writing with structured reasoning. PageStorm is the resulting model, attempting to generate an entire book from a single prompt.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://openrouter.ai/qwen/qwen3.6-27b">Qwen 3 . 6 27 B - API Pricing & Benchmarks | OpenRouter</a></li>
-<li><a href="https://en.wikipedia.org/wiki/GLM_5.2">GLM 5.2</a></li>
+<li><a href="https://www.reddit.com/r/LocalLLaMA/comments/1ujr69g/pagestorm_a_model_built_for_creative_book_writing/">PageStorm: A Model Built for Creative Book Writing : r/LocalLLaMA - Reddit</a></li>
+<li><a href="https://huggingface.co/Pageshift-Entertainment/pagestorm-research-preview-14b-full-book">Pageshift-Entertainment/pagestorm-research-preview-14b-full-book - Hugging Face</a></li>
+<li><a href="https://huggingface.co/datasets/Pageshift-Entertainment/LongPage">Pageshift-Entertainment/LongPage · Datasets at Hugging Face</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM`, `#coding-assistants`, `#pipeline`, `#Qwen`, `#local-models`
+**Tags**: `#creative-writing`, `#LLM`, `#book-generation`, `#open-source-model`, `#local-llm`
 
 ---
 
 <a id="item-10"></a>
-## [Qwen 3.6 27B: The Sweet Spot for Local Development](https://quesma.com/blog/qwen-36-is-awesome/) ⭐️ 7.0/10
+## [Qwen 3.6 27B Hits ~100 TPS via Speculative Decoding on Single RTX 3090](https://www.reddit.com/r/LocalLLaMA/comments/1ujo46r/qwen_36_27b_speculative_decoding_bench_pushing/) ⭐️ 8.0/10
 
-A new blog post evaluates Qwen 3.6 27B as the ideal local development model, balancing performance and resource use. Community feedback highlights practical drawbacks like laptop overheating and cost compared to cloud APIs. This evaluation underscores the rising interest in privacy-focused local AI tools while exposing hardware barriers, influencing developer decisions between upfront hardware costs and ongoing API fees. Qwen 3.6 27B is a dense model with a 262,144-token context length, requiring high-end hardware like a 128GB MacBook Pro M5 (starting at $6,699). Sustained local use causes thermal throttling and fan noise, making clamshell mode or a Mac Mini more practical.
+A benchmark tested Qwen 3.6 27B with various speculative decoding techniques on a single RTX 3090, achieving up to 96.8 tokens per second for code generation using beellama's DFlash engine. This demonstrates that consumer GPUs can run large 27B-parameter models at near-interactive speeds, making high-quality local AI assistants more accessible without expensive hardware. Notably, the beellama DFlash fork achieved 96.8 TPS for code but only 45.6 TPS for narrative, with high time-to-first-token (504ms); mainline llama.cpp showed the most consistent speed across context lengths with only 6.6% degradation, while ik_llama with MTP+ngram reached 87.8 TPS code and 58.6 narrative.
 
-hackernews · stared · Jun 29, 17:05 · [Discussion](https://news.ycombinator.com/item?id=48721903)
+reddit · r/LocalLLaMA · /u/old-mike · Jun 30, 12:40
 
-**Background**: Qwen is a family of open-source large language models from Alibaba. Local LLM development runs models on personal machines for data privacy and offline access but demands significant compute. The Qwen 3.6 series, launched in April 2026, emphasizes coding performance and stability.
+**Background**: Speculative decoding accelerates LLM inference by using a smaller draft model to propose multiple tokens, which are then verified by the larger model in parallel, preserving exact output distribution. Multi-token prediction (MTP) is a training technique where models predict several future tokens at once, improving efficiency. Llama.cpp forks often implement these optimizations for local hardware, enabling large models to run on consumer GPUs through quantization and custom inference engines.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://qwen.ai/blog?id=qwen3.6-27b">Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model</a></li>
-<li><a href="https://lmstudio.ai/models/qwen/qwen3.6-27b">qwen/qwen3.6-27b • LM Studio</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Speculative_decoding">Speculative decoding</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments were mixed: some warned that MacBooks are impractical for serious local LLM work due to heat and noise, recommending Mac Mini. Others argued cloud APIs are cheaper, as $10 in credits can run larger models extensively. Doubts were raised about the model's real-world codebase performance beyond greenfield projects.
-
-**Tags**: `#local-llm`, `#qwen`, `#hardware`, `#ai-coding`, `#macbook`
+**Tags**: `#speculative-decoding`, `#local-llm`, `#benchmark`, `#llama.cpp`, `#qwen`
 
 ---
 
 <a id="item-11"></a>
-## [Proposal for Free .self Top-Level Domain for Self-Hosting](https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/) ⭐️ 7.0/10
+## [1852 Classic 'Extraordinary Popular Delusions' Sparks Fresh Discussion](https://www.gutenberg.org/ebooks/24518) ⭐️ 7.0/10
 
-A proposal introduces a new top-level domain, .self, that would offer one free domain per person to promote self-hosting and decentralized digital identity, with rules intended to prevent squatting and reselling. If implemented successfully, .self could give individuals more control over their online presence and data, but the proposal faces significant practical challenges that mirror past failures of free TLDs like .tk. The plan involves anti-abuse measures such as revoking domains without recourse for squatting and allowing challenges against inactive domains, but it remains unclear how the TLD's operational costs would be funded and how legitimate use would be distinguished from parked sites.
+A Hacker News discussion revisits Charles Mackay's 1852 book, examining its historical anecdotes on mass delusions and their parallels to modern speculative behavior in tech and finance. The book's exploration of crowd irrationality offers timeless insights into financial bubbles, as evidenced by contemporary discussions comparing its lessons to current AI investment trends. The discussion notes that Mackay's account of the tulip mania is often criticized for exaggeration and lacks historical accuracy, yet the book remains a compelling narrative on speculative folly.
 
-hackernews · HumanCCF · Jun 29, 19:49 · [Discussion](https://news.ycombinator.com/item?id=48724230)
+hackernews · lstodd · Jun 30, 12:47 · [Discussion](https://news.ycombinator.com/item?id=48731989)
 
-**Background**: Top-level domains (TLDs) like .com or .org are managed by ICANN and typically incur registration fees. Self-hosting refers to running one's own web servers to host content independently. Historically, free TLDs such as .tk were heavily abused by spammers and scammers, leading to widespread blocking by browsers and security tools, undermining their credibility.
+**Background**: Published in 1852, Charles Mackay's 'Memoirs of Extraordinary Popular Delusions and the Madness of Crowds' chronicles historical episodes of mass hysteria, including the Dutch tulip mania, the South Sea Bubble, and witch hunts. It has become a classic in behavioral economics and crowd psychology, often cited in discussions of speculative bubbles. The book popularized the term 'madness of crowds' and influenced later works like John Kenneth Galbraith's 'A Short History of Financial Euphoria'.
 
-**Discussion**: Community comments express skepticism about policing squatting and ensuring fair use, citing the failure of .tk. Some users suggest looking into privacy-preserving identity systems like Microsoft Vega, while others question the financial viability of a free TLD. Overall, there is cautious interest but strong concern about feasibility.
+**Discussion**: Commenters praise the book's entertaining anecdotes, but note its historical embellishments, particularly regarding tulip mania. Some share related book recommendations, while others draw parallels to current AI investment fervor, and one reflects on how psychology reveals the limits of human rationality.
 
-**Tags**: `#self-hosting`, `#top-level-domain`, `#digital-identity`, `#decentralization`, `#internet-governance`
+**Tags**: `#history`, `#psychology`, `#economics`, `#crowds`, `#classic-books`
 
 ---
 
 <a id="item-12"></a>
-## [Programmer Details Claude AI's Coding Assistance Strengths and Weaknesses](https://htmx.org/essays/working-with-ai/) ⭐️ 7.0/10
+## [Knoppix: Pioneering Live CD Linux Distribution](https://www.knopper.net/knoppix/index-en.html) ⭐️ 7.0/10
 
-A programmer published an essay detailing their experience using Claude AI for a bug-fix task in the hyperscript parser, noting that AI excelled at generating boilerplate and tests but struggled with critical thinking and holistic design. This real-world account provides practical insight into how AI coding assistants can boost productivity for routine tasks while underscoring the enduring need for human judgment in software design. The AI-generated solutions were overly specific to the reported bug or inadvertently blocked valid use cases; the author attributes these flaws to the model's lack of a world model and tendency to rush to solutions without considering the bigger picture.
+The community is fondly remembering Knoppix, the pioneering Live CD Linux distribution that allowed users to try Debian-based Linux without installation, sparking nostalgic discussions among early Linux users. Knoppix pioneered the Live CD concept, significantly lowering the barrier to try Linux and influencing many portable operating systems and recovery tools. It runs a full Debian-based system from CD without installation, using the KDE desktop environment, and includes hardware auto-detection.
 
-hackernews · comma_at · Jun 29, 14:53 · [Discussion](https://news.ycombinator.com/item?id=48720064)
+hackernews · hoangvmpc · Jun 30, 12:54 · [Discussion](https://news.ycombinator.com/item?id=48732056)
 
-**Background**: The essay appears on htmx.org; Claude is an AI assistant developed by Anthropic; hyperscript is a scripting language associated with the htmx library for building dynamic web pages without JavaScript; the discussion centers on the capabilities and limits of large language models (LLMs) in software engineering.
+**Background**: A live CD is a bootable disc containing a complete operating system that runs directly from the disc into the computer's memory without needing to be installed on a hard drive. It allows users to test an OS without altering their existing system. Knoppix was one of the first popular live CDs for Linux, making Debian accessible when its installer was difficult. As optical drives became less common, live CDs evolved into live USBs and other portable solutions.
 
-**Discussion**: Commenters noted the lack of details like Claude model version and prompt methodology, agreeing with the core observation that AI lacks critical thinking and a world model; one suggestion was that better test generation by AI could preempt weak solutions.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Live_CD">Live CD</a></li>
 
-**Tags**: `#AI`, `#software engineering`, `#LLM`, `#coding assistants`, `#productivity`
+</ul>
+</details>
+
+**Discussion**: Community members share fond memories of using Knoppix as their first Linux experience, often bypassing computer restrictions or recovering from failed dual-boot attempts. It provided a safe environment for learning and experimentation, with some recalling customizing builds or using it for system recovery with persistent storage on USB drives.
+
+**Tags**: `#linux`, `#live-cd`, `#debian`, `#open-source`, `#nostalgia`
 
 ---
 
 <a id="item-13"></a>
-## [Ornith-1.0: Open-Source Self-Scaffolding LLMs for Coding](https://simonwillison.net/2026/Jun/29/ornith/#atom-everything) ⭐️ 7.0/10
+## [Proposal for .self TLD for Self-Hosting and Digital Identity](https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/) ⭐️ 7.0/10
 
-DeepReinforce released Ornith-1.0, a new open-source LLM series for agentic coding, using a self-scaffolding training method that achieves state-of-the-art coding performance for its size. This release provides a highly capable, openly licensed coding model that can run locally, advancing the open-source AI coding ecosystem. Its self-scaffolding approach may influence future agentic AI training. Variants include 9B and 31B dense, plus 35B and 397B Mixture of Experts, built on Gemma 4 and Qwen 3.5 with MIT/Apache 2.0 licensing. Early tests show proficient agentic tool calling and fast generation (103 tokens/sec).
+A new proposal suggests creating a .self top-level domain (TLD) to give every person a free subdomain for self-hosting, aiming for human-centric digital identity. The proposal has sparked discussions about feasibility, abuse prevention, and alternatives. If realized, .self could empower individuals to own their online presence without relying on centralized platforms, but its success depends on solving issues like abuse and sustainability that plagued previous free domains like .tk. The .self TLD would be offered at no cost, but enforcing rules against squatting and abuse is technically and financially challenging. The proposal is from HCCF, and community members suggested alternatives like Microsoft Vega for privacy-focused identity.
 
-rss · Simon Willison · Jun 29, 16:17
+hackernews · HumanCCF · Jun 29, 19:49 · [Discussion](https://news.ycombinator.com/item?id=48724230)
 
-**Background**: Self-scaffolding means the model learns to create its own task-specific problem-solving harnesses instead of relying on human-designed ones, jointly optimizing the scaffold and the solution. Agentic coding uses AI agents to assist in software development tasks like code generation and debugging. Mixture of Experts (MoE) combines multiple specialized sub-models to improve efficiency and scalability. DeepReinforce is a relatively new AI company with prior work on CUDA optimization.
+**Background**: A top-level domain (TLD) is the last part of a web address like .com or .org. Self-hosting involves running your own server to host websites or services. The .tk TLD was once offered for free but became notorious for spam and scams, leading to widespread blocking.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://deep-reinforce.com/ornith_1_0.html">Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding | DeepReinforce Blog | Jun. 2026</a></li>
-<li><a href="https://essamamdani.com/blog/ornith-1-0-self-scaffolding-llm-coding-2026">Ornith-1.0: The Self-Scaffolding LLM That Teaches Itself to Code Better | Essa Mamdani | Essa Mamdani</a></li>
-<li><a href="https://www.mindstudio.ai/blog/self-scaffolding-ai-models-ornith-1-0">Self-Scaffolding AI Models: How Ornith 1.0 Writes Its Own Agent Harness | MindStudio</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Top-level_domain">Top-level domain - Wikipedia</a></li>
+<li><a href="https://news.ycombinator.com/item?id=48724230">.self: A new top-level domain designed to support self-hosting | Hacker News</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Self-hosting_(network)">Self-hosting (network) - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM`, `#open-source`, `#coding`, `#agentic-ai`, `#model-release`
+**Discussion**: Comments highlight risks: free domains like .tk invited scammers and got blocked. Enforcing 'no squatting' is tough without identity verification; one suggestion is to revoke inactive domains. Cost of running a TLD without fees is questioned. Some propose privacy-preserving identity solutions like Microsoft Vega.
+
+**Tags**: `#self-hosting`, `#domain`, `#digital-identity`, `#decentralization`, `#community-discussion`
 
 ---
 
 <a id="item-14"></a>
-## [ChatGPT Reportedly Solves Chen Lijie's 7-Year Computational Geometry Problem](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652709773&idx=2&sn=68bde762eb0070f5bd61518728971232) ⭐️ 7.0/10
+## [shot-scraper 1.10 Adds Video Recording for Coding Agents](https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything) ⭐️ 7.0/10
 
-A WeChat article claims that ChatGPT solved a core computational geometry problem that Chen Lijie, a renowned researcher from Tsinghua's Yao class, had been working on for seven years, building on OpenAI's recent resolution of an Erdős conjecture. If true, this would demonstrate that large language models can tackle unsolved problems in specialized mathematical domains, potentially accelerating research in computational geometry and beyond. The article provides sparse details about the specific problem and no formal verification; it originates from a WeChat post, which may be sensational. No peer review or official confirmation is available.
+shot-scraper 1.10 introduces a new 'video' command that records web interactions based on a YAML storyboard, enabling developers to automatically capture video demonstrations of web applications using Playwright. This feature is designed for coding agents (AI assistants) to prove their work by generating video demos, addressing the challenge of verifying agent-generated code. It provides a practical tool for integrating AI into development workflows, especially for web applications. The 'video' command uses a storyboard.yml file to define steps like clicks, typing, and pauses, supports authentication via cookies, and can output MP4 video. It also allows injecting JavaScript to mock browser APIs, such as clipboard, for more reliable recordings.
 
-rss · 新智元 · Jun 29, 05:01
+rss · Simon Willison · Jun 30, 16:54
 
-**Background**: The Erdős unit distance conjecture, proposed in 1946, concerns the maximum number of unit distances in the plane; OpenAI announced an AI model disproved it in May 2026. Chen Lijie is a notable researcher from Tsinghua University's Yao class, known for work in computational geometry. The reported problem likely relates to an open question in the field.
+**Background**: shot-scraper is a command-line tool built on Playwright, originally for taking automated screenshots and scraping web pages. Playwright is a browser automation library that can control headless browsers and record video. The video feature extends shot-scraper to record entire interaction sequences, making it useful for documentation and demonstrations.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://pasqualepillitteri.it/en/news/3065/openai-erdos-unit-distance-conjecture-ai-breakthrough">OpenAI Disproves Erdős Conjecture: AI Solves 80-Year Math Problem</a></li>
-<li><a href="https://www.xitu-tech.com/news/openai-disproves-80-year-erdos-math-conjecture-the-ai-rd-era-begins/">OpenAI 证伪八十年 Erdős 数学猜想：AI 研发时代来临 - 希图科技</a></li>
-<li><a href="https://www.scientificamerican.com/article/ai-just-solved-an-80-year-old-erdos-problem-and-mathematicians-are-amazed/">AI just solved an 80-year-old ‘Erdős problem,’ and mathematicians are amazed | Scientific American</a></li>
+<li><a href="https://shot-scraper.datasette.io/">shot-scraper</a></li>
+<li><a href="https://simonwillison.net/2022/Mar/10/shot-scraper/">shot-scraper: automated screenshots for documentation, built on Playwright</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#mathematics`, `#computational geometry`, `#ChatGPT`, `#breakthrough`
+**Tags**: `#web-scraping`, `#automation`, `#playwright`, `#developer-tools`, `#ai-agents`
 
 ---
 
 <a id="item-15"></a>
-## [LongCat-2.0: A 1.6T Parameter MoE Model Stealth-Released on Openrouter](https://www.reddit.com/r/LocalLLaMA/comments/1uj7egu/introducing_longcat20_a_largescale_moe_language/) ⭐️ 7.0/10
+## [Browser tool extracts HTML tables to Markdown, CSV, JSON](https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything) ⭐️ 7.0/10
 
-LongCat-2.0, a large-scale mixture-of-experts language model with 1.6 trillion total parameters and approximately 48 billion parameters activated per token, has been announced after being stealthily released on Openrouter under the name 'owl-alpha'. With 1.6 trillion parameters and only 48 billion activated per token, LongCat-2.0 showcases the marriage of immense capacity and efficiency, which could inspire new approaches in balancing model size and inference cost. Its quiet release as 'owl-alpha' also reflects a growing trend of stealth model launches on inference platforms. The specific architecture, training details, and benchmark performance of LongCat-2.0 remain undisclosed, making it difficult to assess its capabilities and novelty. It was available on Openrouter, a platform for accessing multiple LLMs, but the stealth release limited community testing.
+Simon Willison released a browser-based tool that accepts pasted rich text, detects embedded HTML tables, and converts each table into HTML, Markdown, CSV, TSV, or JSON format. This streamlines the often manual task of extracting tabular data from web pages, making it immediately usable for analysis, documentation, or data processing workflows. The tool operates entirely in the browser, and a recent update integrates Wikipedia's CORS API to search for a page and directly import its tables.
 
-reddit · r/LocalLLaMA · /u/AnticitizenPrime · Jun 29, 22:42
+rss · Simon Willison · Jun 29, 23:38
 
-**Background**: Mixture of Experts (MoE) is a machine learning technique that uses multiple specialized sub-models ('experts') to handle different parts of a problem, improving efficiency by activating only a subset of parameters for each input. This allows models to scale to trillions of parameters while keeping inference costs manageable. Openrouter is a platform that simplifies access to various large language models from different providers, including billing and inference, and sometimes hosts experimental or pre-release models.
+**Background**: Simon Willison is a developer known for building practical, focused utilities. Rich text copied from browsers often contains hidden HTML tables. CORS (Cross-Origin Resource Sharing) is a mechanism that allows web applications to request data from a different domain, which Wikipedia enables for its API.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Mixture_of_experts">Mixture of experts</a></li>
-<li><a href="https://huggingface.co/blog/moe">Mixture of Experts Explained</a></li>
-<li><a href="https://grokipedia.com/page/openrouter">OpenRouter</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#large language models`, `#mixture of experts`, `#open-source`, `#stealth model`, `#model release`
+**Tags**: `#tool`, `#html`, `#data-extraction`, `#markdown`, `#conversion`
 
 ---
 
 <a id="item-16"></a>
-## [DeepSeek V4 Support Merged into llama.cpp](https://www.reddit.com/r/LocalLLaMA/comments/1uj0fkw/deepseek_v4_pr_merged_into_llamacpp/) ⭐️ 7.0/10
+## [NVIDIA Releases Qwen3.6-27B in NVFP4 4-bit Format](https://www.reddit.com/r/LocalLLaMA/comments/1ujlltn/nvidiaqwen3627bnvfp4_just_dropped/) ⭐️ 7.0/10
 
-A pull request (PR #24162) adding support for the DeepSeek V4 model has been merged into llama.cpp, allowing users to run DeepSeek V4 variants locally using the GGUF format. This integration brings DeepSeek V4's powerful 1M-token context and efficient MoE architecture to local devices, significantly expanding the capabilities of offline, privacy-focused AI tools. DeepSeek V4 includes a Pro version with 1.6T total parameters (49B activated) and a Flash version with 284B parameters (13B activated), both supporting one million token context lengths; the merged PR enables their use through llama.cpp's efficient C/C++ inference engine and GGUF quantization.
+NVIDIA has released a quantized version of the Qwen3.6-27B large language model, utilizing their NVFP4 4-bit floating point format, specifically optimized for efficient local inference on compatible hardware. This release enables high-performance local LLM inference with reduced memory footprint and improved speed, leveraging NVIDIA's custom 4-bit floating point quantization to maintain accuracy while drastically cutting resource requirements. The model uses NVFP4, a 4-bit floating point format with two-level scaling that includes fine-grained E4M3 scaling factors and a second-level FP32 scalar, aiming to balance accuracy and efficiency at ultra-low precision. It is available on Hugging Face for download and integration into local inference pipelines.
 
-reddit · r/LocalLLaMA · /u/Squik67 · Jun 29, 18:19
+reddit · r/LocalLLaMA · /u/vanbukin · Jun 30, 10:39
 
-**Background**: llama.cpp is a widely used open-source C/C++ library for local LLM inference, forming the backbone of tools like Ollama and LM Studio. GGUF is a file format optimized for storing quantized models, enabling efficient runtime performance. DeepSeek V4, released in April 2026 by the Chinese AI company DeepSeek, offers state-of-the-art performance at a fraction of the training cost of comparable models.
+**Background**: NVFP4 is a 4-bit floating point format introduced by NVIDIA for low-precision AI inference. Unlike integer quantization, floating point quantization can better preserve model accuracy at extremely low bit-widths by allocating bits dynamically for exponent and mantissa. Quantization reduces the memory and compute requirements of large language models, making them feasible for local deployment on consumer-grade hardware. The Qwen3.6-27B model is a 27-billion parameter language model from Alibaba's Qwen family, known for strong performance.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://api-docs.deepseek.com/news/news260424">DeepSeek V4 Preview Release | DeepSeek API Docs</a></li>
-<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro">deepseek-ai/DeepSeek-V4-Pro · Hugging Face</a></li>
-<li><a href="https://en.wikipedia.org/wiki/GGUF">GGUF</a></li>
+<li><a href="https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/">Introducing NVFP4 for Efficient and Accurate Low-Precision Inference | NVIDIA Technical Blog</a></li>
+<li><a href="https://en.wikipedia.org/wiki/NVFP4">NVFP4</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#llama.cpp`, `#DeepSeek`, `#local-llm`, `#GGUF`, `#model-support`
+**Tags**: `#LLM`, `#model-release`, `#quantization`, `#NVIDIA`, `#local-llm`
 
 ---
 
 <a id="item-17"></a>
-## [Krea-2-Turbo Uncensored via SGLang Prompt Rebalancing](https://www.reddit.com/r/LocalLLaMA/comments/1uj638x/krea2turbo_image_model_easy_to_be_fully/) ⭐️ 7.0/10
+## [Microsoft Takes Down FastContext Model and Repository](https://www.reddit.com/r/LocalLLaMA/comments/1ujjk9s/microsoft_has_taken_down_fastcontext_model_from/) ⭐️ 7.0/10
 
-A Reddit post provides a simple method to bypass content restrictions in the Krea-2-Turbo image generation model by adding a custom 'rebalancer' parameter to the SGLang diffusion framework, enabling unrestricted generation with a conditioning multiplier. This allows local AI enthusiasts to fully unlock the model's creative potential without censorship, and it demonstrates how open‑source serving frameworks like SGLang can be adapted to remove built‑in safeguards. The technique requires installing SGLang diffusion via `uv pip install 'sglang[diffusion]' --prerelease=allow` and modifying the `/v1/images/generations` endpoint to accept a post‑prompt rebalancing vector (e.g., '1,1,1,1,1,1,1,2.5,5.0,1.1,4.0,1.0') with a multiplier; model weights are available on HuggingFace in BF16 and 4‑bit GGUF (~8 GB) formats.
+Microsoft has abruptly removed the FastContext model and its associated repository from Hugging Face and GitHub, providing no explanation for the takedown. This sudden takedown of a recently open-sourced model by a major AI company raises concerns about the reliability of public model availability and may disrupt ongoing research and development in coding agent systems. FastContext was a 4B-parameter model designed as a lightweight repository-exploration subagent for coding agents, available in supervised fine-tuning (SFT) and reinforcement learning (RL) variants. Both the Hugging Face model cards and the GitHub repository were entirely wiped, with no official statement; the arXiv paper remains accessible.
 
-reddit · r/LocalLLaMA · /u/sixx7 · Jun 29, 21:49
+reddit · r/LocalLLaMA · /u/robert896r1 · Jun 30, 08:39
 
-**Background**: Krea-2-Turbo is a fast text‑to‑image diffusion model that generates high‑quality images in about 3 seconds. SGLang is a high‑performance serving framework originally for large language models, now extended with a diffusion module for image/video generation, offering an OpenAI‑compatible API. 'Prompt rebalancing' here refers to adjusting the influence of different conditioning inputs to steer the output away from safety filters.
+**Background**: FastContext is a specialized language model created by Microsoft to improve the efficiency of coding agents. It functions as a lightweight subagent that separates repository exploration from problem-solving, using parallel tool calls to return focused context. This approach reduces token usage and minimizes inference contamination. The model was open-sourced only a few weeks before its unexplained removal, attracting interest from developers working on AI-assisted coding.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://sgl-project.github.io/diffusion/index.html">SGLang Diffusion — SGLang</a></li>
-<li><a href="https://www.lmsys.org/blog/2025-11-07-sglang-diffusion/">SGLang Diffusion : Accelerating Video and Image... - LMSYS Org</a></li>
+<li><a href="https://github.com/microsoft/fastcontext">GitHub - microsoft/fastcontext: FastContext: Training Efficient Repository Explorer for Coding Agents · GitHub</a></li>
+<li><a href="https://huggingface.co/microsoft/FastContext-1.0-4B-SFT">microsoft/FastContext-1.0-4B-SFT · Hugging Face</a></li>
+<li><a href="https://arxiv.org/abs/2606.14066">[2606.14066] FastContext: Training Efficient Repository Explorer for Coding Agents</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#image-generation`, `#local-models`, `#uncensoring`, `#sglang`, `#diffusion-models`
+**Tags**: `#LLM`, `#Microsoft`, `#FastContext`, `#takedown`, `#AI`
 
 ---
 
 <a id="item-18"></a>
-## [NASA Testing Local LLM Inference for Astronaut Medical AI Assistant](https://www.reddit.com/r/LocalLLaMA/comments/1uisspl/nasa_testing_local_llm_inference_for_future_space/) ⭐️ 7.0/10
+## [Hugging Face Adds Hardware Compatibility Filter](https://www.reddit.com/r/LocalLLaMA/comments/1ujnjcw/new_on_hugging_face_filter_by_hardware/) ⭐️ 7.0/10
 
-NASA is building the Crew Medical Officer Digital Assistant (CMO-DA), a medical AI that runs large language models locally on space hardware using llama.cpp through the open-source RamaLama tool. The system uses retrieval-augmented generation (RAG) on spaceflight medical literature to provide offline diagnostic support for astronauts. This approach enables reliable medical AI on deep-space missions where communication delays and blackouts make Earth-based telehealth impractical. It could significantly improve astronaut safety and mission self-sufficiency. The CMO-DA uses RamaLama, an open-source CLI tool that wraps llama.cpp and other inference engines, allowing models to be pulled and run like container images with auto GPU detection. Testing is currently done on the terrestrial twin of the HPE Spaceborne Computer aboard the ISS, treating AI models as portable, cryptographically verifiable artifacts.
+Hugging Face has introduced a new filter option that allows users to search for models based on hardware compatibility, such as GPU type, CPU, or Apple Silicon, making model discovery more efficient. This feature significantly simplifies the process of finding locally runnable models for users with specific hardware, reducing trial-and-error and improving accessibility for the local LLM community. The filter is available on the Hugging Face model hub and likely integrates with metadata tags indicating supported hardware, though the exact implementation details are not specified in the announcement.
 
-reddit · r/LocalLLaMA · /u/Careless-Car_ · Jun 29, 13:39
+reddit · r/LocalLLaMA · /u/paf1138 · Jun 30, 12:15
 
-**Background**: Large language models (LLMs) typically need cloud servers, but tools like llama.cpp enable efficient local inference on edge hardware. Retrieval-augmented generation (RAG) allows LLMs to retrieve accurate information from external documents, reducing hallucinations. Space missions face communication delays and blackouts, making real-time Earth-based medical support impossible, so onboard AI is essential.
+**Background**: Hugging Face is a popular platform for sharing and discovering machine learning models. With the rise of local LLM usage, many users run models on their own hardware, which varies widely in capabilities. Previous search filters focused on task type and model size, but lacked a direct way to filter by hardware requirements, making it challenging to find models that fit one's specific setup.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Llama.cpp">Llama.cpp</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation">Retrieval-augmented generation</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#local-llm`, `#space-missions`, `#edge-computing`, `#medical-ai`, `#open-source`
+**Tags**: `#huggingface`, `#hardware-compatibility`, `#model-discovery`, `#local-llm`, `#filtering`
 
 ---
 
 <a id="item-19"></a>
-## [South Korea to Invest $1 Trillion in Memory Chips and Humanoid Robots](https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/) ⭐️ 6.0/10
+## [Norm-Preserving Abliteration Yields 0% Refusal on Qwen3.6-35B-A3B](https://www.reddit.com/r/LocalLLaMA/comments/1ujktg5/normpreserving_abliteration_on_qwen3635ba3b_0/) ⭐️ 7.0/10
 
-South Korea has announced a $1 trillion plan to significantly boost its memory chip production capacity and accelerate the development of humanoid robots. The initiative aims to establish semiconductors, physical AI, and AI data centers as the 'triple axis' for a technological leap forward. This massive investment signals South Korea's intent to maintain dominance in the memory chip market while venturing into the unproven but potentially transformative field of humanoid robotics. However, the pairing of a mature, commodity component with a speculative technology has raised questions about strategic coherence and resource allocation. Specific technical details remain unclear, but the plan links memory chips—essential for AI workloads—with humanoid robots, which require advanced sensors and AI. The investment may span multiple years, and its success hinges on overcoming hardware and software challenges in robotics.
+A novel norm-preserving biprojection method was applied to Qwen3.6-35B-A3B, completely eliminating safety refusals while maintaining benchmark scores. The abliterated model, open-source dataset, and quantized versions have been released. This technique prevents the performance degradation common in previous abliteration methods, enabling uncensored local LLMs that remain fully capable. It demonstrates how precise intervention in model internals can alter behavior without compromising intelligence, advancing mechanistic interpretability research. The method orthogonalizes each weight row against the refusal direction and then rescales to the original L2 norm. Special handling was required for Qwen3.6-35B-A3B's hybrid attention layers and 3D expert tensors, and a diverse harmful dataset of 7356 prompts was used to extract a robust refusal direction.
 
-hackernews · jnord · Jun 29, 22:21 · [Discussion](https://news.ycombinator.com/item?id=48726102)
+reddit · r/LocalLLaMA · /u/BriefCardiologist656 · Jun 30, 09:54
 
-**Background**: South Korea, home to memory chip giants like Samsung and SK Hynix, has long been a global leader in semiconductor manufacturing. Memory chips, such as DRAM and NAND flash, are critical components for AI data centers and consumer electronics. Humanoid robots, designed to mimic human movements and interact with the physical world, remain largely experimental and have yet to achieve commercial viability at scale.
-
-**Discussion**: Community reactions are mixed; one commenter derides the pairing as akin to investing in 'groceries and dance lessons,' highlighting the stark contrast between the pragmatic chip investment and the speculative robot venture. Others question the strategic bundling, the choice of humanoid form factor, and the global trend toward humanoid robots, while some express concern over the possibly superficial nature of the announcement and recall missed opportunities in other countries like Germany.
-
-**Tags**: `#semiconductors`, `#robotics`, `#investment`, `#technology policy`, `#humanoid robots`
-
----
-
-<a id="item-20"></a>
-## [A native graphical shell for SSH](https://probablymarcus.com/blocks/2026/06/28/native-graphical-shell-for-SSH.html) ⭐️ 6.0/10
-
-Marcus Lewis has built 'Outer Loop' into an SSH browser and is open-sourcing 'Outer Shell', which proposes a native graphical shell for SSH. It separates the frontend and backend to enable seamless access to remote graphical applications like Jupyter and Tensorboard without traditional SSH tunneling. This approach could reduce latency and improve usability for remote graphical apps compared to X11 forwarding. It also enhances security by not exposing application ports directly, potentially reshaping how developers and system administrators access remote services. The system uses a separation layer that cuts data into small slices for individual use cases; apps can be HTML-based or native 'outerframe apps'. However, the concept faces scrutiny over its novelty compared to existing tools like Cockpit and X11 forwarding, and unresolved security concerns around WebSocket connections.
-
-hackernews · mrcslws · Jun 29, 15:42 · [Discussion](https://news.ycombinator.com/item?id=48720758)
-
-**Background**: SSH (Secure Shell) is a protocol for secure remote command-line access. X11 forwarding is a traditional method to run graphical applications remotely, but it often suffers from high latency and bandwidth overhead. Web-based administration tools like Cockpit provide graphical interfaces but typically require port forwarding or SSH tunneling. The proposed graphical shell aims to offer a more efficient and secure alternative by handling authentication and proxying internally.
+**Background**: Abliteration is a technique that removes a language model's ability to refuse harmful requests by projecting out a 'refusal direction' from its weights. Previous methods often caused benchmark degradation because they shrunk weight norms. The residual stream in transformers is where such directions are found. Qwen3.6-35B-A3B is a mixture-of-experts model with 256 experts plus a shared expert, and uses both standard and linear attention.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://probablymarcus.com/blocks/2026/06/28/native-graphical-shell-for-SSH.html">A native graphical shell for SSH | Marcus Lewis</a></li>
-<li><a href="https://goteleport.com/blog/x11-forwarding/">What You Need to Know About X11 Forwarding</a></li>
+<li><a href="https://huggingface.co/blog/grimjim/norm-preserving-biprojected-abliteration">Norm-Preserving Biprojected Abliteration</a></li>
+<li><a href="https://github.com/NousResearch/llm-abliteration">GitHub - NousResearch/llm-abliteration: Make abliterated models with transformers, easy and fast · GitHub</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mechanistic_interpretability">Mechanistic interpretability</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The Hacker News discussion shows mixed reactions: some praise the effort and its potential to reduce latency by carefully slicing data, while others dismiss it as 'a solution in search of a problem,' pointing to existing solutions like X11 forwarding and Cockpit. Security concerns about raw Unix sockets and the feasibility of WebSocket connections were also raised.
+**Tags**: `#mechanistic interpretability`, `#abliteration`, `#refusal`, `#norm-preserving`, `#Qwen`
 
-**Tags**: `#ssh`, `#graphical-shell`, `#terminal`, `#x11-forwarding`, `#remote-access`
+---
+
+<a id="item-20"></a>
+## [US Labor Share Hits Postwar Low, But Post-COVID Drop Is Cyclical](https://libertystreeteconomics.newyorkfed.org/2026/06/the-post-covid-decline-in-the-labor-share/) ⭐️ 6.0/10
+
+A New York Fed analysis finds that the post-COVID decline in the US labor share of income primarily follows historical cyclical patterns from past recessions, rather than representing a distinct structural change. The labor share measures how much of national income goes to workers; its long-term decline suggests increasing income inequality and a growing gap between productivity and wages. The report examines the labor share's trajectory along two dimensions: its post-COVID recovery phase decline mirrors earlier recessions, and the decline is driven primarily by cyclical factors, offering little evidence of a distinct new trend.
+
+hackernews · loughnane · Jun 30, 15:35 · [Discussion](https://news.ycombinator.com/item?id=48734234)
+
+**Background**: The labor share, or wage share, is the portion of national income allocated to wages and benefits. It is often used as an indicator of economic equality. Historically, it rose in the mid-20th century but began declining in many advanced economies from around 2000. The decline has been linked to factors like automation, globalization, and declining unionization.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Labor_share">Labor share - Wikipedia</a></li>
+<li><a href="https://www.bls.gov/opub/mlr/2017/article/estimating-the-us-labor-share.htm">Estimating the U.S. labor share : Monthly Labor Review : U.S. Bureau of Labor Statistics</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Comments note that the article's title is sensationalist, as the actual conclusion emphasizes the cyclical nature of the post-COVID drop. Many point out that the long-term decline since 2000 remains a major concern. Some suggest the COVID-era spike highlights how low-wage employers overreacted.
+
+**Tags**: `#economics`, `#labor-share`, `#income-inequality`, `#COVID-recovery`, `#New-York-Fed`
 
 ---
 
 <a id="item-21"></a>
-## [Simon Willison’s HTML Table Extractor: Convert Pasted Tables to Multiple Formats](https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything) ⭐️ 6.0/10
+## [High-intensity interval training reduces body fat in older adults, 2025 study](https://www.maturitas.org/article/S0378-5122(25)00571-7/fulltext) ⭐️ 6.0/10
 
-Simon Willison released a new web tool that extracts tables from pasted rich text and converts them to HTML, Markdown, CSV, TSV, or JSON, with a recent update enabling direct Wikipedia table import via the Wikipedia CORS API. This tool fills a practical gap for developers and data workers who frequently need to extract tabular data from web pages, now with seamless Wikipedia integration for easy access to publicly available datasets. The tool works entirely client-side, using the browser’s rich text paste event to parse HTML tables; the Wikipedia integration leverages the `action=parse` API endpoint, which returns rendered HTML with tables that the tool then extracts and converts.
+A six-month randomized controlled trial in 123 healthy older adults (mean age 72) found that those performing high-intensity interval training (HIIT) experienced significant reductions in body fat compared to moderate-intensity continuous training or a low-intensity control group. Maintaining a healthy body composition is crucial for healthy aging, and HIIT offers an efficient, non-pharmacological strategy that could be widely adopted to combat age-related fat accumulation and associated metabolic risks. The 45-minute sessions were heart-rate-prescribed treadmill workouts: HIIT involved 4-minute intervals at 85–95% peak heart rate interspersed with 3-minute active recovery, while body composition was measured via DXA at baseline, 3, and 6 months. The study focused on cardiorespiratory exercise, not resistance training.
 
-rss · Simon Willison · Jun 29, 23:38
+hackernews · bookofjoe · Jun 30, 10:31 · [Discussion](https://news.ycombinator.com/item?id=48730694)
 
-**Background**: Simon Willison is a prolific developer known for creating practical web tools. Rich text copy-paste from browsers preserves underlying HTML, which can include table markup. This tool belongs to a series of paste-conversion utilities he maintains, such as a rich-text-to-Markdown converter, which was also recently updated to handle tables better.
+**Background**: High-intensity interval training (HIIT) alternates short bursts of near-maximal effort with recovery periods, heavily engaging anaerobic energy systems. It is known for improving cardiovascular fitness and metabolic health in less time than moderate continuous exercise, though its long-term efficacy and safety in older populations have been less studied.
 
-**Tags**: `#tools`, `#html`, `#data-conversion`, `#web-scraping`, `#javascript`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/High-intensity_interval_training">High-intensity interval training</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters clarified that the study compared cardio, not resistance training, and noted that the benefits may partly stem from 'noob gains' in untrained individuals, with doubts about long-term sustainability. One personal account warned of possible heart rhythm issues from unsupervised extreme HIIT.
+
+**Tags**: `#health`, `#exercise`, `#aging`, `#research`, `#fitness`
+
+---
+
+<a id="item-22"></a>
+## [AI Ethics Quiz 'The AI Compass' Classifies Users into 30 Archetypes](https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything) ⭐️ 6.0/10
+
+Simon Willison shared 'The AI Compass,' a political-compass-style quiz by bambamramfan that asks 29 questions about AI and AI ethics to assign users one of 30 archetypes, such as 'The Garage Tinkerer.' The quiz provides an accessible and engaging way for people to reflect on their AI ethics stances, potentially broadening participation in AI discourse beyond technical circles. The quiz is built as a single-page React app using the <script type='text/babel'> trick to avoid a build step, and its source code is available on GitHub.
+
+rss · Simon Willison · Jun 30, 17:39
+
+**Background**: Inspired by political compass tests that map ideologies on a grid, 'The AI Compass' positions users on axes of good versus bad and transformative versus overhyped. Simon Willison, a well-known developer and blogger, was categorized as 'The Garage Tinkerer,' reflecting a hands-on, optimistic approach to AI.
+
+**Tags**: `#AI`, `#ethics`, `#quiz`, `#community`, `#classification`
+
+---
+
+<a id="item-23"></a>
+## [OpenAI CRO Warns: Small Window for Humanity Before AGI Arrives](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710037&idx=2&sn=942dd7ab7358a3a8a5729c96860e9831) ⭐️ 6.0/10
+
+OpenAI's chief research officer recently stated that the window for humanity before artificial general intelligence (AGI) arrives is very small, implying that AGI may be imminent. This warning from a leading AI company signals that AGI development is accelerating, raising urgent questions about safety, governance, and societal impact, and underscoring the need for immediate preparation. The article also mentions recent advancements in multimodal chatbots that can chat, sing, and play games, as well as ongoing memory bottlenecks in AI hardware, but the CRO's statement lacks technical specifics or a definitive timeline.
+
+rss · 新智元 · Jun 30, 04:32
+
+**Background**: Artificial general intelligence (AGI) refers to an AI system with general, human-level or beyond, ability to learn and reason across diverse tasks. OpenAI is a leading AI research organization. Multimodal chatbots integrate text, images, and sound to provide richer interactions. Additionally, AI hardware faces a 'memory wall' where memory bandwidth lags behind computational demands, potentially slowing progress toward AGI.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://hai.stanford.edu/ai-definitions/what-is-agi-artificial-general-intelligence">What is AGI (Artificial General Intelligence)? - Stanford HAI</a></li>
+<li><a href="https://tailortalk.ai/blogs/what-is-a-multimodal-chatbot-and-why-it-matters-in-2025">What Is a Multimodal Chatbot and Why It Matters in 2025</a></li>
+<li><a href="https://www.scientificamerican.com/article/high-bandwidth-memory-is-a-bottleneck-for-ai-chips/">Why high-bandwidth memory is a bottleneck for AI chips | Scientific American</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AGI`, `#OpenAI`, `#AI Ethics`, `#AI Commentary`, `#Technology News`
+
+---
+
+<a id="item-24"></a>
+## [Bartowski Releases GGUF Quantizations of DeepSeek V4 Flash](https://www.reddit.com/r/LocalLLaMA/comments/1ujlwbm/bartowski_has_delivered_ds4_gguf/) ⭐️ 6.0/10
+
+Bartowski has published GGUF-quantized versions of the DeepSeek V4 Flash model on Hugging Face, enabling efficient local inference on consumer hardware. The release includes comparisons with iMatrix quantized versions by Antirez. This release enables the local LLM community to run DeepSeek's latest efficient MoE model on personal devices, lowering hardware barriers and fostering experimentation. It continues the trend of making cutting-edge AI accessible offline. The GGUF files support multiple quantization levels (e.g., Q4_K_M, Q5_K_M) for flexibility. The iMatrix version uses importance-weighted quantization to potentially improve perplexity at the same bit-width, but may require calibration data.
+
+reddit · r/LocalLLaMA · /u/challis88ocarina · Jun 30, 10:55
+
+**Background**: GGUF is a binary file format optimized for storing quantized large language models, enabling efficient local inference via tools like llama.cpp and Ollama. DeepSeek V4 Flash is a 284-billion parameter Mixture-of-Experts model (13 billion activated) with a 1-million-token context window, designed for fast inference. Importance-weighted (iMatrix) quantization uses calibration data to prioritize preserving accuracy for important weights, potentially yielding better performance than standard uniform quantization.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/GGUF">GGUF</a></li>
+<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">deepseek-ai/DeepSeek-V4-Flash · Hugging Face</a></li>
+<li><a href="https://docs.vllm.ai/projects/llm-compressor/en/latest/examples/imatrix/">iMatrix Importance-Weighted Quantization - LLM Compressor Docs</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#GGUF`, `#DeepSeek`, `#quantization`, `#LocalLLaMA`, `#LLM`
 
 ---
 
