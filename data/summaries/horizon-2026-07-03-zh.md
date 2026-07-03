@@ -1,91 +1,126 @@
 # Horizon 每日速递 - 2026-07-03
 
-> 从 45 条内容中筛选出 27 条重要资讯。
+> 从 49 条内容中筛选出 23 条重要资讯。
 
 ---
 
-1. [llama.cpp 补丁使 RTX 5090 能本地运行 DeepSeek V4 Flash 百万上下文](#item-1) ⭐️ 10.0/10
-2. [Valve 开源 Steam Machine 电子墨水屏，爱好者可 DIY](#item-2) ⭐️ 8.0/10
-3. [Wordgard：ProseMirror 创建者推出的新浏览器富文本编辑器](#item-3) ⭐️ 8.0/10
-4. [《半成品》一文讽刺创业弊端引热议](#item-4) ⭐️ 8.0/10
-5. [crustc：将 Rust 编译器转译为 C](#item-5) ⭐️ 8.0/10
-6. [HAT-4D 从单目视频生成 4D 交互场景，无需昂贵动捕。](#item-6) ⭐️ 8.0/10
-7. [Mistral 发布 Leanstral 1.5：形式验证与定理证明达到顶尖水平](#item-7) ⭐️ 8.0/10
-8. [GLM-5.2 NVFP4 四 DGX Spark 集群 MTP 错误修复，128K 上下文达 24 tok/s](#item-8) ⭐️ 8.0/10
-9. [Jamesob 的本地运行 SOTA 大语言模型指南](#item-9) ⭐️ 7.0/10
-10. [PostgreSQL 与 OOM 杀手：Ubicloud 为何采用严格内存过量使用策略](#item-10) ⭐️ 7.0/10
-11. [会话转录记忆对 AI 编程助手有害](#item-11) ⭐️ 7.0/10
-12. [苹果发布 Safari MCP 服务器，支持 AI 驱动网页测试](#item-12) ⭐️ 7.0/10
-13. [西蒙·威利森建议：让克劳德模型自行判断](#item-13) ⭐️ 7.0/10
-14. [Simon Willison 发布 llm-coding-agent 0.1a0，一个类 Claude Code 的编码代理](#item-14) ⭐️ 7.0/10
-15. [DeepSeek V4 Flash 在双 RTX PRO 6000 上编码速度超越云端 API](#item-15) ⭐️ 7.0/10
-16. [英伟达 AI 领袖否认 AGI，将闭源模型比作昔日 AOL 和 Prodigy](#item-16) ⭐️ 7.0/10
-17. [AMD 发布 Micro-World：动作控制交互世界模型](#item-17) ⭐️ 7.0/10
-18. [Gemma Avatar: 使用 Gemma 4 31B 的实时 3D 对话机器人](#item-18) ⭐️ 7.0/10
-19. [Karpathy 在 nanochat 中创建分支，打造廉价版 ChatGPT](#item-19) ⭐️ 6.0/10
-20. [通过代码转图像 OCR 利用令牌漏洞节省 60%成本](#item-20) ⭐️ 6.0/10
-21. [为运行 GLM5.2 搭建 5 张 Pro 6000 加 5090 的昂贵多 GPU 系统](#item-21) ⭐️ 6.0/10
-22. [Palantir 在 Hugging Face 组织页面无开源模型和数据集](#item-22) ⭐️ 6.0/10
-23. [葡萄牙发布开源 9B 模型 Amalia，提供 SFT 和 DPO 版本](#item-23) ⭐️ 6.0/10
-24. [用户报告 Qwen 27B 在双 GPU 上快速可靠地辅助编程](#item-24) ⭐️ 6.0/10
-25. [用户通过定制 llama.cpp 优化加速本地 DeepSeek V4 Pro 推理](#item-25) ⭐️ 6.0/10
-26. [Facebook 推出 Astryx：开源、代理就绪的设计系统](#item-26) ⭐️ 6.0/10
-27. [stablyai/orca：用 ADE 编排并行编码智能体](#item-27) ⭐️ 6.0/10
+1. [Mistral Leanstral 1.5 模型在形式化验证中取得最优成果](#item-1) ⭐️ 9.0/10
+2. [詹姆斯·奥布本地运行 SOTA 大模型指南引发硬件讨论](#item-2) ⭐️ 8.0/10
+3. [Costco 的商业模式：亚马逊的对立面](#item-3) ⭐️ 8.0/10
+4. [PostgreSQL 与 OOM Killer：为何采用严格内存超量使用](#item-4) ⭐️ 8.0/10
+5. [Wordgard：ProseMirror 创始人推出的新型网页富文本编辑器](#item-5) ⭐️ 8.0/10
+6. [半成品产品发布分析揭示创业陷阱](#item-6) ⭐️ 8.0/10
+7. [1926 年的美国：一份百年报告揭示与当今惊人相似之处](#item-7) ⭐️ 8.0/10
+8. [Safari 推出 MCP 服务器，支持 AI 驱动浏览器自动化](#item-8) ⭐️ 8.0/10
+9. [DeepSeek 开源 DSpark：大模型推理速度比标准方法快 85%](#item-9) ⭐️ 8.0/10
+10. [葡萄牙发布 Amalia 9B 开源葡语大模型](#item-10) ⭐️ 8.0/10
+11. [DeepSeek V4 Flash 在双 RTX PRO 6000 上编码速度超越 Sonnet，质量持平](#item-11) ⭐️ 8.0/10
+12. [llama.cpp 补丁实现 RTX 5090 本地运行 DeepSeek V4 Flash 1M 上下文](#item-12) ⭐️ 8.0/10
+13. [AMD 推出 Micro-World：开源的动作控制交互世界模型](#item-13) ⭐️ 8.0/10
+14. [工厂不过是房间：对制造的重新思考](#item-14) ⭐️ 7.0/10
+15. [螺旋蝇的兴衰：历史性消灭与 2026 年再度出现](#item-15) ⭐️ 7.0/10
+16. [让 Fable 自主判断测试和模型选择以节省 token 消耗](#item-16) ⭐️ 7.0/10
+17. [上海交大等提出 HAT-4D：单目视频生成 4D 交互场景](#item-17) ⭐️ 7.0/10
+18. [用户通过定制 llama.cpp 分支提升本地 DeepSeek V4 Pro 推理速度](#item-18) ⭐️ 7.0/10
+19. [Valve 开源 Steam Machine 电子墨水屏，用户可自行打造](#item-19) ⭐️ 6.0/10
+20. [通过将代码转为图像并用 OCR 识别，黑客技巧降低大模型费用 60%](#item-20) ⭐️ 6.0/10
+21. [Palantir 在 Hugging Face 上的免费组织零开源模型和数据集共享](#item-21) ⭐️ 6.0/10
+22. [用户搭建 448GB 显存多 GPU 系统，MiniMax M3 推理单流 30 t/s](#item-22) ⭐️ 6.0/10
+23. [Qwen 27B 在双 GPU 系统上展现出快速连贯的性能](#item-23) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [llama.cpp 补丁使 RTX 5090 能本地运行 DeepSeek V4 Flash 百万上下文](https://www.reddit.com/r/LocalLLaMA/comments/1ulymml/llamacpp_patch_deepseek_v4_flash_running_with/) ⭐️ 10.0/10
+## [Mistral Leanstral 1.5 模型在形式化验证中取得最优成果](https://www.reddit.com/r/LocalLLaMA/comments/1umgdhx/mistral_released_leanstral15119ba6b/) ⭐️ 9.0/10
 
-社区开发者通过在 llama.cpp 中实现 CUDA 加速的 DSA 闪电索引器，使 DeepSeek V4 Flash 能在 RTX 5090 上本地运行 100 万 token 上下文，显存占用从约 256GB 降至约 31GiB。 这一突破让消费级硬件也能运行拥有超大上下文的先进模型，无需数据中心级别的资源即可使用高级 AI 能力，具有重要的普及意义。 该补丁修改了计算图并为索引器提供了 CUDA 路径，在 256K 上下文时预填充速度达 263 t/s；在 1M 上下文时，由于 32GB 版 5090 的 ubatch 限制，预填充为 159 t/s，解码速度约 14 t/s。
+Mistral 发布了 Leanstral 1.5，这是一个拥有 60 亿活跃参数的开源模型，在形式化验证基准测试中取得了最优结果。它解决了 PutnamBench 中 672 道题中的 587 道，在 miniF2F 上达到饱和，并在 FATE-H 和 FATE-X 上分别获得 87%和 34%的准确率，同时在 57 个真实代码仓库中发现了 5 个此前未知的错误。 这一突破使得自动定理证明和形式化证明工程成为可能，帮助开发者更有效地验证软件正确性。该模型在实际代码仓库中发现真正错误的能力，突显了其在提升代码可靠性方面的实际影响。 Leanstral 1.5 通过中期训练、监督微调和 CISPO 强化学习相结合的方式进行训练，CISPO 通过裁剪词元层级重要性采样权重来限制方差。该模型采用宽松的 Apache-2.0 许可证发布，并在智能体式证明工程中表现出色。
 
-reddit · r/LocalLLaMA · /u/da_dragon321 · 7月2日 23:54
+reddit · r/LocalLLaMA · /u/Tall-Ad-7742 · 7月3日 14:44
 
-**背景**: DeepSeek V4 Flash 采用 DeepSeek 稀疏注意力（DSA），通过轻量级的“闪电索引器”动态筛选相关 token，而非对所有 token 进行注意力计算，从而实现高效长上下文处理。没有 CUDA 实现时，该索引器会消耗大量显存。llama.cpp 是一个开源的 LLM 推理框架，支持多种后端。
+**背景**: 形式化验证通过数学推理证明软件正确性。miniF2F（奥数题集）、PutnamBench（高级数学竞赛题集）和 FATE-H/X（高难度代数题集）等基准测试用于衡量定理证明能力。CISPO（裁剪重要性采样策略优化）是一种通过裁剪重要性权重来稳定训练的强化学习算法。Leanstral 1.5 在这些基础上推进了最先进水平。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.byhand.ai/p/deepseek-attention-dsa-excel-blueprint">DeepSeek Attention (DSA) - Excel Blueprint</a></li>
-<li><a href="https://github.com/ggml-org/llama.cpp/discussions/4130">Parallelization / Batching Explanation · ggml-org/llama.cpp · Discussion #4130</a></li>
+<li><a href="https://www.emergentmind.com/topics/cispo-algorithm">CISPO: Clipped Importance Sampling RL</a></li>
+<li><a href="https://arxiv.org/abs/2109.00110">[2109.00110] MiniF 2 F : a cross-system benchmark for formal...</a></li>
+<li><a href="https://arxiv.org/abs/2511.02872">[2511.02872] FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels</a></li>
 
 </ul>
 </details>
 
-**标签**: `#local-llm`, `#llamacpp`, `#deepseek`, `#memory-optimization`, `#cuda`
+**标签**: `#automated theorem proving`, `#formal verification`, `#language models`, `#code verification`, `#Mistral AI`
 
 ---
 
 <a id="item-2"></a>
-## [Valve 开源 Steam Machine 电子墨水屏，爱好者可 DIY](https://www.gamingonlinux.com/2026/07/valve-open-source-the-steam-machine-e-ink-screen-so-you-can-make-your-own/) ⭐️ 8.0/10
+## [詹姆斯·奥布本地运行 SOTA 大模型指南引发硬件讨论](https://github.com/jamesob/local-llm) ⭐️ 8.0/10
 
-Valve 开源了新款 Steam Machine 上使用的电子墨水屏的硬件设计和软件，允许爱好者使用标准的 Adafruit 5.83 英寸电子墨水屏面板自行制作。 这一举措强化了 Valve 对开放硬件生态的承诺，激励爱好者定制和增强他们的游戏装备，可能带动更多第三方配件和 DIY 项目，为其他硬件公司树立了将附加组件作为社区项目而非封闭功能的榜样。 开源设计包含电路图、3D 打印外壳文件和软件集成细节，使用 Adafruit 5.83 英寸单色电子墨水屏（产品编号 6397），通过 USB 连接，便于制作者复制。
+詹姆斯·奥布在 GitHub 上发布的指南及随后的 Hacker News 讨论，探讨了本地运行最先进大语言模型的实际方案，包括高达 4 万美元的高端 GPU 配置，以及像统一内存这类更经济的替代方案。 该指南凸显了在本地部署大模型时性能、成本和便利性之间的权衡，反映了人们对自托管 AI 摆脱云依赖和持续费用的日益增长的兴趣。 4 万美元的配置使用四块 1.2 万美元的 GPU，并常依赖模型量化来减少内存占用；评论指出，双 RTX 3090 48GB 显存配置或搭载统一内存的 MacBook 能以更低成本运行 Qwen3.6-27B 等性能不错的模型。
 
-hackernews · ahlCVA · 7月3日 13:01 · [社区讨论](https://news.ycombinator.com/item?id=48774518)
+hackernews · livestyle · 7月3日 15:03 · [社区讨论](https://news.ycombinator.com/item?id=48775921)
 
-**背景**: Steam Machine 是 Valve 设计的紧凑型游戏 PC，旨在将 Steam 游戏带入客厅。在 2018 年停产原始产品线后，Valve 于 2026 年 6 月 29 日发布了新款 Steam Machine。该设备配备了一个电子墨水屏，可显示系统指标、游戏封面等信息，Valve 现已开源其设计以鼓励社区修改。
+**背景**: 量化将模型精度从 32 位浮点数降至低位整数，以减少内存和计算需求而精度损失极小。统一内存架构（UMA）使 CPU 和 GPU 共享同一内存池，从而在 Apple Silicon Mac 等设备上实现经济高效的本地推理。云托管服务则无需前期硬件投入即可访问强大模型。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Steam_Machine">Steam Machine</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Steam_Machine_(computer)">Steam Machine (computer) - Wikipedia</a></li>
+<li><a href="https://www.cloudflare.com/learning/ai/what-is-quantization/">What is quantization in machine learning ?</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Unified_memory_architecture">Unified memory architecture</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者赞扬了 Valve 的举措（RataNova）并指出使用现成的 Adafruit 面板（dgellow）。有人希望将其适配到 Framework Desktop 等设备（anticorporate），也有人讨论开放策略对商业的影响（tra3）。还有用户分享了一个类似的项目，将系统指标显示在旧 Android 手机上（foax）。
+**社区讨论**: 评论者对 4 万美元的配置持怀疑态度，指出实际成本可能高达 5 万至 5.5 万美元，并将其与多年的云订阅费用比较。他们强调 128GB 统一内存系统等替代方案来运行 DeepSeek 模型，并警告本地设置常依赖量化，可能降低模型质量。
 
-**标签**: `#valve`, `#open-source`, `#hardware`, `#e-ink`, `#diy`
+**标签**: `#local-llm`, `#hardware`, `#gpu`, `#large-language-models`, `#quantization`
 
 ---
 
 <a id="item-3"></a>
-## [Wordgard：ProseMirror 创建者推出的新浏览器富文本编辑器](https://wordgard.net/) ⭐️ 8.0/10
+## [Costco 的商业模式：亚马逊的对立面](https://phenomenalworld.org/analysis/the-anti-amazon/) ⭐️ 8.0/10
 
-ProseMirror 的创建者 Marijn Haverbeke 推出了 Wordgard，一个从 ProseMirror 演化而来的新浏览器富文本编辑器，它共享核心概念但提供了新的 API 和架构。 Wordgard 的重要性在于它出自富文本编辑领域值得信赖的人物之手，可能影响未来编辑器的发展，并促使 ProseMirror 用户评估迁移或新项目选择。 Wordgard 与 ProseMirror 共享许多概念，但没有直接的升级路径，开发者需要重新集成。它是一个浏览器内编辑器，其文档重点说明了与 ProseMirror 的差异。
+一项新分析将 Costco 的大宗销售和顾客自提模式与亚马逊重物流的电子商务进行对比，将 Costco 定位为一种避免最后一英里配送复杂性的、具有社会意识的替代方案。 这一比较突显了不同零售模式的社会和环境权衡，表明 Costco 的方式减少了物流压力和包装浪费，可能影响未来的零售和城市规划。 Costco 通过将需求汇总为送往仓库的大宗货盘运输并由顾客自行运输货物，从而最小化运输成本；其与 Instacart 的合作虽提供配送服务，但仍保留了仓库优先的模式。
+
+hackernews · bookofjoe · 7月3日 15:14 · [社区讨论](https://news.ycombinator.com/item?id=48776044)
+
+**背景**: Costco 采用会员制仓储俱乐部模式，以低利润批量销售有限品项，并依赖顾客自行运输。相比之下，亚马逊的电子商务帝国利用庞大的履行中心网络和最后一英里配送将单个包裹直接送到家中，这是一个物流复杂且资源密集的过程。
+
+**社区讨论**: 评论者普遍称赞 Costco 避开了最后一英里的问题，有人引用谚语说：“聪明人解决问题，智者避开问题。”也有人指出 Costco 仍通过 Instacart 提供配送服务，这使得纯粹的反亚马逊叙事变得更加复杂，而英国用户则强调了会员资格的特殊性及非食品类商品。
+
+**标签**: `#economics`, `#logistics`, `#business-model`, `#costco`, `#amazon`
+
+---
+
+<a id="item-4"></a>
+## [PostgreSQL 与 OOM Killer：为何采用严格内存超量使用](https://www.ubicloud.com/blog/postgresql-and-the-oom-killer-why-we-use-strict-memory-overcommit) ⭐️ 8.0/10
+
+托管的 PostgreSQL 服务商 Ubicloud 解释了为何启用严格内存超量使用（vm.overcommit_memory=2），以防止 Linux OOM killer 杀死 PostgreSQL 进程，将灾难性终止转换为优雅的分配失败。 这一做法显著降低了在内存压力下 PostgreSQL 突然崩溃和数据损坏的风险，为托管服务提供了更可预测和更具弹性的数据库运行。 严格超量使用（模式 2）需要设置合适的超量使用比例和交换空间大小，以避免 fork 失败；它会将 malloc() 失败转化为 PostgreSQL 可处理的错误，但对于同一主机上的其他应用程序需要谨慎。
+
+hackernews · furkansahin · 7月3日 13:00 · [社区讨论](https://news.ycombinator.com/item?id=48774509)
+
+**背景**: Linux 默认允许内存超量使用，进程可以请求比实际可用内存加交换空间更多的虚拟内存。当物理内存耗尽时，OOM killer 会选择一个进程并杀死它。PostgreSQL 使用大量共享缓冲区和连接内存，若被 OOM killer 选中会导致数据库服务中断。严格超量使用禁用启发式策略，如果内存不足则直接让分配失败，从而让应用程序优雅地处理错误。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.ubicloud.com/blog/postgresql-and-the-oom-killer-why-we-use-strict-memory-overcommit">PostgreSQL and the OOM Killer: Why We Use Strict Memory ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/OOM_killer">OOM killer</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 评论者指出 Linux 默认设置不佳，严格超量使用能避免 OOM 问题但可能导致 fork 失败等其他问题。Ubicloud 承认标题过于强硬，并指出该方法并非通用。强调在生产环境使用前需在 QA 环境中充分测试。
+
+**标签**: `#postgresql`, `#linux`, `#memory-management`, `#oom-killer`, `#devops`
+
+---
+
+<a id="item-5"></a>
+## [Wordgard：ProseMirror 创始人推出的新型网页富文本编辑器](https://wordgard.net/) ⭐️ 8.0/10
+
+ProseMirror 的创始人发布了 Wordgard，一款基于现代网页标准、采用全新设计方法的浏览器内富文本编辑器。 Wordgard 为开发者提供了现有编辑器（如 ProseMirror 和 TipTap）的潜在替代方案，可能简化开发体验并解决富文本编辑中长期存在的痛点。 Wordgard 与 ProseMirror 共享许多概念，但无直接升级路径，迁移工作量较大；其插件架构的扩展性目前不如 ProseMirror。
 
 hackernews · indy · 7月3日 08:50 · [社区讨论](https://news.ycombinator.com/item?id=48772573)
 
-**背景**: ProseMirror 是一个经过实战检验的 JavaScript 库，用于构建富文本编辑器，是 TipTap 等工具的基础。它专注于生成干净、语义化的文档，性能出色但学习曲线陡峭。Wordgard 是由同一创建者构建的新编辑器，基于这些概念发展而来。
+**背景**: ProseMirror 是一个广泛使用的开源富文本编辑器框架，以稳健的文档模型和高扩展性著称，但学习曲线陡峭，为 TipTap 等流行编辑器提供底层支持。Wordgard 由同一开发者创建，旨在解决 ProseMirror 的某些复杂性，并引入新的块式编辑范式。
 
 <details><summary>参考链接</summary>
 <ul>
@@ -95,530 +130,376 @@ hackernews · indy · 7月3日 08:50 · [社区讨论](https://news.ycombinator.
 </ul>
 </details>
 
-**社区讨论**: 社区讨论表现出浓厚兴趣，但也对从 ProseMirror 缺乏直接迁移路径表示担忧，一些开发者提到维护静态类型文档表示的困难。许多人称赞编辑器的设计。明确指出 Obsidian（使用 CodeMirror）可能不会切换。
+**社区讨论**: 社区反响热烈，称赞其设计和理念，但许多人好奇其创制动机及与 ProseMirror 的差异。部分人指出缺乏升级路径及可能需重建集成，而另有人欣赏其块式方法与自身编辑器项目的验证。
 
-**标签**: `#rich-text-editor`, `#prosemirror`, `#web-development`, `#javascript`, `#open-source`
-
----
-
-<a id="item-4"></a>
-## [《半成品》一文讽刺创业弊端引热议](https://weli.dev/blog/half-baked-product/) ⭐️ 8.0/10
-
-一篇名为《半成品》的讽刺博文在 Hacker News 上走红，它以虚构的烤箱初创公司为例，批判了如激励错位和缺乏行业专长等常见的创业陷阱。 该文通过揭示创业文化中的系统性问题引起技术社区的共鸣，促使人们对创始人动机和可持续产品开发进行反思。 讽刺内容涵盖了股权分配、风投压力及工程挑战；评论者指出创始人、工程师和销售人员之间的脱节问题长期存在。
-
-hackernews · weli · 7月3日 08:23 · [社区讨论](https://news.ycombinator.com/item?id=48772388)
-
-**背景**: 创业文化常常鼓励快速扩张和融资，有时牺牲了产品与市场的契合度及行业知识。此类讽刺呼应了像保罗·格雷厄姆等思想家和《精益创业》运动对真实问题解决的倡导。
-
-**社区讨论**: 评论者大多认同该讽刺，指出创始人常缺乏行业专长并以财富优先，导致团队目标错位。他们强调这类失败具有普遍性，并幽默地延伸到其他领域。
-
-**标签**: `#startups`, `#venture capital`, `#engineering culture`, `#product development`, `#satire`
-
----
-
-<a id="item-5"></a>
-## [crustc：将 Rust 编译器转译为 C](https://github.com/FractalFir/crustc) ⭐️ 8.0/10
-
-一位开发者公开了 crustc 项目，这是一项历时多年的工程，将整个 Rust 编译器（rustc）从 Rust 转译为 C，主要目的是让 Rust 能在不支持 LLVM 的旧硬件或小众硬件上运行。 该项目可能显著扩展 Rust 对老旧和嵌入式系统的支持，减少自举过程对 LLVM 的依赖，并为类似多样双重编译（DDC）的安全测试提供工具。 crustc 将 rustc 转译为 C 而非 LLVM IR，可利用 GCC 进行优化；据报道这是此类项目的第 14 次尝试，目前仍在开发中，具体细节尚未完全公开。
-
-hackernews · Philpax · 7月2日 22:57 · [社区讨论](https://news.ycombinator.com/item?id=48768464)
-
-**背景**: Rust 编译器 rustc 通常使用 LLVM 作为后端生成机器码，但 LLVM 对一些老旧或小众架构支持有限。将 Rust 转译为 C 提供了一种在任何有 C 编译器的平台上编译 Rust 程序的方式，有助于自举（即用编译器编译自身的过程）。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/LLVM">LLVM</a></li>
-<li><a href="https://rustc-dev-guide.rust-lang.org/building/bootstrapping/what-bootstrapping-does.html">What Bootstrapping does - Rust Compiler Development Guide</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区赞扬了该项目的执着与技术原创性。评论者强调了它在自举方面的潜力，并建议将其用于多样双重编译（DDC）以检测后门。此外，还有人讨论了 LLVM C 后端缺失的问题，并对学习其实现细节表示兴奋。
-
-**标签**: `#rust`, `#compiler`, `#transpiler`, `#c`, `#bootstrapping`
+**标签**: `#rich-text-editor`, `#prosemirror`, `#javascript`, `#web-development`, `#wysiwyg`
 
 ---
 
 <a id="item-6"></a>
-## [HAT-4D 从单目视频生成 4D 交互场景，无需昂贵动捕。](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901356&idx=3&sn=54ee94026f76691a380cd3ea214e0def) ⭐️ 8.0/10
+## [半成品产品发布分析揭示创业陷阱](https://weli.dev/blog/half-baked-product/) ⭐️ 8.0/10
 
-上海交通大学等机构的研究人员提出了 HAT-4D，该方法能从单段单目视频中重建多个物体的三维几何、时序动态及物理交互，无需昂贵的动作捕捉设备。 这一进展使 4D 内容创作平民化，无需昂贵动捕即可应用于游戏、AR/VR 和机器人等领域。 HAT-4D 是首个基于人机协同的智能体框架，用于单目 4D 重建；其处理视频以捕捉多物体交互，但在严重遮挡或复杂场景下表现可能受限。
+一篇博客文章分析了一个半成品产品的发布，引发了关于创始人动机错位和专业知识脱节如何导致创业失败的讨论。 该分析在创业社区引发共鸣，揭露了反复出现的失败模式——创始人动机错位和孤立的专业知识——这些模式会破坏产品成功。 文章详述了一款产品，虽然发展到后期仍告失败，根源在于创始人的财务目标、工程师的关注点与销售人员对客户的承诺之间存在根本性脱节。
 
-rss · 量子位 · 7月3日 03:43
+hackernews · weli · 7月3日 08:23 · [社区讨论](https://news.ycombinator.com/item?id=48772388)
 
-**背景**: 4D 重建旨在捕捉物体随时间变化的形状与外观。传统方法通常依赖多视角相机或深度传感器，而基于单目视频的重建因深度模糊而极具挑战。HAT-4D 利用深度学习从单一视角推断 3D 结构和动态，避免了昂贵的采集设备。
+**背景**: 在创业领域，失败往往并非源于技术能力不足，而是团队成员之间缺乏协调。主要受经济利益驱动的创始人可能对市场缺乏深刻理解，而工程师可能优先考虑技术完美而非商业可行性，销售人员则可能对客户过度承诺。这种脱节可能导致产品技术上先进但不切实际或无法销售。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://arxiv.org/abs/2606.28215v1">[2606.28215v1] HAT-4D: Lifting Monocular Video for 4D Multi-Object Interactions via Human-Agent Collaboration</a></li>
-<li><a href="https://en.wikipedia.org/wiki/4D_reconstruction">4D reconstruction - Wikipedia</a></li>
+**社区讨论**: 评论者普遍认同创始人动机和脱节的专业知识是关键失败点，有人指出这种模式几十年来反复出现。讽刺性评论凸显了创业主张中的不和谐，也有人呼吁从销售等非工程角色获取见解，以全面理解其动态。
 
-</ul>
-</details>
-
-**标签**: `#Computer Vision`, `#4D Reconstruction`, `#Monocular Video`, `#Deep Learning`, `#Interactive Scenes`
+**标签**: `#startup-culture`, `#product-development`, `#failure-analysis`, `#domain-expertise`, `#startup-lessons`
 
 ---
 
 <a id="item-7"></a>
-## [Mistral 发布 Leanstral 1.5：形式验证与定理证明达到顶尖水平](https://www.reddit.com/r/LocalLLaMA/comments/1umgdhx/mistral_released_leanstral15119ba6b/) ⭐️ 8.0/10
+## [1926 年的美国：一份百年报告揭示与当今惊人相似之处](https://www.derekthompson.org/p/america-1926-an-absurdly-deep-dive) ⭐️ 8.0/10
 
-Mistral 发布了 Leanstral 1.5，这款拥有 60 亿活跃参数的模型在形式验证领域取得了最佳成绩，在 PutnamBench 的 672 道题中解决了 587 道，并在 FATE-H 上达到 87% 的正确率，在 FATE-X 上达到 34%。 该模型大幅推进了自动定理证明和软件验证的能力，使开发者能更有效地验证代码正确性，其 Apache 2.0 许可证使其在研究和工业领域均可广泛使用。 Leanstral 1.5 通过中期训练、监督微调和基于 CISPO 的强化学习进行训练，在智能体式证明工程方面表现优异，并在 57 个代码仓库中发现了 5 个此前未知的漏洞。
+一项对近期重新发现的 1926 年美国社会报告的深入分析显示，一个世纪前的许多文化、政治和经济模式与当今高度相似。 这份分析为历史的连续性提供了发人深省的视角，挑战了对进步的假设，促使人们反思社会如何在极端之间摇摆，并对理解当前趋势具有潜在启示。 该报告原发表于 1926 年，涵盖了一系列社会因素；它的重新发现凸显了政治两极分化和文化焦虑等问题的周期性，表明许多当代辩论有着深厚的历史根源。
 
-reddit · r/LocalLLaMA · /u/Tall-Ad-7742 · 7月3日 14:44
+hackernews · momentmaker · 7月3日 15:08 · [社区讨论](https://news.ycombinator.com/item?id=48775979)
 
-**背景**: 形式验证通过数学证明确保软件正确性。MiniF2F 是一个包含奥林匹克级别数学形式化问题的基准数据集，用于评估此类系统。CISPO（裁剪重要性采样策略优化）是一种通过裁剪重要性比率来稳定训练的强化学习算法。
+**社区讨论**: 评论者指出，自 20 世纪 20 年代以来情况几乎没什么变化，令人沮丧，并引用了辛克莱·刘易斯的《巴比特》。一些人强调历史的钟摆式循环，以及重演大萧条和二战等重大危机的可能性。另一些人则提供了历史细节上的补充，例如有声电影在 1927 年之前就已经存在。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/openai/miniF2F">GitHub - openai/miniF2F: Formal to Formal Mathematics Benchmark · GitHub</a></li>
-<li><a href="https://swift.readthedocs.io/en/latest/Instruction/GRPO/AdvancedResearch/CISPO.html">Clipped Importance Sampling Policy Optimization (CISPO) — swift 4.4.0.dev0 documentation</a></li>
-
-</ul>
-</details>
-
-**标签**: `#formal-verification`, `#automated-theorem-proving`, `#Mistral`, `#open-source`, `#AI-model`
+**标签**: `#history`, `#society`, `#culture`, `#analysis`
 
 ---
 
 <a id="item-8"></a>
-## [GLM-5.2 NVFP4 四 DGX Spark 集群 MTP 错误修复，128K 上下文达 24 tok/s](https://www.reddit.com/r/LocalLLaMA/comments/1um6pea/followup_glm52_nvfp4_on_four_dgx_sparks_the_mtp/) ⭐️ 8.0/10
+## [Safari 推出 MCP 服务器，支持 AI 驱动浏览器自动化](https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/) ⭐️ 8.0/10
 
-修复了 GLM-5.2 NVFP4 在四台 DGX Spark 上推测解码配置中的一个错误，未将解码上下文并行大小复制到草稿模型配置，导致多令牌预测时注意力计算错误；修复后将 128K 上下文下的吞吐量从约 15 tok/s 提升至约 24 tok/s。 该修复消除了长上下文与速度之间的权衡，提高了专用硬件上高吞吐量推理的实用性，并凸显了推测解码中细致并行配置对大型模型的关键作用。 根本原因是 vLLM 的 `SpeculativeConfig.create_draft_parallel_config()` 中缺少 `decode_context_parallel_size` 字段，默认为 1，导致各 rank 注意力分歧，但被后续 all-reduce 掩盖。修复需 rebase 到更新的上游分支，并将 `MAX_CUDAGRAPH_CAPTURE_SIZE` 设为 10 以支持 MTP4，每位置接受率达约 0.84。
+苹果发布了官方的 Safari MCP 服务器，让 AI 代理能够直接在 Safari 中自动化和测试网页。 这一举措完善了主流浏览器的 MCP 生态系统，让开发者能用 AI 进行跨浏览器兼容性测试和自动化，也为 Safari 用户提供了更顺畅的 AI 代理集成。 Safari MCP 服务器利用 MCP 标准实现 AI 模型与浏览器开发者工具的直接交互，比基于 WebDriver 的旧版 safaridriver 更快、功能更强。
 
-reddit · r/LocalLLaMA · /u/llamaCTO · 7月3日 06:33
+hackernews · coloneltcb · 7月3日 01:37 · [社区讨论](https://news.ycombinator.com/item?id=48769639)
 
-**背景**: GLM-5.2 是使用 NVFP4 量化的大型语言模型，NVFP4 是一种块浮点格式，可减少内存占用。多令牌预测 (MTP) 能够一次预测多个未来令牌以加速生成，但需要仔细配置推测解码。DGX Spark 是 NVIDIA 的紧凑型 AI 工作站，具有 128GB 统一内存，适合本地推理。vLLM 是一个推理框架，支持跨多 GPU 的张量并行和解码上下文并行。
+**背景**: 模型上下文协议（MCP）是 Anthropic 于 2024 年推出的开放标准，旨在规范 AI 模型与外部工具和数据源的交互方式。MCP 服务器允许 AI 应用执行浏览器自动化等操作。在 Safari 之前，Google Chrome 和 Mozilla Firefox 已提供官方的 MCP 服务器。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/NVFP4">NVFP4</a></li>
-<li><a href="https://medium.com/@bingqian/understanding-multi-token-prediction-mtp-in-deepseek-v3-ed634810c290">Understanding Multi - Token Prediction ( MTP ) in... | Medium</a></li>
-<li><a href="https://en.wikipedia.org/wiki/DGX_Spark">DGX Spark</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol - Wikipedia</a></li>
+<li><a href="https://modelcontextprotocol.io/docs/getting-started/intro">What is the Model Context Protocol (MCP)? - Model Context Protocol</a></li>
 
 </ul>
 </details>
 
-**标签**: `#LLM inference`, `#multi-token prediction`, `#model optimization`, `#DGX Spark`, `#GLM-5.2`
+**社区讨论**: 社区反响总体积极，开发者对跨浏览器测试能力和日常自动化感到兴奋。有人提到了 Chrome 和 Firefox 的 MCP 服务器，也有用户建议 Playwright-CLI 作为更快的替代方案。
+
+**标签**: `#mcp`, `#safari`, `#web-development`, `#browser-automation`, `#apple`
 
 ---
 
 <a id="item-9"></a>
-## [Jamesob 的本地运行 SOTA 大语言模型指南](https://github.com/jamesob/local-llm) ⭐️ 7.0/10
+## [DeepSeek 开源 DSpark：大模型推理速度比标准方法快 85%](https://www.reddit.com/r/LocalLLaMA/comments/1um9j5q/deepseek_drops_another_huge_breakthrough_dspark/) ⭐️ 8.0/10
 
-Jamesob 发布了一份经过社区验证的新指南，详细介绍了本地搭建最先进大语言模型的方法，包括硬件建议、量化技术以及模型选择。 该指南使开发者和爱好者能够在本地运行强大的模型，相比云服务可能节省成本并增强隐私，同时解决了硬件需求的实际挑战。 指南中展示了一个高端配置，预算超过 4 万美元，包含四张单价 1.2 万美元的 GPU；同时还推荐了更实惠的双 RTX 3090 方案，提供 48GB 显存来运行 Qwen3.6-27B 等模型。
+DeepSeek 开源了 DSpark，这是一种推测解码框架，相比标准解码可将大模型推理速度提升 57–85%，比多词元预测（MTP）快约 1.5 倍，输出逐字节一致且无需重新训练。 这一突破可大幅降低大语言模型的延迟与服务成本，使实时和资源受限场景（包括本地大模型推理）的部署更具可行性。 DSpark 采用置信度调度的推测解码，结合半自回归生成与自适应负载感知验证。基准测试显示，在 DeepSeek-V4-Flash 上 DSpark 达到约 60 tokens/秒，而 MTP-1 为 39.88 tokens/秒，无推测时为 26.33 tokens/秒，性能是 MTP 的 1.5 倍、无推测的 2.3 倍。
 
-hackernews · livestyle · 7月3日 15:03 · [社区讨论](https://news.ycombinator.com/item?id=48775921)
+reddit · r/LocalLLaMA · /u/BringTea_666 · 7月3日 09:19
 
-**背景**: 大语言模型通常需要大量计算资源。量化通过降低模型参数的精度来减少内存和计算需求，这对本地部署至关重要。这使得原本需要昂贵云硬件的模型能在消费级 GPU 甚至共享内存架构上运行。
+**背景**: 推测解码通过小型草案模型快速生成多个词元，再由大模型并行验证来加速大模型推理。多词元预测（MTP）训练模型一次性预测多个未来词元，提高采样效率。DSpark 通过基于模型置信度的动态草案接受机制，统一并改进了这些技术。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.ibm.com/think/topics/quantization">What is Quantization? | IBM</a></li>
-<li><a href="https://huggingface.co/docs/optimum/en/concept_guides/quantization">Quantization · Hugging Face</a></li>
+<li><a href="https://venturebeat.com/orchestration/deepseek-open-sources-dspark-a-new-framework-to-speed-up-llm-inference-by-up-to-85">DeepSeek open sources DSpark, a new framework to speed up LLM inference by up to 85% | VentureBeat</a></li>
+<li><a href="https://deepseek.ai/blog/deepseek-dspark-speculative-decoding">DSpark Speculative Decoding: 57–85% Faster LLM Inference</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区评论既兴奋又谨慎：有人警告成本高昂且期望不要过高，另一些人则设想未来采用多模型架构进行本地执行。隔离安全受到关注，MacBook 或云服务等替代方案的性价比也引发了讨论。
-
-**标签**: `#local-llm`, `#gpu`, `#quantization`, `#hardware-build`, `#llm-guide`
+**标签**: `#local-llm`, `#deepseek`, `#inference-speed`, `#dspark`, `#multi-token-prediction`
 
 ---
 
 <a id="item-10"></a>
-## [PostgreSQL 与 OOM 杀手：Ubicloud 为何采用严格内存过量使用策略](https://www.ubicloud.com/blog/postgresql-and-the-oom-killer-why-we-use-strict-memory-overcommit) ⭐️ 7.0/10
+## [葡萄牙发布 Amalia 9B 开源葡语大模型](https://www.reddit.com/r/LocalLLaMA/comments/1umhrn8/portugal_just_released_their_own_llm_amalia_9b/) ⭐️ 8.0/10
 
-Ubicloud 发表了一篇博文，详细解释了他们为何为托管的 PostgreSQL 服务启用了严格内存过量使用（`vm.overcommit_memory=2`），目的是防止 OOM 杀手终止数据库进程。 这种方法凸显了 Linux 内存管理中的一个实用权衡，尤其对于关键数据库工作负载，并挑战了可能导致生产环境中不可预测的 OOM 杀操作的默认过量使用设置。 严格过量使用模式会导致内核在内存分配将超过`CommitLimit`时拒绝（并返回 ENOMEM），而非调用 OOM 杀手；`CommitLimit`根据交换空间和可配置的 RAM 百分比计算得出。社区讨论指出，博文对现已简化的启发式模式的描述有误，而调整 OOM 得分（`oom_score_adj`）是更灵活的现代替代方案。
+葡萄牙发布了 AMALIA，一个 90 亿参数的开源葡萄牙语大语言模型，旨在增强葡萄牙语 AI 能力。该模型提供监督微调（SFT）和直接偏好优化（DPO）两个版本，并以 Apache 2.0 许可证开放。 这一发布显著推动了葡萄牙语 AI 的发展，为研究和商业应用提供了开源替代方案，体现了政府支持语言多样性 AI 的趋势。 该模型基于 9B 参数架构，经过 SFT 和 DPO 训练，但缺乏详细的基准测试数据，尤其是编码任务方面。训练论文在 arXiv 上，模型权重以 Apache 2.0 许可证托管于 Hugging Face。
 
-hackernews · furkansahin · 7月3日 13:00 · [社区讨论](https://news.ycombinator.com/item?id=48774509)
+reddit · r/LocalLLaMA · /u/EveningIncrease7579 · 7月3日 15:38
 
-**背景**: Linux 内存过量使用允许进程分配比物理内存更多的虚拟内存，前提是假定并非所有内存都会同时被使用。当内存紧张时，Out-Of-Memory (OOM) 杀手会终止进程以释放内存，这对 PostgreSQL 等数据库可能是灾难性的。内核提供三种过量使用处理模式：启发式（0）、总是（1）和严格（2）。托管数据库提供商通常需要调整这些设置以确保可靠性。
+**背景**: 监督微调（SFT）是指在高质量输入输出示例数据集上对预训练语言模型进行进一步训练，以提升特定任务性能。直接偏好优化（DPO）是一种对齐技术，无需显式训练奖励模型，直接根据人类偏好优化模型，比 RLHF 更简单稳定。这两种方法常用于使 LLM 更具帮助性和安全性。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.ubicloud.com/blog/postgresql-and-the-oom-killer-why-we-use-strict-memory-overcommit">PostgreSQL and the OOM Killer: Why We Use Strict Memory Overcommit</a></li>
-<li><a href="https://www.kernel.org/doc/Documentation/vm/overcommit-accounting">The Linux kernel supports the following overcommit handling modes</a></li>
-<li><a href="https://man7.org/linux/man-pages/man5/proc_pid_oom_score_adj.5.html">proc_pid_oom_score_adj(5) - Linux manual page</a></li>
+<li><a href="https://huggingface.co/learn/llm-course/en/chapter11/1">Supervised Fine-Tuning · Hugging Face</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Direct_preference_optimization">Direct preference optimization</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论指出博文对启发式模式的描述有误（自 Linux 4.x 起已简化），且忽略了`oom_score_adj`作为保护关键进程的标准方式。有人认为 Linux 的默认内存管理相比 Windows/macOS 表现不佳。Ubicloud 的作者承认标题措辞过强，且严格过量使用并非普适；其他评论者警告可能导致 fork 失败，并建议进行充分测试。
-
-**标签**: `#PostgreSQL`, `#Linux`, `#memory-management`, `#OOM-killer`, `#database`
+**标签**: `#LLM`, `#Portuguese`, `#Open Source`, `#Government`, `#NLP`
 
 ---
 
 <a id="item-11"></a>
-## [会话转录记忆对 AI 编程助手有害](https://12gramsofcarbon.com/p/agentics-memorizing-session-transcripts) ⭐️ 7.0/10
+## [DeepSeek V4 Flash 在双 RTX PRO 6000 上编码速度超越 Sonnet，质量持平](https://www.reddit.com/r/LocalLLaMA/comments/1um84bd/followup_deepseek_v4_flash_on_2x_rtx_pro_6000/) ⭐️ 8.0/10
 
-文章指出，AI 编程助手记忆会话转录常常导致上下文污染，产生错误假设并降低性能。它认为这些系统无法区分过去的假设性查询和当前任务，因此污染了工作上下文。 这个问题削弱了 AI 编程助手的可靠性，因为它可能导致基于过时或无关的信息做出反应，浪费开发者时间并引入错误。 由于代理没有内在状态，它们将上下文窗口中的每个标记都视为意图的表达，包括来自先前会话、从未经人类审核的记忆。它们还缺乏有效移除过时上下文的能力，使得仅靠提示工程无法解决问题。
+一项独立基准测试发现，使用 vLLM 在双 RTX PRO 6000 上运行 DeepSeek V4 Flash 完成实际编码任务约需 2 分钟，比通过 API 的 Sonnet 5 快约 3 倍，且代码质量相当。 这证明本地部署的 LLM 如今在编码质量上能够媲美一流 API 模型，同时速度大幅领先，有望降低对云 API 的依赖，减少开发者的延迟和成本。 测试使用 vLLM 进行本地推理，对比 API 版 Sonnet 5 和 Opus；DeepSeek V4 Flash 总参数 284B（激活 13B），支持 100 万 token 上下文，但基准未将模型性能与运行环境（OpenCode 与 Claude Code）分开。
 
-hackernews · theahura · 7月3日 15:32 · [社区讨论](https://news.ycombinator.com/item?id=48776232)
+reddit · r/LocalLLaMA · /u/xquarx · 7月3日 07:55
 
-**背景**: 一些 AI 编程助手和聊天机器人（如 Claude Code 和 ChatGPT）实现了会话记忆以保持跨交互的连续性。然而，简单地记忆整个转录可能导致“上下文污染”，即无关或过时的数据充斥着模型的工作上下文，使其做出错误假设。这与更复杂的持久记忆系统形成对比，后者选择性地存储和检索相关信息。
+**背景**: DeepSeek V4 Flash 是 2026 年 4 月预览的混合专家模型，总参数 284B，激活 13B，专为高效推理设计。vLLM 是一个高性能开源推理引擎，能高效地服务 LLM。OpenCode 是一个开源 AI 编码智能体，可与终端和 IDE 集成。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://12gramsofcarbon.com/p/agentics-memorizing-session-transcripts">Agentics: Memorizing Session Transcripts Isn't Useful</a></li>
-<li><a href="https://www.liip.ch/en/blog/preventing-context-pollution-for-ai-agents">Preventing Context Pollution for AI Agents · Blog · Liip</a></li>
+<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">deepseek-ai/DeepSeek-V4-Flash · Hugging Face</a></li>
+<li><a href="https://en.wikipedia.org/wiki/VLLM">VLLM</a></li>
+<li><a href="https://grokipedia.com/page/OpenCode">OpenCode</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者普遍同意，分享了记忆导致奇怪假设的经历（例如，在过去的查询后认为用户拥有数据中心）和上下文渗漏。一些人指出会话转录在手动验证阶段可能有用，但不应作为当前上下文。讨论援引“苦涩的教训”，暗示更大的模型可能最终使手工设计的上下文方法变得过时。
-
-**标签**: `#AI memory`, `#coding assistants`, `#context management`, `#agent systems`, `#software engineering`
+**标签**: `#LLM Benchmarking`, `#LocalLLaMA`, `#DeepSeek`, `#Coding Assistants`, `#Performance`
 
 ---
 
 <a id="item-12"></a>
-## [苹果发布 Safari MCP 服务器，支持 AI 驱动网页测试](https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/) ⭐️ 7.0/10
+## [llama.cpp 补丁实现 RTX 5090 本地运行 DeepSeek V4 Flash 1M 上下文](https://www.reddit.com/r/LocalLLaMA/comments/1ulymml/llamacpp_patch_deepseek_v4_flash_running_with/) ⭐️ 8.0/10
 
-苹果在 Safari 技术预览版 247 中推出了 Safari MCP 服务器，使得 AI 助手能够直接操控 Safari 进行调试、检查和自动化网页等任务，类似 Chrome 和 Firefox 已有的 MCP 服务器。 这填补了浏览器自动化的关键空白，使开发者能用 AI 代理在 Safari 上进行测试和调试，Safari 是第二受欢迎的桌面浏览器，可能带来更高效的跨浏览器测试和更好的网页兼容性。 该服务器随 Safari 技术预览版 247 提供，暴露了 20 个工具供 AI 客户端使用，需要 macOS 14.0 及以上版本和 Safari Web 扩展，通过 stdio/WebSocket 通信。相比已有的基于 WebDriver 的 safaridriver，它为 AI 提供了更直接的接口。
+一个 llama.cpp 补丁为 DSA 闪电索引器引入了 CUDA 核心，使得 DeepSeek V4 Flash 能够在 RTX 5090 上以完整的 100 万 token 上下文本地运行，仅需约 31GB 显存，而此前需要约 256GB 显存。 这使得具有超大上下文窗口的最先进大语言模型能在消费级 GPU 上运行，大幅降低了高级 AI 应用的算力门槛，惠及从长文档分析到复杂推理等任务。 该补丁将闪电索引器的 CUDA 实现集成到模型图中，在 256K 上下文下实现了约 263 t/s 预填充和 14 t/s 解码。在 100 万上下文深度的针在干草堆测试中确认正确检索，性能匹配原生水平。
 
-hackernews · coloneltcb · 7月3日 01:37 · [社区讨论](https://news.ycombinator.com/item?id=48769639)
+reddit · r/LocalLLaMA · /u/da_dragon321 · 7月2日 23:54
 
-**背景**: 模型上下文协议（MCP）是 Anthropic 于 2024 年 11 月推出的开放标准，使 AI 模型能够连接外部工具。浏览器 MCP 服务器将 AI 指令转化为浏览器操作，用于检查、调试和自动化测试。Safari 作为苹果设备的默认浏览器和第二大桌面浏览器，此前缺乏此类 AI 集成，因此本次发布意义重大。
+**背景**: DeepSeek V4 Flash 是一个具有 2840 亿总参数、130 亿激活参数的混合专家模型，支持 100 万 token 上下文窗口。它采用 DeepSeek 稀疏注意力机制，借助闪电索引器选择性地关注相关 token，以节省内存。此前 llama.cpp 缺乏对闪电索引器的适当支持，导致显存随上下文长度急剧膨胀。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/">Introducing the Safari MCP server for web developers | WebKit</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol</a></li>
-<li><a href="https://mcp.directory/servers/safari-mcp">safari-mcp — MCP Server - MCP.Directory</a></li>
+<li><a href="https://x.com/vllm_project/status/1972617272901644345">vLLM on X: "How does @deepseek_ai Sparse Attention (DSA) work? It has 2 components: the Lightning Indexer and Sparse Multi-Latent Attention (MLA). The indexer keeps a small key cache of 128 per token (vs. 512 for MLA). It scores incoming queries. The top-2048 tokens to pass to Sparse MLA. https://t.co/QzzPRvAaNa" / X</a></li>
+<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">deepseek -ai/ DeepSeek - V 4 - Flash · Hugging Face</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 用户对在省电的 Safari 上进行日常自动化（而非仅测试）充满期待。有人已在用 Chrome 和 Firefox 的 MCP 服务器进行兼容性检查，并将加入 Safari。也有人提到 Playwright-CLI 等更快的替代方案，或指出已有的 safaridriver。
-
-**标签**: `#web-development`, `#MCP`, `#Safari`, `#browser-automation`, `#AI-tools`
+**标签**: `#llama.cpp`, `#DeepSeek`, `#CUDA`, `#local-llm`, `#vram-optimization`
 
 ---
 
 <a id="item-13"></a>
-## [西蒙·威利森建议：让克劳德模型自行判断](https://simonwillison.net/2026/Jul/3/judgement/#atom-everything) ⭐️ 7.0/10
+## [AMD 推出 Micro-World：开源的动作控制交互世界模型](https://www.reddit.com/r/LocalLLaMA/comments/1umey6p/microworld_actioncontrolled_interactive_world/) ⭐️ 8.0/10
 
-西蒙·威利森分享了来自 Claude Code 团队的一个实用建议：让 Fable 和 Opus 等 AI 模型自主判断何时编写测试，或应委托哪个模型来执行编码任务，而非遵循僵化规则。 这种方法可以显著减少 token 消耗和成本，尤其是在 Fable 等高级模型即将涨价的情况下，帮助开发者在控制开支的同时保持工作效率。 具体指令“对所有编码任务，使用你的判断决定一个合适的低功耗模型并在子代理中运行”让 Claude 自动创建了一个记忆文件，将实现工作委托给 Sonnet 或 Haiku 等更便宜的模型，而将判断、审核等工作留给主模型。
+AMD 发布了 Micro-World，一个基于 Wan2.1 构建的开源动作控制交互世界模型，包含图像转世界和文本转世界两种变体，并公开了模型权重、训练与推理代码以及精选数据集。 这一发布使研究人员和开发者能够生成并与动态虚拟环境互动，推动了世界模型领域的开放研究，并为游戏、模拟和具身人工智能应用提供了基础。 文本转世界模型采用 ControlNet 进行动作注入，图像转世界模型则使用自适应层归一化（adaLN）以实现轻量级条件控制。这些模型基于 Wan2.1 视频生成架构。
 
-rss · Simon Willison · 7月3日 18:51
+reddit · r/LocalLLaMA · /u/pmttyji · 7月3日 13:47
 
-**背景**: Claude 是 Anthropic 开发的大型语言模型系列，Fable 是其最先进模型的受限版本，Opus 4.8 则代表高性能级别。在 Claude Code 等 AI 编码工具中，用户可通过将简单任务委托给低成本模型来管理开销，而“记忆文件”能让 AI 跨会话记住项目特定的指令。
+**背景**: Wan2.1 是 Qwen 开发的开源视频生成模型，能够根据文本生成高质量视频。ControlNet 是一种神经网络架构，能够为扩散模型添加空间条件控制，实现精确引导。自适应层归一化（adaLN）根据上下文信号动态调整归一化参数，以最少的参数开销实现高效的动作注入。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.anthropic.com/claude/fable">Claude Fable \ Anthropic</a></li>
-<li><a href="https://www.anthropic.com/claude/opus">Claude Opus \ Anthropic</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Claude_(language_model)">Claude (language model)</a></li>
+<li><a href="https://grokipedia.com/page/wan-21">Wan 2.1</a></li>
+<li><a href="https://www.emergentmind.com/topics/adaptive-layer-normalization-adaln">Adaptive Layer Normalization (AdaLN)</a></li>
+<li><a href="https://grokipedia.com/page/ControlNet">ControlNet</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI`, `#LLM`, `#Claude`, `#token optimization`, `#software development`
+**标签**: `#world-model`, `#action-controlled`, `#Wan2.1`, `#AMD`, `#open-source`
 
 ---
 
 <a id="item-14"></a>
-## [Simon Willison 发布 llm-coding-agent 0.1a0，一个类 Claude Code 的编码代理](https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything) ⭐️ 7.0/10
+## [工厂不过是房间：对制造的重新思考](https://interconnected.org/home/2026/07/03/factories) ⭐️ 7.0/10
 
-Simon Willison 发布了 llm-coding-agent 的首个 alpha 版本 (0.1a0)，这是一个基于其 LLM 库的 Python 编码代理，模仿了 Claude Code 的功能，提供了文件读取/编辑、命令执行等工具。 该版本展示了 Simon Willison 的 LLM 库迅速演变为一个能力强大的代理框架，降低了开发者构建定制化编码辅助工具的门槛。它提供了一个开源、轻量级的替代方案，与 Claude Code 等专有编码代理相竞争。 该代理通过向 Claude Code 提供规格说明和 TDD 指令构建而成，生成了一个结构良好的代码库，包含 Python API 和 edit_file、execute_command、search_files 等工具套件。它以 alpha 版本发布在 PyPI 上，可通过单条 uvx 命令运行，但仍处于实验阶段，可能存在限制。
+一篇文章提出，工厂并不需要大型工业综合设施，而可以是进行制造的普通房间，挑战了传统观念。 这种视角使制造活动民主化，意味着任何人只要有房间就能开始生产，可能降低进入门槛并促进创新。 文章侧重于装配线，但评论者指出，重工业工厂（如化工厂）仍然复杂，简单性概念可能不具普遍适用性。
 
-rss · Simon Willison · 7月2日 19:33
+hackernews · arbesman · 7月3日 15:13 · [社区讨论](https://news.ycombinator.com/item?id=48776035)
 
-**背景**: Simon Willison 是一位高产的开发者，以创建 Datasette 及共同创建 Django 而闻名。他的 LLM 库是一个流行的工具，为与各种大语言模型交互提供了统一接口，最近版本增加了自定义工具功能。Claude Code 是 Anthropic 的命令行编码代理，可自主编辑文件、运行命令并迭代项目。
+**社区讨论**: 评论者们分享了不同体验：有人享受经营小型房间规模的工厂的乐趣；另一位指出，尽管这种理念令人钦佩，但并不能保证商业成功。还有人指出，真正的重工业工厂远比单纯的房间复杂，而社会已经与亲手制造失去了联系。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/simonw/llm">GitHub - simonw/llm: Access large language models from the command-line · GitHub</a></li>
-<li><a href="https://code.claude.com/docs/en/overview">Overview - Claude Code Docs</a></li>
-
-</ul>
-</details>
-
-**标签**: `#llm`, `#coding-agent`, `#python`, `#open-source`, `#ai-engineering`
+**标签**: `#manufacturing`, `#philosophy`, `#DIY`, `#factories`, `#hackernews`
 
 ---
 
 <a id="item-15"></a>
-## [DeepSeek V4 Flash 在双 RTX PRO 6000 上编码速度超越云端 API](https://www.reddit.com/r/LocalLLaMA/comments/1um84bd/followup_deepseek_v4_flash_on_2x_rtx_pro_6000/) ⭐️ 7.0/10
+## [螺旋蝇的兴衰：历史性消灭与 2026 年再度出现](https://www.construction-physics.com/p/the-fall-and-rise-of-screwworm) ⭐️ 7.0/10
 
-有用户使用 vLLM 在两块 RTX PRO 6000 GPU 上运行 DeepSeek V4 Flash 进行基准测试，发现它完成真实编码任务每项约需两分钟，比通过 API 调用的 Sonnet 5 快约三倍，同时质量与 Sonnet 相当。 这表明本地模型现在可以在编码速度上匹敌甚至超越云端 API，同时保持相似的质量，从而减少对云服务的依赖，并可能节省成本、增强隐私保护。 基准测试中，本地模型使用了 OpenCode，而 API 使用了 Claude Code，因此比较包含界面开销。DeepSeek V4 Flash 是一个 284B 总参数、13B 激活参数的混合专家模型，使用 vLLM 进行高效服务。Opus 和 Fable 在生成质量上仍然领先。
+文章详细介绍了利用昆虫不育技术消灭新世界螺旋蝇的历史，并重点提到了 2026 年其在德克萨斯州的再次出现，引发了关于成本效益和抗性风险的讨论。 再度出现凸显了虫害屏障的持续挑战和对畜牧业的经济威胁，突显了持续国际合作与监测的必要性。 昆虫不育技术依赖于与野生雌虫交配后不产生后代的辐射绝育雄虫。美国农业部最近针对德州新案例采取了行动，而社区评论则对可能的辐射抗性以及达连隘口屏障的经济性提出了担忧。
 
-reddit · r/LocalLLaMA · /u/xquarx · 7月3日 07:55
+hackernews · crescit_eundo · 7月3日 12:58 · [社区讨论](https://news.ycombinator.com/item?id=48774492)
 
-**背景**: DeepSeek V4 Flash 是 DeepSeek 推出的高效大语言模型，采用混合专家架构，总参数 2840 亿，但每个 token 仅激活 130 亿参数，支持 100 万 token 上下文窗口。vLLM 是一个开源推理引擎，以高吞吐量和内存效率著称。NVIDIA RTX PRO 6000 是一款专业 GPU，配备 96GB GDDR7 显存，适合在本地运行大型模型。
+**背景**: 新世界螺旋蝇（Cochliomyia hominivorax）是一种寄生害虫，其幼虫以活动物组织为食，造成严重损害。昆虫不育技术是一种针对特定物种的生物防治方法，已于 20 世纪 90 年代前在北美和中美洲成功消灭该害虫。在巴拿马维持着一个永久性不育蝇屏障，以防止从南美洲重新入侵，但近期屏障失效或非法牲畜运输可能导致新的暴发。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">deepseek -ai/ DeepSeek - V 4 - Flash · Hugging Face</a></li>
-<li><a href="https://github.com/vllm-project/vllm">GitHub - vllm-project/vllm: A high-throughput and memory-efficient inference and serving engine for LLMs · GitHub</a></li>
-<li><a href="https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000-family/">RTX PRO 6000 Blackwell Series | NVIDIA</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Screwworm">Screwworm</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sterile_insect_technique">Sterile insect technique</a></li>
+<li><a href="https://www.iaea.org/topics/sterile-insect-technique">Sterile insect technique, pest control with sterilized insects | IAEA</a></li>
 
 </ul>
 </details>
 
-**标签**: `#local-LLM`, `#coding-assistant`, `#deepseek`, `#benchmark`, `#model-comparison`
+**社区讨论**: 评论者赞扬了文章的深度。讨论焦点集中在维持屏障与在南美洲根除的成本效益比较、产生耐辐射蝇的风险，以及对南美牛肉生产商的经济影响上。还分享了有关螺旋蝇近期新闻的链接。
+
+**标签**: `#biology`, `#agriculture`, `#history`, `#public-health`, `#pest-control`
 
 ---
 
 <a id="item-16"></a>
-## [英伟达 AI 领袖否认 AGI，将闭源模型比作昔日 AOL 和 Prodigy](https://www.reddit.com/r/LocalLLaMA/comments/1ult0f4/its_officially_over_one_of_the_fathers_of_ai_at/) ⭐️ 7.0/10
+## [让 Fable 自主判断测试和模型选择以节省 token 消耗](https://simonwillison.net/2026/Jul/3/judgement/#atom-everything) ⭐️ 7.0/10
 
-一位英伟达资深 AI 研究员公开否定了通用人工智能（AGI）的可行性，将 OpenAI 和 Anthropic 的闭源模型比作业已消亡的专有在线服务 AOL 和 Prodigy，并主张未来每个企业都将拥有定制化的开源模型。 这挑战了业界对 AGI 的普遍乐观态度，并凸显了开源 AI 日益增长的势头，可能影响企业和开发者采用及定制 AI 的方式。 与 AOL 和 Prodigy 的比较强调了闭源生态系统在开放、可互操作的替代方案出现时被淘汰的风险；不过，该言论未具体说明定制化开源模型如何克服当前的局限性。
+Claude Code 团队分享了让 Fable 和 Opus 自主判断何时运行测试、何时将任务委托给较低能力模型的小技巧，而不是遵循死板的规则。 随着 Fable token 价格上涨，这种方法通过将简单任务交给更便宜的模型处理，同时将高质量判断保留给复杂工作，从而显著降低成本。 该技巧由 Cat Wu 和 Thariq Shihipar 分享；一个具体的提示词指示 Fable 将编码任务委托给带有模型覆盖的子代理（重要任务用 Sonnet，琐碎编辑用 Haiku），将判断类任务保留在主模型上。
 
-reddit · r/LocalLLaMA · /u/9gxa05s8fa8sh · 7月2日 20:06
+rss · Simon Willison · 7月3日 18:51
 
-**背景**: AOL 和 Prodigy 是 1990 年代主流的专有在线服务，在封闭环境中提供精选内容和通信功能，但最终被开放互联网取代。同样，当今的闭源 AI 模型（如 OpenAI 和 Anthropic 的产品）虽功能强大，但限制用户访问和修改。而像 Meta 的 Llama 和 Mistral 等开源模型的兴起，类似于开放网络的开放性，可能使企业根据特定需求定制 AI 而无需被供应商锁定。
+**背景**: Fable（Claude Fable 5）是 Anthropic 最强大的 AI 模型，属于超越 Opus 的新“Mythos-class”层级。Opus 也是 Anthropic 的高端模型，用于复杂任务。Claude Code 是一个集成这些模型的智能编码工具，帮助开发者工作，其成本与 token 使用量挂钩。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/AOL">AOL - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Prodigy_(online_service)">Prodigy (online service) - Wikipedia</a></li>
+<li><a href="https://www.anthropic.com/claude/fable">Claude Fable \ Anthropic</a></li>
+<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI`, `#AGI`, `#open-source models`, `#Nvidia`, `#industry trends`
+**标签**: `#AI`, `#software development`, `#testing`, `#Claude`, `#Fable`
 
 ---
 
 <a id="item-17"></a>
-## [AMD 发布 Micro-World：动作控制交互世界模型](https://www.reddit.com/r/LocalLLaMA/comments/1umey6p/microworld_actioncontrolled_interactive_world/) ⭐️ 7.0/10
+## [上海交大等提出 HAT-4D：单目视频生成 4D 交互场景](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901356&idx=3&sn=54ee94026f76691a380cd3ea214e0def) ⭐️ 7.0/10
 
-AMD 开源了基于 Wan2.1 构建的动作控制交互世界模型 Micro-World，发布了模型权重、完整训练和推理代码以及精心整理的数据集，以实现从图像或文本生成高质量场景。 这一发布使本地 AI 社区能够实验和构建可控世界模型，加速交互式视频生成与模拟研究，同时减少对专有解决方案的依赖。 文本到世界模型使用 ControlNet 实现稳定动作注入，图像到世界模型则使用更轻量的 adaLN。两者均基于 Wan2.1 视频生成系列，兼顾参数效率与控制精度。
+上海交通大学等机构的研究人员提出了 HAT-4D，一个从单目视频中重建多物体三维几何、时序动态和物理交互的智能体框架，无需昂贵的动捕棚。 HAT-4D 大幅降低了 4D 交互内容制作的成本和复杂度，有望使依赖百万级动捕设备的 VR/AR、游戏和仿真行业获得更广泛的普及。 HAT-4D 是首个面向单目视频的 4D 多物体交互重建智能体框架，能无人工干预地联合恢复几何、运动和物理交互。
 
-reddit · r/LocalLLaMA · /u/pmttyji · 7月3日 13:47
+rss · 量子位 · 7月3日 03:43
 
-**背景**: Wan2.1 是领先的开源视频生成模型，以连贯、高质量的输出著称。adaLN（自适应层归一化）根据外部信号动态调整归一化参数，以最小开销实现高效动作条件化。ControlNet 将可训练子网络附加到预训练模型上，为条件生成提供稳定、精准的控制。
+**背景**: 4D 重建是指同时获取物体三维形状及其随时间的变化。传统的交互场景重建通常依赖昂贵的多相机动捕系统，并局限于受控的演播室环境。单目视频虽然随手可得，但由于深度和遮挡的模糊性，其 4D 重建一直颇具挑战。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/Wan-Video/Wan2.1">GitHub - Wan-Video/Wan2.1: Wan: Open and Advanced Large-Scale Video Generative Models · GitHub</a></li>
-<li><a href="https://replicate.com/blog/wan-21-generate-videos-with-an-api">Wan2.1: generate videos with an API – Replicate blog</a></li>
-<li><a href="https://www.emergentmind.com/topics/adaptive-layer-normalization-adaln">Adaptive Layer Normalization (AdaLN)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/4D_reconstruction">4D reconstruction - Wikipedia</a></li>
+<li><a href="https://arxiv.org/abs/2606.28215v1">[2606.28215v1] HAT-4D: Lifting Monocular Video for 4D Multi-Object Interactions via Human-Agent Collaboration</a></li>
 
 </ul>
 </details>
 
-**标签**: `#world-model`, `#video-generation`, `#open-source`, `#AMD`, `#interactive-AI`
+**标签**: `#computer vision`, `#4D reconstruction`, `#monocular video`, `#AI research`, `#interactive scenes`
 
 ---
 
 <a id="item-18"></a>
-## [Gemma Avatar: 使用 Gemma 4 31B 的实时 3D 对话机器人](https://www.reddit.com/r/LocalLLaMA/comments/1umee2i/gemma_avatar_talk_to_gemma_431b_face_to_face/) ⭐️ 7.0/10
+## [用户通过定制 llama.cpp 分支提升本地 DeepSeek V4 Pro 推理速度](https://www.reddit.com/r/LocalLLaMA/comments/1umdjxd/my_deepseek_v4_pro_at_home_got_faster_again/) ⭐️ 7.0/10
 
-开发者构建了一个实时 3D 虚拟人聊天机器人，它使用 Gemma 4 31B 生成语音答复、面部表情和手势，并通过将虚拟人作为函数工具暴露给语言模型来让 AI 自主决定表情。 这展示了全栈集成开源模型用于具身 AI 的潜力，使交互式虚拟人更易实现，并演示了将工具调用用于非文本输出的实际应用。 其技术栈包括用于语音活动检测的 Silero VAD、用于语音识别的 Parakeet、通过 Cerebras 提供高速推理的 Gemma 4 31B、用于语音合成的 Qwen3-TTS，以及用于唇形同步和动画的 met4citizen 的 TalkingHead；原始 PCM 音频通过 WebSocket 流式传输。
+一位 Reddit 用户通过自制的 llama.cpp 分支，在配备 Epyc 9374F 处理器、1152GB 内存和 RTX PRO 6000 Max-Q GPU 的高端工作站上，实现了 DeepSeek V4 Pro 模型更快的本地推理，在 32k 上下文长度下达到每秒 174.35 个令牌的处理速度。 这表明通过针对性优化，在家用高端硬件上运行如 DeepSeek V4 Pro 这样的巨型模型是可行的，并凸显了社区驱动的 llama.cpp 性能改进对于降低本地大模型部署的延迟和内存消耗的重要性。 该定制分支修复了主线版本中闪电索引器计算缓冲区和 CUDA top-k 临时缓冲区的内存浪费问题，但量化 KV 缓存仍然损坏，提示缓存重用和批处理准备可能存在错误；在 100 万上下文长度时性能下降至每秒 65.94 个令牌。
 
-reddit · r/LocalLLaMA · /u/paf1138 · 7月3日 13:23
+reddit · r/LocalLLaMA · /u/fairydreaming · 7月3日 12:47
 
-**背景**: Silero VAD 是预训练的语音活动检测器；Parakeet 是开源的语音识别模型；Gemma 4 是谷歌开放的大语言模型；Qwen3-TTS 是文本转语音模型；TalkingHead 是一个用于 3D 虚拟人实时唇形同步的 JavaScript 库；Cerebras 提供快速的大语言模型服务。
+**背景**: DeepSeek V4 Pro 是由 DeepSeek 开发的大型开源混合专家模型，以其推理能力著称。llama.cpp 是一个广泛使用的 C++框架，支持在本地运行大语言模型，并使用 GGUF 格式存储量化模型，以实现高效的 CPU/GPU 混合推理。在消费级硬件上运行如此大的模型通常需要大量系统资源和优化。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/snakers4/silero-vad">GitHub - snakers4/silero-vad: Silero VAD: pre-trained enterprise-grade Voice Activity Detector · GitHub</a></li>
-<li><a href="https://devctrl.blog/posts/use-parakeet-v3-to-transcribe-your-audio-instead-of-typing/">Use Parakeet V3 to transcribe your audio instead of typing | DevCtrl</a></li>
-<li><a href="https://github.com/met4citizen/TalkingHead">GitHub - met4citizen/TalkingHead: Talking Head (3D): A JavaScript class for real-time lip-sync using full-body 3D avatars. · GitHub</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GGUF">GGUF</a></li>
+<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro">deepseek -ai/ DeepSeek - V 4 - Pro · Hugging Face</a></li>
 
 </ul>
 </details>
 
-**标签**: `#gemma`, `#avatar`, `#voice-chat`, `#tts`, `#open-source`
+**标签**: `#llama.cpp`, `#DeepSeek`, `#local-llms`, `#optimization`, `#benchmark`
 
 ---
 
 <a id="item-19"></a>
-## [Karpathy 在 nanochat 中创建分支，打造廉价版 ChatGPT](https://github.com/karpathy/nanochat) ⭐️ 6.0/10
+## [Valve 开源 Steam Machine 电子墨水屏，用户可自行打造](https://www.gamingonlinux.com/2026/07/valve-open-source-the-steam-machine-e-ink-screen-so-you-can-make-your-own/) ⭐️ 6.0/10
 
-Andrej Karpathy 在其 GitHub 仓库 nanochat 中新建了一个分支，公开目标是打造仅需 100 美元就能买到的最佳 ChatGPT。 该项目凸显了通过构建小规模、低成本语言模型实现 AI 民主化的趋势，有望让更广泛的用户接触对话式 AI。作为 AI 领域的重要人物，Karpathy 的工作常激励社区进行教育和实践探索。 目前仅创建了一个分支并附有占位描述，未提供任何技术细节或具体实现方案。仓库名称'nanochat'暗示其注重极简，与 Karpathy 先前的 nanoGPT 项目类似。
+Valve 已开源 Steam Machine 前置电子墨水屏的设计文件，并披露其使用了市售的 Adafruit 5.83 英寸面板，让爱好者可以自行打造定制版本。 此举消除了专有壁垒，赋能 DIY 社区进行硬件改造和定制模组，进一步巩固了 Valve 的开放声誉，并可能激励更多硬件公司分享设计。 该显示屏为 Adafruit 的 5.83 英寸标准电子墨水屏（产品编号 6397），可直接购买并集成到自定义项目中。但开源仅涉及物理设计，用户仍需通过 SteamOS 或自有软件与之交互。
 
-github · karpathy · 7月3日 17:47
+hackernews · ahlCVA · 7月3日 13:01 · [社区讨论](https://news.ycombinator.com/item?id=48774518)
 
-**背景**: Andrej Karpathy 是知名 AI 研究员和教育者，曾创建极简 GPT 实现 nanoGPT。他还制作了名为 NanoChat 的迷你系列，探讨在固定 FLOPs 预算下训练小模型的计算最优缩放定律。nanochat 仓库似乎将这一理念延伸至以最少资源构建对话式 AI。
+**背景**: Steam Machine 是 Valve 开发的一款紧凑型游戏 PC，运行 SteamOS，于 2026 年 6 月发布。它配备了一块可定制的前置电子墨水屏，用于显示游戏信息或艺术作品。电子墨水屏功耗极低，非常适合静态内容，因此常用于设备常亮面板。Valve 在 2015 年曾尝试推出 Steam Machine 但后来停产，而这款新设备由 Valve 直接制造。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/karpathy/nanochat">GitHub - karpathy/nanochat: The best ChatGPT that $100 can buy. · GitHub</a></li>
-<li><a href="https://grokipedia.com/page/NanoChat_miniseries">NanoChat (miniseries)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Steam_Machine_(Valve)">Steam Machine (Valve)</a></li>
 
 </ul>
 </details>
 
-**标签**: `#ChatGPT`, `#small-scale AI`, `#educational project`, `#Karpathy`, `#nanochat`
+**社区讨论**: 社区反应总体积极，称赞 Valve 赋能 DIY 创客。评论者注意到使用的是标准 Adafruit 面板，并表示有兴趣将该设计适配到其他设备如 Framework Desktop，同时也在讨论 Valve 开放理念的商业影响。
+
+**标签**: `#open-source`, `#hardware`, `#e-ink`, `#valve`, `#DIY`
 
 ---
 
 <a id="item-20"></a>
-## [通过代码转图像 OCR 利用令牌漏洞节省 60%成本](https://github.com/teamchong/pxpipe) ⭐️ 6.0/10
+## [通过将代码转为图像并用 OCR 识别，黑客技巧降低大模型费用 60%](https://github.com/teamchong/pxpipe) ⭐️ 6.0/10
 
-一种名为 pxpipe 的技术将代码转换成图像，并利用 Claude 在 OCR 处理中的令牌计费漏洞，将 API 成本降低了 60%。 这一窍门凸显了 LLM 令牌定价的低效之处，表明基于图像的输入可能大幅降低成本。如果被广泛采用，可能迫使提供商堵住漏洞，但也引发了对资源公平使用的质疑。 尽管输入令牌减少，但由于 OCR 生成的文本，输出令牌可能会增加，从而可能抵消节省的成本甚至增加总成本，一位曾在 OpenAI 上测试过类似方法的开发者指出了这一点。
+GitHub 上分享的一种新技术将代码转换为图像，然后让模型进行 OCR 识别，据称在 Claude Fable 5 上可节省 60%的费用。这利用了文本和图像输入之间令牌定价的差异。 该技巧暴露了多模态定价模式中的潜在漏洞，影响开发者对大模型进行成本优化的方式。虽然可能是临时的，但它突显了提供商需要根据实际资源消耗来调整定价的必要性。 该技术将代码以图像形式发送，促使模型进行 OCR，从而减少提示令牌数，但可能增加补全令牌和延迟。有些模型内部会进行 OCR 并将文本与图像一起输入模型，因此这可能是一个会计漏洞而非根本的成本节省。
 
 hackernews · dimitropoulos · 7月3日 15:50 · [社区讨论](https://news.ycombinator.com/item?id=48776464)
 
-**背景**: LLM 通常按文本令牌收费，而图像输入通常有单独的定价（如按图像或 OCR 后的令牌计费）。这一窍门假设 Claude 在服务器端对图像执行 OCR 但不收取提取文本的令牌费用，这与 Gemini 处理 PDF 的方式类似。该漏洞利用了发送图像和发送等效文本令牌之间的成本差异。
+**背景**: 大语言模型基于文本输入和输出的令牌数量收费，而图像通常按张收费或使用固定的令牌预算。Claude Fable 5 作为顶尖的视觉模型，可以从图像中提取精确文本，因此能够处理代码截图。该技巧利用了这样一个事实：一个复杂的代码文件可能包含数万个文本令牌，但作为图像时，产生的令牌成本要低得多。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.vellum.ai/blog/document-data-extraction-llms-vs-ocrs">Document Data Extraction in 2026: LLMs vs OCRs - Vellum</a></li>
-<li><a href="https://www.mindee.com/blog/llm-vs-ocr-api-cost-comparison">LLMs vs OCR APIs for document processing: The hidden cost trap</a></li>
+<li><a href="https://openrouter.ai/anthropic/claude-fable-5">Claude Fable 5 - API Pricing & Benchmarks | OpenRouter</a></li>
+<li><a href="https://www.euronews.com/next/2026/06/12/anthropics-fable-5-worth-the-price-openai-may-soon-become-cheaper">Anthropic's Fable 5 worth the price? OpenAI may soon become cheaper | Euronews</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 有评论者指出，这很可能是一个类似 Gemini PDF 处理的令牌计费漏洞，可能会被修复。其他人指出，虽然输入令牌减少，但完成令牌增加，可能导致总成本更高且速度更慢。这一窍门被认为巧妙但可能短暂存在。
+**社区讨论**: 评论对长期可行性持怀疑态度，认为这是一个可能会被封堵的临时漏洞。一些用户报告结果好坏参半，更高的补全成本和延迟可能抵消提示节省。其他人指出直接使用图像作为提示可能有效，但并非完全指这种方法。一条评论批评自述文件写得不好。
 
-**标签**: `#cost optimization`, `#OCR`, `#LLM`, `#token pricing`, `#Claude`
+**标签**: `#llm`, `#cost-optimization`, `#ocr`, `#image-processing`, `#hack`
 
 ---
 
 <a id="item-21"></a>
-## [为运行 GLM5.2 搭建 5 张 Pro 6000 加 5090 的昂贵多 GPU 系统](https://www.reddit.com/r/LocalLLaMA/comments/1umcr5m/glm52_on_5x_pro_6000s_and_a_5090_an_expensive/) ⭐️ 6.0/10
+## [Palantir 在 Hugging Face 上的免费组织零开源模型和数据集共享](https://www.reddit.com/r/LocalLLaMA/comments/1umbw0v/palantir_is_a_free_org_on_hf_with_0_opensource/) ⭐️ 6.0/10
 
-一位用户详细记录了为本地运行 GLM 5.2 大语言模型，搭建包含五张 NVIDIA RTX 6000 Pro 和一张 RTX 5090 的多 GPU 系统的昂贵且充满挑战的过程。该构建采用了 Threadripper Pro 9975WX CPU 和 WRX90 主板，并经历了多次迭代以解决散热和功耗限制。 这份记录凸显了高端本地大语言模型推理的实际障碍，包括硬件兼容性、散热管理和成本。它为 AI 社区提供了关于自托管 AI 工作负载中模型规模、性能与基础设施需求之间权衡的宝贵见解。 用户最初使用两张 RTX 5090 和 Threadripper Pro 系统，发现小模型不够用，于是逐步添加 RTX 6000 Pro 显卡。并排安装的 Pro 6000 显卡即使有额外风扇也导致过热降频和系统死机，迫使重新设计。最终的 5 张 Pro 6000 加 5090 配置配合 GLM 5.2 实现了 98-99%的任务完成率，但因巨大发热量需要第二台电源。
-
-reddit · r/LocalLLaMA · /u/yeah_likerage · 7月3日 12:10
-
-**背景**: GLM 5.2 是由 Z.ai（原智谱 AI）开发的大语言模型，采用 MIT 许可证发布。它是 GLM 系列的最新版本，在中英文任务中表现强劲。该构建使用了工作站级组件，例如拥有 32 核心和高 PCIe 通道数的 Threadripper Pro 9975WX CPU，以及用于多模块配置稳定性的 RDIMM 内存，这对于驱动多 GPU 至关重要。RTX 6000 Pro 是配备 48GB 显存的专业 GPU，针对 AI 工作负载优化，但以高功耗和发热闻名。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/GLM_5.2">GLM 5.2</a></li>
-<li><a href="https://www.amd.com/en/products/processors/workstations/ryzen-threadripper/9000-wx-series/amd-ryzen-threadripper-pro-9975wx.html">AMD Ryzen™ Threadripper™ PRO 9975WX</a></li>
-<li><a href="https://en.wikipedia.org/wiki/RDIMM">RDIMM</a></li>
-
-</ul>
-</details>
-
-**标签**: `#Local LLM`, `#Hardware Build`, `#GPU Setup`, `#RTX 5090`, `#GLM`
-
----
-
-<a id="item-22"></a>
-## [Palantir 在 Hugging Face 组织页面无开源模型和数据集](https://www.reddit.com/r/LocalLLaMA/comments/1umbw0v/palantir_is_a_free_org_on_hf_with_0_opensource/) ⭐️ 6.0/10
-
-Reddit 上有帖子揭露，Palantir 在 Hugging Face 的官方组织页面没有任何开源模型和公共数据集，这与该公司 CEO 声称一些美国政府客户正在转向开源 AI 的说法相矛盾。 这种不一致引发了对企业透明度和开源声明真实性的担忧，可能影响政府采购决策以及公众对 AI 公司开放承诺的信任。 这一发现仅基于 Palantir 在 Hugging Face 上公开显示零模型、零数据集的情况，但并不排除其在其他平台有贡献。CEO 的说法由 The Information 报道，未具体说明是哪些客户或技术。
+Palantir 在 Hugging Face 上有一个免费组织，但尚未共享任何开源模型或公共数据集，尽管其 CEO Alex Karp 表示一些美国政府客户正在转向开源 AI。这一差异由 Hugging Face 联合创始人 Clem Delangue 在社交媒体上指出。 这引发了人们对企业透明度以及像 Palantir 这样的大型 AI 承包商对开源社区真正承诺的质疑，特别是考虑到其政府合同和整个行业向开源 AI 发展的趋势。 Hugging Face 上的免费组织状态意味着没有费用，但 Palantir 没有贡献任何模型或数据集。CEO 的评论是在视频采访中发表的，而 Hugging Face 联合创始人 Clem Delangue 公开指出了共享资产的缺失。
 
 reddit · r/LocalLLaMA · /u/Nunki08 · 7月3日 11:28
 
-**背景**: Hugging Face 是一个重要的平台，公司和研究人员可在此分享开源机器学习模型和数据集，已成为 AI 社区的核心枢纽。其组织页面常被用来展示公司的开源贡献。Palantir 是一家大型数据分析公司，与政府有广泛合作；在此类平台上缺少分享，可能表明其关于开源 AI 的公开声明与实际做法之间存在差距。
+**背景**: Hugging Face 是分享和合作机器学习模型及数据集的领先平台，是开源 AI 运动的核心。Palantir 是一家数据分析公司，以其在政府和企业的合同而闻名，特别是在国防和监控领域。政府中开源 AI 的采用是一个备受争议的话题，需要在安全与创新之间取得平衡。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Hugging_Face">Hugging Face</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Palantir">Palantir</a></li>
 
 </ul>
 </details>
 
-**标签**: `#open source`, `#AI`, `#Palantir`, `#Hugging Face`, `#corporate transparency`
+**标签**: `#open-source AI`, `#Palantir`, `#Hugging Face`, `#corporate transparency`, `#community discussion`
+
+---
+
+<a id="item-22"></a>
+## [用户搭建 448GB 显存多 GPU 系统，MiniMax M3 推理单流 30 t/s](https://www.reddit.com/r/LocalLLaMA/comments/1umokhj/uh_honey_how_do_you_feel_about_takeout/) ⭐️ 6.0/10
+
+一位 Reddit 用户组装了包含 12 块 GPU（2 块 RTX Pro 6000 Max-Q、8 块 RTX 3090、2 块 RTX 5090）、总计 448GB 显存的多 GPU 系统，利用 vLLM 上的 AWQ-INT4 量化运行 MiniMax M3，实现单流 30 t/s 和批处理 960 t/s 的吞吐量。 该构建展示了在本地高性能运行 MiniMax M3 等百万上下文大模型的可行性，将消费级和专业级 GPU 聚合用于 LLM 推理推至极限，可能激发类似 DIY 方案，满足苛刻的 AI 应用需求。 配置在 vLLM 上采用流水线并行（PP）叠加组大小为 2 的张量并行（TP），AWQ-INT4 量化的 MiniMax M3 模型可为单用户提供高达 100 万 token 的上下文窗口，用户目标支持 4 个并发。
+
+reddit · r/LocalLLaMA · /u/MotorcyclesAndBizniz · 7月3日 20:02
+
+**背景**: MiniMax M3 是由稀宇科技开发的强大 AI 模型，以 100 万上下文窗口和代码及智能体能力著称。AWQ-INT4 是一种将模型压缩至 4 位精度以减少内存占用同时保持精度的量化技术。vLLM 是一个开源推理引擎，利用张量并行和流水线并行等策略在多 GPU 上高效运行大模型。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.minimax.io/models/text/m3">MiniMax M3 - Coding & Agentic Frontier, 1M Context, Multimodal | MiniMax</a></li>
+<li><a href="https://www.spheron.network/blog/awq-quantization-guide-llm-deployment/">AWQ Quantization Guide: Deploy LLMs at Half the... | Spheron Blog</a></li>
+
+</ul>
+</details>
+
+**标签**: `#local-llm`, `#hardware`, `#gpu-cluster`, `#vllm`, `#mini-max`
 
 ---
 
 <a id="item-23"></a>
-## [葡萄牙发布开源 9B 模型 Amalia，提供 SFT 和 DPO 版本](https://www.reddit.com/r/LocalLLaMA/comments/1umhrn8/portugal_just_released_their_own_llm_amalia_9b/) ⭐️ 6.0/10
+## [Qwen 27B 在双 GPU 系统上展现出快速连贯的性能](https://www.reddit.com/r/LocalLLaMA/comments/1umk3ax/qwen_27b/) ⭐️ 6.0/10
 
-葡萄牙发布了 Amalia，一个开源的 9B 大语言模型，提供监督微调(SFT)和直接偏好优化(DPO)两种变体。 这一发布是国家层面的 AI 努力，可能增强葡萄牙语 NLP 资源，并在 Apache 2.0 许可下为研究和开发提供透明、开源模型。 该模型在 Hugging Face 上提供两个变体：AMALIA-9B-0626-SFT 和 AMALIA-9B-0626-DPO，均基于 Apache 2.0 许可发布，但目前未提供具体编码基准测试。
-
-reddit · r/LocalLLaMA · /u/EveningIncrease7579 · 7月3日 15:38
-
-**背景**: 监督微调(SFT)是指预训练语言模型在精选的高质量示例数据集上进一步训练，以更好地遵循指令。直接偏好优化(DPO)是强化学习人类反馈(RLHF)的替代方案，直接优化模型以符合人类偏好，无需单独的奖励模型。这两种方法常用于提高大语言模型的实用性和安全性。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Direct_preference_optimization">Direct preference optimization</a></li>
-<li><a href="https://cameronrwolfe.substack.com/p/understanding-and-using-supervised">Understanding and Using Supervised Fine-Tuning (SFT) for Language Models</a></li>
-
-</ul>
-</details>
-
-**标签**: `#LLM`, `#Open Source`, `#Portuguese`, `#Language Model`, `#National Initiative`
-
----
-
-<a id="item-24"></a>
-## [用户报告 Qwen 27B 在双 GPU 上快速可靠地辅助编程](https://www.reddit.com/r/LocalLLaMA/comments/1umk3ax/qwen_27b/) ⭐️ 6.0/10
-
-一位用户分享了在使用双 RTX 4090+3090 配置、Q6_K_XL 量化及多 token 预测下运行 Qwen 27B 的性能数据，使用 llama.cpp 获得了 50-90 tokens/s 的解码速度和 1500-2200 tokens/s 的预填充速度。模型能生成可运行的代码，且几乎无需调参。 这一数据表明 Qwen 27B 可以作为一个实用且高性能的本地编程助手，减少了对大量提示工程或工具集成的需求。它凸显了消费级多 GPU 配置在处理高要求代码生成任务时的可行性。 该配置使用 Q6_K_XL 量化，以约 6 位精度存储权重，兼顾了模型质量与内存。多 token 预测通过单次前向传递预测多个 token 来提高生成速度和样本效率。llama.cpp 推理引擎使得在消费级硬件上高效运行成为可能。
+有用户分享了在双 GPU 系统（4090+3090）上使用 llama.cpp 运行 q6kxl 量化的 Qwen 27B 并启用多 token 预测的体验，解码速度达到 50-90 tokens/s，预填充速度达到 1500-2200 tokens/s。该模型能可靠地生成可运行的代码，并在提供文档链接时与各种 API 接口交互。 这表明高质量本地大语言模型正变得能够胜任实际开发任务，支持离线代码生成和 API 交互，无需依赖云端。这标志着本地推理生态系统对开发者而言正日益成熟。 该配置采用了 q6kxl（一种 6 位 K-quant 格式）和多 token 预测来提升效率，运行在 96GB 总显存上。用户指出，该模型能够读取代码库并在更新时保持原有模式，但未提及上下文长度限制或模型的特定微调信息。
 
 reddit · r/LocalLLaMA · /u/13henday · 7月3日 17:06
 
-**背景**: Q6_K_XL 是一种高质量量化变体，能在显著减小模型体积的同时保持大部分精度。多 token 预测是一种技术，模型每一步输出多个未来 token，从而加快推理速度。llama.cpp 是一个流行的 C/C++推理引擎，针对在本地以最小依赖运行大语言模型进行了优化。
+**背景**: Qwen 27B 是阿里巴巴开发的一个大语言模型。llama.cpp 是一个广受欢迎的开源推理引擎，采用 C/C++编写，可在多种硬件上运行模型。多 token 预测是一种训练技术，模型同时预测多个未来 token，以提高生成速度和效率。q6kxl 量化是一种 6 位的 GGUF 格式，在模型质量和大小之间取得平衡，适用于高端消费级 GPU。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://medium.com/@paul.ilvez/demystifying-llm-quantization-suffixes-what-q4-k-m-q8-0-and-q6-k-really-mean-0ec2770f17d3">Demystifying LLM Quantization Suffixes: What Q4_K_M, Q8_0, and Q6_K Really Mean | by Paul Ilvez | Medium</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Llama.cpp">llama.cpp - Wikipedia</a></li>
 <li><a href="https://arxiv.org/abs/2404.19737">[2404.19737] Better & Faster Large Language Models via Multi-token Prediction</a></li>
-
-</ul>
-</details>
-
-**标签**: `#Qwen`, `#Local LLM`, `#Performance Benchmark`, `#Coding Assistant`, `#LLM Evaluation`
-
----
-
-<a id="item-25"></a>
-## [用户通过定制 llama.cpp 优化加速本地 DeepSeek V4 Pro 推理](https://www.reddit.com/r/LocalLLaMA/comments/1umdjxd/my_deepseek_v4_pro_at_home_got_faster_again/) ⭐️ 6.0/10
-
-一位用户报告通过使用包含未合并至主干的各种修复和优化的定制 llama.cpp 分支，在工作站上实现了 DeepSeek V4 Pro 的更快速推理。 这展示了社区驱动的优化如何显著提升本地大语言模型性能，使大型模型能够在消费级或专业级硬件上运行，并凸显了开源推理引擎的价值。 基准测试在 Epyc 9374F 平台上使用了 794GB 的 DeepSeek V4 Pro GGUF 文件，配备 1152GB DDR5 内存和 RTX PRO 6000 Max-Q GPU；定制分支解决了内存浪费和量化 KV 缓存损坏问题，这些问题仍存在于主干 llama.cpp 中。
-
-reddit · r/LocalLLaMA · /u/fairydreaming · 7月3日 12:47
-
-**背景**: DeepSeek V4 Pro 是一个拥有 1.6 万亿参数（490 亿激活）的大型混合专家模型，支持百万 token 上下文。llama.cpp 是一个开源 C/C++推理引擎，利用 GGUF 格式实现高效的本地大语言模型运行。用户运行的是包含性能补丁的定制分支，这些补丁正在等待上游审查。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro">deepseek-ai/DeepSeek-V4-Pro · Hugging Face</a></li>
+<li><a href="https://insiderllm.com/guides/llm-quantization-explained/">Quantization Explained: What It Means for Local AI | InsiderLLM</a></li>
 <li><a href="https://github.com/ggml-org/llama.cpp">GitHub - ggml-org/llama.cpp: LLM inference in C/C++ · GitHub</a></li>
-<li><a href="https://huggingface.co/docs/hub/gguf">GGUF · Hugging Face</a></li>
 
 </ul>
 </details>
 
-**标签**: `#LLM`, `#llama.cpp`, `#DeepSeek`, `#local inference`, `#optimization`
-
----
-
-<a id="item-26"></a>
-## [Facebook 推出 Astryx：开源、代理就绪的设计系统](https://github.com/facebook/astryx) ⭐️ 6.0/10
-
-Facebook 发布了 Astryx，一个使用 TypeScript 构建的新型开源设计系统，该系统完全可定制，并专为 AI 代理准备，使 AI 能够自主构建用户界面。 这在设计系统中引入了新颖的“代理就绪”概念，随着 AI 编码代理的普及，有望简化自动化 UI 生成，对追求更快原型制作和开发流程的开发者和设计师产生重大影响。 Astryx 采用 TypeScript 编写以确保类型安全，其完全可定制性允许团队根据自身品牌进行调整。代理就绪功能可能包含机读的令牌和组件描述，但目前仍处于早期阶段，每日仅获得 30 个星标，表明采用率有限。
-
-ossinsight · facebook · 7月3日 19:19
-
-**背景**: 设计系统是用于构建一致界面的可复用 UI 组件、设计令牌和指南的集合，传统上为人类编写文档。代理就绪设计系统通过编码意图和元数据，使 AI 代理能够自主解析并正确使用组件，从而扩展了这一概念。这一被称为“代理式设计系统”的趋势，随着 AI 辅助开发工具的普及而日益受到关注。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.intodesignsystems.com/agentic-design-systems">Agentic Design Systems: The Complete Guide | Into Design Systems</a></li>
-<li><a href="https://www.figma.com/community/file/1638386195517568464/system-md-agent-ready-design-system-template">system.md - Agent-Ready Design System Template | Figma</a></li>
-<li><a href="https://www.intodesignsystems.com/blog/design-system-not-ready-for-ai-agents">Your Design System Is Not Ready for AI Agents</a></li>
-
-</ul>
-</details>
-
-**标签**: `#open-source`, `#design-system`, `#typescript`, `#ui-components`, `#agent-ready`
-
----
-
-<a id="item-27"></a>
-## [stablyai/orca：用 ADE 编排并行编码智能体](https://github.com/stablyai/orca) ⭐️ 6.0/10
-
-Stablyai 发布了 Orca，这是一个智能体开发环境，使开发者能够在桌面和移动设备上并行运行和协调多个编码智能体。 随着 AI 编码智能体日益普及，Orca 的并行编排能力通过自动化和并行化复杂工作流，可大幅提升开发者生产力，减少手动操作。 Orca 使用 TypeScript 构建，利用隔离的 Git 工作树和自动化规则，显示智能体上下文和工具，以高效管理智能体集群。
-
-ossinsight · stablyai · 7月3日 19:19
-
-**背景**: 智能体开发环境（ADE）是一种新兴范式，允许开发者编排多个异步 AI 编码智能体，使它们能够并行处理项目的不同部分。与单智能体工具相比，它提供了更高的生产力和协调性。这一概念正被 Letta、ADE-app 等工具采用，现在 Orca 也加入了这一行列。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://docs.letta.com/guides/ade/overview">Agent Development Environment (ADE) | Letta Docs</a></li>
-<li><a href="https://www.ade-app.dev/">ADE — Agentic Development Environment</a></li>
-<li><a href="https://www.augmentcode.com/guides/what-is-an-agentic-development-environment">What Is an Agentic Development Environment? | Augment Code</a></li>
-
-</ul>
-</details>
-
-**标签**: `#agent-orchestration`, `#parallel-computing`, `#ai-agents`, `#developer-tools`, `#typescript`
+**标签**: `#Qwen`, `#LocalLLM`, `#Performance`, `#CodeGeneration`, `#UserExperience`
 
 ---
 
