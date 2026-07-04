@@ -5,469 +5,416 @@ date: 2026-07-04
 lang: zh
 ---
 
-> 从 46 条内容中筛选出 21 条重要资讯。
+> 从 42 条内容中筛选出 19 条重要资讯。
 
 ---
 
-1. [YouTube 隐私漏洞：Gemini AI 提示注入泄露创作者私人视频](#item-1) ⭐️ 8.0/10
-2. [Claude Code 用户报告潜在跨会话响应泄漏](#item-2) ⭐️ 8.0/10
-3. [Linux 下 htop/top 指标的详细解释](#item-3) ⭐️ 8.0/10
-4. [韦伯望远镜发现的神秘小红点可能是黑洞星](#item-4) ⭐️ 8.0/10
-5. [Anna's Archive 悬赏 20 万美元扫描谷歌图书](#item-5) ⭐️ 7.0/10
-6. [Meta 数据中心因污染供水系统暂停排水](#item-6) ⭐️ 7.0/10
-7. [或许你应该学点什么](#item-7) ⭐️ 7.0/10
-8. [AMD GLM-5.2 宣称性能更快更便宜，但量化精度损失引担忧](#item-8) ⭐️ 7.0/10
-9. [二氧化碳浓度升高可能是认知表现的隐形瓶颈](#item-9) ⭐️ 7.0/10
-10. [Current AI 发布开源 AI 差距图谱 索引 421 个产品](#item-10) ⭐️ 7.0/10
-11. [AI 恐慌与 LLM 辅导致开发者课程销量暴跌逾五成](#item-11) ⭐️ 7.0/10
-12. [Google 发布 TabFM：面向表格数据的零样本基础模型](#item-12) ⭐️ 7.0/10
-13. [Reddit 用户称发现 Anthropic 提示注入证据](#item-13) ⭐️ 7.0/10
-14. [幻想 RP 基准：Gemma-4-31B 和 Qwen3.6-27B 领先，子分数暴露短板](#item-14) ⭐️ 7.0/10
-15. [多块扩散语言模型：每次前向生成 6.19 个令牌](#item-15) ⭐️ 7.0/10
-16. [DeepSeek V4 分支合并量化 KV 缓存修复，单 GPU 支持百万上下文](#item-16) ⭐️ 6.0/10
-17. [$20k 本地 AI 设备与$200/月订阅的盈亏平衡分析](#item-17) ⭐️ 6.0/10
-18. [为何 Step 3.7 Flash 模型在 Claude Code 上表现优于 Hermes？](#item-18) ⭐️ 6.0/10
-19. [开源 AI 渗透测试工具 Strix 受开发者关注](#item-19) ⭐️ 6.0/10
-20. [阿里巴巴发布 Page-Agent: 用自然语言控制网页的 JavaScript 库](#item-20) ⭐️ 6.0/10
-21. [支持 158 种语言的高性能代码智能 MCP 服务器](#item-21) ⭐️ 6.0/10
+1. [Anna’s Archive 悬赏 20 万美元扫描全部 Google 图书](#item-1) ⭐️ 9.0/10
+2. [研究人员利用 AI 提示注入泄露 YouTube 私密视频标题](#item-2) ⭐️ 8.0/10
+3. [Claude Code 被曝会话泄露，官方回应或为幻觉](#item-3) ⭐️ 8.0/10
+4. [韦伯发现“小红点”挑战星系形成理论](#item-4) ⭐️ 8.0/10
+5. [室内二氧化碳浓度升高可能影响决策能力](#item-5) ⭐️ 8.0/10
+6. [较新的 Anthropic 模型在工具模式遵循上表现更差](#item-6) ⭐️ 8.0/10
+7. [谷歌发布 TabFM：面向表格数据的零样本基础模型](#item-7) ⭐️ 8.0/10
+8. [2 万美元本地 AI 设备对比云服务，27 个月回本](#item-8) ⭐️ 8.0/10
+9. [《命令与征服：将军》借助 AI 工具 Fable 原生移植至 macOS、iPhone 和 iPad](#item-9) ⭐️ 7.0/10
+10. [解读 Linux 中 htop/top 输出的全面指南](#item-10) ⭐️ 7.0/10
+11. [AI 视频剪辑项目持续霸榜 GitHub](#item-11) ⭐️ 7.0/10
+12. [Qwen3.6-27B 在奇幻角色扮演基准测试中表现优异，揭示类别性能悬崖](#item-12) ⭐️ 7.0/10
+13. [Qwen3.6 27B 在 RTX 5090 上调优后的 token 生成速度分布分享](#item-13) ⭐️ 7.0/10
+14. [多块扩散语言模型实现并行文本生成](#item-14) ⭐️ 7.0/10
+15. [DeepSeek V4 分支合并量化 KV 缓存修复，单 GPU 支持 100 万上下文](#item-15) ⭐️ 6.0/10
+16. [本地 Qwen3.6 模型在 Java 游戏中自主测试实现 A*寻路](#item-16) ⭐️ 6.0/10
+17. [阿里巴巴 Page Agent：自然语言驱动网页交互](#item-17) ⭐️ 6.0/10
+18. [DeusData 发布高性能代码知识图谱 MCP 服务器](#item-18) ⭐️ 6.0/10
+19. [OpenAI 发布插件让 Codex 在 Claude Code 中使用](#item-19) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [YouTube 隐私漏洞：Gemini AI 提示注入泄露创作者私人视频](https://javoriuski.com/post/youtube) ⭐️ 8.0/10
+## [Anna’s Archive 悬赏 20 万美元扫描全部 Google 图书](https://software.annas-archive.gl/AnnaArchivist/annas-archive/-/work_items/234) ⭐️ 9.0/10
 
-安全研究员发现，YouTube Studio 的 AI 评论建议功能（由 Google Gemini 模型驱动）存在提示注入漏洞，攻击者可借此诱使 AI 泄露私人视频信息。 该漏洞可能导致创作者的私享或未公开视频内容泄露，引发版权问题、信任危机甚至对 YouTube 的法律诉讼，凸显了在广泛使用的平台中集成 AI 助手时面临的重大安全挑战。 攻击途径是：攻击者留下精心构造的评论，当创作者在 YouTube Studio 中使用推荐的 AI 回复时，注入的提示词会操控 Gemini 输出敏感信息。由于漏洞源于模型训练，简单的软件补丁可能无法修复，可能需要重新训练 Gemini。
-
-hackernews · javxfps · 7月4日 16:45 · [社区讨论](https://news.ycombinator.com/item?id=48786781)
-
-**背景**: Gemini 是 Google 的大语言模型家族，前身为 Bard，已集成到 YouTube Studio 等产品中用于生成评论回复。该漏洞属于提示注入类型，即对抗性输入可覆盖模型的安全防护，从而提取隐私数据。此事凸显了在面向用户的工具中部署大语言模型时缺乏稳健内容过滤的风险。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Gemini_AI">Gemini AI</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 许多评论者对 Google 反应迟缓表示不满，指出提示注入是众所周知的攻击方式，本应被视为严重漏洞。有人称赞研究者清晰、直接的披露方式，也有人推测只有涉及大牌创作者的高调事件才能迫使 Google 优先修复。
-
-**标签**: `#security`, `#privacy`, `#AI`, `#YouTube`, `#Gemini`
-
----
-
-<a id="item-2"></a>
-## [Claude Code 用户报告潜在跨会话响应泄漏](https://github.com/anthropics/claude-code/issues/74066) ⭐️ 8.0/10
-
-用户在 GitHub 上报告 Claude Code 及其他 LLM 出现疑似跨会话响应泄漏，例如回复中包含无关的 Minecraft 或数学辅导内容。Anthropic 回应称这很可能是幻觉，但团队正进行调查。 这引发了严重的隐私和安全担忧，跨会话泄漏可能无意中暴露专有或个人信息，侵蚀对 LLM 工具的信任，并可能表明基础设施存在漏洞。 报告者提到，工具调用列出的文件包含'minecraft.py'，可能触发了幻觉。同时，有评论者声称曾因 API 网关错误遇到真实的响应交换，而 Anthropic 坚持认为很可能是幻觉。
-
-hackernews · chatmasta · 7月4日 14:03 · [社区讨论](https://news.ycombinator.com/item?id=48785485)
-
-**背景**: 跨会话泄漏是一种安全漏洞，因基础设施问题导致一个用户会话的数据出现在另一个会话的响应中。大语言模型会产生幻觉——即看似合理但虚构的内容，尤其是在上下文较长时。Claude Code 是 Anthropic 推出的 AI 编程工具，可在终端和 IDE 中使用。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://futureagi.com/glossary/cross-session-leak/">What Is Cross-Session Leak? FutureAGI Guide (2026)</a></li>
-<li><a href="https://www.giskard.ai/knowledge/cross-session-leak-when-your-ai-assistant-becomes-a-data-breach">Cross Session Leak: LLM security vulnerability & detection guide</a></li>
-<li><a href="https://forum.cursor.com/t/cross-session-content-leakage-unrelated-user-data-appears-in-response/156027">Cross-session content leakage: unrelated user data appears in ...</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区反应不一：部分用户怀疑是幻觉，指出大上下文可能增加虚构风险；其他人报告在其他 LLM 中遇到类似问题，包括基础设施层面的响应交换。Anthropic 团队确认正在调查，有用户讽刺性建议增加内容过滤。整体上，用户认真对待此事。
-
-**标签**: `#security`, `#LLM`, `#hallucination`, `#bug-report`, `#session-leakage`
-
----
-
-<a id="item-3"></a>
-## [Linux 下 htop/top 指标的详细解释](https://peteris.rocks/blog/htop/) ⭐️ 8.0/10
-
-一份 2019 年的详尽指南解析了 htop/top 中显示的每个指标，包括负载平均值、CPU 窃取时间和 VIRT/RES/SHR 等内存列，引发了关于实用技巧和替代工具的社区讨论。 理解这些指标对 Linux 系统管理、性能调优和故障排除至关重要。本文教育用户理解常被误解的概念，弥合了浅层使用与深入系统知识之间的差距。 该指南阐明负载平均值包含不可中断睡眠的任务，以及 CPU 窃取时间如何影响虚拟机。详细说明了 VIRT（所有虚拟内存）、RES（物理内存）和 SHR（共享内存）之间的区别。社区建议将 btop 作为功能丰富的替代品，并推荐 htop 的调整，如禁用用户线程和启用进程树视图。
-
-hackernews · theanonymousone · 7月4日 12:00 · [社区讨论](https://news.ycombinator.com/item?id=48784777)
-
-**背景**: htop 和 top 是 Linux 的交互式进程查看器，实时显示资源使用情况。其列如负载平均值、CPU 状态、内存细分常令用户困惑。负载平均值包含等待磁盘 I/O 的任务，CPU 窃取时间在虚拟化环境中很重要，而 VIRT/RES/SHR 等内存指标代表不同的内存使用方面。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.digitalocean.com/community/tutorials/load-average-in-linux">What is Load Average in Linux? - DigitalOcean</a></li>
-<li><a href="https://www.site24x7.com/learn/linux/cpu-steal-time.html">What is CPU steal time : Site24x7</a></li>
-<li><a href="https://askubuntu.com/questions/176001/what-do-virt-res-and-shr-mean-in-the-top-command">What do VIRT , RES and SHR mean in the top command? - Ask Ubuntu</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者对这篇文章揭示常被忽略的细节表示赞赏。许多人推荐 btop 作为现代替代品，具有 GPU 和网络监控功能。关键的 htop 技巧包括禁用用户线程以保持清晰视图，以及启用树视图以追踪进程层次。大家一致认为 RES 是最可靠的内存指标，而 VIRT 可能具有误导性。
-
-**标签**: `#linux`, `#monitoring`, `#htop`, `#systems`, `#tutorial`
-
----
-
-<a id="item-4"></a>
-## [韦伯望远镜发现的神秘小红点可能是黑洞星](https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702/) ⭐️ 8.0/10
-
-最近詹姆斯·韦伯太空望远镜（JWST）对“小红点”（LRDs）的观测使天体物理学家猜测它们可能是“黑洞星”——一种假设性天体，其中黑洞被厚气体包裹，像恒星大气一样发光。来自 LRD GLIMPSE-17775 的证据支持了这一想法。 如果这些天体被确认为黑洞星，将为理解超大质量黑洞如何在早期宇宙中迅速形成提供关键环节，可能解决宇宙学中的一个重大难题。 这些小红点存在于大爆炸后 6 亿至 16 亿年之间，其紧凑尺寸和红色来自高速氢气辐射。黑洞星的解释基于光谱发射不匹配旋转恒星的特征，但观测仍然有限，并且对于一些 LRD，已经排除了棕矮星等替代解释。
-
-hackernews · jnord · 7月4日 09:08 · [社区讨论](https://news.ycombinator.com/item?id=48783948)
-
-**背景**: 詹姆斯·韦伯太空望远镜（JWST）是 2021 年发射的红外太空天文台，能够观测宇宙最早的星系。2024 年 3 月，天文学家宣布发现了“小红点”——来自早期宇宙的紧凑红色天体。一个主要假设是它们为“黑洞星”（或类星体）：由物质落入中心黑洞而非核聚变提供能量的巨大发光天体。这种天体于 2006 年首次被理论化，可以解释超大质量黑洞如何在大爆炸后迅速增长。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Little_red_dot_(astronomical_object)">Little red dot (astronomical object) - Wikipedia</a></li>
-<li><a href="https://www.space.com/astronomy/black-holes/james-webb-space-telescope-finds-evidence-the-mysterious-little-red-dots-are-black-hole-stars">James Webb Space Telescope finds evidence the mysterious 'little red dots' are black hole stars | Space</a></li>
-<li><a href="https://cerncourier.com/the-mystery-of-the-little-red-dots/">The mystery of the little red dots – CERN Courier</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者对黑洞星假说表示着迷，有人称其“令人震撼”。一条技术评论澄清，虽然曾考虑棕矮星解释，但通过一篇论文已为一些 LRD 排除了这种可能性。还有人从哲学角度反思科学进步的本质。
-
-**标签**: `#astrophysics`, `#JWST`, `#cosmology`, `#black-holes`, `#science`
-
----
-
-<a id="item-5"></a>
-## [Anna's Archive 悬赏 20 万美元扫描谷歌图书](https://software.annas-archive.gl/AnnaArchivist/annas-archive/-/work_items/234) ⭐️ 7.0/10
-
-影子图书馆元搜索引擎 Anna's Archive 在 2025 年宣布悬赏 20 万美元，奖励个人或团体扫描并保存谷歌图书中的所有书籍，此举延续了其免费编目和提供全球书籍访问的使命。 该倡议凸显了数字保存、知识开放获取与版权法之间的持续紧张关系。它可能显著扩大英语文献获取受限地区的书籍可得性，同时也引发了法律和伦理方面的担忧。 悬赏金额为 20 万美元，但所提供的摘要中未详述具体技术要求、资格条件以及扫描件的托管方式。Anna's Archive 不直接托管受版权保护的文件，以避免承担法律责任。
+Anna’s Archive 宣布悬赏 20 万美元，用于扫描和数字化 Google Books 或类似平台上的所有图书，旨在构建一个全面的开放数字图书馆。 这一举措有望极大地提升全球知识的可及性，特别是对于书籍获取受限地区的读者，并强化了影子图书馆在保存和民主化信息方面的作用。 该悬赏专门针对 Google Books，但也接受类似的数字化馆藏；项目依赖于社区贡献和 Anna’s Archive 的技术基础设施。
 
 hackernews · Cider9986 · 7月4日 16:51 · [社区讨论](https://news.ycombinator.com/item?id=48786838)
 
-**背景**: Anna's Archive 是一个非营利、开源的影子图书馆搜索引擎，聚合了来自 Z-Library、Sci-Hub 和 Library Genesis 的记录。它于 2022 年 Z-Library 被关闭后推出，旨在编目世界上所有书籍并使其以数字形式方便获取。该网站面临版权持有者的法律挑战，但它通过链接到第三方文件而非直接托管来运营。
+**背景**: Anna’s Archive 是一个开源的影子图书馆搜索引擎，汇集了 Z-Library、Sci-Hub 和 Library Genesis 等资源。影子图书馆免费提供受付费墙限制的学术及普通书籍，因涉及版权问题而处于法律灰色地带。Google Books 扫描了数百万册图书，但许多因版权限制无法完全访问。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Anna's_Archive">Anna's Archive</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Shadow_libraries">Shadow libraries</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区评论对 Anna's Archive 在书籍获取有限地区所扮演的角色表示感激。一些人讨论了相关的存档项目、因 Cloudflare 验证码而引发的互联网抓取担忧，以及谷歌的就业安全问题。总体情绪支持该悬赏在保存和获取方面的目标。
+**社区讨论**: 社区成员对 Anna’s Archive 和 Z-Library 表示感谢，分享了这些平台如何促进他们学习的个人故事。关于合法性和道德性存在辩论，一些人支持该倡议，认为这是对限制性访问和高成本的回应，另一些人则对版权问题表示担忧。
 
-**标签**: `#open-access`, `#digital-preservation`, `#books`, `#crowdfunding`, `#archiving`
+**标签**: `#open-access`, `#books`, `#shadow-libraries`, `#digital-preservation`, `#bounty`
+
+---
+
+<a id="item-2"></a>
+## [研究人员利用 AI 提示注入泄露 YouTube 私密视频标题](https://javoriuski.com/post/youtube) ⭐️ 8.0/10
+
+一名安全研究员发现一个漏洞，攻击者可通过在评论中嵌入特制链接，当视频创作者点击 YouTube Studio 中 AI 生成的回复建议时，视频标题会无意中发送到攻击者控制的服务器。 该漏洞通过泄露私密或未上架视频的标题，损害了创作者的隐私。这也凸显了 YouTube AI 功能集成及漏洞分类流程中的系统性缺陷。 攻击仅需用户点击建议的 AI 回复，恶意链接包含占位符，回复时自动替换为视频标题。YouTube 最初未将此归类为安全漏洞，引发了关于提示注入风险的讨论。
+
+hackernews · javxfps · 7月4日 16:45 · [社区讨论](https://news.ycombinator.com/item?id=48786781)
+
+**背景**: YouTube Studio 是创作者管理内容的仪表板，包括查看评论和视频隐私设置。“私密”和“未上架”视频不公开可见，其标题本应保密。提示注入是一种安全问题，特制输入可操纵 AI 系统执行非预期操作，如提取敏感数据。
+
+**社区讨论**: 评论反响不一：有人称赞清晰的披露风格，也有人注意到复现失败。多名用户批评 YouTube 不承认提示注入为有效漏洞，一位前谷歌员工暗示内部绩效指标可能影响了漏洞分类决策。
+
+**标签**: `#security`, `#youtube`, `#vulnerability`, `#privacy`, `#disclosure`
+
+---
+
+<a id="item-3"></a>
+## [Claude Code 被曝会话泄露，官方回应或为幻觉](https://github.com/anthropics/claude-code/issues/74066) ⭐️ 8.0/10
+
+GitHub 上有人报告 Claude Code 可能存在会话泄露，用户的会话意外提到了 minecraft.py 文件。Claude Code 团队官方回应称这很可能是模型幻觉，但正在积极调查。 如果证实存在会话泄露，可能导致私有代码或敏感数据跨工作区暴露，带来严重的安全与隐私风险。由于 Claude Code 被广泛使用，该问题会影响大量开发者并损害对 AI 编程工具的信任。 污染据称通过一个列出文件的工具调用结果发生，社区成员指出大上下文窗口（如 80 万以上 token）可能增加幻觉概率。一位匿名用户声称其他 LLM 提供商也发生过类似真实泄露事件，原因在于 API 网关错误。
+
+hackernews · chatmasta · 7月4日 14:03 · [社区讨论](https://news.ycombinator.com/item?id=48785485)
+
+**背景**: Claude Code 是 Anthropic 推出的终端 AI 编程助手，可访问文件系统获取上下文。大型语言模型会产生“幻觉”——看似合理但错误的输出。会话泄露指一个会话的数据意外出现在另一个会话中，通常源于服务器端配置错误。
+
+**社区讨论**: 社区意见存在分歧：许多人认为是幻觉，尤其是大上下文情况下；但一位匿名用户声称在其他提供商处遇到过真实泄露。有用户开玩笑建议通过 AGENTS.md 添加规则，但整体讨论严肃，等待调查结果。
+
+**标签**: `#Security`, `#AI`, `#Claude`, `#LLM`, `#Bug Report`
+
+---
+
+<a id="item-4"></a>
+## [韦伯发现“小红点”挑战星系形成理论](https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702/) ⭐️ 8.0/10
+
+詹姆斯·韦伯太空望远镜在早期宇宙中发现了被称为“小红点”的神秘天体，天文学家正在争论其本质，最近有理论认为它们可能是黑洞星或超大质量原初恒星，这对现有的星系形成模型提出了挑战。 这些发现可能重塑我们对早期宇宙中第一批星系和超大质量黑洞如何形成的理解，并可能引发宇宙学范式的转变。 2025 年 7 月发表的一个主要假说认为，小红点是寿命短暂、质量约为百万倍太阳质量的超巨星，其光球层产生了观测到的巴耳末跳跃；其他解释包括被浓密气体包裹的活动星系核或准恒星。值得注意的是，小红点缺乏 X 射线辐射且光变极小，这与典型的活动星系核特征不符。
+
+hackernews · jnord · 7月4日 09:08 · [社区讨论](https://news.ycombinator.com/item?id=48783948)
+
+**背景**: 詹姆斯·韦伯太空望远镜（JWST）于 2021 年 12 月发射，通过红外波段观测宇宙，能够看到大爆炸后形成的第一批星系。“小红点”于 2024 年 3 月首次在韦伯图像中被发现，它们是宇宙年龄仅 6 亿至 16 亿年时的致密红色天体。它们出乎意料的丰度和性质与标准宇宙学模型对早期星系增长的预测存在冲突。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/JWST">JWST</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Little_red_dots">Little red dots</a></li>
+<li><a href="https://www.space.com/astronomy/black-holes/james-webb-space-telescope-finds-evidence-the-mysterious-little-red-dots-are-black-hole-stars">James Webb Space Telescope finds evidence the mysterious 'little red dots' are black hole stars | Space</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 社区对“黑洞星”的概念充满兴趣，有人幽默地提到 Soundgarden 乐队。一位评论者指出，褐矮星污染已被考虑并修正，并提供了相关论文链接。其他人在思考自霍金的《时间简史》以来宇宙学科普的演变。总体氛围是兴奋和幽默，对于这些颠覆性的意义感到震撼。
+
+**标签**: `#astrophysics`, `#JWST`, `#cosmology`, `#galaxy-formation`, `#little-red-dots`
+
+---
+
+<a id="item-5"></a>
+## [室内二氧化碳浓度升高可能影响决策能力](https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/) ⭐️ 8.0/10
+
+一篇博客文章提出，室内二氧化碳浓度升高可能损害认知功能和决策能力，这引发了关于关键研究可复制性以及技术解决方案潜力的争论。 这揭示了室内空气质量与认知表现之间一个被低估的联系，对办公室、学校和公共场所的生产力具有广泛影响，并可能推动对更好通风和监测的需求。 关键细节包括室内二氧化碳浓度通常可达 2000 ppm、关于 2012 年 Satish 研究可复制性的争论，以及潜艇在较高 ppm 下运行未见认知下降的例子，这引发了对阈值和实际影响的质疑。
+
+hackernews · gslin · 7月4日 06:32 · [社区讨论](https://news.ycombinator.com/item?id=48783117)
+
+**背景**: 在通风不良的封闭空间中，人体呼出的二氧化碳会累积。尽管常见室内浓度下二氧化碳本身无毒，但一些研究——特别是 2012 年 Satish 等人的论文——指出，即使是中等浓度（约 1000 ppm）也可能损害决策能力。然而，包括潜艇等职业环境在内的更广泛研究并未一致发现数千 ppm 以下对认知的影响，这导致了持续的科学争论。
+
+**社区讨论**: 评论者观点不一：一些人分享了教室中高浓度二氧化碳的亲身观察，并主张在消费设备中集成监测器；另一些人则指出了关键研究的可复制性问题，并警告在没有确凿证据的情况下不要过度炒作，引用了潜艇在较高二氧化碳水平下运行而未记录到认知影响的例子。
+
+**标签**: `#indoor-air-quality`, `#co2`, `#cognition`, `#health`, `#replicability`
 
 ---
 
 <a id="item-6"></a>
-## [Meta 数据中心因污染供水系统暂停排水](https://www.tomshardware.com/tech-industry/data-centers/cheyenne-suspends-data-center-fill-and-flush-and-closed-loop-discharges-after-meta-contractor-contaminated-its-reuse-water-system) ⭐️ 7.0/10
+## [较新的 Anthropic 模型在工具模式遵循上表现更差](https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything) ⭐️ 8.0/10
 
-Meta 公司在夏延市的数据中心因承包商污染了当地的再生水系统，被暂停排水。 该事件凸显了数据中心冷却做法带来的环境风险，可能会导致更严格的审查或监管，影响公众看法和未来数据中心的发展。 暂停措施涵盖冲洗和闭路循环排水，污染由承包商造成，而非数据中心自身。
+Armin Ronacher 报告称，Anthropic 最新的模型 Opus 4.8 和 Sonnet 5 在调用 Pi 的自定义编辑工具时，有时会添加虚构的字段，导致调用出错；这种退步在旧模型（如 Haiku）中并未出现。 这表明针对特定编码基准优化模型可能会降低其遵循任意工具模式的能力，影响依赖编码工具中自定义工具调用的开发者。 这些模型在 Pi 的编辑工具模式的 `edits[]` 数组中编造了额外的键；编辑内容正确，但格式错误的参数导致调用被拒。推测是因为针对 Claude Code 内置文本编辑工具的后训练无意中使模型偏向于期望该工具的接口，从而降低了遵循其他编辑工具模式的能力。
 
-hackernews · sensanaty · 7月4日 16:45 · [社区讨论](https://news.ycombinator.com/item?id=48786782)
+rss · Simon Willison · 7月4日 22:53
 
-**背景**: 数据中心通常使用大量水进行冷却，为减少环境影响，一些设施使用再生水系统。冷却系统可能需要添加化学物质以防止腐蚀和结垢，如果管理不当，这些物质可能会污染水体。冲洗和闭路循环是这类系统的排水类型。
+**背景**: LLM 工具调用依赖于定义预期输入和输出的模式。最近的语言模型会经过后训练（例如 RLHF）以提高特定技能，如编码。Anthropic 的 Claude 模型有一个内置的“文本编辑”工具，使用查找和替换机制，新模型针对 Claude Code 进行了优化。OpenAI 的 Codex 则使用不同的 `apply_patch` 工具并进行了类似优化。这种专业化可能使模型对定制工具模式的适应性变差。
 
-**社区讨论**: 评论者对环境影响表示担忧，但认为该事件可控。有人解释说数据中心通常在冷却水中添加化学物质，不当排放会造成污染。还有人提到诸如 Omen AI 优化平台等新兴解决方案。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/implement-tool-use">How to implement tool use - Anthropic</a></li>
+<li><a href="https://aiquinta.ai/blog/llm-tool-schema-design-inputs-outputs-error-handling/">LLM Tool Schema Design: Inputs, Outputs & Error Handling</a></li>
+<li><a href="https://rlhfbook.com/">Reinforcement Learning from Human Feedback and LLM Post - Training</a></li>
 
-**标签**: `#data-centers`, `#water-contamination`, `#environmental-impact`, `#Meta`, `#cooling-systems`
+</ul>
+</details>
+
+**标签**: `#AI`, `#LLMs`, `#Anthropic`, `#Tool Calls`, `#AI Regression`
 
 ---
 
 <a id="item-7"></a>
-## [或许你应该学点什么](https://www.marginalia.nu/log/a_135_learn/) ⭐️ 7.0/10
+## [谷歌发布 TabFM：面向表格数据的零样本基础模型](https://www.reddit.com/r/LocalLLaMA/comments/1un5hyi/googletabfm100/) ⭐️ 8.0/10
 
-一篇反思博客文章探讨了学习的价值，并解决了焦虑和拖延等常见障碍，提倡积极练习而非被动消费。 它触及了自我提升中的普遍挣扎，提供了来自社区经验的可操作见解，鼓励在信息过载时代从被动浏览转向主动技能培养。 文章和讨论指出，真正的障碍是缺乏精力和焦虑而非时间不足；真正的学习涉及犯错误；加入社交团体可使练习持续。
+谷歌研究院发布了 TabFM 1.0.0，这是一个零样本基础模型，可在包含数值和类别混合列的表格数据上执行分类和回归任务，无需微调或超参数搜索。 该模型消除了传统表格机器学习中耗时的特征工程和模型调优需求，使从业者能更轻松地在结构化数据上快速构建预测模型。 TabFM 在单次前向传播中将训练样本作为上下文处理，无需额外训练即可支持任意未见过的表格。该模型以研究许可发布，并非谷歌官方支持的产品。
 
-hackernews · tylerdane · 7月4日 03:36 · [社区讨论](https://news.ycombinator.com/item?id=48782435)
+reddit · r/LocalLLaMA · /u/Balance- · 7月4日 10:20
 
-**背景**: 该博客托管于 marginalia.nu，一个以科技与生活反思性文章著称的个人网站。讨论引用了梅林关于学习是治愈悲伤之法的语录，并应对了数字干扰助长拖延等现代挑战。
+**背景**: 表格数据（如电子表格）在企业应用中普遍存在。零样本学习让模型无需特定训练样本即可执行任务，这一概念因大语言模型而普及。TabFM 将这一范式应用于结构化数据，而传统上需要为每个数据集单独训练模型。
 
-**社区讨论**: 评论者分享个人经验：frankie_t 指出精力和焦虑比时间更构成障碍；HexPhantom 强调真正的学习需要犯错误，而不只是消费材料；Fraterkes 提供实用建议，如加入俱乐部以保持持续练习。整体氛围是支持性的且富有洞见。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/">Introducing TabFM : A zero-shot foundation model for tabular data</a></li>
+<li><a href="https://huggingface.co/google/tabfm-1.0.0-pytorch">google / tabfm -1.0.0-pytorch · Hugging Face</a></li>
 
-**标签**: `#learning`, `#personal development`, `#procrastination`, `#psychology`, `#motivation`
+</ul>
+</details>
+
+**标签**: `#tabular-data`, `#foundation-model`, `#zero-shot-learning`, `#google-research`, `#machine-learning`
 
 ---
 
 <a id="item-8"></a>
-## [AMD GLM-5.2 宣称性能更快更便宜，但量化精度损失引担忧](https://www.wafer.ai/blog/glm52-amd) ⭐️ 7.0/10
+## [2 万美元本地 AI 设备对比云服务，27 个月回本](https://www.reddit.com/r/LocalLLaMA/comments/1un6njn/doing_the_actual_math_on_a_20k_local_ai_rig/) ⭐️ 8.0/10
 
-AMD 的 GLM-5.2 模型是来自 Z.ai 的大规模推理模型，拥有 1M token 上下文窗口，声称每美元性能比之前更快更便宜。 这一进展标志着 AI 硬件和模型效率领域的竞争加剧，有望降低部署成本。但社区反馈指出了一个关键权衡：激进量化可能以牺牲模型准确性为代价来换取速度和成本节约。 该模型采用 FP4 量化，与 FP8 等高精度格式相比，可能导致显著准确度下降。一个量化版本与完整版价格相同，而更快的版本成本高得多，这引发了关于实际成本节约的质疑。
+一位 Reddit 用户将每月 200 美元的电费纳入总拥有成本模型，发现一台 2 万美元的本地 AI 设备与每月 200 美元的云订阅相比，大约需要 27 个月才能回本，挑战了自托管在购买硬件后就变成免费的这一假设。 该分析揭示了本地 AI 设备的隐藏电费成本，为爱好者和专业人士提供了更真实的财务对比，并可能影响在自托管与云服务之间的决策。 27 个月的回本点未计入折旧、转售价值下降、2 万美元的机会成本以及维护时间，这些都会使真正的回收期更长。电费费率与使用量因地区和负载而异。
 
-hackernews · latchkey · 7月3日 21:49 · [社区讨论](https://news.ycombinator.com/item?id=48780417)
+reddit · r/LocalLLaMA · /u/shyaaaaaaaaaaam · 7月4日 11:27
 
-**背景**: 量化是一种降低模型参数数值精度（例如从 32 位浮点到 4 位格式）的技术，以减少内存占用并加速推理，但这种权衡有时会降低输出质量。GLM-5.2 是一个专为复杂长期任务设计的推理模型，其性能正在 AMD 硬件上进行成本效率评估。
+**背景**: 自托管大语言模型（LLM）涉及在个人硬件上运行 AI 模型，提供隐私和离线访问，但需要大量的 GPU 前期投资和电费支出。云订阅以固定的月费提供类似功能，无需拥有硬件。许多爱好者认为自托管在购买硬件后就变成零成本，但电力消耗可能相当可观，从而延长盈亏平衡点。该分析将一台 2 万美元的本地 AI 设备与每月 200 美元的云订阅进行对比，凸显了常被忽视的电力开销。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://openrouter.ai/z-ai/glm-5.2">GLM 5 . 2 - API Pricing & Benchmarks | OpenRouter</a></li>
-<li><a href="https://grokipedia.com/page/Quantization_machine_learning">Quantization (machine learning)</a></li>
+<li><a href="https://www.plural.sh/blog/self-hosting-large-language-models/">Self - Hosted LLM : A 5-Step Deployment Guide</a></li>
+<li><a href="https://www.databasemart.com/llm-hosting">LLM Server Hosting, Cheap Self - Host LLMs Inference Server</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区成员普遍担忧 FP4 量化会导致显著精度损失，有用户称模型“功能上被脑叶切除”。其他人要求纳入每瓦性能指标，并在标题中明确量化方式。部分评论指出 AMD 的定价策略并未带来真正的成本优势，因为量化版本与完整模型价格相同。
-
-**标签**: `#AI performance`, `#quantization`, `#AMD`, `#benchmarking`, `#cost-efficiency`
+**标签**: `#cost-analysis`, `#local-llm`, `#self-hosting`, `#hardware`, `#economics`
 
 ---
 
 <a id="item-9"></a>
-## [二氧化碳浓度升高可能是认知表现的隐形瓶颈](https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/) ⭐️ 7.0/10
+## [《命令与征服：将军》借助 AI 工具 Fable 原生移植至 macOS、iPhone 和 iPad](https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main) ⭐️ 7.0/10
 
-一篇博客文章探讨了室内二氧化碳浓度升高对认知的潜在影响，引发了超过 400 条评论的热烈讨论。 这凸显了室内空气质量对思维表现的常被忽视的影响，对办公效率、课堂学习和公共健康都有意义。 讨论揭示了关键的二氧化碳认知影响研究存在可重复性问题，如 2012 年 Satish 等人开展的研究，并有实际观察显示教室浓度超过 2000 ppm。
+社区开发者利用 AI 工具 Fable 发布了经典即时战略游戏《命令与征服：将军》的 macOS、iPhone 和 iPad 原生移植版。 这展示了 AI 辅助代码移植的实际应用，可能降低将经典游戏引入现代 Apple 平台的门槛，并引发关于 AI 在游戏保存中作用的讨论。 该移植基于 EA 的 GPL 授权源代码和 fbraz3/GeneralsX 先前的 Linux/macOS 移植，增加了 iOS/iPadOS 支持及引擎修复。用户需在 Steam 上拥有游戏才能运行。
 
-hackernews · gslin · 7月4日 06:32 · [社区讨论](https://news.ycombinator.com/item?id=48783117)
+hackernews · asronline · 7月4日 19:41 · [社区讨论](https://news.ycombinator.com/item?id=48788283)
 
-**背景**: 二氧化碳是空气的天然成分，但在通风不良的室内其浓度会迅速上升。2012 年 Satish 等人的研究表明，即使中等浓度（约 1000 ppm）也可能损害决策能力，但后续的重复实验却得出了不一致的结果。
+**背景**: 《命令与征服：将军》是 EA 于 2003 年开发的即时战略游戏。EA 后来以 GPL v3 许可证发布了源代码，使社区移植成为可能。Fable 是一款用于大规模代码转换的 AI 工具，使得单个开发者能够高效移植整个代码库。
 
-**社区讨论**: 评论者意见分歧：一些人分享了教室中高浓度二氧化碳导致昏昏欲睡的亲身经历，并呼吁在设备中集成传感器；另一些人质疑背后的科学依据，指出重复实验的失败和科技界的过度炒作。
+**社区讨论**: 评论者普遍称赞 AI 在移植中的实际应用，但指出 AI 生成的文档风格令人不适。一些人提到需要在 Steam 上拥有游戏的要求，另一些人表示有兴趣移植类似的经典 RTS 游戏，如《帝王：浴血沙丘》。
 
-**标签**: `#co2`, `#cognitive-science`, `#indoor-air-quality`, `#decision-making`, `#controversy`
+**标签**: `#AI`, `#game-development`, `#macOS`, `#iOS`, `#porting`
 
 ---
 
 <a id="item-10"></a>
-## [Current AI 发布开源 AI 差距图谱 索引 421 个产品](https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything) ⭐️ 7.0/10
+## [解读 Linux 中 htop/top 输出的全面指南](https://peteris.rocks/blog/htop/) ⭐️ 7.0/10
 
-Current AI 发布了交互式差距图谱，详细记录了 421 个开源 AI 产品，包括 266 个软件工具、85 个模型、50 个数据集和 20 个硬件项目，其底层数据以 MIT 许可证在 GitHub 上发布。 该图谱为导航碎片化的开源 AI 生态系统提供了重要资源，帮助开发者、研究者和投资者发现差距与投资机会，并得到大量非营利资金支持。 该图谱将产品按模型组件、产品/用户体验和基础设施三个层次进行组织；完整数据集包含 1184 个 YAML 文件，并追踪了超过 16000 个 GitHub 仓库。
+一篇 2019 年详解 htop 和 top 内部工作原理的教程再次出现，引发了关于现代替代工具和配置技巧的热烈社区讨论。 该指南帮助 Linux 用户和管理员深入理解系统资源监控，同时社区意见介绍了 btop 等能提供更丰富信息的新工具。 文章涵盖了进程详情、内存和 CPU 指标，以及虚拟内存与驻留内存的区别。评论者建议在 htop 中禁用用户线程并启用树状视图，并称赞 btop 的现代界面及 GPU/功耗监控功能。
 
-rss · Simon Willison · 7月3日 22:04
+hackernews · theanonymousone · 7月4日 12:00 · [社区讨论](https://news.ycombinator.com/item?id=48784777)
 
-**背景**: Current AI 是一个全球性非营利组织，于 2025 年 2 月的巴黎人工智能行动峰会上成立，旨在构建公共利益 AI。该差距图谱基于 MOF、Hugging Face 等组织之前的开源 AI 堆栈图谱工作，以揭示关键差距。
+**背景**: htop 和 top 是类 Unix 系统的命令行系统监视器。top 是显示进程列表的基础工具，而 htop 提供交互式、彩色界面，支持进程树和鼠标。btop 是较新的替代品，用 C++编写，以现代美学可视化 CPU、内存、磁盘、网络和进程。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/">Open Source AI Gap Map - simonwillison.net</a></li>
-<li><a href="https://www.currentai.org/blogs/introducing-the-gap-map-v0-1">Introducing the Gap Map v0.1 - currentai.org</a></li>
-<li><a href="https://map.currentai.org/">Current AI – Open Source AI Gap Map</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Htop">Htop</a></li>
+<li><a href="https://github.com/aristocratos/btop">GitHub - aristocratos/btop: A monitor of resources</a></li>
 
 </ul>
 </details>
 
-**标签**: `#open-source`, `#AI`, `#ecosystem`, `#tools`, `#models`
+**社区讨论**: 社区讨论总体积极，用户分享了宝贵技巧。有用户因现代界面和功耗、GPU 等额外指标而转向 btop。另一用户建议在 htop 中禁用用户线程并启用进程树视图以提高清晰度。还有评论指出虚拟内存指标不可靠，主张关注驻留内存。
+
+**标签**: `#Linux`, `#system-monitoring`, `#htop`, `#top`, `#tutorial`
 
 ---
 
 <a id="item-11"></a>
-## [AI 恐慌与 LLM 辅导致开发者课程销量暴跌逾五成](https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything) ⭐️ 7.0/10
+## [AI 视频剪辑项目持续霸榜 GitHub](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901556&idx=2&sn=c3b0061d61a6767010f415d9b4fae1d8) ⭐️ 7.0/10
 
-Josh W. Comeau 报告称，其新发布的第三门课程《Whimsical Animations》销售额仅为平时的三分之一，而现有课程的销售额也同比下降显著，总营收下降超过 50%。他将此归因于开发者对 AI 取代工作的担忧以及免费大型语言模型（LLM）辅导的普及。 来自知名课程创作者的第一手报告表明，开发者教育市场可能面临颠覆，AI 引发的就业焦虑和免费 LLM 辅导正在侵蚀付费课程市场，多位创作者营收跌幅超 50%。这反映了 AI 对技术教育领域的深远影响。 Comeau 描述了 AI 带来的“双重打击”：一方面，开发者因担心 AI 会让工作消失而不愿投入时间金钱学习新技能；另一方面，即使他们想学习，免费的大型语言模型也能提供个性化辅导。此外，多位课程创作者也报告了类似的营收暴跌。
+名为 MoneyPrinterTurbo 的开源 AI 项目霸占 GitHub 趋势榜，它一键自动化短视频创作全流程，包括脚本生成、素材匹配、配音、字幕和剪辑。 这反映了市场对 AI 驱动内容创作工具的强劲需求，大幅降低了视频制作门槛，让非专业用户也能高效制作专业级视频，可能重塑自媒体和营销内容的生产方式。 该项目利用大语言模型生成脚本，集成 TTS 语音合成，自动匹配免版税素材和背景音乐，支持多语言输出。它提供 Web 界面和 Docker 部署，已获超 23,000 个 GitHub 星标，但依赖第三方 API 和素材库。
 
-rss · Simon Willison · 7月3日 21:25
+rss · 量子位 · 7月4日 04:00
 
-**背景**: 大型语言模型（LLM）是基于海量文本数据训练的 AI 模型，能够生成自然语言回答并辅助编程。近年来，ChatGPT 等工具提供了免费且便捷的辅导服务，对传统付费教育内容形成了挑战。Josh Comeau 是知名前端开发者教育者，其精心制作的网页开发课程过去销量很高。如今，开发者教育领域正面临 AI 带来的冲击。
+**背景**: AI 视频生成融合了自然语言处理、计算机视觉和语音合成技术。MoneyPrinterTurbo 等工具将预训练模型（如 GPT 用于文本、TTS 用于语音）编排成自动化流水线，代表了生成式 AI 向创意领域扩展的大趋势，类似于 AI 写作助手自动化文本创作。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Llama_(large_language_model)">Llama (large language model)</a></li>
+<li><a href="https://github.com/harry0703/MoneyPrinterTurbo">GitHub - harry0703/MoneyPrinterTurbo: 利用AI大模型，一键生成高清...</a></li>
+<li><a href="https://agentpedia.codes/zh/blog/moneyprinterturbo-ai-short-video-generator-guide">MoneyPrinterTurbo 深度解析：从脚本到渲染的一键式 AI 短 视 频 生成</a></li>
+<li><a href="https://juejin.cn/post/7474261069655097395">MoneyPrinterTurbo ：23.9K Star！ 这个 AI ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI`, `#developer education`, `#course sales`, `#LLM impact`, `#tech industry trends`
+**标签**: `#AI`, `#video-editing`, `#open-source`, `#automation`, `#GitHub-trending`
 
 ---
 
 <a id="item-12"></a>
-## [Google 发布 TabFM：面向表格数据的零样本基础模型](https://www.reddit.com/r/LocalLLaMA/comments/1un5hyi/googletabfm100/) ⭐️ 7.0/10
+## [Qwen3.6-27B 在奇幻角色扮演基准测试中表现优异，揭示类别性能悬崖](https://www.reddit.com/r/LocalLLaMA/comments/1unbm45/ran_a_classicmedival_europe_fantasy_rpagentic/) ⭐️ 7.0/10
 
-Google Research 发布了 TabFM，这是一个零样本基础模型，能够在不需要微调的情况下对表格数据进行分类和回归，只需将训练样本作为上下文输入，即可在一次前向传播中完成预测。 它简化了结构化数据的机器学习流程，无需超参数调整和模型训练，可能让非专业人士也能轻松进行表格预测，并加速开发周期。 该模型能够处理混合数值型和类别型列，并通过上下文学习进行预测，但其性能相比 XGBoost 和神经网络等传统方法尚未得到公开基准的验证。
+一项用户创建的基准测试对 8 款本地大模型进行了中世纪奇幻角色扮演任务评估，其中 gemma-4-31B 整体通过率最高（87%），Qwen3.6-27B 紧随其后（82%），但细分分数显示，在 NPC 思维和任务摘要等类别上存在显著的性能悬崖，这些被总体指标所掩盖。 这凸显了超越总体准确率的细致评估的必要性，尤其是在角色扮演和智能体任务中，跨不同子任务的一致性能对于沉浸式用户体验至关重要。像 Qwen3.6-27B 这样的小型模型展现出竞争力，挑战了只有大型模型才足够的假设。 该基准测试涵盖任务完成、场景结局、物品/时间追踪、角色检测、故事叙述和草拟等，由外部大模型评判员打分。每个类别的测试用例数量不等，顶级模型之后的急剧下降表明，许多本地大模型仍难以保持叙事连贯性。
 
-reddit · r/LocalLLaMA · /u/Balance- · 7月4日 10:20
+reddit · r/LocalLLaMA · /u/UsedMorning9886 · 7月4日 15:15
 
-**背景**: 零样本学习使模型无需特定任务训练即可处理新任务，通常借助辅助信息。基础模型是在大规模数据上预训练、可适应多种下游任务的模型。上下文学习是一种方法，模型根据输入提示中提供的示例来执行任务，无需更新参数。TabFM 将这些概念应用于表格数据领域，该领域传统上由梯度提升树等方法主导。
+**背景**: 本地大语言模型是可运行在个人硬件上的开放权重模型，为文字角色扮演游戏等利基应用提供隐私和定制化。Qwen 是阿里云开发的大模型系列，Qwen3.6-27B 是一款 270 亿参数的稠密模型。Gemma 是谷歌 DeepMind 的开放权重模型系列，Gemma 4 于 2026 年 4 月发布。LLM-as-a-judge 是一种评估方法，让一个大模型根据评分标准评判另一个模型的输出，提供可扩展但并非完美的评分。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Zero-shot_learning">Zero-shot learning</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Foundation_model">Foundation model</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Qwen">Qwen - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gemma_(language_model)">Gemma (language model)</a></li>
+<li><a href="https://huggingface.co/learn/cookbook/llm_judge">Using LLM - as - a - judge for an automated and versatile...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#tabular-data`, `#foundation-model`, `#zero-shot`, `#google-research`
+**标签**: `#llm benchmark`, `#local llm`, `#role-playing agent`, `#open-source models`, `#evaluation`
 
 ---
 
 <a id="item-13"></a>
-## [Reddit 用户称发现 Anthropic 提示注入证据](https://www.reddit.com/r/LocalLLaMA/comments/1unif51/possible_evidence_of_literal_prompt_injection_by/) ⭐️ 7.0/10
+## [Qwen3.6 27B 在 RTX 5090 上调优后的 token 生成速度分布分享](https://www.reddit.com/r/LocalLLaMA/comments/1unbi4a/qwen36_27b_on_a_5090_64k_sample_toks_distribution/) ⭐️ 7.0/10
 
-一则 Reddit 帖子声称发现了 Anthropic 可能进行直接提示注入的证据，引发了对该 AI 巨头安全与伦理实践的担忧。 如果属实，这将表明领先 AI 公司存在重大安全漏洞和潜在操控行为，损害公众对 AI 安全措施的信任，可能影响整个 LLM 生态并引发监管关注。 帖子未提供具体技术细节，但提及了“直接提示注入”，即通过输入数据嵌入指令来操控 LLM 行为。由于缺乏进一步证据，该说法尚未得到证实。
+一位 Reddit 用户分享了在 RTX 5090 上运行 Qwen3.6 27B 时，通过调整 llama.cpp 参数（如 MTP draft=10、spec-draft-p-min=0.5）后详细的 token 生成速度分布，提供 6454 个样本，平均速度 140.7 tok/s，峰值区间 120-130 tok/s。 这一实际基准测试为本地 LLM 用户提供了可调优的参数和预期速度，表明仔细优化 llama.cpp 的投机解码和缓存设置可以显著提高消费级硬件上的推理吞吐量。 该配置使用 q8 KV 缓存、192k 上下文长度、batch/ubatch 512，并采用 MTP 投机解码（draft=10，spec-draft-p-min=0.5）。需注意 llama.cpp 对该模型的混合注意力/SWA 缓存处理尚不完善，可能导致提示重处理警告，影响一致性。
 
-reddit · r/LocalLLaMA · /u/johnnyApplePRNG · 7月4日 19:54
+reddit · r/LocalLLaMA · /u/UsedMorning9886 · 7月4日 15:11
 
-**背景**: 提示注入是一种网络安全攻击，通过对抗性输入覆盖 LLM 的系统提示，导致非预期输出。这是 AI 系统中已知的漏洞。Anthropic 是一家注重 AI 安全的知名公司。该说法暗示 Anthropic 可能在利用此类技术，或许是出于竞争或防御目的。
+**背景**: llama.cpp 中的投机解码（包括 MTP 多 Token 预测）会预先生成多个候选 token 并并行验证，从而显著加速推理。参数`spec-draft-p-min`设定了接受阈值，值为 0.5 表示仅置信度至少 50%的 token 会被草案，以减少无效计算。Q8 KV 缓存量化使用 8 位精度存储键值张量，节省显存但可能比更低量化级别慢。RTX 5090 拥有 32GB 显存，通过此类调优可高速运行 27B 模型。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Prompt_injection">Prompt injection</a></li>
-<li><a href="https://grokipedia.com/page/prompt-injection">Prompt injection</a></li>
+<li><a href="https://victor-mtp-on-hf-endpoints.static.hf.space/">Speculative decoding in llama . cpp — MTP vs the others</a></li>
+<li><a href="https://unsloth.ai/docs/models/mtp">How to Run MTP Models: Multi-Token... | Unsloth Documentation</a></li>
+<li><a href="https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/">Mastering LLM Techniques: Inference Optimization | NVIDIA Technical...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#prompt injection`, `#Anthropic`, `#AI security`, `#LLM`, `#AI ethics`
+**标签**: `#LLM Inference`, `#Performance Benchmarking`, `#llama.cpp`, `#Local LLMs`, `#Qwen`
 
 ---
 
 <a id="item-14"></a>
-## [幻想 RP 基准：Gemma-4-31B 和 Qwen3.6-27B 领先，子分数暴露短板](https://www.reddit.com/r/LocalLLaMA/comments/1unbm45/ran_a_classicmedival_europe_fantasy_rpagentic/) ⭐️ 7.0/10
+## [多块扩散语言模型实现并行文本生成](https://www.reddit.com/r/LocalLLaMA/comments/1un8y5p/paper_multiblock_diffusion_language_models/) ⭐️ 7.0/10
 
-一位 Reddit 用户创建了幻想角色扮演基准测试，包含任务完成和 NPC 思维跟踪等类别，测试了八个本地大语言模型。Gemma-4-31B 总体通过率最高（87%），Qwen3.6-27B 紧随其后（82%），但子分数揭示了整体百分比所掩盖的特定任务中的重要弱点。 子任务表现不平衡表明，总体通过率可能具有误导性，凸显了在为交互式叙事或游戏主持等代理应用选择模型时进行细粒度评估的必要性。这一见解有助于本地 LLM 用户根据特定任务优势做出更明智的决策。 基准测试套件包括任务完成、场景结局、物品/时间追踪、角色检测、讲故事和起草。使用外部 LLM 评分器。像 Gemma-4-12B 这样的模型总体得分达到 80%，但在“NPC 思维”或“任务总结”上显著下降，较小模型得分在 55-70%之间。
+该论文提出了多块扩散语言模型（MBD-LMs）和一种名为多块教师强制（MultiTF）的训练方法，可在扩散文本生成中并行解码多个连续块，提升推理速度和质量。 这一进展解决了文本生成中的顺序瓶颈，极大地提高了每次前向传递的 token 数，同时保持甚至提升了准确率，有望带来更高效的大语言模型。 MBD-LMs 通过使用 MultiTF 对 BD-LMs 进行后训练获得，该方法在干净前缀条件下对带界限的噪声组进行训练，并使用随机噪声调度器。块缓冲机制通过保留前缀缓存重用和静态输入形状来优化解码，将并行转化为实际加速。实验表明，MBD-LLaDA2-Mini 将平均 TPF 从 3.47 提高到 6.19，准确率从 79.95% 提高到 81.03%；结合 DMax 时，TPF 达到 9.34，准确率仅下降 1.02%。
 
-reddit · r/LocalLLaMA · /u/UsedMorning9886 · 7月4日 15:15
+reddit · r/LocalLLaMA · /u/pmttyji · 7月4日 13:21
 
-**背景**: Gemma-4-31B 是 Google DeepMind 的开源多模态模型，而 Qwen3.6-27B 是 Qwen 团队的稠密模型，具有强大的编码和推理能力，均设计用于本地运行。代理基准测试评估的是能够自主规划和执行复杂任务的 AI 代理，而不是简单的文本补全。在角色扮演场景中，模型必须保持叙事连贯性、追踪游戏状态并扮演角色，这需要稳健的多步推理。
+**背景**: 块扩散语言模型（BD-LMs）是一类结合自回归和扩散方法的文本生成模型，通过分块生成文本，可在每个块内并行解码。教师强制是一种常见的训练策略，即在训练中为模型提供真实的前文 token，但会与推理过程存在差异。扩散强制是一种训练范式，让扩散模型对具有独立 per-token 噪声水平的 token 进行去噪，连接了下一 token 预测和全序列扩散。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://qwen.ai/blog?id=qwen3.6-27b">Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model</a></li>
-<li><a href="https://huggingface.co/google/gemma-4-31B">google/gemma-4-31B · Hugging Face</a></li>
-<li><a href="https://www.codesota.com/agentic">Agentic AI Benchmarks 2026: SWE- bench , Agent... | CodeSOTA</a></li>
+<li><a href="https://arxiv.org/abs/2503.09573">[2503.09573] Block Diffusion: Interpolating Between ... Block Diffusion - m-arriola.com [2606.29215] Multi-Block Diffusion Language Models - arXiv.org GitHub - kuleshov-group/bd3lms: [ICLR 2025 Oral] Block ... Awesome Diffusion Language Models - GitHub Fast-dLLM v2 - nvlabs.github.io DiffusionGemma — Google DeepMind</a></li>
+<li><a href="https://arxiv.org/abs/2407.01392">[2407.01392] Diffusion Forcing: Next-token Prediction Meets Full-Sequence Diffusion</a></li>
+<li><a href="https://arxiv.org/abs/2606.29215">[2606.29215] Multi-Block Diffusion Language Models - arXiv.org</a></li>
 
 </ul>
 </details>
 
-**标签**: `#LLM benchmarking`, `#role-playing agents`, `#local LLM evaluation`, `#Qwen`, `#Gemma`
+**标签**: `#diffusion models`, `#language models`, `#text generation`, `#neural networks`, `#machine learning`
 
 ---
 
 <a id="item-15"></a>
-## [多块扩散语言模型：每次前向生成 6.19 个令牌](https://www.reddit.com/r/LocalLLaMA/comments/1un8y5p/paper_multiblock_diffusion_language_models/) ⭐️ 7.0/10
+## [DeepSeek V4 分支合并量化 KV 缓存修复，单 GPU 支持 100 万上下文](https://www.reddit.com/r/LocalLLaMA/comments/1une2il/i_merged_fixes_for_quantized_kv_cache_into_my/) ⭐️ 6.0/10
 
-该论文提出了多块扩散语言模型（MBD-LMs），通过对现有块扩散语言模型进行多块教师强制（MultiTF）后训练，实现多个连续块的并行解码，将平均每次前向令牌数（TPF）从 3.47 提升至 6.19。 这弥合了扩散语言模型训练与推理之间的差距，大幅提升了大语言模型的推理吞吐量和效率，对实时应用和降低部署成本至关重要。 该方法采用优化的块缓冲解码算法，保持前缀缓存重用和静态输入形状，将并行性提升转化为实际加速。准确率从 79.95%升至 81.03%，结合 DMax 时 TPF 达 9.34，在数学和代码基准上准确率仅下降 1.02%。
-
-reddit · r/LocalLLaMA · /u/pmttyji · 7月4日 13:21
-
-**背景**: 扩散语言模型通过迭代去噪生成文本，不同于自回归模型逐个预测令牌。块扩散语言模型将序列分成块并在块内进行扩散，支持 KV 缓存和灵活长度生成。多块解码进一步并行解码多个连续块，但标准教师强制训练导致与推理条件不匹配，多块教师强制旨在解决这一问题。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/SJTU-DENG-Lab/mbd-lms">GitHub - SJTU-DENG-Lab/mbd-lms: Multi-Block Diffusion Language Models · GitHub</a></li>
-<li><a href="https://arxiv.org/abs/2503.09573">[2503.09573] Block Diffusion: Interpolating Between Autoregressive and Diffusion Language Models</a></li>
-
-</ul>
-</details>
-
-**标签**: `#diffusion-models`, `#language-modeling`, `#post-training`, `#parallel-decoding`, `#multi-block`
-
----
-
-<a id="item-16"></a>
-## [DeepSeek V4 分支合并量化 KV 缓存修复，单 GPU 支持百万上下文](https://www.reddit.com/r/LocalLLaMA/comments/1une2il/i_merged_fixes_for_quantized_kv_cache_into_my/) ⭐️ 6.0/10
-
-维护者将拉取请求 #25247、#25303 和 #25202 合并到 DeepSeek V4 的 llama.cpp 分支中，修复了量化 KV 缓存支持，使得 IQ2XXS 量化模型能够在单张 NVIDIA RTX PRO 6000 GPU 上运行高达 100 万 token 上下文。 这显著降低了长上下文推理的硬件门槛，使大容量本地 AI 更容易获取，并为以前需要多 GPU 的用户降低了成本。 这些修复利用 q8_0 KV 缓存量化搭配 IQ2XXS 模型，初步困惑度测试显示与 f16 基线相比质量损失极小，同时显著降低了内存占用。
+一位开发者的 DeepSeek V4 分支合并了多项 PR 以支持量化 KV 缓存，使得一个高度量化的 DeepSeek V4 模型（IQ2XXS）能够以 100 万 token 上下文在单张 RTX PRO 6000 GPU 上运行，并提供了基准测试结果。 这表明通过激进的模型和 KV 缓存量化，像 DeepSeek V4 这样的尖端模型可以在单 GPU 上处理超长上下文任务，显著降低硬件成本，使本地部署更加可行。 该设置对模型权重使用 IQ2XXS（2 位）量化，对 KV 缓存使用 Q8_0（8 位）量化。提示处理速度从 2K 上下文时的约 1790 tokens/s 下降到 1M 时的约 201 tokens/s，但生成速度仍可接受。该分支因省略了填充修改可能不稳定，且困惑度影响似乎很小。
 
 reddit · r/LocalLLaMA · /u/fairydreaming · 7月4日 16:57
 
-**背景**: KV 缓存量化可在推理期间压缩键值状态以减少内存占用，对长序列至关重要。DeepSeek V4 是近期开源的支持高达 100 万 token 上下文的混合专家语言模型；其 Flash 变体拥有 284B 参数但仅激活 13B。IQ2XXS 是一种极端的 2 位量化方法，能大幅压缩模型体积同时保持性能，使大模型装入有限 GPU 显存成为可能。
+**背景**: llama.cpp 是一个流行的开源框架，利用多种量化技术在本地运行大型语言模型。DeepSeek V4 是一个强大的混合专家模型，以强大的推理和智能体能力著称。KV 缓存量化通过以较低精度存储键值缓存来减少内存占用，从而支持更长的上下文窗口。IQ2XXS 是一种极低位量化，将模型权重大约压缩到每参数 2 位。NVIDIA RTX PRO 6000 是一款拥有 48GB 显存的专业 GPU，通常用于高性能工作站。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://huggingface.co/blog/kv-cache-quantization">Unlocking Longer Generation with Key-Value Cache Quantization</a></li>
-<li><a href="https://api-docs.deepseek.com/news/news260424">DeepSeek V4 Preview Release | DeepSeek API Docs</a></li>
-<li><a href="https://arxiv.org/html/2603.04162v1">Bielik-Q2-Sharp: A Comparative Study of Extreme 2-bit Quantization ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/DeepSeek">DeepSeek</a></li>
+<li><a href="https://docs.vllm.ai/en/latest/features/quantization/quantized_kvcache/">Quantized KV Cache - vLLM</a></li>
 
 </ul>
 </details>
 
-**标签**: `#quantized-kv-cache`, `#deepseek`, `#llama.cpp`, `#local-llm`, `#memory-optimization`
+**标签**: `#llama.cpp`, `#DeepSeek-V4`, `#kv-cache`, `#quantization`, `#local-llm`
+
+---
+
+<a id="item-16"></a>
+## [本地 Qwen3.6 模型在 Java 游戏中自主测试实现 A*寻路](https://www.reddit.com/r/LocalLLaMA/comments/1umvwb9/qwen3627bmtpq8_successfully_created_an_a/) ⭐️ 6.0/10
+
+一位用户使用本地的 Qwen3.6-27b-mtp-q8 模型，通过 Claude Code 为一个 Java 游戏创建了 A*寻路算法，并设置了自主测试循环，持续监控日志、重构代码并重新测试。 这表明使用本地大语言模型进行带自主反馈的迭代游戏开发日益实用，可能减少手动调试工作，并使“vibe 编程”工作流成为可能。 该过程包括 12 小时的自主测试，偶尔进行手动检查；模型创建了测试套件，自动控制玩家，并生成 NPC 追逐。通过实时重构代码，解决了之前玩家距离过远导致索引错误崩溃的问题。
+
+reddit · r/LocalLLaMA · /u/swagonflyyyy · 7月4日 01:28
+
+**背景**: “Vibe 编程”一词由 Andrej Karpathy 于 2025 年创造，描述了一种 AI 辅助编程方式：开发者用自然语言描述任务，AI 生成代码。Qwen 是阿里云开发的一系列大语言模型，通常开源并用于代码生成。在本案例中，Qwen 模型通过 Claude Code 这一 AI 代码助手在本地运行。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Vibe_coding">Vibe coding</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Qwen">Qwen</a></li>
+
+</ul>
+</details>
+
+**标签**: `#local-llm`, `#vibecoding`, `#game-development`, `#automated-testing`, `#open-source-ai`
 
 ---
 
 <a id="item-17"></a>
-## [$20k 本地 AI 设备与$200/月订阅的盈亏平衡分析](https://www.reddit.com/r/LocalLLaMA/comments/1un6njn/doing_the_actual_math_on_a_20k_local_ai_rig/) ⭐️ 6.0/10
+## [阿里巴巴 Page Agent：自然语言驱动网页交互](https://github.com/alibaba/page-agent) ⭐️ 6.0/10
 
-一位 Reddit 用户模拟了一台价值 2 万美元的本地 AI 设备与每月 200 美元订阅服务之间的盈亏平衡点，发现在不计算折旧和机会成本的情况下，需要 27 个月才能收回硬件成本。 该分析指出了自托管中常被忽视的电力成本，说明本地 AI 在购买后并非“免费”，有助于用户做出更明智的财务决策。 该模型假设前期成本为 2 万美元的双高端 GPU 配置，每月电力成本 200 美元，与每月 200 美元的订阅服务对比；若考虑折旧和转售价值等因素，盈亏平衡点会更远。
+阿里巴巴的 Page Agent 是一个新开源的 TypeScript 库，将 JavaScript GUI 代理直接嵌入网页，实现自然语言控制界面，过去 24 小时在 GitHub 上获得 35 颗星。 该工具通过让用户用自然语言控制界面而非编写自定义脚本，使网络自动化更易普及。其页面内代理方法简化了集成工作，可能降低构建 AI 驱动网络交互的门槛。 Page Agent 是一个纯 Web 的 GUI 代理，完全通过 JavaScript 在浏览器中运行，无需后端改动。它使用 TypeScript 构建，能以极少的集成工作接入任何网站。
 
-reddit · r/LocalLLaMA · /u/shyaaaaaaaaaaam · 7月4日 11:27
+ossinsight · alibaba · 7月4日 22:56
 
-**背景**: 自托管大型语言模型（LLM）指在个人硬件上运行 AI 模型，提供隐私和离线访问能力，但需要前期硬件投入和持续电力成本。订阅服务则无需购买硬件，但需按月付费并依赖供应商。在本地 AI 社区中，成本效益经常引发讨论，但电力等隐性开销常被忽视。帖文中还提到了“RAM Apocalypse”（内存价格飙升），指 AI 需求导致内存市场价格暴涨的现象。
+**背景**: GUI 代理是一种能像人类一样解读并与图形界面交互的 AI 系统，常使用视觉和语言模型。与 Selenium 等从浏览器外部模拟操作的工具不同，页面内 JavaScript 代理直接访问网页 DOM，更高效易集成。该方法无需复杂后端即可实现自然语言控制界面。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://localairigs.com/guides/local-ai-vs-chatgpt-cost">Local AI vs ChatGPT Cost in 2026 — The Break-Even Math</a></li>
-<li><a href="https://aisuperior.com/cost-of-running-local-llm/">Cost of Running Local LLM: Real Numbers & Break-Even Guide 2026</a></li>
+<li><a href="https://github.com/alibaba/page-agent">GitHub - alibaba/page-agent: JavaScript in-page GUI agent ...</a></li>
+<li><a href="https://alibaba.github.io/page-agent/">PageAgent - The GUI Agent Living in Your Webpage</a></li>
+<li><a href="https://pageagent.net/">PageAgent: Alibaba GUI Agent Living in Your Webpage</a></li>
 
 </ul>
 </details>
 
-**标签**: `#local-llm`, `#self-hosting`, `#cost-analysis`, `#electricity-costs`, `#breakeven`
+**标签**: `#web-automation`, `#gui-agent`, `#natural-language`, `#typescript`, `#open-source`
 
 ---
 
 <a id="item-18"></a>
-## [为何 Step 3.7 Flash 模型在 Claude Code 上表现优于 Hermes？](https://www.reddit.com/r/LocalLLaMA/comments/1unbjr2/using_local_models_with_hermes_vs_claude_code/) ⭐️ 6.0/10
+## [DeusData 发布高性能代码知识图谱 MCP 服务器](https://github.com/DeusData/codebase-memory-mcp) ⭐️ 6.0/10
 
-一位 Reddit 用户发现，新发布的 Step 3.7 Flash 模型在搭配 Claude Code 编码工具时，性能优于配合 Hermes 本地代理框架使用。 这一性能差异凸显了模型集成和工具对实际 AI 编码输出的显著影响，对于要在本地和云端工作流之间做选择的开发者来说至关重要。 具体原因未经证实。可能包括 Claude Code 中的提示工程、API 配置或系统级优化与模型训练更匹配等因素。
+DeusData 发布了开源 MCP 服务器 codebase-memory-mcp，它能将代码库索引为持久知识图谱。该工具支持 158 种语言，提供亚毫秒级查询，并声称在向 LLM 提供代码上下文时可减少 99% 的 Token 用量。 通过将代码库转化为可查询的知识图谱，该工具大幅降低了 AI 编程助手的 Token 开销，使代码智能更高效且可扩展。它有望降低集成 LLM 的开发者工具的成本并缩短响应时间。 该服务器用 C 语言编写，以单个无依赖的静态二进制文件分发，平均可在毫秒级内完成代码库索引。它支持 158 种编程语言，提供亚毫秒级查询响应，这对实时编码应用至关重要。
 
-reddit · r/LocalLLaMA · /u/GreatMammad · 7月4日 15:13
+ossinsight · DeusData · 7月4日 22:56
 
-**背景**: Step 3.7 Flash 是 StepFun 推出的代理型 AI 模型，专为代码生成和工具调用设计。Claude Code 是 Anthropic 的专用编码工具，可能为其托管的模型做了优化。Hermes 是一个开源代理客户端，可通过 Unsloth 的 OpenAI 兼容 API 连接任何本地大模型，但可能缺乏原生工具那样的深度集成。
+**背景**: 模型上下文协议（MCP）是一项开放标准，定义了工具如何为 LLM 提供上下文，类似于语言服务器协议（LSP）标准化编辑器与语言的交互。知识图谱是实体及其关系的结构化表示，能高效检索相关信息。该 MCP 服务器将代码索引为图结构，使 LLM 能仅获取代码库的必要部分，而非处理整个文件，因此可以显著降低 Token 消耗。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://static.stepfun.com/blog/step-3.7-flash/">Step 3.7 Flash — A high-efficiency Flash model for Real-World</a></li>
-<li><a href="https://unsloth.ai/docs/integrations/hermes-agent">How to Run Local AI Models with Hermes Agent | Unsloth Documentation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**标签**: `#local-llm`, `#model-benchmarking`, `#code-generation`, `#claude-code`, `#hermes`
+**标签**: `#mcp-server`, `#code-intelligence`, `#knowledge-graph`, `#high-performance`, `#developer-tools`
 
 ---
 
 <a id="item-19"></a>
-## [开源 AI 渗透测试工具 Strix 受开发者关注](https://github.com/usestrix/strix) ⭐️ 6.0/10
+## [OpenAI 发布插件让 Codex 在 Claude Code 中使用](https://github.com/openai/codex-plugin-cc) ⭐️ 6.0/10
 
-开源仓库 usestrix/strix 提供基于 AI 的智能代理，用于自动查找和修复应用漏洞，过去 24 小时新增 41 颗 GitHub 星标。 Strix 将自主渗透测试能力引入开发流程，有助于在代码上线前发现安全漏洞，符合安全左移的行业趋势。 Strix 使用 Python 编写，其 AI 代理能够动态执行代码并通过概念验证攻击来确认漏洞，同时支持在每次拉取请求中自动扫描。
+OpenAI 开源了一款名为 codex-plugin-cc 的插件，允许开发者将 Codex 这个 AI 编程代理直接集成到 Anthropic 的 Claude Code 环境中，用于代码审查和任务委托。 该插件连接了两大 AI 编程生态系统，可能提升同时使用 OpenAI 和 Anthropic 工具的开发者效率，也预示着 AI 平台之间互操作性的趋势。 该插件用 JavaScript 编写，24 小时内获得 22 颗星，关注度有限。它利用 Codex 的自动化软件工程能力，在 Claude Code 代理框架内提供功能，但采用率尚属小众。
 
-ossinsight · usestrix · 7月4日 20:55
+ossinsight · openai · 7月4日 22:56
 
-**背景**: 传统渗透测试依赖专业黑客，且耗时较长。像 Strix 这样的 AI 驱动工具旨在自动化漏洞发现过程，并通过提供确凿的损害证明来减少误报。该工具属于日益壮大的 AI 辅助安全解决方案生态，帮助开发者在开发早期保障应用安全。
+**背景**: OpenAI Codex 是一套 AI 编程代理，能自主完成功能开发、调试等软件工程任务。Claude Code 是 Anthropic 的代理型编程工具，可在终端、IDE 和浏览器中运行，让开发者用自然语言编辑文件并执行命令。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/usestrix/strix">GitHub - usestrix/strix: Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.</a></li>
-<li><a href="https://medium.com/data-science-collective/strix-the-open-source-ai-agent-for-security-testing-44e1ed244a9d">Strix: The Open-Source AI Agent for Security Testing | by Manish Shivanandhan | Data Science Collective | Medium</a></li>
+<li><a href="https://grokipedia.com/page/OpenAI_Codex">OpenAI Codex</a></li>
+<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
 
 </ul>
 </details>
 
-**标签**: `#security`, `#AI`, `#vulnerability`, `#open-source`, `#Python`
-
----
-
-<a id="item-20"></a>
-## [阿里巴巴发布 Page-Agent: 用自然语言控制网页的 JavaScript 库](https://github.com/alibaba/page-agent) ⭐️ 6.0/10
-
-阿里巴巴开源了 Page-Agent，一个 TypeScript 库，允许开发者在浏览器中通过自然语言命令直接控制网页界面。 该工具通过用直观的自然语言替代复杂的脚本，降低了网页自动化的门槛，可能加速 AI 驱动的浏览器代理和用户友好型自动化工具的开发。 Page-Agent 以页面内脚本的形式运行，通过 Chrome 扩展支持多页面控制，并与 MCP 集成，允许 AI 代理客户端控制浏览器。
-
-ossinsight · alibaba · 7月4日 20:55
-
-**背景**: GUI 代理是能够与网页等图形用户界面交互的 AI 系统，通过理解视觉元素和自然语言指令来执行自动化任务。自然语言网页自动化是一个不断发展的领域，旨在用直观的文本命令取代传统脚本，从而简化自动化、测试和数据抓取。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/alibaba/page-agent">GitHub - alibaba / page - agent : JavaScript in-page GUI agent.</a></li>
-<li><a href="https://emelia.io/hub/page-agent-alibaba">Page - Agent : Alibaba 's Open Source AI Web Copilot</a></li>
-<li><a href="https://medium.com/coding-nexus/alibaba-just-made-browser-automation-embarrassingly-simple-76c256300045">Alibaba Just Made Browser Automation Embarrassingly... | Medium</a></li>
-
-</ul>
-</details>
-
-**标签**: `#web-automation`, `#natural-language-processing`, `#gui-agent`, `#browser-automation`, `#javascript`
-
----
-
-<a id="item-21"></a>
-## [支持 158 种语言的高性能代码智能 MCP 服务器](https://github.com/DeusData/codebase-memory-mcp) ⭐️ 6.0/10
-
-DeusData/codebase-memory-mcp 是一个新的开源 MCP 服务器，使用 C 语言编写，可将代码库索引为持久化知识图谱，支持 158 种编程语言，查询速度达到亚毫秒级。 该工具通过减少 99% 的令牌使用量并提供近乎实时的结构化代码库知识访问，大幅提升了 AI 代码助手的效率，这可以加速软件开发和调试。 该服务器以单一静态二进制文件提供，无任何依赖，并利用 C 语言实现最佳性能。它可以在毫秒内索引普通仓库，并通过模型上下文协议 (MCP) 集成，作为 AI 模型的知识后端。
-
-ossinsight · DeusData · 7月4日 20:55
-
-**背景**: 模型上下文协议 (MCP) 是 Anthropic 在 2024 年推出的开放标准，允许 AI 模型通过统一接口连接外部工具和数据源。像这样的 MCP 服务器提供了专业化功能（如代码库分析），可以接入兼容的 AI 系统以扩展其能力。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol</a></li>
-<li><a href="https://modelcontextprotocol.io/docs/getting-started/intro">What is the Model Context Protocol (MCP)?</a></li>
-
-</ul>
-</details>
-
-**标签**: `#MCP`, `#code-intelligence`, `#knowledge-graph`, `#performance`, `#C`
+**标签**: `#ai`, `#codex`, `#claude-code`, `#plugin`, `#developer-tools`
 
 ---
