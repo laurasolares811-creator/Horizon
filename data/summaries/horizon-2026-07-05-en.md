@@ -1,542 +1,549 @@
 # Horizon Daily - 2026-07-05
 
-> From 46 items, 27 important content pieces were selected
+> From 45 items, 26 important content pieces were selected
 
 ---
 
-1. [Community Revolt Over Organic Maps Governance Drives Users to CoMaps Fork](#item-1) ⭐️ 8.0/10
-2. [Shadcn/UI Now Defaults to Base UI Instead of Radix](#item-2) ⭐️ 8.0/10
-3. [EU Council Fast-Tracks Chat Control 1.0 Mandating Message Scanning](#item-3) ⭐️ 8.0/10
-4. [Longcat 2.0: 1.6T MoE Model with 48B Active Params Open-Sourced under MIT](#item-4) ⭐️ 8.0/10
-5. [Gaming's Core Issue Is Ownership, Not Physical vs. Digital](#item-5) ⭐️ 7.0/10
-6. [Free Online Book: Introduction to Compilers and Language Design](#item-6) ⭐️ 7.0/10
-7. [Fast Software, the Best Software (2019)](#item-7) ⭐️ 7.0/10
-8. [Claude Opus 4.8 and Sonnet 5 Show Tool-Calling Regression](#item-8) ⭐️ 7.0/10
-9. [Benchmark of 13 LLMs at 65K-128K Context Reveals Prefill Speed and KV Heads Are Critical for Agents](#item-9) ⭐️ 7.0/10
-10. [Qualcomm Launches GenieX SDK for On-Device LLM Inference on Snapdragon X Laptops](#item-10) ⭐️ 7.0/10
-11. [Claude Fable review of sqlite-utils 4.0rc2 finds release-blocking bugs](#item-11) ⭐️ 6.0/10
-12. [World Map Rendered in ASCII Art Using Only 445 Bytes](#item-12) ⭐️ 6.0/10
-13. [Reddit Community Shares Top Local Open-Weight VLMs, July 2026](#item-13) ⭐️ 6.0/10
-14. [Concerns Over Open-Weight LLM Viability as Qwen Delays Larger Model Releases](#item-14) ⭐️ 6.0/10
-15. [Qwen 3.6 27B vLLM Benchmarks: FP8 Sweet Spot for Coding](#item-15) ⭐️ 6.0/10
-16. [Supra-Router-51M: A Tiny 51M Prompt Routing Model Released](#item-16) ⭐️ 6.0/10
-17. [LangChain Introduces OpenWiki CLI for Automated Agent Documentation](#item-17) ⭐️ 6.0/10
-18. [OpenAI Codex Plugin Enables Code Review and Task Delegation in Claude Code](#item-18) ⭐️ 6.0/10
-19. [Meetily: Self-Hosted AI Meeting Assistant with Local Processing](#item-19) ⭐️ 6.0/10
-20. [GitHub Repo Curates Leaked System Prompts from ChatGPT, Claude, etc.](#item-20) ⭐️ 6.0/10
-21. [AI-Powered Vulnerability Scanner Strix Gains Traction on GitHub](#item-21) ⭐️ 6.0/10
-22. [T3MP3ST: Autonomous Multi-Agent Red Teaming Platform Gains GitHub Traction](#item-22) ⭐️ 6.0/10
-23. [Facebook Releases Astryx: Agent-Ready Open-Source Design System](#item-23) ⭐️ 6.0/10
-24. [OpenMontage: Open-Source Agentic Video Production System Trends on GitHub](#item-24) ⭐️ 6.0/10
-25. [Xianyu Monitoring Tool Using Playwright and AI Earns 27 Stars](#item-25) ⭐️ 6.0/10
-26. [DeusData/codebase-memory-mcp: High-Performance Code Intelligence MCP Server](#item-26) ⭐️ 6.0/10
-27. [ZhuLinsen/daily_stock_analysis: LLM-Powered Stock Analysis Gains 21 Stars](#item-27) ⭐️ 6.0/10
+1. [Organic Maps Faces Backlash Over Ads, Closed Source, Leading to CoMaps Fork](#item-1) ⭐️ 8.0/10
+2. [It's About Ownership, Not Physical vs. Digital Games](#item-2) ⭐️ 8.0/10
+3. [Introduction to Compilers and Language Design (2021)](#item-3) ⭐️ 8.0/10
+4. [Prefill Speed and KV Head Count Dominate Long-Context Agentic Workloads](#item-4) ⭐️ 8.0/10
+5. [Flipper Zero Firmware Development Shifts to Community-Driven Model](#item-5) ⭐️ 7.0/10
+6. [Claude Fable Uncovers Critical Bug in sqlite-utils 4.0 Release](#item-6) ⭐️ 7.0/10
+7. [Building a World Map with Only 445 Bytes](#item-7) ⭐️ 7.0/10
+8. [Open-Weight LLM Viability Questioned Amid Qwen's Delayed Releases](#item-8) ⭐️ 7.0/10
+9. [Longcat 2.0 (1.6T Parameters, 48B Active) Open-Sourced Under MIT License](#item-9) ⭐️ 7.0/10
+10. [Distilled LivePortrait Achieves 25fps in Browser via WebGPU](#item-10) ⭐️ 7.0/10
+11. [Qualcomm Launches GenieX to Run LLMs on Snapdragon Laptops](#item-11) ⭐️ 7.0/10
+12. [Codex Plugin Brings OpenAI's Codex to Claude Code for Code Review](#item-12) ⭐️ 7.0/10
+13. [GitHub Repo Aggregates Leaked System Prompts from AI Models](#item-13) ⭐️ 7.0/10
+14. [T3MP3ST: Autonomous Red Teaming Platform with Multi-Agent Meta-Harness](#item-14) ⭐️ 7.0/10
+15. [DeusData/codebase-memory-mcp: High-Performance Codebase Indexing MCP Server](#item-15) ⭐️ 7.0/10
+16. [Starring the Computer: A Database of Vintage Computers in Media](#item-16) ⭐️ 6.0/10
+17. [Independent Researcher Builds 270M Parameter Transformer Language Model from Scratch](#item-17) ⭐️ 6.0/10
+18. [Psyche Network Enables Feasible Distributed Training of Large Models](#item-18) ⭐️ 6.0/10
+19. [Qwen 3.6 27B VLLM Benchmark: FP8 Optimal, NVFP4 Fastest on Blackwell](#item-19) ⭐️ 6.0/10
+20. [SupraLabs Releases 51M-Parameter Prompt Routing Model Supra-Router-51M](#item-20) ⭐️ 6.0/10
+21. [LangChain OpenWiki: CLI Automates AI Agent Documentation](#item-21) ⭐️ 6.0/10
+22. [Meetily: Local-First AI Meeting Assistant Built in Rust](#item-22) ⭐️ 6.0/10
+23. [Astryx: Meta's open source design system draws early interest on GitHub](#item-23) ⭐️ 6.0/10
+24. [Alibaba Releases Page Agent: JavaScript In-Page GUI Agent for Natural Language Web Control](#item-24) ⭐️ 6.0/10
+25. [OpenMontage: First Open-Source Agentic Video Production System](#item-25) ⭐️ 6.0/10
+26. [AI-Powered Job Application Framework Using Claude](#item-26) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Community Revolt Over Organic Maps Governance Drives Users to CoMaps Fork](https://organicmaps.app/) ⭐️ 8.0/10
+## [Organic Maps Faces Backlash Over Ads, Closed Source, Leading to CoMaps Fork](https://organicmaps.app/) ⭐️ 8.0/10
 
-The community discussion on Hacker News revealed widespread dissatisfaction with Organic Maps' governance and open-source practices, leading many users to recommend the fork CoMaps as a true FOSS alternative. This highlights the critical role of open-source governance and community trust; the emergence of CoMaps demonstrates how forks can arise from governance failures, potentially reshaping the user base and development momentum within the OSM-based navigation ecosystem. Community comments accuse Organic Maps of secretly adding ads, closing parts of its previously open-source code, and misusing donations. CoMaps is actively adding features like CarPlay Dashboard support and needs testers. F-Droid notes Organic Maps contains non-free components under a non-FLOSS license.
+The open-source navigation app Organic Maps is facing community backlash over allegations of adding advertisements, closing parts of its source code, and misappropriating donations, prompting the creation of a fork named CoMaps that aims to restore full free and open-source principles. This controversy highlights the critical importance of transparent governance in open-source projects, as a loss of trust can fracture communities and redirect development effort to forks, potentially reshaping the landscape of privacy-focused mapping tools. The CoMaps fork, now about a year old, is actively adding features like CarPlay Dashboard support and is seeking testers. Meanwhile, Organic Maps' F-Droid listing warns of 'non open source components' under a non-FLOSS license, and donation misappropriation allegations persist.
 
 hackernews · tosh · Jul 5, 14:14 · [Discussion](https://news.ycombinator.com/item?id=48794446)
 
-**Background**: Organic Maps is a privacy-focused, free and open-source offline navigation app using OpenStreetMap data, originally forked from Maps.Me. CoMaps is a recent community-driven fork created due to concerns over Organic Maps' governance, aiming to remain fully FOSS. Both apps provide offline maps, turn-by-turn navigation, and appeal to users prioritizing privacy and open data.
+**Background**: Organic Maps is an offline mapping application built on crowd-sourced OpenStreetMap data, offering navigation without internet connectivity. Initially developed as an open-source, privacy-focused alternative to proprietary services, it relies on community trust. When project maintainers make changes at odds with open-source values, community forks like CoMaps emerge to preserve those principles.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Organic_Maps">Organic Maps - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/CoMaps">CoMaps</a></li>
+<li><a href="https://organicmaps.app/">Organic Maps: Offline Hike, Bike, Trails and Navigation</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Overall, commenters expressed strong disapproval of Organic Maps' actions, citing broken trust and licensing issues, and overwhelmingly endorsed CoMaps as the legitimate FOSS successor. There is a sense of urgency for developers and testers to support CoMaps to fill the gap left by Organic Maps' governance failures.
+**Discussion**: Community sentiment is largely negative toward Organic Maps, with users recommending CoMaps as the genuine open-source alternative. Allegations of malicious behavior, such as quietly adding ads and closing source code, have driven many to the fork. Additionally, there is demand for a web client, which neither project currently provides.
 
-**Tags**: `#open source`, `#mapping`, `#navigation`, `#community fork`, `#OSM`
+**Tags**: `#open-source`, `#navigation`, `#fork`, `#controversy`, `#maps`
 
 ---
 
 <a id="item-2"></a>
-## [Shadcn/UI Now Defaults to Base UI Instead of Radix](https://ui.shadcn.com/docs/changelog) ⭐️ 8.0/10
+## [It's About Ownership, Not Physical vs. Digital Games](https://popcar.bearblog.dev/its-about-ownership/) ⭐️ 8.0/10
 
-Shadcn/UI has officially changed its default component primitives from Radix to Base UI, as announced in their changelog. This shift impacts many React developers who depend on Shadcn/UI, as it changes the underlying accessibility and behavior layer from Radix to Base UI, potentially affecting bundle size, customization, and the component ecosystem. The migration is opt-in for existing projects, but new installs default to Base UI. Base UI components are unstyled and aim to render native HTML elements, though some note excessive `<div>` usage. It may also influence bundle sizes and maintainer workflow.
+A blog post argues that the core issue in gaming is ownership, emphasizing the need for transferability and perpetual access, and it sparked extensive discussion on Hacker News. This highlights growing concerns over consumer rights in digital media, as more games are sold as licenses rather than owned products, impacting long-term access and preservation. The blog post notes that Steam's DRM is optional for many games, allowing offline play, but true ownership requires legal rights to transfer and durable access; community members suggest regulation and highlight that platform shutdowns can revoke access.
 
-hackernews · dabinat · Jul 5, 04:46 · [Discussion](https://news.ycombinator.com/item?id=48791328)
+hackernews · popcar2 · Jul 5, 14:56 · [Discussion](https://news.ycombinator.com/item?id=48794750)
 
-**Background**: Shadcn/UI is a React component library that offers copy-paste components built on headless primitives and Tailwind CSS. Radix UI is a low-level library focused on accessibility and customization. Base UI, created by the same team, provides unstyled components for greater styling control.
+**Background**: Historically, buying a physical game meant owning a copy that could be resold or lent. With digital distribution, games are often sold as non-transferable licenses, tied to accounts and dependent on server availability. Subscription services like Game Pass further blur ownership, offering access rather than possession. Digital rights management (DRM) can restrict usage even after purchase.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://grokipedia.com/page/shadcnui">shadcn/ui</a></li>
-<li><a href="https://github.com/radix-ui/primitives">GitHub - radix-ui/primitives: Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos. · GitHub</a></li>
-<li><a href="https://github.com/mui/base-ui">GitHub - mui/base-ui: Unstyled UI components for building accessible web apps and design systems. From the creators of Radix, Floating UI, and Material UI. · GitHub</a></li>
+**Discussion**: Community members largely agree that digital ownership is weak, with calls for regulation to ensure transferability and perpetual access. Some highlight the historical impact of subscription models and the role of piracy in game preservation.
 
-</ul>
-</details>
-
-**Discussion**: Community reaction is mixed: some dislike the AI-assisted writing style of the announcement, others debate copy-paste vs traditional libraries, and concerns include overuse of `<div>` over semantic HTML and whether the change improves bundle size or merely aids maintainers.
-
-**Tags**: `#react`, `#ui-components`, `#shadcn-ui`, `#frontend`, `#library-migration`
+**Tags**: `#digital ownership`, `#gaming`, `#regulation`, `#consumer rights`, `#preservation`
 
 ---
 
 <a id="item-3"></a>
-## [EU Council Fast-Tracks Chat Control 1.0 Mandating Message Scanning](https://www.heise.de/en/news/Chat-Control-1-0-EU-Council-forces-messenger-scans-via-fast-track-11353659.html) ⭐️ 8.0/10
+## [Introduction to Compilers and Language Design (2021)](https://dthain.github.io/books/compiler/) ⭐️ 8.0/10
 
-The EU Council is fast-tracking the adoption of 'Chat Control 1.0,' a regulation that will mandate messaging providers to scan private chats for harmful content such as child sexual abuse material, reinstating provisions that expired under previous temporary law. This move significantly expands the EU's surveillance capabilities within digital communications, intensifying privacy concerns among users and setting a contentious path that could eventually lead to encryption-breaking measures, even though the current version stops short of that. Chat Control 1.0 applies only to non-encrypted communications, unlike the more dangerous Chat Control 2.0 which would target end-to-end encryption. The fast-track process limits parliamentary debate and was enacted despite prior opposition to mass scanning by the EU Parliament.
+A free online textbook, 'Introduction to Compilers and Language Design,' teaches compiler construction through a hands-on C compiler project and has received strong community praise. It is a high-quality educational resource that makes compiler design accessible, helping students and self-learners master a fundamental area of computer science through practical implementation. The textbook is free online, focuses on building a C-style compiler step by step, and has been praised by former students of the author's course. Some comments note that it emphasizes compilers over language design.
 
-hackernews · stavros · Jul 5, 11:44 · [Discussion](https://news.ycombinator.com/item?id=48793393)
+hackernews · AlexeyBrin · Jul 5, 11:54 · [Discussion](https://news.ycombinator.com/item?id=48793454)
 
-**Background**: The EU's 'Chat Control' proposal was introduced in May 2022 to combat child sexual abuse online. A temporary derogation from ePrivacy rules allowed voluntary scanning of messages, which expired in 2023. The proposal has two tiers: the less intrusive 1.0 and the more controversial 2.0 that would require breaking end-to-end encryption. The EU Parliament has historically opposed mass scanning, but the Council is now pushing forward version 1.0 via a fast-track procedure.
+**Background**: A compiler translates high-level source code into machine code or another language. Understanding compilers is crucial for writing efficient code and grasping program execution. The textbook uses C, a widely-used systems language, to illustrate concepts concretely.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Chat_Control">Chat Control - Wikipedia</a></li>
-<li><a href="https://www.eff.org/deeplinks/2026/04/eu-parliament-blocks-mass-scanning-our-chats-whats-next">EU Parliament Blocks Mass-Scanning of Our Chats—What's Next? | Electronic Frontier Foundation</a></li>
+**Discussion**: Comments are largely positive, with former students praising the instructor and the step-by-step project. Some note the book's focus on compilers rather than language design, and one user suggests the C4 compiler as additional material.
 
-</ul>
-</details>
-
-**Discussion**: Commenters note that while this is the less invasive version, it still erodes privacy; some call for investigation into the EU Council's decisions, point out Italy's contradictory voting stance, and express resignation that such surveillance seems unstoppable, though a few argue for decentralizing the internet as a countermeasure.
-
-**Tags**: `#EU`, `#privacy`, `#chat-control`, `#surveillance`, `#legislation`
+**Tags**: `#compilers`, `#education`, `#programming-languages`, `#C`, `#book`
 
 ---
 
 <a id="item-4"></a>
-## [Longcat 2.0: 1.6T MoE Model with 48B Active Params Open-Sourced under MIT](https://www.reddit.com/r/LocalLLaMA/comments/1unyvnz/longcat_20_16t_48b_active_weights_are_now_open/) ⭐️ 8.0/10
+## [Prefill Speed and KV Head Count Dominate Long-Context Agentic Workloads](https://www.reddit.com/r/LocalLLaMA/comments/1unrse9/i_benchmarked_13_models_at_65k128k_context_to/) ⭐️ 8.0/10
 
-The weights of Longcat 2.0, a Mixture-of-Experts language model with 1.6 trillion total parameters and approximately 48 billion active parameters per token, have been released under the permissive MIT license. This release provides the local LLM community with a massive model that can be fine-tuned and deployed without restrictions, potentially enabling powerful on-device or research applications. The permissive license is especially significant as it removes commercial barriers common with other large models. Longcat 2.0 uses a Mixture-of-Experts architecture, meaning only a subset of its 1.6T parameters are active for any given token, leading to faster inference than a dense model of comparable capability. However, all parameters must still be loaded into memory, so it requires substantial VRAM for deployment.
+A benchmark of 13 LLMs at 65K–128K context reveals that prefill throughput, not token generation speed, dominates wall-clock time in agentic workloads, and that KV cache head count is more critical than parameter count for long-context performance. This challenges the common overemphasis on token generation speed (tg128) and shows that for agentic AI with short outputs, prioritizing prefill throughput and KV head architecture can lead to better model selection and deployment strategies, especially for local inference. Testing on an RX 7900 XT GPU with llama.cpp showed MoE models like Trinity-Mini had fastest prefill (923 tok/s at 131K), while dense models with low KV head counts degraded sharply; the KV cache head count drove prefill speed retention, with Mamba2 hybrid maintaining 69% of 4K speed at 131K.
 
-reddit · r/LocalLLaMA · /u/Nunki08 · Jul 5, 10:35
+reddit · r/LocalLLaMA · /u/linuxid10t · Jul 5, 03:37
 
-**Background**: Mixture of Experts (MoE) is a machine learning technique that divides a model into multiple 'expert' sub-networks, each specializing in different parts of the input data. During inference, only a subset of these experts is activated for each token, so the model's 'active' parameters are much smaller than its total parameters. This allows building very large models that are faster at inference because only a fraction of the total weights are used per forward pass. However, all expert parameters must still be loaded into memory (VRAM), so MoE models require high memory capacity but offer efficient computation.
+**Background**: LLM inference consists of two phases: prefill (processing all input tokens in parallel) and decode (generating tokens sequentially). The KV cache stores key and value tensors to avoid recomputation during decode. Agentic workloads involve tool use, coding agents, and RAG, often with long input contexts and short generated responses, making prefill time the dominant factor.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://huggingface.co/blog/moe">Mixture of Experts Explained</a></li>
-<li><a href="https://cameronrwolfe.substack.com/p/moe-llms">Mixture-of-Experts (MoE) LLMs - by Cameron R. Wolfe, Ph.D.</a></li>
-<li><a href="https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts">A Visual Guide to Mixture of Experts (MoE)</a></li>
+<li><a href="https://medium.com/@maghonei/optimizing-llm-inference-prefill-vs-decode-latency-vs-throughput-80dbf00fc0ba">Optimizing LLM Inference: Prefill vs Decode, Latency ... - Medium</a></li>
+<li><a href="https://arxiv.org/html/2605.09649v1">Make Each Token Count: Towards Improving Long-Context Performance with KV Cache Eviction - arXiv</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#open-source`, `#LLM`, `#Mixture-of-Experts`, `#weights-release`, `#MIT-license`
+**Tags**: `#LLM benchmarking`, `#agentic AI`, `#context window`, `#KV cache`, `#inference speed`
 
 ---
 
 <a id="item-5"></a>
-## [Gaming's Core Issue Is Ownership, Not Physical vs. Digital](https://popcar.bearblog.dev/its-about-ownership/) ⭐️ 7.0/10
+## [Flipper Zero Firmware Development Shifts to Community-Driven Model](https://blog.flipper.net/future-of-flipper-zero-development/) ⭐️ 7.0/10
 
-A recent blog post argues that the fundamental problem in gaming is the erosion of ownership rights, rather than the format of the game itself, sparking debate on regulation and consumer choice. This discussion highlights growing concerns over digital ownership rights, which affect how consumers purchase and access games, and could influence future regulations and business models in the gaming industry. The article notes that many Steam games can be played offline without launcher DRM, while commenters point out that cracks and piracy often provide more reliable long-term access than legitimate digital purchases.
+Flipper Devices announced a new resource allocation strategy for Flipper Zero firmware, scaling back internal development and relying more on community contributions. This shift could affect the pace and direction of firmware updates, as the community gains greater influence, while raising concerns about feature curation and project sustainability. The official firmware repository remains open for contributions, and popular alternative firmwares like Momentum and Unleashed already offer features that the official version lacks due to policy decisions, such as pentesting tools.
 
-hackernews · popcar2 · Jul 5, 14:56 · [Discussion](https://news.ycombinator.com/item?id=48794750)
+hackernews · croes · Jul 5, 18:22 · [Discussion](https://news.ycombinator.com/item?id=48796552)
 
-**Background**: Digital Rights Management (DRM) refers to technologies that control how digital content is used, often restricting copying and sharing. In gaming, digital purchases are typically licenses, not true ownership, meaning they can limit the ability to transfer or resell games and may become inaccessible if online services shut down. This contrasts with physical copies, which generally allow resale and indefinite use without external validation.
+**Background**: Flipper Zero is a portable multi-tool for security testing and hardware hacking, originally crowdfunded in 2020. Its firmware is open-source, and a vibrant community has developed custom firmwares with additional capabilities, sometimes conflicting with the official team's cautious approach regarding legal risks.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Digital_rights_management">Digital rights management - Wikipedia</a></li>
-<li><a href="https://www.fortinet.com/resources/cyberglossary/digital-rights-management-drm">What Is DRM? Digital Rights Management Explained | Fortinet</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Flipper_Zero">Flipper Zero</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Some commenters support regulation to enforce transferability and perpetual use of digital purchases. Others oppose regulation, emphasizing consumer choice and community-driven open projects. There is also acknowledgment that industry shifts toward subscription models reduce ownership, and that cracks often offer a more reliable form of ownership for PC games.
+**Discussion**: Comments reflected mixed sentiments: some praised the device's utility as a "computer Swiss Army knife," while others criticized the official firmware's limitations and the Discord moderation, noting bans for discussing alternative firmwares. There was also curiosity about the furry imagery in the announcement.
 
-**Tags**: `#digital ownership`, `#gaming`, `#consumer rights`, `#regulation`, `#software licensing`
+**Tags**: `#Flipper Zero`, `#Firmware`, `#Hardware Hacking`, `#Community`, `#Open Source`
 
 ---
 
 <a id="item-6"></a>
-## [Free Online Book: Introduction to Compilers and Language Design](https://dthain.github.io/books/compiler/) ⭐️ 7.0/10
+## [Claude Fable Uncovers Critical Bug in sqlite-utils 4.0 Release](https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything) ⭐️ 7.0/10
 
-The free online textbook 'Introduction to Compilers and Language Design' offers a hands-on approach to building a C-style compiler from scratch, and has been highly praised by students and developers. This resource lowers the barrier to learning compiler construction by providing a free, project-oriented curriculum, addressing the need for accessible educational materials in a traditionally challenging field of computer science. The textbook covers scanning, parsing, semantic analysis, and code generation, but concentrates on C's idiosyncrasies rather than a wider range of language design paradigms; it is essentially an 'intro to compilers' rather than a comprehensive guide to language design.
+Simon Willison used Claude Fable to perform a final review of sqlite-utils 4.0rc2, which revealed a critical data-loss bug in the `delete_where()` method and other release blockers, leading to 34 commits before stable release. Demonstrates practical AI-assisted development enhancing software quality; catching such a severe bug prevents data loss for users and highlights AI's value in code review tasks. The bug caused `delete_where()` to never commit transactions, poisoning the connection and discarding subsequent changes; the fix required wrapping in an `atomic()` wrapper. The process involved 37 prompts, 34 commits, and +1,321/-190 code changes.
 
-hackernews · AlexeyBrin · Jul 5, 11:54 · [Discussion](https://news.ycombinator.com/item?id=48793454)
+rss · Simon Willison · Jul 5, 01:00
 
-**Background**: Compiler construction is a core computer science subject often taught using the advanced 'Dragon Book'. Project-based learning, where students implement a working compiler, is a common pedagogical approach. This textbook fills a gap by offering a free, step-by-step guide suitable for self-study and classroom use.
+**Background**: sqlite-utils is a Python library and CLI tool for SQLite database manipulation. Claude Fable is a large language model by Anthropic, available temporarily on Max subscriptions, with code generation and review capabilities. The news highlights using AI for quality assurance in open-source release processes.
 
-**Discussion**: The community discussion shows strong endorsement from former students who found the project transformative, while some commenters note that the book's heavy emphasis on C limits its coverage of language design principles.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://sqlite-utils.datasette.io/">sqlite - utils</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Fable">Claude Fable</a></li>
 
-**Tags**: `#compilers`, `#programming-languages`, `#education`, `#C`, `#computer-science`
+</ul>
+</details>
+
+**Tags**: `#sqlite-utils`, `#AI-assisted-development`, `#Claude`, `#software-release`, `#open-source`
 
 ---
 
 <a id="item-7"></a>
-## [Fast Software, the Best Software (2019)](https://craigmod.com/essays/fast_software/) ⭐️ 7.0/10
+## [Building a World Map with Only 445 Bytes](https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything) ⭐️ 7.0/10
 
-A 2019 essay titled "Fast Software, the Best Software" by Craig Mod has recently garnered attention, prompting readers to share their experiences with sluggish software and recommend faster alternatives. The essay highlights that speed is a critical, often overlooked feature of software, directly impacting user satisfaction and productivity, which resonates as modern applications become increasingly bloated. Community comments cite specific examples like iStatMenu being slow and replaced by btop, Google Maps' sluggishness countered by Organic Maps, and a web developer noting that loading a 2MB dataset upfront can eliminate API roundtrip delays.
+Iwo Kadziela, with assistance from Codex, devised a method to render a recognizable ASCII world map using just 445 bytes of data by employing deflate compression and the JavaScript DecompressionStream API. This hack showcases the creative combination of modern web APIs like DecompressionStream with data URIs and fetch, inspiring developers to think about extreme data compression and novel visualization techniques. The technique involves base64-encoding a deflate-raw compressed world map into a data: URI, which is then fetched and decompressed in the browser using the DecompressionStream API. The entire process requires 445 bytes of data and a few lines of JavaScript.
 
-hackernews · ustad · Jul 5, 07:25 · [Discussion](https://news.ycombinator.com/item?id=48792008)
+rss · Simon Willison · Jul 4, 23:09
 
-**Background**: Craig Mod is a writer and designer known for his essays on technology and experience. The essay originally appeared on his website in 2019, arguing that fast software is fundamentally better because speed enhances usability and reduces cognitive friction.
+**Background**: Deflate is a lossless compression algorithm commonly used in ZIP and gzip formats. The Compression Streams API, introduced in modern browsers, provides DecompressionStream to decompress data streams. Data URIs allow embedding resources inline as base64-encoded strings, which can be fetched using fetch(). Combining these, the map's ASCII representation is compressed, encoded, and then decompressed client-side for display.
 
-**Discussion**: Commenters overwhelmingly agree with the essay's premise, sharing personal anecdotes of slow tools and offering alternatives; one notes latency matters as much as raw speed, while a web developer suggests reconsidering the trade-off between lean frontends and instant responsiveness.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/DecompressionStream">DecompressionStream - Web APIs | MDN</a></li>
+<li><a href="https://developer.chrome.com/blog/compression-streams-api/">Compression and decompression in the browser with the Compression Streams API | Blog | Chrome for Developers</a></li>
+<li><a href="https://en.wikipedia.org/wiki/DEFLATE">Deflate - Wikipedia</a></li>
 
-**Tags**: `#software performance`, `#user experience`, `#speed`, `#web development`, `#alternatives`
+</ul>
+</details>
+
+**Tags**: `#data-compression`, `#javascript`, `#web-apis`, `#visualization`, `#novelty`
 
 ---
 
 <a id="item-8"></a>
-## [Claude Opus 4.8 and Sonnet 5 Show Tool-Calling Regression](https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything) ⭐️ 7.0/10
+## [Open-Weight LLM Viability Questioned Amid Qwen's Delayed Releases](https://www.reddit.com/r/LocalLLaMA/comments/1uo9m72/is_the_current_open_weight_llm_model_viable_in/) ⭐️ 7.0/10
 
-Armin Ronacher discovered that newer Anthropic models (Opus 4.8, Sonnet 5) often add extra invented fields when calling Pi’s edit tool, unlike older models, and this causes tool call rejections. This regression challenges the assumption that newer, more capable models are always better at following instructions, and it could force AI-powered tool platforms to implement model-specific adaptations. The issue seems to stem from recent models being fine-tuned for Claude Code’s built-in edit tool (which uses search-and-replace), causing them to misapply custom edit tools like Pi’s.
+A user on r/LocalLLaMA raised concerns that Qwen's delayed release of several model sizes (122B, 35B, 27B, 9B) may signal a strategy of withholding top-performing open-weight models, potentially widening the gap with state-of-the-art closed models. This threatens the democratization of AI, as open-weight models like Qwen are critical for local, affordable deployment on consumer hardware. A widening gap could stifle innovation and limit access for developers and researchers. The user estimates that open-source models already lag 2–4 months behind state-of-the-art systems, and Qwen's additional 1–2 month delay before releasing weights could compound the issue, particularly affecting those with standard consumer GPUs who rely on models like the unreleased 9B and 27B.
 
-rss · Simon Willison · Jul 4, 22:53
+reddit · r/LocalLLaMA · /u/Alan_Silva_TI · Jul 5, 18:29
 
-**Background**: Pi is a minimal AI coding harness with only four tools: Read, Write, Edit, Bash. Tool calling allows LLMs to invoke external functions, following a defined schema. Claude’s edit tool originally uses a text editor with search-and-replace, while OpenAI’s Codex uses an apply_patch mechanism. Armin’s finding suggests that training on one tool format can degrade performance on others.
+**Background**: Open-weight models are large language models whose trained parameters are publicly available, allowing anyone to run, fine-tune, and deploy them without per-token fees. Qwen, developed by Alibaba Cloud, is a prominent family of such models, often released under permissive licenses and known for strong performance on consumer-grade hardware. Delays in releasing the latest weights could indicate a strategic shift where companies prioritize proprietary advantage over community access.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/">Better Models: Worse Tools | Armin Ronacher's Thoughts and Writings</a></li>
-<li><a href="https://letsdatascience.com/news/newer-claude-models-show-tool-calling-regression-6f029d5f">Newer Claude Models Show Tool-Calling Regression | Let's Data Science</a></li>
+<li><a href="https://promptmetheus.com/resources/llm-knowledge-base/open-weights-model">Open - weights Model | LLM Knowledge Base</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Qwen">Qwen - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM`, `#tool-calling`, `#Anthropic`, `#Claude`, `#AI-reliability`
+**Tags**: `#open-source AI`, `#LLM release strategy`, `#Qwen models`, `#local LLMs`, `#AI competitiveness`
 
 ---
 
 <a id="item-9"></a>
-## [Benchmark of 13 LLMs at 65K-128K Context Reveals Prefill Speed and KV Heads Are Critical for Agents](https://www.reddit.com/r/LocalLLaMA/comments/1unrse9/i_benchmarked_13_models_at_65k128k_context_to/) ⭐️ 7.0/10
+## [Longcat 2.0 (1.6T Parameters, 48B Active) Open-Sourced Under MIT License](https://www.reddit.com/r/LocalLLaMA/comments/1unyvnz/longcat_20_16t_48b_active_weights_are_now_open/) ⭐️ 7.0/10
 
-A benchmark of 13 models across long context lengths (65K-128K tokens) shows that prefill speed and KV head count, not token generation speed, are the dominant factors for agentic workloads. The author tested dense, MoE, Mamba2 hybrid, and MLA MoE architectures on an RX 7900 XT GPU using llama.cpp. This challenges the common focus on token generation speed as the key performance metric. For agentic applications like coding agents or RAG, where short responses are typical, prefill time dominates wall-clock time, so optimizing for prefill is more impactful. It also highlights the architectural importance of KV heads for long-context processing. At 65K+ context, prefill takes 94–99% of total time for a 300-token output. Models with more KV heads (e.g., 8 heads in Devstral-24B vs 4 in Qwen3.6-27B) maintain better prefill speed retention at long contexts. The benchmark used Q8_0 K / Q8_0 V KV cache; Trinity-Mini achieved 923 tokens/sec prefill at 131K, while Apriel-1.6-15B reached 197 tokens/sec. GLM-4.7-Flash crashed above 16K due to MLA issues.
+The weights for Longcat 2.0, a 1.6-trillion-parameter mixture-of-experts model with approximately 48 billion active parameters, are now openly available under the permissive MIT license. This open release empowers developers and researchers to freely fine-tune, deploy, and build upon a trillion-parameter model, accelerating open-source AI development and lowering barriers for large-scale experimentation. Longcat 2.0 features dynamic activation ranging from 33 to 56 billion parameters per token, native 1-million-token context length, and was fully trained on a 50,000-GPU domestic cluster; it achieves a SWE-bench Pro score of 59.5.
 
-reddit · r/LocalLLaMA · /u/linuxid10t · Jul 5, 03:37
+reddit · r/LocalLLaMA · /u/Nunki08 · Jul 5, 10:35
 
-**Background**: LLM inference has two phases: prefill (processing the input in parallel) and decode (generating tokens one by one). KV heads are part of the attention mechanism; grouped-query attention reduces the number of KV heads to save memory, affecting speed. Agentic workloads involve AI agents that interact with tools and make decisions, often requiring long contexts but generating short responses.
+**Background**: Mixture-of-Experts (MoE) is an architecture that divides a model into multiple 'expert' sub-networks, activating only a portion of them for each input—enabling enormous total parameter counts while keeping computational costs manageable. The MIT license is one of the most permissive open-source licenses, allowing virtually unrestricted use, modification, and redistribution, even for commercial purposes. Longcat 2.0 was developed by Meituan and trained entirely on a domestic Chinese GPU cluster.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://redis.io/blog/prefill-vs-decode/">Prefill vs Decode: LLM Inference Phases Explained</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Transformer_(deep_learning)">Transformer (deep learning) - Wikipedia</a></li>
-<li><a href="https://www.ibm.com/think/topics/agentic-workflows">What are Agentic Workflows? | IBM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mixture_of_experts">Mixture of experts - Wikipedia</a></li>
+<li><a href="https://www.longcatai.org/models/longcat-2">LongCat-2.0 - 1.6T Agentic Coding LLM | 1M Context, Open Source | Meituan AI</a></li>
+<li><a href="https://www.longcatai.org/">LongCat AI - LongCat-2.0 Trillion-Parameter Agentic Coding Model | Meituan</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM`, `#benchmarking`, `#agentic-workloads`, `#context-length`, `#performance`
+**Tags**: `#open-source`, `#large-language-models`, `#mixture-of-experts`, `#local-llm`, `#MIT-license`
 
 ---
 
 <a id="item-10"></a>
-## [Qualcomm Launches GenieX SDK for On-Device LLM Inference on Snapdragon X Laptops](https://www.reddit.com/r/LocalLLaMA/comments/1uo9z3c/qualcomm_launches_geniex_to_run_llms_on_their/) ⭐️ 7.0/10
+## [Distilled LivePortrait Achieves 25fps in Browser via WebGPU](https://www.reddit.com/r/LocalLLaMA/comments/1uodoli/liveportrait_distilled_model_that_can_run_at/) ⭐️ 7.0/10
 
-Qualcomm has released the GenieX SDK, allowing Windows laptops with Snapdragon X chips to run large language models on-device, achieving up to 20 tokens per second on a 26B parameter model. This SDK significantly advances on-device AI for Qualcomm-powered laptops, offering low-latency, private inference and reducing cloud dependency, while helping Qualcomm compete with other chipmakers' AI toolkits. The SDK works with llama.cpp and supports GGUF models in Q4_0 quantization; it can leverage the CPU, GPU, or NPU, with reported speeds of 20 tok/s on GPU/NPU for a 26B Gemma model and 10 tok/s on GPU for a 27B Qwen model.
+A developer has distilled the LivePortrait model into a much smaller version that can run at 25 frames per second entirely in the browser using WebGPU, a dramatic improvement from the original 30 seconds per frame. This proof-of-concept shows that real-time, client-side AI portrait animation is feasible without server dependencies, potentially enabling privacy-preserving, low-latency applications on the web. On an RTX 5090, frame generation takes less than 30ms, but quality varies significantly due to training on a small dataset for only a few hours; performance on other GPUs is yet to be determined.
 
-reddit · r/LocalLLaMA · /u/DerpSenpai · Jul 5, 18:43
+reddit · r/LocalLLaMA · /u/stephen_holograf · Jul 5, 21:12
 
-**Background**: GGUF is a model file format optimized for fast loading and inference, commonly used with the llama.cpp framework. Q4_0 is a 4-bit quantization scheme that globally applies a single scale, sacrificing some accuracy for increased speed. Such techniques enable large language models to run efficiently on consumer hardware like laptops.
+**Background**: LivePortrait is an AI model that animates static portraits using facial movements from a webcam. Model distillation compresses a large model into a smaller one while preserving most of its capabilities, drastically reducing computational cost. WebGPU is a modern browser API that provides efficient GPU access for high-performance tasks like machine learning inference. The original LivePortrait model in ONNX format was too slow for real-time browser use, taking 30 seconds per frame.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/GGUF">GGUF - Wikipedia</a></li>
-<li><a href="https://github.com/ggml-org/llama.cpp/discussions/1121">Need help to understand q4_0, q4_1, q4_2, q4_3 quantization · ggml-org/llama.cpp · Discussion #1121</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Model_distillation">Model distillation</a></li>
+<li><a href="https://grokipedia.com/page/LivePortrait">LivePortrait</a></li>
+<li><a href="https://en.wikipedia.org/wiki/WebGPU">WebGPU</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Qualcomm`, `#LLM`, `#local-inference`, `#SDK`, `#Windows`
+**Tags**: `#distillation`, `#WebGPU`, `#live portrait`, `#browser inference`, `#real-time`
 
 ---
 
 <a id="item-11"></a>
-## [Claude Fable review of sqlite-utils 4.0rc2 finds release-blocking bugs](https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything) ⭐️ 6.0/10
+## [Qualcomm Launches GenieX to Run LLMs on Snapdragon Laptops](https://www.reddit.com/r/LocalLLaMA/comments/1uo9z3c/qualcomm_launches_geniex_to_run_llms_on_their/) ⭐️ 7.0/10
 
-Simon Willison used Claude Fable to perform a final review of sqlite-utils 4.0rc2, identifying five release-blocking bugs, including a data loss issue in delete_where(). This highlights how AI tools can enhance software quality by catching subtle, high-impact bugs that human reviewers might miss, potentially saving the project from post-release breakage. The delete_where() bug left the connection in an uncommitted transaction state, causing all subsequent writes to be silently lost; the fix required 34 commits changing 1,321 lines across 30 files.
+Qualcomm released the GenieX SDK, an on-device inference runtime that enables local execution of large language models on Snapdragon X laptops using llama.cpp, with performance benchmarks of 20 tokens per second for Gemma 4 26B and 10 tokens per second for Qwen 3.6 27B. This launch expands the hardware ecosystem for local AI, providing Snapdragon laptop users with an official, optimized pathway to run LLMs privately and efficiently, potentially challenging existing solutions from Intel and AMD. GenieX supports execution on CPU, GPU, and Hexagon NPU; it integrates with llama.cpp and accepts Q4_0 GGUF models, but is limited to Qualcomm Snapdragon platforms only.
 
-rss · Simon Willison · Jul 5, 01:00
+reddit · r/LocalLLaMA · /u/DerpSenpai · Jul 5, 18:43
 
-**Background**: sqlite-utils is a Python library and CLI tool by Simon Willison that provides higher-level operations for working with SQLite databases. Claude Fable is a large language model by Anthropic, temporarily available on Max subscriptions, known for its vision capabilities and software analysis.
+**Background**: Llama.cpp is an open-source framework widely used for LLM inference on consumer hardware. GGUF is a model file format designed for fast loading and efficient storage of quantized models. NPUs are dedicated AI accelerators that improve performance and power efficiency. Qualcomm's Snapdragon X chips feature integrated NPUs, and GenieX leverages these to accelerate AI workloads.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/simonw/sqlite-utils">GitHub - simonw/sqlite-utils: Python CLI utility and library for manipulating SQLite databases · GitHub</a></li>
-<li><a href="https://www.anthropic.com/news/claude-fable-5-mythos-5">Claude Fable 5 and Claude Mythos 5 \ Anthropic</a></li>
+<li><a href="https://github.com/qualcomm/GenieX">GitHub - qualcomm / GenieX : Run frontier LLMs and VLMs locally on...</a></li>
+<li><a href="https://geniex.aihub.qualcomm.com/">What is GenieX - Qualcomm ® AI Hub GenieX</a></li>
+<li><a href="https://github.com/ggml-org/ggml/blob/master/docs/gguf.md">ggml/docs/gguf.md at master · ggml-org/ggml · GitHub</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#sqlite-utils`, `#AI-assisted development`, `#software release`, `#code review`, `#Claude Fable`
+**Tags**: `#Qualcomm`, `#GenieX`, `#Local LLM`, `#NPU`, `#llama.cpp`
 
 ---
 
 <a id="item-12"></a>
-## [World Map Rendered in ASCII Art Using Only 445 Bytes](https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything) ⭐️ 6.0/10
+## [Codex Plugin Brings OpenAI's Codex to Claude Code for Code Review](https://github.com/openai/codex-plugin-cc) ⭐️ 7.0/10
 
-Iwo Kadziela developed a method to render a recognizable ASCII world map using only 445 bytes of deflate-compressed data, decoded in-browser with JavaScript's DecompressionStream and fetch with data URIs. This demonstrates the power of modern browser APIs for minimal data transfer and creative compression tricks, potentially inspiring lightweight data visualization or embedded systems. The technique uses fetch() with a data: URI containing base64-encoded raw deflate data, piped through DecompressionStream('deflate-raw') for decompression, requiring no external dependencies.
+The open-source plugin openai/codex-plugin-cc allows developers to invoke OpenAI's Codex from within Anthropic's Claude Code, enabling code review and task delegation. The repository gained 55 stars in the past 24 hours on GitHub. This integration bridges two leading AI coding assistants, potentially streamlining developer workflows by leveraging Codex's capabilities within Claude Code's familiar interface. It reflects a growing trend toward interoperability in AI developer tools. The plugin is written in JavaScript and hosted on GitHub under the OpenAI organization. It specifically enables code review and task delegation from Codex within Claude Code sessions.
 
-rss · Simon Willison · Jul 4, 23:09
+ossinsight · openai · Jul 5, 22:59
 
-**Background**: Deflate is a lossless compression algorithm used in formats like ZIP and gzip. The 'deflate-raw' format is a raw deflate stream without headers or footers, supported by modern browsers via the Compression Streams API. Data URIs allow embedding data inline in web pages, often base64-encoded. The fetch API can retrieve such URIs, and pipeThrough can process the response body with a decompression stream.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/DecompressionStream/DecompressionStream">DecompressionStream: DecompressionStream() constructor - Web APIs | MDN</a></li>
-<li><a href="https://groups.google.com/a/chromium.org/g/blink-dev/c/t7NX_-RH9nE">Intent to Ship: "deflate-raw" on compression and decompression streams</a></li>
-<li><a href="https://github.com/whatwg/compression/issues/25">Support "deflate-raw" format · Issue #25 · whatwg/compression</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#data compression`, `#JavaScript`, `#ASCII art`, `#minimalism`, `#web development`
-
----
-
-<a id="item-13"></a>
-## [Reddit Community Shares Top Local Open-Weight VLMs, July 2026](https://www.reddit.com/r/LocalLLaMA/comments/1uoalfq/best_local_vlms_july_2026/) ⭐️ 6.0/10
-
-A Reddit post is soliciting detailed recommendations and hands-on experiences with open-weight vision-language models (VLMs) that can be run locally, as of July 2026. Users are asked to describe their hardware, inference engine, applications, and prompts. As local VLM capabilities advance, community-driven evaluations help users navigate unreliable benchmarks and immature tooling, guiding practical adoption of open-weight models. This discussion highlights which models are currently practical for local deployment. The post restricts submissions to open-weight models and requests detailed setup information including hardware and inference engine (e.g., llama.cpp, vLLM), usage nature, and tools. This ensures contributions are grounded in real-world testing.
-
-reddit · r/LocalLLaMA · /u/rm-rf-rm · Jul 5, 19:08
-
-**Background**: Vision-language models (VLMs) are AI systems that can process images and text together, enabling tasks like image description and visual question answering. Open-weight models make their trained parameters publicly available, allowing users to run and customize them on their own infrastructure. Running models locally relies on inference engines like llama.cpp or vLLM to efficiently utilize hardware accelerators.
+**Background**: OpenAI Codex is a suite of AI agents that automates software engineering tasks, while Claude Code is Anthropic's agentic coding system that operates across terminals and IDEs. This plugin lets Claude Code users harness Codex without leaving their environment.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Vision-language_model_(VLM)">Vision-language model (VLM)</a></li>
-<li><a href="https://www.ai21.com/glossary/foundational-llm/open-weights-model/">What is an Open-Weights Model? | AI21</a></li>
-<li><a href="https://developers.redhat.com/articles/2026/06/15/llamacpp-vs-vllm-choosing-right-local-llm-inference-engine">llama.cpp vs. vLLM: Choosing the right local LLM inference engine | Red Hat Developer</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#VLMs`, `#Open-source`, `#LocalLLaMA`, `#Model Recommendations`, `#Vision-Language Models`
-
----
-
-<a id="item-14"></a>
-## [Concerns Over Open-Weight LLM Viability as Qwen Delays Larger Model Releases](https://www.reddit.com/r/LocalLLaMA/comments/1uo9m72/is_the_current_open_weight_llm_model_viable_in/) ⭐️ 6.0/10
-
-Qwen is delaying the release of larger models like 122B, 35B, 27B, and 9B versions, possibly due to their strong performance. This adds 1–2 months to the existing 2–4 month gap between open-weight and state-of-the-art models. This trend could undermine the long-term viability of open-weight models, especially for users with consumer-grade hardware who rely on Qwen's models for cutting-edge performance. If delays become common, the open-source AI ecosystem may lose competitiveness against proprietary models, impacting innovation and accessibility. The concern focuses on Qwen because it currently offers the best performance for consumer GPUs. The delayed models are dense models, and the community suspects strategic withholding to maintain competitive advantage, similar to past Meta Llama release strategies.
-
-reddit · r/LocalLLaMA · /u/Alan_Silva_TI · Jul 5, 18:29
-
-**Background**: Open-weight models are large language models whose trained parameters are publicly released, allowing users to run and modify them locally. Qwen is a family of LLMs developed by Alibaba Cloud, known for strong performance on consumer hardware. Unlike fully open-source models, open-weight releases often do not include training data or methodology.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Qwen">Qwen - Wikipedia</a></li>
-<li><a href="https://www.ai21.com/glossary/foundational-llm/open-weights-model/">What is an Open-Weights Model? | AI21</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#open-weight`, `#Qwen`, `#large-language-models`, `#open-source`, `#AI trends`
-
----
-
-<a id="item-15"></a>
-## [Qwen 3.6 27B vLLM Benchmarks: FP8 Sweet Spot for Coding](https://www.reddit.com/r/LocalLLaMA/comments/1uo32yw/qwen_36_27b_vllm_performance_benchmark_results/) ⭐️ 6.0/10
-
-A user benchmarked Qwen 3.6 27B inference performance with vLLM across BF16, FP8, and NVFP4 quantizations on an RTX 6000 Pro, finding FP8 offered the best balance between speed and reliability for coding tasks, while NVFP4 was fastest but prone to looping issues. These results provide practical guidance for local LLM users on the trade-offs between inference speed and output quality when choosing among BF16, FP8, and NVFP4 quantizations, particularly for coding tasks. NVFP4 achieved up to 171 t/s token generation vs 61 t/s for BF16, but suffered a 10-15% prefill penalty vs FP8 due to dequantization overhead. The setup used FlashInfer attention, speculative decoding with 2 MTP tokens, and FP8 KV cache.
-
-reddit · r/LocalLLaMA · /u/live4evrr · Jul 5, 14:06
-
-**Background**: vLLM is a high-throughput inference engine that uses PagedAttention to efficiently manage KV cache memory, reducing fragmentation. NVFP4 is a 4-bit floating-point quantization format introduced by NVIDIA for Blackwell GPUs, offering compactness with floating-point dynamic range.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://vllm.ai/">vLLM — Fast, Memory-Efficient LLM Inference & Serving</a></li>
-<li><a href="https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/">Introducing NVFP4 for Efficient and Accurate Low-Precision Inference | NVIDIA Technical Blog</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#Qwen`, `#VLLM`, `#benchmarking`, `#local LLM`, `#inference`
-
----
-
-<a id="item-16"></a>
-## [Supra-Router-51M: A Tiny 51M Prompt Routing Model Released](https://www.reddit.com/r/LocalLLaMA/comments/1uo826q/release_suprarouter51m_a_tiny_prompt_routing/) ⭐️ 6.0/10
-
-SupraLabs released Supra-Router-51M, a 51M-parameter model trained to route prompts to smaller or larger language models based on the request, along with a new training dataset. This enables efficient LLM orchestration by directing simple queries to cheaper, faster models and complex ones to more capable models, reducing inference costs and latency, especially for local deployments. The model has only 51M parameters, making it suitable for low-latency settings, but the release lacks performance benchmarks or comparisons to existing solutions like AWS Bedrock's intelligent prompt routing.
-
-reddit · r/LocalLLaMA · /u/LH-Tech_AI · Jul 5, 17:28
-
-**Background**: Prompt routing uses a small model to decide which LLM should handle a given prompt, balancing cost and capability. It is part of broader LLM orchestration strategies. Amazon Bedrock recently introduced intelligent prompt routing that dynamically routes requests based on predicted response quality.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-routing.html">Understanding intelligent prompt routing in Amazon Bedrock - Amazon Bedrock</a></li>
-<li><a href="https://www.ibm.com/think/topics/llm-orchestration">What is LLM Orchestration? | IBM</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#prompt routing`, `#small language models`, `#model orchestration`, `#llm efficiency`, `#tool release`
-
----
-
-<a id="item-17"></a>
-## [LangChain Introduces OpenWiki CLI for Automated Agent Documentation](https://github.com/langchain-ai/openwiki) ⭐️ 6.0/10
-
-LangChain has released OpenWiki, an open-source CLI that automatically generates and maintains documentation for codebases, specifically tailored for agents. It quickly gained 71 stars in the past 24 hours. Automated documentation reduces manual effort for developers, especially in AI-driven codebases where agents need up-to-date information to interact with code effectively, improving maintainability and onboarding. OpenWiki is a TypeScript-based CLI, released 4 days ago, designed to write and maintain documentation for coding agents. It is open-source and available on GitHub.
-
-ossinsight · langchain-ai · Jul 5, 20:58
-
-**Background**: AI coding agents require current documentation to understand codebases, but manual documentation is labor-intensive and prone to becoming outdated. OpenWiki leverages AI to automate this process. It is developed by LangChain, a popular framework for building applications with large language models.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/langchain-ai/openwiki">GitHub - langchain-ai/openwiki: OpenWiki is a CLI that writes and maintains agent documentation for your codebase. · GitHub</a></li>
-<li><a href="https://www.langchain.com/blog/introducing-openwiki-an-open-source-agent-for-repo-documentation">OpenWiki: Open Source Repo Documentation for Coding Agents</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#langchain`, `#documentation`, `#cli`, `#ai`, `#developer-tools`
-
----
-
-<a id="item-18"></a>
-## [OpenAI Codex Plugin Enables Code Review and Task Delegation in Claude Code](https://github.com/openai/codex-plugin-cc) ⭐️ 6.0/10
-
-The openai/codex-plugin-cc repository provides a JavaScript plugin that integrates OpenAI's Codex into Claude Code, allowing users to perform code reviews and delegate coding tasks directly from the Claude Code interface. This plugin bridges two major AI coding assistants, offering developers the flexibility to leverage Codex's capabilities within their existing Claude Code workflow, potentially combining the strengths of both platforms. It reflects a growing trend towards multi-model AI development environments. The plugin is written in JavaScript, runs inside Claude Code, and supports use cases like code review, rescue, and tracked background workflows. The repository gained 55 stars and 2 forks in the past 24 hours, indicating initial interest.
-
-ossinsight · openai · Jul 5, 20:58
-
-**Background**: Claude Code is an AI coding assistant developed by Anthropic, while Codex is OpenAI's AI tool for coding tasks. Both are competitive products, but this plugin enables interoperability by embedding Codex's functionality into the Claude Code environment. It is particularly useful for code review (using Codex to review code written with Claude Code) and delegating tasks to leverage Codex's models.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/openai/codex-plugin-cc">GitHub - openai/codex-plugin-cc: Use Codex from Claude Code to review code or delegate tasks. · GitHub</a></li>
-<li><a href="https://community.openai.com/t/introducing-codex-plugin-for-claude-code/1378186">Introducing Codex Plugin for Claude Code - Codex - OpenAI Developer Community</a></li>
+<li><a href="https://openai.com/codex/">Codex | AI Coding Partner from OpenAI</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Claude_Code">Claude Code</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#Codex`, `#Developer Tools`, `#OpenAI`, `#Claude`
+**Tags**: `#ai`, `#codex`, `#claude`, `#plugin`, `#developer-tools`
+
+---
+
+<a id="item-13"></a>
+## [GitHub Repo Aggregates Leaked System Prompts from AI Models](https://github.com/asgeirtj/system_prompts_leaks) ⭐️ 7.0/10
+
+A trending GitHub repository has compiled and regularly updates extracted system prompts from major AI models including ChatGPT, Claude, Gemini, and Grok. This collection reveals the internal instructions that shape model behavior, offering insights for alignment research, security analysis, and bias detection. The repository includes prompts from specific versions like Claude 3.5 Sonnet, GPT-4o, and Gemini 1.5 Pro, and is implemented in JavaScript.
+
+ossinsight · asgeirtj · Jul 5, 22:59
+
+**Background**: System prompts are predefined directives that large language models use to guide their responses, often set by developers to enforce consistency and safety. They take precedence over user inputs and can introduce biases or constrain behavior. Access to these prompts helps researchers and the public understand how models are tuned and what priorities they encode.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://promptengineering.org/system-prompts-in-large-language-models/">System Prompts in Large Language Models</a></li>
+<li><a href="https://arxiv.org/abs/2505.21091">[2505.21091] Position is Power: System Prompts as a Mechanism of Bias in Large Language Models (LLMs)</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#system-prompts`, `#AI`, `#language-models`, `#open-source`, `#reverse-engineering`
+
+---
+
+<a id="item-14"></a>
+## [T3MP3ST: Autonomous Red Teaming Platform with Multi-Agent Meta-Harness](https://github.com/elder-plinius/T3MP3ST) ⭐️ 7.0/10
+
+A new open-source autonomous red teaming platform called T3MP3ST has been released on GitHub, integrating multiple AI agents within a meta-harness to perform offensive security testing automatically. This signifies a shift toward AI-driven, scalable red teaming, enabling continuous security testing without constant human oversight and addressing the cybersecurity talent shortage. The project is written in TypeScript, employs a multi-agent architecture, and is in early development with sparse documentation; it garnered 35 stars and 14 forks within the first 24 hours.
+
+ossinsight · elder-plinius · Jul 5, 22:59
+
+**Background**: Autonomous red teaming uses automation to simulate adversarial attacks, with AI systems independently planning, executing, and adapting based on live signals. A meta-harness is an orchestration layer that sits above multiple agents, enabling composition, parallel execution, and sequential chaining to tackle complex tasks cooperatively.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.picussecurity.com/resource/glossary/what-is-automated-red-teaming">What Is Automated Red Teaming?</a></li>
+<li><a href="https://www.offensai.com/blog/ai-red-teaming-best-practices">AI Red Teaming and Autonomous Red Teaming: Best Practices with OWASP and NIST</a></li>
+<li><a href="https://www.databricks.com/blog/introducing-omnigent-meta-harness-combine-control-and-share-your-agents">Introducing Omnigent: A Meta-Harness to Combine, Control and Share Your Agents | Databricks Blog</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#offensive-security`, `#red-teaming`, `#multi-agent`, `#typescript`, `#security-automation`
+
+---
+
+<a id="item-15"></a>
+## [DeusData/codebase-memory-mcp: High-Performance Codebase Indexing MCP Server](https://github.com/DeusData/codebase-memory-mcp) ⭐️ 7.0/10
+
+A new open-source MCP server, DeusData/codebase-memory-mcp, has been released that can index entire codebases into a persistent knowledge graph, enabling fast queries and low token usage for AI assistants. By dramatically reducing token usage and query latency, this tool helps AI assistants understand large codebases efficiently, addressing context window limitations in LLMs and potentially boosting developer productivity. Written in C and delivered as a single static binary with zero dependencies, the server claims sub-millisecond queries, 99% fewer tokens, and support for 158 programming languages.
+
+ossinsight · DeusData · Jul 5, 22:59
+
+**Background**: MCP (Model Context Protocol) is an open standard for connecting AI models to external tools and data sources, inspired by the Language Server Protocol. A knowledge graph is a graph-structured data model that represents entities and their relationships, enabling fast semantic queries. This server leverages MCP to provide codebase context as a knowledge graph to AI assistants.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Knowledge_graph">Knowledge graph</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#MCP`, `#code-intelligence`, `#knowledge-graph`, `#developer-tools`, `#AI`
+
+---
+
+<a id="item-16"></a>
+## [Starring the Computer: A Database of Vintage Computers in Media](https://www.starringthecomputer.com/computers.html) ⭐️ 6.0/10
+
+The website 'Starring the Computer' offers a comprehensive database documenting appearances of vintage computers in movies, TV shows, and commercials. By cataloging these appearances, the site uniquely bridges computing history and pop culture, appealing to vintage tech enthusiasts and film buffs alike. Each entry features screen grabs and contextual descriptions, covering everything from one-off TV episodes to decades of films with consistent quality.
+
+hackernews · gitowiec · Jul 5, 17:33 · [Discussion](https://news.ycombinator.com/item?id=48796093)
+
+**Background**: Filmmakers often use real vintage hardware as props for period accuracy. This site follows the tradition of niche databases like the Internet Movie Cars Database (IMCDB), which track object appearances in media.
+
+**Discussion**: Commenters enthusiastically share personal stories of their vintage computers appearing on screen and praise the site's meticulous detail. They also reference prop rental sources and related databases, while noting iconic hardware like IBM AN/FSQ-7 panels that frequently recirculate through productions.
+
+**Tags**: `#vintage-computers`, `#film`, `#television`, `#pop-culture`, `#nostalgia`
+
+---
+
+<a id="item-17"></a>
+## [Independent Researcher Builds 270M Parameter Transformer Language Model from Scratch](https://www.reddit.com/r/LocalLLaMA/comments/1uoauvk/i_developed_a_270_million_parameter_language/) ⭐️ 6.0/10
+
+An independent researcher developed a custom 270 million parameter Transformer language model from scratch, incorporating modern architectural features such as Rotary Positional Embeddings, RMSNorm, SwiGLU activation, and grouped query attention for efficient local inference. This project demonstrates that individuals can leverage state-of-the-art techniques to create competitive small-scale language models, potentially lowering the barrier to entry for custom model development and encouraging grassroots innovation in AI. The model features Rotary Positional Embeddings for relative position encoding, RMSNorm for normalization, SwiGLU in feed-forward layers, and grouped query attention to balance efficiency and performance, optimized for autoregressive local inference.
+
+reddit · r/LocalLLaMA · /u/ConfectionAfter2366 · Jul 5, 19:18
+
+**Background**: Transformers are a neural network architecture dominant in language processing. Rotary Positional Embeddings (RoPE) encode token positions via rotations, improving long-range understanding. SwiGLU is a gated activation function offering better performance than traditional ReLU. Grouped query attention shares key-value heads across query groups to reduce memory usage during inference without significant quality loss.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Rotary_positional_embedding">Rotary positional embedding</a></li>
+<li><a href="https://medium.com/@saeed.mehrang/swiglu-the-activation-function-powering-modern-llms-70ea5cfdeafe">SwiGLU: The Activation Function Powering Modern LLMs</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Grouped-query_attention">Grouped-query attention</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#language-model`, `#transformer`, `#independent-research`, `#local-inference`, `#deep-learning`
+
+---
+
+<a id="item-18"></a>
+## [Psyche Network Enables Feasible Distributed Training of Large Models](https://www.reddit.com/r/LocalLLaMA/comments/1uoay98/whove_told_you_that_distributed_training_is/) ⭐️ 6.0/10
+
+A Reddit post highlights that the Psyche Network architecture allows distributed training of large AI models without significant data transfer bottlenecks, and several models have already been trained using this method. This development could democratize AI by enabling individuals with consumer hardware to contribute to training state-of-the-art models, potentially reducing the dominance of large tech companies. Psyche builds on the DisTrO and DeMo algorithms to reduce inter-node data transfer by orders of magnitude, and uses the Solana blockchain for coordination. However, the Reddit post lacks detailed technical validation.
+
+reddit · r/LocalLLaMA · /u/DevelopmentBorn3978 · Jul 5, 19:22
+
+**Background**: Distributed training typically requires high-bandwidth connections to synchronize model parameters frequently. DisTrO is a decentralized training algorithm that drastically reduces communication overhead, and DeMo is an earlier method with similar goals. Psyche extends these ideas into a peer-to-peer network, with Solana handling the coordination to ensure fault tolerance and censorship resistance.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://docs.psyche.network/">Intro to Psyche - Psyche</a></li>
+<li><a href="https://psyche.network/">psyche.network - 𝔫𝔬𝔲𝔰 𝔭𝔰𝛾𝔠𝔥𝔢</a></li>
+<li><a href="https://nousresearch.com/nous-psyche">Democratizing AI: The Psyche Network Architecture</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#distributed training`, `#decentralized AI`, `#LLM training`, `#open-source`, `#Psyche Network`
 
 ---
 
 <a id="item-19"></a>
-## [Meetily: Self-Hosted AI Meeting Assistant with Local Processing](https://github.com/Zackriya-Solutions/meetily) ⭐️ 6.0/10
+## [Qwen 3.6 27B VLLM Benchmark: FP8 Optimal, NVFP4 Fastest on Blackwell](https://www.reddit.com/r/LocalLLaMA/comments/1uo32yw/qwen_36_27b_vllm_performance_benchmark_results/) ⭐️ 6.0/10
 
-Meetily, an open-source AI meeting assistant built with Rust, gained 53 GitHub stars in 24 hours. It offers 4x faster transcription using Parakeet or Whisper, speaker diarization, and summarization via Ollama, all locally on macOS and Windows. By keeping all data local, Meetily addresses growing privacy concerns in meeting tools. It empowers individuals and organizations to own their meeting data without relying on cloud services, aligning with the trend toward privacy-focused AI. Meetily leverages NVIDIA's Parakeet ASR model for fast transcription and requires Ollama for local summarization. It is built in Rust for performance, but currently only supports macOS and Windows, and may be limited to English.
+A user benchmarked Qwen 3.6 27B on VLLM with BF16, FP8, and NVFP4 quantizations on an RTX 6000 Pro Blackwell GPU. The results show FP8 provides the best balance for coding tasks, while NVFP4 offers up to 2.86x faster token generation but can suffer from quality issues. These benchmarks provide practical guidance for deploying Qwen 3.6 27B, showing that FP8 strikes an optimal balance between speed and response quality, while NVFP4 may be suitable for high-throughput generation where occasional looping is acceptable. Testing used vLLM 0.24.0 with speculative MTP, prefix caching, and FlashInfer attention on a 96GB RTX 6000 Pro Blackwell GPU. NVFP4’s high speed comes from reduced memory transfers, but it introduced looping in copilot and less thorough agent responses compared to FP8.
 
-ossinsight · Zackriya-Solutions · Jul 5, 20:58
+reddit · r/LocalLLaMA · /u/live4evrr · Jul 5, 14:06
 
-**Background**: Parakeet is a 600-million-parameter speech recognition model by NVIDIA that provides accurate transcription with punctuation and timestamps. Speaker diarization is the process of identifying 'who spoke when' in an audio recording. Ollama is an open-source tool for running large language models locally, enabling summarization without cloud dependency.
+**Background**: VLLM is a popular open-source LLM serving engine that uses paged attention to efficiently manage memory, improving throughput. NVFP4 is NVIDIA’s 4-bit floating-point quantization for Blackwell GPUs, aimed at maximizing speed by reducing precision, though it can impact output quality. FP8 is an 8-bit format with native hardware acceleration, offering a middle ground between speed and accuracy.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2">nvidia/parakeet-tdt-0.6b-v2 · Hugging Face</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Speaker_diarisation">Speaker diarisation</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Ollama">Ollama</a></li>
+<li><a href="https://vllm.ai/">vLLM — Fast, Memory-Efficient LLM Inference & Serving</a></li>
+<li><a href="https://www.banandre.com/blog/nvidia-qwen36-27b-nvfp4-quantization-beats-fp8-3">NVFP 4 Is Not What You Think: NVIDIA’s Qwen3.6-27B Quantization ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#ai-meeting-assistant`, `#rust`, `#privacy`, `#local-processing`, `#open-source`
+**Tags**: `#LLM inference`, `#benchmarking`, `#quantization`, `#Qwen`, `#VLLM`
 
 ---
 
 <a id="item-20"></a>
-## [GitHub Repo Curates Leaked System Prompts from ChatGPT, Claude, etc.](https://github.com/asgeirtj/system_prompts_leaks) ⭐️ 6.0/10
+## [SupraLabs Releases 51M-Parameter Prompt Routing Model Supra-Router-51M](https://www.reddit.com/r/LocalLLaMA/comments/1uo826q/release_suprarouter51m_a_tiny_prompt_routing/) ⭐️ 6.0/10
 
-A GitHub repository named 'system_prompts_leaks' has been created to curate and regularly update a collection of extracted system prompts from major AI models including OpenAI's ChatGPT, Anthropic's Claude, Google's Gemini, and various development tools. This centralized collection provides valuable insight into the internal instructions governing AI behavior, aiding prompt engineering, security research, and understanding model constraints, though it also raises concerns about intellectual property and safety. The repository includes prompts from specific model versions like ChatGPT 5.5 Thinking, Claude Opus 4.8, and Gemini 3.5 Flash, and is written in JavaScript. It garnered 49 stars in 24 hours, indicating moderate community interest but no technical breakthrough.
+SupraLabs has released Supra-Router-51M, a 51-million-parameter model designed to route user prompts to the most suitable large language models based on prompt complexity, optimized for low-latency environments. They also provide a training dataset, Prompt-Routing-Dataset, on Hugging Face. This tiny model enables efficient and cost-effective prompt routing directly on local setups, potentially reducing latency and computational overhead by directing simple queries to smaller models and complex ones to larger models, without relying on cloud-based routing services like Amazon Bedrock's. With only 51 million parameters, Supra-Router-51M is extremely lightweight, making it suitable for resource-constrained environments. The model is trained on a dataset specifically curated for prompt routing, and it operates as a classifier or language model to make routing decisions.
 
-ossinsight · asgeirtj · Jul 5, 20:58
+reddit · r/LocalLLaMA · /u/LH-Tech_AI · Jul 5, 17:28
 
-**Background**: System prompts are instructions given to AI models to set their behavior, persona, and safety guidelines. Prompt leaks refer to the unintended exposure of these hidden instructions, which can reveal how models are tuned. This repository collects such leaks from popular AI services, offering transparency into typically proprietary configurations.
+**Background**: Prompt routing is a technique where a lightweight model decides which large language model (LLM) should handle a given user query, balancing cost, speed, and quality. Similar services exist, such as Amazon Bedrock's Intelligent Prompt Routing, which routes between models in the same family, and research projects like Sakana Fugu, which orchestrates multiple models as a multi-agent system. Supra-Router-51M brings this capability to local, open-source setups with a minimal parameter footprint.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/System_prompt">System prompt</a></li>
-<li><a href="https://grokipedia.com/page/prompt-leakage">Prompt leakage</a></li>
-<li><a href="https://github.com/asgeirtj/system_prompts_leaks">GitHub - asgeirtj/system_prompts_leaks: Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly. · GitHub</a></li>
+<li><a href="https://aws.amazon.com/bedrock/intelligent-prompt-routing/">Route Prompts Between Models - Amazon Bedrock Intelligent Prompt Routing - AWS</a></li>
+<li><a href="https://sakana.ai/fugu/">Sakana Fugu — Multi-Agent System as a Model</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#system-prompts`, `#prompt-engineering`, `#ai-security`, `#prompt-leaks`, `#llm`
+**Tags**: `#prompt-routing`, `#small-model`, `#model-orchestration`, `#huggingface`, `#local-llm`
 
 ---
 
 <a id="item-21"></a>
-## [AI-Powered Vulnerability Scanner Strix Gains Traction on GitHub](https://github.com/usestrix/strix) ⭐️ 6.0/10
+## [LangChain OpenWiki: CLI Automates AI Agent Documentation](https://github.com/langchain-ai/openwiki) ⭐️ 6.0/10
 
-Strix, a new open-source AI penetration testing tool, autonomously detects and validates application vulnerabilities using multiple AI agents that run code dynamically and perform proof-of-concept exploits. It gained 45 GitHub stars in the past 24 hours. This tool exemplifies the growing integration of AI in cybersecurity, potentially making advanced security testing more accessible and efficient for developers and smaller teams who previously lacked resources. Strix operates inside an isolated Docker sandbox, where multiple AI agents scan routes, inject payloads, and interpret responses; if a vulnerability is found, they validate it with a proof-of-concept.
+LangChain has released OpenWiki, an open-source CLI tool that automatically generates and maintains documentation for codebases involving AI agents. It addresses a common pain point in AI agent development by automating documentation, potentially improving code maintainability and developer productivity in the growing agent ecosystem. OpenWiki is implemented as a TypeScript CLI and specifically targets codebases that involve AI agents, leveraging LangChain's framework to understand agent-specific patterns.
 
-ossinsight · usestrix · Jul 5, 20:58
+ossinsight · langchain-ai · Jul 5, 22:59
 
-**Background**: Traditional vulnerability scanners often rely on static rules or signatures and must be manually updated for new exploits. AI-driven tools like Strix can learn and adapt to novel attacks, potentially identifying zero-day vulnerabilities. Strix is open-source and written in Python, allowing community contributions and transparency in its analysis.
+**Background**: LangChain is a popular open-source framework for building applications with large language models (LLMs). AI agents are software entities that can pursue goals, use tools, and act autonomously. As agent-based systems grow in complexity, maintaining clear documentation becomes challenging. OpenWiki aims to automate this process by generating documentation tailored to agent code.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/usestrix/strix">GitHub - usestrix/strix: Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.</a></li>
-<li><a href="https://docs.strix.ai/">Introduction - Strix</a></li>
+<li><a href="https://en.wikipedia.org/wiki/LangChain">LangChain</a></li>
+<li><a href="https://en.wikipedia.org/wiki/AI_agent">AI agent</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Python`, `#security`, `#AI`, `#vulnerability-scanner`, `#open-source`
+**Tags**: `#CLI`, `#documentation`, `#AI-agents`, `#LangChain`, `#tools`
 
 ---
 
 <a id="item-22"></a>
-## [T3MP3ST: Autonomous Multi-Agent Red Teaming Platform Gains GitHub Traction](https://github.com/elder-plinius/T3MP3ST) ⭐️ 6.0/10
+## [Meetily: Local-First AI Meeting Assistant Built in Rust](https://github.com/Zackriya-Solutions/meetily) ⭐️ 6.0/10
 
-The GitHub repository elder-plinius/T3MP3ST, an autonomous multi-agent red teaming platform, gained 35 stars and 14 forks in the past 24 hours, signaling emerging interest in autonomous offensive security tooling. An autonomous multi-agent platform like T3MP3ST could enable continuous, scalable red teaming, helping organizations identify vulnerabilities more efficiently and keep pace with increasingly automated cyber threats. Written in TypeScript, T3MP3ST is described as a ‘meta-harness,’ suggesting it coordinates multiple specialized agents for offensive security tasks; however, with only 35 stars and limited activity, it likely remains in early development.
+The open-source AI meeting assistant Meetily gained 53 GitHub stars in 24 hours, showcasing local processing with Parakeet/Whisper transcription, speaker diarization, and Ollama summarization in Rust. This project demonstrates a growing demand for privacy-preserving meeting tools that can run entirely on-device, avoiding third-party cloud services and potentially inspiring similar local-first solutions in the AI space. Meetily leverages NVIDIA's Parakeet model for 4x faster live transcription, integrates speaker diarization to identify who spoke when, and employs Ollama for local summarization, all in a Rust codebase for efficiency.
 
-ossinsight · elder-plinius · Jul 5, 20:58
+ossinsight · Zackriya-Solutions · Jul 5, 22:59
 
-**Background**: Red teaming is a security exercise where a group simulates an adversary to test an organization's defenses. Multi-agent systems consist of multiple autonomous agents that can collaborate to solve complex tasks, and large language models have propelled their capabilities. Offensive security encompasses proactive attack techniques to identify vulnerabilities. T3MP3ST appears to combine these concepts by using multiple AI agents to autonomously conduct offensive security testing.
+**Background**: Parakeet is a set of automatic speech recognition models from NVIDIA, optimized for fast and accurate transcription. Ollama enables local execution of large language models, allowing summarization without cloud dependency. Speaker diarization is the technique of segmenting audio by speaker identity, answering 'who spoke when?'. Together, these technologies power Meetily's fully offline meeting assistant.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Red_teaming">Red teaming</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Multi-agent_system">Multi-agent system</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Offensive_Security">Offensive Security</a></li>
+<li><a href="https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3">nvidia/parakeet-tdt-0.6b-v3 · Hugging Face</a></li>
+<li><a href="https://ollama.com/">Ollama</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Speaker_diarisation">Speaker diarisation</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#security`, `#red-teaming`, `#multi-agent`, `#offensive-security`, `#autonomous-systems`
+**Tags**: `#AI`, `#privacy`, `#open-source`, `#Rust`, `#meeting-assistant`
 
 ---
 
 <a id="item-23"></a>
-## [Facebook Releases Astryx: Agent-Ready Open-Source Design System](https://github.com/facebook/astryx) ⭐️ 6.0/10
+## [Astryx: Meta's open source design system draws early interest on GitHub](https://github.com/facebook/astryx) ⭐️ 6.0/10
 
-Facebook has open-sourced Astryx, its largest internal design system built with React and StyleX, now available in beta on GitHub. It is designed to be fully customizable and agent-ready, enabling both human developers and AI agents to build consistent user interfaces. This release marks a significant step toward agentic design systems, where AI can autonomously construct UIs using documented components and tokens. By open-sourcing a system battle-tested in its own products, Meta sets a new standard for design systems that cater to both humans and AI, potentially accelerating development workflows. Astryx provides over 150 accessible React components, seven customizable themes, dark mode, and a CLI for scaffolding. It is built with React and StyleX, supports Next.js with pre-built CSS, and includes an MCP server and JSON manifest that allow AI agents to read and interact with the design system programmatically. As a beta release, it may have limitations and is not yet fully production-ready outside Meta.
+Meta open-sourced Astryx, a customizable and agent-ready design system that gained 32 GitHub stars within its first day of public exposure. The system, now in beta, has been battle-tested internally at Meta for eight years, powering over 13,000 applications. Astryx brings a production-scale, internally validated design system to the open source community, offering a robust foundation for building consistent UIs. Its 'agent-ready' architecture could set a new standard for AI-assisted development, enabling tools to generate UI code that aligns with design guidelines. Astryx is written in TypeScript, has no external dependencies, and is designed to be agent-ready by exposing components with clear props and semantic tokens, allowing AI agents to generate compliant code. It began as an internal Meta project eight years ago and now becomes publicly available for the first time.
 
-ossinsight · facebook · Jul 5, 20:58
+ossinsight · facebook · Jul 5, 22:59
 
-**Background**: A design system is a collection of reusable components and guidelines for building consistent user interfaces. Traditional design systems are documented for human developers, but agentic design systems like Astryx are structured so that AI coding agents can understand and use them autonomously. Meta developed Astryx over eight years to unify the UI across its family of apps, and it now powers over 13,000 internal applications.
+**Background**: A design system is a collection of reusable components and guidelines that ensure visual and functional consistency across applications. Agent-ready design systems structure components like API endpoints, with well-defined inputs and documented relationships, making them interpretable by AI coding agents. Meta, the parent company of Facebook, has a history of open-sourcing significant projects like React, and Astryx extends that tradition to UI infrastructure.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://techgig.com/news/software-devops/meta-releases-astryx-agent-ready-react-design-system/132064059">Meta Releases Astryx: Agent-Ready React Design System, TechGig</a></li>
 <li><a href="https://github.com/facebook/astryx">GitHub - facebook/astryx: An open source design system that's fully customizable and agent ready · GitHub</a></li>
-<li><a href="https://www.coddykit.com/pages/blog-detail?id=512886&slug=astryx-facebook-s-open-source-design-system-built-for-humans-and-ai-agents">Astryx: Facebook's Open-Source Design System Built for Humans and AI Agents | CoddyKit Blog</a></li>
+<li><a href="https://astryx.atmeta.com/blog/introducing-astryx">Introducing Astryx by Meta: an open source design system built for how we build now · Astryx</a></li>
+<li><a href="https://blog.murphytrueman.com/your-next-design-system-user/">Your next design system user is an agent</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#design-system`, `#typescript`, `#facebook`, `#open-source`, `#ui-ux`
+**Tags**: `#design-system`, `#open-source`, `#facebook`, `#typescript`
 
 ---
 
 <a id="item-24"></a>
-## [OpenMontage: Open-Source Agentic Video Production System Trends on GitHub](https://github.com/calesthio/OpenMontage) ⭐️ 6.0/10
+## [Alibaba Releases Page Agent: JavaScript In-Page GUI Agent for Natural Language Web Control](https://github.com/alibaba/page-agent) ⭐️ 6.0/10
 
-The GitHub repository calesthio/OpenMontage has gained traction for being the world's first open-source, agentic video production system, featuring 12 pipelines, 52 tools, and over 500 agent skills. OpenMontage represents a step towards democratizing video production by allowing developers to use AI agents for complex editing tasks, potentially reducing the need for expensive software and professional editors. Built in Python, OpenMontage organizes video production workflows into 12 distinct pipelines, each composed of multiple tools and agent skills; however, as an early-stage project, it may lack the polish and robustness of commercial alternatives.
+Alibaba has published Page Agent, a new open-source JavaScript-based GUI agent that embeds directly into web pages and enables users to control web interfaces using natural language commands. This tool simplifies web automation, form filling, and building AI copilots within existing web applications without heavy backend changes. It democratizes natural language interfaces for developers and may compete with emerging standards like Microsoft's NLWeb. The agent reads the DOM as text and executes commands. It is written in TypeScript, is lightweight, and can be easily integrated into any web page. Details about the underlying AI model, performance benchmarks, and browser support are currently limited.
 
-ossinsight · calesthio · Jul 5, 20:58
+ossinsight · alibaba · Jul 5, 22:59
 
-**Background**: Agentic AI involves autonomous agents that can use tools and take actions to achieve goals. In video production, this means automating tasks like editing, effects, and rendering. OpenMontage leverages such agents to streamline the entire process, reflecting a broader shift toward AI-driven creative tools.
+**Background**: GUI agents are AI systems that interact with graphical user interfaces. In-page agents embed directly into web pages, leveraging access to the DOM structure for context. Natural language web control is an emerging trend, with protocols like NLWeb aiming to standardize conversational interfaces. Alibaba's Page Agent offers a simpler, embeddable approach that can turn any website into an AI copilot.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/calesthio/OpenMontage">GitHub - calesthio/OpenMontage: World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio. · GitHub</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Agentic_AI">Agentic AI</a></li>
-<li><a href="https://a16z.com/its-time-for-agentic-video-editing/">It's time for agentic video editing | Andreessen Horowitz</a></li>
+<li><a href="https://github.com/alibaba/page-agent">GitHub - alibaba/page- agent : JavaScript in - page GUI agent .</a></li>
+<li><a href="https://pasqualepillitteri.it/en/news/7093/page-agent-alibaba-ai-agent-web-page">Alibaba Page Agent : The AI Agent That Lives Inside Your Web Page</a></li>
+<li><a href="https://linkloot.io/loot/this-js-agent-turns-any-website-into-an-ai-copilot">This JS Agent Turns Any Website Into an AI Copilot – Tools... | LinkLoot</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#web-agent`, `#natural-language`, `#gui-automation`, `#typescript`, `#alibaba`
+
+---
+
+<a id="item-25"></a>
+## [OpenMontage: First Open-Source Agentic Video Production System](https://github.com/calesthio/OpenMontage) ⭐️ 6.0/10
+
+OpenMontage has been released on GitHub as the world's first open-source agentic video production system. It features 12 pipelines, 52 tools, and over 500 agent skills to turn AI coding assistants into full video production studios. It democratizes advanced video production by making sophisticated agentic AI workflows openly available, potentially lowering costs and enabling creators to automate complex editing tasks that previously required expensive tools or manual effort. OpenMontage can start from a URL (YouTube, TikTok, Reels) or local clip and generate a production plan. It is written in Python and is in early-stage development with limited community validation.
+
+ossinsight · calesthio · Jul 5, 22:59
+
+**Background**: Agentic AI refers to intelligent agents that can autonomously pursue goals, use tools, and make decisions within defined constraints. In video production, such systems can automate time-consuming tasks like editing, color grading, and syncing, allowing creators to focus on creative decisions. OpenMontage applies these principles by integrating multiple AI pipelines and tools, enabling an AI assistant to manage the entire production process from raw footage to final output.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/calesthio/OpenMontage">calesthio/OpenMontage: World's first open-source, agentic video ...</a></li>
+<li><a href="https://www.imagine.art/blogs/agentic-ai-in-video-production">Understanding Agentic AI for Video Production Workflows</a></li>
 
 </ul>
 </details>
@@ -545,65 +552,23 @@ ossinsight · calesthio · Jul 5, 20:58
 
 ---
 
-<a id="item-25"></a>
-## [Xianyu Monitoring Tool Using Playwright and AI Earns 27 Stars](https://github.com/Usagi-org/ai-goofish-monitor) ⭐️ 6.0/10
-
-The repository Usagi-org/ai-goofish-monitor, a Python-based monitoring system for the Xianyu marketplace, gained 27 stars in the past 24 hours. It uses Playwright and AI for real-time/scheduled monitoring and intelligent analysis. It provides a practical solution for users to efficiently find desired products among vast listings on Xianyu, leveraging automation and AI. This reflects the growing trend of applying AI and web scraping in e-commerce. The system includes a full-featured backend management UI and supports both real-time and scheduled multi-task monitoring. It is written in Python and built on Playwright, an open-source browser automation library by Microsoft.
-
-ossinsight · Usagi-org · Jul 5, 20:58
-
-**Background**: Xianyu (闲鱼) is a popular online second-hand marketplace in China. Playwright is an open-source browser automation library developed by Microsoft, commonly used for web scraping and testing. AI refers to artificial intelligence techniques likely used for product filtering and analysis.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Playwright_(software)">Playwright (software) - Wikipedia</a></li>
-<li><a href="https://playwright.dev/">Fast and reliable end-to-end testing for modern web apps | Playwright</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#web-scraping`, `#AI`, `#e-commerce`, `#Playwright`, `#monitoring`
-
----
-
 <a id="item-26"></a>
-## [DeusData/codebase-memory-mcp: High-Performance Code Intelligence MCP Server](https://github.com/DeusData/codebase-memory-mcp) ⭐️ 6.0/10
+## [AI-Powered Job Application Framework Using Claude](https://github.com/MadsLorentzen/ai-job-search) ⭐️ 6.0/10
 
-DeusData has released codebase-memory-mcp, a new MCP server that indexes entire codebases into a persistent knowledge graph, claiming average indexing in milliseconds and a 99% reduction in LLM token usage. By providing fast, token-efficient access to codebase context, this tool can significantly improve AI coding assistants, reducing costs and latency for developers integrating large language models into their workflows. The server supports 158 programming languages, delivers sub-millisecond queries, and is distributed as a single static binary with zero dependencies, implemented in the C language.
+A new open-source framework, MadsLorentzen/ai-job-search, uses Anthropic's Claude AI to automatically tailor CVs, write cover letters, and prepare for interviews when applying for jobs. This tool addresses the time-consuming and repetitive nature of job applications, potentially leveling the playing field for candidates and showcasing practical AI agent workflows. The project is built with TypeScript and relies on Claude Code, requiring users to fork the repository and provide their profile information; it is still in early stages with limited community stars.
 
-ossinsight · DeusData · Jul 5, 20:58
+ossinsight · MadsLorentzen · Jul 5, 22:59
 
-**Background**: MCP (Model Context Protocol) is an open standard that enables AI agents to connect with tools and data sources, similar to the Language Server Protocol. Knowledge graphs for code represent codebases as networks of entities like functions and classes, allowing semantic queries and advanced code understanding. Existing projects like GraphGen4Code have explored building such graphs, but codebase-memory-mcp distinguishes itself with its focus on high performance and direct MCP server integration.
+**Background**: Claude is a family of large language models developed by Anthropic, known for strong conversational and reasoning capabilities. Claude Code is a tool for AI-assisted software development and content automation. The job application process typically involves manually tailoring resumes and cover letters to each position, which can be automated using LLMs.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol - Wikipedia</a></li>
-<li><a href="https://wala.github.io/graph4code/">GraphGen4Code | A Toolkit for Generating Code Knowledge Graphs</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_(AI)">Claude (AI) - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#code-intelligence`, `#mcp-server`, `#knowledge-graph`, `#code-analysis`, `#performance`
-
----
-
-<a id="item-27"></a>
-## [ZhuLinsen/daily_stock_analysis: LLM-Powered Stock Analysis Gains 21 Stars](https://github.com/ZhuLinsen/daily_stock_analysis) ⭐️ 6.0/10
-
-A new GitHub repository, ZhuLinsen/daily_stock_analysis, gained 21 stars and 16 forks in 24 hours, showcasing an LLM-powered multi-market stock analysis system with real-time news, a decision dashboard, and automated notifications that can run on a zero-cost schedule. This project brings AI-driven stock analysis to individual investors without infrastructure costs, leveraging LLMs for multi-market insights and automated alerts, potentially democratizing access to sophisticated trading tools. The system is written in Python, integrates multiple market data sources and real-time news, and presents analysis on a dashboard with push notifications. It supports zero-cost scheduled runs and has received 17 code pushes, indicating active development.
-
-ossinsight · ZhuLinsen · Jul 5, 20:58
-
-**Background**: Large language models (LLMs) are advanced AI models that can understand and generate text, making them useful for tasks like summarizing financial news or analyzing market sentiment. Stock analysis often requires processing vast amounts of data from multiple sources, which LLMs can facilitate. This project packages these capabilities into a ready-to-use system with a dashboard and notifications, lowering the technical barrier for users.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Large_language_model">Large language model - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#LLM`, `#stock-analysis`, `#python`, `#multi-market`, `#automated-notifications`
+**Tags**: `#ai`, `#job-search`, `#typescript`, `#claude`, `#automation`
 
 ---
 
