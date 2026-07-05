@@ -5,542 +5,609 @@ date: 2026-07-05
 lang: en
 ---
 
-> From 49 items, 24 important content pieces were selected
+> From 48 items, 27 important content pieces were selected
 
 ---
 
-1. [GPT-5.5 Codex Reasoning-Token Clustering Causes Performance Regression](#item-1) ⭐️ 8.0/10
-2. [Anna's Archive Offers $200K Bounty for Complete Google Books Scans](#item-2) ⭐️ 8.0/10
-3. [Prompt injection in YouTube Studio AI leaks private video titles](#item-3) ⭐️ 8.0/10
-4. [Better Models, Worse Tools for AI Agents](#item-4) ⭐️ 8.0/10
-5. [Cross-user response mixing reported in Anthropic Claude Code](#item-5) ⭐️ 8.0/10
-6. [Google's TabFM Enables Zero-Shot Tabular Predictions Without Fine-Tuning](#item-6) ⭐️ 8.0/10
-7. [C&C Generals Natively Ported to macOS, iPhone, and iPad Using AI Tool Fable](#item-7) ⭐️ 7.0/10
-8. [Explanation of everything you can see in htop/top on Linux (2019)](#item-8) ⭐️ 7.0/10
-9. [Zig moves all package management from compiler to build system](#item-9) ⭐️ 7.0/10
-10. [Fantasy RP benchmark of 8 local models reveals Qwen3.6-27B's unexpected strength](#item-10) ⭐️ 7.0/10
-11. [Quantized KV Cache Fixes Enable 1M Context for DeepSeek V4 on Single GPU](#item-11) ⭐️ 7.0/10
-12. [Qwen3.6 27B on RTX 5090: 6.4k samples show median 134.9 tok/s after tuning](#item-12) ⭐️ 7.0/10
-13. [Blackwell GPU hits ~2000 tokens/s with NVFP4 MoE at 30 concurrent requests](#item-13) ⭐️ 7.0/10
-14. [Open-source AI tool Strix for vulnerability detection gains 41 GitHub stars](#item-14) ⭐️ 7.0/10
-15. [Alibaba's Page Agent: Natural Language Web GUI Control](#item-15) ⭐️ 7.0/10
-16. [High-Performance MCP Server Indexes Codebases into Knowledge Graphs](#item-16) ⭐️ 7.0/10
-17. [Nasal Spray Reduces Neuroinflammation in Aged Mice Brains](#item-17) ⭐️ 6.0/10
-18. [AI-Powered Review Finds Critical Bugs in sqlite-utils 4.0rc1, Leading to rc2](#item-18) ⭐️ 6.0/10
-19. [ASCII World Map Rendered Using 445 Bytes via Deflate Compression](#item-19) ⭐️ 6.0/10
-20. [AI Video Editing Project Tops GitHub Trends, Automates Full Pipeline](#item-20) ⭐️ 6.0/10
-21. [Local AI Rig Breakeven: 27 Months to Beat $200/Month Cloud Subscription](#item-21) ⭐️ 6.0/10
-22. [Scoping Agent Actions as Applications Improves Small Model Performance](#item-22) ⭐️ 6.0/10
-23. [AI Job Search Framework Automates Applications with Claude Code](#item-23) ⭐️ 6.0/10
-24. [Herdr: A Rust-Based Terminal Multiplexer for AI Agents](#item-24) ⭐️ 6.0/10
+1. [LongCat 2.0 (1.6T, 48B active) released under MIT license](#item-1) ⭐️ 9.0/10
+2. [Organic Maps Open-Source Integrity Questioned, Community Migrates to CoMaps Fork](#item-2) ⭐️ 8.0/10
+3. [EU Council Fast-Tracks Chat Control 1.0 to Allow Chat Scanning](#item-3) ⭐️ 8.0/10
+4. [Claude Fable AI review prevents breaking bugs in sqlite-utils 4.0](#item-4) ⭐️ 8.0/10
+5. [Rendering an ASCII World Map with Only 445 Bytes](#item-5) ⭐️ 8.0/10
+6. [Newer Anthropic Models Show Worse Tool Call Schema Adherence](#item-6) ⭐️ 8.0/10
+7. [13-model benchmark: Prefill speed and KV head count dominate at 65K+ context](#item-7) ⭐️ 8.0/10
+8. [If you're a button, you have one job](#item-8) ⭐️ 7.0/10
+9. [Shadcn/UI now defaults to Base UI instead of Radix](#item-9) ⭐️ 7.0/10
+10. [Command & Conquer Generals natively ported to macOS, iPhone, iPad using Fable](#item-10) ⭐️ 7.0/10
+11. [Qwen 3.6 27B VLLM Benchmark: BF16, FP8, NVFP4 Performance](#item-11) ⭐️ 7.0/10
+12. [MrFlow: Training-Free Multi-Resolution Flow Matching Acceleration with 10x Speedup](#item-12) ⭐️ 7.0/10
+13. [Application-like interfaces make smaller LLMs more effective at complex tasks](#item-13) ⭐️ 7.0/10
+14. [Repository Collects Leaked System Prompts from Major AI Models](#item-14) ⭐️ 7.0/10
+15. [Open-Source AI Security Tool Strix Gains 45 Stars in a Day](#item-15) ⭐️ 7.0/10
+16. [DeusData/codebase-memory-mcp: Token-efficient code intelligence via persistent knowledge graph](#item-16) ⭐️ 7.0/10
+17. [Free Online Textbook Guides Building a C-Style Compiler](#item-17) ⭐️ 6.0/10
+18. [Possible Evidence of Prompt Injection in Anthropic Models](#item-18) ⭐️ 6.0/10
+19. [Qwen3.6-27B Q8 Hits Near 100K Context on 32GB VRAM](#item-19) ⭐️ 6.0/10
+20. [Agents-A1-Q8_0-GGUF Shows Promising Performance on M1 Max Mac](#item-20) ⭐️ 6.0/10
+21. [Enthusiast Considers Adding Third RTX 3090 for LLM Inference Scaling](#item-21) ⭐️ 6.0/10
+22. [LangChain AI OpenWiki: Agent-Powered Documentation CLI](#item-22) ⭐️ 6.0/10
+23. [Meetily: Self-Hosted AI Meeting Assistant with Local Transcription](#item-23) ⭐️ 6.0/10
+24. [T3MP3ST: Autonomous Multi-Agent Red Teaming Platform in TypeScript](#item-24) ⭐️ 6.0/10
+25. [Alibaba Releases Page-Agent: Control Web GUIs with Natural Language](#item-25) ⭐️ 6.0/10
+26. [OpenMontage: First Open-Source Agentic Video Production System](#item-26) ⭐️ 6.0/10
+27. [AI-Powered Job Search Framework Using Claude Code](#item-27) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [GPT-5.5 Codex Reasoning-Token Clustering Causes Performance Regression](https://github.com/openai/codex/issues/30364) ⭐️ 8.0/10
+## [LongCat 2.0 (1.6T, 48B active) released under MIT license](https://www.reddit.com/r/LocalLLaMA/comments/1unyvnz/longcat_20_16t_48b_active_weights_are_now_open/) ⭐️ 9.0/10
 
-A GitHub issue reports that GPT-5.5 Codex exhibits degraded performance due to reasoning-token clustering, where reasoning tokens cluster at fixed intervals spaced 518 apart, leading to frequent errors on complex reasoning tasks. This regression affects developers who rely on Codex for complex coding tasks, potentially undermining trust in OpenAI's flagship coding model. The issue highlights the difficulty of maintaining consistent quality in LLM-based tools as server-side changes can silently introduce regressions. Users report that the model often gets stuck at exactly 516 reasoning tokens and returns wrong results, while using 6000–8000 tokens typically yields correct answers. The issue is reproducible via the Codex CLI with puzzle prompts, suggesting a systematic problem possibly related to adaptive thinking or token budget allocation.
+LongCat 2.0, a 1.6-trillion-parameter mixture-of-experts language model with approximately 48 billion active parameters per token, has been released with open weights under the permissive MIT license. This release gives developers and researchers unrestricted access to a massive, state-of-the-art model for fine-tuning, commercial use, and local deployment, significantly advancing open-source AI capabilities. LongCat 2.0 was trained on a 50,000-GPU domestic cluster, supports a native 1-million-token context window, achieves 59.5% on SWE-bench Pro, and features dynamic activation of 33–56 billion parameters per token.
 
-hackernews · maille · Jul 4, 21:51 · [Discussion](https://news.ycombinator.com/item?id=48789428)
+reddit · r/LocalLLaMA · /u/Nunki08 · Jul 5, 10:35
 
-**Background**: GPT-5.5 Codex is a large language model by OpenAI designed for code generation, debugging, and repository search. Reasoning tokens are internal tokens the model uses for chain-of-thought reasoning before producing an answer. Clustering of these tokens at fixed values indicates an issue in the model's reasoning process, possibly caused by a server-side update to the token limit or inference strategy. The GitHub issue is part of the open-source Codex CLI repository, enabling public tracking of such regressions.
+**Background**: Mixture-of-experts (MoE) models use multiple specialized sub-networks, activating only a small subset per input, which allows enormous total parameter counts while maintaining reasonable inference costs. The MIT license is one of the most permissive open-source licenses, permitting modification, distribution, and commercial use with minimal restrictions. LongCat-2.0 was developed by Meituan and represents one of the largest open-source models trained entirely on domestic Chinese hardware.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://news.ycombinator.com/item?id=48789428">GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance | Hacker News</a></li>
-<li><a href="https://en.wikipedia.org/wiki/GPT-5.5">GPT-5.5 - Wikipedia</a></li>
+<li><a href="https://huggingface.co/meituan-longcat/LongCat-2.0">meituan-longcat/LongCat-2.0 · Hugging Face</a></li>
+<li><a href="https://www.longcatai.org/news/longcat-2">LongCat-2.0 Released: Trillion-Parameter Agentic Coding Model on Domestic Compute | LongCat AI</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community expresses frustration, with some users observing daily quality drops and switching to alternatives like Claude. Others note similarities to past regressions in Claude Code. There is debate about whether local models offer more stability, and some prefer earlier GPT-5.3 for better token efficiency. The open-source nature is appreciated for allowing transparent issue reporting.
-
-**Tags**: `#ai`, `#codex`, `#performance-regression`, `#openai`, `#machine-learning`
+**Tags**: `#open-source LLM`, `#MIT license`, `#large language model`, `#mixture of experts`, `#local LLM`
 
 ---
 
 <a id="item-2"></a>
-## [Anna's Archive Offers $200K Bounty for Complete Google Books Scans](https://software.annas-archive.gl/AnnaArchivist/annas-archive/-/work_items/234) ⭐️ 8.0/10
+## [Organic Maps Open-Source Integrity Questioned, Community Migrates to CoMaps Fork](https://organicmaps.app/) ⭐️ 8.0/10
 
-Anna's Archive has announced a $200,000 bounty for individuals or groups who can provide complete book scans from Google Books or similar large-scale digitization projects, aiming to significantly expand their open-access digital library. This bounty could greatly accelerate the availability of millions of books that are currently under limited access, benefiting researchers, students, and readers worldwide, especially in regions with restricted physical book access. It also highlights the growing tension between copyright limitations and the public's demand for open knowledge. The bounty is part of Anna's Archive's ongoing effort to aggregate and preserve digital books; the work item page suggests the scans should be high-quality and complete, potentially from Google Books' vast repository. No specific technical requirements are detailed, but the community discussion indicates it's a major step toward their goal of cataloging all books.
+Organic Maps is facing intense community scrutiny over its open-source integrity, with allegations of proprietary components, hidden ads, and opaque governance, leading many users to recommend the fully FOSS fork CoMaps as an alternative. This controversy exposes the risk of trust erosion in open-source projects when licensing and governance become ambiguous, and highlights the critical role of community forks in preserving software freedom and user privacy. F-Droid warns that Organic Maps contains non-FOSS compiled binary data under a non-FLOSS license, and users accuse it of once inserting ads and misusing donations. In contrast, the CoMaps fork has been audited by Exodus for privacy and is actively adding features like CarPlay Dashboard support.
 
-hackernews · Cider9986 · Jul 4, 16:51 · [Discussion](https://news.ycombinator.com/item?id=48786838)
+hackernews · tosh · Jul 5, 14:14 · [Discussion](https://news.ycombinator.com/item?id=48794446)
 
-**Background**: Anna's Archive is a non-profit, open-source metasearch engine for shadow libraries, launched in 2022 after the shutdown of Z-Library. It aggregates records from Z-Library, Sci-Hub, Library Genesis, and others, and provides links to downloads without hosting files directly. It aims to be 'the largest truly open library in human history,' but faces legal challenges due to copyright infringement. Google Books is a massive digitization project by Google that has scanned millions of books, but most are not freely accessible in full. This bounty seeks to unlock those scans for unrestricted public use, continuing the work of digital preservation pioneers.
+**Background**: Organic Maps is an offline navigation app using OpenStreetMap data, originally created by the founders of MapsWithMe. It markets itself as privacy-focused, free, and open-source, but controversy arose after parts of its code became proprietary, breaking its FOSS promise. CoMaps emerged as a community-driven fork to maintain full open-source integrity.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Anna's_Archive">Anna's Archive</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Organic_Maps">Organic Maps - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/CoMaps">CoMaps</a></li>
+<li><a href="https://www.comaps.app/">Hike, Bike, Drive Offline – Navigate with Privacy | CoMaps</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Users express gratitude for Anna's Archive enabling access to books otherwise unavailable in their regions, share personal stories of finding rare materials, and discuss broader implications like extending bounties to internet scrapes. The overall sentiment is supportive, recognizing the value of open access and digital preservation, with some noting the ethical nuances of accessing copyrighted material without paying authors.
+**Discussion**: Overall sentiment is strongly critical of Organic Maps, with users detailing a history of deceptive practices and endorsing CoMaps as the genuine FOSS option. Some note technical specifics like non-free map files and the lack of a web client, while others call for iOS developers to support CoMaps development.
 
-**Tags**: `#digital-preservation`, `#open-access`, `#books`, `#bounty`, `#annas-archive`
+**Tags**: `#open-source`, `#mapping`, `#controversy`, `#community-fork`, `#navigation`
 
 ---
 
 <a id="item-3"></a>
-## [Prompt injection in YouTube Studio AI leaks private video titles](https://javoriuski.com/post/youtube) ⭐️ 8.0/10
+## [EU Council Fast-Tracks Chat Control 1.0 to Allow Chat Scanning](https://www.heise.de/en/news/Chat-Control-1-0-EU-Council-forces-messenger-scans-via-fast-track-11353659.html) ⭐️ 8.0/10
 
-A researcher discovered that by crafting a malicious comment, an attacker can inject prompts into YouTube Studio's AI comment reply feature, causing the AI to include private or unlisted video titles in its suggested replies. YouTube acknowledged the behavior but does not consider it a security vulnerability. This highlights a critical gap in how AI features handle untrusted input, as prompt injection can lead to unintended information disclosure, even when the AI provider disputes the severity. It raises questions about responsibility and security boundaries in AI-integrated platforms. The attack requires the creator to click a suggested AI prompt in YouTube Studio’s comment tab, and the injection is triggered through the comment text. YouTube’s response suggests they view this as an expected AI behavior rather than a vulnerability, despite the privacy implications.
+The EU Council used a fast-track procedure to adopt 'Chat Control 1.0', legislation that allows messaging providers to scan private chats for harmful content like child sexual abuse material (CSAM). This move accelerates mass surveillance capabilities in the EU, raising significant privacy rights concerns and potentially normalizing the erosion of encrypted communications, affecting all EU citizens. The legislation is temporarily limited to scanning for CSAM without mandating the breaking of end-to-end encryption; the more controversial 'Chat Control 2.0' proposal, which would force encryption backdoors, was not part of this fast-track adoption.
 
-hackernews · javxfps · Jul 4, 16:45 · [Discussion](https://news.ycombinator.com/item?id=48786781)
+hackernews · stavros · Jul 5, 11:44 · [Discussion](https://news.ycombinator.com/item?id=48793393)
 
-**Background**: Prompt injection is a security exploit where malicious inputs override a language model’s intended instructions, making it act on attacker-chosen commands. Unlike traditional software bugs, prompt injection exploits the model’s inability to distinguish between system prompts and user inputs. This attack is particularly concerning when AI has access to sensitive data or tools.
+**Background**: 'Chat Control' is the EU's proposed CSAM regulation, initially tabled in 2022, aiming to detect and report online child abuse by scanning private communications. It has faced widespread criticism from privacy advocates, tech companies, and security experts for threatening encryption and enabling mass surveillance. The fast-tracked version (1.0) revives temporary scanning provisions that had recently expired, while the broader and more intrusive 2.0 version remains under debate.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Prompt_injection">Prompt injection</a></li>
-<li><a href="https://www.ibm.com/think/topics/prompt-injection">What Is a Prompt Injection Attack? | IBM</a></li>
+<li><a href="https://www.zerohedge.com/technology/chat-control-eu-proposal-scan-all-private-messages-gains-momentum">" Chat Control " - EU Proposal To Scan All Private... | ZeroHedge</a></li>
+<li><a href="https://captaincompliance.com/education/eus-chat-control-proposal/">EU 's Chat Control Proposal - Captain Compliance</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community commenters are divided: some, including a former YouTube engineer, suggest the classification as a non-bug stems from internal performance review incentives, while others argue that any user-controlled input altering AI behavior is a clear vulnerability. Additional comments test the injection and note that YouTube may have already patched or modified the behavior, and they praise the article's clarity.
+**Discussion**: Commenters express alarm over increased surveillance and distrust of EU institutions, though some clarify this is separate from the more dangerous Chat Control 2.0. Concerns about conformity pressures and the practical burden of identity verification are also raised, with Italy's contradictory stance highlighted as an example of opaque decision-making.
 
-**Tags**: `#prompt-injection`, `#security`, `#youtube`, `#vulnerability`, `#ai`
+**Tags**: `#privacy`, `#surveillance`, `#EU legislation`, `#chat control`, `#encryption`
 
 ---
 
 <a id="item-4"></a>
-## [Better Models, Worse Tools for AI Agents](https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/) ⭐️ 8.0/10
+## [Claude Fable AI review prevents breaking bugs in sqlite-utils 4.0](https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything) ⭐️ 8.0/10
 
-A blog post examines the tension between advancing model capabilities and tooling challenges. Community commenters contribute hands-on fixes, such as better error recovery and grammar-constrained decoding, to improve AI agent reliability in production. Reliable tool calling is crucial for deploying AI agents in real-world applications; without robust tooling, advanced models may fail, leading to project cancellations and wasted resources. These community insights offer actionable techniques to bridge the gap between model potential and practical deployment. Specific techniques include printing instructive error messages for self-correction, using curl commands in skill markdown files for familiar tool specifications, and applying grammar-constrained decoding to restrict model outputs. Additionally, the HIC Mouse system provides 11 MCP tools with coordinate-based precision editing for coding agents.
+Simon Willison used Claude Fable to perform a final review of his Python library sqlite-utils before the 4.0 stable release. The AI identified five release-blocking issues, including a severe data-loss bug in the delete_where() method. This showcases how AI coding agents can enhance software release quality by catching subtle bugs that human developers might miss, preventing breaking changes and emergency point releases. The process was cost-effective at around $149.25. The delete_where() bug left connections in an uncommitted transaction, causing subsequent writes to be lost upon closing. Over 37 prompts and 34 commits across 30 files, 1,321 lines were added and 190 removed. Claude Fable needed 10-15 minutes per task.
 
-hackernews · leemoore · Jul 4, 20:16 · [Discussion](https://news.ycombinator.com/item?id=48788599)
+rss · Simon Willison · Jul 5, 01:00
 
-**Background**: Tool calling (or function calling) enables LLMs to interact with external APIs and systems, transforming them from text generators into autonomous agents. However, production reliability remains a major challenge, with research indicating that over 40% of agentic AI projects may be canceled by 2027 due to costs and inadequate risk controls. The tension between advancing model intelligence and maintaining reliable tool integrations is a critical hurdle for enterprise adoption.
+**Background**: sqlite-utils is a Python utility library for manipulating SQLite databases. Semantic versioning (SemVer) is a versioning scheme (Major.Minor.Patch) where incompatible API changes require a major version bump. Claude Fable is a version of Anthropic's Claude AI model with advanced reasoning and code abilities, temporarily available on Max subscriptions.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.onesixsolutions.com/insights/agentic-ai-tool-calling/">Agentic AI: Using Tool Calling to Go Beyond RAG</a></li>
-<li><a href="https://myengineeringpath.dev/genai-engineer/tool-calling/">LLM Tool Calling — How AI Agents Use... | MyEngineeringPath</a></li>
-<li><a href="https://www.getmaxim.ai/articles/enhancing-ai-agent-reliability-in-production-environments/">Enhancing AI Agent Reliability in Production Environments</a></li>
+<li><a href="https://pypi.org/project/sqlite-utils/">sqlite - utils · PyPI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/SemVer">SemVer</a></li>
+<li><a href="https://www.anthropic.com/news/claude-fable-5-mythos-5">Claude Fable 5 and Claude Mythos 5 \ Anthropic</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments reflect a pragmatic attitude, with users sharing simple yet effective workarounds: one user improved tool-call syntax by returning helpful error messages, another relies on curl commands in markdown for reliability, and a third points to grammar-constrained decoding as a fundamental solution. There is also mention of a comprehensive MCP-based editing tool for precise agent actions, indicating that practical tooling innovations are emerging from the community.
-
-**Tags**: `#ai-agents`, `#tool-calling`, `#llm-reliability`, `#prompt-engineering`, `#developer-experience`
+**Tags**: `#python`, `#sqlite`, `#ai`, `#development-tools`, `#code-review`
 
 ---
 
 <a id="item-5"></a>
-## [Cross-user response mixing reported in Anthropic Claude Code](https://github.com/anthropics/claude-code/issues/74066) ⭐️ 8.0/10
+## [Rendering an ASCII World Map with Only 445 Bytes](https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything) ⭐️ 8.0/10
 
-A user reported receiving responses seemingly from another session in Claude Code, including mentions of unrelated topics like 'Minecraft', and noted similar incidents across multiple LLM providers. The throwaway account detailed two past instances where API gateway mis-handling of HTTP 100 status codes led to response swapping, and the Anthropic team acknowledged the report but suspects hallucination. This raises significant privacy and security concerns for multi-tenant AI systems, as session isolation flaws could expose user data. Even if it proves to be a hallucination, the incident underscores user trust issues and the need for robust session management in LLM APIs. The user mentioned an API gateway off-by-one error with HTTP 100 status codes as a root cause in a prior incident. Commenters noted that large context sizes (over 800K tokens) may increase hallucinations, and the Anthropic team is investigating despite confidence it is a hallucination.
+Iwo Kadziela, assisted by Codex, demonstrated how to render a credible ASCII world map using just 445 bytes by leveraging deflate compression and a clever JavaScript technique that combines fetch with data: URIs and DecompressionStream. This technique showcases the power of modern browser APIs for efficient data delivery and rendering, enabling extremely lightweight web content that can display rich visualizations with minimal bandwidth. The map data is stored as a base64-encoded deflate-raw stream within a data: URI, which fetch decodes and pipes through a DecompressionStream; the resulting text is inserted into a <pre> element with a tiny font size to achieve the visual effect. The total solution, including the compressed data and JavaScript code, fits in 445 bytes.
 
-hackernews · chatmasta · Jul 4, 14:03 · [Discussion](https://news.ycombinator.com/item?id=48785485)
+rss · Simon Willison · Jul 4, 23:09
 
-**Background**: Claude Code is Anthropic's agentic coding assistant integrated into VS Code, enabling developers to use Claude models for code generation and project understanding. Multi-tenant AI systems face risks of 'Cross Session Leak' where one user's data bleeds into another's session. LLM hallucinations are known to produce plausible but incorrect outputs, especially with extensive context.
+**Background**: Deflate is a lossless data compression algorithm used in formats like gzip. The Compression Streams API, supported in modern browsers, provides DecompressionStream to decompress data streams directly. Data URIs allow embedding small resources inline, while fetch can retrieve them like any other URL. This technique cleverly combines these to avoid external files or large JavaScript libraries.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.anthropic.com/product/claude-code">Claude Code | Anthropic's agentic coding system \ Anthropic</a></li>
-<li><a href="https://www.giskard.ai/knowledge/cross-session-leak-when-your-ai-assistant-becomes-a-data-breach">Cross Session Leak: LLM security vulnerability & detection guide</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/DecompressionStream">DecompressionStream - Web APIs | MDN</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Compression_Streams_API">Compression Streams API - Web APIs | MDN</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community reaction is mixed: some suspect cache collisions based on similar experiences with Gemini, while others, including the Anthropic team, believe it is likely a hallucination amplified by large context sizes. Sarcastic suggestions about editing AGENTS.md highlight skepticism, but the overall sentiment remains cautious, with calls for transparency even if it is a hallucination.
-
-**Tags**: `#security`, `#LLMs`, `#API`, `#bug-report`, `#infrastructure`
+**Tags**: `#data compression`, `#javascript`, `#ascii art`, `#web development`, `#minification`
 
 ---
 
 <a id="item-6"></a>
-## [Google's TabFM Enables Zero-Shot Tabular Predictions Without Fine-Tuning](https://www.reddit.com/r/LocalLLaMA/comments/1un5hyi/googletabfm100/) ⭐️ 8.0/10
+## [Newer Anthropic Models Show Worse Tool Call Schema Adherence](https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything) ⭐️ 8.0/10
 
-Google Research has released TabFM 1.0.0, a zero-shot foundation model for tabular data that performs classification and regression without any fine-tuning or hyperparameter tuning, using training examples as in-context learning. This model simplifies tabular machine learning by removing the need for extensive model training and tuning, making powerful predictions accessible to non-experts and accelerating structured data analysis across industries. TabFM handles mixed numerical and categorical columns and uses in-context learning, where the entire training set is provided as input in a single forward pass. It is built upon an adversarially pre-trained transformer architecture, extending the Prior-Data Fitted Network paradigm.
+Armin Ronacher reports that newer Claude models like Opus 4.8 and Sonnet 5 often invent extra fields when calling Pi's edit tool, causing arguments to mismatch the schema and leading to rejected tool calls. This issue does not occur with older Anthropic models. This degradation in tool call reliability for state-of-the-art models suggests that over-optimization for specific tools (like Claude Code's edit tool) may reduce flexibility in third-party integrations, posing challenges for AI developers who rely on consistent tool use. The models add invented keys to the nested 'edits[]' array, even though the edit content itself is correct. Anthropic's models may have been reinforced to use their native 'str_replace' tool, causing them to hallucinate fields when faced with custom schemas. Third-party coding harnesses like Pi might need to implement multiple edit tools to accommodate different model behaviors.
 
-reddit · r/LocalLLaMA · /u/Balance- · Jul 4, 10:20
+rss · Simon Willison · Jul 4, 22:53
 
-**Background**: Traditional machine learning on tabular data requires manual feature engineering, model selection, and extensive hyperparameter tuning. Foundation models are large pre-trained models that can be applied to various tasks with little to no additional training. Zero-shot learning means the model can perform a task without seeing any labeled examples of that specific task during training. TabFM represents a shift toward applying foundation model principles to structured data, similar to how large language models revolutionized text tasks.
+**Background**: Tool calling allows LLMs to invoke external functions and APIs, bridging language generation with real-world actions. Anthropic's Claude models are trained with specific tool-use patterns, such as a search-and-replace edit tool for Claude Code. Over-reliance on reinforcement learning for these native tools may cause models to overfit, reducing their ability to follow arbitrary tool schemas. This news is based on Armin Ronacher's experience while developing the Pi coding harness.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/">Introducing TabFM: A zero-shot foundation model for tabular data</a></li>
-<li><a href="https://huggingface.co/google/tabfm-1.0.0-pytorch">google/tabfm-1.0.0-pytorch · Hugging Face</a></li>
-<li><a href="https://arxiv.org/abs/2502.04573">[2502.04573] Zero-shot Meta-learning for Tabular Prediction Tasks with Adversarially Pre-trained Transformer</a></li>
+<li><a href="https://www.ibm.com/think/topics/tool-calling">What Is Tool Calling? | IBM</a></li>
+<li><a href="https://openrouter.ai/anthropic/claude-opus-4.8">Claude Opus 4 . 8 - API Pricing & Benchmarks | OpenRouter</a></li>
+<li><a href="https://www.anthropic.com/news/claude-sonnet-5">Introducing Claude Sonnet 5 \ Anthropic</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#tabular-data`, `#foundation-model`, `#zero-shot`, `#google-research`, `#machine-learning`
+**Tags**: `#LLM`, `#tool calling`, `#Anthropic`, `#AI reliability`, `#software development`
 
 ---
 
 <a id="item-7"></a>
-## [C&C Generals Natively Ported to macOS, iPhone, and iPad Using AI Tool Fable](https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main) ⭐️ 7.0/10
+## [13-model benchmark: Prefill speed and KV head count dominate at 65K+ context](https://www.reddit.com/r/LocalLLaMA/comments/1unrse9/i_benchmarked_13_models_at_65k128k_context_to/) ⭐️ 8.0/10
 
-A community developer has natively ported the classic real-time strategy game Command & Conquer: Generals to macOS, iPhone, and iPad using the AI-assisted code conversion tool Fable, building on the existing GeneralsX open-source project. This project showcases the practical potential of AI in game preservation and code migration, lowering the barrier to port classic games to modern devices and potentially inspiring similar community efforts. The port requires ownership of the game on Steam to run, includes touch controls like tap-select and pinch-zoom, and is based on EA's GPL v3 source release with engine fixes from the GeneralsX fork.
+A comprehensive benchmark of 13 LLMs at 65K-128K context on an AMD RX 7900 XT revealed that prefill speed and KV head count overwhelmingly dominate agentic workloads, with token generation contributing only 1-5% of total wait time. This challenges the common focus on token generation speed in benchmarks, suggesting that developers deploying local LLMs for agentic tasks should prioritize long-context prefill performance. Models with fewer KV heads may be more efficient for real-world agentic scenarios with long inputs and short outputs. The benchmark tested 5 dense, 6 MoE, and 1 Mamba2 hybrid model across three KV cache quantization levels (Q8_0/Q4_0, Q8_0/Q8_0, F16). Results are specific to a single AMD GPU with Vulkan backend; some models failed at extreme contexts due to memory limitations or MLA issues.
 
-hackernews · asronline · Jul 4, 19:41 · [Discussion](https://news.ycombinator.com/item?id=48788283)
+reddit · r/LocalLLaMA · /u/linuxid10t · Jul 5, 03:37
 
-**Background**: Command & Conquer: Generals is a 2003 real-time strategy game set in a modern warfare setting. EA released its source code under the GPL v3 license, enabling community ports. The GeneralsX project previously ported the game to macOS and Linux, and this new fork adds iOS/iPadOS support. Fable is an AI tool that automates code conversion, though its specific implementation details are not widely documented.
+**Background**: In LLM inference, prefill is the phase that processes the entire input prompt to build a key-value (KV) cache, while decode generates output tokens one at a time. The KV cache stores attention keys and values, and its memory footprint grows linearly with context length and the number of KV heads. Agentic workloads (e.g., tool use, coding agents) often involve very long contexts but produce relatively short responses, making prefill the dominant factor in user-perceived latency.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://news.ycombinator.com/item?id=48788283">Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable | Hacker News</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Command_&_Conquer:_Generals">Command & Conquer: Generals - Wikipedia</a></li>
+<li><a href="https://redis.io/blog/prefill-vs-decode/">Prefill vs Decode: LLM Inference Phases Explained</a></li>
+<li><a href="https://arxiv.org/html/2406.09297v3/">MLKV: Multi-Layer Key-Value Heads for Memory Efficient Transformer...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments show a mix of enthusiasm and criticism: some find AI-generated documentation grating, while others discuss applying similar techniques to Emperor: Battle for Dune. A reminder notes that the game must be purchased on Steam to play.
-
-**Tags**: `#game-preservation`, `#ai-assisted-coding`, `#porting`, `#cross-platform`, `#open-source`
+**Tags**: `#benchmarking`, `#long-context`, `#agentic-workloads`, `#local-llm`, `#kv-cache`
 
 ---
 
 <a id="item-8"></a>
-## [Explanation of everything you can see in htop/top on Linux (2019)](https://peteris.rocks/blog/htop/) ⭐️ 7.0/10
+## [If you're a button, you have one job](https://unsung.aresluna.org/if-youre-a-button-you-have-one-job/) ⭐️ 7.0/10
 
-A detailed 2019 guide decoding the htop and top Linux process monitoring tools, enhanced by community insights on settings and alternatives.
+The article and subsequent discussion highlight the often-overlooked complexity of button behavior in user interfaces, citing real-world failures like unresponsive or doubly-triggering buttons due to lack of debouncing and poor state management. Understanding button behavior is crucial because even minor flaws can cause significant user frustration, accidental double actions, and a loss of trust in the interface, impacting usability across all digital products. Key technical points include the need for debouncing to prevent multiple rapid clicks from queuing actions, proper state feedback (e.g., beep vs. actual action), and the reminder that animations should only support state transitions, not exist for their own sake.
 
-hackernews · theanonymousone · Jul 4, 12:00 · [Discussion](https://news.ycombinator.com/item?id=48784777)
+hackernews · nozzlegear · Jul 5, 02:01 · [Discussion](https://news.ycombinator.com/item?id=48790689)
 
-**Tags**: `#linux`, `#htop`, `#system-monitoring`, `#tutorial`, `#command-line`
+**Background**: In user interface design, a button's primary function is to trigger a single action upon click. However, ensuring this reliably requires handling edge cases like rapid double-clicks (debouncing), providing clear visual or haptic feedback, and managing the button's state (disabled, loading, etc.) to prevent duplicate submissions. The discussion also touches on how animations can mask latency but may cause confusion if not designed properly.
+
+**Discussion**: Community members shared real-world frustrations: Apple's hold-to-turn-on, double-click buffering demoed by Steve Jobs, and a button that beeped without performing its action. Some argued that buttons inherently have multiple jobs (communicating action, displaying state), while others emphasized that animations should serve functional transitions, not just decoration. Overall, the sentiment is that button design is often underestimated, leading to unreliable user experiences.
+
+**Tags**: `#UI/UX`, `#design`, `#usability`, `#frontend`, `#user-experience`
 
 ---
 
 <a id="item-9"></a>
-## [Zig moves all package management from compiler to build system](https://ziglang.org/devlog/2026/#2026-06-30) ⭐️ 7.0/10
+## [Shadcn/UI now defaults to Base UI instead of Radix](https://ui.shadcn.com/docs/changelog) ⭐️ 7.0/10
 
-Zig has shifted all package management responsibilities, including dependency resolution and fetching, from the compiler to the build system, reinforcing a clean separation of concerns. This change simplifies the compiler and strengthens the build system's role as a full-featured project orchestrator, potentially improving reproducibility and cross-compilation workflows. The decoupling allows the build system to fully manage Zig packages using the existing zig.zon format. Future plans may include running the build system in a WebAssembly sandbox, as hinted by community discussion.
+Shadcn/UI has switched its default headless component library from Radix UI to Base UI for new projects created via its CLI. This shift is notable because Shadcn/UI is widely adopted, and Base UI—built by the creators of Radix and MUI—promises better accessibility and composability, potentially reshaping how developers build design systems. New projects will now install unstyled Base UI primitives by default, while existing Radix-based projects remain unchanged; migration may require manual work or AI-assisted tooling rather than traditional codemods.
 
-hackernews · tosh · Jul 4, 16:30 · [Discussion](https://news.ycombinator.com/item?id=48786638)
+hackernews · dabinat · Jul 5, 04:46 · [Discussion](https://news.ycombinator.com/item?id=48791328)
 
-**Background**: Zig is a systems programming language that includes a built-in build system and, since version 0.11, an integrated package manager using .zig.zon manifest files. Previously, package management was tightly coupled with the compiler, but this move separates it into the build system, aligning with Zig's goal of providing a unified and reproducible development environment.
+**Background**: Shadcn/UI is a popular React component collection that copies source code into your project for full control. It originally relied on Radix UI, an unstyled, accessible component library. Base UI is the successor from the same team, offering a more modern foundation with 35+ components and a focus on web standards.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://ziglang.org/learn/build-system/">Zig Build System Zig Programming Language</a></li>
-<li><a href="https://pismice.github.io/HEIG_ZIG/docs/package-manager/">Package manager – Heig Zig documentation</a></li>
+<li><a href="https://base-ui.com/">Unstyled UI components for accessible design systems · Base UI</a></li>
+<li><a href="https://news.ycombinator.com/item?id=46245401">Show HN: Base UI v1.0 Unstyled UI Components from the Creators of Radix and MUI | Hacker News</a></li>
+<li><a href="https://medium.com/@olivier.trinh/what-is-radix-ui-ff535bbb52d5">What is Radix UI ?. Radix UI is an open-source UI component | Medium</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community reaction is largely positive, praising the clean design. Some express excitement about the possibility of a WebAssembly-based build system sandbox. A minor concern is raised about custom package managers potentially complicating multi-language workflows.
+**Discussion**: Comments express mixed reactions: some find the AI-generated tone off-putting, others question the copy-paste approach versus traditional libraries. Concerns include migration without codemods, over-engineered Radix components like radio buttons, and interest in Angular alternatives due to PrimeNG licensing changes.
 
-**Tags**: `#zig`, `#package-management`, `#build-system`, `#language-design`, `#compiler`
+**Tags**: `#ui-library`, `#shadcn`, `#radix`, `#base-ui`, `#frontend`
 
 ---
 
 <a id="item-10"></a>
-## [Fantasy RP benchmark of 8 local models reveals Qwen3.6-27B's unexpected strength](https://www.reddit.com/r/LocalLLaMA/comments/1unbm45/ran_a_classicmedival_europe_fantasy_rpagentic/) ⭐️ 7.0/10
+## [Command & Conquer Generals natively ported to macOS, iPhone, iPad using Fable](https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main) ⭐️ 7.0/10
 
-A Reddit user created a multi-faceted benchmark for a classic medieval Europe fantasy role-playing and agentic task, and tested it on eight local LLMs. The evaluation, using an external LLM grader, showed that Qwen3.6-27B (82% pass rate) performed nearly as well as the top model Gemma-4-31B (87%), with significant performance variability across different sub-tasks. This benchmark highlights that overall scores can mask critical weaknesses in specific agentic or creative sub-tasks, which is crucial for developers selecting models for complex applications. Qwen3.6-27B's strong performance suggests it is a cost-effective and capable option for resource-constrained local deployments. The benchmark evaluated six categories: quest completion, scene endings, item/time tracking, character detection, storytelling, and drafting. Models like Gemma-4-31B led overall, but many suffered steep drop-offs in categories such as NPC thought tracking or quest summarization, revealing uneven capabilities.
+A native port of the classic strategy game Command & Conquer Generals to macOS, iPhone, and iPad has been released, utilizing Fable, an AI-assisted reverse engineering tool that leverages large language models to convert assembly code into C/C++. This project showcases the potential of LLMs to automate complex software reverse engineering, making it faster to preserve and adapt legacy games for modern platforms, and points to a broader trend of AI-driven code conversion. While a macOS port already existed, this project added iOS and iPadOS support with touch controls (tap-select, drag-box, etc.) using Fable for the final commits; the full source is available on GitHub.
 
-reddit · r/LocalLLaMA · /u/UsedMorning9886 · Jul 4, 15:15
+hackernews · asronline · Jul 4, 19:41 · [Discussion](https://news.ycombinator.com/item?id=48788283)
 
-**Background**: Local LLMs are AI models run on personal hardware rather than cloud servers, often used for privacy or offline purposes. Agentic tasks require the model to act as an autonomous agent, making decisions and interacting with a simulated environment. An LLM grader is an automated evaluation method where one language model scores the outputs of another, typically based on rubrics, to provide scalable and consistent assessment.
+**Background**: Command & Conquer Generals is a real-time strategy game from 2003. Fable is an AI model from Anthropic, based on Claude, with strong vision and coding abilities that can reverse-engineer code from screenshots. Traditional game porting via reverse engineering required manual effort; now, LLMs can pattern-match optimized assembly to higher-level languages, significantly reducing time and expertise needed.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://qwen.ai/blog?id=qwen3.6-27b">Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model</a></li>
-<li><a href="https://www.whileone.in/post/measuring-the-unmeasurable-a-benchmarker-s-guide-to-agentic-ai">Measuring the Unmeasurable: A Benchmarker's Guide to Agentic AI</a></li>
-<li><a href="https://www.emergentmind.com/topics/llm-based-grader">LLM -Based Grader : Automated Assessment Overview</a></li>
+<li><a href="https://www.joinnextdev.com/a/soap/anthropics-claude-fable-5-compresses-months-of-engineering-into-days">Soap — Anthropic's Claude Fable 5 Compresses Months of Engineering Into Days</a></li>
+<li><a href="https://www.emergentmind.com/topics/llm-assisted-coding">LLM - Assisted Coding</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Local LLMs`, `#Benchmark`, `#Fantasy RPG`, `#Agentic AI`, `#Model Comparison`
+**Discussion**: Commenters broadly see this as a legitimate and fun use of AI for game preservation, though some note that the heavy lifting for macOS was already done and Fable may have only contributed the iOS/iPadOS portions. A few criticize the AI-generated documentation style but accept the trade-off for speed.
+
+**Tags**: `#game-porting`, `#reverse-engineering`, `#AI-assisted-development`, `#LLM`, `#open-source`
 
 ---
 
 <a id="item-11"></a>
-## [Quantized KV Cache Fixes Enable 1M Context for DeepSeek V4 on Single GPU](https://www.reddit.com/r/LocalLLaMA/comments/1une2il/i_merged_fixes_for_quantized_kv_cache_into_my/) ⭐️ 7.0/10
+## [Qwen 3.6 27B VLLM Benchmark: BF16, FP8, NVFP4 Performance](https://www.reddit.com/r/LocalLLaMA/comments/1uo32yw/qwen_36_27b_vllm_performance_benchmark_results/) ⭐️ 7.0/10
 
-Fixes for quantized KV cache were merged into a llama.cpp branch for DeepSeek V4, allowing the antirez IQ2XXS model to run with 1 million tokens of context on a single RTX PRO 6000 GPU using q8_0 cache. This dramatically reduces the memory required for large-context inference, making it feasible to run massive MoE models like DeepSeek V4 locally on a single consumer GPU with minimal quality loss, thereby advancing local LLM accessibility. Benchmark results show preprocessing speeds dropping from 1790 tok/s at 2K context to 201 tok/s at 1M context, and generation speeds from 56.3 tok/s to 15.3 tok/s. Perplexity comparison between f16 and q8_0 caches (f16 final PPL 4.0242) indicates only minor quality degradation.
+A Reddit user benchmarked Qwen 3.6 27B using VLLM on a system with an RTX 6000 Pro Blackwell 96GB GPU across BF16, FP8, and NVFP4 quantizations. Results show NVFP4 delivers up to 2.6x faster token generation over BF16, while FP8 provides the best balance of speed and quality for coding. These benchmarks provide practical guidance for local LLM deployment, helping users choose optimal quantization for their hardware. The findings highlight that FP8 offers a sweet spot for quality-sensitive tasks like coding, while NVFP4 can significantly boost throughput when speed is critical. The test system used an Intel 270K CPU, 96GB DDR5 RAM, and Ubuntu 26.04 LTS with vLLM 0.24.0 and CUDA 13.2. NVFP4 showed a slight prefill penalty (~10-15% slower than FP8) due to on-the-fly dequantization. The user noted NVFP4 caused looping issues in copilot and less thorough responses in agent mode.
 
-reddit · r/LocalLLaMA · /u/fairydreaming · Jul 4, 16:57
+reddit · r/LocalLLaMA · /u/live4evrr · Jul 5, 14:06
 
-**Background**: KV cache stores key and value states in transformer models to avoid recomputation, but its size grows linearly with context length, becoming a memory bottleneck. Quantization compresses the cache by using lower-precision data types (e.g., q8_0 as 8-bit integers), significantly reducing memory footprint. DeepSeek V4 is a large, 1-trillion-parameter mixture-of-experts model known for strong reasoning. llama.cpp is an open-source framework for efficient LLM inference on CPUs and GPUs, and the RTX PRO 6000 with 96GB memory is well-suited for such models.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://huggingface.co/blog/kv-cache-quantization">Unlocking Longer Generation with Key-Value Cache Quantization</a></li>
-<li><a href="https://en.wikipedia.org/wiki/DeepSeek">DeepSeek</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#llama.cpp`, `#DeepSeek V4`, `#KV cache quantization`, `#Local LLMs`, `#Performance optimization`
-
----
-
-<a id="item-12"></a>
-## [Qwen3.6 27B on RTX 5090: 6.4k samples show median 134.9 tok/s after tuning](https://www.reddit.com/r/LocalLLaMA/comments/1unbi4a/qwen36_27b_on_a_5090_64k_sample_toks_distribution/) ⭐️ 7.0/10
-
-A Reddit user benchmarked Qwen3.6 27B on an RTX 5090 using llama.cpp with MTP speculative decoding and Q8 KV cache, recording 6,454 samples. The median token generation speed was 134.9 tok/s, with a peak distribution bucket at 120-130 tok/s and a long tail up to 233 tok/s. This real-world distribution data from a mixed agentic session offers a more reliable performance expectation than average numbers, helping users gauge practical speeds for coding and debugging tasks. It also demonstrates effective tuning of llama.cpp with MTP and KV cache quantization for Qwen3.6 27B on high-end consumer GPUs. The benchmarking used an RTX 5090 with a Ryzen 7 9800X3D and 64GB RAM, running llama.cpp with q8 KV cache, 192k context, MTP draft=10, and spec-draft-p-min=0.5. The user cautioned that llama.cpp's hybrid attention and SWA cache handling may still trigger prompt reprocessing warnings for this model.
-
-reddit · r/LocalLLaMA · /u/UsedMorning9886 · Jul 4, 15:11
-
-**Background**: MTP (Multi-Token Prediction) speculative decoding is a technique that speeds up inference by predicting multiple future tokens per model forward pass, leveraging draft tokens verified by the main model. Q8 KV cache quantization compresses the key-value cache from 16-bit to 8-bit integers, nearly halving memory use and enabling longer contexts or larger batch sizes. Sliding Window Attention (SWA) constrains each token’s attention to a fixed local window, reducing computational cost and KV cache size for long-context processing.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://medium.com/practical-llm-systems/i-tested-mtp-speculative-decoding-on-two-qwen-models-one-was-a-trap-46c2dfe584c7">I Tested MTP Speculative Decoding on Two Qwen Models... | Medium</a></li>
-<li><a href="https://sumguy.com/llm-kv-cache-quantization/">KV Cache Quantization : Free LLM Context... | SumGuy's Ramblings</a></li>
-<li><a href="https://cyrilzakka.github.io/llm-playbook/nested/swa.html">Sliding - Window Attention ( SWA ) - The Large Language Model...</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#local-llms`, `#benchmarking`, `#performance-optimization`, `#llama.cpp`, `#Qwen-model`
-
----
-
-<a id="item-13"></a>
-## [Blackwell GPU hits ~2000 tokens/s with NVFP4 MoE at 30 concurrent requests](https://www.reddit.com/r/LocalLLaMA/comments/1unqkjy/concurrency_plus_nvfp4_on_blackwell/) ⭐️ 7.0/10
-
-A vLLM log from an RTX Pro 6000 Blackwell GPU shows approximately 2000 tokens/s aggregate throughput when serving the Qwen3.6-35B-A3B-NVFP4 model with 30 concurrent image captioning requests. This demonstrates the potential of Blackwell GPUs for high-throughput, memory-efficient local inference with NVFP4-quantized MoE models, which could make advanced AI more accessible on consumer hardware. The setup used FLASHINFER attention, prefix caching, and a model that only activates about 53% of experts per token, keeping VRAM usage low and suggesting a future RTX 5090 could handle similar loads.
-
-reddit · r/LocalLLaMA · /u/Freonr2 · Jul 5, 02:29
-
-**Background**: NVFP4 is a 4-bit floating-point format by NVIDIA for efficient AI inference on Blackwell Tensor Cores. Blackwell is NVIDIA's latest GPU microarchitecture, succeeding Hopper and optimized for generative AI workloads. vLLM is an open-source inference engine with PagedAttention, enabling high concurrency through continuous batching. MoE (Mixture of Experts) models like Qwen3.6-35B-A3B activate only a subset of parameters per input, reducing computation.
+**Background**: Quantization reduces model precision to improve speed and memory usage. BF16 is a 16-bit format, FP8 is an 8-bit floating-point format, and NVFP4 is a 4-bit format developed by NVIDIA for Blackwell GPUs. VLLM is a serving engine that uses PagedAttention to manage memory efficiently during inference. The RTX 6000 Pro Blackwell 96GB is a high-end GPU with large memory, suited for large models.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/NVFP4">NVFP4</a></li>
-<li><a href="https://grokipedia.com/page/blackwell_microarchitecture">Blackwell (microarchitecture)</a></li>
-<li><a href="https://en.wikipedia.org/wiki/VLLM">VLLM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PagedAttention">PagedAttention</a></li>
+<li><a href="https://github.com/eugr/llama-benchy">GitHub - eugr/ llama - benchy : llama - benchy - llama -bench style...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Blackwell`, `#NVFP4`, `#vLLM`, `#Performance`, `#LocalLLaMA`
+**Tags**: `#LocalLLaMA`, `#VLLM`, `#Qwen`, `#benchmarking`, `#quantization`
+
+---
+
+<a id="item-12"></a>
+## [MrFlow: Training-Free Multi-Resolution Flow Matching Acceleration with 10x Speedup](https://www.reddit.com/r/LocalLLaMA/comments/1unxqw5/paper_multiresolution_flow_matching_trainingfree/) ⭐️ 7.0/10
+
+MrFlow introduces a training-free method that accelerates flow-matching image generation by first generating a low-resolution structure, then applying a pretrained GAN for super-resolution, followed by noise injection and high-resolution refinement, achieving over 10x speedup on models like FLUX.1-dev and Qwen-Image without additional training. This approach significantly reduces inference time for flow-matching models without requiring costly retraining or custom hardware, making high-quality image generation more accessible for real-time applications and resource-limited environments. MrFlow achieves 8-10x speedup on various models and up to 25x when combined with timestep distillation methods like Pi-Flow; it uses a standard PyTorch implementation with no custom kernels, and the GAN-based super-resolution operates in pixel space to avoid latent-space artifacts.
+
+reddit · r/LocalLLaMA · /u/pmttyji · Jul 5, 09:25
+
+**Background**: Flow matching is a generative modeling technique that trains models to learn a velocity field to transform noise into data, used in image generation models like FLUX and Qwen-Image. Multi-resolution generation strategies accelerate inference by first producing a low-resolution image and then upscaling it, but previous methods often suffered from blurring or artifacts when upsampling in latent space. MrFlow improves upon this by using a pretrained GAN for pixel-space super-resolution and noise injection to add high-frequency details.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Flow_matching">Flow matching</a></li>
+<li><a href="https://theorempath.com/topics/flow-matching">Flow Matching for Generative Models | TheoremPath</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#diffusion models`, `#flow matching`, `#inference acceleration`, `#training-free`, `#multi-resolution`
+
+---
+
+<a id="item-13"></a>
+## [Application-like interfaces make smaller LLMs more effective at complex tasks](https://www.reddit.com/r/LocalLLaMA/comments/1unobl4/using_applications_to_make_a_smaller_model_more/) ⭐️ 7.0/10
+
+A Reddit user demonstrated a technique that uses application-like interfaces with limited tool sets and a shared clipboard to enable a smaller language model (Gemma 4 E4B) to perform complex multi-step tasks more effectively than a larger model. This approach could make local LLM agents more practical by allowing smaller, faster models to handle complex workflows without needing large context windows or massive tool sets, potentially reducing hardware requirements and improving reliability for home automation and personal assistants. The system replaces dozens of tools with simple menu-based actions (e.g., "open 1, copy 2") to avoid errors, and it keeps persistent state per application so the agent can resume exactly where it left off; the 4B model ran at 70-85 t/s with 800 t/s prefill on an RX6600XT using llama.cpp Vulkan backend.
+
+reddit · r/LocalLLaMA · /u/Mrinohk · Jul 5, 00:26
+
+**Background**: AI agents are systems that can autonomously perform tasks using tools. Tool use in LLMs allows models to interact with external APIs and software. Effective context management is crucial to prevent hallucinations and keep models focused. This technique constrains the agent's context and toolset within each "application," reducing cognitive load and improving accuracy.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.ibm.com/think/topics/multiagent-system">What is a Multi- Agent System ? | IBM</a></li>
+<li><a href="https://grokipedia.com/page/Tool_use_in_large_language_models">Tool use in large language models</a></li>
+<li><a href="https://byaiteam.com/blog/2025/11/14/context-window-management-for-llms-reduce-hallucinations/">Context Window Management for LLMs : Reduce Hallucinations – By...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#agent systems`, `#local LLM`, `#tool use`, `#context management`, `#prompt engineering`
 
 ---
 
 <a id="item-14"></a>
-## [Open-source AI tool Strix for vulnerability detection gains 41 GitHub stars](https://github.com/usestrix/strix) ⭐️ 7.0/10
+## [Repository Collects Leaked System Prompts from Major AI Models](https://github.com/asgeirtj/system_prompts_leaks) ⭐️ 7.0/10
 
-The open-source tool usestrix/strix, which uses AI to find and fix application vulnerabilities, has gained 41 stars on GitHub in the past 24 hours. It represents a shift towards AI-driven security testing, enabling automated vulnerability scanning in CI/CD pipelines, potentially improving software security posture and reducing manual pentesting efforts. Strix is written in Python and employs a multi-agent framework where specialized AI agents collaborate; it integrates with GitHub Actions to scan pull requests and block insecure code.
+A GitHub repository, asgeirtj/system_prompts_leaks, has rapidly gained 49 stars in 24 hours by compiling system prompts extracted from popular AI models like Claude, ChatGPT, Gemini, and Grok. It is regularly updated with new leaks. These leaks expose the internal guardrails and behavioral instructions of commercial AI systems, offering valuable insights for security researchers, prompt engineers, and anyone concerned with AI transparency and safety. The repository includes system prompts from Anthropic, OpenAI, Google, xAI, and others, often revealing formatting rules, content restrictions, and tool-use guidelines. Some prompts are formatted as JavaScript code snippets.
 
-ossinsight · usestrix · Jul 5, 02:55
+ossinsight · asgeirtj · Jul 5, 17:07
 
-**Background**: Penetration testing traditionally requires human experts to manually probe applications for security flaws. Strix leverages large language model (LLM) agents to automate this process, making security testing faster and more accessible. By integrating into CI/CD pipelines, it shifts security left, catching vulnerabilities early in the development cycle.
+**Background**: System prompts are hidden, high-priority instructions that define an AI model's role, behavior, and safety guidelines, and are normally not visible to users. Leaked prompts can enable prompt injection attacks or reveal proprietary design choices. Prompt engineering, the practice of crafting effective inputs, relies on understanding such underlying instructions, making these leaks a significant resource for both research and exploitation.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/usestrix/strix">GitHub - usestrix/ strix : Open-source AI penetration testing tool to find...</a></li>
-<li><a href="https://www.aisignal.dev/analysis/usestrix-strix">Strix : AI -Powered Pentesting Revolution | AISignal</a></li>
-<li><a href="https://www.freecodecamp.org/news/how-to-use-strix-the-open-source-ai-agent-for-security-testing/">How to Use Strix , the Open-Source AI Agent for Security Testing</a></li>
+<li><a href="https://en.wikipedia.org/wiki/System_prompt">System prompt</a></li>
+<li><a href="https://grokipedia.com/page/system-prompt">System prompt</a></li>
+<li><a href="https://github.com/asgeirtj/system_prompts_leaks">GitHub - asgeirtj/ system _ prompts _leaks: Extracted system prompts ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#security`, `#Python`, `#vulnerability`, `#open-source`
+**Tags**: `#system-prompts`, `#prompt-engineering`, `#AI-security`, `#LLMs`, `#collection`
 
 ---
 
 <a id="item-15"></a>
-## [Alibaba's Page Agent: Natural Language Web GUI Control](https://github.com/alibaba/page-agent) ⭐️ 7.0/10
+## [Open-Source AI Security Tool Strix Gains 45 Stars in a Day](https://github.com/usestrix/strix) ⭐️ 7.0/10
 
-Alibaba released Page Agent, a TypeScript library that lets users control web GUIs using natural language commands, executing interactions directly inside the browser's DOM. This tool lowers the barrier for web automation, enabling non-developers to interact with complex web apps naturally, and could impact accessibility and AI-driven user interfaces. Page Agent runs in-page, not as a wrapper around Playwright or similar tools, and interprets natural language into live DOM manipulations. It is built with TypeScript.
+The GitHub repository usestrix/strix, an open-source Python tool that uses AI to automatically find and fix security vulnerabilities, gained 45 stars in the past 24 hours, reflecting growing interest in autonomous penetration testing. This tool signifies a shift toward AI-driven autonomous security, potentially reducing the manual effort in vulnerability discovery and remediation, and making robust security testing more accessible to developers. Strix operates like real hackers: it dynamically executes code, identifies vulnerabilities, validates them with proof-of-concepts, and can even generate fix pull requests, though it is still in early stages.
 
-ossinsight · alibaba · Jul 5, 02:55
+ossinsight · usestrix · Jul 5, 17:07
 
-**Background**: GUI agents are AI systems that interact with graphical interfaces. Traditional web automation uses scripting or external tools like Selenium. In-page agents execute directly in the browser for more efficient and accurate control. Alibaba, a major tech company, has released this as open-source, contributing to the automation ecosystem.
+**Background**: Strix is part of a new wave of AI agents for cybersecurity, designed to autonomously pentest applications across code, APIs, and cloud infrastructure. It delivers actionable findings with reproduction steps, and its open-source nature encourages community contributions. The tool emerges as the industry increasingly adopts AI to tackle the growing complexity of security threats.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://self.md/tools/page-agent/">page - agent | self.md</a></li>
-<li><a href="https://openapps.pro/apps/page-agent">Page Agent : Natural Language GUI Automation for Web Apps</a></li>
+<li><a href="https://www.strix.ai/">Strix - Autonomous Security for the AI Era</a></li>
+<li><a href="https://github.com/usestrix/strix">GitHub - usestrix/ strix : Open-source AI penetration testing tool to find...</a></li>
+<li><a href="https://strix.mintlify.app/">Open-source AI hackers to secure your apps - Strix</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#web-automation`, `#natural-language-interface`, `#gui-agent`, `#typescript`, `#alibaba`
+**Tags**: `#AI`, `#security`, `#vulnerability`, `#open-source`, `#Python`
 
 ---
 
 <a id="item-16"></a>
-## [High-Performance MCP Server Indexes Codebases into Knowledge Graphs](https://github.com/DeusData/codebase-memory-mcp) ⭐️ 7.0/10
+## [DeusData/codebase-memory-mcp: Token-efficient code intelligence via persistent knowledge graph](https://github.com/DeusData/codebase-memory-mcp) ⭐️ 7.0/10
 
-DeusData/codebase-memory-mcp is a new high-performance MCP server that indexes entire codebases into a persistent knowledge graph in milliseconds, supports 158 languages, delivers sub-millisecond queries, and reduces token overhead by 99%. This tool significantly improves AI-assisted development by providing fast, efficient codebase context to LLMs while drastically cutting token costs, making integration with AI coding assistants more practical and cost-effective. The server is implemented in C, delivered as a single static binary with zero dependencies, and uses a persistent knowledge graph to enable sub-millisecond queries after an initial indexing that completes in milliseconds for an average repository.
+DeusData/codebase-memory-mcp is a new high-performance MCP server that indexes entire codebases into a persistent knowledge graph, enabling sub-millisecond queries and up to 99% token reduction for LLM interactions. By drastically cutting token usage and providing ultra-fast code queries, it makes AI-assisted coding more efficient and cost-effective, potentially benefiting developers across 158 languages with a zero-dependency single binary. Written in C and distributed as a single static binary with no dependencies, the server can index an average repository in milliseconds, supports sub-ms queries, and claims a 99% reduction in token consumption.
 
-ossinsight · DeusData · Jul 5, 02:55
+ossinsight · DeusData · Jul 5, 17:07
 
-**Background**: Model Context Protocol (MCP) is an open standard introduced by Anthropic in November 2024, providing a standard interface for AI models to connect with external tools and data sources. By implementing an MCP server, developers can expose functionalities like codebase search and analysis to AI assistants in a consistent way. This repository is one such MCP server, built for high-performance code intelligence.
+**Background**: MCP (Model Context Protocol) allows AI models to connect to external tools and data sources. Code intelligence tools structure large codebases into searchable forms for LLMs. A knowledge graph represents code entities and their relationships, enabling fast, semantic queries.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol</a></li>
-<li><a href="https://modelcontextprotocol.io/docs/getting-started/intro">Model Context Protocol</a></li>
+<li><a href="https://github.com/punkpeye/awesome-mcp-servers">GitHub - punkpeye/awesome- mcp - servers : A collection of MCP ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#MCP`, `#code-intelligence`, `#knowledge-graph`, `#developer-tools`, `#high-performance`
+**Tags**: `#code-intelligence`, `#mcp`, `#knowledge-graph`, `#performance`, `#developer-tools`
 
 ---
 
 <a id="item-17"></a>
-## [Nasal Spray Reduces Neuroinflammation in Aged Mice Brains](https://stories.tamu.edu/news/2026/04/14/scientists-reverse-brain-aging-with-a-nasal-spray/) ⭐️ 6.0/10
+## [Free Online Textbook Guides Building a C-Style Compiler](https://dthain.github.io/books/compiler/) ⭐️ 6.0/10
 
-A study demonstrated that administering a therapeutic via a nasal spray reduced markers of inflammation in the brains of aged mice, specifically in hippocampal microglial cells. Neuroinflammation is implicated in cognitive decline and neurodegenerative diseases, so a non-invasive delivery method that can bypass the blood-brain barrier holds potential for future therapies. The study was conducted in mice, and only markers of inflammation were reduced; it did not demonstrate actual reversal of brain aging processes. The nasal route allows drugs to directly access the brain, bypassing the blood-brain barrier.
+Dr. Thain's free online textbook, 'Introduction to Compilers and Language Design', provides a step-by-step project for building a C-style compiler from scratch. Former students highly recommend it, though some note its limited scope to C-like languages. This resource offers a practical, hands-on introduction to compiler construction, making a complex topic accessible to students and self-learners. However, its exclusive focus on C-like languages may leave gaps for those interested in broader language design concepts. The textbook covers building a working C-style compiler, but it does not delve into broader language design topics such as type systems, functional languages, or advanced optimization—it is essentially an 'intro to compilers' resource.
 
-hackernews · cybermango · Jul 4, 23:41 · [Discussion](https://news.ycombinator.com/item?id=48790066)
+hackernews · AlexeyBrin · Jul 5, 11:54 · [Discussion](https://news.ycombinator.com/item?id=48793454)
 
-**Background**: Neuroinflammation involves activation of microglia, the brain's resident immune cells, and is associated with aging. The blood-brain barrier normally prevents many substances from entering the brain. Intranasal delivery can bypass this barrier via the olfactory and trigeminal nerve pathways, offering a direct, non-invasive route for brain-targeted therapeutics.
+**Background**: Compilers translate high-level programming languages into machine code, while language design encompasses the principles of creating languages, including syntax, semantics, and paradigms. This textbook focuses on the practical implementation of a compiler for a C-like language, rather than surveying diverse language design concepts.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Neuroinflammation">Neuroinflammation</a></li>
-<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12197310/">Intranasal Drug Delivery Technology in the Treatment of Central...</a></li>
+**Discussion**: Community reactions are mixed: former students praise the hands-on project and instruction, while others criticize the textbook for focusing narrowly on C and lacking broader language design content. Some appreciate it as a solid intro, but note it does not cover major language design topics.
 
-</ul>
-</details>
-
-**Discussion**: Commenters caution that reducing inflammation is not equivalent to reversing brain aging, calling the headline overhyped. Some note the interesting findings but emphasize the limitations of animal models, while others express skepticism through humor or literary references.
-
-**Tags**: `#neuroscience`, `#aging`, `#inflammation`, `#animal-models`, `#hype`
+**Tags**: `#compilers`, `#programming-languages`, `#education`, `#C`, `#teaching`
 
 ---
 
 <a id="item-18"></a>
-## [AI-Powered Review Finds Critical Bugs in sqlite-utils 4.0rc1, Leading to rc2](https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything) ⭐️ 6.0/10
+## [Possible Evidence of Prompt Injection in Anthropic Models](https://www.reddit.com/r/LocalLLaMA/comments/1unif51/possible_evidence_of_literal_prompt_injection_by/) ⭐️ 6.0/10
 
-Simon Willison used Claude Fable AI to perform a final review of sqlite-utils 4.0rc1, uncovering five release-blocking bugs—most critically a data loss issue in delete_where()—and used 34 commits to produce a fixed release candidate 2. This shows that AI-assisted code review can uncover subtle, release-blocking bugs that might be missed by human testing, demonstrating a cost-effective way to improve software quality before stable releases. The most severe bug was that delete_where() never committed its transaction, poisoning the connection and causing all later writes to be silently lost; the review process involved 37 prompts, 34 commits, and changes across 30 files, at a cost of $149.25.
+A Reddit user claimed to have found possible evidence of literal prompt injection in Anthropic's models, though the post provides minimal details or verifiable proof. If confirmed, this would reveal a significant security vulnerability in Anthropic's models, potentially undermining user trust and raising broader concerns about AI safety. The claim is speculative and based on a Reddit post with scant evidence, making its credibility difficult to assess.
 
-rss · Simon Willison · Jul 5, 01:00
+reddit · r/LocalLLaMA · /u/johnnyApplePRNG · Jul 4, 19:54
 
-**Background**: sqlite-utils is a Python library and CLI tool for easily creating and populating SQLite databases, focused on utility rather than being a full ORM. Semantic Versioning (SemVer) is a versioning scheme where incompatible changes require a major version increment, making post-release breaking changes costly. Claude Fable is a state-of-the-art AI model by Anthropic, designed for complex, long-horizon problem-solving tasks like code review and debugging.
+**Background**: Prompt injection is a cybersecurity attack where malicious inputs manipulate large language models into performing unintended actions, often bypassing safety filters. It exploits the models' inability to distinguish between system instructions and user data. With capabilities like web browsing, models become susceptible to indirect injection via external content.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://sqlite-utils.datasette.io/">sqlite - utils</a></li>
-<li><a href="https://www.anthropic.com/claude/fable">Claude Fable \ Anthropic</a></li>
-<li><a href="https://en.wikipedia.org/wiki/SemVer">SemVer</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Prompt_injection">Prompt injection</a></li>
+<li><a href="https://learnprompting.org/docs/prompt_hacking/injection">Prompt Injection : Overriding AI Instructions with User Input</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI-assisted-development`, `#sqlite-utils`, `#code-review`, `#Claude-AI`, `#software-release`
+**Tags**: `#AI Safety`, `#Prompt Injection`, `#Anthropic`, `#LLM Security`, `#Reddit`
 
 ---
 
 <a id="item-19"></a>
-## [ASCII World Map Rendered Using 445 Bytes via Deflate Compression](https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything) ⭐️ 6.0/10
+## [Qwen3.6-27B Q8 Hits Near 100K Context on 32GB VRAM](https://www.reddit.com/r/LocalLLaMA/comments/1unpelb/getting_close_to_100k_context_on_32gb_vram_with/) ⭐️ 6.0/10
 
-Iwo Kadziela, with assistance from Codex, created an ASCII world map using only 445 bytes of data by combining deflate compression with a JavaScript snippet that uses fetch() on data: URIs and DecompressionStream. This hack showcases how modern web APIs can be cleverly combined for extreme data savings, offering inspiration for minimal-footprint web graphics and highlighting the power of built-in browser compression features. The map data is base64-encoded and deflate-compressed, then decoded on the fly using fetch() piped through DecompressionStream('deflate-raw'), and finally rendered as preformatted text in an HTML element.
+A user successfully ran the Qwen3.6-27B model at Q8 quantization with up to 115,000 tokens of context on a single RTX 5090 GPU with 32GB VRAM, sharing practical server configurations and KV cache quantization trade-offs. This experiment demonstrates that high-quality large language models with extended context can run on consumer-grade hardware, lowering the barrier for local LLM applications like long-form code analysis or document processing without relying on cloud services. The configurations used different KV cache quantization levels (Q8_0, Q5_1, Q4_0) to balance VRAM usage, with the most aggressive Q4_0 allowing 115K context but with lower draft token acceptance rates; VRAM headroom remained under 300MB during inference.
 
-rss · Simon Willison · Jul 4, 23:09
+reddit · r/LocalLLaMA · /u/BitGreen1270 · Jul 5, 01:24
 
-**Background**: Deflate is a lossless compression algorithm combining LZ77 and Huffman coding, used in ZIP, PNG, and gzip. Data URIs allow embedding resources directly in HTML. The Web API DecompressionStream enables decompressing streams natively in the browser.
+**Background**: Model quantization reduces memory by storing weights and activations in lower precision; Q8 means 8-bit integers instead of 16-bit. The KV cache holds attention keys and values for processed tokens, and quantizing it further saves VRAM at the potential cost of output quality. Qwen3.6-27B is a 27-billion-parameter open-source model from the Qwen family, known for strong performance. The Nvidia RTX 5090 has 32GB VRAM, which is just enough for the Q8 model weights.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/DEFLATE_compression_algorithm">DEFLATE compression algorithm</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/DecompressionStream">DecompressionStream - Web APIs | MDN</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Data_URI_scheme">Data URI scheme</a></li>
+<li><a href="https://www.promptquorum.com/local-llms/llm-quantization-explained">Q4_K_M vs Q4_0 vs Q 8 _0: LLM Quantization Explained (2026)</a></li>
+<li><a href="https://link.springer.com/article/10.1007/s44267-026-00114-4">An empirical study of Qwen 3 quantization | Visual Intelligence</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#tricks`, `#compression`, `#javascript`, `#ascii-art`, `#web`
+**Tags**: `#local-llm`, `#qwen`, `#context-length`, `#vram-optimization`, `#quantization`
 
 ---
 
 <a id="item-20"></a>
-## [AI Video Editing Project Tops GitHub Trends, Automates Full Pipeline](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901556&idx=2&sn=c3b0061d61a6767010f415d9b4fae1d8) ⭐️ 6.0/10
+## [Agents-A1-Q8_0-GGUF Shows Promising Performance on M1 Max Mac](https://www.reddit.com/r/LocalLLaMA/comments/1unxrjw/agentsa1q8_0gguf_works_pretty_well_for_me/) ⭐️ 6.0/10
 
-An AI-powered video editing project that automates script writing, material selection, dubbing, subtitles, and editing has been trending on GitHub, indicating strong community interest in end-to-end video production automation. This tool could democratize video creation by enabling users without professional editing skills to produce high-quality videos, potentially transforming content marketing, education, and social media production. While specific technical details are sparse, the project likely leverages large language models and speech synthesis APIs to achieve its automation, integrating multiple AI technologies into a single workflow.
+A user reports that the Agents-A1-Q8_0-GGUF model runs smoothly on an M1 Max Mac with 64GB RAM, achieving approximately 500 tokens per second for prompt processing and 40 tokens per second for text generation with the full 262K context window. This demonstrates that open-weight agent-oriented models like Agents-A1 can deliver competitive, Qwen-level performance on consumer hardware, lowering barriers for local LLM experimentation and agent-based applications. The test used llama-server with recommended sampling parameters (temperature 0.85, top-p 0.95, etc.) on a 64GB Mac, and the Q8_0 quantization balances quality and memory usage while leveraging the full 262K context.
 
-rss · 量子位 · Jul 4, 04:00
+reddit · r/LocalLLaMA · /u/FastHotEmu · Jul 5, 09:26
 
-**Background**: AI video editing projects that automate the entire production pipeline are gaining traction, as they reduce the need for specialized skills and significantly speed up content creation.
+**Background**: GGUF is a unified file format for storing quantized LLMs, enabling efficient local inference. llama-server is a lightweight HTTP server from the llama.cpp project that exposes REST APIs for serving GGUF models. Q8_0 is an 8-bit quantization that preserves near-full model quality with moderate memory savings, ideal for systems with sufficient RAM.
 
-**Tags**: `#AI`, `#video editing`, `#GitHub`, `#automation`, `#OpenAI`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://blog.mikihands.com/en/whitedec/2025/11/20/gguf-format-complete-guide-local-llm-new-standard/">Complete Guide to GGUF Format - The New Standard for Local LLMs</a></li>
+<li><a href="https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md">llama .cpp/ tools / server /README.md at master · ggml-org/ llama .cpp</a></li>
+<li><a href="https://www.promptquorum.com/local-llms/llm-quantization-explained">Q4_K_M vs Q4_0 vs Q 8 _ 0 : LLM Quantization Explained (2026)</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#local-llm`, `#gguf`, `#performance`, `#Agents`, `#M1-Max`
 
 ---
 
 <a id="item-21"></a>
-## [Local AI Rig Breakeven: 27 Months to Beat $200/Month Cloud Subscription](https://www.reddit.com/r/LocalLLaMA/comments/1un6njn/doing_the_actual_math_on_a_20k_local_ai_rig/) ⭐️ 6.0/10
+## [Enthusiast Considers Adding Third RTX 3090 for LLM Inference Scaling](https://www.reddit.com/r/LocalLLaMA/comments/1unyhom/considering_buying_another_rtx_3090_benefits/) ⭐️ 6.0/10
 
-A Redditor calculated that a $20,000 local AI machine, factoring in $200/month electricity costs, takes about 27 months to break even compared to a $200/month hosted AI subscription, revealing that self-hosting is not immediately cheaper. This analysis highlights hidden costs like electricity and depreciation often overlooked in self-hosting discussions, providing a more realistic financial picture for individuals and businesses deciding between local and cloud AI solutions. The calculation assumes a $20k upfront hardware cost, $200/month electricity for sustained inference, no consideration of depreciation or maintenance time, and a flat $200/month subscription cost. Including opportunity cost and depreciation would push the breakeven point even further.
+A Reddit user with a dual RTX 3090 setup is considering adding a third GPU to increase total VRAM and handle more concurrent LLM inference requests using pipeline parallelism. This highlights the practical challenges and solutions for local LLM enthusiasts aiming to scale inference, showing how pipeline parallelism can help avoid bandwidth bottlenecks while expanding capacity. The user notes that dual 3090s max out single-stream tokens per second (140+ TPS) but with 48GB VRAM, only two concurrent requests at 256k context length are possible due to KV-cache memory. Adding a third GPU via pipeline parallelism (PCIe 4.0 x4, 8GB/s) would increase VRAM and allow more concurrent requests without bandwidth issues.
 
-reddit · r/LocalLLaMA · /u/shyaaaaaaaaaaam · Jul 4, 11:27
+reddit · r/LocalLLaMA · /u/Civil_Fee_7862 · Jul 5, 10:11
 
-**Background**: Running large language models (LLMs) locally, known as local LLM deployment, involves using powerful GPUs to perform AI inference—the process of generating responses from prompts. This consumes significant electricity, especially under continuous use. Hosted AI subscriptions provide access to the same models via cloud services without upfront hardware costs.
+**Background**: Pipeline parallelism splits model layers across GPUs, each processing a portion, to handle larger models or more requests. KV-cache stores attention key-value tensors to avoid recomputation, but its memory grows with sequence length and batch size, often causing out-of-memory (OOM) errors. Local LLM enthusiasts use consumer GPUs like RTX 3090 (24GB each) in multi-GPU setups to increase total VRAM for inference.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.trgdatacenters.com/resource/ai-inferencing-vs-training-whats-the-difference/">AI Inferencing vs Training: What's the Difference? | TRG Datacenters</a></li>
-<li><a href="https://d-central.tech/mining-glossary/local-llm/">Local LLM Meaning | Bitcoin Mining Glossary</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pipeline_parallelism">Pipeline parallelism</a></li>
+<li><a href="https://medium.com/@anuva_74249/the-journey-to-multi-head-latent-attention-5caefb99b824">The Journey to Multi-Head Latent Attention | by Anuva Sharma | Medium</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#local-llm`, `#cost-analysis`, `#self-hosting`, `#electricity`, `#break-even`
+**Tags**: `#local-llm`, `#multi-gpu`, `#hardware-scaling`, `#pipeline-parallelism`, `#rtx-3090`
 
 ---
 
 <a id="item-22"></a>
-## [Scoping Agent Actions as Applications Improves Small Model Performance](https://www.reddit.com/r/LocalLLaMA/comments/1unobl4/using_applications_to_make_a_smaller_model_more/) ⭐️ 6.0/10
+## [LangChain AI OpenWiki: Agent-Powered Documentation CLI](https://github.com/langchain-ai/openwiki) ⭐️ 6.0/10
 
-A Reddit user demonstrated reducing the number of tools for a local LLM agent by grouping actions into dedicated application interfaces, which improved performance on a smaller model (Gemma 4 E4B) compared to a larger one (Gemma 4 26B). This approach addresses tool overload in agent architectures, potentially making smaller, more efficient models viable for complex tasks by limiting context and tool complexity, which is crucial for local deployments. The system replaces up to 20 individual tools with a few application-like contexts that maintain persistent state and allow navigation via simple verb+number commands; it runs on an RX6600XT GPU with llama.cpp, achieving 70-85 t/s.
+LangChain AI released OpenWiki, a CLI tool that uses AI agents to automatically generate and maintain codebase documentation. It addresses the persistent challenge of outdated or missing documentation, potentially easing the burden on developers and improving project maintainability. Built with TypeScript, it is still in early development and has garnered moderate interest from the community, indicated by 71 stars in a day.
 
-reddit · r/LocalLLaMA · /u/Mrinohk · Jul 5, 00:26
+ossinsight · langchain-ai · Jul 5, 17:07
 
-**Background**: LLM agents often use multiple tools (APIs, functions) to perform tasks, but large tool sets can confuse smaller models and increase context size. "Vibe coding" refers to AI-assisted rapid prototyping without rigorous review. The poster used Gemma 4 models quantized with Unsloth QaT Q4_K_XL.
+**Background**: AI agents are systems that autonomously perform tasks using tools and workflows, going beyond simple chatbots. LangChain is an open-source framework that simplifies building applications with large language models, providing agent architectures and integrations.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.promptingguide.ai/research/llm-agents">LLM Agents | Prompt Engineering Guide</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Vibe_coding">Vibe coding</a></li>
+<li><a href="https://www.ibm.com/think/topics/ai-agents">What Are AI Agents ? | IBM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/LangChain">LangChain - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#local LLM`, `#agent`, `#tool use`, `#application scoping`, `#model efficiency`
+**Tags**: `#documentation`, `#CLI`, `#AI agents`, `#LangChain`, `#developer tools`
 
 ---
 
 <a id="item-23"></a>
-## [AI Job Search Framework Automates Applications with Claude Code](https://github.com/MadsLorentzen/ai-job-search) ⭐️ 6.0/10
+## [Meetily: Self-Hosted AI Meeting Assistant with Local Transcription](https://github.com/Zackriya-Solutions/meetily) ⭐️ 6.0/10
 
-A new GitHub repository, MadsLorentzen/ai-job-search, written in TypeScript, was released. It uses Claude Code to automate job searching by evaluating job listings, tailoring CVs, writing cover letters, and preparing for interviews. This tool could significantly reduce the time and effort required for job applications, making personalized applications accessible to a wider range of candidates. It exemplifies the growing use of AI agents for personal productivity tasks. The framework requires users to fork the repository and provide their personal profile. Since it relies on Claude Code, users need an Anthropic API key or subscription, and some technical knowledge to set up the terminal-based agent.
+A new open-source tool called Meetily offers real-time meeting transcription and summarization entirely on-device, leveraging Rust for speed, Whisper for transcription, and Ollama for summarization. By keeping all processing local, Meetily addresses growing privacy concerns, ensuring confidential meeting data never leaves the user's machine—a key advantage for businesses and individuals wary of cloud services. Written in Rust for performance, it integrates Parakeet/Whisper for 4x faster transcription, supports speaker diarization, and runs on macOS and Windows without any cloud dependency.
 
-ossinsight · MadsLorentzen · Jul 5, 02:55
+ossinsight · Zackriya-Solutions · Jul 5, 17:07
 
-**Background**: Claude Code is an AI agent developed by Anthropic that can understand and modify code, execute terminal commands, and interact with files and browsers using natural language. It allows users to automate complex, multi-step tasks autonomously. In this context, it powers the job search framework by replacing manual effort with AI-driven customization.
+**Background**: Whisper is an open-source speech recognition model from OpenAI. Ollama is a platform for running large language models locally. Speaker diarization identifies who spoke when in an audio stream.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ollama">Ollama</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Speaker_diarisation">Speaker diarisation</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#ai`, `#job-search`, `#typescript`, `#claude`, `#automation`
+**Tags**: `#meeting-assistant`, `#rust`, `#local-ai`, `#open-source`, `#privacy-first`
 
 ---
 
 <a id="item-24"></a>
-## [Herdr: A Rust-Based Terminal Multiplexer for AI Agents](https://github.com/ogulcancelik/herdr) ⭐️ 6.0/10
+## [T3MP3ST: Autonomous Multi-Agent Red Teaming Platform in TypeScript](https://github.com/elder-plinius/T3MP3ST) ⭐️ 6.0/10
 
-The open-source tool Herdr, a terminal multiplexer for supervising multiple AI coding agents, gained 20 GitHub stars in the past 24 hours, signaling growing interest from the developer community. As AI coding agents become more prevalent, tools like Herdr that streamline managing multiple agents in a unified terminal interface can boost productivity and are relevant to the evolving AI-assisted development workflow. Herdr is written in Rust and can be installed via brew, mise, or nix. It features a terminal workspace manager with mouse support, workspaces, tabs, and panes, designed to supervise multiple AI coding agents concurrently.
+The GitHub repository elder-plinius/T3MP3ST has started trending, gaining 35 stars in 24 hours. It introduces a TypeScript-based autonomous red teaming platform described as a multi-agent offensive security meta-harness. The project reflects a shift toward automated, continuous security testing using AI-driven multi-agent systems, potentially making red teaming more scalable and efficient for organizations. Built in TypeScript, T3MP3ST employs a ‘meta-harness’ approach to orchestrate multiple offensive security agents. It is in early development with limited documentation and community activity.
 
-ossinsight · ogulcancelik · Jul 5, 02:55
+ossinsight · elder-plinius · Jul 5, 17:07
 
-**Background**: Agent multiplexers are akin to terminal multiplexers like tmux, but specifically designed to manage multiple AI agent sessions. They allow developers to create, attach, detach, and monitor multiple AI coding agents simultaneously, streamlining complex multi-agent workflows. This concept is emerging as AI coding tools become more autonomous.
+**Background**: Red teaming simulates real-world attacks to test defenses. Autonomous platforms automate this process continuously. Multi-agent systems use cooperating AI agents, while a meta-harness (inspired by Stanford’s Meta-Harness) acts as an outer loop that can optimize or rewrite agents based on performance.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/ogulcancelik/herdr">GitHub - ogulcancelik / herdr : agent multiplexer that lives in your...</a></li>
-<li><a href="https://deepwiki.com/ogulcancelik/herdr">ogulcancelik / herdr | DeepWiki</a></li>
-<li><a href="https://terminaltrove.com/herdr/">herdr - A tmux-like and agent -aware terminal multiplexer .</a></li>
+<li><a href="https://www.cytadel.co.uk/">Cytadel | AI-Driven Autonomous Red Teaming Platform</a></li>
+<li><a href="https://github.com/pentrestion/Agentic-Mythos-SOC">GitHub - pentrestion/Agentic-Mythos-SOC: The Multi - Agent Offensive ...</a></li>
+<li><a href="https://www.epsilla.com/blogs/stanford-meta-harness-automating-agent-orchestration">The Self-Assembling Agent: Why Stanford's ' Meta - Harness ' Changes....</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#rust`, `#ai-agents`, `#terminal`, `#multiplexer`, `#tool`
+**Tags**: `#security`, `#red-teaming`, `#offensive-security`, `#multi-agent`, `#typescript`
+
+---
+
+<a id="item-25"></a>
+## [Alibaba Releases Page-Agent: Control Web GUIs with Natural Language](https://github.com/alibaba/page-agent) ⭐️ 6.0/10
+
+Alibaba has open-sourced page-agent, a TypeScript library that enables developers to control and automate web interfaces using natural language commands. It can interpret user instructions and perform actions on web pages directly within the browser. This library lowers the barrier for web automation by eliminating the need for complex scripting, making it accessible to non-programmers and enhancing productivity. It represents a step toward more intuitive human-computer interaction and could accelerate the development of autonomous GUI agents. Page-agent is written in TypeScript and runs as an in-page agent, meaning it operates within the context of the web page itself. The library is currently in early stages, as indicated by its moderate star count and lack of forks, but it leverages advances in NLP to understand and execute commands.
+
+ossinsight · alibaba · Jul 5, 17:07
+
+**Background**: Graphical User Interface (GUI) agents are AI systems that can perceive and interact with software interfaces like a human would, using mouse clicks, typing, and navigation. Recent advancements in large language models have enabled more robust natural language understanding, allowing tools like Steward and Replit to automate web tasks based on text instructions. Alibaba's page-agent contributes to this growing ecosystem of open-source solutions for browser automation.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.linkedin.com/pulse/giving-eyes-arms-ai-towards-autonomous-gui-agents-ritwik-agrawal-ih05f">Giving Eyes and Arms to AI: Towards Autonomous GUI Agents</a></li>
+<li><a href="https://arxiv.org/abs/2409.15441">[2409.15441] Steward: Natural Language Web Automation</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#Web Automation`, `#Natural Language Processing`, `#GUI Agent`, `#JavaScript Library`, `#TypeScript`
+
+---
+
+<a id="item-26"></a>
+## [OpenMontage: First Open-Source Agentic Video Production System](https://github.com/calesthio/OpenMontage) ⭐️ 6.0/10
+
+OpenMontage, an open-source agentic video production system, has gained 28 stars on GitHub in one day. It boasts 12 pipelines, 52 tools, and over 500 agent skills, enabling AI coding assistants to function as a full production studio. This project democratizes AI-driven video production, potentially reducing costs and technical barriers for creators. It signals a shift toward autonomous, multi-agent systems in creative industries, where AI handles complex tasks from scripting to editing. Built in Python, OpenMontage is designed for agentic operation and integrates with AI coding assistants. It features 12 specialized pipelines, 52 tools, and 500+ agent skills, though it is early-stage with limited community activity.
+
+ossinsight · calesthio · Jul 5, 17:07
+
+**Background**: Agentic AI refers to autonomous agents that can plan, reason, and execute multi-step tasks without constant human oversight. In video production, this means automating the entire pipeline—from scripting and voiceover to editing and post-production. OpenMontage claims to be the first open-source system of its kind, providing a framework for AI agents to collaborate on video projects. Typically, such systems use foundational AI models and orchestration to manage creative workflows.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/calesthio/OpenMontage">calesthio/OpenMontage: World's first open-source, agentic video ...</a></li>
+<li><a href="https://www.imagine.art/blogs/agentic-ai-in-video-production">Understanding Agentic AI for Video Production Workflows</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI agents`, `#video production`, `#open-source`, `#Python`, `#automation`
+
+---
+
+<a id="item-27"></a>
+## [AI-Powered Job Search Framework Using Claude Code](https://github.com/MadsLorentzen/ai-job-search) ⭐️ 6.0/10
+
+A new open-source framework, MadsLorentzen/ai-job-search, uses Anthropic's Claude Code to automate tailoring resumes, writing cover letters, and preparing for interviews for job applications. This tool can significantly reduce the time and effort required for job seekers to customize applications, potentially improving their chances of securing interviews in a competitive market. Built in TypeScript, the framework requires users to fork the repository and fill in their profile; Claude Code then evaluates job listings and generates tailored documents.
+
+ossinsight · MadsLorentzen · Jul 5, 17:07
+
+**Background**: Claude Code by Anthropic is an agentic coding tool that can understand and modify codebases, run commands, and automate development tasks. Unlike the Claude chatbot, it operates as an AI agent directly in the development environment. This project repurposes it for job search automation, highlighting the flexibility of such AI agents.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Code">Claude Code</a></li>
+<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
+<li><a href="https://www.anthropic.com/product/claude-code">Claude Code | Anthropic's agentic coding system \ Anthropic</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#ai`, `#job-search`, `#automation`, `#claude`, `#typescript`
 
 ---
