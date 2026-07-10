@@ -1,289 +1,475 @@
 # Horizon Daily - 2026-07-10
 
-> From 29 items, 14 important content pieces were selected
+> From 34 items, 23 important content pieces were selected
 
 ---
 
-1. [GPT-5.6 Sol Ultra Proves Cycle Double Cover Conjecture](#item-1) ⭐️ 10.0/10
-2. [QuadRF Open-Source RF Visualizer Detects Drones and WiFi Through Walls](#item-2) ⭐️ 8.0/10
-3. [The Tech of Terminator 2: An Oral History of Groundbreaking VFX](#item-3) ⭐️ 8.0/10
-4. [New York City Becomes First US City to Ban Deceptive Subscriptions](#item-4) ⭐️ 8.0/10
-5. [Good Tools Are Invisible](#item-5) ⭐️ 8.0/10
-6. [Successful Companies Go Blind](#item-6) ⭐️ 8.0/10
-7. [Late Bronze Age Collapse Blog Post Sparks HN Debate](#item-7) ⭐️ 7.0/10
-8. [Write Code as if a Human Will Maintain It](#item-8) ⭐️ 7.0/10
-9. [Emacs's Tool Integration Mirrors a Service-Oriented Architecture](#item-9) ⭐️ 7.0/10
-10. [AR Glasses Require Always-On Cameras, Invading Privacy](#item-10) ⭐️ 7.0/10
-11. [Questioning Lack of Submission Limits in ML Conferences](#item-11) ⭐️ 7.0/10
-12. [A Love Letter to Flashcards](#item-12) ⭐️ 6.0/10
-13. [Nobel Laureate Ben Bernanke Joins AI Firm Anthropic](#item-13) ⭐️ 6.0/10
-14. [Contradictory findings on adversarial attack strength in multi-agent PPO](#item-14) ⭐️ 6.0/10
+1. [GPT-5.6 Sol Ultra Produces Proof of Cycle Double Cover Conjecture](#item-1) ⭐️ 9.0/10
+2. [QuadRF: Open-Source RF Camera Spots Drones and WiFi Through Walls](#item-2) ⭐️ 8.0/10
+3. [An Oral History of the VFX Tech Invented for Terminator 2](#item-3) ⭐️ 8.0/10
+4. [Emacs's Architecture Inherently Follows a Service-Like Model](#item-4) ⭐️ 8.0/10
+5. [Nilay Patel: AR Glasses Necessitate Continuous Recording and Cloud Processing](#item-5) ⭐️ 8.0/10
+6. [Unsloth Delivers 2.5x Faster NVFP4 Quants for Qwen3.6](#item-6) ⭐️ 8.0/10
+7. [NYC Bans Deceptive Subscription Practices with 'Click-to-Cancel' Law](#item-7) ⭐️ 7.0/10
+8. [Good Tools Are Invisible](#item-8) ⭐️ 7.0/10
+9. [Boko Haram's Purported Use of Generative AI Draws Skeptical Reactions](#item-9) ⭐️ 7.0/10
+10. [How Successful Companies Go Blind](#item-10) ⭐️ 7.0/10
+11. [Geohot on Why He Quit Streaming and the Death of Punk Spirit](#item-11) ⭐️ 7.0/10
+12. [Developer Trains 500M LLM on 1800s Texts for Historical Q&A](#item-12) ⭐️ 7.0/10
+13. [Tencent HY3 MoE Model Runs Locally on MacBook M5 Max 128GB](#item-13) ⭐️ 7.0/10
+14. [Strix Halo APU costs only $0.48/day at full load for local LLM inference](#item-14) ⭐️ 7.0/10
+15. [Portable USB Survival Kit with Offline LLMs Proposed](#item-15) ⭐️ 7.0/10
+16. [DataBricks: pi-coding-agent is ~2x cheaper, GLM 5.2 matches Opus 4.8 high](#item-16) ⭐️ 7.0/10
+17. [Speculative Cache Warming Reduces LLM Wait Time by Preloading During Typing](#item-17) ⭐️ 7.0/10
+18. [tencent/HiLS-Attention-7B · Hugging Face](#item-18) ⭐️ 7.0/10
+19. [A Deep Dive into the Late Bronze Age Collapse and Its Modern Parallels](#item-19) ⭐️ 6.0/10
+20. [Limpet teeth surpass spider silk as nature's strongest material](#item-20) ⭐️ 6.0/10
+21. [A Love Letter to Handmade Flashcards as a Superior Learning Tool](#item-21) ⭐️ 6.0/10
+22. [Ben Bernanke, Former Fed Chair and Nobel Laureate, Joins Anthropic](#item-22) ⭐️ 6.0/10
+23. [Running DeepSeek V4 Flash Q2 Quant on RTX 4090 with DDR5 RAM](#item-23) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [GPT-5.6 Sol Ultra Proves Cycle Double Cover Conjecture](https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf) ⭐️ 10.0/10
+## [GPT-5.6 Sol Ultra Produces Proof of Cycle Double Cover Conjecture](https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf) ⭐️ 9.0/10
 
-OpenAI's GPT-5.6 Sol Ultra model generated a proof of the Cycle Double Cover Conjecture, a long-standing open problem in graph theory, published as a PDF on OpenAI's CDN. The proof is concise and appears to exploit a clever trick that mathematicians had previously missed. This marks the first time AI has produced a full proof of a major open conjecture, demonstrating autonomous theorem-proving capabilities that could transform theoretical research. It suggests AI may now surpass most humans in certain mathematical reasoning tasks, potentially accelerating discovery across fields. The proof is available as a PDF, and the prompt used was also released. The model solved the problem in about one hour, but the proof's extreme conciseness raises questions about whether it relies on a trick rather than deep theory, and community verification is pending.
+OpenAI's GPT-5.6 Sol Ultra model has reportedly generated a concise proof for the Cycle Double Cover Conjecture, a long-standing open problem in graph theory posed by Tutte, Itai, Rodeh, Szekeres, and Seymour. The proof, released as a preprint on July 10, 2026, claims that every bridgeless undirected graph has a cycle double cover. This breakthrough demonstrates AI's growing capability in autonomous mathematical reasoning, moving beyond computational tasks to produce original, human-readable proofs for open conjectures. If verified, it could accelerate research in graph theory and signal a new era where AI assists in solving complex theoretical problems. The proof is notably concise and exploits a clever trick that had eluded experts, sparking debate about whether it represents genuine "theory-building" or merely a clever combination of existing ideas. The prompt used to generate the proof was also released, allowing scrutiny of the AI's methodology.
 
 hackernews · scrlk · Jul 10, 18:29 · [Discussion](https://news.ycombinator.com/item?id=48863490)
 
-**Background**: The Cycle Double Cover Conjecture, posed by mathematicians including Tutte and Seymour, asserts that every bridgeless undirected graph has a collection of cycles covering each edge exactly twice. It is a central unsolved problem in graph theory. GPT-5.6 Sol Ultra is a frontier large language model from OpenAI, optimized for coding and reasoning, achieving state-of-the-art results on benchmarks.
+**Background**: The Cycle Double Cover Conjecture asks whether every bridgeless undirected graph has a collection of cycles that cover each edge exactly twice. First posed in the 1970s, it is a fundamental problem in graph theory with connections to embedding and flow problems. GPT-5.6 Sol Ultra is OpenAI's latest flagship model, released in July 2026, with state-of-the-art performance in coding, cybersecurity, and scientific reasoning.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Cycle_double_cover_conjecture">Cycle double cover conjecture</a></li>
-<li><a href="https://openai.com/index/gpt-5-6/">GPT - 5 . 6 : Frontier intelligence that scales with your ambition | OpenAI</a></li>
-<li><a href="https://www.datacamp.com/blog/gpt-5-6-sol-luna-terra">GPT - 5 . 6 Sol , Terra, and Luna: OpenAI's Next-Gen Model... | DataCamp</a></li>
+<li><a href="https://openai.com/index/gpt-5-6/">GPT‑5.6: Frontier intelligence that scales with your ambition</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community is excited but cautious, noting that while the proof is a breakthrough, there is debate over whether it represents a clever trick or genuine theory-building. Questions about systematically testing unsolved problems on new models have emerged, and the overall sentiment is that this is a huge milestone, though the proof's depth and generalizability remain to be seen.
+**Discussion**: Community reaction is largely impressed but cautious, with some noting that the proof's conciseness may indicate a clever trick rather than deep theory-building. Others highlight that AI's success in math aligns with tasks where correctness is easily verifiable and solutions are text-based. There is interest in systematic testing of unsolved problems against frontier models.
 
-**Tags**: `#AI`, `#mathematics`, `#proof`, `#Cycle Double Cover Conjecture`, `#OpenAI`
+**Tags**: `#AI`, `#mathematics`, `#graph-theory`, `#proof-generation`, `#LLMs`
 
 ---
 
 <a id="item-2"></a>
-## [QuadRF Open-Source RF Visualizer Detects Drones and WiFi Through Walls](https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/) ⭐️ 8.0/10
+## [QuadRF: Open-Source RF Camera Spots Drones and WiFi Through Walls](https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/) ⭐️ 8.0/10
 
-Jeff Geerling demonstrated QuadRF, an open-source 4x4 MIMO software-defined radio with a phased-array antenna, successfully detecting drones in flight and visualizing WiFi signals passing through a wall. This demonstration makes phased-array radio frequency sensing accessible to hobbyists and educators, potentially enabling new applications in drone defense, wireless security auditing, and RF education at a fraction of the cost of traditional systems. QuadRF is a 4x4 MIMO software-defined radio with a phased-array antenna covering a broad frequency range; the demonstration employed manual calibration and alignment, and the project's creator plans to improve the user interface based on community feedback.
+QuadRF is a new open-source software-defined radio device that visualizes radio frequency signals in real time, enabling users to detect drones and WiFi networks through walls. It integrates a Raspberry Pi 5 and a 4x4 MIMO phased array, and was demonstrated by Jeff Geerling. This technology makes phased-array RF sensing accessible and affordable, empowering hobbyists, developers, and security researchers to build applications like drone detection, wireless spectrum monitoring, and privacy auditing. It could lead to new ways of seeing the invisible radio landscape. The device features a modular 4x4 MIMO SDR tile, an open antenna architecture, and an open-source UI that is being improved based on community feedback. It requires calibration and proper gain settings for best performance, and currently works with specific RF bands.
 
 hackernews · speckx · Jul 10, 15:59 · [Discussion](https://news.ycombinator.com/item?id=48861717)
 
-**Background**: Phased-array antennas consist of multiple elements that can electronically steer a beam to detect the direction of incoming radio signals without physical movement. Software-defined radios (SDRs) process signals flexibly via software. RF visualizers combine these to produce heatmap-like displays showing signal strength across space, similar to a thermal camera but for radio waves.
+**Background**: Radio frequency (RF) sensing uses radio signals to detect objects and environments, often by analyzing reflections, similar to radar. Software-defined radio (SDR) replaces traditional analog hardware with software, allowing flexible signal processing. Phased array antennas use multiple elements to steer beams electronically without moving parts, enabling rapid scanning. QuadRF combines these technologies in a compact, consumer-friendly package.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://www.crowdsupply.com/scale-rf/quadrf">QuadRF | Crowd Supply</a></li>
-<li><a href="https://moonrf.com/docs/">QuadRF Documentation</a></li>
+<li><a href="https://github.com/dustinbowers/QuadRF">GitHub - dustinbowers/QuadRF</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Software-defined_radio">Software-defined radio</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community responded enthusiastically: the project's creator shared demo videos and noted improvements to the UI are underway. Ideas included building a sound-based equivalent, integrating into smart glasses, scanning for hidden transmitters, and using the technology for drone defense, with some noting its relevance to current conflicts.
+**Discussion**: The creator, mrtnmcc, engaged with commenters, noting they're improving the UI based on Geerling's suggestions and that the project is open source. Users expressed excitement about potential uses, such as making a sound version, integrating into smart glasses, or checking for hidden wireless devices. Some speculated that government agencies likely already use similar tech.
 
-**Tags**: `#RF`, `#WiFi`, `#Drones`, `#Visualization`, `#Open Source`
+**Tags**: `#RF sensing`, `#open source hardware`, `#drone detection`, `#WiFi visualization`, `#software-defined radio`
 
 ---
 
 <a id="item-3"></a>
-## [The Tech of Terminator 2: An Oral History of Groundbreaking VFX](https://vfxblog.com/2017/08/23/the-tech-of-terminator-2-an-oral-history/) ⭐️ 8.0/10
+## [An Oral History of the VFX Tech Invented for Terminator 2](https://vfxblog.com/2017/08/23/the-tech-of-terminator-2-an-oral-history/) ⭐️ 8.0/10
 
-This oral history article details the groundbreaking visual effects techniques invented for Terminator 2, featuring interviews with the innovators who created them. Terminator 2's visual effects revolutionized the film industry by seamlessly integrating CGI with live action, setting a new benchmark. The techniques developed, such as realistic liquid metal and digital compositing, continue to influence modern filmmaking. The article covers both practical and digital effects, including custom squibs for bullet impacts and the use of Softimage software for 3D animation. It highlights the collaborative effort to solve unprecedented creative challenges.
+An oral history reveals the groundbreaking visual effects techniques invented for Terminator 2, from pioneering CGI to practical effects. The innovations set new industry standards and continue to influence modern filmmaking, proving foundational for today's VFX. Notable techniques include custom squibs for liquid metal impacts, use of Softimage for CGI, go motion for realistic blur, environment mapping for reflections, and Cyberware 3D scanning for digital models.
 
 hackernews · markus_zhang · Jul 10, 16:48 · [Discussion](https://news.ycombinator.com/item?id=48862365)
 
-**Background**: Terminator 2: Judgment Day (1991) was a landmark in visual effects, blending practical stunts with early computer-generated imagery. The film's liquid metal T-1000 and morphing effects required a combination of nascent CGI, optical compositing, and innovative practical rigs, with many techniques invented from scratch by Industrial Light & Magic and other VFX houses.
+**Background**: Go motion adds motion blur to stop-motion animation. Environment mapping approximates reflections without ray tracing. Cyberware built high-resolution 3D scanners used to digitize actors. Softimage was an early 3D animation software.
 
-**Discussion**: Commenters praised the article, highlighting the ingenious practical squibs used for liquid metal bullet impacts. Some discussed upcoming theatrical re-releases for the 35th anniversary, while others noted the use of Softimage software and recommended related documentaries. The overall sentiment is admiration for the film's innovative spirit and lasting impact on VFX.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Go_motion">Go motion</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Environment_mapping">Environment mapping</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cyberware_(company)">Cyberware (company) - Wikipedia</a></li>
 
-**Tags**: `#VFX`, `#film-technology`, `#computer-graphics`, `#oral-history`
+</ul>
+</details>
+
+**Discussion**: Commenters praise the inventiveness of custom squibs and CGI, highlight the use of Softimage, and note a 4K theatrical re-release. Some question whether modern CGI will age as well, while others recommend the documentary 'Jurassic Punk'.
+
+**Tags**: `#visual-effects`, `#film-history`, `#computer-graphics`, `#technology`, `#cgi`
 
 ---
 
 <a id="item-4"></a>
-## [New York City Becomes First US City to Ban Deceptive Subscriptions](https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban) ⭐️ 8.0/10
+## [Emacs's Architecture Inherently Follows a Service-Like Model](http://yummymelon.com/devnull/in-emacs-everything-looks-like-a-service.html) ⭐️ 8.0/10
 
-New York City has enacted a groundbreaking law that prohibits deceptive subscription practices, including the use of dark patterns and junk fees that trick consumers into unwanted payments. It is the first city in the U.S. to do so. This legislation marks a significant shift in consumer protection, setting a precedent that may prompt other cities and states to adopt similar measures and forcing companies to adopt fairer subscription practices. It directly addresses the billions lost annually to deceptive practices. The ordinance targets 'dark patterns'—manipulative design elements that trick users into subscriptions—and 'junk fees,' requiring clear disclosure and easy cancellation processes. Enforcement details and penalties have yet to be fully clarified, but it applies to digital subscriptions and potentially hidden fees in other sectors.
+A new article argues that Emacs's internal architecture mirrors a service-oriented model, where components interact like services. The Hacker News discussion adds historical context, linking this to Lisp machines and pre-LSP service-like interactions. Reframing Emacs as a service-oriented system highlights its long-standing design patterns that anticipated modern modular tooling, such as language servers, and could influence how developers approach editor extensibility. The analogy is supported by Emacs's use of long-running subprocesses, RPC-like interactions via TRAMP and GUD, and its built-in client-server architecture that allows multiple frames to share a single instance.
 
-hackernews · randycupertino · Jul 10, 18:26 · [Discussion](https://news.ycombinator.com/item?id=48863464)
+hackernews · kickingvegas · Jul 10, 08:21 · [Discussion](https://news.ycombinator.com/item?id=48857230)
 
-**Background**: Dark patterns are user interface designs crafted to trick users into making unintended choices, such as signing up for recurring payments or sharing more data than intended. Junk fees refer to hidden or unexpected charges added at the point of sale, often in subscriptions, banking, or travel booking. These practices have drawn increasing regulatory scrutiny, with the FTC proposing rules against them at the federal level. New York City's law represents a local effort to curb these abuses.
+**Background**: Lisp machines were early workstations designed to run Lisp efficiently, with entire operating systems written in Lisp. Emacs, originally created on these systems, inherited a Lisp-centric extensibility model. Its client-server feature, via emacsclient, lets external processes share a running Emacs session, embodying a service-like pattern long before modern microservices.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Dark_pattern">Dark pattern - Wikipedia</a></li>
-<li><a href="https://www.bankrate.com/banking/junk-fees/">What Are Junk Fees ? How To Avoid Unexpected Charges... | Bankrate</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Lisp_machine">Lisp machine</a></li>
+<li><a href="https://deepwiki.com/aquamacs-emacs/aquamacs-emacs/8.2-client-server-architecture">Client-Server Architecture | aquamacs-emacs/aquamacs-emacs ...</a></li>
+<li><a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Emacs-Server.html">Emacs Server (GNU Emacs Manual)</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters largely support the ban, sharing frustrating experiences with companies like The New York Times and Evernote that make cancellation difficult. Some express skepticism about enforcement, comparing it to California's law with industry carveouts, and emphasize the need for strict penalties. Anecdotes also highlight the broader impact of junk fees beyond subscriptions, such as surprise hotel resort fees.
+**Discussion**: Commenters note that Emacs had service-like interactions well before LSP, with some arguing the analogy is stretched and Emacs is better understood as a Lisp machine descendant. Others debate the practicality of Emacs in team environments, with one user recounting how their employer forced a switch to one-purpose tools.
 
-**Tags**: `#consumer protection`, `#subscription services`, `#dark patterns`, `#tech policy`, `#user rights`
+**Tags**: `#emacs`, `#service-architecture`, `#lisp`, `#software-design`, `#community-discussion`
 
 ---
 
 <a id="item-5"></a>
-## [Good Tools Are Invisible](https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/) ⭐️ 8.0/10
+## [Nilay Patel: AR Glasses Necessitate Continuous Recording and Cloud Processing](https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything) ⭐️ 8.0/10
 
-An essay by Bill Hall argues that the best tools fade into the background, enabling work without friction, contrasting with the culture that values tool complexity as a sign of mastery. The essay challenges developers to rethink tool design and adoption, prioritizing seamless productivity over fiddly customization, which could shift how teams build and use software. The author distinguishes between necessary friction for complex tasks and unnecessary complexity added by designers, using examples like Linux ricing and Vim to illustrate how friction is often mistaken for fun.
+Nilay Patel on The Vergecast argued that augmented reality glasses inherently require a camera continuously recording everything you see and processing that data in the cloud, making privacy invasion unavoidable. This highlights a fundamental privacy dilemma for the next-generation wearable tech, forcing the industry to confront whether the societal trade-offs are worth the product's benefits. Patel emphasized that no chip small and power-efficient enough exists to process AR data locally in real-time, and the only alternative is a larger device like Apple Vision Pro with a separate battery pack.
 
-hackernews · theanonymousone · Jul 10, 10:32 · [Discussion](https://news.ycombinator.com/item?id=48858121)
+rss · Simon Willison · Jul 10, 17:05
 
-**Discussion**: Many commenters agreed with the essay's core message, though some noted that fiddly tools can provide a sense of puzzle-solving and mastery. Others pointed out that interface invisibility often comes with time and that some friction is unavoidable for advanced tasks.
+**Background**: Augmented reality (AR) glasses overlay digital information onto the real world, requiring cameras to capture the environment. Cloud processing sends this video feed to remote servers for analysis, raising concerns about surveillance and data security. Apple Vision Pro is a mixed reality headset that processes data on-device but is significantly larger and more expensive.
 
-**Tags**: `#tool-design`, `#developer-experience`, `#productivity`, `#software-engineering`, `#philosophy`
+**Tags**: `#augmented-reality`, `#privacy`, `#technology-ethics`, `#cloud-computing`, `#wearables`
 
 ---
 
 <a id="item-6"></a>
-## [Successful Companies Go Blind](https://ianreppel.org/how-successful-companies-go-blind/) ⭐️ 8.0/10
+## [Unsloth Delivers 2.5x Faster NVFP4 Quants for Qwen3.6](https://www.reddit.com/r/LocalLLaMA/comments/1usniqh/25x_faster_qwen36_nvfp4_unsloth_quants/) ⭐️ 8.0/10
 
-A new analysis explores how successful companies stagnate due to bureaucracy and risk aversion, using real-world anecdotes from professionals. This insight matters because it explains why innovative companies often lose their edge as they grow, offering lessons for management and corporate culture. The article and subsequent discussion highlight that success breeds bureaucracy, risk aversion, and siloed structures. Community comments confirm these patterns, citing lack of innovation incentives, tenured managers resistant to change, and VC-driven MVP cultures as contributing factors.
+Unsloth released new NVFP4 quants for Qwen3.6 that use W4A4 quantization. These achieve up to 2.5x faster inference over NVIDIA's W4A16 quants with no accuracy degradation. This advancement significantly speeds up local LLM inference on GPUs with Blackwell architecture's FP4 tensor cores, enabling longer contexts via FP8 KV cache calibration. It could make high-quality models more accessible for resource-constrained deployments. The speed gains come from leveraging 4-bit tensor cores directly for matrix multiplications with W4A4. Unsloth provides two versions for 35B: NVFP4-Fast (1.79x faster, fully W4A4) and NVFP4 (1.56x faster, mixed precision for higher accuracy). FP8 KV cache calibration allows automatic doubling of context length.
 
-hackernews · speckx · Jul 10, 13:31 · [Discussion](https://news.ycombinator.com/item?id=48859678)
+reddit · r/LocalLLaMA · /u/danielhanchen · Jul 10, 13:20
 
-**Background**: Organizational inertia refers to a company's tendency to maintain the status quo, even when adaptation is needed. Successful companies often develop processes that prioritize efficiency and risk mitigation, which can stifle innovation over time. This phenomenon is widely studied in management theory, including concepts like the 'Innovator's Dilemma'.
+**Background**: NVFP4 is a 4-bit floating-point format introduced with NVIDIA's Blackwell GPU architecture for efficient low-precision inference. Typical quantization uses W4A16 (4-bit weights, 16-bit activations), but W4A4 employs 4-bit activations as well, which can fully utilize Blackwell's FP4 tensor cores. Unsloth's method applies post-training quantization to maintain accuracy while exploiting hardware capabilities.
 
-**Discussion**: Commenters largely agree with the article's thesis, sharing personal experiences of bureaucracy stifling innovation. They argue that systemic issues, not individual incompetence, trap talented employees, with long-tenured managers and VC-driven MVP cultures being key contributors.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/">Introducing NVFP4 for Efficient and Accurate Low-Precision ...</a></li>
 
-**Tags**: `#organizational behavior`, `#corporate culture`, `#innovation`, `#bureaucracy`, `#software engineering`
+</ul>
+</details>
+
+**Tags**: `#quantization`, `#local-llm`, `#performance-optimization`, `#Qwen`, `#Unsloth`
 
 ---
 
 <a id="item-7"></a>
-## [Late Bronze Age Collapse Blog Post Sparks HN Debate](https://acoup.blog/2026/01/30/collections-the-late-bronze-age-collapse-a-very-brief-introduction/) ⭐️ 7.0/10
+## [NYC Bans Deceptive Subscription Practices with 'Click-to-Cancel' Law](https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban) ⭐️ 7.0/10
 
-A blog post introducing the Late Bronze Age Collapse sparked an in-depth discussion on Hacker News. Readers shared academic resources, including Eric H. Cline's books and the Tides of History podcast, and drew comparisons to modern dependencies like oil and AI-driven collapse. The discussion highlights the enduring relevance of historical collapse studies, offering cautionary tales for contemporary vulnerabilities such as dependence on scarce resources or complex networks. It bridges academic history and tech community interests. Notable points include Eric Cline's identification of 1117 BCE as a key inflection point, the role of tin scarcity in Bronze Age trade networks, and the debate over causes ranging from natural disasters to systemic collapse. The blog post author did not cover religious explanations, as one commenter humorously noted.
+New York City has enacted a 'click-to-cancel' law that prohibits deceptive subscription practices and hidden junk fees, as announced by Mayor Mamdani. This sets a consumer-friendly regulatory precedent in a major global city, potentially influencing other jurisdictions and pushing companies toward fairer practices, directly affecting millions of NYC residents and visitors. The law mandates cancellation as easy as sign-up and upfront pricing without hidden fees. Unlike California's similar law, it appears to lack a restaurant carve-out, possibly closing a major loophole, though enforcement challenges remain.
 
-hackernews · dmonay · Jul 10, 11:59 · [Discussion](https://news.ycombinator.com/item?id=48858737)
+hackernews · randycupertino · Jul 10, 18:26 · [Discussion](https://news.ycombinator.com/item?id=48863464)
 
-**Background**: The Late Bronze Age Collapse (~1200 BCE) was a period of widespread societal downfall in the Eastern Mediterranean, marked by the fall of empires and disruption of trade networks. Theories include climate change, invasions, and internal strife. The discussion also reflects modern collapse analogies, such as AI or resource dependency.
+**Background**: Deceptive subscription practices include making cancellations difficult (e.g., requiring phone calls) and adding hidden fees at checkout (drip pricing). California previously passed similar rules but exempted restaurants. Such practices are widespread in digital services, gyms, and hotels. Local actions can be more immediate than pending federal regulations.
 
-**Discussion**: HN comments showed enthusiasm, with users sharing translations, book recommendations, and podcasts. One commenter drew a parallel between tin scarcity and modern oil dependence, while another humorously suggested divine intervention. The overall sentiment was engaged and intellectually curious, mixing historical insight with modern tech concerns.
+**Discussion**: Commenters largely support the law as legitimate government advocacy but are skeptical about enforcement, noting California's law had limited impact due to carve-outs. They hope NYC's stricter version will be more effective and share personal experiences with deceptive practices, like Evernote charges after cancellation and undisclosed hotel fees. Some feel calling it 'landmark' is overblown given California's precedent.
 
-**Tags**: `#history`, `#archaeology`, `#bronze-age`, `#civilization-collapse`, `#historical-analysis`
+**Tags**: `#consumer-protection`, `#regulation`, `#subscriptions`, `#tech-policy`, `#hn-discussion`
 
 ---
 
 <a id="item-8"></a>
-## [Write Code as if a Human Will Maintain It](https://unstack.io/write-code-like-a-human-will-maintain-it) ⭐️ 7.0/10
+## [Good Tools Are Invisible](https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/) ⭐️ 7.0/10
 
-The article 'Write code like a human will maintain it' emphasizes the importance of code maintainability, and the community discussion reveals that LLM-generated code tends to repeat patterns and avoid abstraction, making future maintenance difficult. This matters because as AI-generated code becomes more common, the long-term maintainability of software is at risk, potentially leading to increased technical debt and slower development cycles, affecting all teams adopting AI coding tools. Key insights include the observation that LLMs have a bias towards copying existing patterns instead of creating abstractions, and that adding review prompts can help but may not fully solve quality issues; some note that over-commenting by LLMs can confuse future interactions.
+The article asserts that the best tools become invisible by minimizing cognitive friction and avoiding user distraction, sparking a rich community discussion on usability in software development. It shifts the focus from feature sets to user experience, influencing how developers and designers build tools, and challenges the notion that more complex or 'hardcore' interfaces are inherently more powerful. The author emphasizes reducing 'discretionary friction' over essential complexity, while commenters note that invisibility often arises from familiarity and practice, and that some friction is necessary for complex tasks like merge conflicts.
 
-hackernews · ScottWRobinson · Jul 10, 13:33 · [Discussion](https://news.ycombinator.com/item?id=48859701)
+hackernews · theanonymousone · Jul 10, 10:32 · [Discussion](https://news.ycombinator.com/item?id=48858121)
 
-**Background**: The article touches on a core software engineering principle: code is read more often than it is written, so it should be written for humans first. With the rise of large language models (LLMs) like GPT-4 and coding assistants, developers can generate code quickly, but the output often lacks the thoughtful structure that humans provide, reigniting debates about code quality in the AI era.
+**Background**: The concept of 'invisible tools' stems from human-computer interaction and cognitive psychology, where ideal interfaces fade from conscious attention, allowing users to focus on their tasks. Well-designed tools reduce extraneous cognitive load, making operation feel intuitive and seamless.
 
-**Discussion**: The community discussion is largely skeptical: users point out that LLMs repeat code instead of abstracting, leading to bloated codebases. While some suggest review prompts, others argue these can introduce wrong abstractions and over-commenting. The sentiment is that developers should still prioritize writing code for humans.
+**Discussion**: Commenters largely agree with the premise, adding that developers often over-expose internal complexity. Some argue that CLI can become invisible with mastery, while others note that necessary friction for complex tasks eventually fades with experience. A point is made that invisibility is a function of time spent in the interface.
 
-**Tags**: `#code-quality`, `#maintainability`, `#llm`, `#software-engineering`, `#ai-code-generation`
+**Tags**: `#tool-design`, `#usability`, `#developer-experience`, `#interface-design`, `#software-engineering`
 
 ---
 
 <a id="item-9"></a>
-## [Emacs's Tool Integration Mirrors a Service-Oriented Architecture](http://yummymelon.com/devnull/in-emacs-everything-looks-like-a-service.html) ⭐️ 7.0/10
+## [Boko Haram's Purported Use of Generative AI Draws Skeptical Reactions](https://casp.ac/reports/ai-enabled-terrorism) ⭐️ 7.0/10
 
-The article argues that Emacs' ability to integrate and orchestrate external tools through Lisp functions mirrors a service-oriented architecture, similar to how Lisp machines operated. This perspective highlights how Emacs' extensibility prefigured modern SOA principles, showing that its design is not just an editor but a flexible integration platform with historical significance. The analogy rests on Emacs' use of Lisp to treat external programs as services that can be invoked and composed, though some comments note that this interpretation stretches definitions.
+A report from the Centre for Analysis of Social Media and Politics (CASP) claims that terrorist group Boko Haram has used frontier AI models for tactical planning, including learning how to jump motorcycles over obstacles and build bombs, but the findings are met with widespread skepticism on Hacker News. The debate highlights the dual-use dilemma of generative AI: even exaggerated claims can fuel public alarm and policy reactions, while the real potential for misuse by non-state actors remains a serious ethical and security concern. The report cites specific examples, such as using AI to learn motorcycle jumps (resulting in 18 deaths during practice) and bomb construction; however, critics note the interviews involved only 15 individuals with second-hand knowledge, and jailbroken LLMs rarely provide actionable details beyond publicly available information.
 
-hackernews · kickingvegas · Jul 10, 08:21 · [Discussion](https://news.ycombinator.com/item?id=48857230)
+hackernews · imustachyou · Jul 10, 18:49 · [Discussion](https://news.ycombinator.com/item?id=48863707)
 
-**Background**: Service-oriented architecture (SOA) is a design paradigm where discrete services communicate over a network to achieve larger goals. Lisp machines were specialized computers from the 1980s that ran Lisp natively and integrated all software into a unified environment. Emacs is built on a Lisp interpreter, allowing users to script and connect tools in a similar cohesive manner.
+**Background**: Frontier AI refers to the most advanced general-purpose AI models, particularly large language models like GPT-4, which are trained on vast datasets and can be adapted to many tasks. Boko Haram is a jihadist terrorist group in West Africa known for its violent insurgency. Generative AI tools are typically restricted from providing harmful instructions, but jailbreak techniques can circumvent these safeguards.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Service-oriented_architecture">Service-oriented architecture</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Lisp_machine">Lisp machine</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Frontier_AI">Frontier AI</a></li>
+<li><a href="https://grokipedia.com/page/Frontier_model">Frontier model</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters largely agree with the Lisp machine analogy, but some argue the SOA comparison is overly broad. Personal experiences reflect both the power of Emacs' integrated environment and the practical challenges when teams require standardized tools.
+**Discussion**: Commenters largely doubt the effectiveness of AI for the described tasks, arguing that jailbroken LLMs do not offer actionable bomb-making or tactical guidance beyond public sources. Some note the report's reliance on 15 second-hand interviews weakens its conclusions, while others acknowledge that AI could assist in general research or coordination.
 
-**Tags**: `#emacs`, `#service-orientation`, `#lisp-machines`, `#software-architecture`, `#historical-computing`
+**Tags**: `#AI ethics`, `#terrorism`, `#security`, `#LLMs`, `#AI misuse`
 
 ---
 
 <a id="item-10"></a>
-## [AR Glasses Require Always-On Cameras, Invading Privacy](https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything) ⭐️ 7.0/10
+## [How Successful Companies Go Blind](https://ianreppel.org/how-successful-companies-go-blind/) ⭐️ 7.0/10
 
-Nilay Patel argued on The Vergecast that augmented reality glasses inherently require a continuously recording camera and cloud processing, making privacy invasion unavoidable, and questioned whether such products should be built at all. This highlights a fundamental ethical trade-off in the development of AR glasses, a potential next major computing platform, and could influence public debate, regulation, and design choices. Patel pointed out that on-device processing is not viable due to power and size constraints, so cloud processing is required; the only alternative is a bulky headset like Apple Vision Pro with an external battery pack.
+An analysis reveals that successful companies often lose their innovative edge due to internal bureaucracy, risk-aversion, and organizational momentum. This matters because it highlights a common trap for growing tech companies, urging leaders to recognize and counteract stifling processes to sustain innovation. Key factors include gatekeepers, siloing, and management lacking upskilling; community comments add examples from defense, corporate, and VC-funded startups.
 
-rss · Simon Willison · Jul 10, 17:05
+hackernews · speckx · Jul 10, 13:31 · [Discussion](https://news.ycombinator.com/item?id=48859678)
 
-**Background**: Augmented reality glasses are designed to overlay digital information onto the real world, requiring environmental understanding via cameras. Due to size and power constraints, on-device chips capable of real-time processing cannot fit into the stems of glasses, making cloud or edge computing necessary. This means the video feed must be continuously transmitted, raising significant privacy and surveillance concerns. Previous products like Google Glass faced public backlash over the potential for surreptitious recording.
+**Background**: The concept of 'going blind' refers to companies becoming unable to perceive threats or opportunities for innovation due to entrenched routines. Success often breeds complacency, leading to risk-averse cultures that prioritize preserving existing business models over exploring new ideas. This organizational inertia can be exacerbated by bureaucracy, where layers of approval and siloed departments stifle initiative. Understanding this pattern helps explain why once-disruptive companies can falter.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://link.springer.com/article/10.1007/s10055-023-00937-2">A real-time wearable AR system for egocentric vision on the edge | Virtual Reality | Springer Nature Link</a></li>
-<li><a href="https://inairspace.com/blogs/learn-with-inair/problems-with-augmented-reality-glasses-navigating-the-hurdles-on-the-path-to-ubiquity">Problems with Augmented Reality Glasses: Navigating the Hurdles on...</a></li>
+**Discussion**: Commenters confirm the pattern, citing momentum and lack of incentives, management stagnation and skill decay, the role of context over individual competence, and a shift from engineering quality to business focus leading to technical debt.
 
-</ul>
-</details>
-
-**Tags**: `#augmented reality`, `#privacy`, `#surveillance`, `#ethics`, `#technology trade-offs`
+**Tags**: `#organizational behavior`, `#innovation`, `#company culture`, `#tech management`, `#hackernews discussion`
 
 ---
 
 <a id="item-11"></a>
-## [Questioning Lack of Submission Limits in ML Conferences](https://www.reddit.com/r/MachineLearning/comments/1usq43t/why_doesnt_the_ml_research_community_limit_the/) ⭐️ 7.0/10
+## [Geohot on Why He Quit Streaming and the Death of Punk Spirit](https://geohot.github.io//blog/jekyll/update/2026/05/03/punk-or-why-i-dont-stream.html) ⭐️ 7.0/10
 
-A recent discussion highlights that the ML research community does not cap the number of submissions per author, unlike fields such as computer security (CCS) and computer architecture (DAC), and questions the reasoning, especially given the strain on review quality from overwhelming volumes. This matters because excessive submissions strain peer review, lowering review thoroughness and potentially harming the credibility and progress of ML research. It could prompt major NLP and ML venues to reconsider their policies. ARR (ACL Rolling Review) is a centralized review platform used by top NLP conferences, and its growing submission load has worsened reviewer fatigue. In contrast, conferences like CCS and DAC implement per-author submission limits to manage review workloads.
+George Hotz, known as geohot, published a blog post explaining his decision to stop streaming, criticizing the superficiality of public-facing online endeavors and mourning the loss of genuine punk spirit. His reflection resonates with growing disillusionment over performative internet culture, coming from a figure famous for rebellious tech achievements like iOS jailbreaking. He criticizes the lack of authentic subcultures and describes the modern internet as dominated by a few corporate platforms, making genuine alternative spaces hard to find.
 
-reddit · r/MachineLearning · /u/alafaya101 · Jul 10, 14:59
+hackernews · surprisetalk · Jul 10, 13:30 · [Discussion](https://news.ycombinator.com/item?id=48859671)
 
-**Background**: ARR (ACL Rolling Review) is a peer review platform adopted by major NLP conferences such as ACL and EMNLP, handling thousands of submissions annually. The rapid growth of ML research has overwhelmed review systems, reducing the depth of reviews. In other fields like computer security (CCS) and hardware design (DAC), author-based submission limits have been used to maintain manageable workloads and ensure higher-quality reviews.
+**Background**: George Hotz is a prominent hacker known for unlocking the iPhone and reverse engineering the PlayStation 3. 'Punk' here refers to a DIY, anti-establishment ethos that contrasts with the polished, commercialized streaming culture. His shift away from streaming highlights a personal rejection of that culture.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://aclrollingreview.org/">ACL Rolling Review – A peer review platform for the Association for...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Design_Automation_Conference">Design Automation Conference - Wikipedia</a></li>
+**Discussion**: Commenters largely appreciate the post's candid tone, but some debate its practicality. One notes that his life is inseparable from meta-commentary, another questions his youth, while another points out that the 'old-style Internet' still thrives on blogs.
 
-</ul>
-</details>
-
-**Tags**: `#machine-learning`, `#peer-review`, `#research-ethics`, `#academic-publishing`, `#conference-culture`
+**Tags**: `#personal-reflection`, `#authenticity`, `#internet-culture`, `#geohot`, `#streaming`
 
 ---
 
 <a id="item-12"></a>
-## [A Love Letter to Flashcards](https://lesleylai.info/en/flashcards/) ⭐️ 6.0/10
+## [Developer Trains 500M LLM on 1800s Texts for Historical Q&A](https://www.reddit.com/r/LocalLLaMA/comments/1uswlq8/training_an_llm_from_scratch_on_1800s_texts_160gb/) ⭐️ 7.0/10
 
-Lesley Lai published a personal essay on their blog titled 'A Love Letter to Flashcards,' sharing their deep appreciation for flashcards as a versatile and effective learning tool across various subjects, which sparked an engaged community discussion. The essay revives interest in classic, low-tech study methods and underscores the scientifically-backed benefits of spaced repetition, reminding educators and learners of an efficient, screen-free approach to knowledge retention in an era dominated by digital distractions. The author emphasizes the value of handwritten flashcards for personalized learning, while commenters debate digital versus physical cards, with some advocating for Anki's algorithm-driven spaced repetition and others insisting that the creation process itself is crucial for memory absorption.
+A developer has pre-trained a 500-million-parameter language model on a 5-billion-token sample from a 160GB dataset of 1800s English texts, and fine-tuned it for historical Q&A using synthetic questions derived from the dataset. This project demonstrates the feasibility of training domain-specific LLMs for historical research, potentially enabling more accurate and accessible exploration of past texts for digital humanities. The current 500M model is an evaluation version trained on only an eighth of the full dataset; accuracy is limited, especially outside London-related content. The developer plans to train a 2-billion-parameter model on the complete 40-billion-token dataset, with synthetic Q&A pairs generated by prompting the model itself.
 
-hackernews · surprisetalk · Jul 10, 15:30 · [Discussion](https://news.ycombinator.com/item?id=48861319)
+reddit · r/LocalLLaMA · /u/Remarkable-Trick-177 · Jul 10, 18:51
 
-**Background**: Flashcards are a study tool with a question or prompt on one side and the answer on the other. Spaced repetition is an evidence-based learning technique that schedules reviews at increasing intervals to improve long-term retention. Anki is a popular open-source flashcard program that automates spaced repetition, used for learning languages, medical facts, and other subjects.
+**Background**: In natural language processing, a 'token' is a unit of text (word, subword, or character) that a model reads, so 5B tokens is the amount of text seen during training. 'Model parameters' are the internal weights learned from data, with 500M parameters indicating a relatively small modern language model. Synthetic data generation involves creating artificial training examples, here used to produce Q&A pairs from the historical texts without manual annotation.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Spaced_repetition">Spaced repetition - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Anki">Anki - Wikipedia</a></li>
+<li><a href="https://www.geeksforgeeks.org/nlp/tokenization-in-natural-language-processing-nlp/">What is Tokenization in Natural Language Processing (NLP)?</a></li>
+<li><a href="https://www.ibm.com/think/topics/model-parameters">What are Model Parameters? - Machine learning</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Overall sentiment is positive, with many sharing personal success stories using flashcards for languages, chess, and trivia. A key debate emerges: some argue that digital tools like Anki add efficiency, while others claim that the physical act of creating handwritten cards leads to deeper learning and should not be replaced by pre-made decks.
-
-**Tags**: `#flashcards`, `#spaced-repetition`, `#learning`, `#memory`, `#anki`
+**Tags**: `#historical-NLP`, `#LLM-training`, `#language-modeling`, `#digital-humanities`, `#custom-dataset`
 
 ---
 
 <a id="item-13"></a>
-## [Nobel Laureate Ben Bernanke Joins AI Firm Anthropic](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652712172&idx=2&sn=6c269c478f7a1206b8782efaca11191d) ⭐️ 6.0/10
+## [Tencent HY3 MoE Model Runs Locally on MacBook M5 Max 128GB](https://www.reddit.com/r/LocalLLaMA/comments/1usy9ie/tencenthy3_is_the_real_deal_on_128gb/) ⭐️ 7.0/10
 
-Ben Bernanke, Nobel laureate and former Chair of the U.S. Federal Reserve, has joined Anthropic, a leading AI company known for its Claude models and focus on AI safety. His appointment highlights the growing intersection of AI and economic policy, potentially shaping how AI firms address economic disruption, regulation, and the broader societal impacts of AI. Bernanke’s specific role has not been disclosed. Anthropic, reportedly valued at around $60 billion, is a direct competitor to OpenAI, with a strong emphasis on developing safe and reliable AI systems.
+A user successfully ran Tencent's 295B-A21B MoE model HY3 on a MacBook M5 Max with 128GB RAM using an Unsloth dynamic quant, achieving double the token generation speed of DeepSeek V4 Flash with comparable quality. It shows that advanced open-weight MoE models can run efficiently on consumer hardware, democratizing access to state-of-the-art AI for local experimentation and tool use. The 107GB UD128 Unsloth dynamic quant required a custom llama.cpp build with PR #25395 for architecture support, a GPU memory limit raised to 122GB, and delivered 32.4 tokens/sec decode at empty context.
 
-rss · 新智元 · Jul 10, 05:37
+reddit · r/LocalLLaMA · /u/returnity · Jul 10, 19:53
 
-**Background**: Ben Bernanke served as Federal Reserve Chair from 2006 to 2014, steering the U.S. economy through the 2007–2008 financial crisis. He won the Nobel Prize in Economics in 2022 for his research on banks and financial crises. Anthropic was founded in 2021 by former OpenAI researchers, with a mission to build trustworthy AI systems; its Claude models are widely used in the industry.
-
-**Tags**: `#AI`, `#economics`, `#Anthropic`, `#leadership`, `#policy`
-
----
-
-<a id="item-14"></a>
-## [Contradictory findings on adversarial attack strength in multi-agent PPO](https://www.reddit.com/r/MachineLearning/comments/1usx96p/on_adversarial_rl_r/) ⭐️ 6.0/10
-
-A researcher consistently found that critic-network attacks are stronger than actor-network attacks in multi-agent PPO, contradicting Zhang et al.'s claim that actor attacks are stronger in single-agent settings. This contradiction may reveal fundamental differences in adversarial vulnerability between single-agent and multi-agent reinforcement learning, potentially requiring revised robustness strategies for multi-agent systems. Experiments used IPPO and GPPO algorithms on VMAS scenarios, with a PGD attack adapted via KL divergence for continuous policies.
-
-reddit · r/MachineLearning · /u/ham_bam0 · Jul 10, 19:15
-
-**Background**: Zhang et al. introduced the state-adversarial MDP (SA-MDP) framework to study robustness against state perturbations. In single-agent RL, they found actor-network attacks more effective. Multi-agent RL involves multiple learners; IPPO trains agents independently with PPO. VMAS is a multi-agent simulation benchmark.
+**Background**: Mixture of Experts (MoE) models activate only a subset of parameters per inference, balancing performance and efficiency. Quantization reduces model size by lowering numerical precision; Unsloth's dynamic approach selectively quantizes parameters to preserve quality. llama.cpp is a popular C++ inference framework for local LLMs.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2003.08938">[2003.08938] Robust Deep Reinforcement Learning against Adversarial Perturbations on State Observations</a></li>
-<li><a href="https://github.com/proroklab/VectorizedMultiAgentSimulator">GitHub - proroklab/VectorizedMultiAgentSimulator: VMAS is...</a></li>
-<li><a href="https://arxiv.org/abs/2011.09533">[2011.09533] Is Independent Learning All You Need in the StarCraft ...</a></li>
+<li><a href="https://unsloth.ai/blog/dynamic-4bit">Unsloth - Dynamic 4-bit Quantization</a></li>
+<li><a href="https://huggingface.co/docs/inference-endpoints/engines/llama_cpp">llama . cpp · Hugging Face</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#adversarial reinforcement learning`, `#multi-agent RL`, `#PPO`, `#state adversarial MDP`, `#empirical contradiction`
+**Tags**: `#Local LLM`, `#Tencent HY3`, `#Mixture of Experts`, `#Quantization`, `#MacBook`
+
+---
+
+<a id="item-14"></a>
+## [Strix Halo APU costs only $0.48/day at full load for local LLM inference](https://www.reddit.com/r/LocalLLaMA/comments/1ussasa/at_most_my_strix_halo_uses_048_a_day/) ⭐️ 7.0/10
+
+A Reddit user reports that their AMD Strix Halo device consumes at most $0.48 of electricity per day when running multiple large language models simultaneously at full load, delivering 50 tokens per second on a Q8_XL quantized Qwen 3.6 35B model while remaining silent and compact. This challenges the common emphasis on raw inference speed by highlighting total cost of ownership and power efficiency. It shows that integrated APUs can be a practical, silent, and energy-efficient alternative to power-hungry discrete GPUs for local AI workloads, making advanced LLM inference more accessible at the edge. The $0.48 cost assumes worst-case 24/7 operation with CPU, GPU, and NPU all active. Performance is 50 tps on Q8_XL Qwen 3.6 35B, and the entire device's power budget is roughly half that of an Nvidia A6000 GPU alone (300W).
+
+reddit · r/LocalLLaMA · /u/Forward_Jackfruit813 · Jul 10, 16:18
+
+**Background**: Strix Halo is the codename for AMD's Ryzen AI Max+ 395, a high-end accelerated processing unit (APU) integrating 16 Zen 5 CPU cores and a powerful Radeon 8060S integrated GPU. It is part of a new chiplet-based design that combines desktop-class CPU and GPU performance in a single package. Q8_XL refers to a specific quantization method (Q8_K_XL) used to compress large language models while maintaining quality; it results in larger file sizes than Q8_0 but aims for better accuracy, as discussed in community comparisons of Qwen 3.5 35B variants.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://grokipedia.com/page/Strix_Halo">Strix Halo</a></li>
+<li><a href="https://www.reddit.com/r/LocalLLaMA/comments/1kngr5k/whats_the_difference_between_q8_k_xl_and_q8_0/">r/LocalLLaMA on Reddit: What's the difference between q8_k_xl and q8_0?</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#local-llm`, `#inference`, `#power-efficiency`, `#strix-halo`, `#edge-computing`
+
+---
+
+<a id="item-15"></a>
+## [Portable USB Survival Kit with Offline LLMs Proposed](https://www.reddit.com/r/LocalLLaMA/comments/1uspcg0/has_anyone_created_a_local_llm_survival_kit/) ⭐️ 7.0/10
+
+A Reddit user proposes a portable USB drive survival kit that runs offline LLMs and a compressed knowledge database, enabling instant internet-free knowledge access on any computer. This concept provides a low-cost, platform-independent solution for reliable knowledge access in disconnected or emergency scenarios, potentially impacting education, disaster response, and personal information management. The kit uses llama.cpp for CPU-only inference, with Qwen3.5 35B-A3B (22GB) and Gemma 4 E4B (5GB) models at Q4_K_M quantization, and a compressed SQLite database (via sqlite-zstd) fitting on a 64GB USB drive, achieving 5-20 tokens/second.
+
+reddit · r/LocalLLaMA · /u/-p-e-w- · Jul 10, 14:30
+
+**Background**: llama.cpp is a C/C++ inference engine that runs LLMs efficiently on CPUs. Q4_K_M is a 4-bit quantization method balancing size and quality. Qwen3.5 35B-A3B is a Mixture-of-Experts model where only a fraction of parameters are activated at a time. sqlite-zstd transparently compresses SQLite rows, dramatically reducing storage needs.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://huggingface.co/Qwen/Qwen3.5-35B-A3B">Qwen/Qwen3.5-35B-A3B · Hugging Face</a></li>
+<li><a href="https://www.sitepoint.com/quantization-q4km-vs-awq-fp16-local-llms/">Quantization Explained: Q4_K_M vs AWQ vs FP16 for Local LLMs | SitePoint</a></li>
+<li><a href="https://github.com/phiresky/sqlite-zstd">GitHub - phiresky/sqlite-zstd: Transparent dictionary-based row-level compression for SQLite · GitHub</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#local-llm`, `#offline`, `#knowledge-base`, `#survival`, `#usb-drive`
+
+---
+
+<a id="item-16"></a>
+## [DataBricks: pi-coding-agent is ~2x cheaper, GLM 5.2 matches Opus 4.8 high](https://www.reddit.com/r/LocalLLaMA/comments/1usrek0/according_to_databricks_picodingagent_is_2x/) ⭐️ 7.0/10
+
+DataBricks published a benchmark showing pi-coding-agent is up to 2x cheaper and achieves a higher pass rate than competitors like CC/Codex. It also found that GLM 5.2 matches Opus 4.8 high and outperforms GPT 5.5 high and xhigh in coding tasks. These results demonstrate that open-source and cost-effective coding agents can rival or exceed proprietary solutions, potentially reshaping developer tool choices and reducing costs for AI-assisted coding. pi-coding-agent's cost advantage comes from using minimal tools with bash only. GLM 5.2 lacks native image input, and the benchmark does not account for CC's built-in tools like Playwright, which may affect visual or advanced tasks. The test was conducted on DataBricks' internal codebase by DBRX, who have prior LLM training experience.
+
+reddit · r/LocalLLaMA · /u/NandaVegg · Jul 10, 15:46
+
+**Background**: DataBricks is a data and AI platform that benchmarks coding agents on a large codebase. pi-coding-agent is an open-source coding agent from Mario Zechner, relying on a minimal bash-based toolset. GLM 5.2 is a Chinese LLM from Z.ai, MIT-licensed, designed for long-horizon tasks. Opus refers to Anthropic's Claude series models.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://grokipedia.com/page/Pi_Coding_Agent">Pi Coding Agent</a></li>
+<li><a href="https://z.ai/blog/glm-5.2">GLM-5.2: Built for Long-Horizon Tasks</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#coding agents`, `#LLM benchmarks`, `#DataBricks`, `#pi-coding-agent`, `#GLM 5.2`
+
+---
+
+<a id="item-17"></a>
+## [Speculative Cache Warming Reduces LLM Wait Time by Preloading During Typing](https://www.reddit.com/r/LocalLLaMA/comments/1uskb1g/speculative_cache_warming_warms_your_cache_while/) ⭐️ 7.0/10
+
+In the OpenFox local LLM harness, speculative cache warming processes the static system prompt and tools array while the user types, so that only the new prompt needs to be processed upon submission, saving 10-20 seconds. This technique improves user experience for local LLM users by reducing latency at no extra cost, leveraging idle time during typing. It is a practical, low-cost optimization applicable to any local inference setup. The system prompt is typically 5K-10K tokens and the tools array ~1K tokens; at 500 tokens per second processing speed, this saves 10-20 seconds. The implementation uses stable prompts and opt-in cache invalidation, e.g., when AGENTS.md is updated.
+
+reddit · r/LocalLLaMA · /u/t4a8945 · Jul 10, 10:57
+
+**Background**: In LLM inference, prompt caching stores processed prompt tokens to avoid recomputation. Speculative cache warming extends this by proactively processing the static parts of the prompt during user idle time (e.g., typing), inspired by patterns like speculative prompt caching in Claude. It is especially beneficial for local models where latency is a key concern.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://platform.claude.com/cookbook/misc-speculative-prompt-caching">Speculative prompt caching | Claude Cookbook</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#local-llm`, `#inference optimization`, `#caching`, `#latency reduction`, `#openfox`
+
+---
+
+<a id="item-18"></a>
+## [tencent/HiLS-Attention-7B · Hugging Face](https://www.reddit.com/r/LocalLLaMA/comments/1uspqed/tencenthilsattention7b_hugging_face/) ⭐️ 7.0/10
+
+HiLS-Attention offers a chunk-wise sparse attention method with compressed key estimation and end-to-end training, enabling efficient infinite-context processing in a 7B OLMo3-based language model.
+
+reddit · r/LocalLLaMA · /u/pmttyji · Jul 10, 14:45
+
+**Tags**: `#attention mechanism`, `#long-context`, `#sparse training`, `#efficient transformer`, `#OLMo3`
+
+---
+
+<a id="item-19"></a>
+## [A Deep Dive into the Late Bronze Age Collapse and Its Modern Parallels](https://acoup.blog/2026/01/30/collections-the-late-bronze-age-collapse-a-very-brief-introduction/) ⭐️ 6.0/10
+
+A popular history blog published a detailed introduction to the Late Bronze Age Collapse, exploring the sudden decline of multiple ancient civilizations around 1177 BCE. The post ignited community discussion on historical parallels and the fragility of ancient trade networks. The topic resonates today because it mirrors modern globalized systems dependent on complex supply chains, such as oil or advanced technology, highlighting the potential fragility of interconnected societies. The collapse is often linked to the disruption of international shipping routes that supplied scarce tin for bronze production, underscoring the era's dependence on long-distance trade. Historians like Eric H. Cline point to 1177 BCE as a key inflection point.
+
+hackernews · dmonay · Jul 10, 11:59 · [Discussion](https://news.ycombinator.com/item?id=48858737)
+
+**Background**: The Late Bronze Age Collapse (c. 1200–1150 BCE) was a period of widespread societal decline across the Eastern Mediterranean and Near East, affecting major powers like the Hittites, Mycenaeans, and Egyptians. Likely triggered by a combination of climate change, invasions, and trade network failures, it led to a centuries-long "dark age" with lost writing systems and technological regression.
+
+**Discussion**: Comments ranged from humorous speculation about angry gods to serious comparisons with modern oil dependency. One commenter noted the work of Eric H. Cline, while another highlighted the parallel between tin scarcity and today's reliance on critical resources like rare earth elements.
+
+**Tags**: `#history`, `#bronze-age`, `#archaeology`, `#ancient-civilizations`, `#collapse`
+
+---
+
+<a id="item-20"></a>
+## [Limpet teeth surpass spider silk as nature's strongest material](https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346/) ⭐️ 6.0/10
+
+A 2015 study revealed that limpet teeth are the strongest biological material known, with a tensile strength exceeding that of spider silk. This discovery highlights the potential for developing new biomimetic materials, such as advanced dental restorations and lightweight high-strength composites, by mimicking limpet tooth structure. The teeth contain goethite nanofibers within a chitin matrix, resulting in both high strength and fracture resistance, though the relevance of tensile strength for teeth that primarily experience compression has been questioned.
+
+hackernews · simonebrunozzi · Jul 10, 16:37 · [Discussion](https://news.ycombinator.com/item?id=48862252)
+
+**Background**: Limpets are aquatic snails that use a tongue-like radula covered with tiny teeth to scrape algae off rocks. These teeth must withstand immense forces without fracturing, making them an interesting model for strong materials. Previous contenders for strongest natural material included spider silk.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.bbc.com/news/science-environment-31500883">Limpet teeth set new strength record - BBC News</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Limpet_teeth">Limpet teeth</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters expressed amusement at the odd strength comparison using bags of sugar, questioned the relevance of tensile strength for teeth, and shared a desire to see images of the teeth. Some humorously suggested using the material for a space elevator.
+
+**Tags**: `#materials-science`, `#biomimicry`, `#nature`, `#engineering`, `#science`
+
+---
+
+<a id="item-21"></a>
+## [A Love Letter to Handmade Flashcards as a Superior Learning Tool](https://lesleylai.info/en/flashcards/) ⭐️ 6.0/10
+
+Lesley Lai published a personal essay advocating for handmade flashcards as a superior learning tool over digital alternatives like Anki, emphasizing the value of the creation process itself. It challenges the prevailing reliance on digital flashcard apps and highlights how friction in learning can enhance retention, sparking debate on effective study techniques. The essay argues that personally crafting cards leads to deeper absorption, and criticizes LLM-generated flashcards as impersonal and mostly useless; even useful ones often need rewriting.
+
+hackernews · surprisetalk · Jul 10, 15:30 · [Discussion](https://news.ycombinator.com/item?id=48861319)
+
+**Background**: Flashcards are a study aid with a prompt on one side and answer on the other, often used with spaced repetition systems (SRS) like Anki to optimize review timing. Digital flashcard apps have become popular for their convenience, but some argue the manual process of creating physical cards improves initial encoding of information.
+
+**Discussion**: Commenters shared personal experiences: some successfully use Anki for diverse topics but note anecdotal evidence; others agree that creating your own cards is key and that LLM-generated cards are inadequate; one user described making oversized bullet-point note cards as a lightweight alternative.
+
+**Tags**: `#flashcards`, `#learning`, `#spaced-repetition`, `#education`, `#productivity`
+
+---
+
+<a id="item-22"></a>
+## [Ben Bernanke, Former Fed Chair and Nobel Laureate, Joins Anthropic](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652712172&idx=2&sn=6c269c478f7a1206b8782efaca11191d) ⭐️ 6.0/10
+
+Ben Bernanke, the former Chairman of the Federal Reserve and 2022 Nobel laureate in economics, has joined AI company Anthropic, likely in a strategic advisory capacity. Bernanke’s deep expertise in economics and financial stability could help Anthropic navigate AI’s economic impacts and strengthen its governance, signaling the company’s commitment to responsible AI development. Anthropic is valued at approximately $965 billion, and Bernanke is best known for leading the Federal Reserve through the 2008 financial crisis; his specific role at Anthropic has not been disclosed.
+
+rss · 新智元 · Jul 10, 05:37
+
+**Background**: Ben Bernanke served as Chair of the U.S. Federal Reserve from 2006 to 2014 and was awarded the Nobel Prize in Economics in 2022 for his research on banks and financial crises. Anthropic, founded in 2021 by former OpenAI members, is a prominent AI lab focused on safety, known for its Claude large language models. The company has rapidly grown to become one of the most valuable private AI firms.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Anthropic">Anthropic</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI`, `#business`, `#Anthropic`, `#leadership`, `#economics`
+
+---
+
+<a id="item-23"></a>
+## [Running DeepSeek V4 Flash Q2 Quant on RTX 4090 with DDR5 RAM](https://www.reddit.com/r/LocalLLaMA/comments/1ustyas/deepseek_v4_flash_on_4090_ddr5_my_experience/) ⭐️ 6.0/10
+
+A user successfully ran the DeepSeek V4 Flash model at Q2_K_XL quantization on an RTX 4090 with DDR5 system RAM, achieving 10.9 tokens per second generation speed, and discovered that pinning performance cores doubled the throughput. This demonstrates the potential to run large 284B-parameter Mixture-of-Experts models on consumer-grade hardware, making advanced reasoning AI more accessible to local enthusiasts. The setup used Unsloth's UD-Q2_K_XL GGUF format with 8 CPU threads pinned to p-cores, required turning off flash attention to prevent CUDA buffer explosions, and achieved prompt processing at 132.5 tokens per second.
+
+reddit · r/LocalLLaMA · /u/kevin_1994 · Jul 10, 17:17
+
+**Background**: DeepSeek V4 Flash is a preview Mixture-of-Experts model with 284B total parameters and 13B active, designed for efficient reasoning across a 1M-token context window. Quantization techniques like Q2_K_XL reduce model size by compressing weights to 2-bit while upcasting critical layers to 8-bit, enabling inference on limited VRAM systems by offloading to system RAM. P-core pinning restricts process threads to high-performance cores on hybrid Intel CPUs, reducing latency from core migration. llama.cpp is a popular open-source inference engine for running quantized models on consumer hardware.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">deepseek -ai/ DeepSeek - V 4 - Flash · Hugging Face</a></li>
+<li><a href="https://ollama.com/library/deepseek-v4-flash">deepseek - v 4 - flash</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Processor_affinity">Processor affinity - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#local-llm`, `#llama-cpp`, `#deepseek`, `#hardware-optimization`, `#quantized-models`
 
 ---
 
