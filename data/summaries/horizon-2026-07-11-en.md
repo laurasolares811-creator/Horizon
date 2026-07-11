@@ -1,88 +1,74 @@
 # Horizon Daily - 2026-07-11
 
-> From 20 items, 7 important content pieces were selected
+> From 19 items, 7 important content pieces were selected
 
 ---
 
-1. [vLLM v0.25.0 Sets Model Runner V2 as Default, Removes PagedAttention](#item-1) ⭐️ 8.0/10
-2. [Use STRICT Tables in SQLite for Better Data Integrity](#item-2) ⭐️ 8.0/10
-3. [Apple Sues OpenAI Over Trade Secret Theft by Former Employees](#item-3) ⭐️ 8.0/10
-4. [VultronRetriever Models Top MTEB Leaderboard with On-Device Efficiency](#item-4) ⭐️ 8.0/10
-5. [ClickHouse Achieves 4x PgBouncer Throughput with SO_REUSEPORT and Peering](#item-5) ⭐️ 7.0/10
-6. [Modern Decor May Be Straining People's Brains, Study Suggests](#item-6) ⭐️ 7.0/10
-7. [Leaded Gas Was a Known Poison at Its Invention](#item-7) ⭐️ 6.0/10
+1. [vLLM v0.25.0: Model Runner V2 Default, Legacy Attention Removed](#item-1) ⭐️ 9.0/10
+2. [Prefer strict tables in SQLite](#item-2) ⭐️ 8.0/10
+3. [George Hotz's 'AI 2040' Warns of Cult of Intelligence and Censorship](#item-3) ⭐️ 8.0/10
+4. [VultronRetriever Models Released: #1 on MTEB with Efficiency Gains](#item-4) ⭐️ 8.0/10
+5. [Nvidia's GPU Cloud Financing: Circular or Strategic?](#item-5) ⭐️ 7.0/10
+6. [ClickHouse Achieves 4x PgBouncer Throughput via Peering and SO_REUSEPORT](#item-6) ⭐️ 7.0/10
+7. [Seeking Better Alternatives to HPSv3 for Human Preference Prediction in Images](#item-7) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [vLLM v0.25.0 Sets Model Runner V2 as Default, Removes PagedAttention](https://github.com/vllm-project/vllm/releases/tag/v0.25.0) ⭐️ 8.0/10
+## [vLLM v0.25.0: Model Runner V2 Default, Legacy Attention Removed](https://github.com/vllm-project/vllm/releases/tag/v0.25.0) ⭐️ 9.0/10
 
-vLLM v0.25.0 makes Model Runner V2 the default execution path for all dense models, removes the legacy PagedAttention backend, and brings the Transformers modeling backend to performance parity with native vLLM, among 558 commits. This release marks a major milestone in vLLM's architecture consolidation, improving performance, simplifying the codebase, and enabling advanced features like dynamic speculative decoding and heterogeneous vocabulary support, which directly benefit production LLM serving. Notably, Model Runner V2 now supports EVS, realtime embeddings, and prefix caching for Mamba hybrid models; the Transformers backend gained FP8 MoE support; and new models include LLaVA-OneVision-2, Unlimited OCR, and GLM-5 family.
+vLLM v0.25.0 makes Model Runner V2 the default execution path for all dense models, removes legacy PagedAttention, and achieves native-level speed for the Transformers backend, alongside new multimodal model support, a streaming parser engine, and universal speculative decoding for heterogeneous vocabularies. This release marks a major milestone for vLLM, greatly improving performance and reducing technical debt, which benefits the entire LLM serving ecosystem by providing faster, more efficient inference for a wide range of models. The release includes 558 commits from 232 contributors, with notable features such as EVS, realtime embeddings, Mamba hybrid prefix caching, and new models like LLaVA-OneVision-2 and GLM-5, alongside a new streaming parser engine for unified tool-call parsing and a Rust frontend with HTTPS/mTLS support.
 
 github · khluu · Jul 11, 20:06
 
-**Background**: vLLM is an open-source inference engine for large language models, originally built around the PagedAttention algorithm that efficiently manages KV cache in non-contiguous memory blocks. In recent versions, the project introduced a new V1 engine and Model Runner V2 to provide a more modular and performant execution core. With v0.25.0, MRv2 becomes the default, and the legacy PagedAttention implementation is fully removed, completing a major architectural shift.
+**Background**: vLLM is a popular open-source library for efficient LLM inference and serving. It originally introduced PagedAttention, a memory management technique that reduces waste. Model Runner V2 is a significant architectural overhaul that makes the execution core more modular and performant, and removing the legacy PagedAttention implementation streamlines the codebase. The Transformers backend in vLLM enables seamless integration with Hugging Face models, and with this release it achieves performance parity with the native vLLM implementation.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://vllm-website-5zwgmvte0-inferact-inc.vercel.app/blog/mrv2">Model Runner V 2 : A Modular and Faster Core for vLLM | vLLM Blog</a></li>
-<li><a href="https://vllm.ai/blog/2023-06-20-vllm">vLLM: Easy, Fast, and Cheap LLM Serving with PagedAttention</a></li>
-<li><a href="https://docs.vllm.ai/en/stable/features/speculative_decoding/dynamic_speculative_decoding/">Dynamic Speculative Decoding - vLLM</a></li>
+<li><a href="https://docs.vllm.ai/en/latest/design/model_runner_v2/">Model Runner V2 Design Document - vLLM</a></li>
+<li><a href="https://vllm.ai/blog/2026-03-24-mrv2">Model Runner V2: A Modular and Faster Core for vLLM</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#LLM`, `#Inference`, `#Open-Source`, `#Release`
+**Tags**: `#vLLM`, `#release`, `#LLM inference`, `#model serving`, `#performance`
 
 ---
 
 <a id="item-2"></a>
-## [Use STRICT Tables in SQLite for Better Data Integrity](https://evanhahn.com/prefer-strict-tables-in-sqlite/) ⭐️ 8.0/10
+## [Prefer strict tables in SQLite](https://evanhahn.com/prefer-strict-tables-in-sqlite/) ⭐️ 8.0/10
 
-An article advocates for adopting STRICT tables in SQLite, a feature available since version 3.37.0, to enforce declared data types and prevent subtle conversion errors. This matters because strict typing prevents bugs like UUIDs being misinterpreted as numbers, improving reliability and data integrity, especially when databases are shared across multiple applications. STRICT tables are defined per table using `CREATE TABLE ... STRICT`; they reject values not matching the declared type, but types like DATE are not supported, and enabling strict typing requires a table rebuild.
+Advocates for using SQLite's STRICT tables to enforce data types, sparking a rich community debate on the trade-offs with the traditional flexible typing.
 
 hackernews · ingve · Jul 11, 17:33 · [Discussion](https://news.ycombinator.com/item?id=48873940)
 
-**Background**: SQLite traditionally uses flexible typing where column types are mere suggestions. STRICT tables enforce type constraints akin to traditional RDBMS. This mode was introduced in SQLite 3.37.0 and must be enabled per table, helping catch unintended type coercions, like storing a string in a numeric column.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.sqlite.org/stricttables.html">STRICT Tables</a></li>
-<li><a href="https://antonz.org/sqlite-strict-tables/">STRICT tables in SQLite</a></li>
-<li><a href="https://www.sqlitetutorial.net/sqlite-strict-tables/">SQLite Strict Tables</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community comments show broad support for strict tables, with some users wanting it as the default. One commenter shared a real-world UUID parsing issue fixed by using strict mode. Others appreciate SQLite's flexibility but acknowledge benefits for data integrity.
-
-**Tags**: `#SQLite`, `#database`, `#strict tables`, `#data integrity`, `#software engineering`
+**Tags**: `#sqlite`, `#databases`, `#best-practices`, `#data-integrity`, `#strict-types`
 
 ---
 
 <a id="item-3"></a>
-## [Apple Sues OpenAI Over Trade Secret Theft by Former Employees](https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/) ⭐️ 8.0/10
+## [George Hotz's 'AI 2040' Warns of Cult of Intelligence and Censorship](https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html) ⭐️ 8.0/10
 
-Apple has sued OpenAI, alleging that former Apple employees stole trade secrets and confidential information when they joined OpenAI, including hardware data. This high-profile lawsuit could set a precedent for intellectual property disputes in the AI industry and potentially cripple OpenAI's hardware projects, echoing the Waymo v. Uber case. The suit claims OpenAI instructed new hires on how to avoid detection when leaving Apple, and that employees emailed themselves confidential information; it also alleges that OpenAI used Apple's hardware trade secrets when dealing with suppliers.
+George Hotz published a speculative blog post describing a 2040 'cult of intelligence' where AI systems enforce ideological conformity, erode personal freedoms, and drive censorship. The post sparked a broad debate on AI ethics and freedom, raising crucial questions about balancing AI safety with civil liberties as AI becomes more integrated into society. Hotz argues that reality's complexity could undermine superintelligent AI alignment, and community reactions range from fears of thoughtcrime logging to debates on the non-binary nature of freedom and the limits of censorship when AIs act physically.
 
-hackernews · stock_toaster · Jul 10, 20:47 · [Discussion](https://news.ycombinator.com/item?id=48865019)
+hackernews · rvz · Jul 11, 18:04 · [Discussion](https://news.ycombinator.com/item?id=48874200)
 
-**Background**: Trade secrets are legally protected proprietary information; if misappropriated, companies can sue for damages and injunctive relief. In tech, the movement of employees between competitors often leads to such legal battles, with the Waymo-Uber case being a notable example where Uber paid a settlement and ended its self-driving project.
+**Background**: George Hotz is a notable hacker and AI researcher known for jailbreaking the iPhone and founding comma.ai. The 'cult of intelligence' envisions a future where intelligence is worshipped and AI systems enforce conformity, reminiscent of Orwellian dystopias. The HN debate reflects wider societal concerns about AI governance and censorship.
 
-**Discussion**: Commenters largely condemned OpenAI, viewing the alleged behavior as part of a pattern of ethical violations. Many advised businesses against using OpenAI models, fearing IP exposure, and predicted this lawsuit could be devastating for OpenAI's hardware ambitions, with Apple's resources ensuring a protracted legal fight.
+**Discussion**: Community reaction was polarized: some feared AI-driven thought policing, while others argued freedom isn't absolute and noted distinctions between pure chatbots and agents that act in the world. Several found the essay chaotic but acknowledged the importance of real-world finicky details.
 
-**Tags**: `#ai`, `#lawsuit`, `#trade-secrets`, `#intellectual-property`, `#ethics`
+**Tags**: `#AI`, `#future`, `#freedom`, `#censorship`, `#ethics`
 
 ---
 
 <a id="item-4"></a>
-## [VultronRetriever Models Top MTEB Leaderboard with On-Device Efficiency](https://www.reddit.com/r/MachineLearning/comments/1utmxq8/vultronretriever_family_of_models_released_on/) ⭐️ 8.0/10
+## [VultronRetriever Models Released: #1 on MTEB with Efficiency Gains](https://www.reddit.com/r/MachineLearning/comments/1utmxq8/vultronretriever_family_of_models_released_on/) ⭐️ 8.0/10
 
-The VultronRetriever model family, including VultronRetrieverPrime-8B, VultronRetrieverCore-4.5B, and VultronRetrieverFlash-0.8B, was released on HuggingFace, achieving top rankings on the MTEB leaderboard with significant efficiency gains and demonstrated offline Q&A on an iPhone. These models combine state-of-the-art retrieval accuracy with up to 16x smaller index storage and 12x higher throughput, enabling sophisticated search and question answering directly on mobile devices without internet connectivity, which could expand access to private and low-latency AI applications. The smallest model, VultronRetrieverFlash-0.8B, runs on edge devices and indexes up to 60 images per minute fully offline, while the Hydra Architecture supports late interaction retrieval for high precision and reduces memory usage by up to half compared to similar models.
+A family of retrieval models ranging from 0.8B to 8B parameters has been released, achieving top ranks on the MTEB leaderboard with up to 16x smaller index and 12x higher throughput, along with offline edge deployment capabilities. These models set a new state-of-the-art for retrieval, combining high accuracy with dramatic efficiency improvements, enabling powerful search and QA on resource-constrained devices like phones without internet, which could democratize access to advanced retrieval. The Prime-8B model achieves global #1 on MTEB, Core-4.5B outperforms larger models, Flash-0.8B surpasses models 5x its size; all trained with 0% cross-dataset duplication and eval contamination, and deployable via the Hydra Architecture for late interaction retrieval with lower memory.
 
 reddit · r/MachineLearning · /u/madkimchi · Jul 11, 15:22
 
-**Background**: The Massive Text Embedding Benchmark (MTEB) is a standard leaderboard for evaluating embedding models on retrieval, classification, and other tasks. Late interaction retrieval models, such as ColBERT, use token-level multi-vector representations to capture fine-grained relevance without the computational cost of full cross-attention. The Hydra Architecture optimizes this approach for efficient deployment on resource-constrained devices.
+**Background**: MTEB (Massive Text Embedding Benchmark) is a widely used benchmark for evaluating text embedding models across various tasks like retrieval, clustering, and classification. Late interaction retrieval is a paradigm where query and document representations are processed separately until the final scoring stage, allowing efficient storage and fast search while preserving semantic granularity. The Hydra Architecture, as referenced, is a framework that implements late interaction for multimodal retrieval, enabling high precision with reduced memory footprint.
 
 <details><summary>References</summary>
 <ul>
@@ -92,68 +78,75 @@ reddit · r/MachineLearning · /u/madkimchi · Jul 11, 15:22
 </ul>
 </details>
 
-**Tags**: `#retrieval`, `#models`, `#MTEB`, `#on-device`, `#HuggingFace`
+**Tags**: `#information-retrieval`, `#embedding-models`, `#model-release`, `#edge-ai`, `#mteb-leaderboard`
 
 ---
 
 <a id="item-5"></a>
-## [ClickHouse Achieves 4x PgBouncer Throughput with SO_REUSEPORT and Peering](https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres) ⭐️ 7.0/10
+## [Nvidia's GPU Cloud Financing: Circular or Strategic?](https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom) ⭐️ 7.0/10
 
-ClickHouse engineers scaled PgBouncer to 4 times its original throughput by leveraging the Linux SO_REUSEPORT socket option and PgBouncer's peering feature to reduce lock contention across CPU cores. This improvement mitigates PostgreSQL's costly per-connection model, making connection pooling more efficient at scale and directly benefiting high-traffic deployments that rely on PgBouncer. SO_REUSEPORT allows multiple PgBouncer processes to listen on the same port, with the kernel distributing connections evenly; peering reduces the need for inter-process coordination. The setup requires careful configuration and may not suit all environments.
+An analysis reveals that Nvidia has invested in GPU cloud providers CoreWeave and Nebius, which then spend the money on Nvidia's GPUs, creating a potential circular financing loop. This raises questions about whether the GPU cloud boom is driven by genuine demand or artificially inflated spending, and what that means for the long-term profitability of AI infrastructure companies. Nvidia's $2 billion investment in CoreWeave is only a fraction of the latter's $35 billion 2026 capex, but it may have outsized influence; profitability also hinges on utilization and future token pricing for older GPUs like H100 and A100.
 
-hackernews · saisrirampur · Jul 11, 15:28 · [Discussion](https://news.ycombinator.com/item?id=48872874)
+hackernews · adletbalzhanov · Jul 11, 17:21 · [Discussion](https://news.ycombinator.com/item?id=48873836)
 
-**Background**: PgBouncer is a lightweight connection pooler for PostgreSQL, which traditionally spawns a heavy OS process per connection. SO_REUSEPORT is a Linux kernel feature that lets multiple sockets bind to the same port, enabling better load distribution without a single bottleneck. Peering is PgBouncer's internal mechanism for sharing connection state across instances.
+**Background**: GPU cloud providers like CoreWeave and Nebius rent out Nvidia-powered servers for AI training and inference. Circular financing occurs when a vendor invests in a customer, who then uses the funds to buy the vendor's products. The AI boom has sparked massive GPU demand, and Nvidia's stakes in these firms help them scale while ensuring loyalty to Nvidia hardware.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.pgbouncer.org/">PgBouncer - lightweight connection pooler for PostgreSQL</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Circular_financing">Circular financing</a></li>
+<li><a href="https://completeaitraining.com/news/ais-money-go-round-circular-financing-fuels-growth-and/">AI's Money-Go-Round: Circular Financing Fuels Growth-and Bubble...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/CoreWeave">CoreWeave</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters largely downplay the circular financing narrative, noting Nvidia's investment is small relative to total capex and serves as a hedge against hyperscalers. The debate centers on long-term profitability metrics like ROI per token and the risk of overbuilding GPU capacity.
+
+**Tags**: `#Nvidia`, `#GPU`, `#AI Infrastructure`, `#Circular Financing`, `#Cloud Computing`
+
+---
+
+<a id="item-6"></a>
+## [ClickHouse Achieves 4x PgBouncer Throughput via Peering and SO_REUSEPORT](https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres) ⭐️ 7.0/10
+
+ClickHouse engineers optimized PgBouncer to handle 4 times the original throughput by implementing peering and leveraging the SO_REUSEPORT socket option, as described in their blog post. This optimization addresses the scalability bottleneck in PostgreSQL connection pooling, enabling higher concurrency for applications that rely on PgBouncer, and demonstrates how kernel features can improve database proxy performance. Peering allows PgBouncer processes to forward query cancellations to the correct session owner, while SO_REUSEPORT distributes incoming connections across multiple listening processes, avoiding a single bottleneck.
+
+hackernews · saisrirampur · Jul 11, 15:28 · [Discussion](https://news.ycombinator.com/item?id=48872874)
+
+**Background**: PgBouncer is a lightweight connection pooler for PostgreSQL. Peering enables multiple PgBouncer instances to coordinate, such as by forwarding cancellations. SO_REUSEPORT is a Linux socket option allowing multiple processes to bind to the same port, with the kernel distributing connections evenly.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="http://www.pgbouncer.org/usage.html">PgBouncer command-line usage</a></li>
 <li><a href="https://lwn.net/Articles/542629/">The SO_REUSEPORT socket option [LWN.net]</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters expressed surprise that PostgreSQL's heavy connection model persists, and suggested alternatives like Odyssey and pgdog. Some noted they already run multiple PgBouncer instances on Kubernetes for scalability. Questions arose about the ease of setting up peering in PgBouncer.
+**Discussion**: Some commenters suggested alternative tools like Odyssey and pgdog, while others inquired about the ease of setting up peering in PgBouncer. One user noted using Kubernetes to manage multiple PgBouncer instances, highlighting different scaling strategies.
 
-**Tags**: `#postgresql`, `#pgbouncer`, `#connection-pooling`, `#throughput`, `#performance`
-
----
-
-<a id="item-6"></a>
-## [Modern Decor May Be Straining People's Brains, Study Suggests](https://studyfinds.com/modern-decor-may-be-straining-peoples-brains/) ⭐️ 7.0/10
-
-A review of existing research suggests that visually sparse modern interior design may overwork the brain, leading to discomfort, contrasting with richer traditional environments. This insight could influence interior design practices for well-being, especially in homes and workplaces, highlighting a potential downside of minimalist trends. The review acknowledges limitations: existing visual discomfort tests are subjective and non-standardized, and the hypothesis that discomfort stems from brain overwork has not been fully tested.
-
-hackernews · downwithdisease · Jul 11, 16:28 · [Discussion](https://news.ycombinator.com/item?id=48873424)
-
-**Background**: Neuroaesthetics studies how the brain processes aesthetic experiences, and environmental psychology examines how spaces affect behavior. Natural scenes often exhibit a 1/f spatial frequency pattern, which may be less cognitively demanding than the repetitive, sparse patterns common in modern design.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Neuroesthetics">Neuroesthetics</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Interior_design_psychology">Interior design psychology - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community discussion highlights personal experiences of comfort in cluttered, traditional spaces, skepticism about the study's scientific rigor due to subjective tests and untested mechanisms, and debate over whether natural scenes truly have decreasing visual complexity. Some also emphasize the role of lighting design and the socioeconomic drivers of modern decor.
-
-**Tags**: `#interior-design`, `#neuroscience`, `#psychology`, `#cognitive-science`, `#research-review`
+**Tags**: `#PostgreSQL`, `#PgBouncer`, `#connection-pooling`, `#performance`, `#scaling`
 
 ---
 
 <a id="item-7"></a>
-## [Leaded Gas Was a Known Poison at Its Invention](https://www.smithsonianmag.com/smart-news/leaded-gas-poison-invented-180961368/) ⭐️ 6.0/10
+## [Seeking Better Alternatives to HPSv3 for Human Preference Prediction in Images](https://www.reddit.com/r/MachineLearning/comments/1utdj1f/predicting_human_preference_for_generated_image/) ⭐️ 6.0/10
 
-The article resurfaces the historical fact that leaded gasoline's toxicity was recognized upon its invention, sparking discussion about Thomas Midgley Jr.'s legacy and the broader implications of corporate ethics. This history matters because it reveals how corporate interests suppressed known health risks, leading to global lead poisoning, and serves as a cautionary tale for environmental and public health policy today. Thomas Midgley Jr., who promoted leaded gasoline, also developed CFCs, inadvertently causing two major environmental crises. Despite early warnings from scientists, lead's neurotoxic effects were downplayed for decades. Algeria was the final country to ban leaded road gasoline in 2021.
+A user on r/MachineLearning shared their experience with HPSv3, a state-of-the-art human preference score model, and found it has significant limitations. They are now seeking recommendations for better models to predict human preference in generated image pairs. Improving human preference prediction is crucial for advancing text-to-image generation evaluation, as it directly impacts model development and user satisfaction. Finding better models can lead to more reliable benchmarks and better alignment with human aesthetic judgments. The user tested HPSv3 on their image benchmarking site (imagebench.ai) and noted numerous limitations in its scoring, as detailed in their blog post. HPSv3 is based on a wide-spectrum dataset with 1.08M text-image pairs and 1.17M pairwise comparisons, but may still fall short in certain scenarios.
 
-hackernews · downbad_ · Jul 11, 17:27 · [Discussion](https://news.ycombinator.com/item?id=48873893)
+reddit · r/MachineLearning · /u/dh7net · Jul 11, 07:36
 
-**Background**: Lead is a potent neurotoxin that causes irreversible brain damage, especially in children. Thomas Midgley Jr. was an American chemist who not only pioneered leaded gasoline to reduce engine knocking but also later invented CFCs, which depleted the ozone layer. The global phase-out of leaded gasoline began in the 1970s and culminated with Algeria's ban in 2021.
+**Background**: Human preference models like HPSv3 are trained to score images based on how well they align with text prompts and human aesthetic preferences. HPSv3, introduced in ICCV2025, uses a large dataset of pairwise comparisons to improve evaluation of generative models. The user seeks a more accurate model for their image benchmarking platform to better reflect human judgment.
 
-**Discussion**: Commenters highlighted Thomas Midgley Jr.'s devastating environmental legacy, linking leaded gas to his later CFC invention. Some noted the irony of material science's dual focus on creating and remediating toxic materials. Others advocated for electric vehicles as a solution, while a comment corrected that leaded road gasoline is now banned globally, with Algeria being the last in 2021.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/MizzenAI/HPSv3">GitHub - MizzenAI/HPSv3: Official implementation of HPSv3: Towards Wide-Spectrum Human Preference Score (ICCV2025) · GitHub</a></li>
+<li><a href="https://arxiv.org/abs/2508.03789">[2508.03789] HPSv3: Towards Wide-Spectrum Human Preference Score</a></li>
 
-**Tags**: `#history`, `#public health`, `#environment`, `#lead poisoning`, `#corporate ethics`
+</ul>
+</details>
+
+**Tags**: `#image generation`, `#human preference`, `#evaluation`, `#machine learning`, `#HPSv3`
 
 ---
 
