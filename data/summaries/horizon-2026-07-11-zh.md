@@ -1,119 +1,159 @@
 # Horizon 每日速递 - 2026-07-11
 
-> 从 17 条内容中筛选出 5 条重要资讯。
+> 从 20 条内容中筛选出 7 条重要资讯。
 
 ---
 
-1. [苹果因商业机密盗窃起诉 OpenAI](#item-1) ⭐️ 9.0/10
-2. [ClickHouse 利用 SO_REUSEPORT 和 peering 将 PgBouncer 吞吐量提升至 4 倍](#item-2) ⭐️ 8.0/10
-3. [研究证实爱因斯坦相对论主导重元素化学键](#item-3) ⭐️ 8.0/10
-4. [AI 爬虫滥用住宅代理，封禁更困难](#item-4) ⭐️ 8.0/10
-5. [VultronRetriever 模型发布：在 MTEB 上排名第一且高效](#item-5) ⭐️ 8.0/10
+1. [vLLM v0.25.0 将 Model Runner V2 设为默认并移除 PagedAttention](#item-1) ⭐️ 8.0/10
+2. [在 SQLite 中使用 STRICT 表提升数据完整性](#item-2) ⭐️ 8.0/10
+3. [苹果起诉 OpenAI 指控前雇员窃取商业机密](#item-3) ⭐️ 8.0/10
+4. [VultronRetriever 模型登顶 MTEB 排行榜并实现设备端高效检索](#item-4) ⭐️ 8.0/10
+5. [ClickHouse 通过 SO_REUSEPORT 与 Peering 将 PgBouncer 吞吐量提升 4 倍](#item-5) ⭐️ 7.0/10
+6. [研究表明现代装饰或使大脑过劳](#item-6) ⭐️ 7.0/10
+7. [含铅汽油从发明之日起就是已知的毒物](#item-7) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [苹果因商业机密盗窃起诉 OpenAI](https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/) ⭐️ 9.0/10
+## [vLLM v0.25.0 将 Model Runner V2 设为默认并移除 PagedAttention](https://github.com/vllm-project/vllm/releases/tag/v0.25.0) ⭐️ 8.0/10
 
-苹果已对 OpenAI 提起诉讼，指控其前员工窃取商业机密，并向 OpenAI 供应商提供机密硬件信息，且有证据表明 OpenAI 教导新员工如何逃避审查。 这起诉讼可能为 AI 行业的知识产权保护树立重要先例，影响科技公司的招聘行为和专有数据处理方式，并可能冲击 OpenAI 的硬件开发和合作关系。 苹果声称，OpenAI 指示像 Tan 先生这样的新员工不要透露新雇主信息，以便在苹果停留更长时间，并发现存在将机密信息通过电子邮件发送至个人账户的模式。诉讼中的证据开示可能损害 OpenAI 的声誉和投资者信心。
+vLLM v0.25.0 将 Model Runner V2 作为所有稠密模型的默认执行路径，移除了旧的 PagedAttention 后端，并使 Transformers 建模后端的性能与原生 vLLM 持平，此次发布包含 558 次提交。 此发布标志着 vLLM 架构整合的重要里程碑，提升了性能，简化了代码库，并支持动态推测解码和异构词汇表等高级功能，直接惠及生产环境中的大语言模型服务。 值得注意的是，Model Runner V2 现在支持 EVS、实时嵌入和 Mamba 混合模型的 prefix caching；Transformers 后端新增了 FP8 MoE 支持；新模型包括 LLaVA-OneVision-2、Unlimited OCR 和 GLM-5 系列。
 
-hackernews · stock_toaster · 7月10日 20:47 · [社区讨论](https://news.ycombinator.com/item?id=48865019)
+github · khluu · 7月11日 20:06
 
-**背景**: 苹果和 OpenAI 都是科技行业的重要公司，苹果专注于硬件和生态系统整合，OpenAI 则在 GPT 等 AI 模型领域处于领先地位。商业机密纠纷在硅谷很常见，通常涉及员工流动。苹果此前曾通过引人注目的诉讼保护其知识产权，例如与三星的诉讼。
+**背景**: vLLM 是一个面向大语言模型的开源推理引擎，最初围绕 PagedAttention 算法构建，该算法通过非连续内存块高效管理 KV 缓存。在最近的版本中，项目引入了新的 V1 引擎和 Model Runner V2，以提供更模块化、更高性能的执行核心。v0.25.0 中，MRv2 成为默认实现，旧的 PagedAttention 实现被完全移除，标志着一项重大架构转型的完成。
 
-**社区讨论**: 社区评论强烈谴责 OpenAI，认为这是与其侵犯版权相关的不道德行为模式的一部分。许多人预测这将对 OpenAI 的硬件项目造成毁灭性打击，并建议企业不要使用 OpenAI 模型，同时指出苹果雄厚的财力可能推动案件进入全面证据开示阶段，这可能对 OpenAI 造成严重损害。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://vllm-website-5zwgmvte0-inferact-inc.vercel.app/blog/mrv2">Model Runner V 2 : A Modular and Faster Core for vLLM | vLLM Blog</a></li>
+<li><a href="https://vllm.ai/blog/2023-06-20-vllm">vLLM: Easy, Fast, and Cheap LLM Serving with PagedAttention</a></li>
+<li><a href="https://docs.vllm.ai/en/stable/features/speculative_decoding/dynamic_speculative_decoding/">Dynamic Speculative Decoding - vLLM</a></li>
 
-**标签**: `#apple`, `#openai`, `#trade-secrets`, `#lawsuit`, `#ai-ethics`
+</ul>
+</details>
+
+**标签**: `#AI`, `#LLM`, `#Inference`, `#Open-Source`, `#Release`
 
 ---
 
 <a id="item-2"></a>
-## [ClickHouse 利用 SO_REUSEPORT 和 peering 将 PgBouncer 吞吐量提升至 4 倍](https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres) ⭐️ 8.0/10
+## [在 SQLite 中使用 STRICT 表提升数据完整性](https://evanhahn.com/prefer-strict-tables-in-sqlite/) ⭐️ 8.0/10
 
-ClickHouse 分享了如何扩展 PostgreSQL 连接池 PgBouncer 的深度解析，通过实施 SO_REUSEPORT 实现多进程监听以及 peering 实现实例间连接取消，将吞吐量提升了 4 倍。 这一进展使得使用 PgBouncer 的组织无需切换至其他连接池工具即可处理更高的连接负载，直接有利于生产环境中 PostgreSQL 的扩展性。 该方案使用 SO_REUSEPORT 允许多个 PgBouncer 进程绑定同一 TCP 端口，由内核分配连接，并通过 peering（自 PgBouncer v1.21.0 起可用）在不同实例间路由取消请求；但不同 PgBouncer 版本间的 peering 可能存在不兼容。
+一篇文章倡导在 SQLite 中采用 STRICT 表，该功能自 3.37.0 版本起可用，以强制执行声明的数据类型并防止细微的转换错误。 这很重要，因为严格类型可以防止 UUID 被误解为数字等错误，提高可靠性和数据完整性，尤其是在多个应用程序共享数据库时。 STRICT 表通过`CREATE TABLE ... STRICT`逐表定义；它们拒绝与声明类型不匹配的值，但不支持 DATE 等类型，且启用严格类型需要重建表。
 
-hackernews · saisrirampur · 7月11日 15:28 · [社区讨论](https://news.ycombinator.com/item?id=48872874)
+hackernews · ingve · 7月11日 17:33 · [社区讨论](https://news.ycombinator.com/item?id=48873940)
 
-**背景**: PgBouncer 是 PostgreSQL 的轻量级连接池，通常以单进程运行，高负载下易成瓶颈。SO_REUSEPORT 是 Linux 套接字选项，允许多个进程监听同一端口，由内核分配连接。Peering 是 PgBouncer 的功能，允许多个实例共享取消密钥，确保跨实例的查询取消。
+**背景**: SQLite 传统上使用灵活类型，列类型仅为建议。STRICT 表类似于传统关系数据库强制执行类型约束。该模式在 SQLite 3.37.0 中引入，必须逐表启用，有助于捕捉意外的类型强制转换，例如将字符串存储在数字列中。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://lwn.net/Articles/542629/">The SO_REUSEPORT socket option [LWN.net]</a></li>
-<li><a href="https://www.pgbouncer.org/config.html">PgBouncer config</a></li>
+<li><a href="https://www.sqlite.org/stricttables.html">STRICT Tables</a></li>
+<li><a href="https://antonz.org/sqlite-strict-tables/">STRICT tables in SQLite</a></li>
+<li><a href="https://www.sqlitetutorial.net/sqlite-strict-tables/">SQLite Strict Tables</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区评论提到了 Odyssey 和 pgdog 等可替代的连接池工具。一些用户在 Kubernetes 中运行多个 PgBouncer 进程以实现高可用。讨论中还涉及 peering 配置的简易性以及是否可通过 HAProxy 前端实现类似效果，反映了实际部署中的考量。
+**社区讨论**: 社区评论显示对严格表普遍支持，一些用户希望将其作为默认设置。一位评论者分享了实际遇到的 UUID 解析问题，通过使用严格模式得以解决。其他人赞赏 SQLite 的灵活性，但承认其对数据完整性的好处。
 
-**标签**: `#pgbouncer`, `#postgresql`, `#performance`, `#connection-pooling`, `#optimization`
+**标签**: `#SQLite`, `#database`, `#strict tables`, `#data integrity`, `#software engineering`
 
 ---
 
 <a id="item-3"></a>
-## [研究证实爱因斯坦相对论主导重元素化学键](https://www.brown.edu/news/2026-07-09/chemical-bonds-relativity) ⭐️ 8.0/10
+## [苹果起诉 OpenAI 指控前雇员窃取商业机密](https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/) ⭐️ 8.0/10
 
-发表在《科学》杂志上的新研究证明，爱因斯坦的相对论通过相对论效应对电子轨道和自旋的影响，直接控制重元素中的化学键，特别是揭示了自旋-轨道耦合如何决定σ键和π键的形成。 这一发现加深了对化学键的基本理解，并可能影响催化、材料科学和核化学中重元素化合物的设计，因为在这些领域中相对论效应至关重要。 由布朗大学研究人员开展并发表在《科学》杂志上的这项研究揭示，在重原子中，电子以相对论速度运动，引起自旋-轨道耦合，从而有利于特定的键对称性；这通过先进的量子化学计算得到验证。
+苹果公司已起诉 OpenAI，指控其前雇员在加入 OpenAI 时窃取了包括硬件数据在内的商业秘密和机密信息。 这起备受瞩目的诉讼案可能为人工智能行业的知识产权纠纷树立先例，并有可能重创 OpenAI 的硬件项目，与 Waymo 诉 Uber 案相似。 诉讼称，OpenAI 指导新员工如何在离开苹果时规避审查，且雇员通过邮件将机密信息发送给自己；还指控 OpenAI 在与供应商打交道时使用了苹果的硬件商业机密。
 
-hackernews · hhs · 7月10日 22:30 · [社区讨论](https://news.ycombinator.com/item?id=48866134)
+hackernews · stock_toaster · 7月10日 20:47 · [社区讨论](https://news.ycombinator.com/item?id=48865019)
 
-**背景**: 在重元素中，内层电子运动速度可与光速相比，因此需要对薛定谔方程进行相对论修正。这些修正导致轨道收缩和膨胀，影响颜色和键合等性质。自旋-轨道耦合是电子自旋与轨道运动之间的相对论相互作用，能级分裂并影响分子键的形成，这项新研究将其与化学键直接联系起来。
+**背景**: 商业机密是受法律保护的专有信息；若遭盗用，公司可提起诉讼索赔并申请禁令救济。在科技行业，员工在竞争对手间的流动常引发此类诉讼，Waymo 与 Uber 的案例便是一例，Uber 为此支付和解金并终止了自动驾驶项目。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Relativistic_quantum_chemistry">Relativistic quantum chemistry</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Spin-orbit_coupling">Spin-orbit coupling</a></li>
-<li><a href="http://alchemy.cchem.berkeley.edu/inorganic/RelativisticEffects.pdf">Relativistic Effects in Chemistry Moving across the d-blo</a></li>
+**社区讨论**: 评论者普遍谴责 OpenAI，认为所指控的行为是其道德违规模式的一部分。许多人建议企业不要使用 OpenAI 模型，担心知识产权泄露，并预测这场诉讼可能因苹果雄厚的财力导致旷日持久的法律战，对 OpenAI 的硬件雄心造成毁灭性打击。
 
-</ul>
-</details>
-
-**社区讨论**: 在线评论者指出，重元素中的相对论效应早已为人所知（例如黄金的颜色、汞的液态），但赞扬这项研究为化学键提供了更深层次、直接的联系。一些人分享了关于自旋-轨道耦合和周期表的额外见解，而其他人则表达了对爱因斯坦持久影响力的钦佩。
-
-**标签**: `#relativity`, `#chemistry`, `#heavy-elements`, `#physics`, `#science`
+**标签**: `#ai`, `#lawsuit`, `#trade-secrets`, `#intellectual-property`, `#ethics`
 
 ---
 
 <a id="item-4"></a>
-## [AI 爬虫滥用住宅代理，封禁更困难](https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/) ⭐️ 8.0/10
+## [VultronRetriever 模型登顶 MTEB 排行榜并实现设备端高效检索](https://www.reddit.com/r/MachineLearning/comments/1utmxq8/vultronretriever_family_of_models_released_on/) ⭐️ 8.0/10
 
-LWN 文章探讨了 AI 爬虫日益使用住宅代理，以及在不伤害合法用户的情况下封禁它们的难度。 这威胁到开放网络，使网站所有者难以在不影响真实用户的情况下保护内容，并引发了关于平衡可访问性与保护的辩论。 住宅代理通过真实用户设备路由流量，使区分机器人与人类变得困难；像 Anubis 这样的工具面临局限性，因为爬虫会适应。
-
-hackernews · chmaynard · 7月10日 19:38 · [社区讨论](https://news.ycombinator.com/item?id=48864252)
-
-**背景**: 住宅代理使用 ISP 分配给家庭用户的 IP 地址，使其看起来像合法的家庭流量。与数据中心代理不同，它们更难被封锁，且容易误伤真实用户。AI 公司抓取网站以收集训练数据，导致服务器负载过大和内容被盗的担忧。常见的缓解方法包括验证码和工作量证明，但这些可能给用户带来不便。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://aimultiple.com/residential-proxy-providers">12 Best & Cheapest Residential Proxies in 2026 (Tested & Ranked)</a></li>
-<li><a href="https://proxyway.com/best/residential-proxies">The Best Residential Proxies of 2026 - Proxyway</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者讨论了改进 Common Crawl 等替代方案以减少边际优势，担忧反抓取措施可能伤害开放网络，以及移动应用如何轻易成为住宅代理。一些人指出抓取的高流量和强度是关键问题，另一些人则强调了存档网络的重要性。
-
-**标签**: `#web-scraping`, `#residential-proxies`, `#bots`, `#open-web`, `#privacy`
-
----
-
-<a id="item-5"></a>
-## [VultronRetriever 模型发布：在 MTEB 上排名第一且高效](https://www.reddit.com/r/MachineLearning/comments/1utmxq8/vultronretriever_family_of_models_released_on/) ⭐️ 8.0/10
-
-VultronRetriever 模型族（Prime-8B、Core-4.5B、Flash-0.8B）已在 HuggingFace 上发布，在 MTEB 排行榜上均获各自类别第一，其中 Prime-8B 为全局第一，存储空间比此前 9B 级模型缩小 16 倍，吞吐量提升 12 倍；Flash-0.8B 可在 iPhone 上完全离线运行。 这些模型大幅降低了高质量检索所需的计算和存储成本，使得在设备端实现高效、隐私保护且不牺牲准确率的搜索和检索应用成为可能。 模型采用 Hydra 架构进行后期交互检索，实现令牌级多向量匹配；所有模型训练时无跨数据集重复且无评测污染，同时在 MTEB 上进行了私有评测以避免过拟合。
+VultronRetriever 模型家族在 HuggingFace 上发布，包括 VultronRetrieverPrime-8B、VultronRetrieverCore-4.5B 和 VultronRetrieverFlash-0.8B，在 MTEB 排行榜上取得顶尖排名，具备显著的效率提升，并展示了在 iPhone 上离线进行问答的能力。 这些模型将最先进的检索准确度与高达 16 倍的索引存储缩减和 12 倍的吞吐量提升相结合，可在移动设备上直接实现复杂的搜索和问答，无需联网，这可能扩展对隐私敏感和低延迟 AI 应用的访问。 最小的 VultronRetrieverFlash-0.8B 模型可在边缘设备上运行，并完全离线每分钟索引多达 60 张图像，而 Hydra 架构支持延迟交互检索以实现高精度，并将内存使用量降低至同类模型的一半。
 
 reddit · r/MachineLearning · /u/madkimchi · 7月11日 15:22
 
-**背景**: 后期交互检索模型（如 ColBERT）将查询和文档表示为多个令牌级向量，并通过高效的令牌匹配操作计算相关性，实现精准检索且索引大小可控。MTEB 排行榜是对文本嵌入模型在多种检索和聚类任务上的基准测试。Hydra 架构是一种将后期交互与生成相结合的方法，旨在降低内存使用。
+**背景**: 大规模文本嵌入基准测试（MTEB）是评估嵌入模型在检索、分类等任务上的标准排行榜。延迟交互检索模型（如 ColBERT）使用词元级多向量表示来捕捉细粒度相关性，同时避免了全交叉注意力的计算成本。Hydra 架构优化了这种方法，以便在资源受限的设备上高效部署。
 
 <details><summary>参考链接</summary>
 <ul>
+<li><a href="https://huggingface.co/spaces/mteb/leaderboard">MTEB Leaderboard - a Hugging Face Space by mteb</a></li>
 <li><a href="https://weaviate.io/blog/late-interaction-overview">An Overview of Late Interaction Retrieval Models: ColBERT, ColPali, and ColQwen | Weaviate</a></li>
 
 </ul>
 </details>
 
-**标签**: `#retrieval`, `#embeddings`, `#MTEB`, `#edge-computing`, `#NLP`
+**标签**: `#retrieval`, `#models`, `#MTEB`, `#on-device`, `#HuggingFace`
+
+---
+
+<a id="item-5"></a>
+## [ClickHouse 通过 SO_REUSEPORT 与 Peering 将 PgBouncer 吞吐量提升 4 倍](https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres) ⭐️ 7.0/10
+
+ClickHouse 工程师利用 Linux 的 SO_REUSEPORT 套接字选项和 PgBouncer 的 peering 功能，将 PgBouncer 的吞吐量提升至原来的 4 倍，减少了跨 CPU 核心的锁竞争。 这一改进缓解了 PostgreSQL 昂贵的每连接模型，使得连接池在大规模场景下更高效，直接惠及依赖 PgBouncer 的高流量部署。 SO_REUSEPORT 允许多个 PgBouncer 进程监听同一端口，由内核均匀分配连接；peering 减少了进程间协调的需求。该配置需要仔细调整，可能不适用于所有环境。
+
+hackernews · saisrirampur · 7月11日 15:28 · [社区讨论](https://news.ycombinator.com/item?id=48872874)
+
+**背景**: PgBouncer 是 PostgreSQL 的轻量级连接池工具，而 PostgreSQL 传统上为每个连接生成一个重量级操作系统进程。SO_REUSEPORT 是 Linux 内核特性，允许多个套接字绑定同一端口，无需单点瓶颈即可实现更好的负载分配。Peering 是 PgBouncer 内部跨实例共享连接状态的机制。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.pgbouncer.org/">PgBouncer - lightweight connection pooler for PostgreSQL</a></li>
+<li><a href="https://lwn.net/Articles/542629/">The SO_REUSEPORT socket option [LWN.net]</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 评论者对 PostgreSQL 沉重的连接模型依然存在表示惊讶，并推荐了 Odyssey 和 pgdog 等替代方案。部分人提到他们已在 Kubernetes 上运行多个 PgBouncer 实例以实现扩展。还有人询问在 PgBouncer 中配置 peering 的难易程度。
+
+**标签**: `#postgresql`, `#pgbouncer`, `#connection-pooling`, `#throughput`, `#performance`
+
+---
+
+<a id="item-6"></a>
+## [研究表明现代装饰或使大脑过劳](https://studyfinds.com/modern-decor-may-be-straining-peoples-brains/) ⭐️ 7.0/10
+
+一篇综述总结现有研究，指出视觉上稀疏的现代室内设计可能使大脑过度工作，导致不适，与丰富的传统环境形成对比。 这一发现可能影响室内设计以促进健康，尤其在家居和办公环境，突显极简潮流的潜在弊端。 该综述承认局限：现有视觉不适测试主观且非标准化，不适源于大脑过度工作的假说尚未得到充分验证。
+
+hackernews · downwithdisease · 7月11日 16:28 · [社区讨论](https://news.ycombinator.com/item?id=48873424)
+
+**背景**: 神经美学研究大脑如何处理审美体验，环境心理学探讨空间如何影响行为。自然场景常呈现 1/f 空间频率模式，可能比现代设计中重复稀疏的模式认知负担更小。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Neuroesthetics">Neuroesthetics</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Interior_design_psychology">Interior design psychology - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 社区讨论强调传统杂乱空间带来的舒适感，对研究因主观测试和未验证机制导致的科学严谨性持怀疑态度，并就自然场景是否真的视觉复杂度递减展开辩论。还有人强调照明设计的作用及现代装饰背后的社会经济驱动因素。
+
+**标签**: `#interior-design`, `#neuroscience`, `#psychology`, `#cognitive-science`, `#research-review`
+
+---
+
+<a id="item-7"></a>
+## [含铅汽油从发明之日起就是已知的毒物](https://www.smithsonianmag.com/smart-news/leaded-gas-poison-invented-180961368/) ⭐️ 6.0/10
+
+这篇文章重新提及了一个历史事实：含铅汽油的毒性在其发明之时就已被认识，引发了关于托马斯·米奇利（Thomas Midgley Jr.）的遗留问题以及企业伦理更广泛影响的讨论。 这段历史之所以重要，是因为它揭示了企业利益如何压制已知的健康风险，导致全球范围内的铅中毒，并为当今的环境与公共卫生政策提供了警示。 推动含铅汽油的托马斯·米奇利还发明了氯氟烃（CFCs），无意中引发了两大环境危机。尽管科学家早期就发出警告，铅的神经毒性效应仍被淡化了数十年。阿尔及利亚是最后一个在 2021 年禁止道路用含铅汽油的国家。
+
+hackernews · downbad_ · 7月11日 17:27 · [社区讨论](https://news.ycombinator.com/item?id=48873893)
+
+**背景**: 铅是一种强效神经毒素，会对大脑造成不可逆的损伤，对儿童尤其严重。托马斯·米奇利是一位美国化学家，他不仅首创了含铅汽油以减少发动机爆震，后来还发明了消耗臭氧层的氯氟烃。全球淘汰含铅汽油的行动始于 20 世纪 70 年代，最终在 2021 年阿尔及利亚颁布禁令后完成。
+
+**社区讨论**: 评论者强调了托马斯·米奇利灾难性的环境遗产，将含铅汽油与他后来发明的氯氟烃联系起来。有人指出材料科学既制造又有害物质的两面性。另一些人主张电动汽车作为解决方案，同时有评论纠正说，道路用含铅汽油现已在全球禁止，阿尔及利亚是 2021 年最后实施禁令的国家。
+
+**标签**: `#history`, `#public health`, `#environment`, `#lead poisoning`, `#corporate ethics`
 
 ---
 
