@@ -1,498 +1,328 @@
 # Horizon 每日速递 - 2026-07-11
 
-> 从 34 条内容中筛选出 23 条重要资讯。
+> 从 28 条内容中筛选出 15 条重要资讯。
 
 ---
 
-1. [GPT-5.6 Sol Ultra 生成循环双覆盖猜想的证明](#item-1) ⭐️ 10.0/10
-2. [苹果起诉 OpenAI 窃取前员工商业秘密](#item-2) ⭐️ 9.0/10
-3. [QuadRF 增强现实设备可视化 WiFi 并探测无人机](#item-3) ⭐️ 8.0/10
-4. [《终结者 2》视觉特效创新的口述历史](#item-4) ⭐️ 8.0/10
-5. [好工具是隐形的](#item-5) ⭐️ 8.0/10
-6. [Emacs 中的一切看起来都像服务](#item-6) ⭐️ 8.0/10
-7. [Unsloth 发布 NVFP4 量化 Qwen3.6，速度提升 2.5 倍](#item-7) ⭐️ 8.0/10
-8. [爱因斯坦相对论证实控制重元素化学键](#item-8) ⭐️ 7.0/10
-9. [Nilay Patel：AR 眼镜需要持续录像和云端处理](#item-9) ⭐️ 7.0/10
-10. [腾讯 HY3 295B MoE 模型在 128GB MacBook 上流畅运行](#item-10) ⭐️ 7.0/10
-11. [本地大模型生存套件：USB 离线 AI 知识库方案](#item-11) ⭐️ 7.0/10
-12. [Hy3 295B MoE 与音频 Audex 30B MoE 的 GGUF 量化](#item-12) ⭐️ 7.0/10
-13. [DataBricks：pi-coding-agent 比 CC/Codex 便宜 2 倍，GLM 5.2 媲美 Opus 4.8 high](#item-13) ⭐️ 7.0/10
-14. [用于 llama.cpp 和 vLLM 的开源 MIT 监控仪表盘](#item-14) ⭐️ 7.0/10
-15. [投机性缓存预热：在输入提示时预热缓存，节省等待时间](#item-15) ⭐️ 7.0/10
-16. [纽约市通过‘一键取消’法案打击欺诈性订阅](#item-16) ⭐️ 6.0/10
-17. [青铜时代晚期崩溃及其现代启示](#item-17) ⭐️ 6.0/10
-18. [写给自制抽认卡的情书：为何 AI 生成卡片不尽人意](#item-18) ⭐️ 6.0/10
-19. [诺奖得主、美联储前主席伯南克加入 AI 公司 Anthropic](#item-19) ⭐️ 6.0/10
-20. [爱好者用 160GB 十九世纪文本预训练 LLM，用于历史问答](#item-20) ⭐️ 6.0/10
-21. [NVIDIA 被曝准备推出 GeForce RTX 5090 SE 显卡](#item-21) ⭐️ 6.0/10
-22. [AMD Strix Halo APU 每日电费不到 0.48 美元](#item-22) ⭐️ 6.0/10
-23. [RTX 4090 + DDR5 运行 DeepSeek V4 Flash 的优化与性能实测](#item-23) ⭐️ 6.0/10
+1. [苹果起诉 OpenAI 指控前员工窃取商业机密](#item-1) ⭐️ 9.0/10
+2. [SpaceX 计划再发射 10 万颗星链卫星 带宽提升百倍](#item-2) ⭐️ 9.0/10
+3. [Grok Build CLI 悄悄上传仓库与密钥，退出无效](#item-3) ⭐️ 9.0/10
+4. [关于住宅代理和爬虫现状的更新](#item-4) ⭐️ 8.0/10
+5. [你的代码快不快全凭运气？编译器优化下的意外性能陷阱](#item-5) ⭐️ 8.0/10
+6. [定制引擎在 RTX 5060 Ti 上以 50 tok/s 运行 Qwen3-30B-A3B](#item-6) ⭐️ 8.0/10
+7. [新研究显示爱因斯坦相对论影响重元素化学键](#item-7) ⭐️ 7.0/10
+8. [幽灵字体：旨在迷惑 AI 但仍被运动分析破解](#item-8) ⭐️ 7.0/10
+9. [Nilay Patel 称增强现实眼镜必然需要持续摄像](#item-9) ⭐️ 7.0/10
+10. [Reddit 用户质疑对 MoE 模型性能的偏见](#item-10) ⭐️ 7.0/10
+11. [将 SQLite/FTS5 专利数据库扩展至 536 万条记录的经验教训](#item-11) ⭐️ 7.0/10
+12. [发布腾讯 Hy3 295B MoE 和 NVIDIA 音频 Nemotron-Labs-Audex-30B-A3B 的 GGUF 量化版本](#item-12) ⭐️ 7.0/10
+13. [老式苏联控制室设计被认为优于现代软件可观测性](#item-13) ⭐️ 6.0/10
+14. [19 世纪文本训练的 5 亿参数 LLM](#item-14) ⭐️ 6.0/10
+15. [AMD EPYC CPU 基准测试显示 CCD 数量对 LLM 推理并非线性提升](#item-15) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [GPT-5.6 Sol Ultra 生成循环双覆盖猜想的证明](https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf) ⭐️ 10.0/10
+## [苹果起诉 OpenAI 指控前员工窃取商业机密](https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/) ⭐️ 9.0/10
 
-OpenAI 的 GPT-5.6 Sol Ultra 模型生成了图论中一个长期未解决的开放问题——循环双覆盖猜想的证明，证明文本和提示于 2026 年 7 月 10 日发布。 这一成就展示了 AI 先进的数学推理能力，可能变革自动化定理证明并加速数学研究。它也凸显了精心的提示工程如何使前沿模型能够处理此前难以攻克的问题。 证明非常简洁，似乎利用了一个专家们先前忽略的巧妙技巧，但可能尚未达到自主理论构建的程度。提示明确要求模型避免模糊的乐观主义并提供了策略指导，表明人类输入在引导发现过程中发挥了重要作用。
+2026 年 7 月 10 日，苹果公司对 OpenAI 提起诉讼，指控其策划通过前苹果员工窃取商业机密，这些员工被教导隐瞒行为，并利用机密信息接触苹果的供应商。 这场科技巨头之间围绕人工智能人才和知识产权的法律大战可能为商业机密保护树立先例，同时证据开示程序可能暴露 OpenAI 的敏感操作，动摇投资者信心。 苹果公司提供的证据显示，OpenAI 系统性地指导新员工规避法律审查，包括指示他们不向苹果披露新工作，并利用窃取的硬件数据讨好苹果的供应商。
 
-hackernews · scrlk · 7月10日 18:29 · [社区讨论](https://news.ycombinator.com/item?id=48863490)
+hackernews · stock_toaster · 7月10日 20:47 · [社区讨论](https://news.ycombinator.com/item?id=48865019)
 
-**背景**: 循环双覆盖猜想由图论学家 Tutte 等人提出，询问是否每个无桥图都有一个循环集合，使得每条边恰好被覆盖两次。GPT-5.6 Sol Ultra 是 OpenAI 于 2026 年 7 月发布的前沿 AI 模型，在编程和科学基准测试中取得了最佳成绩。
+**背景**: 商业机密是指能为企业带来竞争优势的保密商业信息。在人工智能行业，硬件和软件创新至关重要，人才流动经常引发争议。谷歌 Waymo 与 Uber 关于自动驾驶技术的诉讼最终以和解收场并涉及刑事指控，显示了此类指控的潜在严重性。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://openai.com/index/gpt-5-6/">GPT‑5.6: Frontier intelligence that scales with your ambition</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Cycle_double_cover_conjecture">Cycle double cover conjecture</a></li>
+**社区讨论**: 评论者普遍认为指控十分严厉，指出苹果有足够资源提起诉讼，而证据开示可能对 OpenAI 造成伤害。一些人将此与人工智能领域普遍存在的不道德行为联系起来，还有人将其与 Waymo 诉 Uber 案相提并论，该案曾使 Uber 的自动驾驶计划受挫。
 
-</ul>
-</details>
-
-**社区讨论**: Hacker News 社区关注了提示工程的大量投入，包括要求模型拒绝状态报告和模糊乐观主义。一些人讨论了 AI 在软件工程和数学中的潜力，另一些人质疑模型能否实现自主理论构建。社区还对每次模型发布时测试了多少未解决问题感到好奇。
-
-**标签**: `#AI`, `#mathematics`, `#automated-theorem-proving`, `#graph-theory`, `#breakthrough`
+**标签**: `#legal`, `#apple`, `#openai`, `#trade-secrets`, `#ai-ethics`
 
 ---
 
 <a id="item-2"></a>
-## [苹果起诉 OpenAI 窃取前员工商业秘密](https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/) ⭐️ 9.0/10
+## [SpaceX 计划再发射 10 万颗星链卫星 带宽提升百倍](https://www.zdnet.com/home-and-office/networking/spacex-wants-to-launch-100000-more-starlink-satellites/) ⭐️ 9.0/10
 
-苹果已对 OpenAI 提起诉讼，指控前苹果员工系统性窃取商业秘密，并且 OpenAI 指导他们在离开苹果时躲避审查。 这场两大科技巨头之间的法律战可能为 AI 人才招聘和知识产权保护树立先例，影响企业在竞争激烈的 AI 行业中处理员工流动的方式。 值得注意的指控包括 OpenAI 招聘的 Tang Yew Tan 警告新员工不要向苹果透露其 OpenAI 的工作，且苹果发现新员工存在将机密信息发至个人邮箱的模式。诉讼还称 OpenAI 在与苹果供应商接洽时使用了苹果的机密硬件信息。
+SpaceX 已提议再发射 10 万颗星链卫星，将网络带宽提升 100 倍，有望以更高速度覆盖全球。 该计划有望弥合数字鸿沟，为全球发展中地区和农村提供快速可靠的互联网，但也加剧了轨道拥堵、光污染和企业掌控夜空的争议。 此项扩容需要获得 FCC 和 ITU 等机构监管批准，且面临如此庞大星座的碰撞规避和频谱管理等技术挑战。
 
-hackernews · stock_toaster · 7月10日 20:47 · [社区讨论](https://news.ycombinator.com/item?id=48865019)
+hackernews · CrankyBear · 7月10日 17:51 · [社区讨论](https://news.ycombinator.com/item?id=48863064)
 
-**背景**: 商业秘密是指能为企业带来竞争优势的保密商业信息。苹果以其保密文化和强有力的知识产权保护著称，而 OpenAI 是领先的 AI 研究公司。科技行业中员工流动和商业秘密诉讼并不鲜见，但本案因两家公司的极高知名度而备受瞩目。
+**背景**: 星链是 SpaceX 的低轨道卫星互联网星座，目前约有 6000 颗卫星直接向用户终端传输宽带信号。增加 10 万颗卫星将是巨大跨越，可能改变整个卫星通信产业，并支持固定宽带之外的直连手机等服务。
 
-**社区讨论**: 评论者认为证据十分不利，许多人称这对苹果而言是证据确凿的案件。对 OpenAI 商业行为的普遍不信任感弥漫，一些用户警告企业不要使用 OpenAI 产品。还有人指出，一位在苹果工作 25 年的资深员工卷入此案颇具讽刺意味，并期待案件披露更多信息。
+**社区讨论**: 评论意见不一：有人遗憾于私有化和对夜空的视觉影响，有人强调星链给农村和服务不足地区带来的变革性好处，对在低收入地区的可负担性持怀疑态度，但也认可其在缺乏地面设施时加速互联网普及的作用。
 
-**标签**: `#Legal`, `#Apple`, `#OpenAI`, `#Trade Secrets`, `#AI`
+**标签**: `#SpaceX`, `#Starlink`, `#satellite-internet`, `#global-connectivity`, `#regulation`
 
 ---
 
 <a id="item-3"></a>
-## [QuadRF 增强现实设备可视化 WiFi 并探测无人机](https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/) ⭐️ 8.0/10
+## [Grok Build CLI 悄悄上传仓库与密钥，退出无效](https://www.reddit.com/r/LocalLLaMA/comments/1ut7tis/grok_build_cli_uploads_your_whole_repo_full_git/) ⭐️ 9.0/10
 
-QuadRF 是一款开源增强现实设备，经演示可实时可视化射频信号，让用户能够透视墙壁看见 WiFi 网络，并发现无人机。 这一价格亲民的开源工具使先进射频感知技术得以普及，可能改变我们监控和保护无线环境的方式。 该设备采用 4x4 MIMO 阵列，配备四个相干全双工射频链路、双极化天线及集成树莓派 5。当前软件需手动校准与增益调节，开源社区正优化用户界面。
+安全分析揭示，Grok Build CLI v0.2.93 会将整个本地 git 仓库（包括完整历史、.env 文件和密钥）上传到 xAI 的云服务器，即使用户已选择退出模型改进。 这带来了严重的安全和隐私风险，将源代码和敏感凭据暴露给第三方，可能导致数据泄露、供应链攻击和知识产权盗窃，削弱了用户对 AI 编码助手的信任。 上传使用通过 mitmproxy 捕获的 git bundle，而退出开关仅控制模型训练，不控制数据传输。从上传的 bundle 中恢复了植入的探针文件，证实无论用户提示如何，整个仓库都会被发送。
 
-hackernews · speckx · 7月10日 15:59 · [社区讨论](https://news.ycombinator.com/item?id=48861717)
+reddit · r/LocalLLaMA · /u/TastyLeadership2757 · 7月11日 02:34
 
-**背景**: 射频信号虽不可见，但被 WiFi 路由器和无人机等设备使用。可视化射频信号通常需要昂贵频谱分析仪。增强现实技术可将射频数据叠加到真实世界，便于定位信号源。无人机探测常借助识别无人机遥控和图传的独特射频特征。
+**背景**: Grok Build CLI 是 xAI 推出的 AI 编码助手，在终端中运行。mitmproxy 是一个用于拦截和检查网络流量的工具。git bundle 是一个包含完整 git 仓库（包括提交历史）的单一文件。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.crowdsupply.com/scale-rf/quadrf">QuadRF | Crowd Supply</a></li>
-<li><a href="https://scalerf.com/updates/">QuadRF Updates</a></li>
-<li><a href="https://hackaday.com/2023/03/04/inspect-the-rf-realm-with-augmented-reality/">Inspect The RF Realm With Augmented Reality | Hackaday</a></li>
+<li><a href="https://www.mitmproxy.org/">mitmproxy - an interactive HTTPS proxy</a></li>
+<li><a href="https://git-scm.com/book/en/v2/Git-Tools-Bundling">Git - Bundling</a></li>
+<li><a href="https://x.ai/cli">Grok Build | SpaceXAI</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 创作者承认未提供校准指导，正根据反馈改进界面。有用户质疑“穿墙看 WiFi”表述，因 WiFi 本身穿墙。还有用户将其类比热成像仪，提出声音可视化构想，并猜测政府监控机构早已拥有此类技术。
-
-**标签**: `#RF`, `#augmented-reality`, `#open-source`, `#drone-detection`, `#signal-visualization`
+**标签**: `#security`, `#privacy`, `#grok`, `#cli`, `#exfiltration`
 
 ---
 
 <a id="item-4"></a>
-## [《终结者 2》视觉特效创新的口述历史](https://vfxblog.com/2017/08/23/the-tech-of-terminator-2-an-oral-history/) ⭐️ 8.0/10
+## [关于住宅代理和爬虫现状的更新](https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/) ⭐️ 8.0/10
 
-2017 年发表的一篇详细口述历史揭示了《终结者 2》的视觉特效是如何从零开始发明的，采访了那些开创这些技术的工程师和艺术家。 这篇回顾突出了该片在塑造现代视觉特效方面的作用，展示了创新性的问题解决如何为当今的数字电影制作工具和实践奠定了基础。 文章详细介绍了用于液态金属撞击的定制爆破效果，以及用于 3D 动画的 Softimage 等软件的使用，并包含了来自工业光魔和其他工作室的内部见解。
+LWN.net 探讨了爬虫使用住宅代理日益增多的问题，并评估了工作量证明（如 Anubis）等缓解策略，指出爬虫已经在寻找绕过这些策略的方法。 住宅代理使爬虫流量与真实用户无法区分，威胁网站防御和开放网络的公平性，对 AI 数据收集和用户隐私产生直接影响。 爬虫可利用数百万被劫持的住宅 IP 绕过工作量证明，移动应用常在用户不知情时安装代理软件。Anubis 等工具还会引入让合法用户反感的延迟。
 
-hackernews · markus_zhang · 7月10日 16:48 · [社区讨论](https://news.ycombinator.com/item?id=48862365)
+hackernews · chmaynard · 7月10日 19:38 · [社区讨论](https://news.ycombinator.com/item?id=48864252)
 
-**背景**: 《终结者 2：审判日》于 1991 年上映，是视觉特效的里程碑之作，尤其以使用计算机生成图像（CGI）塑造 T-1000 液态金属角色而闻名。其特效由包括工业光魔在内的多家工作室联合打造，结合了实体特效与早期 CGI 工具。当时数字特效尚在萌芽阶段，需要大量的创新。
+**背景**: 住宅代理通过 ISP 分配给真实家庭的 IP 路由流量，使请求看似来自普通用户，常用于绕过 IP 封锁。工作量证明系统如 Anubis 要求浏览器在访问前解决计算谜题，旨在增加爬虫成本。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Special_effects_of_Terminator_2:_Judgment_Day">Special effects of Terminator 2: Judgment Day - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Anubis_(software)">Anubis (software) - Wikipedia</a></li>
+<li><a href="https://medium.com/@datajournal/what-are-residential-proxies-67023101f356">What Are Residential Proxies ? Detailed Guide 2025 | Medium</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: Hacker News 社区称赞了这篇文章，指出令人印象深刻的实体爆破效果、即将到来的 4K 重映、Softimage 软件的作用、一部关于工业光魔的 Steve Williams 的纪录片推荐，以及普遍对这部经得起时间考验的创新性的钦佩。
+**社区讨论**: 社区观点不一：有人称工作量证明在庞大代理网络前徒劳无功，有人提议改进 Common Crawl 作为替代。担忧激进的防爬措施会损害开放网络并将控制权集中于 Cloudflare 等实体。评论者还指出移动应用是住宅代理节点的主要来源，真正的问题在于爬取强度而非爬取行为本身。
 
-**标签**: `#VFX`, `#film-history`, `#computer-graphics`, `#tech-history`, `#oral-history`
+**标签**: `#scraping`, `#residential-proxies`, `#web-security`, `#AI-data-collection`, `#privacy`
 
 ---
 
 <a id="item-5"></a>
-## [好工具是隐形的](https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/) ⭐️ 8.0/10
+## [你的代码快不快全凭运气？编译器优化下的意外性能陷阱](https://tiki.li/blog/lucky_code.html) ⭐️ 8.0/10
 
-该文章提出真正高效的工具通过最小化用户摩擦变得几乎隐形，引发了 Hacker News 上关于界面复杂性、用户专业知识以及可发现性与无缝操作之间平衡的讨论。 这一设计原则对开发者工具和生产力有重大影响，表明减少认知负担和摩擦是让用户专注于实际任务的关键。它挑战设计师在简洁与必要复杂性之间取得平衡。 文章强调减少“非必要摩擦”，并指出隐形性常伴随练习而来，即使是复杂界面也会随时间变得流畅。HN 讨论补充说，许多关于生产力的主张（如键盘与鼠标对比）缺乏实际测量。
+一篇博客文章揭示，一个细微的代码改动（例如将后置递增从表达式中拆分出来）竟能导致性能大幅下降，因为编译器未能生成无分支代码，这引发了关于语法选择如何影响代码生成的热议。 这表明常见的编码风格偏好可能带来意想不到的性能代价，挑战了开发者对编译器优化能力的直觉，并凸显了在性能关键代码中测量和理解底层编译器输出的重要性。 具体示例来自快速排序实现：将 `*lwr++ = x` 改为 `*lwr = x; ++lwr;` 导致 Clang 无法生成条件移动（CMOV）指令，转而产生分支代码；讨论中还提到，无分支并非总是更快，有人发现用分支替代 CMOV 反而使性能提升了 30%。
 
-hackernews · theanonymousone · 7月10日 10:32 · [社区讨论](https://news.ycombinator.com/item?id=48858121)
+hackernews · chrka · 7月11日 10:50 · [社区讨论](https://news.ycombinator.com/item?id=48870799)
 
-**背景**: “隐形工具”的概念源于用户体验设计，指那些退居幕后、让用户能不受干扰地专注于工作的界面。它相对于那些不断施加认知负担的工具，如杂乱的图形界面或不直观的命令结构。
+**背景**: 无分支编程是一种通过算术或位运算替代条件分支以降低分支预测失败代价的优化技术。Clang 等编译器有时能自动生成无分支代码，但这依赖于它们能否识别特定模式；后置递增的语义（`x++` 返回旧值）可能会掩盖指针前移的意图，导致优化错失。快速排序的性能天生依赖于数据分布，平均时间复杂度为 O(n log n)，但最坏可达 O(n²)，因此基准测试结果对输入特征很敏感。
 
-**社区讨论**: HN 评论普遍认同这一前提，用户分享了内部工具隐藏复杂性后提升生产力的经验。但也有人认为，必要的摩擦有助于复杂任务，并且声称的效率提升（如终端优于图形界面）往往未经证实。其中也意识到，隐形性是通过熟悉度逐渐形成的。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://medium.com/@techhara/performance-optimization-technique-branchless-programming-a40c0a35511e">Performance optimization — branchless programming | Medium</a></li>
+<li><a href="https://undercodetesting.com/branchless-optimizations-when-and-why-it-works-or-doesnt/">Branchless Optimizations : When and Why It... - Undercode Testing</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Optimizing_compiler">Optimizing compiler - Wikipedia</a></li>
 
-**标签**: `#UI/UX design`, `#developer tools`, `#command-line`, `#productivity`, `#user experience`
+</ul>
+</details>
+
+**社区讨论**: 社区成员对编译器未能在早期阶段将两种代码形式归一化感到惊讶；有人指出后置递增语义可能是根本原因。其他人分享了分支性能优于无分支的轶事，还有人警告称快速排序固有的性能波动可能会干扰测试结论。
+
+**标签**: `#performance`, `#compilers`, `#optimization`, `#c++`, `#branchless-programming`
 
 ---
 
 <a id="item-6"></a>
-## [Emacs 中的一切看起来都像服务](http://yummymelon.com/devnull/in-emacs-everything-looks-like-a-service.html) ⭐️ 8.0/10
+## [定制引擎在 RTX 5060 Ti 上以 50 tok/s 运行 Qwen3-30B-A3B](https://www.reddit.com/r/LocalLLaMA/comments/1utefpr/running_qwen3_30b_a3b_at_50_toks_on_rtx_5060_ti/) ⭐️ 8.0/10
 
-Hacker News 上的一场讨论探讨了将 Emacs 通过面向服务架构的视角进行解读的观点，即其扩展性和对外部工具的编排可被视为服务。 这一观点强调了 Emacs 作为平台的角色及其 Lisp 机器根源，激发了关于软件设计、扩展性以及应用程序与平台边界的更广泛讨论。 该比喻的关键在于将 Emacs Lisp 函数和外部程序调用视为服务，但有人认为这过度拉伸了客户端-服务器概念。Emacs 的动态 Lisp 环境允许实时编排。
+一个定制 CUDA/C++ 推理引擎在 RTX 5060 Ti 16GB 上以 float8 精度运行 Qwen3-30B-A3B，速度达到 50–54 tok/s，相比 llama.cpp（使用 n-cpu-moe 时约 33–34 tok/s）提升约 50%。 这表明先进的优化技术可以让消费级 GPU 运行大型 MoE 模型，实现私密、低成本且节能的本地推理，无需昂贵的云硬件。 速度提升来源于结合了 NeurIPS、ICML 和 EuroSys 论文中的前沿技术；该引擎（garlic-inference）在 GitHub 上开源；与 llama.cpp 对比时使用了 --n-cpu-moe 参数将专家层卸载到 CPU。
 
-hackernews · kickingvegas · 7月10日 08:21 · [社区讨论](https://news.ycombinator.com/item?id=48857230)
+reddit · r/LocalLLaMA · /u/Azazelionide · 7月11日 08:29
 
-**背景**: Emacs 是一个高度可扩展的文本编辑器，能承载邮件客户端和网页浏览器等应用，使其成为一个平台。Lisp 机器是早期为原生运行 Lisp 而设计的计算机，影响了 Emacs 的扩展性。面向服务的架构（SOA）是一种强调离散、可互操作服务的设计模式。
+**背景**: Qwen3-30B-A3B 是阿里巴巴的混合专家模型，总参数量 30.5B 但每 token 仅激活 3.3B，大幅降低计算需求。Float8（FP8）量化使用 8 位浮点数，受 RTX 5060 Ti 等 Ada Lovelace 架构 GPU 支持，可减少内存占用并提升速度。llama.cpp 的 n-cpu-moe 选项将专家层卸载到系统内存，以在有限显存下运行大型 MoE，但会带来性能损失。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Lisp_machine">Lisp machine</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Service-oriented_architecture">Service-oriented architecture - Wikipedia</a></li>
-<li><a href="http://yummymelon.com/devnull/in-emacs-everything-looks-like-a-service.html">nfdn: In Emacs, Everything Looks Like a Service</a></li>
+<li><a href="https://lmstudio.ai/models/qwen/qwen3-coder-30b">A powerful 30 B MoE coding model from Alibaba Qwen, joining its...</a></li>
+<li><a href="https://developers.redhat.com/articles/2024/07/15/vllm-brings-fp8-inference-open-source-community">vLLM brings FP8 inference to the open source community | Red Hat Developer</a></li>
+<li><a href="https://knightli.com/en/2026/05/26/rtx-3060-llama-cpp-n-cpu-moe-local-35b/">RTX 3060 12GB Local 35B Guide: llama.cpp --n-cpu-moe for Qwen MoE</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者指出 Emacs 是一个平台，将其与 Lisp 机器和 Racket 等其他平台进行比较。一些人认为这个服务比喻很牵强，认为这只是拉伸了客户端-服务器的二分法。一位用户因团队工具政策而无法在工作中使用 Emacs，表示遗憾。
-
-**标签**: `#Emacs`, `#Lisp`, `#platform`, `#software-architecture`, `#hackernews`
+**标签**: `#local-llm`, `#cuda`, `#inference-optimization`, `#qwen`, `#moe`
 
 ---
 
 <a id="item-7"></a>
-## [Unsloth 发布 NVFP4 量化 Qwen3.6，速度提升 2.5 倍](https://www.reddit.com/r/LocalLLaMA/comments/1usniqh/25x_faster_qwen36_nvfp4_unsloth_quants/) ⭐️ 8.0/10
+## [新研究显示爱因斯坦相对论影响重元素化学键](https://www.brown.edu/news/2026-07-09/chemical-bonds-relativity) ⭐️ 7.0/10
 
-Unsloth 发布了针对 Qwen3.6 27B 和 35B-A3B 模型的 NVFP4 优化量化版本，采用 W4A4 矩阵乘法，相比 NVIDIA 的 NVFP4 实现，推理速度最高提升 2.5 倍，且精度无损。同时提供 FP8 KV 缓存校准，支持 2 倍更长的上下文。 这一进步大幅提升了大型语言模型在 NVIDIA Blackwell GPU 上的本地推理速度，使其在资源受限的环境中更具实用性。W4A4 方案充分利用了 4 位张量核心，提高了效率并降低了延迟。 27B 模型实现 2.5 倍加速，35B-A3B 提供两个变体：NVFP4（快 1.56 倍）和 NVFP4-Fast（快 1.79 倍），后者完全采用 W4A4。在 MMLU-Pro 和 GPQA 等基准测试中，精度与 BF16/FP8 几乎一致。FP8 KV 缓存校准使上下文长度翻倍，并预嵌入了 MTP。
-
-reddit · r/LocalLLaMA · /u/danielhanchen · 7月10日 13:20
-
-**背景**: NVFP4 是 NVIDIA 为 Blackwell GPU 设计的 4 位浮点格式，用于高效推理。量化可减小模型大小和计算量；W4A4 将权重和激活值均量化为 4 位，能原生利用 4 位张量核心，而 W4A16 仅权重量化为 4 位，激活保持 16 位。Unsloth 是一个开源工具包，提供优化的量化方案和高效的大语言模型微调。多令牌预测（MTP）允许模型同时预测多个未来令牌，加速文本生成。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/">Introducing NVFP4 for Efficient and Accurate Low-Precision Inference</a></li>
-<li><a href="https://arxiv.org/abs/2502.05376">[2502.05376] LO-BCQ: Block Clustered Quantization for 4-bit (W4A4) LLM Inference</a></li>
-<li><a href="https://sebastianraschka.com/llm-architecture-gallery/mtp/">Multi-Token Prediction (MTP) | Sebastian Raschka, PhD</a></li>
-
-</ul>
-</details>
-
-**标签**: `#quantization`, `#LLM inference`, `#Qwen`, `#NVFP4`, `#Unsloth`
-
----
-
-<a id="item-8"></a>
-## [爱因斯坦相对论证实控制重元素化学键](https://www.brown.edu/news/2026-07-09/chemical-bonds-relativity) ⭐️ 7.0/10
-
-新的实验证据直接表明，爱因斯坦的相对论通过自旋-轨道耦合作用决定了重元素中的化学键，验证了长期以来的理论预测。 这一突破加深了我们对化学中相对论效应的理解，可能有助于设计更好的重元素化合物，并影响材料科学和催化等领域。 该研究证实，在重原子中，电子接近光速运动，导致自旋-轨道耦合改变键合模式，这可以解释金的反常颜色等现象。该研究为化学键中的这些效应提供了直接的光谱证据。
+发表在《科学》上的研究表明，爱因斯坦的相对论通过自旋-轨道耦合直接影响重元素中的σ键和π键，提供了新的实验证据。 这一发现加深了我们对化学键的基本理解，可能影响含重元素的材料设计，如催化剂、太阳能电池或超导体。 该研究强调了自旋-轨道耦合（即电子自旋与轨道运动在相对论速度下变得相互依赖）如何直接改变σ键和π键的特性。该文发表于《科学》杂志。
 
 hackernews · hhs · 7月10日 22:30 · [社区讨论](https://news.ycombinator.com/item?id=48866134)
 
-**背景**: 在重元素中，靠近原子核的电子以接近光速运动，此时狭义相对论效应变得重要。这导致 s 轨道收缩和自旋-轨道耦合，即电子自旋与轨道运动相互作用，使能级分裂。这些效应由狄拉克方程预测，已知会影响金的颜色和铅的电池性能等性质，但此前缺乏它们在化学键中作用的直接实验证据。
+**背景**: 在重元素中，内层电子可以以接近光速的速度运动，这需要对量子力学进行相对论修正。自旋-轨道耦合是一种相对论效应，电子的自旋与其轨道运动相互作用，影响能级和键合。σ键和π键是共价键的两种基本类型，σ键由原子轨道头对头重叠形成，π键由肩并肩重叠形成。已知相对论效应会导致金呈黄色、汞在室温下为液态等性质。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Spin-orbit_coupling">Spin-orbit coupling</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Relativistic_quantum_chemistry">Relativistic quantum chemistry - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Relativistic_quantum_chemistry">Relativistic quantum chemistry</a></li>
+<li><a href="https://www.geeksforgeeks.org/chemistry/sigma-and-pi-bonds/">Sigma and Pi Bonds - GeeksforGeeks</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者指出，重元素中的相对论效应虽已为人所知（如金的颜色），但这项研究提供了有价值的实验验证。一些人强调了与狄拉克方程的联系，以及在此背景下直接观察σ键和π键的意义。总体情绪积极，赞赏实验证实。
+**社区讨论**: 评论者指出，相对论对重元素的影响早已为人所知，例如金的颜色和汞的液态。部分人赞叹爱因斯坦持久的影响力，另一些人质疑研究的新颖性。还出现了关于太阳能电池板中铅使用的附带讨论，对其普遍性表示怀疑。
 
-**标签**: `#relativity`, `#chemistry`, `#physics`, `#quantum-mechanics`, `#spin-orbit-coupling`
+**标签**: `#relativity`, `#chemistry`, `#quantum-mechanics`, `#materials-science`, `#heavy-elements`
+
+---
+
+<a id="item-8"></a>
+## [幽灵字体：旨在迷惑 AI 但仍被运动分析破解](https://www.mixfont.com/ghost-font) ⭐️ 7.0/10
+
+Ghost Font 是一种新的字体概念，旨在让人类可读但 AI 无法识别。然而，社区实验表明，GPT-5.6 等 AI 模型可以通过视频运动分析和光流技术解码文本。 这凸显了创建抗 AI 验证码的挑战，并表明静态对抗性字体可能被多模态 AI 模型绕过。它反映了 AI 能力与安全措施之间的持续军备竞赛。 该字体利用视觉错觉隐藏字母，但视频压缩和运动分析可以恢复轮廓。用户反映该字体对人类来说也常常难以阅读，且一旦解码技术被知晓，字体就会失去效果。
+
+hackernews · justswim · 7月11日 09:36 · [社区讨论](https://news.ycombinator.com/item?id=48870381)
+
+**背景**: 对抗性机器学习研究对机器学习模型的攻击，包括制造输入以欺骗 AI 的规避攻击。验证码系统是旨在区分人类和机器人的测试，通常使用扭曲的文本。随着 AI 的进步，许多验证码现在可以轻易被 AI 破解，这促使了像对抗性字体这样的新方法。然而，能够处理视频和运动的多模态模型可能仍会击败此类防御。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Adversarial_machine_learning">Adversarial machine learning</a></li>
+<li><a href="https://www.nccoe.nist.gov/ai/adversarial-machine-learning">Artificial Intelligence: Adversarial Machine Learning | NCCoE</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 用户发现这种字体难以阅读；有人将其比作三维立体图。像 GPT-5.6 这样的 AI 模型通过运动分析从视频甚至静态截图中解码了信息。社区共识是，尽管这一概念很新颖，但在 AI 面前并没有本质上的安全性提升。
+
+**标签**: `#CAPTCHA`, `#AI`, `#security`, `#typography`, `#adversarial-machine-learning`
 
 ---
 
 <a id="item-9"></a>
-## [Nilay Patel：AR 眼镜需要持续录像和云端处理](https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything) ⭐️ 7.0/10
+## [Nilay Patel 称增强现实眼镜必然需要持续摄像](https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything) ⭐️ 7.0/10
 
-Nilay Patel 在最近的评论中指出，制造实用的 AR 眼镜必然需要摄像头持续录制佩戴者的视野，并且必须将数据发送到云端实时处理，因为设备端芯片在功耗和算力上还无法满足要求。 这揭示了 AR 发展中一个根本性的隐私冲突：持续录像可能带来大规模监控风险；Patel 提出，如果代价过大，社会可能需要叫停此类产品。 Patel 指出，目前仅有的替代方案是要么使用类似 Apple Vision Pro 这样笨重的设备并配备独立电池组，要么就得接受持续录像并通过云端处理带来的隐私侵犯。
+Nilay Patel 在 The Vergecast 中表示，构建增强现实眼镜不可避免需要连续录制摄像头数据并上传至云端处理，因为尚无足够强大且节能的芯片能装入眼镜镜腿中。 这揭示了一个根本性的隐私权衡：若增强现实眼镜成为主流，用户将时刻处于监控之下，所有视觉数据都将传输至服务器。这对科技行业推动 AR 发展提出挑战，并引发该产品是否应当存在的伦理问题。 Patel 指出，唯一的替代方案是像 Vision Pro 那样搭配外接电池包的大型设备，他还提出社会或许应考虑因隐私入侵而阻止该产品。
 
 rss · Simon Willison · 7月10日 17:05
 
-**背景**: 增强现实眼镜将数字信息叠加到现实世界中，必须通过摄像头理解环境。实时处理需要大量的计算资源。受限于纤细眼镜的尺寸和功耗，数据往往被送至云端服务器，这引发了人们对私密时刻被持续录制的担忧。
+**背景**: 增强现实眼镜旨在将数字信息实时叠加到现实世界中。这需要快速处理视觉数据，目前所需的计算能力远超轻量眼镜框架所能容纳。云端处理是一种变通方案，但意味着可能敏感的视频数据会被发送到远程服务器。
 
-**标签**: `#augmented reality`, `#privacy`, `#technology ethics`, `#hardware`, `#cloud computing`
+**标签**: `#augmented reality`, `#privacy`, `#hardware`, `#technology ethics`, `#cloud computing`
 
 ---
 
 <a id="item-10"></a>
-## [腾讯 HY3 295B MoE 模型在 128GB MacBook 上流畅运行](https://www.reddit.com/r/LocalLLaMA/comments/1usy9ie/tencenthy3_is_the_real_deal_on_128gb/) ⭐️ 7.0/10
+## [Reddit 用户质疑对 MoE 模型性能的偏见](https://www.reddit.com/r/LocalLLaMA/comments/1utkqfg/why_are_moe_models_so_belittled/) ⭐️ 7.0/10
 
-一位 Reddit 用户成功在 128GB MacBook M5 Max 上本地运行了腾讯新发布的 295B-A21B MoE 模型，使用 107GB 的 UD128 量化版本，令牌生成速度是 DeepSeek V4 Flash 的两倍。 这表明具有竞争力基准的先进开源 MoE 模型可以在消费级硬件上部署，让个人和小团队也能使用先进 AI，突显了模型压缩和本地推理的快速进步。 模型使用了 IQ3_XXS 风格的动态 3 位量化（UD128，107GB），需要自定义编译 llama.cpp 并应用 PR #25395 以支持内置预测解码。M5 Max 基准测试显示空上下文解码速度 32.4 令牌/秒，16K 上下文时 16.3 令牌/秒。
+一位 Reddit 用户指出，混合专家（MoE）模型常被不公平地仅根据其激活参数量来评判，认为路由器的质量会显著影响性能，高效的路由可以释放全部参数潜力。 这挑战了 AI 社区中常见的过度简化观点，鼓励对 MoE 架构进行更准确的评估，并可能影响模型提供商设计和推广模型的方式。 MoE 模型中路由器的有效性因架构而异；尽管理论上完美的路由器可以达到与总参数量成正比的表现，但实际的路由器存在局限性，导致性能通常介于同激活参数量的稠密模型和总参数量相当的稠密模型之间。
 
-reddit · r/LocalLLaMA · /u/returnity · 7月10日 19:53
+reddit · r/LocalLLaMA · /u/ParaboloidalCrest · 7月11日 13:52
 
-**背景**: MoE（混合专家）是一种每次只激活部分参数（专家）的技术，以降低计算量。量化通过降低数值精度压缩模型，使其适应有限内存。llama.cpp 是一个流行的 C/C++推理引擎，支持在多种硬件上本地运行大语言模型。配备 128GB 统一内存的 MacBook M5 Max 最多可为 GPU 任务分配约 122GB，足以运行经过高度量化的大型模型。
+**背景**: 混合专家（MoE）是一种模型架构，其中包含多个“专家”子网络，对于每个输入标记，路由器会选择一部分专家来处理。这使得模型可以拥有极大的总参数量，但每个标记只使用其中一部分，从而提高效率。路由器是决定激活哪些专家的关键组件，其设计会显著影响模型表现。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://huggingface.co/tencent/Hy3">tencent/Hy3 · Hugging Face</a></li>
-<li><a href="https://www.tencent.com/en-us/articles/2202386.html">Tencent Hunyuan Officially Releases Hy3, Advancing Agent Capabilities and Deeper Product Integration - Tencent 腾讯</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Mixture_of_experts">Mixture of experts</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mixture_of_experts">Mixture of experts - Wikipedia</a></li>
+<li><a href="https://huggingface.co/blog/moe">Mixture of Experts Explained</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Tencent-HY3`, `#MoE`, `#Local LLM`, `#Quantization`, `#Benchmarking`
+**标签**: `#Mixture-of-Experts`, `#model evaluation`, `#large language models`, `#routers`, `#local LLMs`
 
 ---
 
 <a id="item-11"></a>
-## [本地大模型生存套件：USB 离线 AI 知识库方案](https://www.reddit.com/r/LocalLLaMA/comments/1uspcg0/has_anyone_created_a_local_llm_survival_kit/) ⭐️ 7.0/10
+## [将 SQLite/FTS5 专利数据库扩展至 536 万条记录的经验教训](https://www.reddit.com/r/LocalLLaMA/comments/1utl6r5/followup_what_i_learned_scaling_a_sqlitefts5/) ⭐️ 7.0/10
 
-一位 Reddit 用户提出了一个自包含 USB 闪存盘的概念，内含 LLM 推理引擎和压缩的离线知识库，可在无需互联网的情况下进行 AI 驱动的知识检索。 这一概念可让 AI 知识工具在离线或低连接环境中普及，使用低成本和开源软件，有助于教育、灾难响应等场景。 该套件将包括用于纯 CPU 推理的 llama.cpp，两种模型选项（Qwen3.5 22GB 适用于 32GB 以上 RAM，Gemma 4 5GB 适用于较低 RAM），以及使用 sqlite-zstd 压缩的约 30GB 维基百科数据库，可存入 64GB USB 驱动器。
+一篇后续文章详细介绍了将 SQLite/FTS5 专利数据库扩展到 536 万条记录的优化经验，包括使用 ANALYZE 修复慢查询、避免宽行更新，以及在 BM25 搜索中选择 AND 而非 OR 以提升性能。 这表明通过适当优化，SQLite 能高效管理数百万条记录，并作为功能强大的文本搜索引擎。这些实用技巧对于预算有限、处理大规模数据集的开发者很有价值，提供了比笨重数据库系统更轻量的替代方案。 运行 ANALYZE 后，一个针对 1.08 亿行引用表的相关 EXISTS 查询从 34 秒降至 0.16 秒。宽行（平均 19KB）导致更新代价高，推荐使用侧表加 JOIN。BM25 搜索中，对常见词使用 AND（0.48 秒）优于 OR（0.70 秒），而短语+词方式最快，为 0.27 秒。
 
-reddit · r/LocalLLaMA · /u/-p-e-w- · 7月10日 14:30
+reddit · r/LocalLLaMA · /u/Impressive_Tower_550 · 7月11日 14:11
 
-**背景**: llama.cpp 是一个开源推理引擎，可在无 GPU 的消费级硬件上运行大语言模型。Q4_K_M 是一种 4-bit 量化方法，可大幅减小模型体积且质量损失极小。sqlite-zstd 是一个 SQLite 扩展，通过字典压缩大幅减少大型数据库的存储占用。
+**背景**: SQLite FTS5 是 SQLite 的全文本搜索扩展，支持短语查询、前缀搜索和基于 BM25 的排序。BM25 是一种概率排序函数，根据词频和文档长度计算文档相关性。该专利数据库包含专利摘要和引用关系图；作者此前在 RTX 5090 上使用 Nemotron 9B 模型对专利进行分类。原始数据源自 PatentsView，已于 2026 年 3 月迁移至 USPTO 开放数据门户。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Llama.cpp">Llama.cpp</a></li>
-<li><a href="https://www.reddit.com/r/LocalLLaMA/comments/159nrh5/the_difference_between_quantization_methods_for/">r/LocalLLaMA on Reddit: The difference between quantization methods for the same bits</a></li>
-<li><a href="https://github.com/phiresky/sqlite-zstd">GitHub - phiresky/sqlite-zstd: Transparent dictionary-based row-level compression for SQLite · GitHub</a></li>
+<li><a href="https://www.sqlite.org/fts5.html">SQLite FTS5 Extension</a></li>
+<li><a href="https://grokipedia.com/page/Okapi_BM25">Okapi BM25</a></li>
 
 </ul>
 </details>
 
-**标签**: `#local-llm`, `#offline-first`, `#knowledge-base`, `#llama.cpp`, `#self-contained`
+**标签**: `#SQLite`, `#FTS5`, `#database optimization`, `#data engineering`, `#BM25`
 
 ---
 
 <a id="item-12"></a>
-## [Hy3 295B MoE 与音频 Audex 30B MoE 的 GGUF 量化](https://www.reddit.com/r/LocalLLaMA/comments/1ut66j7/hy3_295b_moe_and_nvidia_nemotronlabsaudex30ba3b/) ⭐️ 7.0/10
+## [发布腾讯 Hy3 295B MoE 和 NVIDIA 音频 Nemotron-Labs-Audex-30B-A3B 的 GGUF 量化版本](https://www.reddit.com/r/LocalLLaMA/comments/1ut66j7/hy3_295b_moe_and_nvidia_nemotronlabsaudex30ba3b/) ⭐️ 7.0/10
 
-发布了腾讯 295B MoE Hy3 和 NVIDIA 音频能力 30B MoE Nemotron-Labs-Audex-30B-A3B 的 GGUF 量化模型，采用 imatrix 量化，并提供可重现的 KLD/PPL/吞吐量基准测试及原始数据。 这些量化模型使得超大规模纯文本 MoE 和多模态音频理解 MoE 能在本地专业硬件上运行，透明的基准测试帮助用户根据性能与质量做出合理选择。 Hy3 Q4_K_M 可装入两张 96 GB GPU（67.3 tok/s），IQ2_M 可装入单张 96 GB GPU（78.7 tok/s）但质量下降明显；需使用 --split-mode layer。Audex 的纯文本 GGUF 最高可达 345 tok/s（Q4_K_M），完整音频功能需搭配外部 sidecar 脚本；实验性 MXFP4_MOE 体积最小但质量有损，且因 Nemotron-H 架构，K-量化时约 133/401 张量回退。
+腾讯 Hy3（295B MoE，21B 活跃参数）和 NVIDIA Nemotron-Labs-Audex-30B-A3B（30B 混合 MoE，具备音频能力）的 GGUF 量化版本已发布，附有详细、可复现的质量指标（如 KLD 和 top-token 一致率）及本地推理吞吐量基准。 此次发布使这些大型 MoE 模型能在本地部署，并提供透明的质量与速度权衡，帮助从业者根据硬件选择最佳量化方案，将前沿能力带入消费级设备。 Hy3 的 Q4_K_M 量化体积为 167 GiB（需 2 块 96GB GPU），并需使用--split-mode layer，排除了 MTP 模块；Nemotron 的 Q4_K_M 为 22.8 GiB，生成速度 345 tok/s，但完整音频流水线需额外侧车和 NVIDIA 脚本；实验性的 MXFP4_MOE 量化达到 11.5K prompt tok/s。
 
 reddit · r/LocalLLaMA · /u/Blahblahblakha · 7月11日 01:15
 
-**背景**: GGUF 是一种为高效本地推理优化的二进制格式，常与 llama.cpp 等工具配合使用。Imatrix 量化利用重要性矩阵保留关键权重，提升量化质量。MoE（专家混合）每次仅激活部分参数，使得 Hy3 虽然总参数达 295B，但活跃参数仅 21B，大幅降低计算量。Audex 则通过混合架构扩展了音频能力。
+**背景**: GGUF 是一种专为快速加载和推理设计的二进制格式，常与本地 LLM 部署的事实标准 llama.cpp 配合使用。MoE（专家混合）模型每个 token 仅激活部分参数以降低计算量。imatrix 量化利用重要性矩阵在压缩时减少质量损失。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://fxis.ai/edu/understanding-and-implementing-imatrix-quantization-for-ai-models/">Understanding and Implementing Imatrix Quantization for AI Models...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/GGUF">GGUF</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Mixture_of_experts">Mixture of experts - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GGUF">GGUF - Wikipedia</a></li>
+<li><a href="https://github.com/ggml-org/ggml/blob/master/docs/gguf.md">ggml/docs/gguf.md at master · ggml-org/ggml · GitHub</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Llama.cpp">Llama.cpp</a></li>
 
 </ul>
 </details>
 
-**标签**: `#LLM`, `#quantization`, `#GGUF`, `#MoE`, `#local-llm`
+**社区讨论**: 社区成员对 Hy3 的性能表示兴奋，一位用户在 MacBook M5 Max 128GB 上成功运行自定义动态量化版本，认为其可与 DeepSeek V4 Flash 竞争，但也指出极低比特量化时质量会下降。
+
+**标签**: `#Large Language Models`, `#Quantization`, `#GGUF`, `#MoE`, `#Local Inference`
 
 ---
 
 <a id="item-13"></a>
-## [DataBricks：pi-coding-agent 比 CC/Codex 便宜 2 倍，GLM 5.2 媲美 Opus 4.8 high](https://www.reddit.com/r/LocalLLaMA/comments/1usrek0/according_to_databricks_picodingagent_is_2x/) ⭐️ 7.0/10
+## [老式苏联控制室设计被认为优于现代软件可观测性](https://designyoutrust.com/2018/01/vintage-beauty-soviet-control-rooms/) ⭐️ 6.0/10
 
-DataBricks 发布基准测试，显示 pi-coding-agent 相比 Claude Code 和 Codex 成本降低最高 2 倍且 SWE-bench 通过率更高，同时 GLM 5.2 性能与 Opus 4.8 high 相当。 该对比为实际编码智能体选型提供了具体的成本和性能数据，凸显 pi-coding-agent 等开源工具和 GLM 5.2 等模型能与商业方案竞争，可能改变开发者的工具选择。 pi-coding-agent 全面使用 bash 和极简工具，这有助于提升成本效率；GLM 5.2 原生不支持图像输入，可能是视觉任务的潜在限制。该基准在 DataBricks 自有的数百万行代码库上进行，结果可能具有场景特异性。
+一篇 2018 年关于苏联控制室美学的文章重新出现，引发了社区讨论，重点指出其系统级设计在因果推理方面相较于现代软件可观测性工具的操作优势。 讨论揭示了对现代仪表盘日益增长的不满，这些仪表盘只展示孤立的指标和时序数据，而老式实体控制室提供了一个统一的心理模型，使工程师能够因果地追踪故障并推理系统状态。 一位有直接经验的评论者指出，由于采用三相电源，这些房间的照明明亮、无影、无闪烁，提升了操作员的专注度。控制面板物理地模拟了过程流程，允许对级联故障进行可视化追踪——这一能力在分层软件抽象中往往缺失。
 
-reddit · r/LocalLLaMA · /u/NandaVegg · 7月10日 15:46
+hackernews · mvdtnz · 7月11日 05:19 · [社区讨论](https://news.ycombinator.com/item?id=48868996)
 
-**背景**: pi-coding-agent 是来自 pi-mono 工具包的开源 AI 编码智能体，由 Mario Zechner 开发，秉持极简工具理念。GLM 5.2 是 Z.ai 推出的长程任务语言模型，具备 100 万 token 上下文，定位为高性价比方案。Opus 4.8 high 是 Anthropic 顶级 Claude 模型，启用“高思维”设置以应对复杂推理。DataBricks 以数据与 AI 平台闻名，曾训练过大语言模型，其评测具有一定公信力。
+**背景**: 发电厂等工业系统的控制室早于数字化界面，使用带有仪表、开关和示意图的大型物理面板，直接表示系统的结构。向基于软件的可观测性转变使得仪表盘优先显示单个服务指标和时序数据，而非整体系统模型，这可能会在事故期间阻碍快速的因果理解。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/earendil-works/pi">GitHub - earendil-works/pi: AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI · GitHub</a></li>
-<li><a href="https://huggingface.co/zai-org/GLM-5.2">zai-org/GLM-5.2 · Hugging Face</a></li>
-<li><a href="https://llm-stats.com/blog/research/glm-5-2-vs-claude-opus-4-8">GLM-5.2 vs Claude Opus 4 . 8 : Full Comparison</a></li>
+<li><a href="https://www.boredpanda.com/vintage-soviet-russian-control-panel-rooms/">23 Oddly Satisfying Soviet-Era Control Rooms - Bored Panda</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: Reddit 用户认可该基准具有场景特异性，但普遍信任 DataBricks 的分析。有人指出 pi-coding-agent 的成本优势源于其极简设计，而 GLM 5.2 缺少图像支持可能限制部分应用。总体认为这些发现对开源和高性价比编码智能体是积极信号。
+**社区讨论**: 评论不一，有的指出这类控制室并非苏联特有，而是全球数字化前时代的常见设计，有的称赞其设计直接呈现系统状态、实现了直观的故障追踪。一些人将其与现代可观测性的孤立视图进行对比，还有人分享了关于独特照明以及看到这些房间被拆除时的情感冲击的个人经历。
 
-**标签**: `#coding-agents`, `#LLM-benchmarks`, `#cost-efficiency`, `#Databricks`, `#model-comparison`
+**标签**: `#design`, `#history`, `#systems-engineering`, `#user-interface`, `#control-rooms`
 
 ---
 
 <a id="item-14"></a>
-## [用于 llama.cpp 和 vLLM 的开源 MIT 监控仪表盘](https://www.reddit.com/r/LocalLLaMA/comments/1ut3p89/mit_llm_serve_dashboard_i_am_making_open_source/) ⭐️ 7.0/10
+## [19 世纪文本训练的 5 亿参数 LLM](https://www.reddit.com/r/LocalLLaMA/comments/1uswlq8/training_an_llm_from_scratch_on_1800s_texts_160gb/) ⭐️ 6.0/10
 
-一个 MIT 许可的无依赖仪表盘已发布，用于监控本地 LLM 服务。它显示 llama.cpp 和 vLLM 的 GPU 利用率、每个模型的吞吐量、上下文填充和系统状态。 该工具填补了本地运行 LLM 时常见的监控空白，使用户能够轻松跟踪性能和资源使用情况，无需复杂设置，从而提升自托管推理的可观测性。 该仪表盘由一个 HTML 文件和一个 Python 文件组成，通过 nvidia-smi 获取 GPU 数据，从 Prometheus /metrics 端点读取指标，自动发现工作端口，并包含可选的推理链思维面板和模型注册表等特性。
+一位开发者用 19 世纪英文文本中的 50 亿 token 样本从零开始预训练了一个 5 亿参数的语言模型，并针对历史问答任务进行了微调，计划使用完整的 400 亿 token 数据集训练一个 20 亿参数模型。 该项目展示了领域特定模型在捕捉历史语言模式方面的潜力，有助于更准确地分析和生成符合时代特征的文本，用于研究或教育目的。 目前的 5 亿参数评估模型仅在完整的 160GB（400 亿 token）数据集的一个 50 亿 token 子集上训练，该数据集涵盖了 1800 年至 1875 年间来自英格兰和美国的文本；计划在此基础上训练一个 20 亿参数模型以覆盖全部数据。
 
-reddit · r/LocalLLaMA · /u/Important_Quote_1180 · 7月10日 23:25
+reddit · r/LocalLLaMA · /u/Remarkable-Trick-177 · 7月10日 18:51
 
-**背景**: llama.cpp 是一个开源库，用于以最小设置本地运行大语言模型，常通过其服务器模式使用。vLLM 是一个高性能推理引擎，通过 PagedAttention 等功能优化 LLM 服务。两者都暴露了 Prometheus /metrics 端点以供监控。KV 缓存存储键值向量以加速文本生成，监控其使用情况有助于诊断性能瓶颈。
+**背景**: 在 19 世纪文本这样的专门语料库上从零开始训练语言模型，可以使模型学习那个时代的独特词汇、语法和风格，而这些在现代语言模型中往往表现不佳。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Llama.cpp">Llama.cpp</a></li>
-<li><a href="https://en.wikipedia.org/wiki/VLLM">VLLM</a></li>
-<li><a href="https://grokipedia.com/page/KV_cache">KV cache</a></li>
-
-</ul>
-</details>
-
-**标签**: `#llm`, `#dashboard`, `#monitoring`, `#llama.cpp`, `#vllm`
+**标签**: `#LLM`, `#historical NLP`, `#pretraining`, `#niche`, `#dataset`
 
 ---
 
 <a id="item-15"></a>
-## [投机性缓存预热：在输入提示时预热缓存，节省等待时间](https://www.reddit.com/r/LocalLLaMA/comments/1uskb1g/speculative_cache_warming_warms_your_cache_while/) ⭐️ 7.0/10
+## [AMD EPYC CPU 基准测试显示 CCD 数量对 LLM 推理并非线性提升](https://www.reddit.com/r/LocalLLaMA/comments/1utjleq/are_epyc_ccds_all_you_need_benchmarks/) ⭐️ 6.0/10
 
-本地 AI 工具 OpenFox 引入投机性缓存预热功能，在用户键入提示词的同时将系统提示和工具预加载到 LLM 上下文缓存中，从而消除了提交后 10-20 秒的处理延迟。 这一免费优化利用打字空闲时间，使本地 LLM 的交互（尤其是编码工作流）感觉更具即时性，在不增加硬件成本的情况下提升了用户体验。 该技术提前处理约 5K-10K tokens 的系统提示和 1K tokens 的工具数组，提交时仅处理用户提示；其依赖稳定的缓存键和选择性失效机制以防数据过时。
+对比 AMD EPYC 9135（单 CCD）与 EPYC 9374f（8 个 CCD）的基准测试显示，更多 CCD 并不能线性提升大语言模型解码速度；最佳线程数随上下文大小变化，且 9374f 在 48 线程时性能最佳，在 32 或 64 线程时表现反而更差。 这一发现挑战了“更多核心或 CCD 自动提升大语言模型推理性能”的假设，强调了根据 CPU 拓扑和工作负载调整线程数的必要性，可为本地 AI 硬件搭建者提供高性价比选择参考。 测试使用 llama.cpp 搭配 IQ4_XS 量化的 Unsloth GLM-5.2-UD 模型、DDR5-4800 内存，测量了不同上下文长度的提示处理（PP）和令牌生成（TG）速度。9374f 的 TG 速度低于 9135，在大上下文（49,152 个 token）时尤为明显，用户还指出 9374f 在游戏方面表现更差。
 
-reddit · r/LocalLLaMA · /u/t4a8945 · 7月10日 10:57
+reddit · r/LocalLLaMA · /u/iVoider · 7月11日 13:03
 
-**背景**: 缓存预热主动将数据加载到高速缓存中以避免冷启动延迟。在 LLM 推理中，提示处理会为注意力层生成键值缓存；重用它们可避免重复计算。DS4 Flash 是 DeepSeek V4 Flash 的高效本地推理引擎，文中用作目标模型。
+**背景**: AMD EPYC CPU 采用小芯片设计，核心小芯片（CCD）是包含多个核心的硅片基本单元。增加 CCD 可提升核心数，但会引入 CCD 间延迟，在 LLM 推理等内存密集型任务中可能限制性能扩展。llama.cpp 是用于在 CPU/GPU 上运行量化 GGUF 模型的常用 C++框架。IQ4_XS 等量化类型利用重要性矩阵压缩模型，以尽量小的质量损失换取体积缩小。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://medium.com/@connect.hashblock/cache-warming-strategies-that-save-launch-day-0f6a5302355c">Cache Warming Strategies That Save Launch Day | by Hash... | Medium</a></li>
-<li><a href="https://github.com/antirez/ds4">GitHub - antirez/ds4: DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm · GitHub</a></li>
+<li><a href="https://hardwaretimes.com/amd-ccd-and-ccx-in-ryzen-processors-explained/">AMD CCD and CCX in Ryzen/Epyc Processors Explained</a></li>
+<li><a href="https://knightli.com/en/2026/04/23/llama-cpp-gpu-benchmark-cuda-rocm-vulkan-scoreboard/">llama.cpp GPU Benchmark: CUDA vs ROCm vs Vulkan Scoreboard and pp512/tg128 Explained</a></li>
+<li><a href="https://gist.github.com/Artefact2/b5f810600771265fc1e39442288e8ec9">GGUF quantizations overview · GitHub</a></li>
 
 </ul>
 </details>
 
-**标签**: `#LLM optimization`, `#local LLM`, `#cache warming`, `#open-source`, `#user experience`
-
----
-
-<a id="item-16"></a>
-## [纽约市通过‘一键取消’法案打击欺诈性订阅](https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban) ⭐️ 6.0/10
-
-2026 年 7 月 10 日，纽约市宣布了一项具有里程碑意义的‘一键取消’法案，禁止欺诈性订阅行为和隐藏的垃圾费用，要求企业提供便捷的在线取消服务。 该法案通过使订阅取消变得简单透明，增强了消费者权益，有望减少不必要的循环扣费，并为全国范围内的消费者友好型计费模式树立先例。 该法案要求在线取消必须与注册同样便捷，无隐藏障碍，并全面禁止垃圾费用，但执行机制和可能的例外情况仍有待明确。
-
-hackernews · randycupertino · 7月10日 18:26 · [社区讨论](https://news.ycombinator.com/item?id=48863464)
-
-**背景**: ‘一键取消’法律要求企业提供简单的在线取消流程，通常与订阅所需的步骤数相当。垃圾费用是指交易中隐藏或误导性的附加费用，如度假村费或服务费。加利福尼亚等州已通过类似立法，但存在行业特定的例外情况。
-
-**社区讨论**: 评论者大多支持该法案，但对其执行提出质疑，指出加州类似法律存在漏洞。他们分享了难以取消订阅和遭遇隐藏酒店费用的经历，认为该法案是消费者权益的积极进步，尽管可能只是象征性的。
-
-**标签**: `#consumer protection`, `#subscriptions`, `#legislation`, `#technology policy`, `#billing`
-
----
-
-<a id="item-17"></a>
-## [青铜时代晚期崩溃及其现代启示](https://acoup.blog/2026/01/30/collections-the-late-bronze-age-collapse-a-very-brief-introduction/) ⭐️ 6.0/10
-
-一篇新博客文章探讨了青铜时代晚期的崩溃，将其与现代挑战如人工智能和资源稀缺相联系，引发了社区的深入讨论。 这一讨论凸显了古代崩溃模式如何警示现代社会，特别是在依赖复杂贸易网络和稀缺资源方面的脆弱性。 崩溃通常定年为公元前 1177 年左右，涉及国际贸易网络的崩溃，这对获取青铜中稀有的锡至关重要。评论者指出这与当今的石油依赖相似。
-
-hackernews · dmonay · 7月10日 11:59 · [社区讨论](https://news.ycombinator.com/item?id=48858737)
-
-**背景**: 青铜时代晚期崩溃是指公元前 12 世纪左右东地中海地区的社会崩溃，影响了迈锡尼希腊和赫梯帝国等文明。它可能由入侵、气候变化和贸易路线中断等多种因素共同导致。青铜是那个时代的关键金属，由铜和锡制成，但锡矿稀少，需要广泛的贸易网络。
-
-**社区讨论**: 评论者将青铜时代崩溃与现代风险相联系，如人工智能驱动的社会崩溃和类似于锡稀缺的石油依赖。一些人强调历史的兴衰周期，也有人幽默地提及神灵干预。总体讨论深入且发人深省。
-
-**标签**: `#history`, `#collapse`, `#systems-thinking`, `#ancient-world`, `#resource-dependence`
-
----
-
-<a id="item-18"></a>
-## [写给自制抽认卡的情书：为何 AI 生成卡片不尽人意](https://lesleylai.info/en/flashcards/) ⭐️ 6.0/10
-
-在一篇反思性文章中，作者认为自制抽认卡能促进深度学习，而 AI 生成的抽认卡往往效果不佳，产出的是缺乏个性且平庸的内容。 文章揭示了自动化便利与主动参与学习过程的认知效益之间的矛盾，引起了 Anki 等工具用户的共鸣，也引发了关于大型语言模型在教育中作用的思考。 作者强调，亲手书写卡片能根据自身思维定制内容，并指出用大模型生成的卡片 10 张中只有 1 张有用，且仍需重写；本文属于个人反思，并非实证研究。
-
-hackernews · surprisetalk · 7月10日 15:30 · [社区讨论](https://news.ycombinator.com/item?id=48861319)
-
-**背景**: 间隔重复是一种通过逐渐增加复习间隔来提高长期记忆的学习方法。Anki 是一款流行的免费开源抽认卡软件，运用间隔重复算法。制作有效的抽认卡通常需要个性化处理，而非简单照搬信息。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Spaced_repetition">Spaced repetition</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Anki">Anki</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者大多赞同自制卡片的价值观和 AI 生成卡片的局限性。有人分享了用 Anki 学习各种主题的成功经验，也有人认为如果更巧妙地使用 AI（如改写问题）仍有潜力。还有评论强调，手工制作卡片本身就是关键的学习环节。
-
-**标签**: `#flashcards`, `#spaced-repetition`, `#learning`, `#anki`, `#LLM-critique`
-
----
-
-<a id="item-19"></a>
-## [诺奖得主、美联储前主席伯南克加入 AI 公司 Anthropic](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652712172&idx=2&sn=6c269c478f7a1206b8782efaca11191d) ⭐️ 6.0/10
-
-诺贝尔经济学奖得主、美联储前主席本·伯南克已加入 AI 安全与研究公司 Anthropic。 他在经济学和危机管理方面的专长可能帮助 Anthropic 应对 AI 的经济影响和监管问题，标志着经济学与 AI 治理日益融合。 伯南克因对银行和金融危机的研究于 2022 年获得诺贝尔经济学奖，Anthropic 以 Claude 语言模型和关注 AI 安全而闻名。
-
-rss · 新智元 · 7月10日 05:37
-
-**背景**: Anthropic 是一家由前 OpenAI 员工创立的 AI 公司，专注于开发安全可控的 AI 系统，如 Claude 系列模型。伯南克在 2008 年金融危机期间担任美联储主席，因其经济研究获诺贝尔奖。他加入 AI 领域，反映出对 AI 深远经济影响的重视。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Anthropic">Anthropic - Wikipedia</a></li>
-<li><a href="https://www.anthropic.com/">Home \ Anthropic</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI`, `#Anthropic`, `#personnel`, `#economics`, `#news`
-
----
-
-<a id="item-20"></a>
-## [爱好者用 160GB 十九世纪文本预训练 LLM，用于历史问答](https://www.reddit.com/r/LocalLLaMA/comments/1uswlq8/training_an_llm_from_scratch_on_1800s_texts_160gb/) ⭐️ 6.0/10
-
-一位爱好者基于 160GB 的 1800–1875 年英文文本预训练了一个 5 亿参数的语言模型，并使用合成问答对进行微调，使其能进行历史问答，效果有前景但偶尔幽默。 该项目展示了领域专用语言模型在历史研究中的可行性，可能助力数字人文，并通过对话 AI 使小众语料库更易访问。 完整数据集包含 400 亿个 token；当前评估模型在 50 亿 token 的子集上训练。微调使用了从历史文本提取的合成问答对，模型有时会生成时空错乱或幽默的输出，例如建议用脚搅拌李子布丁的食谱。
-
-reddit · r/LocalLLaMA · /u/Remarkable-Trick-177 · 7月10日 18:51
-
-**背景**: 大语言模型通常在大规模通用语料库上预训练以学习语言模式，然后在任务特定数据上进行微调。合成数据生成可创建模拟真实数据的人工数据集，在此用于生成历史问答对，无需人工标注。这种方法能够在标注资源有限的情况下，针对特定历史领域训练模型。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.databricks.com/blog/llm-pre-training-and-custom-llms">Understanding LLM Pre-Training and Custom LLMs | Databricks Blog</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Fine-tuning_(machine_learning)">Fine-tuning (machine learning)</a></li>
-<li><a href="https://www.nvidia.com/en-us/glossary/synthetic-data-generation/">What is Synthetic Data Generation (SDG)? | NVIDIA Glossary</a></li>
-
-</ul>
-</details>
-
-**标签**: `#LLM`, `#historical-texts`, `#pre-training`, `#fine-tuning`, `#1800s-dataset`
-
----
-
-<a id="item-21"></a>
-## [NVIDIA 被曝准备推出 GeForce RTX 5090 SE 显卡](https://www.reddit.com/r/LocalLLaMA/comments/1ustlrg/nvidia_readies_geforce_rtx_5090_se_graphics_card/) ⭐️ 6.0/10
-
-据传闻，NVIDIA 正计划推出名为 GeForce RTX 5090 SE 的新款显卡，但目前尚未确认其具体规格或发布日期。 如果消息属实，这款显卡可能为本地大语言模型推理提供更强性能，吸引需要高显存和算力的爱好者，并可能影响高端 GPU 市场和 AI 硬件的普及。 'SE' 标识可能意味着特别版或变体版本，但在官方确认前均为猜测。尚不清楚它是否会比基础版 RTX 5090 增加显存或提升能效。
-
-reddit · r/LocalLLaMA · /u/panchovix · 7月10日 17:05
-
-**背景**: NVIDIA 的 GeForce RTX 系列因具备高显存和 CUDA 核心，在本地大语言模型推理等 AI 任务中备受爱好者青睐。作为预期的下一代旗舰，RTX 5090 可能会带来架构改进。而 'SE' 型号的传闻表明 NVIDIA 可能正探索细分产品，以满足不同用户的内存或 AI 加速需求。
-
-**标签**: `#GPU`, `#NVIDIA`, `#Rumors`, `#Hardware`
-
----
-
-<a id="item-22"></a>
-## [AMD Strix Halo APU 每日电费不到 0.48 美元](https://www.reddit.com/r/LocalLLaMA/comments/1ussasa/at_most_my_strix_halo_uses_048_a_day/) ⭐️ 6.0/10
-
-一位 Reddit 用户计算出，其 AMD Strix Halo 系统在 24 小时内同时用 CPU、GPU 和 NPU 运行多个 AI 模型，每日电费最高仅 0.48 美元。 这凸显了集成 APU 在本地大模型推理中的能效和成本优势，挑战了单纯追求性能的观念，展示了在常驻低功耗 AI 任务中的实用性。 该设备使用 Q8_XL 量化版 Qwen 3.6 35B 模型时达到 50 Token/秒，整机功耗约为 NVIDIA A6000 GPU（300 瓦）的一半，且运行安静、体积小巧。
-
-reddit · r/LocalLLaMA · /u/Forward_Jackfruit813 · 7月10日 16:18
-
-**背景**: Strix Halo 是 AMD 的高端 APU，代号 Ryzen AI Max+ 395，集成了 16 个 Zen 5 CPU 核心、Radeon 8060S 核显和 XDNA 2 NPU。Q8_XL 是一种 8 位量化格式，用于压缩大语言模型以在有限硬件内存上运行。NPU（神经处理单元）是专门加速 AI 计算的处理器。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Strix_Halo">Strix Halo</a></li>
-<li><a href="https://grokipedia.com/page/Strix_Halo">Strix Halo</a></li>
-<li><a href="https://dasroot.net/posts/2026/05/best-quantization-qwen36-limited-vram-comparative-analysis/">Best Quantization for Qwen3.6 on Limited VRAM: A Comparative...</a></li>
-
-</ul>
-</details>
-
-**标签**: `#power efficiency`, `#Strix Halo`, `#local LLM`, `#cost analysis`, `#AMD`
-
----
-
-<a id="item-23"></a>
-## [RTX 4090 + DDR5 运行 DeepSeek V4 Flash 的优化与性能实测](https://www.reddit.com/r/LocalLLaMA/comments/1ustyas/deepseek_v4_flash_on_4090_ddr5_my_experience/) ⭐️ 6.0/10
-
-一位用户分享了在 RTX 4090 与 128 GB DDR5 内存上运行 DeepSeek V4 Flash 模型的详细实践经验，通过使用 Unsloth 的 UD-Q2_K_XL 量化以及 CPU 核心绑定、关闭 flash attention 等特定优化，实现了 10.9 tokens/s 的生成速度。 这表明像 DeepSeek V4 Flash 这样的大型模型可以在配备足够内存的消费级硬件上运行，为希望本地实验的爱好者提供了实用指导。它凸显了在受限配置下速度与质量之间的权衡。 用户使用了 Intel Core Ultra 7 270k CPU；将任务绑定到性能核心使 tokens/s 从 6.8 提升至 11。必须关闭 flash attention（`-fa off`）并使用 `-ctk q8_0` 或 `-ctv q8_0` 以避免 CUDA 缓冲区溢出。IQ4_NL 量化更慢且上下文限制在约 10k。该模型被认为比 Qwen 3.6 27B 更智能，但速度较慢，不太适合 Agent 任务。
-
-reddit · r/LocalLLaMA · /u/kevin_1994 · 7月10日 17:17
-
-**背景**: DeepSeek V4 Flash 是一个大型语言模型。量化将模型权重压缩到较低精度（如 2 位），以减少内存占用并在有限硬件上推理。Unsloth 的动态量化对每层采用可变精度，以实现更好的质量与大小平衡。llama.cpp 是一个广泛使用的 C++ 推理引擎，可在 CPU 和 GPU 上运行 LLM。用户采用了自定义量化类型（UD-Q2_K_XL、IQ4_NL），并调整了上下文大小、批处理大小和 flash attention 等参数，将模型装入 24 GB 显存加系统内存中。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs">Unsloth Dynamic 2.0 GGUFs | Unsloth Documentation</a></li>
-<li><a href="https://arxiv.org/html/2601.14277v1">Which Quantization Should I Use? A Unified Evaluation of llama.cpp Quantization on Llama-3.1-8B-Instruct</a></li>
-
-</ul>
-</details>
-
-**标签**: `#local-llm`, `#deepseek`, `#llama.cpp`, `#performance`, `#hardware`
+**标签**: `#EPYC`, `#LLM inference`, `#benchmarks`, `#CPU optimization`, `#llama.cpp`
 
 ---
 
