@@ -149,6 +149,8 @@ class OpenAIClient(AIClient):
         # Some newer models (e.g. Claude Opus 4.7 on Bedrock Converse) reject
         # `temperature`. We learn this on first 400 and stop sending it.
         self._supports_temperature = True
+        # Some OpenAI-compatible providers do not implement JSON mode.
+        self._supports_response_format = self.provider not in self._NO_RESPONSE_FORMAT
 
     async def complete(
         self,
@@ -182,6 +184,7 @@ class OpenAIClient(AIClient):
                 temperature=temperature,
                 max_tokens=max_tokens,
                 include_temperature=self._supports_temperature,
+                include_response_format=self._supports_response_format,
             )
         except Exception as exc:
             if self._supports_temperature and self._is_temperature_unsupported(
@@ -194,6 +197,19 @@ class OpenAIClient(AIClient):
                     temperature=temperature,
                     max_tokens=max_tokens,
                     include_temperature=False,
+                    include_response_format=self._supports_response_format,
+                )
+            elif self._supports_response_format and self._is_response_format_unsupported(
+                str(exc)
+            ):
+                self._supports_response_format = False
+                response = await self._do_request(
+                    system=system,
+                    user=user,
+                    temperature=temperature,
+                    max_tokens=max_tokens,
+                    include_temperature=self._supports_temperature,
+                    include_response_format=False,
                 )
             else:
                 raise
@@ -214,6 +230,7 @@ class OpenAIClient(AIClient):
         temperature: float,
         max_tokens: int,
         include_temperature: bool,
+        include_response_format: bool,
     ):
         request_kwargs = {
             "model": self.model,
@@ -225,7 +242,7 @@ class OpenAIClient(AIClient):
         }
         if include_temperature:
             request_kwargs["temperature"] = temperature
-        if self.provider not in self._NO_RESPONSE_FORMAT:
+        if include_response_format:
             request_kwargs["response_format"] = {"type": "json_object"}
         return await self.client.chat.completions.create(**request_kwargs)
 
@@ -236,6 +253,16 @@ class OpenAIClient(AIClient):
             "deprecated" in lowered
             or "not support" in lowered
             or "unsupported" in lowered
+        )
+
+    @staticmethod
+    def _is_response_format_unsupported(message: str) -> bool:
+        lowered = message.lower()
+        return "response_format" in lowered and (
+            "not support" in lowered
+            or "unsupported" in lowered
+            or "unknown parameter" in lowered
+            or "invalid parameter" in lowered
         )
 
 

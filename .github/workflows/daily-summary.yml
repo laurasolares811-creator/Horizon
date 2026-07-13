@@ -50,6 +50,10 @@ jobs:
         if: env.SKIP == 'false'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          HORIZON_AI_KEY_ENV: OPENAI_API_KEY
+          HORIZON_AI_PROVIDER: ${{ vars.HORIZON_AI_PROVIDER || 'openai' }}
+          HORIZON_AI_MODEL: ${{ vars.HORIZON_AI_MODEL || 'mimo-v2.5-free' }}
+          HORIZON_AI_BASE_URL: ${{ vars.HORIZON_AI_BASE_URL || 'https://opencode.ai/zen/v1' }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: uv run horizon --hours 24
 
@@ -62,10 +66,11 @@ jobs:
 
       - name: Generate topic analysis
         if: env.SKIP == 'false'
+        continue-on-error: true
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_BASE_URL: https://api.deepseek.com
-          ANALYSIS_MODEL: deepseek-v4-pro
+          OPENAI_BASE_URL: ${{ vars.HORIZON_ANALYSIS_BASE_URL || vars.HORIZON_AI_BASE_URL || 'https://opencode.ai/zen/v1' }}
+          ANALYSIS_MODEL: ${{ vars.HORIZON_ANALYSIS_MODEL || vars.HORIZON_AI_MODEL || 'mimo-v2.5-free' }}
           DATE: ${{ env.DATE }}
           TZ: Asia/Shanghai
         run: |
