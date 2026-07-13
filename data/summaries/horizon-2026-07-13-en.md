@@ -1,503 +1,356 @@
 # Horizon Daily - 2026-07-13
 
-> From 25 items, 21 important content pieces were selected
+> From 24 items, 16 important content pieces were selected
 
 ---
 
-1. [Telegram's Primary Short Link Domain Suspended](#item-1) ⭐️ 8.0/10
-2. [LAPD Ends Surveillance Contract with Flock Safety](#item-2) ⭐️ 8.0/10
-3. [Samsung to Delete Health Data if Users Opt Out of AI Training](#item-3) ⭐️ 7.0/10
-4. [Benchmark: Apple SpeechAnalyzer API vs. OpenAI Whisper](#item-4) ⭐️ 7.0/10
-5. [Building Mac and iOS Apps via Command Line, Skipping Xcode GUI](#item-5) ⭐️ 7.0/10
-6. [Climate.gov Destroyed, Saved by Open Data](#item-6) ⭐️ 7.0/10
-7. [DOM-docx: Convert HTML to Editable Word Documents](#item-7) ⭐️ 7.0/10
-8. [Simon Willison Argues LLMs Should Never Be DRI](#item-8) ⭐️ 7.0/10
-9. [Benchmarking 15 Decommissioned Enterprise GPUs for Modern AI Workloads](#item-9) ⭐️ 7.0/10
-10. [FT: Companies Turn to Chinese Open Weight Models to Cut Costs](#item-10) ⭐️ 7.0/10
-11. [Zhipu AI Founder Advocates Open-Source AI Amid Global Security Concerns](#item-11) ⭐️ 7.0/10
-12. [Gemma 4 LLM Runs Inside Godot Using Only GDScript and Vulkan Shaders](#item-12) ⭐️ 7.0/10
-13. [Startup Compresses 27B Qwen Model to Run on iPhone](#item-13) ⭐️ 7.0/10
-14. [Tokenizer Efficiency Impacts Real Cost of AI Models](#item-14) ⭐️ 6.0/10
-15. [How Sega CD's Silpheed Mastered FMV Graphics on Limited Hardware](#item-15) ⭐️ 6.0/10
-16. [Reddit Post Advocates for Local Models and Open-Source Tools](#item-16) ⭐️ 6.0/10
-17. [Questioning Private AI Development vs. Open-Source Risks](#item-17) ⭐️ 6.0/10
-18. [Mistral AI Launches Community Feedback Survey for Local LLM Users](#item-18) ⭐️ 6.0/10
-19. [GLM 5.2 Runs Locally on MacBook Pro M5 via Flash MOE](#item-19) ⭐️ 6.0/10
-20. [Community-Quantized Qwen3.6-35B Model Released for Agent Tasks](#item-20) ⭐️ 6.0/10
-21. [Wan-Dancer: Hierarchical Music-to-Dance Generation Framework](#item-21) ⭐️ 6.0/10
+1. [DOOMQL](#item-1) ⭐️ 8.0/10
+2. [Building & Shipping Apple Apps Without Opening Xcode](#item-2) ⭐️ 7.0/10
+3. [Apple's SpeechAnalyzer API Benchmarked vs. Whisper and Legacy APIs](#item-3) ⭐️ 7.0/10
+4. [Analyzing Real Costs and Token Efficiency of Frontier AI Models](#item-4) ⭐️ 7.0/10
+5. [Technical Deep-Dive into Sega CD's Silpheed Graphics](#item-5) ⭐️ 7.0/10
+6. [Climate.gov Data Saved Through Open Practices After Destruction](#item-6) ⭐️ 7.0/10
+7. [Telegram's t.me Domain Suspended](#item-7) ⭐️ 7.0/10
+8. [Samsung Health app threatens data deletion if users opt out AI training](#item-8) ⭐️ 7.0/10
+9. [DOM-docx: Open-Source HTML to Editable Word Documents](#item-9) ⭐️ 7.0/10
+10. [Chain-of-Thought Critique & The Rise of Latent Reasoning](#item-10) ⭐️ 7.0/10
+11. [Continual Learning: A Definition and Importance Debate in AI](#item-11) ⭐️ 7.0/10
+12. [GPUHedge Tool Cuts Serverless GPU Cold Start Latency](#item-12) ⭐️ 7.0/10
+13. [Open-Source Tool 'Research Radar' Automates arXiv Paper Discovery and Summarization](#item-13) ⭐️ 7.0/10
+14. [Evaluating J-space entropy as an error predictor across 7 datasets on Qwen3-4B (R)](#item-14) ⭐️ 7.0/10
+15. [LAPD Lets Surveillance Contract Expire Over Privacy Concerns](#item-15) ⭐️ 6.0/10
+16. [ICML Acceptance of Verbalized Sampling Paper Sparks Debate](#item-16) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Telegram's Primary Short Link Domain Suspended](https://www.whois.com/whois/t.me) ⭐️ 8.0/10
+## [DOOMQL](https://simonwillison.net/2026/Jul/13/doomql/#atom-everything) ⭐️ 8.0/10
 
-The domain t.me, Telegram's primary service for creating short user links, has been suspended by its registrar. WHOIS records show a clientRenewProhibited status code, indicating a likely legal or regulatory dispute preventing its renewal or transfer. This suspension disrupts a core part of Telegram's infrastructure for user sharing and platform accessibility, impacting millions of users. It highlights increasing regulatory and legal pressures on major privacy-focused communication platforms from governments worldwide. The domain status codes like clientRenewProhibited and serverDeleteProhibited are typically enacted during legal disputes or pending deletion. Notably, Telegram's domain is registered with GoDaddy, a registrar sometimes criticized for its transparency practices.
+A creative project that uses SQLite as the core engine to render and control a full Doom-like game entirely through SQL queries.
 
-hackernews · Tiberium · Jul 13, 19:52 · [Discussion](https://news.ycombinator.com/item?id=48897878)
+rss · Simon Willison · Jul 13, 22:34
 
-**Background**: t.me is a top-level domain (TLD) used by Telegram to generate short, easy-to-share links (e.g., t.me/username) for channels and contacts. Domain suspensions can occur due to various legal orders, intellectual property disputes, or regulatory non-compliance. ICANN governs the EPP status codes that indicate a domain's operational state.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.icann.org/resources/pages/epp-status-codes-2014-06-16-en">EPP Status Codes | What Do They Mean, and Why Should I Know?</a></li>
-<li><a href="https://www.newsbytesapp.com/news/science/telegram-responds-to-government-notice-on-usernames/story">Telegram responds to Indian government's notice over controversial...</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters speculate the suspension is linked to legal actions in Russia, France, or India, with India being a recent and financially significant case. They express surprise at Telegram using GoDaddy and share technical insights about the WHOIS status codes.
-
-**Tags**: `#domain suspension`, `#Telegram`, `#cybersecurity`, `#regulatory issues`, `#DNS`
+**Tags**: `#SQLite`, `#creative-coding`, `#game-development`, `#SQL`, `#Python`
 
 ---
 
 <a id="item-2"></a>
-## [LAPD Ends Surveillance Contract with Flock Safety](https://techcrunch.com/2026/07/13/lapd-lets-contract-with-surveillance-giant-flock-expire-citing-serious-concerns-over-civil-liberties-and-privacy/) ⭐️ 8.0/10
+## [Building & Shipping Apple Apps Without Opening Xcode](https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/) ⭐️ 7.0/10
 
-The Los Angeles Police Department allowed its contract with the surveillance company Flock Safety to expire, citing serious concerns over civil liberties and privacy. This decision marks a significant step by a major police agency to distance itself from persistent automated surveillance technology. This is a significant policy move that highlights growing tension between law enforcement's use of expansive surveillance tech and public concern over privacy rights. It sets a potential precedent for other cities and agencies to re-evaluate contracts with data-intensive surveillance vendors like Flock Safety. The LAPD cited serious civil liberties and privacy concerns as the reason for letting the contract expire, but community comments note that Flock owns the cameras and poles, meaning the infrastructure may continue collecting data for sale to other agencies. Reports indicate Flock's system has been used by some police departments without warrants, raising Fourth Amendment questions.
-
-hackernews · forks · Jul 13, 15:11 · [Discussion](https://news.ycombinator.com/item?id=48893947)
-
-**Background**: Flock Safety is an American company that provides automated license plate recognition (ALPR) and video surveillance systems, primarily under contract with law enforcement agencies. These systems are designed to help police quickly locate suspects or vehicles of interest but have drawn criticism from civil rights groups for enabling mass, warrantless data collection that could infringe on privacy. The technology creates detailed logs of vehicle locations and movements, often without individualized suspicion.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Flock_Safety">Flock Safety - Wikipedia</a></li>
-<li><a href="https://www.brennancenter.org/our-work/research-reports/automatic-license-plate-readers-legal-status-and-policy-recommendations">Automatic License Plate Readers: Legal Status and Policy Recommendations for Law Enforcement Use | Brennan Center for Justice</a></li>
-<li><a href="https://www.gadgetreview.com/ben-jordan-says-flock-cameras-are-building-a-gps-tracker-for-every-car">Ben Jordan Says Flock Cameras Are Building a GPS... - Gadget Review</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters expressed skepticism, noting that even with the contract expired, Flock may retain control of the data and infrastructure. They questioned the effectiveness of such surveillance given that known criminals often have extensive records, and one commenter suggested it should be illegal for the government to purchase data it cannot legally collect itself.
-
-**Tags**: `#surveillance`, `#privacy`, `#civil-liberties`, `#public-policy`, `#police-tech`
-
----
-
-<a id="item-3"></a>
-## [Samsung to Delete Health Data if Users Opt Out of AI Training](https://neow.in/cWsyMTV3) ⭐️ 7.0/10
-
-Samsung Health is updating its policy to require users to consent to their health data being used for AI training. If users refuse, Samsung will permanently delete their stored health data, including sleep, medication, medical records, and cycle tracking information. This policy change forces a significant and potentially user-hostile trade-off between data privacy and the functionality of health devices, raising major ethical questions about AI training practices and data governance. It could expose Samsung to regulatory challenges under laws like GDPR and may set a concerning precedent for how consumer health data is handled by tech companies. The data at risk includes highly sensitive categories: sleep, medications, medical records, and cycle tracking. Opting out reportedly not only triggers deletion but may also disrupt core app syncing and functionality, essentially holding the data hostage to force consent.
-
-hackernews · bundie · Jul 13, 20:01 · [Discussion](https://news.ycombinator.com/item?id=48897991)
-
-**Background**: Samsung Health is an app that collects and stores users' personal health and fitness data from connected devices and apps. Tech companies are increasingly using such large datasets to train artificial intelligence models for health insights, but this practice is under intense scrutiny for privacy and consent. Regulations like the EU's GDPR strictly govern how personal health data can be used, requiring clear and explicit user consent.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.androidheadlines.com/2026/07/samsung-health-ai-data-training-deletion-policy.html">Samsung Health to Delete Data If Users Opt Out of AI</a></li>
-<li><a href="https://gadgetsandwearables.com/2026/07/12/samsung-health-ai-training/">Samsung Health users face an awkward choice over AI training</a></li>
-<li><a href="https://www.androidauthority.com/samsung-health-train-ai-data-3686684/">Samsung will kill your health data if you don't consent to AI ...</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters widely view the policy as user-hostile and coercive, questioning the fairness of losing device functionality or data access. There are strong comparisons to similar practices by other tech giants like Google, with some users noting they would abandon the service. Significant concern was also raised about potential legal violations, especially within the European Union.
-
-**Tags**: `#privacy`, `#AI ethics`, `#consumer rights`, `#data governance`, `#GDPR`
-
----
-
-<a id="item-4"></a>
-## [Benchmark: Apple SpeechAnalyzer API vs. OpenAI Whisper](https://get-inscribe.com/blog/apple-speech-api-benchmark.html) ⭐️ 7.0/10
-
-A technical benchmark compared Apple's new SpeechAnalyzer API against OpenAI's Whisper model, revealing that SpeechAnalyzer is faster but has slightly worse accuracy. This benchmark provides developers with critical performance data for choosing between Apple's native, offline-capable API and the widely-used open-source Whisper model for transcription applications. The benchmark indicates SpeechAnalyzer offers a speed advantage, which could benefit real-time or low-latency applications, though Whisper retains a slight edge in transcription accuracy.
-
-hackernews · get-inscribe · Jul 13, 16:06 · [Discussion](https://news.ycombinator.com/item?id=48894752)
-
-**Background**: Apple's SpeechAnalyzer API is a new, modular framework introduced in iOS 26 for on-device speech-to-text, designed for performance and offline use. OpenAI's Whisper is a popular open-source model for automatic speech recognition (ASR), trained on vast multilingual data and known for its generalizability.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://developer.apple.com/documentation/speech/speechanalyzer">SpeechAnalyzer | Apple Developer Documentation</a></li>
-<li><a href="https://en.wikipedia.org/wiki/OpenAI_Whisper">OpenAI Whisper</a></li>
-<li><a href="https://soniox.com/benchmarks">Speech-to-text benchmarks | Soniox</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters suggested that comparing SpeechAnalyzer to newer state-of-the-art models like Nemotron, Parakeet, or Voxtral would be more informative than using Whisper. There was also speculation that Apple's native integration could disrupt paid transcription apps that merely wrap existing models.
-
-**Tags**: `#speech-recognition`, `#Apple-API`, `#Whisper`, `#benchmarking`, `#transcription`
-
----
-
-<a id="item-5"></a>
-## [Building Mac and iOS Apps via Command Line, Skipping Xcode GUI](https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/) ⭐️ 7.0/10
-
-An article details methods to build, sign, notarize, and install Mac and iOS apps entirely using command-line scripts and AI assistance, without ever opening the Xcode GUI. This approach leverages standalone command-line tools and LLMs like Claude to generate the necessary automation scripts. This provides a novel workaround for developers seeking to bypass the perceived bloat and workflow constraints of the Xcode GUI, potentially streamlining workflows and enabling development on non-Mac systems like Linux. It highlights the growing role of AI as a coding agent to automate complex, multi-step development tasks. The method requires the full Xcode command-line tools package (not just the basic CLT), which includes iOS SDK and tools like notarytool. The process still involves Apple's security steps, such as notarization, which scans for malware before distribution.
+A new article details methods to build, sign, notarize, and install iOS/Mac apps entirely through the command line and AI agents like Claude Code, bypassing the traditional Xcode GUI. The approach uses Apple's command-line tools and custom scripts to automate the entire distribution workflow. This exploration challenges the long-standing assumption that Xcode's GUI is mandatory for Apple platform development, potentially opening up alternative development environments (like Linux) and automated workflows. It sparks important discussions about security trade-offs when using AI agents and command-line tools with elevated system permissions. The full app development and signing process requires the complete Xcode toolchain (including the iOS SDK and notarytool), not just the standalone Command Line Tools package. The method relies on running AI agents directly on the host Mac to execute privileged operations, which raises security concerns about data privacy and system integrity.
 
 hackernews · speckx · Jul 13, 18:22 · [Discussion](https://news.ycombinator.com/item?id=48896665)
 
-**Background**: Apple's app development traditionally requires the Xcode integrated development environment (IDE) for tasks like building, signing, and notarizing apps. Command-line tools exist for automation (e.g., `xcodebuild`), but the full toolchain for iOS/macOS development is packaged with Xcode. Notarization is a mandatory security process for distributing macOS apps outside the App Store, where Apple scans for malware and issues a ticket.
+**Background**: Xcode is Apple's primary integrated development environment (IDE) for building apps for iOS, macOS, watchOS, and tvOS. Apple provides a set of command-line tools (installed via `xcode-select --install`) that include compilers like clang and version control like git, but these are limited and do not contain all necessary SDKs for app packaging and distribution. The article explores using these lower-level tools and AI code generation agents to script the entire build and release pipeline.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/">Building and Shipping Mac and iOS Apps Without Ever Opening Xcode</a></li>
-<li><a href="https://developer.apple.com/documentation/security/notarizing-macos-software-before-distribution">Notarizing macOS software before distribution | Apple ...</a></li>
-<li><a href="https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/web">Protecting against malware in macOS - Apple Support Complete Guide to Notarize on iOS App with Apple Store Complete Guide to Notarizing macOS Apps with `notarytool` What is macOS Notarization? - An Easy Guide 101 - SentinelOne Mastering Apple’s Notarization Tool: A Comprehensive Guide ... An Exhaustive Guide to Signing and Notarizing on macOS</a></li>
+<li><a href="https://developer.apple.com/download/">Download tools for developing great apps for Apple platforms.</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters shared practical alternatives and tools that enable similar workflows, such as building iOS apps directly from Linux with `xtool`. Others noted the meta-irony of using AI (Claude) to generate code while the article itself is written by an AI, and suggested complementary open-source projects like Axiom and Sweetpad CLI to assist both humans and AI agents.
+**Discussion**: The community discussion highlights a central tension: the convenience of this method versus significant security risks, such as running AI agents with full system access. Commenters shared practical experiences, noting that while building iOS apps from Linux is surprisingly feasible using tools like xtool, the core signing and notarization steps still ultimately require a Mac with the full Xcode toolchain installed.
 
-**Tags**: `#apple-development`, `#xcode-alternatives`, `#ai-coding`, `#ci-cd`, `#open-source-tools`
+**Tags**: `#Apple development`, `#iOS development`, `#DevOps`, `#AI tools`, `#security`
+
+---
+
+<a id="item-3"></a>
+## [Apple's SpeechAnalyzer API Benchmarked vs. Whisper and Legacy APIs](https://get-inscribe.com/blog/apple-speech-api-benchmark.html) ⭐️ 7.0/10
+
+A new technical benchmark compares the performance of Apple's recently released SpeechAnalyzer API against OpenAI's Whisper model and Apple's older speech recognition APIs. The analysis provides practical data on speed and accuracy for real-world use cases like live transcription. This benchmark provides developers and users with crucial comparative data to choose the best on-device or cloud-based speech recognition tool for their specific needs, impacting app development and accessibility. It signals Apple's increased investment in on-device AI capabilities, potentially disrupting the market for speech-to-text services and applications. The benchmark highlights that Apple's new API can be substantially faster than Whisper while being only slightly less accurate in certain tests, making it viable for real-time applications. However, the choice of benchmark models is debated in the community, with suggestions for newer state-of-the-art alternatives like Nvidia's Nemotron and Parakeet, or Mistral's Voxtral.
+
+hackernews · get-inscribe · Jul 13, 16:06 · [Discussion](https://news.ycombinator.com/item?id=48894752)
+
+**Background**: Apple's SpeechAnalyzer API is a new, modular speech recognition framework introduced at WWDC 2025, designed for on-device processing with features like long-form audio transcription. OpenAI's Whisper is a widely-used, open-source automatic speech recognition (ASR) model known for its robust performance across many languages. The debate centers on which tool offers the best balance of speed, accuracy, and accessibility for different applications.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.callstack.com/blog/on-device-speech-transcription-with-apple-speechanalyzer">On-Device Speech Transcription with Apple SpeechAnalyzer and AI SDK</a></li>
+<li><a href="https://developer.apple.com/videos/play/wwdc2025/277/">Bring advanced speech-to-text to your app with SpeechAnalyzer - WWDC25 - Videos - Apple Developer</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Whisper_(speech_recognition_system)">Whisper (speech recognition system) - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The community discussion is active, with users offering alternative model suggestions and real-world insights; one user found SpeechAnalyzer faster but slightly less accurate than Whisper for math lectures, while another highlighted the superior performance of Voxtral for technical meetings. There is a pragmatic view that speech-to-text is becoming a 'solved problem,' potentially devaluing apps that merely wrap existing models.
+
+**Tags**: `#speech-recognition`, `#AI-benchmarks`, `#Apple-API`, `#Whisper`, `#ASR`
+
+---
+
+<a id="item-4"></a>
+## [Analyzing Real Costs and Token Efficiency of Frontier AI Models](https://playcode.io/blog/real-price-of-frontier-models) ⭐️ 7.0/10
+
+An article analyzes the true costs of major frontier AI models like GPT-4o and Claude by comparing their token efficiency based on empirical token counts from real-world codebases. The analysis suggests that OpenAI's current tokenizer is significantly more efficient, about 1.6x-2x better, than Anthropic's for certain types of data like legacy C++ and TypeScript code. This analysis provides developers with practical, cost-focused insights for making informed API decisions, as token efficiency directly impacts the total cost of using these expensive models. Understanding these differences is crucial for optimizing expenses in software development workflows that rely heavily on AI coding assistants. The analysis notes that OpenAI has publicly documented its tokenizer and updated it to be more efficient (o200k_base), while Anthropic's current tokenizer is described as 'much worse' for certain codebases. The discussion also highlights that the cost per output token is not constant and can be affected by context length and caching practices.
+
+hackernews · ianberdin · Jul 13, 18:32 · [Discussion](https://news.ycombinator.com/item?id=48896800)
+
+**Background**: Frontier AI models represent the most advanced large language models available, like GPT-4o and Claude, used for complex tasks including code generation. API costs for these models are typically calculated per token, where a token is a unit of text (often subword) that the model processes. Tokenization efficiency—how many tokens a piece of text is broken into—varies between model providers and directly affects the final cost calculation.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://medium.com/@meisshaily/beyond-gpt-4-how-frontier-ai-models-are-changing-everything-ba679573fde1">Beyond GPT-4: How Frontier AI Models Are Changing... | Medium</a></li>
+<li><a href="https://www.linkedin.com/pulse/llm-tokenization-explained-your-guide-how-large-language-models-du7ff">LLM Tokenization Explained: Your Guide to How Large Language ...</a></li>
+<li><a href="https://alltools.dev/tools/tech/ai-api-cost-calculator/">AI API Cost Calculator — GPT, Claude, Gemini, Grok — AllTools.dev</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The comments express skepticism about the article's writing quality, with one user suspecting it was written by an LLM and questioning its fact-checking rigor. Other commenters provide personal data and technical debates, largely agreeing that OpenAI's tokenizer is more efficient than Anthropic's for code and discussing the real-world cost implications of using different model versions.
+
+**Tags**: `#AI economics`, `#large language models`, `#tokenization`, `#API costs`, `#software development`
+
+---
+
+<a id="item-5"></a>
+## [Technical Deep-Dive into Sega CD's Silpheed Graphics](https://fabiensanglard.net/silpheed/index.html) ⭐️ 7.0/10
+
+An article provides a detailed technical analysis of how the Sega CD game Silpheed used pre-rendered video backgrounds with real-time 2D sprite overlays to simulate 3D graphics on hardware that lacked native 3D capabilities. It breaks down the specific programming tricks and hardware optimizations employed by the developers. This analysis showcases a landmark example of creative programming and hardware exploitation to push the boundaries of what was thought possible on early 1990s 16-bit consoles, offering valuable lessons in optimization and ingenuity for modern developers and retro enthusiasts. It highlights the historical significance of the Sega CD as a platform that enabled such technically ambitious experiments. The game's technique involved placing polygonal ships over pre-rendered video backgrounds, a method also used in other titles like Galaxian 3 and StarBlade. The developers exploited the Sega Genesis/Mega Drive's tile-based graphics, limited 16-color palette, and the Mega-CD ASIC's special registers to achieve high-quality animation within severe hardware constraints, including a 12.5 MHz CPU and 150 KB/s CD bandwidth.
+
+hackernews · ibobev · Jul 13, 14:52 · [Discussion](https://news.ycombinator.com/item?id=48893639)
+
+**Background**: Silpheed is a shoot 'em up game originally released for PCs in 1986, with its Sega CD port in 1993 becoming famous for its technically impressive Full-Motion Video (FMV) sequences. The Sega CD was an add-on for the Genesis/Mega Drive that added CD-ROM capabilities, but it still relied on the base console's 2D graphics hardware, which had no support for real-time 3D rendering. Game developers therefore had to use clever software tricks to simulate 3D effects.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Silpheed">Silpheed - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters praised the Sega CD as a favorite console and shared personal memories of being amazed by Silpheed's 'controllable movie' experience. Technical corrections were offered regarding the article's description of the sound setup, and users recommended further examples of impressive Mega Drive/Sega CD programming, such as the 'Overdrive 2' demo and Sonic 3D intro.
+
+**Tags**: `#Retro Gaming`, `#Graphics Programming`, `#Game Development`, `#Sega CD`, `#Technical Deep Dive`
 
 ---
 
 <a id="item-6"></a>
-## [Climate.gov Destroyed, Saved by Open Data](https://werd.io/climate-gov-was-destroyed-open-data-saved-it/) ⭐️ 7.0/10
+## [Climate.gov Data Saved Through Open Practices After Destruction](https://werd.io/climate-gov-was-destroyed-open-data-saved-it/) ⭐️ 7.0/10
 
-The U.S. government climate data website, Climate.gov, was taken down, but its content was successfully preserved and restored through community-led open data efforts. 这一事件凸显了中心化政府数据存档的脆弱性，并展示了分布式、社区驱动的数字保存在保护公共科学信息方面的巨大力量。 The restoration relied on donations and volunteer efforts, raising questions about the long-term funding and sustainability of such preservation projects compared to stable tax-based support.
+The Climate.gov website was effectively destroyed, but its contents were preserved and made accessible again through open data practices and community archiving efforts. This highlights how public domain data can be rescued when government-hosted resources are removed. This event underscores the critical importance of data sustainability and the role of open data in ensuring government transparency and public access to climate information. It demonstrates that decentralized, community-driven archiving can provide a vital safety net for essential public data. The preservation effort likely relied on the principle that U.S. government publications are in the public domain, allowing for unrestricted copying and redistribution. The community discussion raises questions about the long-term financial and technical sustainability of such rescue projects, which often depend on donations.
 
 hackernews · benwerd · Jul 13, 19:57 · [Discussion](https://news.ycombinator.com/item?id=48897945)
 
-**Background**: Climate.gov is a website managed by the National Oceanic and Atmospheric Administration (NOAA) that provides access to climate data, tools, and resources for the public and researchers. Digital preservation involves creating copies of data in durable formats and decentralized locations to prevent loss from server shutdowns, censorship, or technical failures.
+**Background**: Climate.gov was the U.S. federal government's primary website for climate data, tools, and information. When such a government website is taken down, its data can be lost unless it has been archived or mirrored. The public domain status of U.S. government works generally means copyright does not apply, facilitating preservation by others.
 
 <details><summary>References</summary>
 <ul>
+<li><a href="https://sustainability-directory.com/term/sustainable-open-data-practices/">Sustainable Open Data Practices → Term</a></li>
 <li><a href="https://www.datarescueproject.org/">Data Rescue Project</a></li>
-<li><a href="https://data.openpreservation.org/">Home - Open Preservation Foundation</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters express relief that publicly-funded data was saved but question its long-term sustainability, suggesting a need for government-funded support rather than donations. One proposes using decentralized technologies like IPFS for default archiving of government static content, while others link the event to broader political and corporate agendas surrounding climate data.
+**Discussion**: Community comments focus on the sustainability of the preserved site, the public domain nature of government data, and proposals for more robust default archiving methods like IPFS. There is agreement on the value of the data but debate over funding models and the technical feasibility of decentralized archiving for all government content.
 
-**Tags**: `#open-data`, `#digital-preservation`, `#government-transparency`, `#climate-science`, `#data-archiving`
+**Tags**: `#open-data`, `#government-transparency`, `#data-preservation`, `#digital-archiving`, `#public-domain`
 
 ---
 
 <a id="item-7"></a>
-## [DOM-docx: Convert HTML to Editable Word Documents](https://github.com/floodtide/dom-docx) ⭐️ 7.0/10
+## [Telegram's t.me Domain Suspended](https://www.whois.com/whois/t.me) ⭐️ 7.0/10
 
-A new open-source TypeScript library called DOM-docx has been released, which converts semantic HTML fragments (including from frameworks like React/Vue) into natively editable Word documents (.docx) with verified layout fidelity. The library uses a novel visual regression loop to score and verify the layout accuracy of the generated documents against a screenshot. This library solves a significant pain point in report automation by allowing developers to build document templates in familiar HTML/JS environments instead of wrestling with cryptic Word template code. It enables higher fidelity output and a more streamlined development workflow for generating professional Word documents programmatically. The core innovation is the screenshot-to-docx scoring loop, which uses Chromium and LibreOffice to verify that the generated Word document's layout matches the intended HTML rendering. The library is written in TypeScript and targets the Office Open XML (OOXML) format to ensure the output is valid and editable in standard word processors.
+The .me domain used by Telegram for sharing links (t.me) has been suspended, with its status showing 'serverHold' and 'clientRenewProhibited', indicating an action taken by the registry, not the registrar. 这一暂停立即影响了依赖 t.me 链接的用户和企业，凸显了域名治理和来自多国的法律压力如何能扰乱一个主要通信平台。 The suspension was enacted by the .me registry (Montenegro), not the registrar (GoDaddy), as indicated by the 'serverHold' status code, which is often used in legal disputes or domain deletion proceedings.
 
-hackernews · fishbone · Jul 13, 11:51 · [Discussion](https://news.ycombinator.com/item?id=48891267)
+hackernews · Tiberium · Jul 13, 19:52 · [Discussion](https://news.ycombinator.com/item?id=48897878)
 
-**Background**: Generating native Word documents (.docx) from HTML is a common but challenging task for report automation. Existing tools often produce output that is merely a PDF-like static image or layout hack, rather than a structurally valid document that can be edited in Microsoft Word. This library aims to bridge the gap between web-based document authoring and the widespread need for editable .docx files in professional and business contexts.
+**Background**: The t.me domain is a short link service extensively used by the Telegram messaging app to share links to channels, groups, and bots. Domain suspensions can be triggered by legal actions or regulatory requirements, with registries and registrars having different roles in enforcing such actions under ICANN's governance framework.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/floodtide/dom-docx">GitHub - floodtide/dom-docx: Convert semantic HTML fragments ...</a></li>
-<li><a href="https://dom-docx.com/">dom-docx — HTML to Word converter in the browser</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Office_Open_XML">Office Open XML - Wikipedia</a></li>
+<li><a href="https://www.icann.org/en/governance/guidelines">Governance Guidelines - icann.org</a></li>
+<li><a href="https://www.icann.org/en/contracted-parties/registry-operators/services/rights-protection-mechanisms-and-dispute-resolution-procedures/urs">Uniform Rapid Suspension (URS) - ICANN</a></li>
+<li><a href="https://pulseofpatents.com/domain-name-suspension-and-cancellation/">Understanding Domain Name Suspension and Cancellation in ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The author highlighted the frustration with cryptic errors and slow rebuild loops in traditional docx generation, positioning this tool as a more developer-friendly alternative. Commenters noted its potential use for generating CVs and praised the clever screenshot-based verification method. Some also expressed interest in seeing the approach improve browser-native PDF printing fidelity.
+**Discussion**: Commenters noted the irony of Telegram using GoDaddy as a registrar, analyzed the specific status codes (like clientRenewProhibited and serverHold) to determine the registry took the action, and speculated the legal pressure might stem from recent investigations in Russia, France, or India.
 
-**Tags**: `#document-generation`, `#HTML-to-Word`, `#open-source`, `#TypeScript`, `#report-automation`
+**Tags**: `#domain-suspension`, `#telecommunications`, `#digital-governance`, `#cybersecurity`, `#platform-risk`
 
 ---
 
 <a id="item-8"></a>
-## [Simon Willison Argues LLMs Should Never Be DRI](https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything) ⭐️ 7.0/10
+## [Samsung Health app threatens data deletion if users opt out AI training](https://neow.in/cWsyMTV3) ⭐️ 7.0/10
 
-Simon Willison discusses the 'Directly Responsible Individuals' (DRI) concept from Apple and GitLab, arguing that LLM-powered agents should never be considered DRIs for projects because accountability is a uniquely human trait. 这一评论引发了关于在人工智能增强型组织中分配问责的关键问题，敦促在项目管理与软件工程中明确区分人类的责任与机器的辅助作用。 Willison references GitLab's DRI definition and echoes a legendary 1979 IBM training slide stating computers should never make management decisions as they cannot be held accountable.
+Samsung Health app will delete users' health data if they opt out of AI training, raising major concerns about privacy, consent, and the ethics of coercive data collection practices.
 
-rss · Simon Willison · Jul 12, 23:57
+hackernews · bundie · Jul 13, 20:01 · [Discussion](https://news.ycombinator.com/item?id=48897991)
 
-**Background**: The DRI model, popularized by Apple, assigns ultimate accountability for a project to a single person. As LLM agents become more integrated into workflows, debates intensify over whether they can or should take on roles traditionally held by humans, especially those involving blame or consequence.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/">Directly Responsible Individuals (DRI) | The GitLab Handbook</a></li>
-<li><a href="https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/">Directly Responsible Individuals (DRI)</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#AI Ethics`, `#Organizational Management`, `#Accountability`, `#LLM Agents`, `#Software Engineering`
+**Tags**: `#privacy`, `#data-ethics`, `#AI-training`, `#Samsung`, `#health-apps`
 
 ---
 
 <a id="item-9"></a>
-## [Benchmarking 15 Decommissioned Enterprise GPUs for Modern AI Workloads](https://www.reddit.com/r/LocalLLaMA/comments/1uvcjd0/i_benchmarked_15_ewaste_gpus_with_modern_workloads/) ⭐️ 7.0/10
+## [DOM-docx: Open-Source HTML to Editable Word Documents](https://github.com/floodtide/dom-docx) ⭐️ 7.0/10
 
-A year-long benchmarking study systematically tested 15 older NVIDIA Tesla GPUs (like the P100, V100) across workloads including LLMs, vision, and audio processing. The results identified the V100 as the cost-effective 'sweet spot' and provided specific recommendations for budget homelab builders. This provides practical, data-driven guidance for building cost-effective AI/ML homelabs, challenging common warnings against older hardware. It helps budget-conscious users and hobbyists maximize value from widely available, decommissioned enterprise GPUs. Key findings include that the V100's performance rivals the more expensive T40, the P40 is superior to the P100 for LLMs, and the M60 is exceptionally fast for audio transcription. The study notes that multi-GPU scaling is generally linear within a chassis, but mixing GPU generations can create bottlenecks.
+DOM-docx is a new MIT-licensed TypeScript library that converts semantic HTML fragments into valid, native, and editable Word documents (OOXML). It uses an autoregressive layout verification loop to check the fidelity of the output against the original HTML, ensuring the generated DOCX files are properly structured. This tool directly addresses a common developer pain point of generating editable Word reports from web-based UIs, which existing open-source libraries often handle poorly. By providing high-fidelity conversion, it enables developers to build document templates in familiar frameworks like React or Vue while producing professional, editable output, significantly improving productivity in document generation workflows. The library's core innovation is an autoregressive verification loop where it renders the HTML, converts it to a screenshot, and uses a scoring system to iteratively adjust the Word layout to match. It handles core Word elements like paragraphs, lists, tables, and images, and the project is written entirely in TypeScript.
 
-reddit · r/LocalLLaMA · /u/eso_logic · Jul 13, 14:05
+hackernews · fishbone · Jul 13, 11:51 · [Discussion](https://news.ycombinator.com/item?id=48891267)
 
-**Background**: Decommissioned NVIDIA enterprise GPUs, such as the Tesla series, are entering the used market at low prices ($60-$200), offering abundant VRAM for homelab AI tasks. However, they face challenges like end-of-life software support, higher power consumption, and potential incompatibility with newer AI frameworks requiring Turing or Ampere architecture. Workarounds exist, such as compiling software like llama.cpp from source for older CUDA architectures.
+**Background**: Converting HTML to Word documents (.docx) is notoriously difficult because the DOCX format (Office Open XML) is complex, and many open-source converters produce files that are not fully valid or become corrupted when edited. This project aims to create high-fidelity, natively editable Word files, moving beyond simple data export to creating true template replacements.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://daily.dev/posts/benchmarking-tesla-gpus-h4nahx1tu">Benchmarking Tesla GPUs - daily.dev</a></li>
-<li><a href="https://esologic.com/benchmarking-tesla-gpus/">Benchmarking Tesla GPUs - esologic</a></li>
-<li><a href="https://angrysysadmins.tech/index.php/2026/03/grassyloki/cheapish-ai-homelab-on-a-budget-v100s-custom-boards-and-nvlink/">Cheap-ish AI HomeLab on a budget: V100s, Custom boards, and ...</a></li>
+<li><a href="https://github.com/floodtide/dom-docx?ref=upstract.com">GitHub - floodtide/ dom - docx at upstract.com · GitHub</a></li>
+<li><a href="https://dev.to/blair_googer_8e41a7d338d2/brute-forcing-my-way-to-better-html-docx-conversion-4ffj">Brute forcing my way to better HTML > DOCX conversion</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#GPU benchmarking`, `#homelab hardware`, `#cost-effective AI`, `#LLM inference`, `#NVIDIA enterprise GPUs`
+**Discussion**: The author explained the tool was born from personal frustration with existing backend document generation workflows. Commenters praised the cleverness of the screenshot-to-docx scoring loop, noted its value for report generation, and one user planned to use it to create their CV. Another user expressed hope it could lead to better print/save-to-PDF functionality in browsers.
+
+**Tags**: `#document generation`, `#HTML to DOCX`, `#TypeScript`, `#open-source tools`, `#developer productivity`
 
 ---
 
 <a id="item-10"></a>
-## [FT: Companies Turn to Chinese Open Weight Models to Cut Costs](https://www.reddit.com/r/LocalLLaMA/comments/1uvenf1/ft_companies_turn_to_chinese_open_weight_models/) ⭐️ 7.0/10
+## [Chain-of-Thought Critique & The Rise of Latent Reasoning](https://www.reddit.com/r/MachineLearning/comments/1uviru5/chain_of_thought_is_a_scaling_trap_the_next_wave/) ⭐️ 7.0/10
 
-Companies are increasingly turning to Chinese open-weight AI models as a cost-effective alternative to proprietary Western models.
+A critical analysis argues that Chain-of-Thought (CoT) prompting is a limiting 'scaling trap' due to faithfulness and cost issues, and advocates for a shift to latent reasoning paradigms like Coconut, HRM, and RecursiveMAS. This critique challenges a foundational technique in LLM reasoning and points toward more efficient and potentially more faithful architectures, which could reshape how future high-capability AI systems are built and deployed. The analysis highlights two key problems with CoT: its traces can be unfaithful to the model's actual computation, and serializing thought into text inflates latency and cost. Proposed solutions include latent reasoning (thinking in continuous space) and outer governance layers for auditability.
 
-reddit · r/LocalLLaMA · /u/chocolateUI · Jul 13, 15:23
+reddit · r/MachineLearning · /u/meowsterpieces · Jul 13, 17:50
 
-**Tags**: `#open-weight models`, `#AI cost reduction`, `#Chinese AI`, `#LLM adoption`, `#tech industry trends`
+**Background**: Chain-of-Thought (CoT) prompting is a technique where language models generate intermediate reasoning steps in text to solve complex problems. Latent reasoning is an emerging paradigm where the model's internal computation occurs in a continuous vector space (latent space) rather than being forced into a sequence of discrete text tokens. This shift aims to improve efficiency and faithfulness by decoupling the core 'thinking' process from the language output.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/facebookresearch/coconut">GitHub - facebookresearch/coconut: Training Large Language ...</a></li>
+<li><a href="https://github.com/sapientinc/HRM">GitHub - sapientinc/HRM: Hierarchical Reasoning Model ...</a></li>
+<li><a href="https://github.com/RecursiveMAS/RecursiveMAS">GitHub - RecursiveMAS/RecursiveMAS: Offical Implementation ...</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The community discussion engages with the article's provocative claims, likely debating the trade-offs between CoT's interpretability and latent reasoning's efficiency. Key questions raised include the practical design of verification systems for latent models and whether CoT is becoming an inefficient interface rather than a core reasoning path.
+
+**Tags**: `#LLM Reasoning`, `#Chain of Thought`, `#Latent Reasoning`, `#AI Scaling`, `#Machine Learning Research`
 
 ---
 
 <a id="item-11"></a>
-## [Zhipu AI Founder Advocates Open-Source AI Amid Global Security Concerns](https://www.reddit.com/r/LocalLLaMA/comments/1uvbgvx/zhipu_founder_backs_opensource_ai_as_global/) ⭐️ 7.0/10
+## [Continual Learning: A Definition and Importance Debate in AI](https://www.reddit.com/r/MachineLearning/comments/1uvm2p4/whats_your_take_on_continual_learning_d/) ⭐️ 7.0/10
 
-The founder of Zhipu AI, a major Chinese AI company, has publicly advocated for open-source AI development as global debates about AI security intensify. This position comes as the company itself has released its flagship models under an open-source license. This intervention from a leading figure in China's AI industry highlights the growing philosophical and strategic divide over how to develop and govern advanced AI systems safely and ethically. It directly challenges restrictive security-focused policies by arguing that openness can be a path to greater global security and collaboration. Zhipu AI (internationally branded as Z.ai) released its GLM family of models under the open-source MIT License in July 2025. The company was blacklisted by the U.S. Commerce Department in January 2025 due to national security concerns, making its founder's pro-open-source stance particularly notable.
+A Reddit discussion post questions the definition, technical bottlenecks, and true importance of continual learning in AI, prompted by predictions from figures like Dario Amodei and Demis Hassabis. The discussion highlights a potential disconnect between high-profile predictions about continual learning's role in achieving AGI and the actual technical consensus within the research community, affecting research direction and funding priorities. The post notes that researchers approach continual learning in fundamentally different ways, from solving catastrophic forgetting to online, lifelong, or meta-learning, leading to shifting goalposts and definitional ambiguity.
 
-reddit · r/LocalLLaMA · /u/computeruser420 · Jul 13, 13:23
+reddit · r/MachineLearning · /u/watercolorer2024 · Jul 13, 19:47
 
-**Background**: Zhipu AI is a prominent Chinese AI company spun off from Tsinghua University, known for its GLM large language models. The global debate on AI security has escalated, with the UN Security Council holding high-level meetings on the topic. Key tensions revolve around whether restricting access to powerful AI models is necessary for safety, or if open development fosters broader security through transparency and distributed oversight.
+**Background**: Continual learning, also known as lifelong or incremental learning, focuses on enabling AI systems to learn and adapt continuously over time without forgetting previously acquired knowledge. A major technical challenge in this area is 'catastrophic forgetting,' where neural networks abruptly forget old information upon learning new tasks. The field encompasses related but distinct paradigms like online, lifelong, and meta-learning.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Zhipu_AI">Zhipu AI</a></li>
-<li><a href="https://news.un.org/en/story/2025/09/1165941">Security Council LIVE: Guardrails urgently needed for AI on ...</a></li>
+<li><a href="https://www.linkedin.com/pulse/continual-learning-artificial-intelligence-varsc">Continual Learning in Artificial Intelligence</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Catastrophic_interference">Catastrophic interference - Wikipedia</a></li>
+<li><a href="https://www.cs.uic.edu/~liub/lifelong-learning.html">Lifelong and Continual Machine Learning</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The provided content does not include specific community comments. The discussion is expected to center on the philosophical alignment with open-source principles, the practical implications of a major Chinese company's stance, and the broader geopolitical tensions around AI development.
-
-**Tags**: `#AI policy`, `#open-source AI`, `#AI ethics`, `#AI security`, `#industry commentary`
+**Tags**: `#Continual Learning`, `#Machine Learning`, `#AI Fundamentals`, `#AGI`, `#Research Discussion`
 
 ---
 
 <a id="item-12"></a>
-## [Gemma 4 LLM Runs Inside Godot Using Only GDScript and Vulkan Shaders](https://www.reddit.com/r/LocalLLaMA/comments/1uv66by/i_got_gemma_4_running_directly_inside_godot_using/) ⭐️ 7.0/10
+## [GPUHedge Tool Cuts Serverless GPU Cold Start Latency](https://www.reddit.com/r/MachineLearning/comments/1uvlb6h/gpuhedge_hedging_serverless_gpu_providers/) ⭐️ 7.0/10
 
-A developer successfully created a proof-of-concept project that runs the Gemma 4 LLM (specifically the gemma-4-E2B-it-Q4_K_M.gguf model) directly within the Godot 4.7 game engine. The entire system, including model loading, tokenization, and UI, is implemented using only GDScript and Vulkan compute shaders, with no external dependencies like llama.cpp or Python servers. This demonstration shows that large language model inference can be integrated directly into a game engine using its native scripting and graphics API, potentially opening new avenues for AI-enhanced game development without complex external toolchains. It highlights the versatility of Vulkan's compute capabilities beyond traditional graphics rendering for general-purpose AI workloads. The implementation is currently about 10 times slower than running the same model with llama.cpp and CUDA acceleration, making it a proof-of-concept rather than a production-ready solution. The project only supports the specific quantized Gemma 4 Q4_K_M model and relies on Godot 4.7's Vulkan-based rendering backend.
+GPUHedge is an open-source tool that uses speculative hedging to send requests to multiple serverless GPU providers in parallel, dramatically reducing the 95th percentile (p95) cold start latency from 117 seconds to 30 seconds in benchmarks. 这直接解决了在无服务器基础设施上部署 ML 模型的一个主要痛点——不可预测且漫长的冷启动——这可能会阻碍实时 AI 应用程序并增加运营成本。 The tool operates by launching a primary request and conditionally starting a backup on a different provider, using the first valid result and cancelling the slower job via the provider's API.
 
-reddit · r/LocalLLaMA · /u/toxicdog · Jul 13, 09:01
+reddit · r/MachineLearning · /u/Putrid_Construction3 · Jul 13, 19:20
 
-**Background**: Gemma is a series of open-weight large language models developed by Google DeepMind, with Gemma 4 being the latest version. GGUF is a standardized file format for efficiently storing and loading quantized LLMs, commonly used by local inference tools. Vulkan compute shaders allow for general-purpose parallel computation on the GPU, a feature that this project leverages to perform the model's matrix calculations within the game engine's rendering pipeline.
+**Background**: Serverless GPU providers offer scalable compute for AI tasks but require resources to be allocated on-demand, leading to 'cold start' delays of 30-90+ seconds when a GPU instance is not pre-warmed. Speculative execution or 'hedging' is a known distributed systems pattern for mitigating tail latency by sending redundant requests and using the fastest response.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Gemma_(LLM)">Gemma (LLM)</a></li>
-<li><a href="https://docs.vulkan.org/guide/latest/compute_shaders.html">Compute Shaders :: Vulkan Documentation Project</a></li>
-<li><a href="https://blog.mikihands.com/en/whitedec/2025/11/20/gguf-format-complete-guide-local-llm-new-standard/">Complete Guide to GGUF Format - The New Standard for Local LLMs</a></li>
+<li><a href="https://regolo.ai/scale-to-zero-cold-start-latency-why-serverless-gpu-breaks-real-time-ai-and-how-to-fix-it/">Scale-to-Zero Cold Start Latency : Why Serverless GPU ... - regolo.ai</a></li>
+<li><a href="https://www.codesprintpro.com/blog/speculative-retries-hedged-requests/">Speculative Retries: The Google Approach to Solving Tail Latency</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The provided content includes the original post but no community comments, so there is no discussion to summarize.
-
-**Tags**: `#Local LLM`, `#Game Development`, `#Vulkan`, `#Godot Engine`, `#LLM Inference`
+**Tags**: `#serverless computing`, `#GPU`, `#cold start latency`, `#machine learning infrastructure`, `#open source`
 
 ---
 
 <a id="item-13"></a>
-## [Startup Compresses 27B Qwen Model to Run on iPhone](https://www.reddit.com/r/LocalLLaMA/comments/1uv54fv/compressed_version_of_qwen3627b_coming_from/) ⭐️ 7.0/10
+## [Open-Source Tool 'Research Radar' Automates arXiv Paper Discovery and Summarization](https://www.reddit.com/r/MachineLearning/comments/1uvcdf7/hundreds_of_papers_hit_arxiv_every_day_and_maybe/) ⭐️ 7.0/10
 
-PrismML, a startup backed by Khosla Ventures, has compressed Alibaba's open-source Qwen 3.6 (27B parameters) model to under 4GB, enabling it to run fully on an iPhone 17 Pro. The compressed model is set to be released as open-source the following Tuesday. 这一突破声称展示了拥有270亿活跃参数的大型语言模型能够本地运行在智能手机上，这可能会从根本上将AI处理从云端转移到边缘设备。它有望直接在个人设备上实现复杂、保护隐私的AI任务（如编程和推理），从而改变AI的经济性和可及性。 PrismML uses a mathematical compression technique based on ternary weights ({-1, 0, 1}) to shrink the model from ~54GB to <4GB, with the company claiming no significant performance loss. Unlike Apple's new 20B-parameter on-device model which uses a sparse architecture with only 1-4B active parameters, PrismML's compressed Qwen 3.6 keeps all 27 billion parameters active simultaneously.
+A user has built and released Research Radar, an open-source tool that automates the discovery, relevance scoring, and summarization of daily arXiv papers based on a user's research interests defined in a markdown file. The tool runs as a daily cron job, delivering a curated HTML digest and optional Telegram notifications of the most relevant papers. This tool addresses a major pain point for researchers—information overload—by filtering the hundreds of daily arXiv submissions to surface only the work truly relevant to a specific research agenda. It democratizes access to a personalized literature review process, potentially saving significant time and improving research focus across various scientific domains. The system uses a two-pass LLM approach: a cheap model for initial scoring and a strong model for deep-reading the top papers, and it is designed to be domain-agnostic and model-agnostic, supporting backends like Claude Code, OpenAI-compatible endpoints, or local models via Ollama/vLLM. The creator notes that scoring calibration is a key challenge, as the model must frequently assign low scores without drifting toward score inflation.
 
-reddit · r/LocalLLaMA · /u/pmttyji · Jul 13, 07:59
+reddit · r/MachineLearning · /u/usedtobreath · Jul 13, 13:59
 
-**Background**: Qwen 3.6-27B is a recent flagship open-source dense language model from Alibaba, known for strong performance on coding and reasoning benchmarks. Running large language models on mobile devices is challenging due to memory and computational constraints, so most current on-device models are significantly smaller. Model compression techniques aim to reduce model size and computational needs while maintaining performance, which is crucial for edge AI deployment.
+**Background**: arXiv is a major open-access repository for scientific preprints, particularly in fields like machine learning, physics, and mathematics, where hundreds of new papers are posted daily. Researchers often use its API and RSS feeds for discovery, but manually filtering and reading these papers is time-consuming. There is a growing trend of using Large Language Models (LLMs) to automate tasks like abstract screening and PDF summarization to manage this information firehose.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.programming-helper.com/tech/prismml-27-billion-parameter-ai-iphone-breakthrough-2026">PrismML Breakthrough: Startup Runs 27-Billion-Parameter AI ...</a></li>
-<li><a href="https://prismml.com/">PrismML — Concentrating intelligence</a></li>
-<li><a href="https://github.com/QwenLM/Qwen3.6">GitHub - QwenLM/Qwen3.6: Qwen3.6 is the large language model ...</a></li>
+<li><a href="https://info.arxiv.org/help/api/user-manual.html">arXiv API User's Manual - arXiv info arXiv API Access - arXiv info Paper discovery feed with arXiv API and AI summaries arxiv-docs/source/help/api/user-manual.md at develop - GitHub ArXiv API - VOLT arxiv · PyPI arxiv-docs/source/help/api/index.md at develop - GitHub</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11339526/">A question-answering framework for automated abstract ...</a></li>
+<li><a href="https://python.plainenglish.io/how-i-built-a-python-script-that-reads-any-pdf-understands-it-like-a-human-and-summarizes-it-in-c1d4dbba79db">How I Built a Python Script That Reads Any PDF, Understands ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The provided content does not include community comments from the Reddit link, so a summary cannot be formulated.
-
-**Tags**: `#model-compression`, `#on-device-ai`, `#LLM`, `#mobile-ML`, `#open-source`
+**Tags**: `#arXiv`, `#research productivity`, `#NLP`, `#open-source tools`, `#machine learning`
 
 ---
 
 <a id="item-14"></a>
-## [Tokenizer Efficiency Impacts Real Cost of AI Models](https://playcode.io/blog/real-price-of-frontier-models) ⭐️ 6.0/10
+## [Evaluating J-space entropy as an error predictor across 7 datasets on Qwen3-4B (R)](https://www.reddit.com/r/MachineLearning/comments/1uv5l75/evaluating_jspace_entropy_as_an_error_predictor/) ⭐️ 7.0/10
 
-The article analyzes how different tokenizers from providers like OpenAI and Anthropic encode text into tokens, revealing that a model's advertised per-token price is not the whole story. It demonstrates that a more efficient tokenizer can make the same text cheaper to process, significantly altering the real-world cost of using frontier models. This analysis is significant for businesses and developers because tokenizer efficiency directly affects the total cost of operating AI applications, making it a critical factor for cost optimization beyond simple per-token pricing. Understanding this helps in making informed model selection and deployment decisions to manage AI spending effectively. The article points out that OpenAI's o200k_base tokenizer, used since GPT-4o, is approximately 1.6 to 2 times more efficient than Anthropic's current tokenizer for certain codebases, leading to lower token counts and thus lower costs for similar tasks. It also notes that community discussion raised questions about whether cache read pricing structures might obscure the true quadratic cost increase associated with longer conversation contexts.
+A systematic evaluation of J-space entropy as an error predictor across seven diverse datasets on the Qwen3-4B model reveals it can complement output confidence for factual retrieval but is unreliable for detecting internalized misconceptions and its calibration is highly task-dependent.
 
-hackernews · ianberdin · Jul 13, 18:32 · [Discussion](https://news.ycombinator.com/item?id=48896800)
+reddit · r/MachineLearning · /u/dasjomsyeet · Jul 13, 08:27
 
-**Background**: AI models like GPT-4 and Claude charge based on tokens, which are pieces of text. Tokenization is the process of splitting input text into these tokens, and different models use different tokenizers with varying efficiency. A more efficient tokenizer represents the same amount of text using fewer tokens, which can directly reduce the cost of API calls.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.linkedin.com/pulse/tokenization-how-tokens-shape-ai-efficiency-cost-undurraga-breitling-2bere">Tokenization: How Tokens Shape AI Efficiency and Cost - LinkedIn</a></li>
-<li><a href="https://www.burnwise.io/blog/llm-cost-optimization-complete-guide">The Complete Guide to LLM Cost Optimization (2026)</a></li>
-<li><a href="https://techbriefed.com/blog/frontier-model-pricing-per-token">Frontier Model Pricing: What You're Actually … | TechBriefed</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters provided technical comparisons, noting OpenAI's tokenizer is significantly more efficient than Anthropic's, and questioned whether output pricing truly reflects costs for long-context interactions. However, some also expressed concern that the article's writing style may indicate it was AI-generated, raising questions about its fact-checking rigor.
-
-**Tags**: `#AI Economics`, `#Tokenizer Efficiency`, `#LLM Pricing`, `#AI Infrastructure`, `#Cost Optimization`
+**Tags**: `#LLM Interpretability`, `#Error Detection`, `#Model Evaluation`, `#Mechanistic Interpretability`, `#Qwen`
 
 ---
 
 <a id="item-15"></a>
-## [How Sega CD's Silpheed Mastered FMV Graphics on Limited Hardware](https://fabiensanglard.net/silpheed/index.html) ⭐️ 6.0/10
+## [LAPD Lets Surveillance Contract Expire Over Privacy Concerns](https://techcrunch.com/2026/07/13/lapd-lets-contract-with-surveillance-giant-flock-expire-citing-serious-concerns-over-civil-liberties-and-privacy/) ⭐️ 6.0/10
 
-An in-depth technical article analyzes the engineering and artistry behind the Sega CD game Silpheed, detailing how it achieved visually impressive full-motion video (FMV) graphics on the console's limited hardware. This analysis provides valuable insights into creative programming and hardware exploitation techniques used to overcome severe technical constraints, which is instructive for retro computing enthusiasts and developers interested in low-level optimization. The article explains that Silpheed used FMV but cleverly attempted to create the illusion of a polygon-based 3D game, despite the Sega CD having no dedicated 3D capabilities.
+The Los Angeles Police Department allowed its contract with the surveillance company Flock Safety to expire, citing serious concerns over civil liberties and privacy. However, the expiration does not terminate Flock's access to the data collected by its camera network. 这一决定揭示了政府监控采购中的一个关键漏洞：终止合同并不必然拆除底层基础设施或停止数据收集。它凸显了市政警察实践、供应商对公共监控资产的控制以及隐私倡导之间日益紧张的关系。 Flock Safety owns the cameras and poles, so even after the contract expires, its equipment can continue operating and potentially sell data to other agencies like the CHP, FBI, or Palantir. The case underscores systemic issues where political pressure is ineffective due to the vendor's resilient business model.
 
-hackernews · ibobev · Jul 13, 14:52 · [Discussion](https://news.ycombinator.com/item?id=48893639)
+hackernews · forks · Jul 13, 15:11 · [Discussion](https://news.ycombinator.com/item?id=48893947)
 
-**Background**: The Sega CD, also known as the Mega CD, was an add-on for the Sega Genesis/Mega Drive console that played CD-based games and offered enhanced hardware features like a faster CPU and a custom graphics chip. Full-Motion Video (FMV) games, which used pre-rendered video sequences as a primary visual element, were a hallmark of early CD-based consoles but often had a reputation for prioritizing video over deep gameplay.
+**Background**: Flock Safety is a major U.S. surveillance technology vendor whose network of automated license plate reader cameras is deployed in thousands of communities. Its systems use image recognition and machine learning to scan and share vehicle data with police departments. This case is part of a broader trend of cities and oversight boards scrutinizing surveillance technology purchases as significant civil liberties decisions.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://fabiensanglard.net/silpheed/index.html">The art and engineering of Sega CD Silpheed - fabiensanglard.net</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Sega_CD">Sega CD - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Flock_Safety">Flock Safety - Wikipedia</a></li>
+<li><a href="https://www.eff.org/deeplinks/2025/12/procurement-power-when-cities-realized-they-can-just-say-no-2025-review">Procurement Power—When Cities Realized They Can Just Say No...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters share personal nostalgia for the Sega CD and Silpheed, with one recalling the game's impressive visual impact. The discussion also drifts to related topics, including the remarkable technical feats achieved on the stock Mega Drive hardware, and a minor correction is offered regarding the article's description of the console's sound setup.
+**Discussion**: Commenters expressed cynicism about the move, noting Flock's business model allows it to retain data access and sell it to other entities, making the contract expiration a hollow gesture. There was frustration with ineffective policing and calls for laws prohibiting governments from buying data they couldn't legally collect themselves. Some questioned the existence of truly privacy-first alternatives.
 
-**Tags**: `#retro gaming`, `#game development`, `#computer graphics`, `#hardware engineering`, `#Sega`
+**Tags**: `#civil liberties`, `#privacy`, `#surveillance technology`, `#police reform`, `#data governance`
 
 ---
 
 <a id="item-16"></a>
-## [Reddit Post Advocates for Local Models and Open-Source Tools](https://www.reddit.com/r/LocalLLaMA/comments/1uvlwz0/this_is_why_we_need_local_models_and_opensource/) ⭐️ 6.0/10
+## [ICML Acceptance of Verbalized Sampling Paper Sparks Debate](https://www.reddit.com/r/MachineLearning/comments/1uv1xb3/promptengineering_paper_accepted_to_icml_r/) ⭐️ 6.0/10
 
-A post on the r/LocalLLaMA subreddit argues for the necessity of running AI models locally and using open-source harnesses. The author emphasizes these tools for enhanced privacy, user control, and community-driven AI development. 这篇观点文章凸显了人们对AI生态中数据隐私和企业控制日益增长的担忧，引起了重视本地化、透明替代方案的开发者和用户群体的共鸣。它重申了开源项目在促进创新和保持AI开发可及性方面的价值。 The post itself is an opinion piece without novel technical breakthroughs, focusing instead on the practical and philosophical case for decentralized AI. Its significance lies in its community engagement within the LocalLLaMA subreddit, which is dedicated to the implementation and discussion of local large language models.
+A paper titled "Verbalized Sampling: How to Mitigate Mode Collapse and Unlock LLM Diversity" was accepted at ICML, proposing a simple prompt engineering technique to improve the diversity of outputs from large language models (LLMs). Its acceptance at ICML, a top-tier machine learning conference, validates prompt engineering as a legitimate area of academic research and could lead to wider adoption of this simple technique to address the common LLM problem of mode collapse. The method, called Verbalized Sampling, involves prompting the model to generate a set of responses (e.g., five jokes) along with their probabilities, which then samples from this stated distribution to produce more diverse outputs.
 
-reddit · r/LocalLLaMA · /u/Comfortable-Rock-498 · Jul 13, 19:41
+reddit · r/MachineLearning · /u/Mean_Revolution1490 · Jul 13, 05:00
 
-**Background**: Local AI models refer to large language models (LLMs) that are downloaded and run entirely on a user's own hardware, such as a personal computer, instead of relying on cloud-based APIs. Open-source harnesses are software frameworks and tools, like LocalAI or PyTorch, that allow users to run, modify, and build upon these models without proprietary restrictions. The movement towards local and open-source AI is driven by desires for greater data privacy, reduced latency, cost control, and the ability to customize models freely.
+**Background**: LLM mode collapse occurs when a model generates repetitive or limited outputs, failing to capture the full range of possible responses. Prompt engineering is the practice of crafting input instructions to guide a language model's behavior, and ICML is a premier academic conference for machine learning research.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://localai.io/">LocalAI</a></li>
-<li><a href="https://www.sciencedirect.com/science/article/pii/S2667295225000042">On protecting the data privacy of Large Language Models (LLMs ...</a></li>
-<li><a href="https://www.simplilearn.com/open-source-ai-frameworks-article">The Top Five Open - Source AI Frameworks</a></li>
+<li><a href="https://arxiv.org/html/2510.01171v1">Verbalized Sampling: How to Mitigate Mode Collapse and Unlock ...</a></li>
+<li><a href="https://icml.cc/Conferences/2026">2026 Conference - icml.cc</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#local models`, `#open source`, `#AI privacy`, `#LLM`, `#community discussion`
+**Discussion**: The discussion centers on whether a simple prompt engineering trick qualifies as rigorous enough for a top-tier ML conference, with some viewing it as "modern machine learning" and others arguing it should be published in less technical venues.
 
----
-
-<a id="item-17"></a>
-## [Questioning Private AI Development vs. Open-Source Risks](https://www.reddit.com/r/LocalLLaMA/comments/1uvll20/if_frontier_ai_is_so_dangerous_why_should_private/) ⭐️ 6.0/10
-
-A Reddit post argues that if frontier AI developed by private companies like OpenAI and Anthropic is dangerously powerful, then either it should be restricted for everyone or open-source alternatives should be allowed to compete. The author contends that current policies are inconsistent, allowing corporate development while potentially stifling open-source models under safety pretexts. This discussion highlights a core tension in AI governance: the legitimacy of private companies controlling powerful, potentially hazardous technology while advocating for restrictions on competitors. It affects public policy debates, the future of open-source AI ecosystems, and how society balances innovation with safety. The argument draws analogies to highly regulated industries like nuclear weapons or genetic engineering, suggesting frontier AI should face similar oversight. It critiques the use of safety concerns as a potential tactic for companies to protect business advantages and market value.
-
-reddit · r/LocalLLaMA · /u/Strange_Test7665 · Jul 13, 19:29
-
-**Background**: "Frontier AI" refers to the most advanced AI systems at the cutting edge of capability, which governments and organizations often flag as having potential for significant risks. A debate exists between those advocating for stricter controls on its development (including limiting open-source release) to mitigate dangers, and those who believe open-source competition is necessary for safety, innovation, and preventing monopolistic control by a few private corporations.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.gov.uk/government/publications/frontier-ai-capabilities-and-risks-discussion-paper/frontier-ai-capabilities-and-risks-discussion-paper">Frontier AI: capabilities and risks – discussion paper - GOV.UK</a></li>
-<li><a href="https://aisecurityandsafety.org/en/glossary/frontier-ai/">Frontier AI — Definition & Implications for AI Safety</a></li>
-<li><a href="https://tubegraph.vercel.app/lexfridman/ai_safety_and_open_source">AI safety and open source</a></li>
-
-</ul>
-</details>
-
-**Discussion**: As no specific comments were provided for this analysis, I cannot summarize community viewpoints.
-
-**Tags**: `#AI safety`, `#AI policy`, `#open-source AI`, `#AI governance`, `#tech ethics`
-
----
-
-<a id="item-18"></a>
-## [Mistral AI Launches Community Feedback Survey for Local LLM Users](https://www.reddit.com/r/LocalLLaMA/comments/1uvlhii/mistral_community_feedback_survey/) ⭐️ 6.0/10
-
-Mistral AI has released a community feedback survey specifically targeting users who run large language models locally. The survey aims to gather input on preferred model sizes and operational needs for future development. This survey is significant because it provides a direct channel for the user community to influence the future direction of Mistral's open-weight model development. It highlights the growing importance of the local AI ecosystem and the demand for models that balance performance with hardware accessibility. The survey specifically asks about preferences for open-weight models in the ~30-120 billion parameter range that can be run locally, addressing a common request in communities like r/LocalLLaMA. It is a data-collection effort by Mistral AI to understand user needs for self-hosted AI deployment.
-
-reddit · r/LocalLLaMA · /u/sdroege_ · Jul 13, 19:26
-
-**Background**: Mistral AI is a French AI company known for developing high-performing large language models, some of which are open-source. Running LLMs locally, using tools like Ollama or llama.cpp, has become increasingly popular among developers and enthusiasts for reasons of privacy, cost control, and customization. The community, particularly on forums like Reddit's r/LocalLLaMA, often expresses a need for more open models that are powerful yet small enough to run on consumer or prosumer hardware.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Mistral_AI">Mistral AI</a></li>
-<li><a href="https://daily.dev/blog/running-llms-locally-ollama-llama-cpp-self-hosted-ai-developers/">Running LLMs Locally in 2026: Ollama, llama.cpp, and Self ...</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#LLMs`, `#community-feedback`, `#model-sizing`, `#local-ai`, `#Mistral`
-
----
-
-<a id="item-19"></a>
-## [GLM 5.2 Runs Locally on MacBook Pro M5 via Flash MOE](https://www.reddit.com/r/LocalLLaMA/comments/1uvlhxl/glm_52_running_on_macbook_pro_m5_48_gb_ram_at/) ⭐️ 6.0/10
-
-A user reported successfully running the quantized GLM 5.2 model on a MacBook Pro M5 with 48 GB RAM, achieving inference speeds of 2 to 2.8 tokens per second using the MLX framework and Flash MOE architecture. This demonstrates the growing feasibility of running powerful, frontier-class open-source large language models on consumer-grade hardware, which is a key interest for the local LLM community focused on privacy, cost, and offline use. The model used was a 3.6-bit quantized version named GLM-5.2-MLX-mixed-3_6bit, and the benchmarks were run in a custom development harness with a pre-prompt of 4.4k tokens.
-
-reddit · r/LocalLLaMA · /u/gutard · Jul 13, 19:26
-
-**Background**: GLM 5.2 is a recent, top-performing open-source large language model known for its strong coding and long-context capabilities. Flash MOE is an open-source library that implements a Mixture of Experts architecture, enabling efficient inference of very large models on limited memory by activating only a subset of model parameters. MLX is an array framework developed by Apple for efficient machine learning on Apple silicon.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://openlm.ai/glm-5.2/">GLM-5.2 - openlm.ai</a></li>
-<li><a href="https://udit.co/blog/flash-moe-397b-parameters-consumer-laptop-inference">Flash - MoE runs 397 billion parameters on a consumer laptop</a></li>
-<li><a href="https://mlx-framework.org/">MLX</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#local-llm`, `#llm-benchmarking`, `#macbook`, `#quantization`, `#ai-inference`
-
----
-
-<a id="item-20"></a>
-## [Community-Quantized Qwen3.6-35B Model Released for Agent Tasks](https://www.reddit.com/r/LocalLLaMA/comments/1uvk1if/qwen3635ba3buncensoredgenesishermesv2gguf/) ⭐️ 6.0/10
-
-A community member has shared a fine-tuned and GGUF-quantized version of the Qwen3.6-35B-A3B LLM, specifically enhanced for better performance in agent tasks and reduced reasoning loops. This release provides a ready-to-use, locally deployable model that improves stability and effectiveness for agentic workflows, which is valuable for developers building self-directed AI systems on consumer hardware. The model is provided in a GGUF format (recommended quantization: APEX Q6_K) and includes specific inference settings, with enhancements like better system prompt understanding and improved long-context handling noted in quick tests.
-
-reddit · r/LocalLLaMA · /u/EvilEnginer · Jul 13, 18:35
-
-**Background**: GGUF is a binary file format that packages all necessary model data into a single, portable file for efficient local inference with runtimes like llama.cpp. Model quantization, such as Q6_K, reduces the size and memory footprint of an LLM by representing its weights with lower precision data types, enabling deployment on less powerful hardware with minimal quality loss.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.datacamp.com/tutorial/gguf-format-a-complete-guide">GGUF Format: A Complete Guide to Local LLM Inference</a></li>
-<li><a href="https://www.tensorops.ai/post/what-are-quantized-llms">LLM Quantization : Techniques, Advantages, and Models</a></li>
-<li><a href="https://hermes-agent.nousresearch.com/docs/">Hermes Agent Documentation | Hermes Agent</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#local-llm`, `#llama`, `#model-quantization`, `#open-source-ai`, `#huggingface`
-
----
-
-<a id="item-21"></a>
-## [Wan-Dancer: Hierarchical Music-to-Dance Generation Framework](https://www.reddit.com/r/LocalLLaMA/comments/1uvdaq7/wandancer_a_hierarchical_framework_for/) ⭐️ 6.0/10
-
-The paper introduces Wan-Dancer, a hierarchical framework that generates minute-scale, coherent dance videos from music by decoupling global keyframe planning from local refinement. The authors also released the model weights and inference code for public use. This framework overcomes the ~20-second temporal limitation of current diffusion models in video synthesis, enabling the creation of longer, more stable, and rhythmically synchronized dance videos. It advances the state-of-the-art in AI-driven music-to-dance generation with potential applications in entertainment and content creation. Key innovations include dynamic frame rate adaptation using time-mapped RoPE embeddings for precise audio-visual alignment, an optical-flow-based loss function to enhance motion continuity, and motion-speed control to preserve detail during rapid movements. The model generates stable 720p/30fps videos exceeding one minute and is versatile across five distinct dance genres, conditioned on both audio and textual prompts.
-
-reddit · r/LocalLLaMA · /u/pmttyji · Jul 13, 14:33
-
-**Background**: Diffusion models have been widely used for video generation, but they typically suffer from temporal limitations, making it difficult to produce videos longer than about 20 seconds without issues like motion drift, identity inconsistency, or repetitive patterns. Music-to-dance generation specifically requires long-range coherence and precise synchronization between audio rhythm and physical motion. Previous approaches, whether using 3D skeletons or end-to-end synthesis, struggled with maintaining consistency and quality over extended durations.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://arxiv.org/html/2607.09581v1">Wan-Dancer: A Hierarchical Framework for Minute-scale ...</a></li>
-<li><a href="https://lilianweng.github.io/posts/2024-04-12-diffusion-video/">Diffusion Models for Video Generation | Lil'Log - GitHub Pages Video diffusion generation: comprehensive review and open ... Video diffusion generation: comprehensive review and open ... Lumiere: A Space-Time Diffusion Model for Video Generation Redefining Temporal Modeling in Video Diffusion: The ...</a></li>
-<li><a href="https://towardsdatascience.com/rope-clearly-explained/">RoPE, Clearly Explained - Towards Data Science</a></li>
-
-</ul>
-</details>
-
-**Discussion**: No community comments were provided in the prompt for analysis.
-
-**Tags**: `#Music-to-Dance Generation`, `#Diffusion Models`, `#Video Synthesis`, `#Computer Vision`, `#AI Research`
+**Tags**: `#prompt engineering`, `#LLM`, `#ICML`, `#research methodology`, `#sampling`
 
 ---
 
