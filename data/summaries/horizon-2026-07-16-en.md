@@ -1,351 +1,402 @@
 # Horizon Daily - 2026-07-16
 
-> From 22 items, 15 important content pieces were selected
+> From 27 items, 18 important content pieces were selected
 
 ---
 
-1. [Inkling: Our open-weights model](#item-1) ⭐️ 9.0/10
-2. [Moonshot AI launches Kimi K3, a 2.8T-parameter frontier model](#item-2) ⭐️ 8.0/10
-3. [Roc Compiler Rewrite: From Rust to Zig](#item-3) ⭐️ 8.0/10
-4. [Linus Torvalds: Linux Will Not Be an Anti-AI Project](#item-4) ⭐️ 8.0/10
-5. [QLoRA's Default Learning Rate May Overfit Small Datasets](#item-5) ⭐️ 8.0/10
-6. [ExTernD: Flexible-Accuracy Ternary Quantization for LLMs](#item-6) ⭐️ 8.0/10
-7. [PnP-CoSMo: Multi-Contrast MRI Reconstruction via Content/Style Modeling](#item-7) ⭐️ 8.0/10
-8. [Rethinking AI Memory: From Facts to Cognitive Patterns](#item-8) ⭐️ 8.0/10
-9. [Nostalgia for Music Piracy in the Streaming Era](#item-9) ⭐️ 7.0/10
-10. [xAI's Grok CLI Tool Open-Sourced After Privacy Backlash](#item-10) ⭐️ 7.0/10
-11. [Microsoft Comic Chat IRC Client Goes Open Source](#item-11) ⭐️ 6.0/10
-12. [Sony Deletes More Movies from User Accounts, Sparking Ownership Debates](#item-12) ⭐️ 6.0/10
-13. [Student Researchers Decry High ECCV Conference Fees and Waiver Denials](#item-13) ⭐️ 6.0/10
-14. [Seeking Critical Perspectives on JEPA for Robot Learning](#item-14) ⭐️ 6.0/10
-15. [Seeking Python Tools for Hierarchical Multi-Objective Optimization](#item-15) ⭐️ 6.0/10
+1. [Thinking Machines Lab releases Inkling, a massive 975B open-weights multimodal model](#item-1) ⭐️ 9.0/10
+2. [Kimi K3 Launches with 1M Context, 2.8T Params](#item-2) ⭐️ 8.0/10
+3. [Roc Compiler Rewrite: Rust to Zig Progress](#item-3) ⭐️ 8.0/10
+4. [xAI Open-Sources Grok Build After Privacy Backlash](#item-4) ⭐️ 8.0/10
+5. [PnP-CoSMo: Content/Style Model for Multi-Contrast MRI Reconstruction](#item-5) ⭐️ 8.0/10
+6. [Microsoft Open-Sources 1996 Comic Chat IRC Client](#item-6) ⭐️ 7.0/10
+7. [OnePlus Ends New Product Launches in USA, Europe](#item-7) ⭐️ 7.0/10
+8. [Let's Build PlanetScale from Scratch: Infrastructure](#item-8) ⭐️ 7.0/10
+9. [QLoRA's 2e-4 Default Learning Rate Fails for Small Datasets](#item-9) ⭐️ 7.0/10
+10. [Decoy Font Hides Secondary Message via Visual Shading](#item-10) ⭐️ 6.0/10
+11. [GOES-19 Satellite Enters Safe Hold Mode](#item-11) ⭐️ 6.0/10
+12. [Reflecting on the Lost Joy and Community of Music Piracy](#item-12) ⭐️ 6.0/10
+13. [Codex Agent Bug Can Accidentally Delete User's Home Directory](#item-13) ⭐️ 6.0/10
+14. [Torvalds Asserts Linux Project Welcomes AI Tools](#item-14) ⭐️ 6.0/10
+15. [Mermaid to Unicode Box Art Tool via WebAssembly](#item-15) ⭐️ 6.0/10
+16. [ExTernD: Ternary LLM Decomposition for Arbitrary Accuracy](#item-16) ⭐️ 6.0/10
+17. [Is AI Memory Optimizing for Facts, Not Reasoning Patterns?](#item-17) ⭐️ 6.0/10
+18. [Seeking Best Python Stack for Multi-Objective Surrogate-Based Optimization](#item-18) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Inkling: Our open-weights model](https://simonwillison.net/2026/Jul/16/inkling/#atom-everything) ⭐️ 9.0/10
+## [Thinking Machines Lab releases Inkling, a massive 975B open-weights multimodal model](https://simonwillison.net/2026/Jul/16/inkling/#atom-everything) ⭐️ 9.0/10
 
-Thinking Machines Lab releases Inkling, a massive 975B-parameter open-weights multimodal model licensed under Apache 2.0.
+Thinking Machines Lab, led by Mira Murati, has released Inkling, its first open-weights model. It is a 975B-parameter Mixture-of-Experts multimodal model trained on 45 trillion tokens and released under an Apache-2.0 license. This release significantly strengthens the U.S. open-weights AI ecosystem by providing a powerful, competitive base model for customization and fine-tuning, challenging the recent dominance of open-weight models from China. Inkling is not positioned as a frontier model but as a strong base for customization via their Tinker platform, and it supports a context window of up to 1M tokens with native multimodality for text, images, audio, and video.
 
 rss · Simon Willison · Jul 16, 15:35
 
-**Tags**: `#AI`, `#open-source`, `#large-language-models`, `#multimodal`, `#release`
+**Background**: Open-weights models release the pre-trained weights (learned parameters) for others to use, fine-tune, or study, unlike fully open-source models which may also require releasing training data and code. A Mixture-of-Experts (MoE) transformer is an architecture that uses sparse activation, where only a subset of the model's total parameters (the 'experts') are active for any given input, making it computationally efficient to train and run very large models.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.marktechpost.com/2026/07/15/thinking-machines-lab-releases-inkling-a-975b-parameter-open-weights-multimodal-moe-with-41b-active-parameters-and-controllable-thinking-effort/">Thinking Machines Lab Releases Inkling: A 975B-Parameter Open ...</a></li>
+<li><a href="https://thinkingmachines.ai/model-card/inkling/">Inkling Model Card - Thinking Machines Lab</a></li>
+<li><a href="https://machinelearningmastery.com/mixture-of-experts-architecture-in-transformer-models/">Mixture of Experts Architecture in Transformer Models - MachineLearningMastery.com</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Based on the provided content, the author Simon Willison notes the release is 'good to see' as a new viable contender for the U.S. open weights ecosystem, joining models like NVIDIA Nemotron and Gemma 4, and demonstrates its multimodal capabilities by generating and describing an SVG image.
+
+**Tags**: `#open-weights`, `#multimodal-AI`, `#large-language-models`, `#AI-research`, `#AI-ethics`
 
 ---
 
 <a id="item-2"></a>
-## [Moonshot AI launches Kimi K3, a 2.8T-parameter frontier model](https://www.kimi.com/en) ⭐️ 8.0/10
+## [Kimi K3 Launches with 1M Context, 2.8T Params](https://www.kimi.com/en) ⭐️ 8.0/10
 
-Moonshot AI has launched Kimi K3, a new large language model with 2.8 trillion parameters and a 1 million token context window. The company claims it delivers frontier-level performance and will release open weights for the model in the coming days. Kimi K3's launch introduces a major new contender to the competitive AI model landscape, especially among open-weight models, potentially offering a high-performance alternative to proprietary systems like Claude and GPT. Its competitive pricing and planned open release could significantly influence development costs and accessibility for researchers and developers in the AI community. The model is priced at $3 per million input tokens and $15 per million output tokens, which is comparable to Anthropic's Sonnet series. Its claimed overall intelligence ranks second only to Claude Fable 5 and GPT-5.6 Sol in internal evaluations.
+Moonshot AI has launched Kimi K3, a new flagship AI model with a 2.8 trillion parameter count and a 1 million token context window. The model claims frontier-level performance, ranking second only to Anthropic's Claude Fable 5 and OpenAI's GPT-5.6 Sol in their internal evaluations, with plans to release open weights by July 27. This launch introduces a highly capable, large-scale open-weight model from China, potentially challenging the dominance of Western frontier models like those from OpenAI and Anthropic. The model's claimed performance and upcoming open release could significantly influence the AI developer ecosystem by offering a competitive, potentially more accessible alternative for complex coding and knowledge work. Kimi K3 is priced at $3 per 1 million input tokens and $15 per 1 million output tokens (with a cache discount), matching the pricing tier of models like Anthropic's Sonnet series. It is initially launched with a 'max thinking effort' mode by default, with lower-effort modes planned for future updates.
 
 hackernews · vincent_s · Jul 16, 14:46 · [Discussion](https://news.ycombinator.com/item?id=48935342)
 
-**Background**: Kimi K3 is an open-weight large language model (LLM), meaning its model weights (the learned parameters) will be publicly available for download and use, which is different from fully open-source models that include training code and data. It features an extremely large context window of 1 million tokens, allowing it to process vast amounts of information in a single interaction, a capability becoming a key benchmark for modern AI models.
+**Background**: The announcement benchmarks Kimi K3 against current state-of-the-art models like Claude Fable 5 and GPT-5.6 Sol, which are leading large language models (LLMs) known for their advanced reasoning, coding, and agentic capabilities. Open-weight models refer to AI models whose learned parameters (weights) are publicly released, allowing researchers and developers to study, modify, and deploy them locally.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://syntackle.com/blog/long-context-window-ai-model-catch/">A Million Token Context Window Isn't What You Think It Is</a></li>
-<li><a href="https://www.reddit.com/r/LocalLLaMA/comments/1iw1xn7/the_paradox_of_open_weights_but_closed_source/">The Paradox of Open Weights, but Closed Source : r/LocalLLaMA</a></li>
-<li><a href="https://www.linkedin.com/posts/ebender_open-weight-is-not-open-source-unless-and-activity-7313354628522262529-yLRx">Open-weight is not open source. | Emily M. Bender - LinkedIn</a></li>
+<li><a href="https://platform.kimi.ai/docs/guide/kimi-k3-quickstart">Kimi K3 - Kimi API Platform</a></li>
+<li><a href="https://openai.com/index/previewing-gpt-5-6-sol/">Previewing GPT‑5.6 Sol: a next-generation model - OpenAI</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion highlights detailed technical and pricing analysis. Users are actively benchmarking the model's performance and real-world API costs, with one noting that a complex rendering task cost 25 cents, which they considered expensive for a Chinese model. There is also interest in the model's massive size, with a comment noting it is the largest open model available and questioning the resources required to run it.
+**Discussion**: The community is actively analyzing the model's pricing and performance, with some users noting its cost is high for a Chinese model but potentially justified if it truly competes with Western frontiers. Technical users are sharing real-world API usage examples and cost calculations, and there is significant interest in the upcoming open-weight release and technical report for deeper architectural insights.
 
-**Tags**: `#LLM`, `#AI model release`, `#open-weight models`, `#pricing analysis`, `#benchmark performance`
+**Tags**: `#AI Model Release`, `#LLM`, `#Open Weights`, `#Benchmarking`, `#AI Pricing`
 
 ---
 
 <a id="item-3"></a>
-## [Roc Compiler Rewrite: From Rust to Zig](https://rtfeldman.com/rust-to-zig) ⭐️ 8.0/10
+## [Roc Compiler Rewrite: Rust to Zig Progress](https://rtfeldman.com/rust-to-zig) ⭐️ 8.0/10
 
-The Roc project is rewriting its compiler from Rust to Zig, a decision driven by desired performance characteristics and development ergonomics for compiler-specific tasks. 这一决策凸显了系统编程中内存安全保证与底层控制之间的持续权衡，并挑战了 Rust 是高性能工具唯一可行现代选择的假设。 The rewrite targets features like hot code reloading and binary patching, which inherently require memory-unsafe operations, and leverages Zig's explicit allocator model and C interop.
+The Roc programming language project has detailed the progress and rationale for rewriting its compiler from Rust to Zig. The blog post explains the move is driven by desires for better performance, control over memory, and specific language features like incremental compilation. This rewrite is significant as it challenges the prevailing trend of using memory-safe languages like Rust for systems programming, offering a case study on language fit for specialized tools like compilers. It highlights ongoing debates in the developer community about trade-offs between safety, performance, and ergonomics. The blog notes that while Zig offers benefits like comptime and fine-grained memory control, it requires more manual memory management boilerplate in tests compared to Rust. A key discussion point is the claim that compilers need memory-unsafe operations, which community experts like Steve Klabnik contested for standard compilation tasks.
 
 hackernews · jorangreef · Jul 16, 11:39 · [Discussion](https://news.ycombinator.com/item?id=48933149)
 
-**Background**: Roc is a functional programming language whose compiler was originally written in Rust and targeted LLVM. The decision to rewrite a compiler from one systems language to another involves balancing performance, safety, developer experience, and the specific needs of compiler infrastructure, such as memory management for complex data structures.
+**Background**: Roc is a functional programming language aiming to be fast and friendly, with its compiler originally written in Rust. Zig is a newer systems programming language that positions itself as a C/C++ alternative with explicit control, no hidden behavior, and built-in cross-compilation support. The choice between Rust (focus on memory safety) and Zig (focus on explicit control and simplicity) is a current topic in systems programming.
 
 <details><summary>References</summary>
 <ul>
+<li><a href="https://rtfeldman.com/rust-to-zig">How Our Rust-to-Zig Rewrite is Going</a></li>
 <li><a href="https://www.roc-lang.org/">The Roc Programming Language</a></li>
-<li><a href="https://chelseatroy.com/2021/11/28/introduction-to-the-roc-compiler/">Introduction to the Roc Compiler – Chelsea Troy</a></li>
-<li><a href="https://www.scattered-thoughts.net/writing/how-safe-is-zig/">How (memory) safe is zig?</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Zig_(programming_language)">Zig (programming language) - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community discussion challenges the core rationale, with experts arguing that emitting machine code doesn't necessarily require unsafe operations, questioning the scientific basis for language selection, and disputing Zig's claimed runtime memory safety features.
+**Discussion**: The Hacker News discussion featured expert debate, notably from Steve Klabnik who questioned the assertion that compilers inherently require memory-unsafe operations. Other commenters explored Zig's runtime safety claims and questioned whether Zig's incremental build advantages would be matched by Rust in the future.
 
-**Tags**: `#programming languages`, `#compilers`, `#Rust`, `#Zig`, `#systems programming`
+**Tags**: `#Systems Programming`, `#Language Design`, `#Rust`, `#Zig`, `#Compiler Development`
 
 ---
 
 <a id="item-4"></a>
-## [Linus Torvalds: Linux Will Not Be an Anti-AI Project](https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything) ⭐️ 8.0/10
+## [xAI Open-Sources Grok Build After Privacy Backlash](https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything) ⭐️ 8.0/10
 
-Linus Torvalds stated on the Linux Media Mailing List that AI is a useful tool and Linux will not be an anti-AI project, urging dissenters to fork the project or walk away. 作为 Linux 内核的首席维护者，Linus Torvalds 的这一明确声明标志着开源生态系统对 AI 工具官方态度的潜在转变，可能会影响工具采用政策和社区辩论。 Torvalds acknowledged that AI's utility is no longer in question, though broader economic questions remain, and he positioned this as a firm directive from the project's highest authority.
+xAI open-sourced its Grok Build CLI tool under the Apache 2.0 license after a severe backlash over a feature that automatically uploaded entire user directories to cloud storage without clear consent. This incident highlights the critical importance of security, privacy-by-design, and transparent data handling in AI development tools, and the open-sourcing represents a significant attempt to regain developer trust after a major misstep. The released Grok Build codebase contains 844,530 lines of Rust, and the repository currently has only a single commit, offering no historical development context.
 
-rss · Simon Willison · Jul 16, 13:26
+rss · Simon Willison · Jul 15, 23:59
 
-**Background**: Linus Torvalds is the original creator and chief maintainer of the Linux kernel, the core of the world's most widely used open-source operating system. The 'fork' concept he mentions is both a technical process creation system call and an open-source philosophy where developers can copy a project to create a new, independent version if they disagree with its direction.
+**Background**: Grok Build is xAI's agentic coding command-line tool that operates as a terminal-native agent against local codebases. The Apache 2.0 license is a permissive open-source license that allows use, modification, and distribution, including for commercial purposes.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://man7.org/linux/man-pages/man2/fork.2.html">fork (2) - Linux manual page</a></li>
-<li><a href="https://riptutorial.com/linux-kernel/example/18421/fork---system-call">linux - kernel Tutorial => fork () system call</a></li>
+<li><a href="https://x.ai/cli">Grok Build | SpaceXAI</a></li>
+<li><a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License , Version 2 . 0 | Apache Software Foundation</a></li>
+<li><a href="https://docs.cloud.google.com/storage/docs/buckets">About Cloud Storage buckets | Google Cloud Documentation</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI in software development`, `#open-source philosophy`, `#Linux kernel`, `#community debates`, `#technology adoption`
+**Tags**: `#AI Safety`, `#Open Source`, `#Security`, `#xAI`, `#CLI Tools`
 
 ---
 
 <a id="item-5"></a>
-## [QLoRA's Default Learning Rate May Overfit Small Datasets](https://www.reddit.com/r/MachineLearning/comments/1uy1z8b/the_qlora_2e4_default_is_wrong_under_10k_samples/) ⭐️ 8.0/10
+## [PnP-CoSMo: Content/Style Model for Multi-Contrast MRI Reconstruction](https://www.reddit.com/r/MachineLearning/comments/1uy2h66/pnpcosmo_a_multicontrast_mri_reconstruction/) ⭐️ 8.0/10
 
-A practitioner reports that the widely recommended default QLoRA learning rate of 2e-4 causes severe overfitting on small datasets under 10,000 samples. They demonstrate that lowering the learning rate to 1e-4 and increasing the number of epochs significantly improves evaluation performance and generalization. This finding challenges a ubiquitous default setting in LLM fine-tuning tutorials and documentation, potentially saving practitioners weeks of wasted effort. It highlights the critical need to tune hyperparameters based on dataset size, rather than blindly copying standard examples, which is especially important for the growing number of users working with small, custom datasets. The problematic default of 2e-4 learning rate is traced back to the Alpaca dataset, which contained 52,000 samples, a scale much larger than typical personal or niche datasets. The recommended fix is to start with a learning rate of 1e-4 or lower for datasets under 10k samples and compensate by increasing the number of training epochs.
+Researchers have introduced PnP-CoSMo, a plug-and-play framework for multi-contrast MRI reconstruction that explicitly models contrast-invariant content and contrast-specific style from image-domain data alone. This approach eliminates the need for raw k-space training data and is designed to be generalizable across different MRI contrasts and forward operators. This framework addresses a critical bottleneck in MRI deep learning by removing the dependency on scarce raw k-space data, potentially accelerating model development and deployment. Its built-in generalizability across contrasts and operators could simplify clinical workflows and improve the accessibility of advanced reconstruction algorithms. PnP-CoSMo operates in two stages: first, it learns a content/style model from image data, and second, it freezes this model to use as a powerful prior in an iterative reconstruction process. The method is competitive with state-of-the-art unrolled networks and offers an explanatory framework for its decisions.
 
-reddit · r/MachineLearning · /u/Pretty-Ad774 · Jul 16, 12:50
+reddit · r/MachineLearning · /u/void_gear · Jul 16, 13:10
 
-**Background**: QLoRA is a parameter-efficient fine-tuning method that allows users to adapt large language models (LLMs) using quantized weights and low-rank adapters (LoRA), significantly reducing memory requirements. The learning rate is a crucial hyperparameter that controls how much the model's weights are updated during training; a rate that is too high can cause the model to overfit, where it memorizes the training data but fails to generalize to new, unseen examples.
+**Background**: In MRI reconstruction, raw k-space data (spatial frequency measurements) is essential for forming images but is difficult and time-consuming to acquire. Plug-and-Play (PnP) methods are an optimization framework that uses pre-trained denoisers as image priors within iterative algorithms, offering flexibility. Content/style modeling aims to decompose images into a core structural component (content) and a domain-specific appearance (style), a concept applied here to learn from MRI magnitude images directly.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://unsloth.ai/docs/get-started/fine-tuning-llms-guide/lora-hyperparameters-guide">LoRA fine-tuning Hyperparameters Guide | Unsloth Documentation</a></li>
-<li><a href="https://tensoria.fr/en/blog/lora-qlora-fine-tuning-guide">LoRA and QLoRA: A Practical Guide to Fine-tuning LLMs on a Budget | Tensoria</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11316714/">Deep learning for accelerated and robust MRI reconstruction - PMC</a></li>
+<li><a href="https://code-dev.fb.com/2018/11/26/ai-research/fastmri/">FastMRI open source tools from Facebook and NYU - Engineering at...</a></li>
+<li><a href="https://arxiv.org/html/2502.20619">Style Content Decomposition-based Data Augmentation for Domain Generalizable Medical Image Segmentation</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The original post directly calls out the community for not sharing this common practical experience sooner, asking, 'if you all quietly figured this out in 2024 and never posted about it, im mad at every one of you individually.' This suggests a sentiment that practical, dataset-specific tuning advice is often under-discussed compared to general guidelines.
-
-**Tags**: `#QLoRA`, `#Fine-Tuning`, `#Overfitting`, `#Learning Rate`, `#Machine Learning`
+**Tags**: `#medical imaging`, `#MRI reconstruction`, `#deep learning`, `#plug-and-play`, `#computer vision`
 
 ---
 
 <a id="item-6"></a>
-## [ExTernD: Flexible-Accuracy Ternary Quantization for LLMs](https://www.reddit.com/r/MachineLearning/comments/1uy2zb3/externd_expandedrank_ternary_decomposition/) ⭐️ 8.0/10
+## [Microsoft Open-Sources 1996 Comic Chat IRC Client](https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/) ⭐️ 7.0/10
 
-The paper introduces ExTernD, a ternary post-training quantization (PTQ) method that uses expanded-rank matrix decomposition to achieve arbitrary accuracy levels, breaking free from fixed-rank constraints. This approach challenges the conventional wisdom that ternary PTQ with fixed matrix size is a dead end, offering a novel and practical way to balance model accuracy and VRAM usage for efficient LLM inference. The core idea is decomposing a weight matrix into two ternary matrices with an inner diagonal scaling matrix, where the inner rank can be arbitrarily large to control accuracy, while only requiring slightly more VRAM than current quantization methods.
+Microsoft has officially released the source code of its historic Microsoft Comic Chat client from 1996 on GitHub. This action makes the iconic application, which turned IRC conversations into comic strips, available for public access and study. This release is a significant act of software preservation, rescuing a unique piece of early internet culture from obscurity for a new generation. It allows developers and historians to explore the technical innovation of an early graphical communication tool and its influential design, including its popularization of the Comic Sans font. The Comic Chat client used an expert system to automatically generate comic panels, including character placement and expressions, based on text input and IRC protocol extensions. The original research paper on its layout engine is also available, providing technical depth for those interested in its implementation.
 
-reddit · r/MachineLearning · /u/LMTLS5 · Jul 16, 13:31
+hackernews · jervant · Jul 16, 16:06 · [Discussion](https://news.ycombinator.com/item?id=48936426)
 
-**Background**: Post-Training Quantization (PTQ) is a technique to convert a fully trained model to lower precision without retraining, making it efficient for deployment. Ternary quantization is an extreme form where weights are reduced to just three values, which can drastically reduce model size but often leads to significant accuracy loss, especially when constrained to a fixed decomposition rank.
+**Background**: Microsoft Comic Chat was a graphical IRC client first released with Internet Explorer 3.0 in 1996. It was developed by David Kurlander and his team at Microsoft Research to make online chat more visually expressive and engaging by rendering text messages as dialogue balloons in comic strips. The project was influential in popularizing the Comic Sans font.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2607.13511">ExTernD: Expanded-Rank Ternary Decomposition Ternary LLM PTQ ...</a></li>
-<li><a href="https://www.reddit.com/r/MachineLearning/comments/1uy2zb3/externd_expandedrank_ternary_decomposition/">ExTernD: Expanded-Rank Ternary Decomposition Ternary LLM PTQ ...</a></li>
-<li><a href="https://arxiv.org/html/2607.13511v1">ExTernD: Expanded-Rank Ternary Decomposition Ternary LLM PTQ ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Microsoft_Comic_Chat">Microsoft Comic Chat - Wikipedia</a></li>
+<li><a href="https://github.com/microsoft/comic-chat">GitHub - microsoft/comic-chat: Source code for the Microsoft Comic Chat ...</a></li>
+<li><a href="https://www.windowscentral.com/microsoft/windows-11/microsoft-comic-chat-an-irc-client-from-30-years-ago-that-helped-popularize-comic-sans-is-going-open-source">Microsoft Comic Chat, an IRC client from 30 years ago that helped ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: No specific community comments were provided for analysis.
+**Discussion**: The community response is enthusiastic, with one of the key organizers, Robert Standefer, sharing the six-year story behind the open-sourcing. Commenters express nostalgia and technical curiosity, with some recalling early IRC culture and others noting the software's influence on their own projects.
 
-**Tags**: `#quantization`, `#LLM`, `#model compression`, `#post-training quantization`, `#efficient inference`
+**Tags**: `#open-source`, `#software-preservation`, `#retro-computing`, `#IRC`, `#Microsoft`
 
 ---
 
 <a id="item-7"></a>
-## [PnP-CoSMo: Multi-Contrast MRI Reconstruction via Content/Style Modeling](https://www.reddit.com/r/MachineLearning/comments/1uy2h66/pnpcosmo_a_multicontrast_mri_reconstruction/) ⭐️ 8.0/10
+## [OnePlus Ends New Product Launches in USA, Europe](https://community.oneplus.com/thread/2170715118587871237) ⭐️ 7.0/10
 
-Researchers have introduced PnP-CoSMo, a plug-and-play framework for multi-contrast MRI reconstruction that explicitly models contrast-invariant 'content' and contrast-specific 'style'. This two-stage method learns its model from image-domain data alone and is now published in Medical Image Analysis. PnP-CoSMo addresses a major data bottleneck in medical AI by eliminating the need for rare and difficult-to-obtain raw k-space training data, making advanced MRI reconstruction more accessible. Its generalizable design across different MR contrasts and imaging setups could significantly improve clinical workflows and image quality in medical imaging. The framework is a two-stage plug-and-play approach where the first stage learns a content/style model from purely image-domain data, and the second stage uses this frozen model as a prior in iterative reconstruction. It is explicitly designed to be generalizable across different MRI contrasts and forward operators without retraining.
+OnePlus has announced it will cease launching new products in Europe and North America, effectively ending its direct operations in those regions. The company stated it will continue to provide software updates and security patches for existing OnePlus devices within their original support periods. This marks the end of OnePlus's direct presence in key Western markets, impacting Android enthusiasts, developers, and the modding community who valued its enthusiast-friendly features like unlocked bootloaders. The shift likely reflects broader market pressures and consolidation within the smartphone industry, particularly for brands competing with larger parent companies like OPPO. The announcement specifies that no new products will be launched in these regions, but it is not a complete operational shutdown, as software support for existing devices will continue. Community discussions highlight that OnePlus had already been transitioning into a more conventional Chinese phone brand in recent years before this formal announcement.
 
-reddit · r/MachineLearning · /u/void_gear · Jul 16, 13:10
+hackernews · pilililo2 · Jul 16, 10:14 · [Discussion](https://news.ycombinator.com/item?id=48932539)
 
-**Background**: MRI reconstruction aims to produce high-quality images from incomplete or noisy data, a problem often solved using deep learning models that require large amounts of raw, complex-valued k-space data. Plug-and-play (PnP) priors are a class of methods that use a pre-trained deep denoiser within an iterative optimization algorithm to solve such inverse problems, offering flexibility. Multi-contrast MRI involves acquiring several scans with different tissue contrasts from the same anatomy, which is common in clinical practice but challenging for machine learning due to the high dimensionality and variability of the data.
+**Background**: OnePlus was founded in 2013 as a subsidiary of OPPO and quickly gained a cult following among Android enthusiasts for offering high-spec 'flagship killer' devices at competitive prices, with a focus on community engagement and developer-friendly policies like unlocked bootloaders. Its initial marketing, including an invite-only system for the first OnePlus One, created significant hype. Over time, the brand integrated more closely with OPPO, leading to perceptions among its core community that it was losing its unique identity and enthusiast appeal.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://pulseaugur.com/cluster/146544-new-mri-reconstruction-framework-uses-content-style-modeling">New MRI Reconstruction Framework Uses Content / Style Modeling ...</a></li>
-<li><a href="https://www.academia.edu/143471486/Deep_Plug_and_Play_Prior_for_Parallel_MRI_Reconstruction">(PDF) Deep Plug - and - Play Prior for Parallel MRI Reconstruction</a></li>
-<li><a href="https://arxiv.org/html/2409.13477">A Plug-and-Play Method for Guided Multi - contrast MRI ...</a></li>
+**Discussion**: The community discussion is largely nostalgic and critical, with users lamenting the loss of OnePlus's original enthusiast-focused identity under Carl Pei's leadership. Many view this as a sad but expected end to the brand's unique appeal, while one commenter clarifies the announcement is about halting new product launches, not a complete operational shutdown, and notes that software support will continue. Some also see the continuity of OnePlus's ideals in Carl Pei's new company, Nothing.
 
-</ul>
-</details>
-
-**Tags**: `#MRI Reconstruction`, `#Multi-Contrast Imaging`, `#Plug-and-Play Priors`, `#Medical Image Analysis`, `#Computer Vision`
+**Tags**: `#smartphone industry`, `#OnePlus`, `#Android`, `#mobile devices`, `#business strategy`
 
 ---
 
 <a id="item-8"></a>
-## [Rethinking AI Memory: From Facts to Cognitive Patterns](https://www.reddit.com/r/MachineLearning/comments/1uy6yht/are_current_ai_memory_architectures_optimizing/) ⭐️ 8.0/10
+## [Let's Build PlanetScale from Scratch: Infrastructure](https://onatm.dev/2026/07/16/homescale-part-1/) ⭐️ 7.0/10
 
-A speculative Reddit essay argues that current AI memory architectures, which primarily store descriptive facts and user preferences, may be optimizing for the wrong abstraction. The post proposes a paradigm shift towards systems that continuously infer and refine higher-level cognitive patterns, such as a user's characteristic reasoning styles and explanatory frameworks, instead of just collecting factual notes. This challenges a core assumption in current persistent context systems (like those using SQLite or vector databases) and could fundamentally reshape how AI agents are designed to understand and interact with users over long-term periods. If implemented, it would move AI memory from a simple retrieval system towards a more nuanced, evolving model of human cognition and communication style. The essay contrasts typical stored memories (e.g., 'This user is interested in economics') with proposed inferred patterns (e.g., 'This user tends to explain economic outcomes through incentives and institutional constraints'). It questions whether such higher-order representations can emerge from current retrieval and summarization architectures or would require fundamentally new designs.
+A detailed tutorial on constructing a PlanetScale-inspired database infrastructure using Postgres, focusing on separating compute and storage, with commentary on its limitations and comparable technologies.
 
-reddit · r/MachineLearning · /u/Boris_Ljevar · Jul 16, 16:00
+hackernews · onatm · Jul 16, 11:58 · [Discussion](https://news.ycombinator.com/item?id=48933303)
 
-**Background**: AI persistent context, or memory systems, refer to technologies that allow language models to retain and retrieve information across multiple sessions, moving beyond their native, limited context windows. Current implementations often involve databases, vector embeddings, and retrieval mechanisms (like MemGPT/Letta or LangGraph) to store facts, summaries, and preferences. This news item builds on this established concept but proposes a fundamental shift in what kind of information—descriptive facts versus inferential cognitive models—should be the primary focus of these memory architectures.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.mindstudio.ai/blog/ai-memory-system-persistent-context-agents">What Is an AI Memory System? How to Build Persistent Context for Your Agents | MindStudio</a></li>
-<li><a href="https://redis.io/blog/ai-agent-memory-stateful-systems/">AI agent memory: types, architecture & implementation</a></li>
-<li><a href="https://arxiv.org/html/2512.23343v1">AI Meets Brain: A Unified Survey on Memory Systems from Cognitive Neuroscience to Autonomous Agents</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The post's active discussion explores both the philosophical implications and potential technical implementations of such a cognitive-pattern-focused memory system, indicating strong community engagement with this novel architectural proposal.
-
-**Tags**: `#AI architecture`, `#Cognitive science`, `#Persistent context`, `#Memory systems`, `#Philosophy of AI`
+**Tags**: `#databases`, `#infrastructure`, `#Postgres`, `#tutorial`, `#software-engineering`
 
 ---
 
 <a id="item-9"></a>
-## [Nostalgia for Music Piracy in the Streaming Era](https://www.pigeonsandplanes.com/read/music-piracy-what-cd-oink-nine-inch-nails-streaming) ⭐️ 7.0/10
+## [QLoRA's 2e-4 Default Learning Rate Fails for Small Datasets](https://www.reddit.com/r/MachineLearning/comments/1uy1z8b/the_qlora_2e4_default_is_wrong_under_10k_samples/) ⭐️ 7.0/10
 
-An article and community discussion reflect on the cultural and technical aspects of pre-streaming music piracy, such as peer-to-peer networks like Napster and What.cd, compared to modern streaming services. 这一讨论揭示了人们对社区驱动音乐发现的失落感，以及数字档案不完整的持续问题，这影响了文化保存和获取。 Community comments specifically note that streaming platforms still lack a complete archive of all music ever released, and that the peer-to-peer era fostered unique social dynamics for discovery.
+A practitioner reports that the widely recommended QLoRA learning rate of 2e-4 is too high for fine-tuning on datasets under 10,000 samples, leading to immediate overfitting. They found that reducing the learning rate to 1e-4 significantly improved evaluation performance on their small, custom-labeled dataset. This challenges a standard default setting used in countless tutorials and codebases, suggesting practitioners with small datasets are likely wasting time and resources due to overfitting. It highlights the critical need for hyperparameter tuning even when using 'easy' tools like QLoRA and unsloth. The author's recommended rule of thumb is to use a learning rate of 1e-4 or lower for datasets under 10k samples, increasing the number of epochs accordingly. This default of 2e-4 originated from the Stanford Alpaca dataset, which contains over 52,000 samples.
 
-hackernews · mcgin · Jul 16, 04:46 · [Discussion](https://news.ycombinator.com/item?id=48930454)
+reddit · r/MachineLearning · /u/Pretty-Ad774 · Jul 16, 12:50
 
-**Background**: Music piracy, popularized by early peer-to-peer (P2P) networks like Napster in 1999, involved sharing digital audio files directly between users. This era preceded modern streaming services like Spotify, which offer vast libraries for a subscription fee. A persistent gap in digital archiving means not all music is legally or readily available online.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Napster">Napster - Wikipedia</a></li>
-<li><a href="https://www.usatoday.com/story/entertainment/2024/06/01/napster-music-25th-anniversary-music-industry-impact/73871612007/">What was Napster ? 25 years ago, website changed the way we get...</a></li>
-<li><a href="https://ppc.land/shadow-library-scraped-86-million-spotify-tracks-for-preservation/">Shadow library scraped 86 million Spotify tracks for preservation</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters express nostalgia for the 'cultural buy-in' of the piracy era, where music discovery was organic within friend groups, and lament the loss of deep community forums like those on What.cd. They also point out the irony of Apple's iPod being synergistic with pirated music and the ongoing need for piracy due to streaming's archival gaps.
-
-**Tags**: `#music-piracy`, `#streaming-services`, `#digital-archives`, `#cultural-nostalgia`, `#technology-history`
-
----
-
-<a id="item-10"></a>
-## [xAI's Grok CLI Tool Open-Sourced After Privacy Backlash](https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything) ⭐️ 7.0/10
-
-xAI released its entire Grok Build codebase under the Apache 2.0 license after its CLI tool was caught secretly uploading entire user directories to cloud storage, causing a major privacy incident. 这一事件凸显了 AI 开发工具中数据隐私和透明度的关键问题，因为它展示了一个 AI 助手如何可能无意中上传敏感的用户文件（如 SSH 密钥和密码），可能影响整个开发者生态系统。 The Grok Build codebase contains 844,530 lines of Rust code, with the initial release consisting of a single commit, and includes notable components like a self-contained terminal renderer for Mermaid diagrams and tool implementations imitated from other coding agents.
-
-rss · Simon Willison · Jul 15, 23:59
-
-**Background**: The Grok CLI tool is an AI-powered coding assistant designed to automate terminal tasks and generate code for developers. Google Cloud Buckets is a cloud storage service for storing and managing unstructured data. The Apache 2.0 license is a permissive open-source license that allows for commercial use, modification, and distribution.
+**Background**: QLoRA is a parameter-efficient fine-tuning technique that allows large language models to be adapted using low-precision (4-bit) weights. A common starting point for its learning rate hyperparameter is 2e-4, a value derived from fine-tuning the Alpaca model on its 52k sample dataset. Fine-tuning on small datasets with a learning rate that is too high can cause the model to overfit quickly, where it memorizes training data but fails to generalize to new evaluation data.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://lalatenduswain.medium.com/automate-your-terminal-with-grok-cli-a-developers-guide-to-xai-s-ai-powered-tool-eb8e2b0460bf">Automate Your Terminal with Grok CLI: A Developer’s Guide to xAI’s AI-Powered Tool | by Lalatendu Keshari Swain | Medium</a></li>
-<li><a href="https://cloud.google.com/storage">Cloud Storage | Google Cloud</a></li>
-<li><a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License , Version 2 . 0 | Apache Software Foundation</a></li>
+<li><a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/1feb87871436031bdc0f2beaa62a049b-Paper-Conference.pdf">QLORA: Efficient Finetuning of Quantized LLMs Tim Dettmers∗ Artidoro Pagnoni∗</a></li>
+<li><a href="https://huggingface.co/datasets/tatsu-lab/alpaca">tatsu-lab/alpaca · Datasets at Hugging Face GitHub - tatsu-lab/stanford_alpaca: Code and documentation to ... stanford_alpaca/datasheet.md at main · tatsu-lab ... - GitHub iamketan25/alpaca-instructions-dataset - Hugging Face Data Format and Structure | tatsu-lab/stanford_alpaca | DeepWiki Format Fine-Tuning Datasets: ShareGPT vs Alpaca Compared 2026</a></li>
+<li><a href="https://www.educba.com/transfer-learning/">Transfer Learning | Working, Types, Advantages, Applications</a></li>
 
 </ul>
 </details>
 
 **Discussion**: No community comments were provided for this news item.
 
-**Tags**: `#AI security`, `#open source`, `#privacy`, `#xAI`, `#developer tools`
+**Tags**: `#QLoRA`, `#Fine-tuning`, `#Hyperparameter Tuning`, `#Overfitting`, `#Small Datasets`
+
+---
+
+<a id="item-10"></a>
+## [Decoy Font Hides Secondary Message via Visual Shading](https://www.mixfont.com/experiments/decoy-font) ⭐️ 6.0/10
+
+The experimental typeface 'Decoy Font' incorporates a secondary, hidden message within the shading of its letters, which becomes legible when the image is blurred or viewed from a distance. This project demonstrates a novel creative application of perceptual optics in typography, showcasing how designers can manipulate visual perception to embed multi-layered content. The technique relies on the human eye's ability to perceive different levels of detail at varying distances or focus levels, and it is not an AI-resistant obfuscation method.
+
+hackernews · ray__ · Jul 16, 16:18 · [Discussion](https://news.ycombinator.com/item?id=48936584)
+
+**Background**: Perceptual optics in typography explores how typeface design influences visual perception and reading comprehension. Techniques that create depth or hidden effects often manipulate letterforms, spacing, or shading to guide the viewer's eye or convey information in non-obvious ways.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.numberanalytics.com/blog/mastering-perceptual-tasks-in-typography">Mastering Perceptual Tasks in Typography - numberanalytics.com</a></li>
+<li><a href="https://www.canva.com/features/free-text-effects/">Add visual depth to your text with 3D text effects</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community members found the font aesthetically cool and enjoyed experimenting with it, noting perceptual effects like reading mixed messages at intermediate distances. One commenter highlighted its ineffectiveness against AI, emphasizing its role as a creative novelty.
+
+**Tags**: `#typography`, `#perceptual-optics`, `#experimental-design`, `#visual-effects`, `#creative-coding`
 
 ---
 
 <a id="item-11"></a>
-## [Microsoft Comic Chat IRC Client Goes Open Source](https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/) ⭐️ 6.0/10
+## [GOES-19 Satellite Enters Safe Hold Mode](https://www.spaceweather.gov/news/goes-19-safe-hold) ⭐️ 6.0/10
 
-Microsoft has released the source code for its historic Comic Chat IRC client from the 1990s as an open-source project on GitHub. This makes the nostalgic software, which rendered conversations as comic strips, publicly available for study and modification. This release preserves a unique piece of internet history, offering developers and historians a chance to examine early graphical chat interfaces and Microsoft's experimental software from the 1990s. It serves as an educational resource for understanding the evolution of online communication and human-computer interaction. Comic Chat was unique for automatically rendering IRC text conversations into comic strip panels with character avatars and speech bubbles. The open-sourced code is now available on GitHub, but it targets a legacy Windows environment and has limited practical use for modern software development.
+NOAA's GOES-19 weather satellite entered Safe Hold mode on July 16, 2026, suspending its critical weather monitoring functions. Engineers have since resolved the issue and are preparing to restart the satellite's instruments. This event directly impacts real-time weather forecasting, particularly for tracking hurricanes in the Atlantic and Gulf of Mexico during an active season. The outage temporarily reduces a primary data source for predicting tropical storm development and movement. Safe Hold is a standard protective satellite state where it extends solar panels, points toward the sun, and waits for ground commands, while all non-essential functions are suspended. This was not a total failure, as on-orbit spares GOES-16 and GOES-17 remain available.
 
-hackernews · jervant · Jul 16, 16:06 · [Discussion](https://news.ycombinator.com/item?id=48936426)
+hackernews · yabones · Jul 16, 13:30 · [Discussion](https://news.ycombinator.com/item?id=48934286)
 
-**Background**: IRC (Internet Relay Chat) is a foundational real-time text chat protocol created in 1988. Microsoft Comic Chat was a novel IRC client released in 1996 that combined this text protocol with graphical avatars, using algorithms to arrange dialogue into comic strips. Open source software is code that is publicly accessible, allowing anyone to use, study, modify, and distribute it under specific licenses.
+**Background**: The GOES-R series are sophisticated geostationary environmental satellites operated by NOAA, providing critical data for weather forecasting and space weather monitoring. GOES-19 is the fourth and final satellite in this series, launched in June 2024, and serves as the primary instrument for monitoring Atlantic hurricane development.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.irchelp.org/">Internet Relay Chat Help</a></li>
-<li><a href="https://www.inquisitr.com/remember-microsoft-comic-chat-heres-how-you-can-still-use-it/">Remember Microsoft Comic Chat ? Here’s How You Can Still Use It</a></li>
+<li><a href="https://www.spaceweather.gov/news/goes-19-safe-hold">GOES-19 Safe Hold | NOAA / NWS Space Weather Prediction Center</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GOES-19">GOES-19 - Wikipedia</a></li>
+<li><a href="https://www.nesdis.noaa.gov/our-satellites/currently-flying/geostationary-satellites">Geostationary Satellites | NESDIS | National Environmental Satellite ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community discussion is nostalgic and informative. One commenter recalls that Comic Chat was later 'reviled' on IRC for extending the protocol with explicit character appearance commands, rather than relying on context. Others share direct links to the GitHub repository and related historical websites.
+**Discussion**: Commenters included a former GOES engineer who noted that technical issues are common across the satellite series and that on-orbit spares exist. Another user humorously described the Safe Hold process, while others discussed the real-time impact on viewing wildfire smoke plumes and shared recovery updates.
 
-**Tags**: `#open-source`, `#historical-software`, `#IRC`, `#Microsoft`, `#retro-computing`
+**Tags**: `#satellite`, `#weather`, `#NOAA`, `#GOES`, `#space`
 
 ---
 
 <a id="item-12"></a>
-## [Sony Deletes More Movies from User Accounts, Sparking Ownership Debates](https://www.techdirt.com/2026/07/15/sony-deletes-a-bunch-more-movies-from-the-accounts-of-people-who-bought-them/) ⭐️ 6.0/10
+## [Reflecting on the Lost Joy and Community of Music Piracy](https://www.pigeonsandplanes.com/read/music-piracy-what-cd-oink-nine-inch-nails-streaming) ⭐️ 6.0/10
 
-Sony has once again removed digital movies from the accounts of users who had purchased them, reigniting debates about the nature of digital ownership and consumer rights. 此事件凸显了数字购买的脆弱性，消费者并不拥有真正的所有权，其权益受制于平台政策和技术变更。 The removals are part of a recurring pattern, with similar past incidents involving hundreds of movies being deleted, raising questions about the legal distinction between 'buying' and 'renting' digital content.
+The article reflects on the cultural and community aspects of music piracy from the Napster, CD-oink, and What.cd era, contrasting them with the curated but limited experience of modern streaming services. It highlights a nostalgic perspective on how early digital music sharing fostered unique forms of discovery and community building, while also pointing out that current streaming platforms still lack comprehensive archives, which is relevant to discussions about digital culture, access, and preservation. The piece mentions specific platforms like CD-oink and What.cd, and discusses the synergy between hardware like the iPod and peer-to-peer file sharing. Commenters note that even today, some music remains unavailable through legitimate channels, forcing users to rely on used CDs or successor piracy sites.
 
-hackernews · nekusar · Jul 16, 12:13 · [Discussion](https://news.ycombinator.com/item?id=48933419)
+hackernews · mcgin · Jul 16, 04:46 · [Discussion](https://news.ycombinator.com/item?id=48930454)
 
-**Background**: Digital ownership of media like movies and games differs fundamentally from physical ownership, as it typically involves a license for access rather than a transfer of property rights. This model gives platforms like Sony significant control over user libraries, unlike physical discs which are owned outright by the consumer.
+**Background**: Music piracy sites like Napster, CD-oink, and What.cd were prominent in the late 1990s and 2000s, offering vast, often curated libraries of music files for free download. These platforms fostered tight-knit online communities where users shared recommendations and knowledge, creating a cultural experience distinct from today's algorithm-driven streaming services like Spotify. The article explores this transition from a chaotic but communal digital music landscape to a more convenient but fragmented streaming ecosystem.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://jacobin.com/2025/01/digital-ownership-physical-media-control">Digital Ownership and the End of Physical Media</a></li>
-<li><a href="https://technosports.co.in/consumer-group-suing-dutch-sues/">Consumer group suing: Dutch Consumer Group Sues Sony</a></li>
+**Discussion**: Commenters express strong nostalgia for the social and discovery aspects of the piracy era, emphasizing how music was tied to personal relationships and subcultures rather than algorithms. They also highlight ongoing issues with streaming gaps and archival incompleteness, noting that piracy still serves a need for accessing rare or out-of-print music not available on legitimate platforms.
 
-</ul>
-</details>
-
-**Discussion**: Commenters express frustration and concern, with some questioning the legality of 'buy' buttons for what are essentially rental licenses. Others connect this to broader industry trends, like the end of physical media, suggesting companies are moving towards a future where consumers own nothing.
-
-**Tags**: `#digital ownership`, `#consumer rights`, `#digital distribution`, `#gaming industry`, `#platform control`
+**Tags**: `#music-piracy`, `#digital-culture`, `#streaming-services`, `#historical-tech`, `#community`
 
 ---
 
 <a id="item-13"></a>
-## [Student Researchers Decry High ECCV Conference Fees and Waiver Denials](https://www.reddit.com/r/MachineLearning/comments/1uxyd6z/why_is_eccv_so_insanely_expensive_for_students/) ⭐️ 6.0/10
+## [Codex Agent Bug Can Accidentally Delete User's Home Directory](https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything) ⭐️ 6.0/10
 
-A student researcher posted on Reddit expressing frustration that ECCV requires a full-price registration (805 USD) for paper presenters, even if they are students, and that student travel grants and registration waivers were rejected. This issue highlights significant financial barriers that can prevent talented student researchers, particularly those without strong funding, from attending and presenting their work at top-tier academic conferences, potentially limiting diversity and inclusion in the AI research community. The core complaint is a policy where paper presentation necessitates a full-price registration of 805 USD, which is nearly double the early-bird student rate of 440 USD. The student also noted that applications for financial support (travel grants and registration waivers) were denied.
+OpenAI's Codex coding agent, when run in full access mode without sandboxing, contains a bug that can cause it to mistakenly delete the user's entire home directory. This occurs due to an error where the agent attempts to override the $HOME environment variable for a temporary directory but instead targets the wrong location. This bug highlights a critical safety risk for AI coding agents operating with high system privileges, where an autonomous error could cause catastrophic data loss for a user. It underscores the importance of sandboxing and safety review mechanisms to prevent agents from performing destructive actions unintentionally. The issue primarily manifests when the Codex agent is configured with 'full access' mode and lacks sandboxing protections like auto review. The bug is specifically triggered when the model makes a mistake while trying to override the $HOME environment variable, leading to the unintended deletion of the user's home directory instead of a temporary one.
 
-reddit · r/MachineLearning · /u/NotGondor · Jul 16, 09:55
+rss · Simon Willison · Jul 16, 17:45
 
-**Background**: Major academic conferences like ECCV (European Conference on Computer Vision) often have tiered pricing, with discounted rates for students to encourage participation. However, conference organizers sometimes require a full-price registration to cover the cost of each accepted paper, which can create a financial conflict for student authors. Travel grants and waivers are competitive funding mechanisms intended to offset these costs but are not guaranteed.
+**Background**: Codex is an AI coding agent from OpenAI that can run locally or in the cloud to help with software development tasks. Sandboxing is a security practice that isolates the agent's execution environment to prevent it from affecting the host system or user files. Environment variables like $HOME are system-level settings that define important paths, such as the user's home directory, and overriding them incorrectly can have severe consequences.
 
-**Discussion**: The provided content does not include comments from the community discussion.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/openai/codex">GitHub - openai / codex : Lightweight coding agent that runs in your...</a></li>
+<li><a href="https://developer.nvidia.com/blog/practical-security-guidance-for-sandboxing-agentic-workflows-and-managing-execution-risk/">Practical Security Guidance for Sandboxing Agentic Workflows ...</a></li>
+<li><a href="https://code.claude.com/docs/en/env-vars">Environment variables - Claude Code Docs</a></li>
 
-**Tags**: `#academic conferences`, `#ECCV`, `#research funding`, `#student accessibility`, `#machine learning community`
+</ul>
+</details>
+
+**Tags**: `#coding-agents`, `#generative-ai`, `#ai-safety`, `#software-bugs`
 
 ---
 
 <a id="item-14"></a>
-## [Seeking Critical Perspectives on JEPA for Robot Learning](https://www.reddit.com/r/MachineLearning/comments/1uxcryc/looking_for_jepa_devil_advocates_r/) ⭐️ 6.0/10
+## [Torvalds Asserts Linux Project Welcomes AI Tools](https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything) ⭐️ 6.0/10
 
-A researcher has posted a query in the r/MachineLearning community seeking critical analysis and potential limitations of Joint Embedding Predictive Architectures (JEPA) in the context of world models for robot learning. The post specifically asks for 'devil's advocate' viewpoints to counterbalance the highly positive narrative often presented by Yann LeCun regarding JEPA. This discussion is significant as it encourages critical evaluation of a prominent and hyped research direction (JEPA) within AI, potentially uncovering blind spots or practical challenges in applying it to robotics. It reflects a healthy scientific skepticism that is crucial for the responsible development of world models, which are seen as a promising path toward more general AI agents. The post contrasts the confident claims made by Yann LeCun in conferences about JEPA being the 'only next big thing' with other approaches like LLMs and RL, highlighting a desire to explore potential 'red flags'. Based on web search results, key limitations of JEPA models include their deterministic nature which can limit uncertainty modeling, and the fact that their continuous latent space output differs fundamentally from the discrete token sequences of LLMs.
+Linus Torvalds, the principal maintainer of Linux, publicly stated that Linux is not an anti-AI project and that the usefulness of AI tools is now undeniable. He directly addressed dissenters, suggesting they either fork the project or leave. This is a definitive statement from the most influential figure in open-source software, setting a clear precedent for the integration of AI tools within major software projects. It signals to the broader open-source community that AI is being adopted as a legitimate development aid, potentially accelerating its use. Torvalds framed the acceptance of AI as a settled matter of utility, separating it from ongoing debates about AI's economic impact. He emphasized his authority as the top-level maintainer to enforce this technical direction for the project.
 
-reddit · r/MachineLearning · /u/Amazing-Coat5160 · Jul 15, 17:34
+rss · Simon Willison · Jul 16, 13:26
 
-**Background**: JEPA (Joint Embedding Predictive Architectures) is a framework for building world models, championed by Yann LeCun, that aims to learn abstract representations of the world by predicting latent states rather than raw sensory inputs. It is positioned as a key alternative to Large Language Models (LLMs) and Reinforcement Learning (RL) for developing AI with a deeper understanding of physical and causal dynamics, which is particularly relevant for training robots to operate in the real world. World models in robotics are used for planning, simulation, and policy learning by predicting future states of the environment.
+**Background**: Linus Torvalds is the creator of Linux and oversees its development as its principal maintainer. The Linux kernel is the core of the Android operating system and most web server infrastructure, making his statements on development practices highly influential. AI coding assistants and generative AI have recently become common, but their use in open-source projects has been a subject of debate regarding code quality and licensing.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://aman.ai/primers/ai/world-models-jepa/">Aman's AI Journal • Primers • World Models : Rendering, Simulation...</a></li>
-<li><a href="https://notes.suhaib.in/docs/tech/news/why-metas-v-jepa-2-is-a-game-changer-for-robotics/">How Meta's V- JEPA Is Revolutionizing Robotics –Notes</a></li>
-<li><a href="https://blog.yucas.net/2026/05/18/beyond-llms-yann-lecuns-critique-and-the-jepa-research-program-2/">Beyond LLMs: Yann LeCun ’s Critique and the JEPA Research Program</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#JEPA`, `#world models`, `#robot learning`, `#machine learning`, `#AI research`
+**Tags**: `#AI`, `#open-source`, `#Linux`, `#software development`, `#Linus Torvalds`
 
 ---
 
 <a id="item-15"></a>
-## [Seeking Python Tools for Hierarchical Multi-Objective Optimization](https://www.reddit.com/r/MachineLearning/comments/1uxty9v/best_current_tools_for_multiobjective/) ⭐️ 6.0/10
+## [Mermaid to Unicode Box Art Tool via WebAssembly](https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything) ⭐️ 6.0/10
 
-A practitioner has posted a detailed question on Reddit seeking the best 2026 Python tool stack for multi-objective surrogate-based optimization on heterogeneous meta-analysis data. The problem involves hierarchical modeling to separate protocol from baseline effects and continuous optimization for three objectives under physiological constraints. This question highlights a complex, real-world workflow combining statistical modeling and advanced optimization, which is valuable for researchers and practitioners in fields like health sciences and engineering. It underscores the growing need for integrated, accessible Python tools for tackling computationally expensive, multi-objective problems with real data constraints. The user specifies the need for continuous, fine-grained output values (not rounded), Colab compatibility for use on a Chromebook, and the inclusion of domain-specific physiological constraints. They are considering a stack that might include PyMC for hierarchical modeling, pymoo/pysamoo for surrogate-assisted optimization, and SMT for surrogates.
+Simon Willison created a browser-based tool called grok-mermaid that converts Mermaid diagrams into Unicode box art. The tool repurposes a Rust-based renderer found in the open-source Grok CLI and runs it in the browser using WebAssembly. This tool provides a lightweight, client-side way to render Mermaid diagrams as plain text, useful for documentation in terminals or places where graphical rendering isn't available. It also serves as a practical demonstration of how LLM-assisted coding (using Claude Code) can quickly adapt existing specialized code for new platforms. The tool's core is adapted from the `mermaid.rs` file in the Grok CLI's Rust codebase, which was originally a terminal renderer. The web adaptation was achieved via a single prompt to Claude Code for web, highlighting the efficiency of AI-assisted development for such tasks.
 
-reddit · r/MachineLearning · /u/BleakReason · Jul 16, 05:43
+rss · Simon Willison · Jul 16, 00:33
 
-**Background**: Multi-objective surrogate-based optimization (MOSBO) uses approximation models (surrogates) to optimize problems where evaluating the true objective function is computationally expensive, while managing multiple conflicting goals. Hierarchical modeling, as implemented in Bayesian frameworks like PyMC, is used in meta-analysis to account for variation across different studies by allowing parameters to vary by group. Libraries like pymoo and its extension pysamoo provide specialized algorithms for multi-objective optimization, including surrogate-assisted methods designed for expensive functions.
+**Background**: Mermaid is a popular JavaScript library for generating diagrams and charts from text definitions in a Markdown-like syntax. WebAssembly (Wasm) is a binary instruction format that allows high-performance code written in languages like Rust to run in web browsers. The Grok CLI is an open-source coding agent from xAI, and developers often repurpose or adapt its specialized components.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.pymc.io/projects/examples/en/latest/generalized_linear_models/multilevel_modeling.html">A Primer on Bayesian Methods for Multilevel... — PyMC example gallery</a></li>
-<li><a href="https://anyoptimization.com/projects/pysamoo/">pysamoo : Surrogate - Assisted Multi-objective Optimization ...</a></li>
+<li><a href="https://madewithwebassembly.com/">Made with WebAssembly</a></li>
+<li><a href="https://webassembly.org/index.html">WebAssembly</a></li>
+<li><a href="https://www.buildfastwithai.com/blogs/grok-build-xai-cli-ai-agents-2026">Grok Build: xAI's Agent CLI Reviewed (2026)</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion is not provided in the content, so a summary cannot be generated.
+**Tags**: `#Mermaid`, `#WebAssembly`, `#Developer Tools`, `#LLM-assisted coding`, `#Rust`
 
-**Tags**: `#multi-objective optimization`, `#surrogate modeling`, `#hierarchical modeling`, `#PyMC`, `#pymoo`
+---
+
+<a id="item-16"></a>
+## [ExTernD: Ternary LLM Decomposition for Arbitrary Accuracy](https://www.reddit.com/r/MachineLearning/comments/1uy2zb3/externd_expandedrank_ternary_decomposition/) ⭐️ 6.0/10
+
+The paper proposes ExTernD, a post-training quantization method that decomposes each LLM weight matrix into two ternary matrices with an inner diagonal scaling matrix of expanded rank. This approach aims to decouple accuracy from the ternary format limitation, allowing accuracy to be set arbitrarily close to bf16 levels. This method addresses a key limitation in ternary quantization, where accuracy is typically capped by the extreme 1.58-bit format, and could enable highly efficient LLM inference on resource-constrained devices without sacrificing much performance. The core technique factorizes weight matrices to introduce an inner rank that can be made arbitrarily large to control accuracy, with the paper claiming only a slight increase in VRAM compared to standard quantization methods.
+
+reddit · r/MachineLearning · /u/LMTLS5 · Jul 16, 13:31
+
+**Background**: Ternary LLMs, also known as 1.58-bit models, use weights restricted to -1, 0, and +1 to achieve extreme computational efficiency. Post-training quantization (PTQ) for LLMs often uses matrix decomposition to break down large weight matrices into smaller ones for compression, but applying ternary constraints has been challenging due to accuracy degradation.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://arxiv.org/html/2607.13511v1">ExTernD: Expanded-Rank Ternary Decomposition Ternary LLM PTQ ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/1.58-bit_large_language_model">1.58-bit large language model - Wikipedia</a></li>
+<li><a href="https://dataconomy.com/2024/11/06/on-device-ai-models-deeper-smaller-devices/">On-Device AI: Making AI Models Deeper Allows Them... - Dataconomy</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The provided content contains no community discussion comments from the source, so this field is empty.
+
+**Tags**: `#ternary-quantization`, `#LLM-efficiency`, `#post-training-quantization`, `#matrix-decomposition`, `#model-compression`
+
+---
+
+<a id="item-17"></a>
+## [Is AI Memory Optimizing for Facts, Not Reasoning Patterns?](https://www.reddit.com/r/MachineLearning/comments/1uy6yht/are_current_ai_memory_architectures_optimizing/) ⭐️ 6.0/10
+
+A Reddit post questions whether current AI memory architectures are focusing on storing descriptive facts instead of inferring higher-level reasoning patterns and abstractions. It proposes a shift towards persistent context that models a user's characteristic reasoning styles and explanatory frameworks. This shift could fundamentally change how AI systems personalize and collaborate, moving from simple fact recall to deeply understanding and anticipating a user's cognitive approach to problems. It touches on future directions for AI agent memory, a key component for long-term context persistence and advanced reasoning. The post is a speculative essay without empirical evidence or implementation details, contrasting with current memory approaches like conversation summaries, notes, and preference storage. It raises the architectural question of whether such abstract representations can emerge naturally or require fundamentally different systems.
+
+reddit · r/MachineLearning · /u/Boris_Ljevar · Jul 16, 16:00
+
+**Background**: Modern AI memory systems, such as those used in persistent chatbots and agents, typically store specific facts, preferences, and interaction summaries. The goal is to maintain context across sessions. In cognitive science, models distinguish between episodic memory (specific events) and semantic memory (abstract knowledge), a separation that current AI implementations often simplify.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.microsoft.com/en-us/research/blog/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/">Memora: A Harmonic Memory Representation Balancing ...</a></li>
+<li><a href="https://arxiv.org/html/2512.23343v1">AI Meets Brain: A Unified Survey on Memory Systems from ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI architecture`, `#memory systems`, `#cognitive modeling`, `#future of AI`, `#context management`
+
+---
+
+<a id="item-18"></a>
+## [Seeking Best Python Stack for Multi-Objective Surrogate-Based Optimization](https://www.reddit.com/r/MachineLearning/comments/1uxty9v/best_current_tools_for_multiobjective/) ⭐️ 6.0/10
+
+A researcher on Reddit is seeking recommendations for a Python tool stack to perform multi-objective surrogate-based optimization (MOSBO) on a meta-analysis of heterogeneous study data, specifically aiming to separate protocol effects from baseline effects using hierarchical modeling. This query highlights a real-world applied research challenge at the intersection of machine learning, optimization, and evidence synthesis, which is relevant for researchers in fields like healthcare or social sciences needing to derive continuous, optimized recommendations from summarized study data. The problem requires fitting a continuous response surface from ~40 studies with different protocol variables and a baseline-dependent response, then optimizing for three objectives: total improvement, improvement per unit time, and improvement per unit effort, while respecting physiological constraints and outputting fine-grained continuous values.
+
+reddit · r/MachineLearning · /u/BleakReason · Jul 16, 05:43
+
+**Background**: Multi-objective surrogate-based optimization (MOSBO) is a technique where computationally expensive objective functions are approximated by surrogate models (like Gaussian processes) to efficiently search for a set of optimal trade-off solutions (a Pareto front). The researcher's proposed stack involves PyMC for hierarchical Bayesian modeling to account for study-level variance, and tools like pymoo or pysamoo for the surrogate-assisted multi-objective optimization.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://anyoptimization.com/projects/pysamoo/">pysamoo : Surrogate - Assisted Multi-objective Optimization ...</a></li>
+<li><a href="https://pymoo.org/">pymoo: Multi-objective Optimization in Python</a></li>
+<li><a href="https://www.researchgate.net/publication/243970205_Towards_Efficient_Multiobjective_Optimization_Multiobjective_statistical_criterions">(PDF) Towards Efficient Multiobjective Optimization : Multiobjective...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#multi-objective optimization`, `#surrogate modeling`, `#hierarchical modeling`, `#Python tools`, `#applied research`
 
 ---
 
