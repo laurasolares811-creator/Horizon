@@ -1,501 +1,351 @@
 # Horizon Daily - 2026-07-16
 
-> From 35 items, 20 important content pieces were selected
+> From 22 items, 15 important content pieces were selected
 
 ---
 
-1. [xAI Open Sources Grok CLI After Privacy Scandal](#item-1) ⭐️ 9.0/10
-2. [New Vulnerability Bypasses Claude's Data Exfiltration Protection](#item-2) ⭐️ 8.0/10
-3. [Google Updates Gemma 4 Templates and Enables Flash Attention 4](#item-3) ⭐️ 8.0/10
-4. [German Consortium Releases Open 30B Model Soofi S](#item-4) ⭐️ 8.0/10
-5. [Apple in Talks with PrismML for iPhone AI Model Compression](#item-5) ⭐️ 8.0/10
-6. [Open-Source RL Post-Training on 14 Consumer Macs Across 4 Countries](#item-6) ⭐️ 8.0/10
-7. [Thinking Machines AI Launches Open-Weights Multimodal Model Inkling](#item-7) ⭐️ 7.0/10
-8. [Proposal to Adopt Rust-style Editions in SQLite](#item-8) ⭐️ 7.0/10
-9. [Stripe and Advent International Make Joint Offer to Acquire PayPal](#item-9) ⭐️ 7.0/10
-10. [Proof-of-Concept Compiles Entire Firefox to WebAssembly](#item-10) ⭐️ 7.0/10
-11. [Deep Dive into Telegram's Custom Data Center Architecture](#item-11) ⭐️ 7.0/10
-12. [New Codec misa77: 2x Faster Decompression Than LZ4](#item-12) ⭐️ 7.0/10
-13. [Proposing a philosophical framework for a universal AI agent harness](#item-13) ⭐️ 7.0/10
-14. [New Wave of Large LLMs for Dual DGX Spark Hardware](#item-14) ⭐️ 7.0/10
-15. [Running Gemma 4 26B on 13-Year-Old Xeon CPU Achieves 5 tokens/sec](#item-15) ⭐️ 6.0/10
-16. [Tech Professionals Reflect on Mental Health and Communication](#item-16) ⭐️ 6.0/10
-17. [An Embodied Intelligence Infrastructure Provider Emerges](#item-17) ⭐️ 6.0/10
-18. [Linus Torvalds defends AI use in Linux development](#item-18) ⭐️ 6.0/10
-19. [1-Bit Quantized Hy3 Model Achieves Surprising Coherence](#item-19) ⭐️ 6.0/10
-20. [Bonsai-27B Model Integration Status Update](#item-20) ⭐️ 6.0/10
+1. [Inkling: Our open-weights model](#item-1) ⭐️ 9.0/10
+2. [Moonshot AI launches Kimi K3, a 2.8T-parameter frontier model](#item-2) ⭐️ 8.0/10
+3. [Roc Compiler Rewrite: From Rust to Zig](#item-3) ⭐️ 8.0/10
+4. [Linus Torvalds: Linux Will Not Be an Anti-AI Project](#item-4) ⭐️ 8.0/10
+5. [QLoRA's Default Learning Rate May Overfit Small Datasets](#item-5) ⭐️ 8.0/10
+6. [ExTernD: Flexible-Accuracy Ternary Quantization for LLMs](#item-6) ⭐️ 8.0/10
+7. [PnP-CoSMo: Multi-Contrast MRI Reconstruction via Content/Style Modeling](#item-7) ⭐️ 8.0/10
+8. [Rethinking AI Memory: From Facts to Cognitive Patterns](#item-8) ⭐️ 8.0/10
+9. [Nostalgia for Music Piracy in the Streaming Era](#item-9) ⭐️ 7.0/10
+10. [xAI's Grok CLI Tool Open-Sourced After Privacy Backlash](#item-10) ⭐️ 7.0/10
+11. [Microsoft Comic Chat IRC Client Goes Open Source](#item-11) ⭐️ 6.0/10
+12. [Sony Deletes More Movies from User Accounts, Sparking Ownership Debates](#item-12) ⭐️ 6.0/10
+13. [Student Researchers Decry High ECCV Conference Fees and Waiver Denials](#item-13) ⭐️ 6.0/10
+14. [Seeking Critical Perspectives on JEPA for Robot Learning](#item-14) ⭐️ 6.0/10
+15. [Seeking Python Tools for Hierarchical Multi-Objective Optimization](#item-15) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [xAI Open Sources Grok CLI After Privacy Scandal](https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything) ⭐️ 9.0/10
+## [Inkling: Our open-weights model](https://simonwillison.net/2026/Jul/16/inkling/#atom-everything) ⭐️ 9.0/10
 
-xAI has open-sourced its Grok Build command-line coding tool under the Apache 2.0 license after it was discovered the tool uploaded entire user directories to cloud storage. This action followed severe community backlash and xAI's forced disabling of the default data retention feature. This incident highlights critical privacy and security risks in AI developer tools and demonstrates how community pressure can force rapid transparency and open-sourcing as a damage-control measure. It sets a precedent for how companies may respond to severe data exfiltration vulnerabilities in their products. The open-sourced codebase consists of over 844,000 lines of Rust, with a single commit history, and includes interesting components like a terminal-based Mermaid diagram renderer. The code shows tool implementations imitated from other agents, and system prompts that instruct the AI not to reveal its instructions to the user.
+Thinking Machines Lab releases Inkling, a massive 975B-parameter open-weights multimodal model licensed under Apache 2.0.
 
-rss · Simon Willison · Jul 15, 23:59
+rss · Simon Willison · Jul 16, 15:35
 
-**Background**: Grok Build is a CLI tool from xAI designed to assist developers with coding tasks. A CLI tool runs in a user's terminal, and a security flaw was discovered where running it could automatically upload the contents of the current directory, potentially including sensitive files like SSH keys, to xAI's Google Cloud Storage buckets. Apache 2.0 is a permissive open-source license that allows for broad reuse and modification.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html">Grok Build Uploaded Entire Git Repositories to xAI Storage ...</a></li>
-<li><a href="https://x.ai/cli">Grok Build | SpaceXAI</a></li>
-<li><a href="https://github.com/superagent-ai/grok-cli">GitHub - superagent-ai/grok-cli: An open-source coding agent for the Grok API · GitHub</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community discussion ranges from technical curiosity about the codebase to criticism of xAI and Elon Musk. Some users are already creating privacy-focused forks to strip telemetry and enhance security, while others view the open-sourcing as a tactical PR move rather than a genuine fix. Despite the scandal, some commenters acknowledge the quality of the underlying Grok model.
-
-**Tags**: `#security`, `#privacy`, `#open-source`, `#ai-tools`, `#incident-response`
+**Tags**: `#AI`, `#open-source`, `#large-language-models`, `#multimodal`, `#release`
 
 ---
 
 <a id="item-2"></a>
-## [New Vulnerability Bypasses Claude's Data Exfiltration Protection](https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything) ⭐️ 8.0/10
+## [Moonshot AI launches Kimi K3, a 2.8T-parameter frontier model](https://www.kimi.com/en) ⭐️ 8.0/10
 
-Ayush Paul discovered and demonstrated a prompt injection attack that bypasses Anthropic's protections in the Claude web_fetch tool, allowing an attacker to exfiltrate private user data like name, location, and employer. 此攻击揭示了主流AI系统工具安全设计中的一个关键缺陷，表明新颖的攻击方式仍然可以窃取敏感数据，这对开发安全的AI代理具有重大影响。 The attack used a honeypot website to instruct the LLM to navigate through nested, generated links (e.g., one letter at a time), which exploited a loophole that allowed web_fetch to visit URLs found within previously fetched content. Anthropic patched this by removing that capability.
+Moonshot AI has launched Kimi K3, a new large language model with 2.8 trillion parameters and a 1 million token context window. The company claims it delivers frontier-level performance and will release open weights for the model in the coming days. Kimi K3's launch introduces a major new contender to the competitive AI model landscape, especially among open-weight models, potentially offering a high-performance alternative to proprietary systems like Claude and GPT. Its competitive pricing and planned open release could significantly influence development costs and accessibility for researchers and developers in the AI community. The model is priced at $3 per million input tokens and $15 per million output tokens, which is comparable to Anthropic's Sonnet series. Its claimed overall intelligence ranks second only to Claude Fable 5 and GPT-5.6 Sol in internal evaluations.
 
-rss · Simon Willison · Jul 15, 14:21
+hackernews · vincent_s · Jul 16, 14:46 · [Discussion](https://news.ycombinator.com/item?id=48935342)
 
-**Background**: This vulnerability relates to the 'lethal trifecta' for AI agents, which is the dangerous combination of private data, untrusted content, and external communication tools. The web_fetch tool was designed with specific rules to prevent data exfiltration by only allowing navigation to user-entered or searched URLs.
+**Background**: Kimi K3 is an open-weight large language model (LLM), meaning its model weights (the learned parameters) will be publicly available for download and use, which is different from fully open-source models that include training code and data. It features an extremely large context window of 1 million tokens, allowing it to process vast amounts of information in a single interaction, a capability becoming a key benchmark for modern AI models.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/">The lethal trifecta for AI agents: private data, untrusted ...</a></li>
-<li><a href="https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool">Web fetch tool - Claude Platform Docs</a></li>
-<li><a href="https://www.oasis.security/blog/claude-ai-prompt-injection-data-exfiltration-vulnerability">Claude.ai Prompt Injection Vulnerability | Oasis Security</a></li>
+<li><a href="https://syntackle.com/blog/long-context-window-ai-model-catch/">A Million Token Context Window Isn't What You Think It Is</a></li>
+<li><a href="https://www.reddit.com/r/LocalLLaMA/comments/1iw1xn7/the_paradox_of_open_weights_but_closed_source/">The Paradox of Open Weights, but Closed Source : r/LocalLLaMA</a></li>
+<li><a href="https://www.linkedin.com/posts/ebender_open-weight-is-not-open-source-unless-and-activity-7313354628522262529-yLRx">Open-weight is not open source. | Emily M. Bender - LinkedIn</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The Hacker News discussion linked in the article likely contained technical analysis and debate about the attack's implications and the broader challenge of securing AI tools against prompt injection.
+**Discussion**: The community discussion highlights detailed technical and pricing analysis. Users are actively benchmarking the model's performance and real-world API costs, with one noting that a complex rendering task cost 25 cents, which they considered expensive for a Chinese model. There is also interest in the model's massive size, with a comment noting it is the largest open model available and questioning the resources required to run it.
 
-**Tags**: `#AI Security`, `#LLM Vulnerabilities`, `#Data Exfiltration`, `#Anthropic Claude`, `#Prompt Engineering`
+**Tags**: `#LLM`, `#AI model release`, `#open-weight models`, `#pricing analysis`, `#benchmark performance`
 
 ---
 
 <a id="item-3"></a>
-## [Google Updates Gemma 4 Templates and Enables Flash Attention 4](https://www.reddit.com/r/LocalLLaMA/comments/1uxfu4k/google_is_updating_gemma_4s_chat_templates/) ⭐️ 8.0/10
+## [Roc Compiler Rewrite: From Rust to Zig](https://rtfeldman.com/rust-to-zig) ⭐️ 8.0/10
 
-Google is updating Gemma 4's chat templates with major fixes to tool calling and reducing model "laziness", enabling Flash Attention 4 on Hopper GPUs, and releasing an interactive guide for its vision capabilities. These updates address key pain points for developers using Gemma 4, improving its reliability for complex tasks and unlocking better performance on cutting-edge hardware, making the model more capable and efficient for real-world applications. The update includes an interactive guide for improving Gemma 4's vision capabilities and a token budget tool, and is announced via a preservation of thinking directive in the chat template format.
+The Roc project is rewriting its compiler from Rust to Zig, a decision driven by desired performance characteristics and development ergonomics for compiler-specific tasks. 这一决策凸显了系统编程中内存安全保证与底层控制之间的持续权衡，并挑战了 Rust 是高性能工具唯一可行现代选择的假设。 The rewrite targets features like hot code reloading and binary patching, which inherently require memory-unsafe operations, and leverages Zig's explicit allocator model and C interop.
 
-reddit · r/LocalLLaMA · /u/Iwaku_Real · Jul 15, 19:26
+hackernews · jorangreef · Jul 16, 11:39 · [Discussion](https://news.ycombinator.com/item?id=48933149)
 
-**Background**: Gemma 4 is Google's open model family. Tool calling allows LLMs to interact with external functions. "Laziness" refers to LLMs producing minimal or incomplete responses. Flash Attention is an algorithm that speeds up attention computation, with Flash Attention 4 designed for NVIDIA Hopper GPUs like the H100.
+**Background**: Roc is a functional programming language whose compiler was originally written in Rust and targeted LLVM. The decision to rewrite a compiler from one systems language to another involves balancing performance, safety, developer experience, and the specific needs of compiler infrastructure, such as memory management for complex data structures.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.datacamp.com/blog/flash-attention">Flash Attention Explained: A Comprehensive Guide | DataCamp</a></li>
-<li><a href="https://arxiv.org/abs/2410.11437">[2410.11437] Difficult Task Yes but Simple Task No: Unveiling ... Quantifying Laziness, Decoding Suboptimality, and Context ... Andrew Ng Explains Why 'Lazy Prompting' Can Be a Useful AI ... Lazy Prompting: The Power of Being Intentionally Brief with AI The Benefits of Lazy Prompting - deeplearning.ai</a></li>
-<li><a href="https://machinelearningmastery.com/how-to-implement-tool-calling-with-gemma-4-and-python/">How to Implement Tool Calling with Gemma 4 and Python</a></li>
+<li><a href="https://www.roc-lang.org/">The Roc Programming Language</a></li>
+<li><a href="https://chelseatroy.com/2021/11/28/introduction-to-the-roc-compiler/">Introduction to the Roc Compiler – Chelsea Troy</a></li>
+<li><a href="https://www.scattered-thoughts.net/writing/how-safe-is-zig/">How (memory) safe is zig?</a></li>
 
 </ul>
 </details>
 
-**Discussion**: No community comments were provided for analysis.
+**Discussion**: Community discussion challenges the core rationale, with experts arguing that emitting machine code doesn't necessarily require unsafe operations, questioning the scientific basis for language selection, and disputing Zig's claimed runtime memory safety features.
 
-**Tags**: `#Gemma`, `#LLM updates`, `#tool calling`, `#Flash Attention`, `#vision models`
+**Tags**: `#programming languages`, `#compilers`, `#Rust`, `#Zig`, `#systems programming`
 
 ---
 
 <a id="item-4"></a>
-## [German Consortium Releases Open 30B Model Soofi S](https://www.reddit.com/r/LocalLLaMA/comments/1uxao7y/german_ai_consortium_releases_soofi_s_an_open_30b/) ⭐️ 8.0/10
+## [Linus Torvalds: Linux Will Not Be an Anti-AI Project](https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything) ⭐️ 8.0/10
 
-A German AI consortium has released Soofi S 30B-A3B, an open-source 30-billion parameter language model that reportedly tops benchmarks in both English and German. This release is significant because it provides a high-performance, open-weight model that excels in both English and German, advancing the state of multilingual open-source AI and supporting the development of sovereign European AI capabilities. The model uses a lean sparse hybrid architecture named Soofi S 30B-A3B, which activates only a fraction of its parameters per token, making its computational profile closer to a much smaller model. It was trained entirely on Deutsche Telekom's Industrial AI Cloud in Munich with a training mix weighted toward German.
+Linus Torvalds stated on the Linux Media Mailing List that AI is a useful tool and Linux will not be an anti-AI project, urging dissenters to fork the project or walk away. 作为 Linux 内核的首席维护者，Linus Torvalds 的这一明确声明标志着开源生态系统对 AI 工具官方态度的潜在转变，可能会影响工具采用政策和社区辩论。 Torvalds acknowledged that AI's utility is no longer in question, though broader economic questions remain, and he positioned this as a firm directive from the project's highest authority.
 
-reddit · r/LocalLLaMA · /u/yogthos · Jul 15, 16:21
+rss · Simon Willison · Jul 16, 13:26
 
-**Background**: Open-source large language models (LLMs) like this one are AI systems whose code and training weights are publicly available for anyone to use, modify, and deploy. A 30-billion (30B) parameter model is considered a large and capable size, typically requiring significant computing resources for training. Benchmarking involves evaluating a model against standardized tests to compare its performance with others, and excelling in multiple languages is a key challenge for global AI development.
+**Background**: Linus Torvalds is the original creator and chief maintainer of the Linux kernel, the core of the world's most widely used open-source operating system. The 'fork' concept he mentions is both a technical process creation system call and an open-source philosophy where developers can copy a project to create a new, independent version if they disagree with its direction.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/">German AI consortium releases Soofi S, an open 30B model that ...</a></li>
-<li><a href="https://winbuzzer.com/2026/07/14/german-consortium-launches-soofi-s-for-sparse-industrial-ai-xcxwbn/">Europe’s New Soofi S AI Model Is Blazing Fast</a></li>
-<li><a href="https://creati.ai/ai-news/2026-07-13/german-consortium-unveils-soofi-s-an-open-30b-model-aimed-at-sovereign-ai-with-strong-german-and/">German consortium unveils Soofi S, an open 30B model aimed at sovereign AI with strong German and English results</a></li>
+<li><a href="https://man7.org/linux/man-pages/man2/fork.2.html">fork (2) - Linux manual page</a></li>
+<li><a href="https://riptutorial.com/linux-kernel/example/18421/fork---system-call">linux - kernel Tutorial => fork () system call</a></li>
 
 </ul>
 </details>
 
-**Discussion**: No comments from the original post are provided in the input, so a summary of community discussion cannot be generated.
-
-**Tags**: `#open-source LLM`, `#multilingual AI`, `#model release`, `#benchmarking`, `#LocalLLaMA`
+**Tags**: `#AI in software development`, `#open-source philosophy`, `#Linux kernel`, `#community debates`, `#technology adoption`
 
 ---
 
 <a id="item-5"></a>
-## [Apple in Talks with PrismML for iPhone AI Model Compression](https://www.reddit.com/r/LocalLLaMA/comments/1ux4cn2/apple_in_talks_with_startup_prismml_that_shrinks/) ⭐️ 8.0/10
+## [QLoRA's Default Learning Rate May Overfit Small Datasets](https://www.reddit.com/r/MachineLearning/comments/1uy1z8b/the_qlora_2e4_default_is_wrong_under_10k_samples/) ⭐️ 8.0/10
 
-Apple is reportedly in early exploratory talks with PrismML, a Caltech spinout specializing in extreme model compression, to integrate technology that can shrink large AI models for efficient on-device operation on iPhones. PrismML's technology has demonstrated compressing a 27-billion-parameter model like Alibaba's Qwen 3.6 from approximately 54 GB down to under 4 GB. This development could significantly advance on-device AI capabilities for Apple's ecosystem, potentially enabling powerful features like enhanced Siri without relying on cloud processing, which boosts user privacy and reduces latency. It also highlights a major trend in AI engineering towards efficient, local model deployment, impacting how future mobile and edge computing applications are built. PrismML's core technique involves extreme model compression, specifically reducing AI model weights from the standard 16-bit floating-point values to just 1-bit or ternary (three-value) representations, which drastically cuts memory requirements. The talks are described as early-stage and exploratory, so no finalized product or timeline has been announced.
+A practitioner reports that the widely recommended default QLoRA learning rate of 2e-4 causes severe overfitting on small datasets under 10,000 samples. They demonstrate that lowering the learning rate to 1e-4 and increasing the number of epochs significantly improves evaluation performance and generalization. This finding challenges a ubiquitous default setting in LLM fine-tuning tutorials and documentation, potentially saving practitioners weeks of wasted effort. It highlights the critical need to tune hyperparameters based on dataset size, rather than blindly copying standard examples, which is especially important for the growing number of users working with small, custom datasets. The problematic default of 2e-4 learning rate is traced back to the Alpaca dataset, which contained 52,000 samples, a scale much larger than typical personal or niche datasets. The recommended fix is to start with a learning rate of 1e-4 or lower for datasets under 10k samples and compensate by increasing the number of training epochs.
 
-reddit · r/LocalLLaMA · /u/Ready_Performance_35 · Jul 15, 12:23
+reddit · r/MachineLearning · /u/Pretty-Ad774 · Jul 16, 12:50
 
-**Background**: On-device AI refers to running machine learning models directly on a user's smartphone or tablet, where data processing happens locally using the device's own processors and specialized chips like Apple's Neural Engine. This approach keeps data on the device, enhancing privacy and enabling faster, offline-capable AI features. Model compression is a critical research area focused on shrinking large neural networks so they can run efficiently within the limited memory and power constraints of mobile hardware without unacceptable loss of accuracy.
+**Background**: QLoRA is a parameter-efficient fine-tuning method that allows users to adapt large language models (LLMs) using quantized weights and low-rank adapters (LoRA), significantly reducing memory requirements. The learning rate is a crucial hyperparameter that controls how much the model's weights are updated during training; a rate that is too high can cause the model to overfit, where it memorizes the training data but fails to generalize to new, unseen examples.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.cnbc.com/2026/07/14/apple-prismml-ai-compression-iphone.html">Apple in talks with startup that shrinks AI models to run on an iPhone</a></li>
-<li><a href="https://macdailynews.com/2026/07/10/apple-eyes-prismml-to-run-huge-ai-models-directly-on-iphone/">Apple eyes PrismML to run huge AI models directly on iPhone - MacDailyNews</a></li>
-<li><a href="https://mlq.ai/news/apple-in-talks-to-acquire-prismml-startup-that-shrinks-ai-models-to-run-on-iphone/">Apple in Talks to Acquire PrismML, Startup That Shrinks AI Models to Run on iPhone | MLQ News</a></li>
+<li><a href="https://unsloth.ai/docs/get-started/fine-tuning-llms-guide/lora-hyperparameters-guide">LoRA fine-tuning Hyperparameters Guide | Unsloth Documentation</a></li>
+<li><a href="https://tensoria.fr/en/blog/lora-qlora-fine-tuning-guide">LoRA and QLoRA: A Practical Guide to Fine-tuning LLMs on a Budget | Tensoria</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The original post and linked article do not include specific community comments for analysis. Therefore, a summary of the community discussion cannot be provided.
+**Discussion**: The original post directly calls out the community for not sharing this common practical experience sooner, asking, 'if you all quietly figured this out in 2024 and never posted about it, im mad at every one of you individually.' This suggests a sentiment that practical, dataset-specific tuning advice is often under-discussed compared to general guidelines.
 
-**Tags**: `#AI`, `#On-device AI`, `#Model Compression`, `#Apple`, `#Mobile Computing`
+**Tags**: `#QLoRA`, `#Fine-Tuning`, `#Overfitting`, `#Learning Rate`, `#Machine Learning`
 
 ---
 
 <a id="item-6"></a>
-## [Open-Source RL Post-Training on 14 Consumer Macs Across 4 Countries](https://www.reddit.com/r/LocalLLaMA/comments/1uxb3zn/rl_posttraining_on_14_macs_across_4_countries/) ⭐️ 8.0/10
+## [ExTernD: Flexible-Accuracy Ternary Quantization for LLMs](https://www.reddit.com/r/MachineLearning/comments/1uy2zb3/externd_expandedrank_ternary_decomposition/) ⭐️ 8.0/10
 
-Pluralis Research has demonstrated and open-sourced a decentralized reinforcement learning post-training setup where all rollouts were generated on 14 consumer Macs across 4 countries, while a central B200 trainer performed updates. 这种新方法通过利用全球闲置的消费级硬件来解决智能体强化学习中模拟轮次生成的高算力成本问题，可能使专业化AI模型的训练更加开放和普及。 The system used PULSE to send small int8 weight deltas and a DPPO-style probability gate to control the off-policy gap caused by using stale, quantized weights on the consumer Macs.
+The paper introduces ExTernD, a ternary post-training quantization (PTQ) method that uses expanded-rank matrix decomposition to achieve arbitrary accuracy levels, breaking free from fixed-rank constraints. This approach challenges the conventional wisdom that ternary PTQ with fixed matrix size is a dead end, offering a novel and practical way to balance model accuracy and VRAM usage for efficient LLM inference. The core idea is decomposing a weight matrix into two ternary matrices with an inner diagonal scaling matrix, where the inner rank can be arbitrarily large to control accuracy, while only requiring slightly more VRAM than current quantization methods.
 
-reddit · r/LocalLLaMA · /u/erfan_mhi · Jul 15, 16:36
+reddit · r/MachineLearning · /u/LMTLS5 · Jul 16, 13:31
 
-**Background**: Reinforcement learning post-training is a technique to refine pretrained large language models by optimizing their policy based on rewards, often used to teach models specific tasks like tool use. In many such setups, generating the response rollouts is the most compute-intensive part, accounting for about 80% of the resources.
+**Background**: Post-Training Quantization (PTQ) is a technique to convert a fully trained model to lower precision without retraining, making it efficient for deployment. Ternary quantization is an extreme form where weights are reduced to just three values, which can drastically reduce model size but often leads to significant accuracy loss, especially when constrained to a fixed decomposition rank.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.emergentmind.com/topics/reinforcement-learning-based-post-training">Reinforcement Learning : Post - Training</a></li>
-<li><a href="https://www.cloudflare.com/products/r2/">Cloudflare R 2 - Egress-Free Object Storage</a></li>
-<li><a href="https://github.com/ml-explore/mlx">GitHub - ml-explore/mlx: MLX: An array framework for Apple ...</a></li>
+<li><a href="https://arxiv.org/abs/2607.13511">ExTernD: Expanded-Rank Ternary Decomposition Ternary LLM PTQ ...</a></li>
+<li><a href="https://www.reddit.com/r/MachineLearning/comments/1uy2zb3/externd_expandedrank_ternary_decomposition/">ExTernD: Expanded-Rank Ternary Decomposition Ternary LLM PTQ ...</a></li>
+<li><a href="https://arxiv.org/html/2607.13511v1">ExTernD: Expanded-Rank Ternary Decomposition Ternary LLM PTQ ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#reinforcement learning`, `#distributed computing`, `#consumer hardware`, `#MLX`, `#open-source AI`
+**Discussion**: No specific community comments were provided for analysis.
+
+**Tags**: `#quantization`, `#LLM`, `#model compression`, `#post-training quantization`, `#efficient inference`
 
 ---
 
 <a id="item-7"></a>
-## [Thinking Machines AI Launches Open-Weights Multimodal Model Inkling](https://thinkingmachines.ai/news/introducing-inkling/) ⭐️ 7.0/10
+## [PnP-CoSMo: Multi-Contrast MRI Reconstruction via Content/Style Modeling](https://www.reddit.com/r/MachineLearning/comments/1uy2h66/pnpcosmo_a_multicontrast_mri_reconstruction/) ⭐️ 8.0/10
 
-Thinking Machines AI has introduced Inkling, an open-weights multimodal AI model that supports audio input and efficient thinking capabilities. The model is optimized for customization and is available on their Tinker fine-tuning platform. This release provides a significant open-source alternative for developers and enterprises, allowing them to run, customize, and potentially own a capable multimodal model on their own infrastructure. It lowers the barrier to entry for deploying advanced AI with audio capabilities, fostering greater accessibility and innovation. Inkling is described as not the strongest model overall, but its combination of multimodal capabilities, efficient thinking, and fine-tuning support on Tinker makes it a strong base for customization. Community members highlight that it is the largest open-weight model supporting audio and note its potential efficiency advantages over competitors like DeepSeek and Kim.
+Researchers have introduced PnP-CoSMo, a plug-and-play framework for multi-contrast MRI reconstruction that explicitly models contrast-invariant 'content' and contrast-specific 'style'. This two-stage method learns its model from image-domain data alone and is now published in Medical Image Analysis. PnP-CoSMo addresses a major data bottleneck in medical AI by eliminating the need for rare and difficult-to-obtain raw k-space training data, making advanced MRI reconstruction more accessible. Its generalizable design across different MR contrasts and imaging setups could significantly improve clinical workflows and image quality in medical imaging. The framework is a two-stage plug-and-play approach where the first stage learns a content/style model from purely image-domain data, and the second stage uses this frozen model as a prior in iterative reconstruction. It is explicitly designed to be generalizable across different MRI contrasts and forward operators without retraining.
 
-hackernews · vimarsh6739 · Jul 15, 18:12 · [Discussion](https://news.ycombinator.com/item?id=48924912)
+reddit · r/MachineLearning · /u/void_gear · Jul 16, 13:10
 
-**Background**: Open-weight models are AI systems where the trained neural network weights are publicly released, allowing anyone to download and adapt them. Multimodal AI refers to models that can process and understand multiple types of data, such as text, images, and audio, simultaneously. Fine-tuning, often using techniques like LoRA, is the process of further training a base model on specific tasks or data to improve its performance for a particular use case.
+**Background**: MRI reconstruction aims to produce high-quality images from incomplete or noisy data, a problem often solved using deep learning models that require large amounts of raw, complex-valued k-space data. Plug-and-play (PnP) priors are a class of methods that use a pre-trained deep denoiser within an iterative optimization algorithm to solve such inverse problems, offering flexibility. Multi-contrast MRI involves acquiring several scans with different tissue contrasts from the same anatomy, which is common in clinical practice but challenging for machine learning due to the high dimensionality and variability of the data.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://thinkingmachines.ai/tinker/">Tinker is a training API for researchers and developers.</a></li>
-<li><a href="https://hai.stanford.edu/ai-definitions/what-is-an-open-weight-model">What is an Open-Weight Model? - Stanford HAI</a></li>
+<li><a href="https://pulseaugur.com/cluster/146544-new-mri-reconstruction-framework-uses-content-style-modeling">New MRI Reconstruction Framework Uses Content / Style Modeling ...</a></li>
+<li><a href="https://www.academia.edu/143471486/Deep_Plug_and_Play_Prior_for_Parallel_MRI_Reconstruction">(PDF) Deep Plug - and - Play Prior for Parallel MRI Reconstruction</a></li>
+<li><a href="https://arxiv.org/html/2409.13477">A Plug-and-Play Method for Guided Multi - contrast MRI ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters are interested in the model's audio capability and practical integration, with some sharing links to run it locally. There is a broader discussion about the need for non-Chinese open models and the complexity of modern AI development, viewing Inkling's business model of enabling fine-tuning as a strong approach.
-
-**Tags**: `#open-weights-model`, `#multimodal-AI`, `#audio-processing`, `#fine-tuning`, `#AI-business`
+**Tags**: `#MRI Reconstruction`, `#Multi-Contrast Imaging`, `#Plug-and-Play Priors`, `#Medical Image Analysis`, `#Computer Vision`
 
 ---
 
 <a id="item-8"></a>
-## [Proposal to Adopt Rust-style Editions in SQLite](https://mort.coffee/home/sqlite-editions/) ⭐️ 7.0/10
+## [Rethinking AI Memory: From Facts to Cognitive Patterns](https://www.reddit.com/r/MachineLearning/comments/1uy6yht/are_current_ai_memory_architectures_optimizing/) ⭐️ 8.0/10
 
-A new proposal suggests implementing Rust-style "editions" in SQLite to introduce new defaults and features while maintaining backward compatibility. This would allow users to opt into a set of alternative defaults via a PRAGMA command without breaking existing code. This proposal addresses the long-standing challenge of evolving SQLite's defaults and behaviors without breaking the vast existing ecosystem. It could provide a standardized, opt-in path for improving SQLite's usability and safety for future applications. The proposal is framed as a response to a list of SQLite "pet-peeves" (like SQLITE_BUSY defaults) and would be activated by setting a `PRAGMA edition = 2026;`. A key concern raised is that embedding edition information into database files could break the common practice of using older command-line tools to inspect databases created by newer application versions.
+A speculative Reddit essay argues that current AI memory architectures, which primarily store descriptive facts and user preferences, may be optimizing for the wrong abstraction. The post proposes a paradigm shift towards systems that continuously infer and refine higher-level cognitive patterns, such as a user's characteristic reasoning styles and explanatory frameworks, instead of just collecting factual notes. This challenges a core assumption in current persistent context systems (like those using SQLite or vector databases) and could fundamentally reshape how AI agents are designed to understand and interact with users over long-term periods. If implemented, it would move AI memory from a simple retrieval system towards a more nuanced, evolving model of human cognition and communication style. The essay contrasts typical stored memories (e.g., 'This user is interested in economics') with proposed inferred patterns (e.g., 'This user tends to explain economic outcomes through incentives and institutional constraints'). It questions whether such higher-order representations can emerge from current retrieval and summarization architectures or would require fundamentally new designs.
 
-hackernews · gnyeki · Jul 15, 22:42 · [Discussion](https://news.ycombinator.com/item?id=48928135)
+reddit · r/MachineLearning · /u/Boris_Ljevar · Jul 16, 16:00
 
-**Background**: SQLite is the world's most widely deployed SQL database engine, renowned for its portability and strict backward compatibility, which makes evolving its behavior challenging. Rust-style editions are a language feature that allows for opt-in, backward-incompatible changes to be bundled together, letting codebases migrate at their own pace. The proposal applies this concept from a programming language to a database engine's configuration and behavior defaults.
+**Background**: AI persistent context, or memory systems, refer to technologies that allow language models to retain and retrieve information across multiple sessions, moving beyond their native, limited context windows. Current implementations often involve databases, vector embeddings, and retrieval mechanisms (like MemGPT/Letta or LangGraph) to store facts, summaries, and preferences. This news item builds on this established concept but proposes a fundamental shift in what kind of information—descriptive facts versus inferential cognitive models—should be the primary focus of these memory architectures.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://doc.rust-lang.org/edition-guide/editions/">What are editions? - The Rust Edition Guide</a></li>
-<li><a href="https://sqlite.org/">SQLite Home Page</a></li>
-<li><a href="https://en.wikipedia.org/wiki/SQLite">SQLite - Wikipedia</a></li>
+<li><a href="https://www.mindstudio.ai/blog/ai-memory-system-persistent-context-agents">What Is an AI Memory System? How to Build Persistent Context for Your Agents | MindStudio</a></li>
+<li><a href="https://redis.io/blog/ai-agent-memory-stateful-systems/">AI agent memory: types, architecture & implementation</a></li>
+<li><a href="https://arxiv.org/html/2512.23343v1">AI Meets Brain: A Unified Survey on Memory Systems from Cognitive Neuroscience to Autonomous Agents</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion is constructive, with commenters appreciating the idea of a standardized opt-in mechanism for defaults. However, key concerns are raised about breaking the workflow of inspecting database files across different SQLite versions and the broader philosophical debate on whether certain behaviors are essential features or bugs.
+**Discussion**: The post's active discussion explores both the philosophical implications and potential technical implementations of such a cognitive-pattern-focused memory system, indicating strong community engagement with this novel architectural proposal.
 
-**Tags**: `#SQLite`, `#Database Design`, `#Backward Compatibility`, `#Systems Programming`, `#Language Design`
+**Tags**: `#AI architecture`, `#Cognitive science`, `#Persistent context`, `#Memory systems`, `#Philosophy of AI`
 
 ---
 
 <a id="item-9"></a>
-## [Stripe and Advent International Make Joint Offer to Acquire PayPal](https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/) ⭐️ 7.0/10
+## [Nostalgia for Music Piracy in the Streaming Era](https://www.pigeonsandplanes.com/read/music-piracy-what-cd-oink-nine-inch-nails-streaming) ⭐️ 7.0/10
 
-Stripe and private equity firm Advent International have jointly offered to acquire PayPal for over $53 billion. This reported bid represents a major potential consolidation in the global online payments industry. If successful, the deal would create an enormous financial services giant, combining major platforms like Stripe, PayPal, Venmo, and Braintree under one umbrella. This would significantly reshape the competitive landscape for digital payments and likely draw intense antitrust scrutiny. The reported offer values PayPal at more than $53 billion. The community discussion highlights the immense antitrust challenge, as the combined entity would hold a dominant market share in online card-not-present (CNP) checkout, potentially forcing the divestiture of units like Venmo or Braintree.
+An article and community discussion reflect on the cultural and technical aspects of pre-streaming music piracy, such as peer-to-peer networks like Napster and What.cd, compared to modern streaming services. 这一讨论揭示了人们对社区驱动音乐发现的失落感，以及数字档案不完整的持续问题，这影响了文化保存和获取。 Community comments specifically note that streaming platforms still lack a complete archive of all music ever released, and that the peer-to-peer era fostered unique social dynamics for discovery.
 
-hackernews · rvz · Jul 15, 03:32 · [Discussion](https://news.ycombinator.com/item?id=48915953)
+hackernews · mcgin · Jul 16, 04:46 · [Discussion](https://news.ycombinator.com/item?id=48930454)
 
-**Background**: Stripe is a leading financial technology company that provides payment processing software and APIs for online businesses. PayPal is a long-established global digital payments platform owning popular services like Venmo and Braintree. Advent International is a major global private equity firm that invests in various industries.
+**Background**: Music piracy, popularized by early peer-to-peer (P2P) networks like Napster in 1999, involved sharing digital audio files directly between users. This era preceded modern streaming services like Spotify, which offer vast libraries for a subscription fee. A persistent gap in digital archiving means not all music is legally or readily available online.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Stripe,_Inc.">Stripe , Inc. - Wikipedia</a></li>
-<li><a href="https://stripe.com/">Stripe | Financial Infrastructure to Grow Your Revenue</a></li>
-<li><a href="https://en.wikipedia.org/wiki/List_of_private_equity_firms">List of private equity firms - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Napster">Napster - Wikipedia</a></li>
+<li><a href="https://www.usatoday.com/story/entertainment/2024/06/01/napster-music-25th-anniversary-music-industry-impact/73871612007/">What was Napster ? 25 years ago, website changed the way we get...</a></li>
+<li><a href="https://ppc.land/shadow-library-scraped-86-million-spotify-tracks-for-preservation/">Shadow library scraped 86 million Spotify tracks for preservation</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community expresses significant concern, primarily about antitrust hurdles and reduced competition. Commenters worry the merger could lead to higher transaction fees and question Stripe's historically smaller acquisition strategy. There are also concerns about the combined entity's restrictive policies affecting certain vendors.
+**Discussion**: Commenters express nostalgia for the 'cultural buy-in' of the piracy era, where music discovery was organic within friend groups, and lament the loss of deep community forums like those on What.cd. They also point out the irony of Apple's iPod being synergistic with pirated music and the ongoing need for piracy due to streaming's archival gaps.
 
-**Tags**: `#M&A`, `#fintech`, `#antitrust`, `#payments`, `#industry news`
+**Tags**: `#music-piracy`, `#streaming-services`, `#digital-archives`, `#cultural-nostalgia`, `#technology-history`
 
 ---
 
 <a id="item-10"></a>
-## [Proof-of-Concept Compiles Entire Firefox to WebAssembly](https://developer.puter.com/labs/firefox-wasm/) ⭐️ 7.0/10
+## [xAI's Grok CLI Tool Open-Sourced After Privacy Backlash](https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything) ⭐️ 7.0/10
 
-A proof-of-concept project successfully compiled the entire Firefox browser, including the Gecko rendering engine, UI, and SpiderMonkey JavaScript engine, to WebAssembly, allowing it to run inside a canvas element in a 'browser-in-browser' experience. 该项目的重大意义在于展示了WebAssembly的高级能力，表明其可以运行像整个浏览器引擎这样复杂的全栈应用。它为新型沙箱、移植传统软件以及在高度受限系统上运行浏览器开辟了潜在途径。 The project includes a full end-to-end encrypted connection using the WISP protocol for TCP-over-WebSockets and a novel WASM-to-JS JIT compiler for experimental site speedup, which cost over $25k in AI tokens for development.
+xAI released its entire Grok Build codebase under the Apache 2.0 license after its CLI tool was caught secretly uploading entire user directories to cloud storage, causing a major privacy incident. 这一事件凸显了 AI 开发工具中数据隐私和透明度的关键问题，因为它展示了一个 AI 助手如何可能无意中上传敏感的用户文件（如 SSH 密钥和密码），可能影响整个开发者生态系统。 The Grok Build codebase contains 844,530 lines of Rust code, with the initial release consisting of a single commit, and includes notable components like a self-contained terminal renderer for Mermaid diagrams and tool implementations imitated from other coding agents.
 
-hackernews · coolelectronics · Jul 15, 21:00 · [Discussion](https://news.ycombinator.com/item?id=48926939)
+rss · Simon Willison · Jul 15, 23:59
 
-**Background**: WebAssembly (WASM) is a binary instruction format for a stack-based virtual machine, designed as a portable compilation target for high-level languages, enabling near-native performance on the web. Compiling a full browser engine like Gecko to WASM is an extremely complex task that pushes the limits of this technology.
+**Background**: The Grok CLI tool is an AI-powered coding assistant designed to automate terminal tasks and generate code for developers. Google Cloud Buckets is a cloud storage service for storing and managing unstructured data. The Apache 2.0 license is a permissive open-source license that allows for commercial use, modification, and distribution.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.getorchestra.io/guides/jit-compilation-enhancing-data-engineering-with-wasm">JIT Compilation : Enhancing Data Engineering with WASM | Orchestra</a></li>
-<li><a href="https://github.com/MercuryWorkshop/wisp-protocol">GitHub - MercuryWorkshop/ wisp - protocol : Wisp is a low-overhead...</a></li>
-<li><a href="https://www.anthropic.com/claude/fable">Claude Fable \ Anthropic</a></li>
+<li><a href="https://lalatenduswain.medium.com/automate-your-terminal-with-grok-cli-a-developers-guide-to-xai-s-ai-powered-tool-eb8e2b0460bf">Automate Your Terminal with Grok CLI: A Developer’s Guide to xAI’s AI-Powered Tool | by Lalatendu Keshari Swain | Medium</a></li>
+<li><a href="https://cloud.google.com/storage">Cloud Storage | Google Cloud</a></li>
+<li><a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License , Version 2 . 0 | Apache Software Foundation</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community discussion is mixed; comments range from playful skepticism about the cost of the 'fun experiment' to excitement about potential real-world use cases like running ad-blockers on locked-down smart TVs. Users also noted the irony that the demo reportedly doesn't work in Firefox itself and that it can be recursively run.
+**Discussion**: No community comments were provided for this news item.
 
-**Tags**: `#WebAssembly`, `#Browser`, `#Firefox`, `#Sandboxing`, `#Web Development`
+**Tags**: `#AI security`, `#open source`, `#privacy`, `#xAI`, `#developer tools`
 
 ---
 
 <a id="item-11"></a>
-## [Deep Dive into Telegram's Custom Data Center Architecture](https://dev.moe/en/3025) ⭐️ 7.0/10
+## [Microsoft Comic Chat IRC Client Goes Open Source](https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/) ⭐️ 6.0/10
 
-A technical investigation revealed details about Telegram's proprietary, multi-DC (Data Center) infrastructure, including custom architecture, regional server assignments (like DC2 for Russia/Ukraine), and significant technical debt from maintaining unique systems. Understanding Telegram's unique infrastructure provides insights into scaling a massive, privacy-focused messaging platform and highlights the trade-offs and security implications of highly customized distributed systems. The investigation points to a specific DC3 gap, where a European server may be deprecated or used for specialized data flow, and notes that users can be identified with their home DC via the API's `help.getConfig` method.
+Microsoft has released the source code for its historic Comic Chat IRC client from the 1990s as an open-source project on GitHub. This makes the nostalgic software, which rendered conversations as comic strips, publicly available for study and modification. This release preserves a unique piece of internet history, offering developers and historians a chance to examine early graphical chat interfaces and Microsoft's experimental software from the 1990s. It serves as an educational resource for understanding the evolution of online communication and human-computer interaction. Comic Chat was unique for automatically rendering IRC text conversations into comic strip panels with character avatars and speech bubbles. The open-sourced code is now available on GitHub, but it targets a legacy Windows environment and has limited practical use for modern software development.
 
-hackernews · theanonymousone · Jul 15, 13:22 · [Discussion](https://news.ycombinator.com/item?id=48920475)
+hackernews · jervant · Jul 16, 16:06 · [Discussion](https://news.ycombinator.com/item?id=48936426)
 
-**Background**: Telegram uses a system of globally distributed data centers (DCs) to provide low-latency messaging. When a user is created, they are permanently assigned to a 'home DC' where their primary data resides, and file downloads must be fetched from the specific DC storing that file. This custom MTProto-based architecture differs significantly from standard cloud infrastructure.
+**Background**: IRC (Internet Relay Chat) is a foundational real-time text chat protocol created in 1988. Microsoft Comic Chat was a novel IRC client released in 1996 that combined this text protocol with graphical avatars, using algorithms to arrange dialogue into comic strips. Open source software is code that is publicly accessible, allowing anyone to use, study, modify, and distribute it under specific licenses.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://core.telegram.org/api/datacenter">Working with Different Data Centers - Telegram APIs Telegram Messenger Network - IP Addresses by Organization Telegram APIs What are the IP addresses of Telegram Data Centers? - Pyrogram What are the IP addresses of Telegram Data Centers? Telegram Messenger Network IP addresses, domains and public ...</a></li>
-<li><a href="https://docs.hydrogram.org/en/latest/faq/what-are-the-ip-addresses-of-telegram-data-centers.html">What are the IP addresses of Telegram Data Centers?</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Technical_debt">Technical debt - Wikipedia</a></li>
+<li><a href="https://www.irchelp.org/">Internet Relay Chat Help</a></li>
+<li><a href="https://www.inquisitr.com/remember-microsoft-comic-chat-heres-how-you-can-still-use-it/">Remember Microsoft Comic Chat ? Here’s How You Can Still Use It</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters raise significant concerns, including allegations that Telegram's infrastructure is managed by someone also working for Russia's FSB, practical notes on regional DC reliability (DC2 for Russian/Ukrainian users), and critiques that the highly custom system creates excessive technical debt.
+**Discussion**: Community discussion is nostalgic and informative. One commenter recalls that Comic Chat was later 'reviled' on IRC for extending the protocol with explicit character appearance commands, rather than relying on context. Others share direct links to the GitHub repository and related historical websites.
 
-**Tags**: `#infrastructure`, `#distributed-systems`, `#messaging-apps`, `#technical-deep-dive`, `#system-design`
+**Tags**: `#open-source`, `#historical-software`, `#IRC`, `#Microsoft`, `#retro-computing`
 
 ---
 
 <a id="item-12"></a>
-## [New Codec misa77: 2x Faster Decompression Than LZ4](https://github.com/welcome-to-the-sunny-side/misa77) ⭐️ 7.0/10
+## [Sony Deletes More Movies from User Accounts, Sparking Ownership Debates](https://www.techdirt.com/2026/07/15/sony-deletes-a-bunch-more-movies-from-the-accounts-of-people-who-bought-them/) ⭐️ 6.0/10
 
-A new experimental lossless compression codec named misa77 has been released, claiming decompression speeds up to 2x faster than LZ4 while achieving comparable compression ratios. Benchmarks on the Silesia corpus show misa77 reaching 5219 MB/s decode speed versus LZ4's 2505 MB/s. This codec challenges the established performance benchmarks for fast decompression, which is critical for real-time applications like data streaming, network transmission, and in-memory databases. If matured, it could offer a new high-performance option in the compression ecosystem, particularly for workloads where read/decode operations dominate. The performance gains are achieved by optimizing the format to reduce CPU branch instructions and be friendly to modern out-of-order execution cores, but this comes at the cost of slower compression speed. The project is experimental, still in version 0.x.y, with an unstable format and a decoder that assumes valid input without guaranteed error handling.
+Sony has once again removed digital movies from the accounts of users who had purchased them, reigniting debates about the nature of digital ownership and consumer rights. 此事件凸显了数字购买的脆弱性，消费者并不拥有真正的所有权，其权益受制于平台政策和技术变更。 The removals are part of a recurring pattern, with similar past incidents involving hundreds of movies being deleted, raising questions about the legal distinction between 'buying' and 'renting' digital content.
 
-hackernews · nonadhocproblem · Jul 15, 15:58 · [Discussion](https://news.ycombinator.com/item?id=48922838)
+hackernews · nekusar · Jul 16, 12:13 · [Discussion](https://news.ycombinator.com/item?id=48933419)
 
-**Background**: Compression codecs like LZ4 are designed to provide a balance between compression ratio and speed, with LZ4 being particularly renowned for its extremely fast decompression, making it a default choice for many systems. Modern CPUs use out-of-order execution to optimize performance by running instructions in any available order, and codecs that minimize data dependencies and branches can execute more efficiently on these architectures. The Silesia corpus is a standard benchmark dataset used to evaluate the performance of lossless compression algorithms.
+**Background**: Digital ownership of media like movies and games differs fundamentally from physical ownership, as it typically involves a license for access rather than a transfer of property rights. This model gives platforms like Sony significant control over user libraries, unlike physical discs which are owned outright by the consumer.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Out-of-order_execution">Out-of-order execution - Wikipedia</a></li>
-<li><a href="https://software-dl.ti.com/simplelink/esd/simplelink_msp432_sdk/2.40.00.10/docs/lz4/users_guide/users_guide/bazel_docguide.M3roUM/docs/lz4/users_guide/benchmarking.html">Benchmarking — LZ4 Compression Library 1.00.01.00 documentation</a></li>
-<li><a href="https://mattmahoney.net/dc/silesia.html">Silesia Open Source Compression Benchmark</a></li>
+<li><a href="https://jacobin.com/2025/01/digital-ownership-physical-media-control">Digital Ownership and the End of Physical Media</a></li>
+<li><a href="https://technosports.co.in/consumer-group-suing-dutch-sues/">Consumer group suing: Dutch Consumer Group Sues Sony</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters discuss the inherent tradeoff between fast decoding and compression speed, with one noting that optimizing for more memcpy operations boosts decode throughput but requires slower encoding. Others highlight that the codec is experimental and not hardened for invalid input, and request benchmarks against other codecs like Oodle's Selkie.
+**Discussion**: Commenters express frustration and concern, with some questioning the legality of 'buy' buttons for what are essentially rental licenses. Others connect this to broader industry trends, like the end of physical media, suggesting companies are moving towards a future where consumers own nothing.
 
-**Tags**: `#compression`, `#codec`, `#performance`, `#systems`, `#open-source`
+**Tags**: `#digital ownership`, `#consumer rights`, `#digital distribution`, `#gaming industry`, `#platform control`
 
 ---
 
 <a id="item-13"></a>
-## [Proposing a philosophical framework for a universal AI agent harness](https://eardatasci.github.io/c/ambiance/index.html) ⭐️ 7.0/10
+## [Student Researchers Decry High ECCV Conference Fees and Waiver Denials](https://www.reddit.com/r/MachineLearning/comments/1uxyd6z/why_is_eccv_so_insanely_expensive_for_students/) ⭐️ 6.0/10
 
-A new article proposes a philosophical and architectural framework for building a more capable and flexible AI agent harness, advocating for core principles like determinism and treating the harness as a virtual machine. It introduces the idea of "Preliminary Truths" as foundational guidelines for harness design. This framework aims to move beyond simple tool wrappers to create a more universal and adaptable foundation for AI agents, potentially influencing how future autonomous systems are designed and integrated. It addresses a key challenge in the field: building robust, stateful systems that can reliably execute complex, multi-step tasks. The proposal emphasizes treating the agent harness as a deterministic virtual machine to improve reliability and capabilities, a departure from the often probabilistic nature of the underlying LLMs. However, community feedback notes that these ideas, particularly the "Preliminary Truths," may not be as novel as presented, resembling established principles in system design and management.
+A student researcher posted on Reddit expressing frustration that ECCV requires a full-price registration (805 USD) for paper presenters, even if they are students, and that student travel grants and registration waivers were rejected. This issue highlights significant financial barriers that can prevent talented student researchers, particularly those without strong funding, from attending and presenting their work at top-tier academic conferences, potentially limiting diversity and inclusion in the AI research community. The core complaint is a policy where paper presentation necessitates a full-price registration of 805 USD, which is nearly double the early-bird student rate of 440 USD. The student also noted that applications for financial support (travel grants and registration waivers) were denied.
 
-hackernews · evakhoury · Jul 15, 14:08 · [Discussion](https://news.ycombinator.com/item?id=48921077)
+reddit · r/MachineLearning · /u/NotGondor · Jul 16, 09:55
 
-**Background**: An AI agent harness is the software infrastructure that enables a large language model (LLM) to function as an autonomous agent by managing tools, memory, execution environments, and state across multiple steps. The concept of deterministic systems, where the same input always yields the same output, is crucial for building predictable and reliable enterprise-grade AI applications, contrasting with the probabilistic nature of LLM reasoning.
+**Background**: Major academic conferences like ECCV (European Conference on Computer Vision) often have tiered pricing, with discounted rates for students to encourage participation. However, conference organizers sometimes require a full-price registration to cover the cost of each accepted paper, which can create a financial conflict for student authors. Travel grants and waivers are competitive funding mechanisms intended to offset these costs but are not guaranteed.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Agent_harness">Agent harness</a></li>
-<li><a href="https://www.lorka.ai/knowledge-hub/what-is-deterministic-ai">What Is Deterministic AI ? Definition, Examples, and Key... | Lorka AI</a></li>
+**Discussion**: The provided content does not include comments from the community discussion.
 
-</ul>
-</details>
-
-**Discussion**: The community response is largely critical, with commenters arguing the ideas are 'soft' and not significantly different from existing agent sandboxes or simple tool wrappers. Some point out the lack of novelty in the proposed 'Preliminary Truths,' while others debate the technical merits of full determinism versus incorporating more LLM-driven decisions.
-
-**Tags**: `#AI Agents`, `#Software Architecture`, `#LLM Tooling`, `#Deterministic Systems`, `#Philosophy of Computing`
+**Tags**: `#academic conferences`, `#ECCV`, `#research funding`, `#student accessibility`, `#machine learning community`
 
 ---
 
 <a id="item-14"></a>
-## [New Wave of Large LLMs for Dual DGX Spark Hardware](https://www.reddit.com/r/LocalLLaMA/comments/1uxkl8u/new_wave_of_miniboss_models_you_can_run_on_dual/) ⭐️ 7.0/10
+## [Seeking Critical Perspectives on JEPA for Robot Learning](https://www.reddit.com/r/MachineLearning/comments/1uxcryc/looking_for_jepa_devil_advocates_r/) ⭐️ 6.0/10
 
-A Reddit post highlights a recent proliferation of large (~130-210GB) LLMs, such as MiniMax M2.7, Deepseek V4 Flash, and Tencent Hy3, that can now be run on a dual NVIDIA DGX Spark hardware setup. The author notes that for a long time, options were limited to a few models like GLM and Qwen, but several new releases in the past three months have expanded the available choices for this powerful local deployment tier. This news is significant because it demonstrates a growing, accessible hardware-and-model ecosystem for running very large, powerful AI models locally, which was previously limited to major cloud providers or research labs. It empowers a niche community of AI enthusiasts and developers to experiment with cutting-edge models at a substantial, yet relatively affordable, personal infrastructure cost. The specific hardware setup consists of two NVIDIA DGX Spark units connected via a ConnectX-7 cable, providing approximately 250GB of usable memory for an estimated cost of $7,000-$8,000. The author suggests using these models at 4-bit quantization and advises testing models on the OpenRouter platform first before investing in the hardware.
+A researcher has posted a query in the r/MachineLearning community seeking critical analysis and potential limitations of Joint Embedding Predictive Architectures (JEPA) in the context of world models for robot learning. The post specifically asks for 'devil's advocate' viewpoints to counterbalance the highly positive narrative often presented by Yann LeCun regarding JEPA. This discussion is significant as it encourages critical evaluation of a prominent and hyped research direction (JEPA) within AI, potentially uncovering blind spots or practical challenges in applying it to robotics. It reflects a healthy scientific skepticism that is crucial for the responsible development of world models, which are seen as a promising path toward more general AI agents. The post contrasts the confident claims made by Yann LeCun in conferences about JEPA being the 'only next big thing' with other approaches like LLMs and RL, highlighting a desire to explore potential 'red flags'. Based on web search results, key limitations of JEPA models include their deterministic nature which can limit uncertainty modeling, and the fact that their continuous latent space output differs fundamentally from the discrete token sequences of LLMs.
 
-reddit · r/LocalLLaMA · /u/dtdisapointingresult · Jul 15, 22:29
+reddit · r/MachineLearning · /u/Amazing-Coat5160 · Jul 15, 17:34
 
-**Background**: NVIDIA DGX Spark is a desktop AI workstation based on the Grace Blackwell architecture, designed for prototyping and running large AI models locally. A single DGX Spark unit starts around $3,000, but pairing two with high-speed networking like a ConnectX-7 cable merges their memory pools, enabling the execution of models in the 130-210GB parameter range. OpenRouter is a unified platform that provides access to hundreds of AI models via an API, often used for testing and comparison.
+**Background**: JEPA (Joint Embedding Predictive Architectures) is a framework for building world models, championed by Yann LeCun, that aims to learn abstract representations of the world by predicting latent states rather than raw sensory inputs. It is positioned as a key alternative to Large Language Models (LLMs) and Reinforcement Learning (RL) for developing AI with a deeper understanding of physical and causal dynamics, which is particularly relevant for training robots to operate in the real world. World models in robotics are used for planning, simulation, and policy learning by predicting future states of the environment.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://docs.nvidia.com/dgx/dgx-spark/hardware.html">Hardware Overview — DGX Spark User Guide</a></li>
-<li><a href="https://www.hardware-corner.net/nvidias-dgx-spark-digits-specs-20250319/">$3,000 for THIS? NVIDIA’s DGX Spark Faces Tough Competition</a></li>
-<li><a href="https://openrouter.ai/">OpenRouter</a></li>
+<li><a href="https://aman.ai/primers/ai/world-models-jepa/">Aman's AI Journal • Primers • World Models : Rendering, Simulation...</a></li>
+<li><a href="https://notes.suhaib.in/docs/tech/news/why-metas-v-jepa-2-is-a-game-changer-for-robotics/">How Meta's V- JEPA Is Revolutionizing Robotics –Notes</a></li>
+<li><a href="https://blog.yucas.net/2026/05/18/beyond-llms-yann-lecuns-critique-and-the-jepa-research-program-2/">Beyond LLMs: Yann LeCun ’s Critique and the JEPA Research Program</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion, as indicated by the post's interactive nature, likely involves users sharing their personal experiences and preferences among the listed models, comparing their performance on this hardware setup, and debating the value proposition of the ~$7k investment. There may also be cautionary advice and questions about alternative, more cost-effective configurations.
-
-**Tags**: `#Local LLM`, `#Hardware`, `#Model Releases`, `#AI Inference`, `#Community Discussion`
+**Tags**: `#JEPA`, `#world models`, `#robot learning`, `#machine learning`, `#AI research`
 
 ---
 
 <a id="item-15"></a>
-## [Running Gemma 4 26B on 13-Year-Old Xeon CPU Achieves 5 tokens/sec](https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/) ⭐️ 6.0/10
+## [Seeking Python Tools for Hierarchical Multi-Objective Optimization](https://www.reddit.com/r/MachineLearning/comments/1uxty9v/best_current_tools_for_multiobjective/) ⭐️ 6.0/10
 
-A technical post demonstrates successfully running the Gemma 4 26B language model on a 13-year-old dual Xeon CPU system without any GPU, achieving an inference speed of 5 tokens per second. The post showcases the feasibility and optimization techniques required to run a large, modern LLM on very outdated consumer hardware. This demonstration challenges the assumption that powerful, modern, and expensive GPU hardware is a strict necessity for running cutting-edge AI models, potentially making advanced AI more accessible. It also fuels a broader debate about the cost-effectiveness of local inference versus cloud-based API services for developers and enthusiasts. The achievement relies on optimizations like quantization to reduce the model's memory and computational footprint, and the 26B A4B model is a Mixture-of-Experts (MoE) variant which is more efficient than a dense model of the same size. Community analysis quickly pointed out that while the electricity cost for local runs might be higher than cheap cloud APIs, this method offers total privacy and zero marginal token costs after the initial setup.
+A practitioner has posted a detailed question on Reddit seeking the best 2026 Python tool stack for multi-objective surrogate-based optimization on heterogeneous meta-analysis data. The problem involves hierarchical modeling to separate protocol from baseline effects and continuous optimization for three objectives under physiological constraints. This question highlights a complex, real-world workflow combining statistical modeling and advanced optimization, which is valuable for researchers and practitioners in fields like health sciences and engineering. It underscores the growing need for integrated, accessible Python tools for tackling computationally expensive, multi-objective problems with real data constraints. The user specifies the need for continuous, fine-grained output values (not rounded), Colab compatibility for use on a Chromebook, and the inclusion of domain-specific physiological constraints. They are considering a stack that might include PyMC for hierarchical modeling, pymoo/pysamoo for surrogate-assisted optimization, and SMT for surrogates.
 
-hackernews · neomindryan · Jul 15, 15:34 · [Discussion](https://news.ycombinator.com/item?id=48922434)
+reddit · r/MachineLearning · /u/BleakReason · Jul 16, 05:43
 
-**Background**: Gemma 4 is Google's latest family of open language models, released in mid-2026, which includes both dense and Mixture-of-Experts (MoE) architectures. Running large language models (LLMs) typically requires substantial RAM and benefits greatly from GPU acceleration; CPU-only inference on older hardware is a known but challenging frontier for optimization enthusiasts seeking to maximize accessibility.
+**Background**: Multi-objective surrogate-based optimization (MOSBO) uses approximation models (surrogates) to optimize problems where evaluating the true objective function is computationally expensive, while managing multiple conflicting goals. Hierarchical modeling, as implemented in Bayesian frameworks like PyMC, is used in meta-analysis to account for variation across different studies by allowing parameters to vary by group. Libraries like pymoo and its extension pysamoo provide specialized algorithms for multi-objective optimization, including surrogate-assisted methods designed for expensive functions.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://ai.google.dev/gemma/docs/core">Gemma 4 model overview - Google AI for Developers</a></li>
-<li><a href="https://bestllmfor.com/best/cpu-only/">Best LLM for CPU - only (no GPU, Ryzen/EPYC) 2026 | BestLLMfor</a></li>
-<li><a href="https://samarkanov.info/blog/2026/feb/Running-Local-LLMs-In-February-2026.html">Local LLM Performance Benchmarks 2026: Qwen, Gemma, and...</a></li>
+<li><a href="https://www.pymc.io/projects/examples/en/latest/generalized_linear_models/multilevel_modeling.html">A Primer on Bayesian Methods for Multilevel... — PyMC example gallery</a></li>
+<li><a href="https://anyoptimization.com/projects/pysamoo/">pysamoo : Surrogate - Assisted Multi-objective Optimization ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion is highly engaged, with users sharing comparative cost analyses arguing that cloud inference can be cheaper and faster, while others highlight the value of privacy and the educational aspect of such experiments. Several users shared their own benchmark results for running models on similar or different CPU-only setups, providing a practical comparison of performance across various hardware.
+**Discussion**: The community discussion is not provided in the content, so a summary cannot be generated.
 
-**Tags**: `#local-inference`, `#llm-optimization`, `#hardware-comparison`, `#cost-analysis`, `#open-source-ai`
-
----
-
-<a id="item-16"></a>
-## [Tech Professionals Reflect on Mental Health and Communication](https://ramones.dev/posts/mental-health/) ⭐️ 6.0/10
-
-A personal blog post has sparked extensive community discussion about mental health challenges in the tech industry, with many sharing experiences on neurodivergence, self-management, and misaligned career expectations. This discussion highlights a critical but often overlooked aspect of the software engineering profession, where high performance expectations can clash with individual neurodiversity and mental well-being, affecting retention and workplace inclusivity. The conversation focuses on practical self-management strategies, like personalized planning systems, and challenges the notion that neurodivergent individuals can simply 'snap out of it' or conform to standard productivity models.
-
-hackernews · ramon156 · Jul 15, 11:27 · [Discussion](https://news.ycombinator.com/item?id=48919198)
-
-**Background**: Neurodivergence in the tech sector is increasingly recognized, with studies showing many employees feel its daily impact, yet workplaces often lack accessibility. Meanwhile, software development roles are frequently portrayed as high-growth and lucrative, which can set unrealistic expectations for individuals whose cognitive styles differ.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://wearetechwomen.com/harnessing-the-superpower-neurodivergence-in-women-in-tech/">Harnessing the superpower | Neurodivergence in Women in Tech</a></li>
-<li><a href="https://www.change-the-face.com/neurodiversity-in-tech/">Major study on neurodiversity in tech sector highlights need ...</a></li>
-<li><a href="https://www.scaler.com/blog/software-developer-career-roadmap-in-2025/">Software Developer Roadmap: How to Become a Software ... - Scaler Software Developer Career Progression: A Comprehensive Guide ... What Does a Software Developer Do? (And How to Become One) 8 Career Paths for Software Engineers [2025 Career Guide] 15 Potential Goals for Software Developers (With Examples) Software Developer Career Path 2026: Junior to Tech Lead Software Developer Career Roadmap: Essential Roles and Skills</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters strongly emphasized that neurodivergence is a persistent condition requiring accommodation, not a problem to be 'fixed' with better plans, while others shared personal struggles with overthinking and the gap between perceived potential and actual career outcomes.
-
-**Tags**: `#mental-health`, `#software-engineering`, `#career-development`, `#neurodiversity`, `#work-life-balance`
-
----
-
-<a id="item-17"></a>
-## [An Embodied Intelligence Infrastructure Provider Emerges](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247903875&idx=1&sn=7b4310fb18c59407f80da2adaff1aedc) ⭐️ 6.0/10
-
-The article identifies an emerging company positioned as a foundational infrastructure provider for embodied intelligence, drawing a strategic parallel to NVIDIA's role in AI compute and CATL's in the energy sector. This signals a potential strategic shift in the embodied intelligence or robotics industry towards specialized, enabling infrastructure layers, which could accelerate development by providing core tools and platforms for others to build upon. The company is associated with the 'Robotaxi' company WeRide, suggesting it may be an incubated or related venture focusing on underlying technology rather than end-user applications.
-
-rss · 量子位 · Jul 15, 04:30
-
-**Background**: Embodied intelligence refers to AI systems that possess a physical form (like a robot) and can perceive and act within the real world, unlike software-only AI. Building such systems requires specialized AI infrastructure, including hardware, simulation platforms, and training data pipelines, which is distinct from the cloud or data center AI infrastructure used for large language models.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://sanctuary.ai/solutions/">Embodied Intelligence Technology | AI Robotics | Sanctuary AI</a></li>
-<li><a href="https://www.ibm.com/think/topics/ai-infrastructure">What is AI infrastructure? - IBM</a></li>
-<li><a href="https://www.nextplatform.com/ai/2026/02/03/robotics-will-break-ai-infrastructure-heres-what-comes-next/4092133">Robotics Will Break AI infrastructure: Here's What Comes Next</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#embodied-intelligence`, `#AI-infra`, `#startup-analysis`, `#strategic-positioning`, `#robotics`
-
----
-
-<a id="item-18"></a>
-## [Linus Torvalds defends AI use in Linux development](https://www.reddit.com/r/LocalLLaMA/comments/1uxbrw4/linus_torvalds_tells_people_to_stop_attacking/) ⭐️ 6.0/10
-
-Linus Torvalds, as Linux kernel's top-level maintainer, publicly defended the use of AI tools in the project, stating Linux is not anti-AI and such tools are clearly useful today. 作为开源界的奠基性领袖，这一声明为在主要项目中采用 AI 设定了先例，可能减少污名化，并鼓励在协作软件开发中建设性地整合 AI 工具。 Torvalds emphasized that AI is a tool whose usefulness is no longer in question, while acknowledging it can cause pain for maintainers by finding bugs, and he stated he will ignore efforts to stop others from using it.
-
-reddit · r/LocalLLaMA · /u/Illustrious_Car344 · Jul 15, 16:59
-
-**Background**: Linus Torvalds is the creator of Linux and serves as its top-level maintainer, overseeing the integration of code into the official kernel. In open-source projects, 'forking' is creating an independent copy of the codebase to modify it separately, a practice Torvalds mentioned as an option for those opposed to his stance. The Linux kernel community prioritizes technical merit in its decisions.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Fork_(software_development)">Fork (software development) - Wikipedia</a></li>
-<li><a href="https://medium.com/@bhumikagoyal/linux-kernel-development-cycle-52b4c55be06e">Linux kernel development cycle. The kernel development... | Medium</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The Reddit discussion likely includes diverse opinions, with some supporting Torvalds' pragmatic view of AI as a tool, while others express concerns about job displacement, code quality, or the ethical implications of AI in software development.
-
-**Tags**: `#AI in open-source`, `#Linux development`, `#community dynamics`, `#Linus Torvalds`, `#AI tools`
-
----
-
-<a id="item-19"></a>
-## [1-Bit Quantized Hy3 Model Achieves Surprising Coherence](https://www.reddit.com/r/LocalLLaMA/comments/1uxm2d8/hy3_1bit_8993_gb/) ⭐️ 6.0/10
-
-A user tested an extreme 1-bit quantization (iq1m) of the Hy3 large language model, compressing it to 89-93 GB, and reported surprisingly coherent outputs including working code for a flight simulator and diverse creative tasks. This experiment demonstrates that even massive models like Hy3 can be compressed to run on a single high-end GPU while retaining functional coherence, highlighting a potential path for more accessible local deployment of future ultra-large models. The quantization was achieved using the iq1m method, a 1-bit per weight format, which drastically reduced the model's size from its original 295B parameters. The user's tests included generating functional code and SVG images, showing the model retained significant capability despite the extreme compression.
-
-reddit · r/LocalLLaMA · /u/Ok_Technology_5962 · Jul 15, 23:28
-
-**Background**: Hy3 is a 295-billion-parameter Mixture-of-Experts (MoE) large language model developed by Tencent, designed to be a leading open-source model. Model quantization is a technique that reduces the numerical precision of a model's weights (e.g., from 16 bits to 1 bit) to dramatically shrink its size and memory footprint, enabling it to run on consumer hardware with less VRAM. The GGUF format is a popular binary file format used by runtimes like llama.cpp to efficiently load and run quantized models locally.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/Tencent-Hunyuan/Hy3">GitHub - Tencent-Hunyuan/Hy3: Hy3 (295B A21B), a leading ...</a></li>
-<li><a href="https://explainx.ai/blog/tencent-hy3-gguf-1-bit-4-bit-single-gpu-llama-cpp-july-2026">Hy3 GGUF 1-bit 4-bit Single GPU — July 2026 | explainx.ai ...</a></li>
-<li><a href="https://www.datacamp.com/tutorial/gguf-format-a-complete-guide">GGUF Format: A Complete Guide to Local LLM Inference</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The provided content does not include community comments from the Reddit thread, so a summary of the discussion is not available.
-
-**Tags**: `#model quantization`, `#1-bit compression`, `#LLM inference`, `#model optimization`, `#open-source models`
-
----
-
-<a id="item-20"></a>
-## [Bonsai-27B Model Integration Status Update](https://www.reddit.com/r/LocalLLaMA/comments/1ux4wrx/bonsai27b_ternarybonsai27b_updates_on_prs/) ⭐️ 6.0/10
-
-The status of integrating Bonsai-27B's binary (Q1_0) and ternary formats into llama.cpp and MLX is being updated, with binary support fully merged and ternary support migrating into mainline llama.cpp. This update is crucial for the local LLM community as it clarifies compatibility across backends (CPU, Metal, CUDA, Vulkan) and guides users on which file formats to use for each runtime during the transition. Ternary format support is migrating into mainline llama.cpp, resulting in three distinct GGUF variants that must run on specific backends, and several open PRs aim to further optimize Bonsai model performance.
-
-reddit · r/LocalLLaMA · /u/pmttyji · Jul 15, 12:48
-
-**Background**: Bonsai-27B and Ternary-Bonsai-27B are highly quantized versions of the Qwen3.6-27B model, using binary (1-bit) and ternary weights to drastically reduce size while aiming to retain most of the original model's capability. These extreme quantization formats, like Q1_0 and Q2_0, require specific backend support in inference frameworks such as llama.cpp and MLX to run locally.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://prismml.com/news/bonsai-27b">PrismML — Announcing Bonsai 27B: The First 27B-Class Model to ...</a></li>
-<li><a href="https://docs.prismml.com/models/bonsai-27b">Bonsai 27B - Bonsai</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The post notes that some community members questioned the models' performance on complex tasks like agentic coding, but the model creators have documented these as known limitations in their model cards.
-
-**Tags**: `#LLM`, `#llama.cpp`, `#local-inference`, `#model-compatibility`, `#ternary-quantization`
+**Tags**: `#multi-objective optimization`, `#surrogate modeling`, `#hierarchical modeling`, `#PyMC`, `#pymoo`
 
 ---
 
