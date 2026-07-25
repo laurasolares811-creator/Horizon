@@ -5,131 +5,162 @@ date: 2026-07-25
 lang: zh
 ---
 
-> 从 18 条内容中筛选出 10 条重要资讯。
+> 从 19 条内容中筛选出 8 条重要资讯。
 
 ---
 
-1. [Anthropic 发布 Claude Opus 5 AI 模型](#item-1) ⭐️ 9.0/10
-2. [vLLM v0.26.0 版本发布，提升性能并新增模型支持](#item-2) ⭐️ 8.0/10
-3. [ARC-AGI 排行榜更新引发基准测试讨论](#item-3) ⭐️ 8.0/10
-4. [英国 AISI 评估报告：Kimi K3 网络能力与安全防护栏的对比](#item-4) ⭐️ 8.0/10
-5. [Anthropic 称 Claude Opus 5 能抵御提示注入攻击](#item-5) ⭐️ 8.0/10
-6. [清华与腾讯通过树结构 rollout 优化降低大语言模型后训练成本](#item-6) ⭐️ 7.0/10
-7. [第一人称视频或可通过转移视觉注意力来帮助机器人学习](#item-7) ⭐️ 7.0/10
-8. [Android May Soon Restrict On-Device ADB](#item-8) ⭐️ 6.0/10
-9. [汉娜·弗莱因数学普及工作获得 2026 年莉拉瓦蒂奖](#item-9) ⭐️ 6.0/10
-10. [探讨企业定制模型训练的真实商业用例](#item-10) ⭐️ 6.0/10
+1. [vLLM v0.26.0 发布：新增模型支持与重大性能优化](#item-1) ⭐️ 8.0/10
+2. [开源权重 AI 模型正经历类似 Kubernetes 的标准化时刻](#item-2) ⭐️ 8.0/10
+3. [Anthropic 发布 Claude Opus 5，一款高性价比的新型 AI 模型](#item-3) ⭐️ 8.0/10
+4. [谷歌拟限制安卓设备上的 ADB 访问](#item-4) ⭐️ 7.0/10
+5. [The Fedora 45 Sausage Factory](#item-5) ⭐️ 7.0/10
+6. [MouthPad：Augmental 公司推出的舌控触摸板接口](#item-6) ⭐️ 7.0/10
+7. [Claude Opus 5 在提示词注入防御方面取得重大进展](#item-7) ⭐️ 7.0/10
+8. [清华与腾讯提出树结构 Rollout 方法，优化大模型后训练](#item-8) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Anthropic 发布 Claude Opus 5 AI 模型](https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything) ⭐️ 9.0/10
+## [vLLM v0.26.0 发布：新增模型支持与重大性能优化](https://github.com/vllm-project/vllm/releases/tag/v0.26.0) ⭐️ 8.0/10
 
-Anthropic 发布了 Claude Opus 5，这是一款新的人工智能模型，被描述为以一半的成本接近其更昂贵的 Fable 5 模型的前沿智能水平。它目前在 Artificial Analysis 排行榜上位居第一，在性能基准测试中甚至超越了 Fable 5。 此次发布意义重大，因为它以更具竞争力的价格提供了接近前沿的性能，可能会降低企业采用高能力人工智能的门槛。通过为编码、企业工作流和长时间运行的代理任务提供一种经济高效的选择，它加剧了人工智能模型市场的竞争。 Claude Opus 5 包含一个新功能，允许用户在低、中、高努力级别之间切换，以平衡特定任务的成本和能力。虽然它在发现网络安全漏洞方面有了显著提高，但 Anthropic 故意避免对其进行漏洞利用技术的训练。
+开源推理引擎 vLLM 发布了 v0.26.0 版本，新增了对 Inkling 模型族的全面支持，并针对 DeepSeek-V4 等模型在不同硬件平台上进行了显著的性能优化。该版本还改进了注意力后端和 KV 缓存管理的架构，并增强了 Rust 前端的多模态功能。 此版本意义重大，因为 vLLM 是一个广泛使用的高效大语言模型服务框架，这些优化直接提升了前沿模型在生产环境中的推理速度和成本效益。其架构增强和新硬件支持（如 AMD ROCm、Intel XPU）扩展了该框架在 AI/ML 系统社区中的适用性和灵活性。 关键技术细节包括为 DeepSeek-V4 提供的专用路由内核和融合操作，可减少端到端每个输出令牌的时间（TPOT），以及支持按 KV 缓存组灵活选择注意力后端，以更好地适配混合模型。该版本还大幅完善了将 KV 缓存卸载到分层二级存储的功能，包括支持云环境中工作负载身份的的对象存储层。
 
-rss · Simon Willison · 7月24日 23:48
+github · khluu · 7月25日 10:38
 
-**背景**: 人工智能中的前沿智能指的是最高层级的模型能力，像 Anthropic、OpenAI 和 Google 等领先实验室的顶级模型在标准化基准测试上进行竞争。像 Artificial Analysis 这样的排行榜从质量、速度和定价等多个维度评估模型，为实际应用提供综合评分。
+**背景**: vLLM 是一个高吞吐量、内存高效的大型语言模型（LLM）推理和服务库，以其 PagedAttention 等特性而闻名。它能够实现从 Hugging Face 快速、低成本地部署模型。像 v0.26.0 这样的版本发布对于跟上快速演进的模型架构和硬件平台至关重要，确保从业者拥有用于实际应用的优化工具。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.anthropic.com/news/claude-opus-5">Introducing Claude Opus 5 \ Anthropic</a></li>
-<li><a href="https://artificialanalysis.ai/leaderboards/models">LLM Leaderboard - Comparison of AI models from OpenAI ...</a></li>
-<li><a href="https://venturebeat.com/orchestration/anthropic-launches-claude-opus-5-a-cheaper-ai-model-for-coding-agents-and-enterprise-workflows">Anthropic launches Claude Opus 5, a cheaper AI model for coding, agents and enterprise workflows | VentureBeat</a></li>
+<li><a href="https://github.com/vllm-project/vllm/releases">Releases · vllm -project/ vllm</a></li>
+<li><a href="https://nvidia.github.io/TensorRT-LLM/blogs/tech_blog/blog26_DeepSeek_V4_on_NVIDIA_Blackwell_Model_Specific_and_Agentic_Workload_Optimizations_in_TensorRT-LLM.html">DeepSeek - V 4 on NVIDIA Blackwell: Model-Specific and...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 来自公告和讨论的整体情绪是积极的，人们对其强大的基准性能和成本效益感到兴奋。观察者注意到其在测试中表现出的“坚持不懈的主动性”，例如自主构建计算机视觉管道来解决问题，这突显了其先进的代理能力。
-
-**标签**: `#AI`, `#LLM`, `#Anthropic`, `#model-release`, `#benchmarking`
+**标签**: `#inference-optimization`, `#llm-serving`, `#cuda`, `#deepseek`, `#open-source`
 
 ---
 
 <a id="item-2"></a>
-## [vLLM v0.26.0 版本发布，提升性能并新增模型支持](https://github.com/vllm-project/vllm/releases/tag/v0.26.0) ⭐️ 8.0/10
+## [开源权重 AI 模型正经历类似 Kubernetes 的标准化时刻](https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/) ⭐️ 8.0/10
 
-vLLM v0.26.0 版本对 DeepSeek-V4 进行了重大性能优化，新增了对全新 Inkling 模型系列的支持，并改进了 fp32 lm_head 以提升生成模型的准确性。 这个版本显著提升了这个广泛使用的开源大语言模型服务库的性能和灵活性，为需要高效且准确 LLM 推理的开发者和研究人员带来了好处。 此次更新包含针对 DeepSeek-V4 的专用路由内核等优化，以及对 AMD 和 XPU 平台投机解码的支持，同时还有如每组 KV 缓存可选择不同注意力后端等架构改进。
+文章指出，开源权重 AI 模型正经历一个变革性时刻，类似于 Kubernetes 当年标准化容器编排所带来的影响，这可能推动整个行业的标准化与协作开发。 这一转变可能降低行业对特定 API 供应商的依赖，通过建立有竞争力的成本基准来拉低推理成本，并促进形成一个公司共同开发共享 AI 基础设施的协作生态。 文章将开源权重模型与 Linux 进行了关键类比，认为若要真正达到类似 Kubernetes 的影响，可能需要公开训练数据以及多家公司的协作开发。讨论还指出，目前硬件生产规模（尤其是来自中国的部分）会影响本地运行模型的经济性。
 
-github · khluu · 7月25日 10:38
+hackernews · tknaup · 7月25日 14:49 · [社区讨论](https://news.ycombinator.com/item?id=49048034)
 
-**背景**: vLLM 是一个高吞吐量、高内存效率的大语言模型推理与服务引擎。投机解码是一种加速推理的技术，它通过让一个较小的草稿模型提出候选项，然后由一个较大的目标模型进行验证。Inkling 模型是 Thinking Machines Lab 推出的一个全新的开放权重多模态基础模型。
+**背景**: 开源权重 AI 模型是指其训练好的神经网络权重被公开发布的模型，允许任何人下载和使用。Kubernetes 是一个开源系统，它标准化了容器化应用程序在集群中的部署和管理方式，通过提供一个通用框架彻底改变了云基础设施。这个类比暗示，开源权重模型可能同样会标准化 AI 格局，使其从专有孤岛转向更开放、可互操作的生态系统。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/sgl-project/sglang/issues/10490">[Feature] Support FP32 output for lm_head #10490 - GitHub</a></li>
-<li><a href="https://thinkingmachines.ai/news/introducing-inkling/">Inkling: Our Open-Weights Model - Thinking Machines Lab</a></li>
-<li><a href="https://www.emergentmind.com/topics/dspark">DSpark : Speculative Decoding</a></li>
+<li><a href="https://hai.stanford.edu/ai-definitions/what-is-an-open-weight-model">What is an Open-Weight Model? - Stanford HAI</a></li>
+<li><a href="https://medium.com/@steffankharmaaiarvi/why-everyone-suddenly-switched-to-kubernetes-the-real-reasons-pros-cons-301bb02b68c9">Why Everyone Suddenly Switched to Kubernetes — The... | Medium</a></li>
+<li><a href="https://opensource.org/ai/open-weights">Open Weights: not quite what you’ve been told</a></li>
 
 </ul>
 </details>
 
-**标签**: `#LLM`, `#inference`, `#optimization`, `#GPU`, `#open-source`
+**社区讨论**: 评论者们讨论了推理的经济学，指出开源权重模型提供了一个关键的成本基准。他们还讨论了硬件限制，并认为类似 Linux 的协作 AI 开发模式可能是未来的发展方向，这可能受到政府促进可移植性的采购政策的推动。
+
+**标签**: `#Open-Source AI`, `#Infrastructure`, `#Industry Analysis`, `#Kubernetes Analogy`, `#AI Economics`
 
 ---
 
 <a id="item-3"></a>
-## [ARC-AGI 排行榜更新引发基准测试讨论](https://arcprize.org/leaderboard) ⭐️ 8.0/10
+## [Anthropic 发布 Claude Opus 5，一款高性价比的新型 AI 模型](https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything) ⭐️ 8.0/10
 
-ARC-AGI 排行榜分数出现跃升，尤其是 Anthropic 的 Opus 5，这引发了社区关于评估工具使用、成本限制（10,000 美元上限）以及基准测试分数现实适用性的详细讨论。 该讨论凸显了 AI 社区中日益增长的怀疑情绪，即排行榜表现与现实世界模型有效性之间的脱节，并质疑像 ARC-AGI 这样的基准测试是否真正衡量了通用智能。 一个关键细节是关于评估工具使用的争论，一些用户指出官方评估可能不使用工具（这可能导致基准测试饱和），而其他使用如“Schema”工具的尝试是自我报告的，未经 ARC Prize 验证，使得比较变得困难。
+Anthropic 发布了 Claude Opus 5，这是一款新的大语言模型，据称其智能水平接近前沿，但成本仅为高端模型 Claude Fable 5 的一半。该模型已登上 Artificial Analysis 排行榜榜首，排名甚至超过了价格更昂贵的 Fable 5。 此次发布以更低的价格提供了接近前沿的 AI 能力，极大地扩展了此类高性能模型的可及性，可能加速其在各行业和研究领域的应用。这也加剧了 AI 模型市场的竞争，直接对更昂贵的高端产品构成了挑战。 Claude Opus 5 的定价与之前的 Opus 4.8 模型相同，并继续提供价格为基础模型两倍的“快速模式”。虽然它在发现网络安全漏洞方面有了显著提升，但 Anthropic 故意避免对其进行利用漏洞的训练，以降低潜在的滥用风险。
 
-hackernews · rzk · 7月25日 06:31 · [社区讨论](https://news.ycombinator.com/item?id=49045040)
+rss · Simon Willison · 7月24日 23:48
 
-**背景**: ARC-AGI 是一个旨在使用对人类来说简单但对 AI 来说困难的任务来衡量 AI 在向通用人工智能（AGI）发展进程中的基准测试。排行榜根据模型的表现对其进行排名，但最近的更新引发了围绕规则的讨论，例如提交系统的 10,000 美元成本限制，以及评估期间外部脚手架或“工具”的使用。
+**背景**: Claude Opus 5 是 Anthropic 公司 Claude 系列大语言模型中的最新成员。其前身 Claude Fable 5 是 Anthropic 目前对外发布的最强大模型，于 2026 年 6 月发布，并包含了适用于通用场景的安全防护措施。Artificial Analysis 排行榜是一个知名的独立基准测试，它根据各项性能和成本指标对 AI 模型进行排名。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://arcprize.org/arc-agi">ARC Prize - The only AI benchmark that measures AGI progress.</a></li>
-<li><a href="https://llm-stats.com/benchmarks/arc-agi">ARC - AGI Leaderboard | LLM Stats</a></li>
-<li><a href="https://schema-harness.github.io/">Frontier Models with Our Harness Achieve ~99% on ARC-AGI-3 Public — Schema</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Fable_5">Claude Fable 5</a></li>
+<li><a href="https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5">Introducing Claude Fable 5 and Claude Mythos 5 - Claude Platform Docs</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区讨论表达了怀疑态度，用户指出像 Anthropic Opus 这样的顶级模型似乎在基准测试中大幅领先，但并不总能转化为更好的长期现实工作。还有用户关心排行榜中缺少开源权重模型（例如 Kimi 3、GLM5.2），并对某些条目是否符合规定的成本限制提出质疑。
+**社区讨论**: 该模型的发布引发了大量积极反响，评论员对此进行了特别提及。发布帖中的一个具体轶事——模型为解决一个任务而独立构建了一个计算机视觉管线——被用来强调其“坚持不懈的主动性”特点。
 
-**标签**: `#AI benchmarks`, `#AGI`, `#model evaluation`, `#machine learning`, `#leaderboards`
+**标签**: `#AI`, `#LLM`, `#Anthropic`, `#Claude`, `#ModelRelease`
 
 ---
 
 <a id="item-4"></a>
-## [英国 AISI 评估报告：Kimi K3 网络能力与安全防护栏的对比](https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities) ⭐️ 8.0/10
+## [谷歌拟限制安卓设备上的 ADB 访问](https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/) ⭐️ 7.0/10
 
-英国人工智能安全研究所（AISI）发布了对 Kimi K3 人工智能模型的初步评估报告，发现其在网络攻击能力上显著落后于前沿模型。报告着重指出，像 Kimi K3 这样的中国开发模型缺乏安全防护栏，且能够被提示词引导以协助进行攻击性网络活动。 这份官方评估揭示了人工智能开发优先级的关键分歧，即中国模型可能更注重原始能力而非安全防护栏，从而带来独特的网络安全风险。这些发现对于人工智能治理、安全情境下的模型选择，以及理解能力与对齐之间权衡的实际影响具有重要意义。 评估指出，Kimi K3 是一个“高消耗令牌”的模型，这可能限制了其在有令牌输出限制的评估中的表现。社区评论建议，官方评分可能未能充分激发某些模型的能力，并强调了即使性能落后，安全防护栏差距也具有极端重要性。
+谷歌正考虑限制安卓设备上的 ADB（安卓调试桥）连接，这种连接允许设备自身进行调试和控制，无需连接电脑。这是为了应对 ADB 使用中潜在漏洞而进行的一项持续安全审查的一部分。 这一变化可能严重影响依赖设备端 ADB 进行高级任务、自动化和侧载的安卓开发者与高级用户，并可能加强谷歌对平台的控制。它反映了安全增强可能以牺牲用户自由和开发者灵活性为代价的广泛行业趋势。 提议的安全措施包括限制对特定系统接口或特定 IP 地址的访问，以改善 ADB 的安全模型。此项变更针对的是设备端 ADB 可能被利用的一个特定攻击向量，该向量要求用户同时启用了开发者选项和无线 ADB。
 
-hackernews · walrus01 · 7月25日 04:20 · [社区讨论](https://news.ycombinator.com/item?id=49044492)
+hackernews · shscs911 · 7月25日 06:57 · [社区讨论](https://news.ycombinator.com/item?id=49045159)
 
-**背景**: 英国人工智能安全研究所（AISI）是一个评估先进人工智能模型安全性和风险的政府机构。人工智能安全防护栏是旨在阻止模型生成有害或非法内容（如攻击性网络攻击工具）的系统。前沿人工智能模型通常由领先的西方实验室开发，并设计有这些防护栏，而一些其他模型中防护栏的缺失是一个重大的安全和治理问题。
+**背景**: ADB（安卓调试桥）是一个多功能的命令行工具，用于与安卓设备通信和控制，传统上在设备和开发者的电脑之间使用。设备端 ADB 指的是直接从安卓设备本身运行 ADB 命令，通常被开发者用于测试，也被高级用户用于系统修改。谷歌正在收紧 ADB 安全性，以保护安卓系统免受恶意利用。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.kimi.com/blog/kimi-k3">Kimi K3 Tech Blog: Open Frontier Intelligence</a></li>
-<li><a href="https://en.wikipedia.org/wiki/AI_Security_Institute">AI Security Institute - Wikipedia</a></li>
-<li><a href="https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/">How AI guardrails are impeding the work of offensive ...</a></li>
+<li><a href="https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/">Android May Soon Restrict On-Device ADB ... | Kitsumed Blog</a></li>
+<li><a href="https://sesamedisk.com/android-adb-restrictions-impact/">Android May Soon Restrict On - Device ADB - Sesame Disk</a></li>
+<li><a href="https://techplanet.today/post/android-adb-restrictions-balancing-security-and-developer-freedom">Android ADB Restrictions: Balancing Security and... | TechPlanet</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者讨论了评估方法是否充分衡量了模型的能力，并强调对于对手而言，中国模型缺乏安全防护栏比轻微的性能差距更为关键。一位用户推测该模型可能专门接受了网络攻击训练，而其他人则质疑美国模型的能力限制是否影响了比较结果。
+**社区讨论**: 社区讨论显示出复杂的情绪；一些用户认为安全效益微乎其微，因为该攻击向量需要用户采取特定操作，而另一些人则认为这是谷歌加强平台控制的举措。一个普遍的担忧是，这是降低开放性的趋势的一部分，一些人担心未来会限制开发者功能或进行货币化。
 
-**标签**: `#AI safety`, `#cybersecurity`, `#AI evaluation`, `#model capabilities`, `#AI governance`
+**标签**: `#Android`, `#ADB`, `#Security`, `#Developer Tools`, `#Mobile Development`
 
 ---
 
 <a id="item-5"></a>
-## [Anthropic 称 Claude Opus 5 能抵御提示注入攻击](https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything) ⭐️ 8.0/10
+## [The Fedora 45 Sausage Factory](https://supakeen.com/weblog/the-fedora-45-sausage-factory/) ⭐️ 7.0/10
 
-Anthropic 工程师 Boris Cherny 透露，其新发布的 Claude Opus 5 模型在抵抗提示注入攻击方面取得了重大突破，是他们迄今为止最难被成功提示注入的模型。这一结论得到了模型系统卡（第 73 页）中提示注入评估和红队测试的支持。 提示注入攻击是大型语言模型面临的主要安全威胁之一，它能诱使模型忽略原始指令或执行有害操作。Claude Opus 5 在此方面的显著提升，直接回应了 AI 安全领域的核心关切，将增强企业用户部署 AI 应用的信心，并为整个行业在构建更安全的 AI 系统方面设定了新标杆。 这一安全性提升是在 Claude Opus 5 的整体基准测试（如在 Frontier-Bench v0.1 上取得 43.3%的分数）之外被强调的核心亮点。虽然具体技术细节未公开，但其有效性通过专门的提示注入评估和严格的红队测试得到了验证。
+Detailed documentation of Fedora 45's image creation process, explaining the pipeline and providing troubleshooting insights for system administrators.
 
-rss · Simon Willison · 7月25日 00:42
+hackernews · 6581 · 7月25日 11:04 · [社区讨论](https://news.ycombinator.com/item?id=49046525)
 
-**背景**: 提示注入攻击是一种通过精心构造的输入来操纵 AI 模型的安全漏洞，旨在让模型忽略其系统指令、执行被禁止的任务或泄露数据，类似于针对 AI 的“代码注入”。为了评估模型的安全性，开发公司会进行“红队测试”，即由内部或外部专家模拟攻击者，尝试系统性地发现模型的弱点。模型系统卡则是 AI 公司发布的一种文件，用于公开披露模型的性能、安全评估结果及负责任部署的决策依据。
+**标签**: `#Linux`, `#Fedora`, `#system-administration`, `#open-source`, `#devops`
+
+---
+
+<a id="item-6"></a>
+## [MouthPad：Augmental 公司推出的舌控触摸板接口](https://www.augmental.tech/) ⭐️ 7.0/10
+
+由加州大学伯克利分校校友创立的 Augmental 公司开发了 MouthPad，这是一款舌控触摸板，设计为可穿戴的牙套式设备，能够实现精确的、无需双手的设备交互。该接口通过舌头在内置触摸板上的动作来支持点击、滚动和拖拽等操作。 这项技术是人机交互和辅助功能领域的重大进步，为身体受限者或手术等特定场景提供了一种新颖的免提输入方法。它可能提高残障人士的独立性，并在双手被占用的环境（如医疗程序或增强现实眼镜使用）中实现精准控制。 MouthPad 被设计成类似牙套的佩戴方式，并包含一个充电盒和 USB-C 转 USB-A 线缆。其文档详细说明了左键点击、右键点击、滚动和拖拽等具体控制操作，表明其专注于为用户提供实用且细致的功能。
+
+hackernews · ZaninAndrea · 7月25日 07:51 · [社区讨论](https://news.ycombinator.com/item?id=49045446)
+
+**背景**: 辅助技术旨在帮助残障人士进行日常活动，而免提输入设备是其发展的一个关键领域。舌头以其高灵敏度和灵活性而著称，使其成为精确控制接口的候选者，这在手术机器人等某些专业应用中已经得到体现。先前的研究已经探索了各种舌头-计算机接口，包括基于压力的系统和无线舌头驱动系统。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Prompt_injection">Prompt injection - Wikipedia</a></li>
-<li><a href="https://aitoolsreview.co.uk/insights/claude-opus-5">Claude Opus 5: Benchmarks, System Card & Review (July 2026)</a></li>
-<li><a href="https://www.paloaltonetworks.com/cyberpedia/what-is-ai-red-teaming">What Is AI Red Teaming? Why You Need It and How to Implement - Palo Alto Networks</a></li>
+<li><a href="https://digg.com/tech/qsduxwh8">Augmental launches tongue - controlled MouthPad touchpad in the...</a></li>
+<li><a href="https://www.cnx-software.com/2026/07/23/augmental-mouthpad-tongue-controlled-touchpad-trackpad/">Augmental MouthPad is a tongue - controlled touchpad /trackpad</a></li>
+<li><a href="https://engineering.berkeley.edu/news/2024/01/berkeley-alum-develops-tongue-controlled-touchpad/">Berkeley alum develops tongue - controlled touchpad - Berkeley...</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 评论者表达了浓厚的兴趣，特别是那些在医疗或手术过程中需要免手控制的用户，这验证了该技术的实用性。一些人强调了其在增强现实眼镜接口方面的潜力，而另一些人则将其视为巧妙的辅助技术，尽管有一条评论幽默地将产品名称与言语障碍联系起来。
+
+**标签**: `#accessibility`, `#human-computer-interaction`, `#assistive-technology`, `#wearables`, `#HCI`
+
+---
+
+<a id="item-7"></a>
+## [Claude Opus 5 在提示词注入防御方面取得重大进展](https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything) ⭐️ 7.0/10
+
+Anthropic 工程师 Boris Cherny 强调，Claude Opus 5 是他们迄今为止最不容易受到提示词注入攻击的模型，这一关键的安全改进已在模型的系统卡中注明。 这种改进的韧性通过提示词注入评估和红队测试得到了验证，具体细节在 Anthropic 发布的 Opus 5 系统卡第 73 页中有详细说明。
+
+rss · Simon Willison · 7月25日 00:42
+
+**背景**: 提示词注入是一种安全威胁，攻击者通过精心构造的欺骗性文本来操纵大型语言模型的输出，可能导致数据泄露或有害行为。红队测试是人工智能安全中的标准实践，涉及对抗性测试以在恶意行为者利用之前发现漏洞。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www-cdn.anthropic.com/c5fbac3f0b1280a933ebd26d3cb8bb9f5bdeaf48/Claude+Opus+5+System+Card.pdf">System Card: Claude Opus 5 July 24, 2026 anthropic.com</a></li>
+<li><a href="https://www.paloaltonetworks.com/cyberpedia/what-is-a-prompt-injection-attack">What Is a Prompt Injection Attack? [Examples & Prevention] - Palo Alto Networks</a></li>
+<li><a href="https://www.ibm.com/think/topics/prompt-injection">What Is a Prompt Injection Attack? | IBM</a></li>
 
 </ul>
 </details>
@@ -138,105 +169,24 @@ rss · Simon Willison · 7月25日 00:42
 
 ---
 
-<a id="item-6"></a>
-## [清华与腾讯通过树结构 rollout 优化降低大语言模型后训练成本](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907199&idx=3&sn=db62b221aeb50a9dfff1af69803b2787) ⭐️ 7.0/10
+<a id="item-8"></a>
+## [清华与腾讯提出树结构 Rollout 方法，优化大模型后训练](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907199&idx=3&sn=db62b221aeb50a9dfff1af69803b2787) ⭐️ 7.0/10
 
-清华大学和腾讯的研究人员提出了一种经济高效的大语言模型后训练方法，其核心是将智能体轨迹建模为一棵树结构。该方法摒弃了为每个提示均匀分配 rollout 预算的传统做法，实现了更智能的资源聚焦。 此方法直指基于强化学习的大语言模型后训练成本高昂这一关键痛点，这是 AI 发展的一大障碍。通过优化资源分配，它有望使强大的模型微调技术惠及更广泛的研究机构和人员。 核心创新在于将智能体 rollout 轨迹重构为一棵树，使训练过程能够根据不同分支的潜在训练信号，自适应地分配计算预算。这避免了将资源浪费在学习价值较低的提示或路径上。
+清华大学和腾讯的研究人员提出了一种将智能体轨迹视为树结构进行优化的方法。该方法旨在降低大语言模型后训练中强化学习 Rollout 过程的高昂成本。 该方法有望大幅降低使大语言模型与复杂目标对齐的计算开销，使更先进的后训练技术更易于被更广泛的应用和开发者所采用。 其核心创新在于不再为所有提示均匀分配探索预算，而是将 Rollout 过程构建为树结构，这可以实现更高效的信用分配和策略优化。
 
 rss · 量子位 · 7月25日 04:40
 
-**背景**: 大语言模型的后训练通常使用强化学习，需要为提示采样许多可能的回复来计算训练信号。当前方法的一个主要低效之处在于，无论提示的难度或学习潜力如何，都对每个提示应用固定的、统一的 rollout 预算。将智能体轨迹建模为树是 AI 研究中的一个新兴概念，旨在更好地表示和优化复杂的决策过程。
+**背景**: 大语言模型的后训练通常使用强化学习，根据人类偏好或任务表现对模型进行微调。其中的一个关键挑战是'Rollout'阶段，即模型生成大量响应轨迹以供学习，这个过程计算密集且成本高昂。近期的研究探索了基于树搜索的方法，以使这一过程更加高效。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2606.05606">Cross-Epoch Adaptive Rollout Optimization for RL Post - Training</a></li>
-<li><a href="https://arxiv.org/abs/2511.02424">[2511.02424] ReAcTree: Hierarchical LLM Agent Trees with ... Tree Search for LLM Agent Reinforcement Learning - arXiv.org Tree-Based Trajectories Images Agent Trajectory Explorer: Visualizing and Providing Feedback ... WebSynthesis: World Model-Guided Monte Carlo Tree Search for ... Agent Trajectory Explorer: Visualizing and Providing Feedback ... Agent trajectory explorer | Proceedings of the Thirty-Ninth ...</a></li>
-<li><a href="https://arxiv.org/html/2510.08439v1">xRouter: Training Cost-Aware LLMs Orchestration System via Reinforcement Learning</a></li>
+<li><a href="https://arxiv.org/pdf/2509.21240">Tree Search for LLM Agent Reinforcement Learning</a></li>
+<li><a href="https://arxiv.org/html/2601.04767">AT2PO: Agentic Turn-based Policy Optimization via Tree Search</a></li>
+<li><a href="https://arxiv.org/pdf/2511.00413">Tree Training : Accelerating Agentic LLMs Training via Shared Prefix...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#LLM`, `#AI training`, `#cost optimization`, `#agent systems`, `#reinforcement learning`
-
----
-
-<a id="item-7"></a>
-## [第一人称视频或可通过转移视觉注意力来帮助机器人学习](https://www.reddit.com/r/MachineLearning/comments/1v6cd5j/why_first_person_video_may_matter_for_robot/) ⭐️ 7.0/10
-
-Reddit 上的一篇文章认为，第一人称视频对机器人学习的价值不在于复制运动控制，而在于转移视觉注意力模式，例如哪个物体进入视野以及接触前发生了哪些变化。文章强调需要更严谨的消融研究，特别是将视觉预测与机器人控制分离开来，并进行匹配的第三人称视角比较。 这一观点挑战了机器人学习中的传统假设，并可能催生利用人类示范数据的更有效方法。它强调需要严谨的评估以避免混淆因素，这对于推动可靠的现实世界机器人应用至关重要。 该文引用了使用第一人称数据与机器人轨迹的 LingBot-VLA 2.0 模型，并指出遮挡问题——手在接触时经常覆盖物体——是评估意图视觉证据时一个尚未解决的关键难题。
-
-reddit · r/MachineLearning · /u/Temporary_Joke_7501 · 7月25日 16:09
-
-**背景**: 第一人称视频捕捉了人类在执行任务时的视角，这可以为机器人提供一个视觉注意力的模型。消融研究是机器学习中的一种标准技术，通过系统地移除组件来评估其贡献，从而理解模型的行为。计算机视觉中的遮挡指的是物体被部分或完全隐藏，这会使感知和学习复杂化。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/Robbyant/lingbot-vla-v2">LingBot-VLA 2.0: From Foundation to Application - GitHub</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Ablation_(artificial_intelligence)">Ablation (artificial intelligence) - Wikipedia</a></li>
-<li><a href="https://objectways.com/blog/the-hidden-challenge-of-occlusion-in-computer-vision/">The Hidden Challenge of Occlusion in Computer Vision</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 提供的内容中没有单独的社区评论；分析基于原帖嵌入的技术讨论以及该帖子被描述为有强烈参与度，探讨了消融研究和评估挑战。
-
-**标签**: `#robot learning`, `#first-person video`, `#machine learning`, `#ablation study`, `#computer vision`
-
----
-
-<a id="item-8"></a>
-## [Android May Soon Restrict On-Device ADB](https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/) ⭐️ 6.0/10
-
-Android may soon restrict on-device ADB access as a security measure, sparking community debate over developer control and Google's platform governance.
-
-hackernews · shscs911 · 7月25日 06:57 · [社区讨论](https://news.ycombinator.com/item?id=49045159)
-
-**标签**: `#Android`, `#ADB`, `#security`, `#developer-tools`, `#platform-governance`
-
----
-
-<a id="item-9"></a>
-## [汉娜·弗莱因数学普及工作获得 2026 年莉拉瓦蒂奖](https://www.maths.cam.ac.uk/features/professor-hannah-fry-wins-leelavati-prize) ⭐️ 6.0/10
-
-数学家兼科学传播者汉娜·弗莱（Hannah Fry）赢得了 2026 年莉拉瓦蒂奖（Leelavati Prize），这是一项旨在表彰在数学公众普及领域做出杰出贡献的国际奖项。 该奖项凸显了科学传播在提高公众对数学的兴趣与理解方面所扮演的关键角色，这有助于激发更广泛的 STEM（科学、技术、工程和数学）领域兴趣，并提升公众对数据驱动议题的理解能力。 莉拉瓦蒂奖由国际数学联盟（IMU）颁发，Infosys 公司赞助，通常在国际数学家大会（ICM）期间颁发。汉娜·弗莱是伦敦大学学院（UCL）的公共风险理解教授，以其将复杂数学概念通俗化的电视节目、书籍和演讲而闻名。
-
-hackernews · agnishom · 7月25日 01:44 · [社区讨论](https://news.ycombinator.com/item?id=49043724)
-
-**背景**: 莉拉瓦蒂奖最初是 2010 年国际数学家大会上设立的一次性奖项，旨在表彰数学公众普及领域的杰出成就，此后已成为一个常设奖项。数学普及工作旨在通过媒体、公众讲座或教育项目等方式与公众分享对数学的热情，从而扩大数学知识的普及范围并提高公众参与度。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.mathunion.org/imu-awards/leelavati-prize/leelavati-prize-2026">Leelavati Prize 2026 | International Mathematical Union (IMU)</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Leelavati_Award">Leelavati Award - Wikipedia</a></li>
-<li><a href="https://www.maths.cam.ac.uk/outreach/mathematics-all">Mathematics For All | Outreach</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者表达了对汉娜·弗莱的高度钦佩，分享了关于她鼓舞人心的演讲和沟通能力的个人轶事。他们赞扬了她从最初未被剑桥大学本科项目录取到最终成为该校教授的历程，并强调了她使数学变得通俗易懂和具有启发性的能力。
-
-**标签**: `#mathematics-outreach`, `#science-communication`, `#prestigious-award`, `#public-engagement`, `#Hannah-Fry`
-
----
-
-<a id="item-10"></a>
-## [探讨企业定制模型训练的真实商业用例](https://www.reddit.com/r/MachineLearning/comments/1v6cc5v/what_are_real_usecases_right_now_for_custom/) ⭐️ 6.0/10
-
-一名在大型工程公司工作的数据工程师和云架构师正在寻求定制模型训练的实用、高价值用例，以指导内部机器学习平台的开发并准备演示。他们希望理解在当前开源模型能力强大的背景下，哪些关键商业场景仍然从定制训练中获益。 此问题凸显了企业 MLOps 平台开发者面临的核心挑战：识别定制训练在何处能够带来超越使用通用或微调 API 的实际投资回报率。理解这些用例对于构建有效的演示和平台至关重要，以满足企业的真实需求，例如处理专有数据或执行高度专业化的任务。 发帖人提到了遵守专有数据合规性和任务特定微调作为潜在途径，但也指出高级提示有时可以替代训练。他们工作的环境中数据量和财务资源都不是限制因素。
-
-reddit · r/MachineLearning · /u/Educational-Meal-660 · 7月25日 16:08
-
-**背景**: 定制模型训练涉及将机器学习模型适应特定数据集或任务，通常通过微调预训练基础模型来实现。这一过程对于需要理解专有术语、内部流程或公共数据未充分覆盖的高度专业化领域的企业至关重要。MLOps 平台提供基础设施来自动化和管理这些定制模型的整个生命周期，从数据准备到部署。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://cloud.google.com/products/gemini-enterprise-agent-platform">Gemini Enterprise Agent Platform (formerly Vertex AI) | Google Cloud</a></li>
-<li><a href="https://blog.premai.io/10-best-anythingllm-alternatives-for-enterprise-document-ai-2026/">10 Best AnythingLLM Alternatives for Enterprise Document AI (2026)</a></li>
-<li><a href="https://appinventiv.com/blog/custom-mlops-platforms-for-enterprises/">Custom MLOps platform to transform your enterprise operations</a></li>
-
-</ul>
-</details>
-
-**标签**: `#machine-learning`, `#enterprise-ai`, `#model-training`, `#use-cases`, `#mlops`
+**标签**: `#LLM`, `#Post-training`, `#AI Efficiency`, `#Agent Systems`, `#Research`
 
 ---
