@@ -1,293 +1,344 @@
 # Horizon 每日速递 - 2026-07-27
 
-> 从 22 条内容中筛选出 13 条重要资讯。
+> 从 24 条内容中筛选出 14 条重要资讯。
 
 ---
 
-1. [vLLM v0.26.0 发布，支持 Inkling 并优化 DeepSeek-V4](#item-1) ⭐️ 8.0/10
-2. [月之暗面 AI 在 HuggingFace 发布 3 万亿参数大模型 Kimi-K3](#item-2) ⭐️ 8.0/10
-3. [美国公民在边境擦拭 GrapheneOS 手机被起诉](#item-3) ⭐️ 8.0/10
-4. [深入探析大语言模型 API 的灰色转售市场](#item-4) ⭐️ 8.0/10
-5. [在项目中用 HTMX 替代 React.js 以实现界面交互](#item-5) ⭐️ 7.0/10
-6. [AI 公司大幅增加在华盛顿的游说支出](#item-6) ⭐️ 7.0/10
-7. [Libsm64：将超级马里奥 64 引擎封装为可重用库](#item-7) ⭐️ 7.0/10
-8. [Bun 的 Rust 重写进展顺利，v1.4 版本即将发布](#item-8) ⭐️ 7.0/10
-9. [VLC for Unity 新增 Linux 支持并实现硬件解码](#item-9) ⭐️ 7.0/10
-10. [综述文章为解决 3DGS 高显存占用问题指明五个方向](#item-10) ⭐️ 7.0/10
-11. [探讨如何用借用其他系统的组件构建现代电子邮件](#item-11) ⭐️ 6.0/10
-12. [从零构建 Transformer：纯 PyTorch 实现英译泰米尔语教程](#item-12) ⭐️ 6.0/10
-13. [开源平台简化微控制器上的边缘机器学习部署](#item-13) ⭐️ 6.0/10
+1. [vLLM v0.26.0 发布：支持 Inkling 模型、优化 DeepSeek-V4 性能、新增 fp32 lm_head](#item-1) ⭐️ 9.0/10
+2. [月之暗面发布 3 万亿参数开源模型 Kimi-K3](#item-2) ⭐️ 8.0/10
+3. [Bun 的 Rust 重写进展：发布延迟](#item-3) ⭐️ 8.0/10
+4. [论坛将用户界面从 React 迁移到 HTMX 以简化开发](#item-4) ⭐️ 7.0/10
+5. [提出利用现有组件构建现代电子邮件系统](#item-5) ⭐️ 7.0/10
+6. [PGSimCity：一个展示 PostgreSQL 内部机制的交互式地图](#item-6) ⭐️ 7.0/10
+7. [揭秘中国 LLM 代币转售与欺诈市场](#item-7) ⭐️ 7.0/10
+8. [综述：解决 3DGS 存储焦虑的五个方向](#item-8) ⭐️ 7.0/10
+9. [微软推出用于网络安全的 MAI-Cyber-1 AI 模型](#item-9) ⭐️ 6.0/10
+10. [Libsm64：将超级马里奥 64 引擎作为库供外部游戏引擎使用](#item-10) ⭐️ 6.0/10
+11. [VLC for Unity 插件新增 Linux 支持](#item-11) ⭐️ 6.0/10
+12. [人工智能公司在美国联邦游说上花费创纪录](#item-12) ⭐️ 6.0/10
+13. [从零开始构建的英译泰米尔语 Transformer 教程](#item-13) ⭐️ 6.0/10
+14. [预训练数据验证门控系统的提议](#item-14) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [vLLM v0.26.0 发布，支持 Inkling 并优化 DeepSeek-V4](https://github.com/vllm-project/vllm/releases/tag/v0.26.0) ⭐️ 8.0/10
+## [vLLM v0.26.0 发布：支持 Inkling 模型、优化 DeepSeek-V4 性能、新增 fp32 lm_head](https://github.com/vllm-project/vllm/releases/tag/v0.26.0) ⭐️ 9.0/10
 
-vLLM 项目发布了 0.26.0 版本，这是一次重大更新，为新的 1T 参数多模态 Inkling 模型家族提供了首日支持，并为 DeepSeek-V4 推理在多款硬件平台上带来了显著的性能优化。 此次发布提升了关键的开源 LLM 推理引擎的性能与功能，通过支持最新的先进模型，并使 DeepSeek-V4 等关键模型运行得更快、更高效，直接惠及了部署大规模 AI 模型的开发者和组织。 关键技术更新包括对新 Inkling 模型的支持（涵盖分段 CUDA 图和 NVFP4 量化等特性）、为降低 DeepSeek-V4 端到端延迟而设计的专用路由内核及其他优化，以及一个可选的 fp32 `lm_head` 设置以提升生成精度。
+vLLM 发布了重大版本 v0.26.0，该版本引入了对 Inkling 模型系列的完整支持，并针对不同硬件厂商的 DeepSeek-V4 进行了深度性能优化，同时为生成模型新增了 fp32 lm_head 支持。此次更新还包括灵活的注意力后端、成熟的 KV 卸载功能以及支持多模态的 Rust 前端，总共包含来自 212 位贡献者的 411 次提交。 作为广泛使用的高性能 LLM 推理库，此次更新大幅提升了大规模和多模态模型的部署效率，使部署 AI 系统的开发者和企业受益。针对 DeepSeek-V4 等特定模型的优化以及对 Inkling 的支持，直接影响了运行先进 LLM 的生产环境性能和成本效益。 Inkling 是一个拥有 975B 参数的稀疏混合专家模型，激活参数为 41B；针对 DeepSeek-V4 的优化包括可将端到端延迟降低的专用内核。通过`head_dtype`参数启用的 fp32 lm_head 功能提升了生成头的准确性，但可能对内存使用和吞吐量产生影响。
 
 github · khluu · 7月27日 01:06
 
-**背景**: vLLM 是一个广泛使用的高吞吐量开源库，用于大语言模型的推理与服务。Inkling 模型是来自 Thinking Machines Lab 的一个全新 1T 参数混合专家模型，能够处理文本、图像和音频输入。DeepSeek-V4 是 DeepSeek AI 推出的强力大语言模型，其高效推理需要专门优化的内核。
+**背景**: vLLM 是一个开源库，专为大语言模型（LLM）的高吞吐量、低延迟推理而设计。它支持多种模型架构和优化技术（如量化和推测解码），以在 GPU 上高效运行模型。Inkling 是一个新的、大规模的仅解码器多模态混合专家模型，而 DeepSeek-V4 是最近一个以其长上下文能力而闻名的先进 LLM。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://vllm.ai/blog/2026-07-15-inkling">TML Inkling on vLLM: Day-0 Support with Optimized Performance | vLLM Blog</a></li>
-<li><a href="https://thinkingmachines.ai/news/introducing-inkling/">Inkling: Our Open-Weights Model - Thinking Machines Lab</a></li>
-<li><a href="https://arunksingh16.medium.com/nvidia-nvfp4-quantization-blackwell-and-the-path-to-production-inference-12407e14e084">NVIDIA NVFP4: Quantization, Blackwell, and the Path to Production Inference | by Arun Kumar Singh | Jul, 2026 | Medium</a></li>
+<li><a href="https://huggingface.co/blog/thinkingmachines-inkling">Welcome Inkling by Thinking Machines</a></li>
+<li><a href="https://www.lmsys.org/blog/2026-04-25-deepseek-v4/">DeepSeek-V4 on Day 0: From Fast Inference to Verified RL with SGLang and Miles - LMSYS Org</a></li>
+<li><a href="https://docs.vllm.ai/en/v0.5.4/quantization/fp8.html">FP8 — vLLM</a></li>
 
 </ul>
 </details>
 
-**标签**: `#LLM inference`, `#performance optimization`, `#open source`, `#AI infrastructure`, `#quantization`
+**标签**: `#LLM Inference`, `#High-Performance Computing`, `#GPU Optimization`, `#Machine Learning Infrastructure`, `#Open Source Release`
 
 ---
 
 <a id="item-2"></a>
-## [月之暗面 AI 在 HuggingFace 发布 3 万亿参数大模型 Kimi-K3](https://huggingface.co/moonshotai/Kimi-K3) ⭐️ 8.0/10
+## [月之暗面发布 3 万亿参数开源模型 Kimi-K3](https://huggingface.co/moonshotai/Kimi-K3) ⭐️ 8.0/10
 
-月之暗面 AI（Moonshot AI）在 HuggingFace 上发布了参数量达 3 万亿的大语言模型 Kimi-K3，并附带了详细的技术报告和商业许可条款。该模型的一个显著特点是原生支持 MXFP4 量化，这大幅降低了其部署所需的内存占用。 这款支持原生低精度量化的 3 万亿参数模型的发布，为市场提供了关键数据点，有助于确定下一代大语言模型的实际服务成本和硬件需求。它加剧了人工智能模型领域的竞争，这已经在推动 API 定价下降，并推动高效硬件和部署策略的创新。 由于原生采用 MXFP4 量化，该模型约需 1.5TB 的显存（VRAM），这使得它可以在由 8 块英伟达 H200 GPU 组成的集群上运行，但为了优化上下文处理和吞吐量，使用 16 块 GPU 会更为实际。其商业许可证要求年收入超过 2000 万美元的大型企业与月之暗面 AI 签订单独协议。
+月之暗面已在 HuggingFace 上开源发布了 Kimi-K3，这是一个拥有 3 万亿参数的大型语言模型。该模型现已可供下载，社区已开始就其部署、成本和许可证条款展开讨论。 如此大规模的开源模型降低了初创公司和研究人员定制与部署前沿 AI 的门槛，可能改变大模型行业的经济格局。同时，它为通过第三方服务商提供此规模模型的定价提供了重要参考。 该模型采用原生 mxfp4 量化格式，需要约 1.5TB 的显存，这已接近当前高端 GPU 配置的极限。其许可证包含一项商业条款，要求年收入超过 2000 万美元的大型企业与月之暗面协商单独协议。
 
 hackernews · nateb2022 · 7月27日 06:18 · [社区讨论](https://news.ycombinator.com/item?id=49065752)
 
-**背景**: MXFP4 是一种 4 位微缩（microscaling）量化格式，旨在通过降低参数精度来实现大语言模型的高效推理。发布一个 3 万亿参数的模型是一个重大里程碑，因为这个规模的模型将现有硬件能力推向极限，并需要精细优化以实现经济高效的部署。大语言模型市场的竞争压力（例如 GLM 5.2 等模型引发的价格下跌）持续影响着人工智能服务的经济模式。
+**背景**: 大型语言模型是基于海量文本数据训练的 AI 系统，其'参数'数量代表模型的大小和能力。'开源模型'公开其学习权重，允许下载、微调和自托管，这与闭源 API 不同。运行万亿参数模型所需的成本和硬件是 AI 生态中的关键考量。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://kimi-ai.chat/models/kimi-k3/">Kimi K 3 : 1M Context, API Pricing & Limits</a></li>
-<li><a href="https://www.aimprosoft.com/blog/cost-to-host-private-llm-2025/">Cost to Host and Scale a Private Large Language Model (LLM ...</a></li>
+<li><a href="https://www.moonshot.ai/">Moonshot AI</a></li>
+<li><a href="https://www.cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic-china.html">China's Moonshot AI unveils Kimi K3 that rivals OpenAI, Anthropic - CNBC</a></li>
+<li><a href="https://developer.nvidia.com/blog/demystifying-ai-inference-deployments-for-trillion-parameter-large-language-models/">Demystifying AI Inference Deployments for Trillion Parameter Large Language Models | NVIDIA Technical Blog</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区讨论高度关注托管该模型的实际影响，详细分析了显存需求（在 8 块 H200 上约需 1.5TB）以及通过第三方提供商进行推理的成本。讨论中还包括对商业许可条款的评论，以及目前缺少既能提供高显存又能控制功耗以适应个人使用的“消费级”硬件。
+**社区讨论**: 社区讨论集中在其高昂的显存需求和推理成本上，用户指出至少需要 8 块 NVIDIA B200 显卡。对于初创公司的定制潜力，社区表示热情，同时也有用户指出了针对年收入超过 2000 万美元企业的商业许可限制。
 
-**标签**: `#large-language-models`, `#model-release`, `#computing-costs`, `#hardware-constraints`, `#commercial-licensing`
+**标签**: `#large language models`, `#open-source AI`, `#model inference`, `#AI economics`, `#model fine-tuning`
 
 ---
 
 <a id="item-3"></a>
-## [美国公民在边境擦拭 GrapheneOS 手机被起诉](https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html) ⭐️ 8.0/10
+## [Bun 的 Rust 重写进展：发布延迟](https://lockwood.dev/ai/2026/07/27/how-is-the-bun-rewrite-in-rust-going.html) ⭐️ 8.0/10
 
-一名美国公民因在边境搜查期间通过输入“胁迫 PIN 码”据称远程擦除了其 GrapheneOS 手机而被刑事起诉。这份起诉书是一起罕见的法律行动，其中使用技术隐私功能本身成为了涉嫌的犯罪行为。 此案为边境搜查法律如何对待数字隐私工具及用户意图树立了潜在判例，直接影响使用高级安全措施的记者、活动人士和注重隐私的个人的法律风险计算。 法律争议的核心在于“胁迫”概念，辩方认为手机擦除是在边境面对政府压倒性权力时被迫采取的行动，而检方则将其定性为故意销毁证据的行为。
+Bun 运行时的 Rust 重写进展顺利，并已集成到 Claude Code 中，但 v1.4 版本的发布因需完成特定数量新通过的 Node.js 兼容性测试而延迟。项目创始人 Jarred Sumner 表示，发布最可能安排在下周二。 此更新意义重大，因为它提供了关于一个高知名度的、由 LLM 辅助的重大 JavaScript 运行时重写的内部细节，为大规模代码迁移和开发实践提供了经验。发布延迟凸显了在实现深度 Node.js 兼容性方面持续存在的挑战，而这对于 Bun 的广泛采用至关重要。 重写的进展正以一组预定义的、必须通过才能发布的 Node.js 测试用例来衡量。使用 LLM 协助重写是社区讨论的核心话题，各方对于其在复杂软件工程中的有效性意见不一。
 
-hackernews · eecc · 7月26日 22:21 · [社区讨论](https://news.ycombinator.com/item?id=49063022)
+hackernews · tomlockwood · 7月27日 11:12 · [社区讨论](https://news.ycombinator.com/item?id=49067854)
 
-**背景**: GrapheneOS 是一个注重隐私和安全的移动操作系统，可安装在特定的 Google Pixel 手机上，提供诸如“胁迫 PIN 码”等功能，该功能可在输入后远程擦除设备。美国边境特工在边境搜查电子设备时拥有广泛的法定权力，无需搜查令，这一权力在数字时代日益受到质疑。
+**背景**: Bun 是一个现代的、一体化的 JavaScript 运行时，旨在成为 Node.js 的更快替代方案。其核心最初用 Zig 编写，但项目已开始用 Rust 进行重大重写，以期提升性能、内存安全性和可维护性。实现与庞大的 Node.js 生态系统的高兼容性是 Bun 获得开发者信任和采用的关键目标。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://beyondmarketintelligence.com/post/us-accuses-american-of-allegedly-wiping-his-phone-using-a-du-cmrz8y07b08pzdjxxexlz1kgy">US accuses American of allegedly wiping his phone using a ...</a></li>
-<li><a href="https://theaicronicle.com/en/news/policy/us-charges-citizen-wiping-phone-border">US Charges American Citizen for Wiping Phone at the Border</a></li>
-<li><a href="https://www.cbp.gov/travel/cbp-search-authority/border-search-electronic-devices">Border Search of Electronic Devices at Ports of Entry</a></li>
+<li><a href="https://bun.sh/blog/bun-in-rust">Rewriting Bun in Rust | Bun Blog</a></li>
+<li><a href="https://www.cosmicjs.com/blog/bun-rust-rewrite-javascript-runtime">Why Bun Is Rewriting in Rust : What It Means for JavaScript...</a></li>
+<li><a href="https://bun.com/docs/runtime/nodejs-compat">Node.js Compatibility - Bun</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者对边境特工拥有的巨大权力以及使用胁迫 PIN 等安全功能所处的法律灰色地带表达了深切担忧。讨论涉及威胁建模，有人认为用户必须认识到在边境做出此类选择可能带来的法律后果，也有人探讨了隐藏卷等技术替代方案。
+**社区讨论**: 讨论两极分化，有人赞赏 LLM 辅助重写的高速度，而另一些人（如用户 benjiro29）则认为这无法解决功能集成和调试等艰巨工作。一个反方观点指出，对原始 Zig 代码库的类似改进表明，进行重写的动机可能是有问题的。
 
-**标签**: `#privacy`, `#digital security`, `#legal issues`, `#GrapheneOS`, `#civil liberties`
+**标签**: `#Bun`, `#Rust`, `#Runtime`, `#LLM`, `#Software Engineering`
 
 ---
 
 <a id="item-4"></a>
-## [深入探析大语言模型 API 的灰色转售市场](https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything) ⭐️ 8.0/10
+## [论坛将用户界面从 React 迁移到 HTMX 以简化开发](https://misago-project.org/t/removing-reactjs-from-the-codebase-and-adapting-htmx-for-ui-interactivity/1267/) ⭐️ 7.0/10
 
-Matt Lenhard 的一项调查揭示了一个主要发生在中国的市场，中间商通过汇集通过滥用免费试用、未保护的机器人或盗用信用卡等欺诈手段获取的 API 密钥，来转售折扣大语言模型（LLM）API 访问权限。 这一灰色市场生态系统给 AI 开发者和提供商带来了严重的安全、财务和伦理风险，可能导致意外的高额账单，为模型蒸馏提供便利，并通过利用未受保护的接口获利。 转售商使用如“one-api”及其更活跃的分支“new-api”等开源 API 代理软件，跨凭证池负载均衡请求，为寻求廉价访问或数据的买家提供标准 API 定价的大幅折扣。
+一名开发者详细介绍了将 Misago 论坛的前端代码库从 React.js 迁移到 HTMX 库以处理用户界面交互性的过程。此变更旨在通过利用 HTMX 进行服务端渲染和动态更新，而非使用完整的客户端 JavaScript 框架，从而简化技术栈。 此案例研究提供了一个真实的迁移实践范例，深入探讨了像 React 这样的传统单页应用框架与像 HTMX 这样的超媒体驱动方法之间的权衡。它为开发者提供了关于在内容导向型应用中减少前端复杂性和代码库规模的潜在策略。 此次迁移的动机是希望减少前端复杂性和对客户端 JavaScript 的依赖，因为对于论坛类应用来说，这可能是过度设计。HTMX 使用 HTML 属性来扩展浏览器行为，以实现 AJAX、WebSocket 和服务器发送事件，从而支持直接从服务器进行动态的部分页面更新。
 
-rss · Simon Willison · 7月26日 19:30
+hackernews · Ralfp · 7月27日 09:58 · [社区讨论](https://news.ycombinator.com/item?id=49067301)
 
-**背景**: LLM API 提供商按令牌（token）使用量向开发者收费。“中继市场”涉及中间商，他们从各种来源汇集访问凭证（API 密钥），并通过路由 API 调用的代理服务器以折扣价转售。这为获取廉价令牌创造了市场，但常常涉及滥用服务条款或公然欺诈。
+**背景**: HTMX 是一个轻量级库，通过为 HTML 添加属性来构建现代用户界面，它使用服务端渲染的 HTML 片段，并遵循“超媒体作为应用状态引擎”（HATEOAS）模型。与之形成对比的是 React，它是一个基于组件架构和通过虚拟 DOM 进行客户端渲染的 JavaScript 库，用于构建交互式用户界面。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.deeplearning.ai/the-batch/inside-the-gray-market-for-llm-access">Middlemen Package Extra Tokens, Hijack IDs to Resell, Distill Models</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Htmx">htmx - Wikipedia</a></li>
+<li><a href="https://dev.to/pockit_tools/htmx-in-2026-when-you-dont-need-react-and-when-you-absolutely-do-2mf4">htmx in 2026: When You Don't Need React (And When You Absolutely Do) - DEV Community</a></li>
+<li><a href="https://www.softwareseni.com/from-react-to-htmx-migration-strategy-and-risk-assessment/">From React to HTMX—Migration Strategy and Risk Assessment - SoftwareSeni</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区讨论，特别是 Simon Willison 的评论，对公开部署 LLM 应用程序表示谨慎，因为存在被这一生态系统滥用的风险，并强调 LLM 提供商为 API 密钥实施更严格支出上限和控制的迫切需求。
+**社区讨论**: 社区讨论强调了 HTMX 在论坛等内容驱动型网站上的优势，其部分页面更新已足够；但也指出了它在高度动态的丰富交互（例如可过滤列表、可滚动组件）方面的局限性，而在这些场景下 React 的虚拟 DOM 协调机制更为出色。一些用户反馈了大型 HTML 响应导致的性能问题以及滚动位置重置的问题。
 
-**标签**: `#AI Ethics`, `#API Security`, `#Cybercrime`, `#LLM Economics`, `#Grey Markets`
+**标签**: `#web-development`, `#htmx`, `#react`, `#frontend-architecture`, `#case-study`
 
 ---
 
 <a id="item-5"></a>
-## [在项目中用 HTMX 替代 React.js 以实现界面交互](https://misago-project.org/t/removing-reactjs-from-the-codebase-and-adapting-htmx-for-ui-interactivity/1267/) ⭐️ 7.0/10
+## [提出利用现有组件构建现代电子邮件系统](https://en.andros.dev/blog/d7ed8b07/modern-email-can-be-built-from-borrowed-parts/) ⭐️ 7.0/10
 
-一篇详细的案例研究描述了从一个 Web 应用程序代码库中完全移除 React.js，并采用 HTMX 来处理用户界面交互的过程。这篇 2023 年的文章记录了简化前端技术栈所采取的实际步骤。 这次迁移突显了 HTMX 非常适合服务器渲染的应用程序，但对于高度交互、富客户端体验可能存在局限性。社区讨论特别指出了大型 HTML 负载导致的性能问题，以及在更新过程中保持 DOM 状态（如滚动位置）的挑战。
+一篇博客文章提出了一种利用 HTTP 和 JSON 等现有组件构建的现代电子邮件架构，旨在解决垃圾邮件问题并增强安全性，同时保持与 SMTP 的向后兼容性。 这一提议意义重大，因为它以一种新颖的系统级设计应对了垃圾邮件和安全性等长期存在的电子邮件基础设施问题，可能会影响未来的通信协议并波及整个电子邮件生态系统。 该设计包含首次联系同意机制，即未知发件人会进入一个“请求”文件夹，并强调使用 JSON 处理结构化数据，但社区讨论也提出了关于大型 JSON 文档内存效率的担忧。
 
-hackernews · Ralfp · 7月27日 09:58 · [社区讨论](https://news.ycombinator.com/item?id=49067301)
+hackernews · andros · 7月27日 08:27 · [社区讨论](https://news.ycombinator.com/item?id=49066639)
 
-**背景**: React.js 是一个流行的 JavaScript 库，通过在客户端渲染组件来构建动态、交互式的用户界面。HTMX 是一种较新的方法，通过扩展 HTML 属性来直接处理 AJAX、CSS 转换和 WebSockets，旨在提供现代交互性，同时将应用逻辑主要保留在服务器端。两者之间的选择涉及开发体验、性能以及所需交互功能性质之间的权衡。
+**背景**: 电子邮件几十年来一直依赖简单邮件传输协议（SMTP），但它面临垃圾邮件和安全性等长期问题。像 MTA-STS 这样的现代改进方案使用 HTTPS/TLS 来增强传输加密，这表明将网络技术与电子邮件融合是一个趋势。JSON 是一种轻量级、人类可读的数据格式，因其简单性和平台独立性而被广泛用于网络 API。
 
-**社区讨论**: 社区讨论揭示了一个细致入微的观点：尽管 HTMX 因简化服务器渲染应用而受到赞扬，并被视为论坛等以内容为中心网站的绝佳选择，但用户报告了复杂、可过滤界面的性能变慢，以及在富交互性（如保持滚动状态）方面的局限性。大家一致认为 React 仍然更适合高度动态、客户端繁重的体验。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.vpnunlimited.com/help/solutions/secure-alternative-to-smtp-mail">What is Secure Alternative to SMTP Mail Protocol - VPN Unlimited</a></li>
+<li><a href="https://www.netio-products.com/en/glossary/json-over-https">JSON (JavaScript Object Notation): united data format for exchanging...</a></li>
+<li><a href="https://www.geeksforgeeks.org/computer-networks/email-protocols/">Email Protocols - GeeksforGeeks</a></li>
 
-**标签**: `#web-development`, `#framework-comparison`, `#htmx`, `#react`, `#frontend-architecture`
+</ul>
+</details>
+
+**社区讨论**: 评论者强调了克服电子邮件网络效应的巨大挑战，并强调了提供迁移路径和向后兼容性的必要性。一些人赞扬了用于防垃圾邮件的首次联系同意功能，而另一些人则对 JSON 的内存使用提出了技术担忧，并建议该系统可能扩展到直接消息传递领域。
+
+**标签**: `#email`, `#protocol-design`, `#spam`, `#systems-design`, `#SMTP`
 
 ---
 
 <a id="item-6"></a>
-## [AI 公司大幅增加在华盛顿的游说支出](https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db) ⭐️ 7.0/10
+## [PGSimCity：一个展示 PostgreSQL 内部机制的交互式地图](https://nikolays.github.io/PGSimCity/) ⭐️ 7.0/10
 
-OpenAI 和 Anthropic 等主要人工智能公司大幅增加了在华盛顿的联邦游说支出。2026 年上半年，OpenAI 的支出接近翻倍，达到创纪录的 222 万美元，而 Anthropic 的支出则增长了近两倍，达到 353 万美元。 这一激增的游说活动凸显了该行业在关键时期积极塑造人工智能监管和政策的意图，以使其有利于自身。这表明相关公司正在为潜在的政府干预做准备，并利用财务影响力来引导规则的制定。 披露的支出数字代表了联邦游说成本，这只是公司总收入的一小部分，但据认为每美元的投入都具有极高的影响力。这一趋势表明，该行业正在采取协调一致的战略，就安全、竞争和国际标准等问题与立法者接触。
+PGSimCity 是一个新开源的交互式可视化项目，旨在通过一个动态的、地图式的图形界面，来揭示 PostgreSQL 的内部架构和调度过程。该项目在 48 小时内创建完成，以一种新颖的方式探索数据库引擎的内部运作。 该项目使复杂的数据库内部机制更易于理解且更具趣味性，可能比静态图表更好地帮助开发人员和管理员理解系统行为。其开源特性使得该概念可以被改编用于可视化云计算或 Kubernetes 等其他复杂系统。 该可视化似乎是“氛围编码”并在极短时间内自动生成的，这引发了社区对其技术准确性以及可能传播“错误知识”的担忧。其当前界面被描述为信息密集且被动的，用户要求增加互动性并希望导览体验不那么令人眼花缭乱。
 
-hackernews · 1vuio0pswjnm7 · 7月27日 14:07 · [社区讨论](https://news.ycombinator.com/item?id=49069939)
+hackernews · jonbaer · 7月27日 00:19 · [社区讨论](https://news.ycombinator.com/item?id=49063754)
 
-**背景**: 随着人工智能技术的飞速发展，全球各国政府正在考虑制定新的法规，以应对风险、伦理问题和市场竞争。在华盛顿，游说是一种常见做法，企业通过花钱来影响立法者和公共政策。人工智能公司的巨额支出反映了这一行业的高风险性，以及它们渴望在可能定义其运营格局的即将出台的规则中拥有话语权。
+**背景**: PostgreSQL 是一个流行的开源关系型数据库，拥有复杂的内部架构，涉及处理查询、管理内存和调度任务的多个进程。传统上，理解这些内部机制需要研究复杂的静态架构图和文档。教育性的数据库可视化工具通常专注于模式设计，而不是动态的运行时执行流程。
 
-**社区讨论**: 评论者对这些公司游说成本相对低廉感到惊讶，有些人将其视为一种旨在扼杀竞争的监管俘获形式。另一些人则建议采取直接的公民行动，如联系议员或加入奖学金项目，以平衡企业政治影响力。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.linkedin.com/pulse/postgresql-internal-architecture-comprehensive-memory-roohbakhsh-d5yuf">PostgreSQL Internal Architecture : A Comprehensive Overview of...</a></li>
+<li><a href="https://github.com/citusdata/pg_cron">GitHub - citusdata/pg_cron: Run periodic jobs in PostgreSQL · GitHub</a></li>
+<li><a href="https://dbdiagram.io/">dbdiagram.io - Database Relationship Diagrams Design Tool</a></li>
 
-**标签**: `#AI policy`, `#lobbying`, `#regulation`, `#tech ethics`, `#political influence`
+</ul>
+</details>
+
+**社区讨论**: 社区反馈总体上对这一宏大的概念持积极态度，赞扬其解释数据库内部机制的新颖方式，但许多用户认为当前的实现令人困惑、杂乱且缺乏互动性。鉴于其快速“氛围编码”的开发过程，一些评论者提出了一个关键担忧，即该工具的准确性问题，以及它是否可能导致误解。
+
+**标签**: `#database-visualization`, `#postgresql`, `#interactive-learning`, `#computer-architecture`, `#educational-tool`
 
 ---
 
 <a id="item-7"></a>
-## [Libsm64：将超级马里奥 64 引擎封装为可重用库](https://github.com/libsm64/libsm64) ⭐️ 7.0/10
+## [揭秘中国 LLM 代币转售与欺诈市场](https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything) ⭐️ 7.0/10
 
-一个名为 Libsm64 的开源项目，已将经典游戏《超级马里奥 64》的引擎提取出来，并封装成一个独立的 C 语言库。这使得开发者能够将其导入并在自己的外部游戏引擎和项目中运行完整的马里奥 64 游戏引擎。 该项目开启了新颖的跨引擎模组制作和实验，允许将一款经典游戏的角色或玩法逻辑无缝插入到现代的、不相关的游戏环境中。它展示了一种实用的游戏互操作性和对遗留代码的创造性重用方法，而无需依赖区块链或元宇宙炒作。 Libsm64 被实现为一个 C 语言库，这是为了高性能和与其他编程语言及游戏引擎的广泛兼容性而做出的常见选择。该项目提供了演示视频，展示了其集成效果，例如将马里奥放入游戏《半条命 2》中。
+一项调查揭露了一个主要在中国存在的市场，该市场通过汇集通过欺诈手段（如盗用信用卡或滥用免费试用）获取的 API 密钥，以折扣价转售 LLM API 代币。该生态系统依赖 one-api 和 new-api 等开源代理软件来促进折扣访问的转售。 这揭示了 AI 生态系统中一个重大且有组织的滥用模式，给提供商造成经济损失，并破坏了 LLM 服务的经济模型。这也凸显了 API 密钥管理中的安全漏洞以及开源工具被滥用于欺诈活动的风险。 该转售市场利用未受保护的 LLM 端点、免费试用和被盗支付方式，使用开源代理软件（one-api 和 new-api）在多个 API 凭证池之间进行请求负载均衡。买家寻求廉价代币、绕过地理限制，有时还收集数据用于模型蒸馏。
 
-hackernews · klaussilveira · 7月27日 10:04 · [社区讨论](https://news.ycombinator.com/item?id=49067352)
+rss · Simon Willison · 7月26日 19:30
 
-**背景**: 《超级马里奥 64》是 1996 年任天堂 64 平台上的里程碑式平台跳跃游戏，因其在电子游戏中开创性的 3D 移动而闻名。游戏模组制作是修改游戏以改变其内容或行为的做法，而“引擎提取”是指将游戏的核心软件系统隔离出来，使其可以单独运行。开源库则免费分发代码，供任何人使用和修改。
+**背景**: 像 OpenAI 这样的 LLM API 提供商按代币计费销售其模型访问权限。像 one-api 和 new-api 这样的代理软件是合法的开源工具，旨在帮助开发者管理和路由 API 请求，但它们可以被重新利用来汇集和分发 API 密钥。这催生了一个“中继市场”，转售商可以向希望避免官方定价或地区封锁的买家提供通常来自非法途径的折扣访问。
 
-**社区讨论**: 评论者们热情高涨，称赞该项目是无需通常的加密货币或炒作包袱的真正“元宇宙”互操作性的实践典范。他们分享了演示视频和相关项目链接，同时也指出该项目已存在一段时间，并质疑其对非技术用户来说设置是否简便。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://wpnews.pro/news/china-relay-market-resells-llm-tokens-at-steep-discounts-via-api-abuse">China relay market resells LLM tokens at steep discounts via API...</a></li>
 
-**标签**: `#game-engine`, `#modding`, `#open-source`, `#graphics`, `#retro-gaming`
+</ul>
+</details>
+
+**社区讨论**: 原始讨论发生在中文论坛（V2EX）。提供的内容表明这是该调查的主要来源，但英文摘要中没有详细说明具体的评论或情绪以供分析。
+
+**标签**: `#AI Security`, `#API Abuse`, `#LLM Economics`, `#Open Source Misuse`, `#Fraud Detection`
 
 ---
 
 <a id="item-8"></a>
-## [Bun 的 Rust 重写进展顺利，v1.4 版本即将发布](https://lockwood.dev/ai/2026/07/27/how-is-the-bun-rewrite-in-rust-going.html) ⭐️ 7.0/10
+## [综述：解决 3DGS 存储焦虑的五个方向](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907517&idx=3&sn=47197285f42f0199832d9f5b6612b961) ⭐️ 7.0/10
 
-Bun JavaScript 运行时的 Rust 重写进展顺利，其核心重写已在一个月前发布并集成到了 Claude Code 中。计划的 v1.4 版本正在等待完成最终的兼容性修复，以兑现承诺的 Node.js 测试通过数量的增加。 此次重写旨在利用 Rust 的安全性和速度，使 Bun 更具高性能和鲁棒性，可能巩固其作为 Node.js 可靠替代品的地位。将其集成到 Claude Code 这样广泛使用的工具中，展示了实际采用情况，并验证了该重写在生产环境中的稳定性。 该重写在正式发布前就已实现并部署给 Claude Code 用户，这种策略允许进行真实环境测试，但可能不太引人注意。v1.4 版本的发布特别延迟至兑现承诺的、新增通过的 Node.js 兼容性测试数量为止，相关的拉取请求目前正在等待合并。
+本文综述了五个研究方向，旨在解决 3D 高斯溅射的高内存消耗问题，其中单个场景的显存占用可高达 700MB。文章对解决这一关键技术瓶颈的潜在方案进行了系统性梳理。 本综述针对阻碍 3D 高斯溅射在实时应用中广泛采用的一个主要局限性进行了探讨。通过分类梳理优化策略，它为研究人员和技术开发者提供了一条使该技术更高效、更实用的路线图。 核心问题在于存储 3D 高斯数据需要占用大量的 GPU 显存（VRAM），这限制了其在消费级硬件上的可扩展性和部署能力。文章很可能评估了不同优化方法在渲染质量、速度和内存占用之间的权衡。
 
-hackernews · tomlockwood · 7月27日 11:12 · [社区讨论](https://news.ycombinator.com/item?id=49067854)
+rss · 量子位 · 7月27日 03:31
 
-**背景**: Bun 是一个快速的、一体化的 JavaScript 运行时，旨在作为 Node.js 的直接替代品，内置打包器和转译器。该项目正在将其核心从 Zig 重写为 Rust，以进一步提高性能、安全性和可维护性。
+**背景**: 3D 高斯溅射（3DGS）是一种前沿的体渲染技术，它使用数百万个三维高斯来表示场景，能够实现照片级真实的实时渲染。一个已知的缺点是其内存占用极高，因为每个高斯都存储了多个属性，导致文件体积庞大且显存消耗严重，本综述旨在解决此问题。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://bun.sh/">Bun — A fast all-in-one JavaScript runtime</a></li>
-<li><a href="https://github.com/oven-sh/bun">GitHub - oven-sh/ bun : Incredibly fast JavaScript runtime , bundler...</a></li>
+<li><a href="https://arxiv.org/pdf/2401.03890">A Survey on 3 D Gaussian Splatting</a></li>
+<li><a href="https://github.com/aras-p/UnityGaussianSplatting">GitHub - aras-p/UnityGaussianSplatting: Toy Gaussian Splatting...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 讨论重点关注了重写后的开发速度问题，以及高度依赖 LLM 进行快速开发和测试的软件的可信度。一些评论者质疑通过测试或在 Rust 中编译是否足以作为项目可靠性和成熟度的指标。
-
-**标签**: `#Bun`, `#Rust`, `#JavaScript Runtime`, `#Project Update`, `#Software Rewrite`
+**标签**: `#3D Gaussian Splatting`, `#Computer Graphics`, `#Memory Optimization`, `#AI/ML Systems`, `#Technical Survey`
 
 ---
 
 <a id="item-9"></a>
-## [VLC for Unity 新增 Linux 支持并实现硬件解码](https://code.videolan.org/videolan/vlc-unity) ⭐️ 7.0/10
+## [微软推出用于网络安全的 MAI-Cyber-1 AI 模型](https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/) ⭐️ 6.0/10
 
-Unity 游戏引擎的 VLC 插件现在正式支持 Linux 平台，并实现了通过 OpenGL 进行的全硬件视频解码。该实现利用 GLX 和 EGL 进行渲染，并通过 DMA-BUF 与 Unity 进行高效的纹理共享。 此更新极大地增强了 Linux 平台上 Unity 游戏生态系统中的多媒体功能，有望提升性能并降低需要引擎内视频播放的应用程序的 CPU 负载。 目前的 Linux 支持仅限于 x86_64 架构，ARM64 和 Vulkan 渲染计划在未来版本中添加。硬件解码将视频处理从 CPU 转移到 GPU，这对于在性能敏感的应用中实现流畅播放至关重要。
+微软宣布推出 MAI-Cyber-1，这是一个经过海量安全信号训练的新型 AI 模型，旨在提升威胁检测和响应能力。 这标志着将 AI 应用于解决复杂网络安全挑战的重要一步，可能为企业提供更有效、更具成本效益的防御手段，以应对不断演变的威胁。 据称，该模型在既定基准测试中比竞争对手更强大、更具成本效益，并将集成到一个名为 Project Perception 的新代理式网络安全系统中。
 
-hackernews · martz · 7月27日 09:06 · [社区讨论](https://news.ycombinator.com/item?id=49066928)
+hackernews · migmartri · 7月27日 16:52 · [社区讨论](https://news.ycombinator.com/item?id=49072361)
 
-**背景**: VLC for Unity 是一款插件，它将功能强大的 LibVLC 媒体播放引擎集成到 Unity 3D 游戏引擎中，使开发者能够将高级视频功能直接嵌入到游戏和应用程序中。Unity 是一个广泛使用的跨平台游戏引擎，集成硬件加速视频解码等功能对于创建沉浸式多媒体体验（如过场动画、游戏内屏幕或流媒体内容）至关重要。
+**背景**: 网络安全 AI 模型旨在分析海量数据集，以识别网络攻击的迹象。微软利用其作为主要软件和云服务提供商的独特地位，访问海量的安全遥测数据，这是训练此类模型的关键优势。这些 AI 工具旨在自动化并提高识别和缓解安全漏洞的速度与准确性。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.videolan.org/developers/unity.html">VLC for Unity - VideoLAN</a></li>
-<li><a href="https://wiki.archlinux.org/title/Hardware_video_acceleration">Hardware video acceleration - ArchWiki</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Unity_(game_engine)">Unity (game engine) - Wikipedia</a></li>
+<li><a href="https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/">Microsoft launches its first cybersecurity model , plus... | TechCrunch</a></li>
+<li><a href="https://www.nytimes.com/2026/07/27/technology/microsoft-unveils-ai-cybersecurity-tools.html">Microsoft Unveils A . I . Cybersecurity Tools - The New York Times</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 讨论澄清了此更新涉及的是 Unity 游戏引擎，而非 Unity 桌面环境。用户强调了实际应用，特别是对于 VRChat 开发者，他们在社交 VR 地图中嵌入视频播放器以播放直播音乐等内容。也有人建议考虑替代方案，如 Godot-VLC 集成。
+**社区讨论**: 讨论反映了对其实际可访问性的怀疑，以及对其命名惯例的幽默批评。一个关键观点质疑该模型的训练数据是否使其主要对微软自己的产品有效，突显了其适用性的一个潜在局限。
 
-**标签**: `#VLC`, `#Unity`, `#GameDev`, `#Linux`, `#Multimedia`
+**标签**: `#AI in cybersecurity`, `#Microsoft`, `#machine learning`, `#security research`, `#enterprise AI`
 
 ---
 
 <a id="item-10"></a>
-## [综述文章为解决 3DGS 高显存占用问题指明五个方向](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907517&idx=3&sn=47197285f42f0199832d9f5b6612b961) ⭐️ 7.0/10
+## [Libsm64：将超级马里奥 64 引擎作为库供外部游戏引擎使用](https://github.com/libsm64/libsm64) ⭐️ 6.0/10
 
-一篇综述文章发表，针对 3D 高斯溅射（3DGS）的高显存占用问题进行探讨，并为未来发展指明了五个关键研究方向。文章特别指出，光栅化器与算法、内存和硬件的协同演进是决定 3DGS 未来的关键。 这篇综述的重要性在于，3DGS 的高显存占用是限制其在大规模场景和实时应用中部署的主要实用瓶颈。通过系统性地调研优化技术，它为致力于让 3DGS 更实用、更具可扩展性的研究人员和工程师提供了一张有价值的技术路线图。 该综述强调，单个 3DGS 场景的显存占用可能超过 700MB，这使得内存优化成为关键焦点。文章指出，未来的改进将在很大程度上取决于基于图块的高斯光栅化器如何与算法和硬件的进步协同演进。
+Libsm64 是一个开源库，它从《超级马里奥 64》游戏中提取核心引擎，允许其移动和渲染代码被集成到 Unity 或 Godot 等外部游戏引擎中。该项目使开发者能够在自己的项目中、在不同平台上运行马里奥 64 的游戏逻辑。 该项目通过将经典游戏引擎模块化为可重用组件，展示了跨引擎互操作性和创意游戏模组的潜力。它引发了关于游戏保存、逆向工程伦理，以及在不依赖炒作的情况下实现可互操作数字世界的实践讨论。 该库提供 C 语言绑定，并有社区开发的其他语言（如 C#用于 Unity）的包装器。其集成效果已在将马里奥放入《半衰期 2》等项目中得到演示，不过它需要一定的技术知识，主要对开发者而言是一种新奇事物，而非主流工具。
 
-rss · 量子位 · 7月27日 03:31
+hackernews · klaussilveira · 7月27日 10:04 · [社区讨论](https://news.ycombinator.com/item?id=49067352)
 
-**背景**: 3D 高斯溅射（3DGS）是一种新颖的实时体渲染技术，它使用数百万个 3D 高斯基元的集合来表示一个 3D 场景，能够在快速训练的同时提供照片级真实的渲染效果。其核心流程涉及一个可微分的基于图块的光栅化器，负责将这些高斯基元投影、排序并进行 Alpha 混合以生成最终图像。然而，存储所有这些高斯基元的参数会导致巨大的显存开销。
+**背景**: 《超级马里奥 64》是 1996 年任天堂 64 主机上的一款开创性 3D 平台游戏，其引擎源代码已被社区广泛逆向工程。像 libsm64 这样的库将这些逆向工程后的代码打包成可嵌入其他软件的形式，类似于将游戏的物理或渲染引擎作为独立工具包使用。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Gaussian_splatting">Gaussian splatting - Wikipedia</a></li>
-<li><a href="https://tarekbouamer.github.io/posts/gaussian-splatting/">A Comprehensive Study for Gaussian Splatting - Tarek’s HomePage</a></li>
+<li><a href="https://numfer.com/libsm64/libsm64">libsm 64 : Mario 64 library for game engines</a></li>
+<li><a href="https://kandi.openweaver.com/csharp/libsm64/libsm64-unity-dev">libsm 64 -unity-dev | Empty Unity project | Game Engine library</a></li>
 
 </ul>
 </details>
 
-**标签**: `#3D Gaussian Splatting`, `#Computer Graphics`, `#Memory Optimization`, `#Technical Survey`, `#3D Vision`
+**社区讨论**: 社区表达了强烈的热情和好奇，用户分享了在其他游戏中出现马里奥的演示，并将其与无需炒作的“元宇宙”互操作性理想进行比较。人们对其对非工程师的易用性以及利用该库的现有项目表现出兴趣。
+
+**标签**: `#gamedev`, `#open-source`, `#reverse-engineering`, `#library`, `#mario64`
 
 ---
 
 <a id="item-11"></a>
-## [探讨如何用借用其他系统的组件构建现代电子邮件](https://en.andros.dev/blog/d7ed8b07/modern-email-can-be-built-from-borrowed-parts/) ⭐️ 6.0/10
+## [VLC for Unity 插件新增 Linux 支持](https://code.videolan.org/videolan/vlc-unity) ⭐️ 6.0/10
 
-电子邮件几十年来一直依赖相同的基础协议，使其容易受到垃圾邮件和滥用。现代通信系统通常使用诸如消息请求之类的功能来筛选未知联系人。该文推测将电子邮件开放、可寻址的特性与这些更新、更受控的交互模型相融合，并可能使用网络技术作为基础。 这一讨论意义重大，因为它通过提出创新的筛选机制来解决电子邮件长期存在的问题，例如垃圾邮件和不必要的联系人，从而可能改善用户体验。它还探讨了电子邮件如何通过与现代网络协议集成而演进，可能会影响未来的标准和通信平台设计。 核心理念是“首次联系同意”，即未知发件人的首条消息会进入一个“请求”方框（类似 Signal），用户必须接受才能开启对话。文章还提到将此系统构建在 HTTP 之上，并引用了现代电子邮件对网络协议的依赖，例如用于传输加密的 MTA-STS。
+VLC for Unity 插件现已正式支持 Linux 系统，提供了完整的硬件解码功能，并通过 GLX/EGL 实现了高效的 OpenGL 渲染，利用 DMA-BUF 纹理共享来传递视频帧。当前版本仅支持 x86_64 架构。 该实现通过 GLX 和 EGL 使用 OpenGL 渲染，并采用 DMA-BUF 纹理共享来高效地将帧传递给 Unity 的渲染器。开发者表示未来将添加对 ARM64 和 Vulkan 的支持。
 
-hackernews · andros · 7月27日 08:27 · [社区讨论](https://news.ycombinator.com/item?id=49066639)
+hackernews · martz · 7月27日 09:06 · [社区讨论](https://news.ycombinator.com/item?id=49066928)
 
-**背景**: Email has relied on the same foundational protocols for decades, making it prone to spam and misuse. Modern communication systems often use features like message requests to filter unknown contacts. The article speculates on blending email's open, addressable nature with these newer, more controlled interaction models, possibly using web technologies as a base.
+**背景**: VLC for Unity 是一个原生插件，它将 LibVLCSharp 库与 Unity 连接起来，使开发者能够在 Unity 3D 项目中使用功能强大的 LibVLC 视频引擎进行播放。它专为性能导向的视频渲染而设计，并支持多种图形 API。OpenGL 是一种广泛使用的跨平台图形 API，而硬件解码则将视频处理从 CPU 卸载到专用硬件以提升性能。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://mailtrap.io/blog/email-infrastructure/">Email Infrastructure Explained [2026] - Mailtrap Building Enterprise Email Systems: From Architecture to ... Modernizing the Message: Why Email Infrastructure Still ... The Definitive Guide to Email Infrastructure [2026] - Mailmodo Email Queue Systems 2026: Provider Changes & User Impact ... Email Infrastructure 101: Components, protocols, and security</a></li>
+<li><a href="https://github.com/videolan/vlc-unity">GitHub - videolan/ vlc - unity : LibVLC plugin for Unity to integrate...</a></li>
+<li><a href="https://vlc-player.github.io/developers/unity.html">VLC for Unity - VideoLAN</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者讨论了电子邮件巨大的网络效应，认为与 SMTP 的向后兼容性对于采用至关重要。一些人赞赏首次联系同意的理念，认为它在开放性和控制性之间取得了平衡，而另一些人则认为电子邮件的优势在于其简单性，不喜欢审批队列的概念，并指出重点应放在改进加密或图形用户界面上。
+**社区讨论**: 一位社区成员澄清了此新闻指的是 Unity 游戏引擎，而非 Linux 桌面环境。另一位用户询问了在 Unity 中使用 VLC 的用例，推测可能是用于过场动画播放。还有一位开发者分享了一个关于 Windows 上首次打开视频文件缓慢的不相关轶事。
 
-**标签**: `#email`, `#protocols`, `#messaging`, `#system-design`, `#communication`
+**标签**: `#Unity`, `#VLC`, `#Game Development`, `#Linux`, `#OpenGL`
 
 ---
 
 <a id="item-12"></a>
-## [从零构建 Transformer：纯 PyTorch 实现英译泰米尔语教程](https://www.reddit.com/r/MachineLearning/comments/1v86qo9/built_trained_a_transformer_from_scratch_in_pure/) ⭐️ 6.0/10
+## [人工智能公司在美国联邦游说上花费创纪录](https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db) ⭐️ 6.0/10
 
-一位开发者使用纯 PyTorch 从零开始构建并训练了一个完整的 Transformer 模型，用于英语到泰米尔语的机器翻译，并提供了详细的数学分解和分步教程。该实现包括一个 GitHub 仓库和一篇博客文章，使用 NVIDIA T4 GPU 在平行语料库数据集上进行了训练。 该项目为希望理解现代 NLP 基石 Transformer 架构内部工作原理的从业者提供了一个宝贵的教育资源，而无需依赖高级抽象。通过专注于特定且资源较少的语言对（英语到泰米尔语），它也有助于使机器翻译技术更易于普及。 该模型使用来自 Hugging Face 的`gopi30/english-tamil`数据集，在 Kaggle 上使用双 NVIDIA T4 GPU 进行训练，作者提供的代码仅使用了`torch.nn`基本模块。附带的博客文章详细讲解了 Transformer 编码器-解码器结构中涉及的每一个数学公式和张量形状变换。
+在 2026 年上半年，主要的人工智能公司 OpenAI 和 Anthropic 大幅增加了其联邦游说支出。根据美国联邦披露信息，OpenAI 的支出几乎翻了一番，达到创纪录的 222 万美元，而 Anthropic 的支出几乎增加了两倍，达到 353 万美元。 这些创纪录的支出反映了人工智能行业日益增长的政治影响力，该行业正试图影响美国未来的政策和监管，这可能会直接影响 AI 技术的发展与部署。 尽管这些人工智能公司的披露支出达到了历史最高水平，但与其他主要行业相比仍然微不足道，例如美国商会每年的游说支出为 6 亿美元。
 
-reddit · r/MachineLearning · /u/imrancoder · 7月27日 17:17
+hackernews · 1vuio0pswjnm7 · 7月27日 14:07 · [社区讨论](https://news.ycombinator.com/item?id=49069939)
 
-**背景**: Transformer 架构在《Attention Is All You Need》论文中提出，它用自注意力机制取代了循环层，从而革新了自然语言处理领域，并催生了 GPT 和 BERT 等模型。PyTorch 是一个流行的开源机器学习框架，其`torch.nn`模块提供了从零开始定义和训练神经网络的核心构建块。机器翻译是一个经典的 NLP 任务，模型通过在平行文本语料库上训练，将文本从一种语言翻译成另一种语言。
+**背景**: 美国的联邦游说是一种有偿活动，团体雇佣倡导者来影响国会和联邦机构的立法与决策。随着人工智能公司主张制定既能促进创新又能解决安全问题的法规，它们正在加强此类参与。这一过程有时被批评为潜在的'监管俘获'，旨在排挤竞争对手。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/1706.03762">Abstract page for arXiv paper 1706.03762: Attention Is All You Need</a></li>
-<li><a href="https://docs.pytorch.org/tutorials/beginner/basics/buildmodel_tutorial.html">Build the Neural Network — PyTorch Tutorials 2.13.0+cu130 ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Lobbying_in_the_United_States">Lobbying in the United States - Wikipedia</a></li>
+<li><a href="https://www.opensecrets.org/federal-lobbying">Federal Lobbying</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 提供的文本中没有包含社区评论，因此无法总结讨论中的整体情绪和关键观点。
+**社区讨论**: 社区讨论强调了认知上的差异，有评论者指出与其它行业相比，游说成本出人意料地低，而其他人则区分了游说与公然贿赂或倡导行为。一个实际的行动呼吁建议技术专家通过像 TechCongress 这样的研究员计划参与政治。
 
-**标签**: `#transformer`, `#pytorch`, `#machine-translation`, `#tutorial`, `#nlp`
+**标签**: `#AI policy`, `#lobbying`, `#tech regulation`, `#OpenAI`, `#Anthropic`
 
 ---
 
 <a id="item-13"></a>
-## [开源平台简化微控制器上的边缘机器学习部署](https://www.reddit.com/r/MachineLearning/comments/1v7nudc/recent_project_i_worked_on_end_to_end_edge_ml/) ⭐️ 6.0/10
+## [从零开始构建的英译泰米尔语 Transformer 教程](https://www.reddit.com/r/MachineLearning/comments/1v86qo9/built_trained_a_transformer_from_scratch_in_pure/) ⭐️ 6.0/10
 
-一位开发者创建并分享了 SensorForge，这是一个开源的端到端平台，用于从原始传感器数据部署机器学习模型到微控制器。该平台包含一个用于时间序列传感器数据的自动标注工具，以及一个可以提供见解的数据分析聊天机器人。 该工具通过简化从原始数据收集到模型部署的整个流程，解决了 tinyML 工作流中的一个主要痛点，使边缘 AI 更易于上手。它可能显著加速物联网和嵌入式 AI 项目的工程师与爱好者的开发和原型制作。 该平台专为资源受限的微控制器设计，并专注于传感器数据，其自动标注工具旨在克服手动标注时间序列数据的困难。该项目目前处于寻求反馈阶段，并计划保持免费和开源以接受社区贡献。
+一位开发者使用纯 PyTorch 原语，根据《Attention Is All You Need》原始论文，从零构建并训练了一个用于英译泰米尔语的完整 Transformer 模型。该项目包含详细的数学解析和分步教程，并提供了完整代码，使用了 Hugging Face 上的数据集在双 NVIDIA T4 GPU 上进行训练。 该项目为希望从实践入手理解 Transformer 架构核心机制的开发者和学生提供了宝贵的教育资源。它通过提供代码和数学教程，使这个复杂且具有深远影响的模型架构对社区更加易于理解。 该模型使用`torch.nn`原语实现，并在 Hugging Face 的`gopi30/english-tamil`数据集上训练。项目明确提供了 GitHub 仓库和博客文章作为完整教程，重点解释了每个方程和张量形状变换。
 
-reddit · r/MachineLearning · /u/No-Bug-4879 · 7月27日 02:38
+reddit · r/MachineLearning · /u/imrancoder · 7月27日 17:17
 
-**背景**: TinyML（微型机器学习）是一个专注于在微控制器等低功耗、资源受限设备上运行 AI 模型的机器学习领域，它支持低延迟和最小云依赖的设备端推理。该领域的一个关键挑战是部署管道，它涉及收集传感器数据、为其标注以进行训练，以及最终将训练好的模型部署到嵌入式硬件上。
+**背景**: Transformer 是一种在 2017 年论文《Attention Is All You Need》中提出的神经网络架构，它仅依靠注意力机制，彻底改变了自然语言处理领域。此后，它已成为 GPT 等大多数大型语言模型的基础。从“零构建”意味着要实现所有核心组件，例如多头自注意力和位置编码，而不依赖于高级的预构建模型库。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/TinyML">TinyML - Wikipedia</a></li>
-<li><a href="https://www.geeksforgeeks.org/machine-learning/what-is-tinyml-tiny-machine-learning/">What is TinyML? Tiny Machine Learning - GeeksforGeeks</a></li>
-<li><a href="https://visplore.com/how-to-label-time-series-efficiently-and-boost-your-ai/">How to label time series efficiently – and boost your AI</a></li>
+<li><a href="https://arxiv.org/abs/1706.03762">Abstract page for arXiv paper 1706.03762: Attention Is All You Need</a></li>
+<li><a href="https://www.kaggle.com/code/arunmohan003/transformer-from-scratch-using-pytorch">Transformer from scratch using pytorch | Kaggle</a></li>
 
 </ul>
 </details>
 
-**标签**: `#tinyML`, `#edge computing`, `#open source`, `#machine learning deployment`, `#sensor data`
+**社区讨论**: 该 Reddit 帖子获得了中等程度的关注，评分为 6.0/10，评论内容是教育项目分享的典型风格。讨论可能以支持性和询问性为主，用户会就具体实现细节提问或提供改进建议，而不是针对方法本身进行深入的技术辩论。
+
+**标签**: `#machine-translation`, `#transformers`, `#educational`, `#pytorch`, `#nlp`
+
+---
+
+<a id="item-14"></a>
+## [预训练数据验证门控系统的提议](https://www.reddit.com/r/MachineLearning/comments/1v8a3nu/training_data_needs_a_real_gonogo_gate_before/) ⭐️ 6.0/10
+
+有人提出一个概念性的提议，旨在建立一个基于证据的确定性验证门控系统，该系统能在模型训练开始前对训练数据制品进行审计，并给出可复现的通过、警告、失败或安全失败裁决。该系统旨在通过明确的、可复现的检查（如数据泄露、矛盾和来源）来取代分散的人工判断。 这一提议通过将数据准备和训练之间缺失的质量控制层正式化，解决了一个机器学习运维（MLOps）中的关键缺口，这可能会提高可复现性并防止训练出有缺陷的模型。这代表了向更严格、自动化的 AI 开发流程治理的转变，尤其是在模型规模和数据复杂性不断增长的情况下。 该提议的裁决是确定性的，这意味着相同的制品和配置应始终产生相同的结果，并且明确排除 LLM 参与最终决策以确保一致性。一个关键的设计原则是严重的故障不能被良好的综合分数所掩盖，该系统还可以生成修复计划，同时保留原始制品。
+
+reddit · r/MachineLearning · /u/jesusmjk · 7月27日 19:13
+
+**背景**: 在机器学习工作流中，确保训练数据的质量和完整性至关重要，但通常是通过临时脚本、仪表板和手动审查来管理的。这种缺乏正式、自动化的门控会导致可复现性问题，并将数据缺陷传播到训练好的模型中。“确定性治理层”和“可复现性审计”等概念正在 AI 工程领域兴起，旨在为模型训练等关键步骤增加透明度和问责制。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://eveaicore.com/blog/deterministic-ai-governance-enforcement-layers">Deterministic AI Governance Enforcement Layers: Why EVE...</a></li>
+<li><a href="https://www.emergentmind.com/topics/reprorepo">ReproRepo: Scalable Reproducibility Audit</a></li>
+
+</ul>
+</details>
+
+**标签**: `#MLOps`, `#Data Quality`, `#Machine Learning Engineering`, `#Reproducibility`, `#Pre-training`
 
 ---
 
