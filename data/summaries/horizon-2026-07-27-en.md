@@ -1,344 +1,352 @@
 # Horizon Daily - 2026-07-27
 
-> From 24 items, 14 important content pieces were selected
+> From 22 items, 14 important content pieces were selected
 
 ---
 
-1. [vLLM v0.26.0: Inkling, DeepSeek-V4 Optimizations, fp32 lm_head](#item-1) ⭐️ 9.0/10
-2. [Moonshot AI Releases 3T-Parameter Kimi-K3 Open-Weight Model](#item-2) ⭐️ 8.0/10
-3. [Bun's Rust Rewrite Progress: Delayed Release](#item-3) ⭐️ 8.0/10
-4. [Forum Migrates UI from React to HTMX for Simplicity](#item-4) ⭐️ 7.0/10
-5. [Modern Email System Proposed Using Borrowed Parts](#item-5) ⭐️ 7.0/10
-6. [PGSimCity: An Interactive Map of PostgreSQL Internals](#item-6) ⭐️ 7.0/10
-7. [Inside China's LLM Token Resale and Fraud Market](#item-7) ⭐️ 7.0/10
-8. [Survey: Five Directions to Solve 3DGS Storage Anxiety](#item-8) ⭐️ 7.0/10
-9. [Microsoft Introduces MAI-Cyber-1 AI Model for Cybersecurity](#item-9) ⭐️ 6.0/10
-10. [Libsm64: Super Mario 64 as a Library for External Engines](#item-10) ⭐️ 6.0/10
-11. [VLC for Unity Plugin Adds Linux Support](#item-11) ⭐️ 6.0/10
-12. [AI Firms Spend Record on U.S. Federal Lobbying](#item-12) ⭐️ 6.0/10
-13. [From-Scratch Transformer Tutorial for English-Tamil Translation](#item-13) ⭐️ 6.0/10
-14. [Proposal for Pre-Training Data Validation Gate System](#item-14) ⭐️ 6.0/10
+1. [vLLM v0.26.0 Adds Inkling Model & DeepSeek-V4 Optimizations](#item-1) ⭐️ 9.0/10
+2. [Judge Rejects Google's DMCA Claim Against Search Result Scraping](#item-2) ⭐️ 8.0/10
+3. [Moonshot AI Releases Kimi-K3 3T-Parameter Model Weights](#item-3) ⭐️ 8.0/10
+4. [Misago Project Replaces React.js with HTMX for UI](#item-4) ⭐️ 7.0/10
+5. [Progress Report on Bun's Rust Rewrite](#item-5) ⭐️ 7.0/10
+6. [VLC for Unity Now Supports Linux with Hardware Decoding](#item-6) ⭐️ 7.0/10
+7. [Survey Addresses 3DGS Memory Overconsumption Problem](#item-7) ⭐️ 7.0/10
+8. [Scratch-Built Transformer for English-to-Tamil Translation in PyTorch](#item-8) ⭐️ 7.0/10
+9. [Proposal for a Deterministic Go/No-Go Gate for ML Training Data](#item-9) ⭐️ 7.0/10
+10. [Microsoft Launches Cybersecurity AI Model Inside MDASH Platform](#item-10) ⭐️ 6.0/10
+11. [Paged Out #9: A Modern Hacker Zine Launches](#item-11) ⭐️ 6.0/10
+12. [libsm64: Super Mario 64 Code Extracted as a Reusable C Library](#item-12) ⭐️ 6.0/10
+13. [Proposal to Modernize Email Using Existing Components](#item-13) ⭐️ 6.0/10
+14. [Open-Source Edge ML Platform for MCU Deployment Released](#item-14) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [vLLM v0.26.0: Inkling, DeepSeek-V4 Optimizations, fp32 lm_head](https://github.com/vllm-project/vllm/releases/tag/v0.26.0) ⭐️ 9.0/10
+## [vLLM v0.26.0 Adds Inkling Model & DeepSeek-V4 Optimizations](https://github.com/vllm-project/vllm/releases/tag/v0.26.0) ⭐️ 9.0/10
 
-vLLM released major version 0.26.0, which introduces the Inkling model family with full support, includes deep performance optimizations for DeepSeek-V4 across hardware vendors, and adds fp32 lm_head support for generation models. The release also features flexible attention backends, mature KV offloading, and a Rust frontend with multimodal capabilities, representing 411 commits from 212 contributors. As a widely-used high-performance LLM inference library, this release significantly improves deployment efficiency for large-scale and multimodal models, benefiting developers and enterprises deploying AI systems. The optimizations for specific models like DeepSeek-V4 and the addition of Inkling support directly impact the performance and cost-effectiveness of running advanced LLMs in production. The Inkling model is a 975B-parameter sparse Mixture-of-Experts architecture with 41B active parameters, and the optimizations for DeepSeek-V4 include specialized kernels that reduce end-to-end latency. The fp32 lm_head feature, accessible via the `head_dtype` parameter, improves accuracy for generation heads but may have implications for memory usage and throughput.
+The vLLM project released version 0.26.0, featuring full support for the new Inkling multimodal model family and major performance optimizations for the DeepSeek-V4 model across multiple hardware vendors. As a leading open-source library for high-throughput LLM serving, vLLM's ability to efficiently run new, large multimodal models like Inkling and optimize inference for state-of-the-art models like DeepSeek-V4 is critical for the entire AI inference ecosystem, impacting performance, cost, and accessibility. The update includes a specialized routing kernel for DeepSeek-V4 that reduces end-to-end time per output token, flexible attention backend selection per KV-cache group to better support hybrid models, and the introduction of FP32 generation heads for improved accuracy.
 
 github · khluu · Jul 27, 01:06
 
-**Background**: vLLM is an open-source library designed for high-throughput and low-latency inference of large language models (LLMs). It supports various model architectures and optimization techniques like quantization and speculative decoding to run models efficiently on GPUs. The Inkling model is a new, large-scale decoder-only multimodal Mixture-of-Experts model, while DeepSeek-V4 is a recent advanced LLM known for its long-context capabilities.
+**Background**: vLLM is a high-throughput and memory-efficient inference and serving engine for Large Language Models (LLMs), originally developed at UC Berkeley. The Inkling model is a 1-trillion-parameter multimodal model from Thinking Machines Lab that can process text, image, and audio inputs with a long context length. DeepSeek-V4 is a highly optimized model designed for million-token context intelligence.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://huggingface.co/blog/thinkingmachines-inkling">Welcome Inkling by Thinking Machines</a></li>
-<li><a href="https://www.lmsys.org/blog/2026-04-25-deepseek-v4/">DeepSeek-V4 on Day 0: From Fast Inference to Verified RL with SGLang and Miles - LMSYS Org</a></li>
-<li><a href="https://docs.vllm.ai/en/v0.5.4/quantization/fp8.html">FP8 — vLLM</a></li>
+<li><a href="https://github.com/vllm-project/vllm">GitHub - vllm-project/vllm: A high-throughput and memory-efficient ...</a></li>
+<li><a href="https://deepseek.ai/deepseek-v4">DeepSeek V4: V4-Pro (1.6T) and V4-Flash (284B) MoE — Complete Guide</a></li>
+<li><a href="https://vllm.ai/blog/2026-07-15-inkling">TML Inkling on vLLM: Day-0 Support with Optimized Performance</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM Inference`, `#High-Performance Computing`, `#GPU Optimization`, `#Machine Learning Infrastructure`, `#Open Source Release`
+**Tags**: `#LLM-serving`, `#open-source`, `#high-performance-computing`, `#AI-inference`, `#model-optimization`
 
 ---
 
 <a id="item-2"></a>
-## [Moonshot AI Releases 3T-Parameter Kimi-K3 Open-Weight Model](https://huggingface.co/moonshotai/Kimi-K3) ⭐️ 8.0/10
+## [Judge Rejects Google's DMCA Claim Against Search Result Scraping](https://www.techdirt.com/2026/07/27/judge-rejects-googles-attempt-to-dmca-its-way-out-of-being-scraped/) ⭐️ 8.0/10
 
-Moonshot AI has released Kimi-K3, a 3 trillion parameter open-weight large language model, on HuggingFace. The model is now available for download and community discussion has begun regarding its hosting, cost, and licensing. The release of such a massive open-weight model lowers the barrier for startups and researchers to customize and deploy state-of-the-art AI, potentially shifting the economics of the LLM industry. It also provides a valuable benchmark for the cost of serving a model at this scale through third-party providers. The model uses a native mxfp4 quantization format, requiring approximately 1.5TB of VRAM, which pushes the limits of current high-end GPU setups. Its license includes a commercial clause requiring large businesses (over $20M annual revenue) to negotiate a separate agreement with Moonshot AI.
+A judge has ruled against Google's attempt to use the Digital Millennium Copyright Act (DMCA) to stop a third-party company, SerpAPI, from scraping its search results. The ruling establishes that Google's search results, as presented on its results pages, are not protected by copyright in a way that allows for DMCA takedowns of scrapers. This ruling sets a significant legal precedent for web scraping, clarifying that the copyright protections under DMCA may not extend to the factual arrangement of search engine results pages. It impacts the ongoing tension between data ownership, open access to information, and the legal tools companies use to control their data. The case highlights a key difference between US and EU copyright law regarding databases: the EU offers broader protection for databases with 'substantial investment,' while US copyright requires 'original creativity' in selection or arrangement. The ruling suggests Google's search results may lack the necessary originality for DMCA protection.
 
-hackernews · nateb2022 · Jul 27, 06:18 · [Discussion](https://news.ycombinator.com/item?id=49065752)
+hackernews · cdrnsf · Jul 27, 18:15 · [Discussion](https://news.ycombinator.com/item?id=49073513)
 
-**Background**: Large Language Models (LLMs) are AI systems trained on vast text data, with their 'parameter' count indicating model size and capacity. 'Open-weight' models release their learned weights, allowing for download, fine-tuning, and self-hosting, unlike closed-source APIs. The cost and hardware required to run trillion-parameter models are key considerations in the AI ecosystem.
+**Background**: The Digital Millennium Copyright Act (DMCA) includes a notice-and-takedown process that allows copyright holders to demand the removal of infringing material from online platforms. Web scraping involves using automated tools to extract data from websites, a practice with complex legal implications that vary by jurisdiction and context. Search Engine Results Pages (SERPs) are the listings returned by a search engine, and their structure and content are central to debates about data access.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.moonshot.ai/">Moonshot AI</a></li>
-<li><a href="https://www.cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic-china.html">China's Moonshot AI unveils Kimi K3 that rivals OpenAI, Anthropic - CNBC</a></li>
-<li><a href="https://developer.nvidia.com/blog/demystifying-ai-inference-deployments-for-trillion-parameter-large-language-models/">Demystifying AI Inference Deployments for Trillion Parameter Large Language Models | NVIDIA Technical Blog</a></li>
+<li><a href="https://copyrightalliance.org/education/copyright-law-explained/the-digital-millennium-copyright-act-dmca/dmca-notice-takedown-process/">DMCA Notice & Takedown Process | Copyright Alliance</a></li>
+<li><a href="https://www.browserless.io/blog/is-web-scraping-legal">Is Web Scraping Legal in 2026? Laws, Ethics, and Risks Explained</a></li>
+<li><a href="https://developers.google.com/custom-search/v1/overview">Custom Search JSON API | Google for Developers</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion focuses on the high VRAM requirement and inference cost, with users noting it would require at least 8 NVIDIA B200 GPUs. There is enthusiasm for the customization potential for startups, while others highlight the commercial licensing constraint for businesses over a $20M revenue threshold.
+**Discussion**: The community discussion reveals frustration with Google's lack of a good public search API, which drives the need for scraping. Commenters also debate the fine line between unprotectable facts and protectable creative arrangements under copyright law, and criticize Google's use of litigation as a tool to suppress competition it dislikes.
 
-**Tags**: `#large language models`, `#open-source AI`, `#model inference`, `#AI economics`, `#model fine-tuning`
+**Tags**: `#copyright law`, `#web scraping`, `#Google`, `#DMCA`, `#search engine data`
 
 ---
 
 <a id="item-3"></a>
-## [Bun's Rust Rewrite Progress: Delayed Release](https://lockwood.dev/ai/2026/07/27/how-is-the-bun-rewrite-in-rust-going.html) ⭐️ 8.0/10
+## [Moonshot AI Releases Kimi-K3 3T-Parameter Model Weights](https://huggingface.co/moonshotai/Kimi-K3) ⭐️ 8.0/10
 
-The Bun runtime's rewrite in Rust is progressing well and has already been integrated into Claude Code, but the v1.4 release is delayed pending the completion of a specific number of newly passing Node.js compatibility tests. Project creator Jarred Sumner indicates the release is most likely planned for next Tuesday. This update is significant as it provides insider details on a high-profile, LLM-assisted rewrite of a major JavaScript runtime, offering lessons on large-scale code migration and development practices. The delay underscores the ongoing challenge of achieving deep Node.js compatibility, which is crucial for Bun's adoption. The rewrite's progress is being measured against a predefined set of Node.js test cases that must pass for the release to proceed. The use of LLMs to assist in the rewrite is a central topic of community debate, with opinions divided on its effectiveness for complex software engineering.
+Moonshot AI has open-sourced the weights for its Kimi-K3 language model, which features 3 trillion parameters, on Hugging Face. This release allows for public customization, fine-tuning, and deployment of the model. This release democratizes access to a massive frontier-scale model, enabling startups and researchers to customize it for specific domains and intellectual property sovereignty. It also provides a benchmark for the cost and infrastructure required to serve 3T-parameter models. The model is natively in mxfp4 format, requiring approximately 1.5TB of VRAM to host, which is at the limit of 8 NVIDIA H200 GPUs but realistically requires 16 for optimized throughput. A third-party provider, Fireworks AI, already offers it with pricing around $3.00 per million input tokens (uncached) and $15.00 per million output tokens.
 
-hackernews · tomlockwood · Jul 27, 11:12 · [Discussion](https://news.ycombinator.com/item?id=49067854)
+hackernews · nateb2022 · Jul 27, 06:18 · [Discussion](https://news.ycombinator.com/item?id=49065752)
 
-**Background**: Bun is a modern, all-in-one JavaScript runtime aiming to be a faster alternative to Node.js. Its original core was written in Zig, but the project began a major rewrite into Rust to potentially improve performance, memory safety, and maintainability. Achieving high compatibility with the vast Node.js ecosystem is a critical goal for Bun to gain developer trust and adoption.
+**Background**: Kimi-K3 is a large language model developed by Moonshot AI, built on architectural innovations like Kimi Delta Attention (KDA) to handle long contexts, reportedly up to 1 million tokens. Open-weight releases allow the community to download and modify the model's parameters, which is crucial for fine-tuning—adapting a pre-trained model to specific tasks using new data.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://bun.sh/blog/bun-in-rust">Rewriting Bun in Rust | Bun Blog</a></li>
-<li><a href="https://www.cosmicjs.com/blog/bun-rust-rewrite-javascript-runtime">Why Bun Is Rewriting in Rust : What It Means for JavaScript...</a></li>
-<li><a href="https://bun.com/docs/runtime/nodejs-compat">Node.js Compatibility - Bun</a></li>
+<li><a href="https://www.kimi.com/blog/kimi-k3">Kimi K 3 Tech Blog: Open Frontier Intelligence</a></li>
+<li><a href="https://machinelearningmastery.com/the-machine-learning-practitioners-guide-to-fine-tuning-language-models/">The Machine Learning Practitioner's Guide to Fine-Tuning ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Discussion is polarized, with some praising the speed of LLM-assisted rewriting while others, like user benjiro29, argue it doesn't solve the hard work of feature integration and debugging. A counterpoint notes that similar improvements to the original Zig codebase suggest the rewrite's motivations may have been flawed.
+**Discussion**: Discussion centers on the trade-offs between serving costs and customization benefits. One commenter notes the licensing clause requiring companies with over $20M in revenue to sign a separate agreement, while others highlight the strategic value of fine-tuning for startups despite high hosting costs.
 
-**Tags**: `#Bun`, `#Rust`, `#Runtime`, `#LLM`, `#Software Engineering`
+**Tags**: `#Large Language Models`, `#Open Source AI`, `#Model Deployment`, `#AI Infrastructure`, `#Fine-Tuning`
 
 ---
 
 <a id="item-4"></a>
-## [Forum Migrates UI from React to HTMX for Simplicity](https://misago-project.org/t/removing-reactjs-from-the-codebase-and-adapting-htmx-for-ui-interactivity/1267/) ⭐️ 7.0/10
+## [Misago Project Replaces React.js with HTMX for UI](https://misago-project.org/t/removing-reactjs-from-the-codebase-and-adapting-htmx-for-ui-interactivity/1267/) ⭐️ 7.0/10
 
-A developer detailed the migration of the Misago forum's frontend codebase from React.js to the HTMX library to handle UI interactivity. This change aimed to simplify the technology stack by leveraging server-side rendering with HTMX for dynamic updates instead of a full client-side JavaScript framework. This case study provides a practical example of a real-world migration, offering insights into the trade-offs between a traditional SPA framework like React and a hypermedia-driven approach like HTMX. It informs developers about potential strategies for reducing frontend complexity and codebase size in content-focused applications. The migration was motivated by a desire to reduce frontend complexity and reliance on client-side JavaScript, which can be overkill for forum-like applications. HTMX uses HTML attributes to extend browser behavior for AJAX, WebSockets, and server-sent events, enabling dynamic partial page updates directly from the server.
+The Misago project has documented its process of removing React.js from its codebase and replacing it with the HTMX library for handling UI interactivity. This case study details the transition and the architectural implications of moving from a client-side JavaScript framework to a hypermedia-driven approach. 这是一个对评估现代Web技术栈的开发者来说极具价值的真实案例研究，展示了用HTMX这类更简单、以HTML为中心的替代品替换React等主流SPA框架时的实际权衡。它为业界关于何时选择服务器渲染的超媒体架构而非复杂的客户端应用的讨论提供了实践参考。 HTMX extends HTML to allow for AJAX, CSS transitions, and WebSockets directly in markup, aiming to simplify development by keeping logic primarily on the server. The transition highlights that while HTMX is excellent for many standard web interactions, it may present performance challenges or require workarounds for highly dynamic, scroll-state-sensitive user interfaces compared to React's component model.
 
 hackernews · Ralfp · Jul 27, 09:58 · [Discussion](https://news.ycombinator.com/item?id=49067301)
 
-**Background**: HTMX is a lightweight library that extends HTML with attributes to build modern user interfaces using server-rendered HTML fragments, following the Hypermedia As The Engine of Application State (HATEOAS) model. It contrasts with React, a JavaScript library for building interactive user interfaces with a component-based architecture and client-side rendering via a virtual DOM.
+**Background**: React.js is a popular JavaScript library for building interactive user interfaces using a component-based model, where much of the logic runs in the browser. HTMX is a different approach; it is a lightweight library that enhances HTML with attributes to access modern browser features like AJAX directly, promoting a server-side rendering philosophy where the server returns HTML fragments. This shift represents a move away from the Single-Page Application (SPA) architecture that React often enables.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Htmx">htmx - Wikipedia</a></li>
-<li><a href="https://dev.to/pockit_tools/htmx-in-2026-when-you-dont-need-react-and-when-you-absolutely-do-2mf4">htmx in 2026: When You Don't Need React (And When You Absolutely Do) - DEV Community</a></li>
-<li><a href="https://www.softwareseni.com/from-react-to-htmx-migration-strategy-and-risk-assessment/">From React to HTMX—Migration Strategy and Risk Assessment - SoftwareSeni</a></li>
+<li><a href="https://htmx.org/docs/">htmx ~ Documentation</a></li>
+<li><a href="https://strapi.io/blog/htmx-vs-react-comparing-both-libraries">HTMX Vs. React: Comparing Both Libraries</a></li>
+<li><a href="https://www.builder.io/blog/htmx-vs-react">HTMX vs React: A First Look and Comparison</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community discussion highlighted HTMX's strengths for content-driven sites like forums, where partial updates suffice, but also noted limitations for highly dynamic, rich interactions (e.g., filterable lists, scrollable components) where React's DOM reconciliation is superior. Some users reported performance issues with large HTML responses and scroll position resets.
+**Discussion**: Community discussion is largely positive, with developers praising HTMX as a great fit for server-rendered applications like forums and praising its simplicity for typical web apps. However, some raise practical concerns, noting performance issues with complex, combined HTML responses and pointing out limitations for rich interactivity, such as DOM updates that reset scroll positions, where React remains better designed.
 
-**Tags**: `#web-development`, `#htmx`, `#react`, `#frontend-architecture`, `#case-study`
+**Tags**: `#web development`, `#frontend`, `#htmx`, `#react`, `#architecture`
 
 ---
 
 <a id="item-5"></a>
-## [Modern Email System Proposed Using Borrowed Parts](https://en.andros.dev/blog/d7ed8b07/modern-email-can-be-built-from-borrowed-parts/) ⭐️ 7.0/10
+## [Progress Report on Bun's Rust Rewrite](https://lockwood.dev/ai/2026/07/27/how-is-the-bun-rewrite-in-rust-going.html) ⭐️ 7.0/10
 
-A blog post proposes a modern email architecture built from existing components like HTTP and JSON, aiming to address spam and enhance security while maintaining backward compatibility with SMTP. This proposal is significant as it tackles long-standing email infrastructure problems like spam and security with a novel, systems-level design, potentially influencing future communication protocols and impacting the entire email ecosystem. The design includes features like first-contact consent where unknown senders land in a "requests" box, and it emphasizes using JSON for structured data, though concerns were raised about memory efficiency with large JSON documents.
+The Rust rewrite of the Bun JavaScript runtime is progressing well, with compatibility tests nearing the target number of passing Node.js tests. The team, led by core maintainer Jarred Sumner, is managing the transition's impact on development speed and aims to release version 1.4 once the test targets are met. This rewrite is a major technical shift for a popular Node.js alternative, potentially affecting its performance, stability, and ecosystem compatibility. Successful completion could influence how other open-source projects approach large-scale language migrations, especially those aided by AI tools. The rewrite was largely completed in 11 days using Anthropic's Claude Code tool at a reported cost of $165,000 in API calls. The release of Bun v1.4 is delayed until the team meets its promised number of newly passing Node.js compatibility tests.
 
-hackernews · andros · Jul 27, 08:27 · [Discussion](https://news.ycombinator.com/item?id=49066639)
+hackernews · tomlockwood · Jul 27, 11:12 · [Discussion](https://news.ycombinator.com/item?id=49067854)
 
-**Background**: Email has relied on the Simple Mail Transfer Protocol (SMTP) for decades, but it faces persistent issues with spam and security. Modern improvements like MTA-STS use HTTPS/TLS to enhance transit encryption, showing a trend of integrating web technologies with email. JSON is a lightweight, human-readable data format widely used in web APIs for its simplicity and platform independence.
+**Background**: Bun is a fast, all-in-one JavaScript runtime, package manager, and test runner designed as a drop-in replacement for Node.js, using Safari's JavaScriptCore engine. The team initiated a rewrite from its original Zig language to Rust to potentially improve maintainability, safety, and ecosystem integration, a process documented in a recent blog post.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.vpnunlimited.com/help/solutions/secure-alternative-to-smtp-mail">What is Secure Alternative to SMTP Mail Protocol - VPN Unlimited</a></li>
-<li><a href="https://www.netio-products.com/en/glossary/json-over-https">JSON (JavaScript Object Notation): united data format for exchanging...</a></li>
-<li><a href="https://www.geeksforgeeks.org/computer-networks/email-protocols/">Email Protocols - GeeksforGeeks</a></li>
+<li><a href="https://bun.com/blog/bun-in-rust">Rewriting Bun in Rust | Bun Blog</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Bun_(software)">Bun (software) - Wikipedia</a></li>
+<li><a href="https://lockwood.dev/ai/2026/07/27/how-is-the-bun-rewrite-in-rust-going.html">How is the Bun Rewrite in Rust Going? | Tom Lockwood - Developer</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters highlighted the immense challenge of overcoming email's network effects and stressed the need for a migration path and backward compatibility. Some praised the first-contact consent feature for spam prevention, while others raised technical concerns about memory usage with JSON and suggested the system could potentially extend to direct messaging.
+**Discussion**: Community discussion highlights concerns about the impact of the major rewrite on development speed and the maturity of the new Rust codebase. Commentators also debate the role of LLMs in such large-scale refactoring and point to an alternative project that is modernizing the original Zig codebase, questioning the necessity of the rewrite.
 
-**Tags**: `#email`, `#protocol-design`, `#spam`, `#systems-design`, `#SMTP`
+**Tags**: `#Bun`, `#Rust`, `#JavaScript Runtime`, `#Open Source Development`, `#LLM in Programming`
 
 ---
 
 <a id="item-6"></a>
-## [PGSimCity: An Interactive Map of PostgreSQL Internals](https://nikolays.github.io/PGSimCity/) ⭐️ 7.0/10
+## [VLC for Unity Now Supports Linux with Hardware Decoding](https://code.videolan.org/videolan/vlc-unity) ⭐️ 7.0/10
 
-PGSimCity is a new open-source, interactive visualization project that aims to demystify PostgreSQL's internal architecture and scheduling processes through a dynamic, map-like graphical interface. The project was created in under 48 hours and is presented as a novel way to explore the database engine's inner workings. This project makes complex database internals more accessible and engaging for learning, potentially helping developers and administrators understand system behavior better than static diagrams. Its open-source nature allows the concept to be adapted for visualizing other complex systems like cloud infrastructure or Kubernetes. The visualization appears to be automatically generated or 'vibe-coded' in a very short time, which has led to community concerns about its technical accuracy and potential to teach 'anti-knowledge'. Its current interface is described as information-dense and passive, with users requesting more interactivity and a guided tour that is less overwhelming.
+The VLC for Unity library, which enables video playback in the Unity game engine, has officially added support for the Linux platform. This update includes full hardware-accelerated video decoding via OpenGL and efficient DMA-BUF texture sharing to pass frames to Unity. This update provides game developers using Unity on Linux with a high-performance, cross-platform solution for integrating complex video playback, which is crucial for cutscenes, tutorials, or in-game media. It strengthens the open-source toolchain for game development on Linux, offering an alternative to proprietary or platform-specific video integration methods. The implementation uses OpenGL rendering through GLX and EGL on Linux and requires LibVLC 4 libraries. Currently, only the x86_64 architecture is supported, with future plans for ARM64 and Vulkan API support.
 
-hackernews · jonbaer · Jul 27, 00:19 · [Discussion](https://news.ycombinator.com/item?id=49063754)
+hackernews · martz · Jul 27, 09:06 · [Discussion](https://news.ycombinator.com/item?id=49066928)
 
-**Background**: PostgreSQL is a popular open-source relational database with a sophisticated internal architecture involving multiple processes for handling queries, managing memory, and scheduling tasks. Traditionally, understanding these internals required studying complex static architecture diagrams and documentation. Educational database visualization tools typically focus on schema design, not the dynamic runtime execution flow.
+**Background**: VLC for Unity is a plugin that integrates the powerful LibVLC media playback engine into the Unity 3D game engine, allowing developers to play a wide variety of video formats and streams. Hardware decoding uses the GPU to process video, significantly reducing CPU load and improving performance, which is essential for maintaining high frame rates in games. DMA-BUF is a Linux kernel mechanism for efficiently sharing memory buffers between different software components, in this case between the VLC decoder and Unity's renderer, minimizing latency.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.linkedin.com/pulse/postgresql-internal-architecture-comprehensive-memory-roohbakhsh-d5yuf">PostgreSQL Internal Architecture : A Comprehensive Overview of...</a></li>
-<li><a href="https://github.com/citusdata/pg_cron">GitHub - citusdata/pg_cron: Run periodic jobs in PostgreSQL · GitHub</a></li>
-<li><a href="https://dbdiagram.io/">dbdiagram.io - Database Relationship Diagrams Design Tool</a></li>
+<li><a href="https://vlc-player.github.io/developers/unity.html">VLC for Unity - VideoLAN</a></li>
+<li><a href="https://github.com/videolan/vlc-unity">GitHub - videolan/ vlc - unity : LibVLC plugin for Unity to integrate...</a></li>
+<li><a href="https://blaztinn.gitlab.io/post/dmabuf-texture-sharing/">Inter-Process Texture Sharing with DMA - BUF - Blaztinn's Blog</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community feedback is largely positive about the ambitious concept, praising the novel approach to explaining database internals, but many users find the current implementation confusing, cluttered, and lacking interactivity. There is a key concern from some commenters about the tool's accuracy, given its rapid 'vibe-coded' development, and whether it might lead to misunderstandings.
+**Discussion**: The community discussion provided useful context, with users clarifying that the news refers to the Unity game engine and not the Unity desktop environment. A developer from the project also shared future plans for ARM64 and Vulkan support, while another comment mentioned a similar project for the Godot engine, referencing past Unity licensing controversies.
 
-**Tags**: `#database-visualization`, `#postgresql`, `#interactive-learning`, `#computer-architecture`, `#educational-tool`
+**Tags**: `#GameDevelopment`, `#Linux`, `#VideoDecoding`, `#Unity`, `#OpenGL`
 
 ---
 
 <a id="item-7"></a>
-## [Inside China's LLM Token Resale and Fraud Market](https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything) ⭐️ 7.0/10
+## [Survey Addresses 3DGS Memory Overconsumption Problem](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907517&idx=3&sn=47197285f42f0199832d9f5b6612b961) ⭐️ 7.0/10
 
-An investigation has exposed a marketplace, primarily in China, for reselling LLM API tokens at a discount by pooling API keys obtained through fraud, such as stolen credit cards or abused free trials. The ecosystem relies on open-source proxy software like one-api and new-api to facilitate the resale of discounted access. This reveals a significant and organized abuse pattern in the AI ecosystem, creating financial losses for providers and undermining the economics of LLM services. It also highlights security vulnerabilities in API key management and the risks of open-source tools being misused for fraudulent activities. The resale market exploits unprotected LLM endpoints, free trials, and stolen payment methods, using open-source proxy software (one-api and new-api) to load-balance requests across a pool of API credentials. Buyers seek cheap tokens, bypass geo-restrictions, and sometimes collect data for model distillation.
+A technical survey has been published that analyzes the high memory consumption problem in 3D Gaussian Splatting (3DGS), where a single scene can use 700MB of VRAM, and outlines five future research directions focusing on the co-evolution of rasterization algorithms, memory management, and hardware. This survey is significant because it tackles a major bottleneck limiting the practical deployment of 3DGS, a leading technique for real-time novel view synthesis in computer graphics and vision. By systematically mapping out solutions, it provides a roadmap for researchers and engineers to make 3DGS more efficient and accessible on consumer devices. The survey highlights that the high memory footprint of 3DGS is a critical barrier, and it proposes a framework for improvement by coordinating advancements in rasterization, memory strategies, and hardware support, rather than optimizing any single component in isolation.
 
-rss · Simon Willison · Jul 26, 19:30
+rss · 量子位 · Jul 27, 03:31
 
-**Background**: LLM API providers like OpenAI sell access to their models on a pay-per-token basis. Proxy software such as one-api and new-api are legitimate open-source tools designed to help developers manage and route API requests, but they can be repurposed to pool and distribute API keys. This creates a 'relay market' where resellers can offer discounted access, often sourced illicitly, to buyers who want to avoid official pricing or regional blocks.
+**Background**: 3D Gaussian Splatting (3DGS) is a modern volume rendering technique that represents scenes using millions of anisotropic Gaussian primitives, enabling real-time rendering with photorealistic quality. Rasterization is the core computational process that projects these 3D primitives onto a 2D screen. GPU memory optimization is a crucial practice in high-performance computing and deep learning to manage the limited video memory available on graphics cards, which is essential for handling large-scale 3DGS models.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://wpnews.pro/news/china-relay-market-resells-llm-tokens-at-steep-discounts-via-api-abuse">China relay market resells LLM tokens at steep discounts via API...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gaussian_splatting">Gaussian splatting - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Rasterization_algorithm">Rasterization algorithm</a></li>
+<li><a href="https://www.griddly.ai/learn/for-developers/gpu-memory-optimization">GPU Memory Optimization : Complete Guide for AI Training | Griddly</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The original discussion is on a Chinese-language forum (V2EX). The provided content indicates this is the principal source for the investigation, but no specific comments or sentiment are detailed in the English summary for analysis.
-
-**Tags**: `#AI Security`, `#API Abuse`, `#LLM Economics`, `#Open Source Misuse`, `#Fraud Detection`
+**Tags**: `#3D Gaussian Splatting`, `#3DGS`, `#Memory Optimization`, `#Computer Graphics`, `#Technical Survey`
 
 ---
 
 <a id="item-8"></a>
-## [Survey: Five Directions to Solve 3DGS Storage Anxiety](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907517&idx=3&sn=47197285f42f0199832d9f5b6612b961) ⭐️ 7.0/10
+## [Scratch-Built Transformer for English-to-Tamil Translation in PyTorch](https://www.reddit.com/r/MachineLearning/comments/1v86qo9/built_trained_a_transformer_from_scratch_in_pure/) ⭐️ 7.0/10
 
-This article surveys five research directions aimed at solving the high memory consumption problem in 3D Gaussian Splatting, where a single scene can use up to 700MB of VRAM. It provides a structured overview of potential solutions to this critical technical bottleneck. This survey addresses a major limitation hindering the widespread adoption of 3D Gaussian Splatting for real-time applications. By categorizing optimization strategies, it provides a roadmap for researchers and developers to make the technique more efficient and practical. The core issue is the significant GPU VRAM (显存) required to store the 3D Gaussian data, which limits scalability and deployment on consumer hardware. The article likely evaluates trade-offs between rendering quality, speed, and memory footprint across different optimization methods.
+A developer created a complete, from-scratch Transformer model for English-to-Tamil machine translation using pure PyTorch, along with a detailed mathematical tutorial and code repository. The model was trained on a parallel dataset from Hugging Face using dual NVIDIA T4 GPUs on Kaggle. This project provides an accessible, educational resource for learning the Transformer architecture from first principles, which is foundational to modern AI. By applying it to a less-common language pair like English-Tamil, it also demonstrates practical model building and contributes to digital representation for the Tamil-speaking population. The implementation is built solely on PyTorch's `torch.nn` primitives, adhering to the original 'Attention Is All You Need' paper, and the tutorial breaks down every equation and tensor shape. The training used the `gopi30/english-tamil` dataset from Hugging Face.
 
-rss · 量子位 · Jul 27, 03:31
+reddit · r/MachineLearning · /u/imrancoder · Jul 27, 17:17
 
-**Background**: 3D Gaussian Splatting (3DGS) is a cutting-edge volume rendering technique that uses millions of 3D Gaussians to represent scenes, enabling real-time, photorealistic rendering. A known drawback is its high memory usage, as each Gaussian is stored with multiple attributes, leading to large file sizes and high VRAM consumption, which the survey aims to address.
+**Background**: The Transformer is a neural network architecture that relies on self-attention mechanisms, replacing recurrent layers, and has become the foundation for models like BERT and GPT. Building one from scratch involves implementing components like multi-head attention, positional encoding, and the encoder-decoder structure. English-to-Tamil translation is valuable as Tamil is spoken by approximately 80 million people globally.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arxiv.org/pdf/2401.03890">A Survey on 3 D Gaussian Splatting</a></li>
-<li><a href="https://github.com/aras-p/UnityGaussianSplatting">GitHub - aras-p/UnityGaussianSplatting: Toy Gaussian Splatting...</a></li>
+<li><a href="https://huggingface.co/datasets/gopi30/english-tamil">gopi30/english-tamil · Datasets at Hugging Face</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Transformer_(deep_learning)">Transformer (deep learning) - Wikipedia</a></li>
+<li><a href="https://docs.pytorch.org/tutorials/beginner/basics/buildmodel_tutorial.html">Build the Neural Network — PyTorch Tutorials 2.13.0+cu130 ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#3D Gaussian Splatting`, `#Computer Graphics`, `#Memory Optimization`, `#AI/ML Systems`, `#Technical Survey`
+**Discussion**: No community comments were provided with the news item.
+
+**Tags**: `#transformer`, `#machine translation`, `#tutorial`, `#PyTorch`, `#educational`
 
 ---
 
 <a id="item-9"></a>
-## [Microsoft Introduces MAI-Cyber-1 AI Model for Cybersecurity](https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/) ⭐️ 6.0/10
+## [Proposal for a Deterministic Go/No-Go Gate for ML Training Data](https://www.reddit.com/r/MachineLearning/comments/1v8a3nu/training_data_needs_a_real_gonogo_gate_before/) ⭐️ 7.0/10
 
-Microsoft has announced MAI-Cyber-1, a new AI model specifically trained on trillions of security signals to enhance threat detection and response capabilities. This represents a significant step in applying AI to solve complex cybersecurity challenges, potentially offering more effective and cost-efficient defense for enterprises against evolving threats. The model is claimed to be more powerful and cost-effective than competitors on established benchmarks and will be integrated into a new agentic cybersecurity system called Project Perception.
+A Reddit post proposes implementing a formal, deterministic 'go/no-go' control layer to audit training data artifacts before model training begins. This system would provide reproducible PASS, WARNING, or FAIL verdicts based on explicit, auditable checks for issues like data leakage and provenance. This proposal addresses a critical weak point in machine learning operations by formalizing a missing validation layer between data preparation and training. Implementing such a gate could significantly improve model reproducibility, data quality, and pipeline integrity by shifting from fragmented, human-judgment-based decisions to auditable, evidence-based controls. The proposed gate is designed to be a local, deterministic system where the same data artifact, objective, and configuration always yield the same verdict, explicitly excluding LLM non-determinism. It would generate evidence-based reports and could optionally create repair plans for derived data copies while preserving originals, with all actions tied to manifests and checksums.
 
-hackernews · migmartri · Jul 27, 16:52 · [Discussion](https://news.ycombinator.com/item?id=49072361)
+reddit · r/MachineLearning · /u/jesusmjk · Jul 27, 19:13
 
-**Background**: Cybersecurity AI models are designed to analyze vast datasets to identify patterns indicative of cyberattacks. Microsoft leverages its unique position as a major software and cloud provider to access an enormous volume of security telemetry, which is a key advantage for training such models. These AI tools aim to automate and improve the speed and accuracy of identifying and mitigating security breaches.
+**Background**: In machine learning pipelines, data validation before training often relies on ad-hoc scripts, dashboards, and human judgment, making it a fragile step. The concepts of data provenance (tracking the origin and history of data) and deterministic validation (producing consistent, repeatable results) are emerging as key priorities for improving reproducibility and governance in MLOps. Research like TrainProVe is also focusing on verifying training data provenance to ensure model integrity.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/">Microsoft launches its first cybersecurity model , plus... | TechCrunch</a></li>
-<li><a href="https://www.nytimes.com/2026/07/27/technology/microsoft-unveils-ai-cybersecurity-tools.html">Microsoft Unveils A . I . Cybersecurity Tools - The New York Times</a></li>
+<li><a href="https://arxiv.org/abs/2503.09122">[2503.09122] Training Data Provenance Verification: Did Your Model Use Synthetic Data from My Generative Model for Training?</a></li>
+<li><a href="https://arxiv.org/html/2502.00808v1">Synthetic Artifact Auditing: Tracing LLM-Generated Synthetic ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The discussion reflects skepticism about the model's practical accessibility and a humorous critique of its naming convention. A key viewpoint questions whether the model's training data makes it primarily effective for Microsoft's own products, highlighting a potential limitation in its applicability.
+**Discussion**: The Reddit discussion has generated substantial community interest with over 80 comments, indicating the proposal resonates with practitioners. Key concerns likely revolve around the practicality of defining universal checks for contextual data quality and the risk of creating false confidence if the system lacks transparency.
 
-**Tags**: `#AI in cybersecurity`, `#Microsoft`, `#machine learning`, `#security research`, `#enterprise AI`
+**Tags**: `#MLOps`, `#Data Governance`, `#Reproducibility`, `#Machine Learning Pipelines`, `#Data Validation`
 
 ---
 
 <a id="item-10"></a>
-## [Libsm64: Super Mario 64 as a Library for External Engines](https://github.com/libsm64/libsm64) ⭐️ 6.0/10
+## [Microsoft Launches Cybersecurity AI Model Inside MDASH Platform](https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/) ⭐️ 6.0/10
 
-Libsm64 is an open-source library that extracts the core engine from Super Mario 64, allowing its movement and rendering code to be integrated into external game engines like Unity or Godot. The project enables developers to run Mario 64 gameplay logic within their own projects on different platforms. This project demonstrates the potential for cross-engine interoperability and creative game modding by modularizing a classic game engine into a reusable component. It sparks discussions on game preservation, reverse-engineering ethics, and the practical realization of interoperable digital worlds without relying on hype. The library provides C bindings and has community-developed wrappers for other languages like C# (for Unity). Its integration is demonstrated in projects like placing Mario in Half-Life 2, though it requires technical know-how and is primarily a novelty for developers rather than a mainstream tool.
+Microsoft has announced MAI-Cyber-1-Flash, a new cybersecurity AI model, which is integrated into its MDASH (Microsoft Security multi-model agentic scanning harness) platform. This model is designed for automated vulnerability identification and remediation, leveraging trillions of daily security signals. This development could significantly lower the cost and improve the efficiency of enterprise cybersecurity defenses by providing an AI-powered system that learns from Microsoft's vast historical security data. It represents a major move in the arms race between AI-driven cyber threats and AI-powered security solutions. Microsoft claims MAI-Cyber-1-Flash achieves a 96% score on the CyberGym benchmark and offers a 50% cost reduction compared to leading competitor models. The model is part of MDASH, which is described as a multi-agent harness for large-scale vulnerability scanning.
 
-hackernews · klaussilveira · Jul 27, 10:04 · [Discussion](https://news.ycombinator.com/item?id=49067352)
+hackernews · migmartri · Jul 27, 16:52 · [Discussion](https://news.ycombinator.com/item?id=49072361)
 
-**Background**: Super Mario 64 is a seminal 1996 3D platform game for the Nintendo 64, whose engine source code has been extensively reverse-engineered by the community. Libraries like libsm64 package this reverse-engineered code into a form that can be embedded into other software, akin to using a game's physics or rendering engine as a standalone toolkit.
+**Background**: MDASH is Microsoft's multi-model agentic security platform designed to automate the discovery of software vulnerabilities at scale by using multiple AI models in a coordinated system. AI models for cybersecurity are trained to detect malicious patterns, predict threats, and automate responses to attacks, using data from various sources like network logs, user identities, and cloud infrastructure.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://numfer.com/libsm64/libsm64">libsm 64 : Mario 64 library for game engines</a></li>
-<li><a href="https://kandi.openweaver.com/csharp/libsm64/libsm64-unity-dev">libsm 64 -unity-dev | Empty Unity project | Game Engine library</a></li>
+<li><a href="https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/">Introducing MAI-Cyber-1-Flash inside MDASH | Microsoft AI</a></li>
+<li><a href="https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/">Microsoft launches its first cybersecurity model, plus a new ...</a></li>
+<li><a href="https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/">Defense at AI speed: Microsoft ’s new... | Microsoft Security Blog</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community expresses strong enthusiasm and curiosity, with users sharing demos of Mario in other games and comparing it to 'metaverse' ideals of interoperability without the associated hype. There is interest in its ease of use for non-engineers and existing projects leveraging the library.
+**Discussion**: Community comments express a mix of skepticism and technical debate. Some users question the practical accessibility and past execution by Microsoft, while others discuss the fundamental defensive challenges in cybersecurity, such as the asymmetry between attackers and defenders.
 
-**Tags**: `#gamedev`, `#open-source`, `#reverse-engineering`, `#library`, `#mario64`
+**Tags**: `#cybersecurity`, `#AI models`, `#Microsoft`, `#enterprise security`, `#threat detection`
 
 ---
 
 <a id="item-11"></a>
-## [VLC for Unity Plugin Adds Linux Support](https://code.videolan.org/videolan/vlc-unity) ⭐️ 6.0/10
+## [Paged Out #9: A Modern Hacker Zine Launches](https://pagedout.institute/download/PagedOut_009.pdf) ⭐️ 6.0/10
 
-The VLC for Unity plugin now officially supports Linux, featuring full hardware decoding and efficient OpenGL rendering through GLX/EGL with DMA-BUF texture sharing. The current release is limited to x86_64 architecture. 此次更新扩展了该插件的用途，使开发者能够在运行于 Linux 的 Unity 游戏和应用中无缝集成高性能、跨平台的视频播放功能。它填补了针对 Linux 发行版开发的开发者所面临的一个关键平台空白。 The implementation uses OpenGL rendering via GLX and EGL, and employs DMA-BUF texture sharing for efficient frame transfer to Unity's renderer. The developer has stated that ARM64 and Vulkan support are planned for the future.
+The ninth issue of the technical zine 'Paged Out' has been released as a free PDF download. It features in-depth articles on topics like C programming, subpixel rendering, and computable tilings. This publication serves as a valuable resource for the hacker and low-level systems programming community, preserving and continuing the tradition of deeply technical, culturally relevant zines like Phrack and 2600. The zine is praised for its beautiful design and specific engaging articles, such as 'Baby Steps in C' and 'The Subpixel Zoo', while the 'Computiles' article is noted as a rediscovery of work from the 1960s.
 
-hackernews · martz · Jul 27, 09:06 · [Discussion](https://news.ycombinator.com/item?id=49066928)
+hackernews · laurensr · Jul 27, 14:22 · [Discussion](https://news.ycombinator.com/item?id=49070138)
 
-**Background**: VLC for Unity is a native plugin that bridges the LibVLCSharp library with Unity, enabling developers to use the powerful LibVLC video engine for playback within Unity 3D projects. It is designed for performance-oriented video rendering and supports various graphics APIs. OpenGL is a widely used cross-platform graphics API, and hardware decoding offloads video processing from the CPU to specialized hardware for better performance.
+**Background**: Paged Out is a digital zine for systems and hacker culture enthusiasts, comparable to modern-day Phrack or 2600. Subpixel rendering is a technique to increase display resolution for text by using individual red, green, and blue subpixels. Computable tilings involve using mathematical tiles to model computational processes, famously linking the halting problem to the 'domino problem' of tiling a plane.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/videolan/vlc-unity">GitHub - videolan/ vlc - unity : LibVLC plugin for Unity to integrate...</a></li>
-<li><a href="https://vlc-player.github.io/developers/unity.html">VLC for Unity - VideoLAN</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Subpixel_rendering">Subpixel rendering</a></li>
+<li><a href="https://dl.ifip.org/db/conf/ifipTCS/ifipTCS2008/LafitteW08.pdf">Computability of Tilings .</a></li>
 
 </ul>
 </details>
 
-**Discussion**: A community member clarified that the news pertains to the Unity game engine, not the Linux desktop environment. Another user questioned the use case for VLC within Unity, suggesting cutscene playback. A developer also shared an unrelated anecdote about slow video file opening times on Windows.
+**Discussion**: Commenters highlight their enjoyment of specific articles like 'Baby Steps in C' and 'The Subpixel Zoo', drawing comparisons to classic publications like Phrack and 2600 and noting the zine's beautiful design and technical depth.
 
-**Tags**: `#Unity`, `#VLC`, `#Game Development`, `#Linux`, `#OpenGL`
+**Tags**: `#Technical Zine`, `#Systems Programming`, `#Hacker Culture`, `#Retro Computing`, `#Low-Level Systems`
 
 ---
 
 <a id="item-12"></a>
-## [AI Firms Spend Record on U.S. Federal Lobbying](https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db) ⭐️ 6.0/10
+## [libsm64: Super Mario 64 Code Extracted as a Reusable C Library](https://github.com/libsm64/libsm64) ⭐️ 6.0/10
 
-In the first half of 2026, major AI companies OpenAI and Anthropic significantly increased their federal lobbying expenditures, with OpenAI nearly doubling its spending to a record $2.22 million and Anthropic nearly tripling its to $3.53 million according to U.S. federal disclosures. This record spending reflects the growing political influence of the AI sector as it seeks to shape emerging U.S. policy and regulation, which could directly impact the future development and deployment of AI technologies. The disclosed spending amounts, while record-high for these AI firms, are still minuscule compared to lobbying expenditures from other major sectors, such as the U.S. Chamber of Commerce spending $600 million per year.
+The open-source project libsm64 has successfully reverse-engineered and extracted the core gameplay logic of Super Mario 64 into a standalone, portable C library. This allows developers to run the original Mario 64 engine directly within external, modern game engines. This project demonstrates a high level of reverse engineering skill and provides a practical, novel way to achieve cross-engine interoperability for a classic game. It serves as an inspirational proof-of-concept for modders and developers interested in retro game integration and engine-agnostic gameplay mechanics. The library requires the original game's assets (textures, models, etc.) to function, as it only extracts the executable code, not the copyrighted content. The project is technically interesting but is primarily a niche curiosity rather than a tool with widespread mainstream application.
 
-hackernews · 1vuio0pswjnm7 · Jul 27, 14:07 · [Discussion](https://news.ycombinator.com/item?id=49069939)
+hackernews · klaussilveira · Jul 27, 10:04 · [Discussion](https://news.ycombinator.com/item?id=49067352)
 
-**Background**: Federal lobbying in the U.S. is a paid activity where groups hire advocates to influence legislation and decision-making in Congress and federal agencies. AI companies are increasing this engagement as they argue for regulations that foster innovation while addressing safety concerns, a process sometimes critiqued as potential 'regulatory capture' to disadvantage competitors.
+**Background**: Super Mario 64 was a landmark 1996 game for the Nintendo 64 console. Reverse engineering involves decompiling compiled software to understand its original source code and functionality. Creating a C library from this process packages the game's logic into a reusable format that other programs can link to and control, separate from the original game's shell.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Lobbying_in_the_United_States">Lobbying in the United States - Wikipedia</a></li>
-<li><a href="https://www.opensecrets.org/federal-lobbying">Federal Lobbying</a></li>
+<li><a href="https://deepwiki.com/libsm64/libsm64">libsm 64 / libsm 64 | DeepWiki</a></li>
+<li><a href="https://www.igdb.com/game_engines/libsm64">All games that use libsm 64</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Reverse_engineering">Reverse engineering - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion highlights a contrast in perceptions, with one commenter noting the lobbying costs are surprisingly low compared to other industries, while others distinguish between lobbying and outright bribery or advocacy. A practical call to action suggests technical experts engage politically through fellowship programs like TechCongress.
+**Discussion**: The community expresses amusement and admiration for the project's creativity, drawing parallels to sci-fi concepts like the 'metaverse' and 'Ready Player One' but without the hype. Commenters are curious about its ease of use for non-engineers and have shared examples of it being used in other games like Half-Life 2 and Teeworlds/DDNet.
 
-**Tags**: `#AI policy`, `#lobbying`, `#tech regulation`, `#OpenAI`, `#Anthropic`
+**Tags**: `#game-development`, `#reverse-engineering`, `#open-source`, `#graphics-engineering`, `#retro-gaming`
 
 ---
 
 <a id="item-13"></a>
-## [From-Scratch Transformer Tutorial for English-Tamil Translation](https://www.reddit.com/r/MachineLearning/comments/1v86qo9/built_trained_a_transformer_from_scratch_in_pure/) ⭐️ 6.0/10
+## [Proposal to Modernize Email Using Existing Components](https://en.andros.dev/blog/d7ed8b07/modern-email-can-be-built-from-borrowed-parts/) ⭐️ 6.0/10
 
-A developer built and trained a complete Transformer model from scratch using pure PyTorch primitives for English-to-Tamil machine translation, based on the original "Attention Is All You Need" paper. The project includes a detailed mathematical breakdown and step-by-step tutorial with full code, trained on a Hugging Face dataset using dual NVIDIA T4 GPUs. This project serves as a valuable educational resource for developers and students seeking to understand the core mechanics of the Transformer architecture through a practical, from-scratch implementation. It makes a complex and influential model architecture more accessible to the community by providing both code and a mathematical tutorial. The model was implemented using `torch.nn` primitives and trained on the `gopi30/english-tamil` dataset from Hugging Face. The project explicitly provides a GitHub repository and a blog post for the full tutorial, focusing on explaining every equation and tensor shape transformation.
+A blog post proposes building a modernized email system by recombining existing technologies like DMARC, MTA-STS, and Web Key Directory to address persistent problems such as spam and poor usability. The proposal advocates for first-contact consent and other incremental improvements rather than a complete protocol overhaul. This proposal is significant because it offers a pragmatic, incremental path to improving a legacy communication system that is deeply embedded in the internet's infrastructure. If adopted, it could help mitigate the spam crisis and enhance user control without requiring a disruptive, wholesale replacement of email. The core idea is to integrate features like 'first-contact consent' (where unknown senders must be pre-approved) and enhanced authentication protocols into a system that remains backward-compatible with the existing email ecosystem. The proposal emphasizes that network effects make a complete replacement unlikely, so leveraging and combining proven standards is a more viable strategy.
 
-reddit · r/MachineLearning · /u/imrancoder · Jul 27, 17:17
+hackernews · andros · Jul 27, 08:27 · [Discussion](https://news.ycombinator.com/item?id=49066639)
 
-**Background**: The Transformer is a neural network architecture introduced in the 2017 paper "Attention Is All You Need" that revolutionized natural language processing by relying solely on attention mechanisms. It has since become the foundation for most large language models like GPT. Building one "from scratch" means implementing all core components—such as multi-head self-attention and positional encodings—without relying on high-level pre-built model libraries.
+**Background**: Email is a foundational internet protocol whose core standards, like SMTP, were designed decades ago and lack built-in security and anti-spam features. Modern anti-spam efforts rely on a layered ecosystem of standards including SPF, DKIM, and DMARC for authentication, but the problem persists because techniques often involve trade-offs between blocking spam and accidentally filtering legitimate mail. The proposal draws on this existing technical landscape, which includes recent enhancements like MTA-STS for secure transport and Web Key Directory for identity verification.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/1706.03762">Abstract page for arXiv paper 1706.03762: Attention Is All You Need</a></li>
-<li><a href="https://www.kaggle.com/code/arunmohan003/transformer-from-scratch-using-pytorch">Transformer from scratch using pytorch | Kaggle</a></li>
+<li><a href="https://www.geeksforgeeks.org/computer-networks/email-protocols/">Email Protocols - GeeksforGeeks</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Anti-spam_techniques">Anti-spam techniques - Wikipedia</a></li>
+<li><a href="https://mailtrap.io/blog/email-infrastructure/">Email Infrastructure Explained [2026]</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The Reddit post received moderate engagement with a score of 6.0/10, featuring comments that are typical for educational project shares. The discussion is likely supportive and inquisitive, with users asking questions about specific implementation details or offering suggestions, rather than engaging in deep technical debate about the approach itself.
+**Discussion**: The Hacker News discussion features heated debate, with some users suggesting more radical solutions like making sending email non-free or exponentially more expensive based on volume. Others caution against ignoring email's long history of failed 'ultimate solutions' to spam, while emphasizing the critical importance of backward compatibility and network effects for any viable proposal to gain adoption.
 
-**Tags**: `#machine-translation`, `#transformers`, `#educational`, `#pytorch`, `#nlp`
+**Tags**: `#email`, `#systems-design`, `#protocol-design`, `#spam`, `#infrastructure`
 
 ---
 
 <a id="item-14"></a>
-## [Proposal for Pre-Training Data Validation Gate System](https://www.reddit.com/r/MachineLearning/comments/1v8a3nu/training_data_needs_a_real_gonogo_gate_before/) ⭐️ 6.0/10
+## [Open-Source Edge ML Platform for MCU Deployment Released](https://www.reddit.com/r/MachineLearning/comments/1v7nudc/recent_project_i_worked_on_end_to_end_edge_ml/) ⭐️ 6.0/10
 
-A conceptual proposal is presented for a deterministic, evidence-based validation gate that would audit a training data artifact and provide a reproducible PASS, WARNING, FAIL, or FAIL_SECURITY verdict before model training begins. The system is designed to replace scattered human judgment with explicit, reproducible checks for issues like data leakage, contradictions, and provenance. This addresses a critical gap in machine learning operations (MLOps) by formalizing a missing quality control layer between data preparation and training, which could improve reproducibility and prevent flawed models from being trained. It represents a shift toward more rigorous, automated governance for AI development pipelines, especially as model scale and data complexity increase. The proposed verdict is deterministic, meaning the same artifact and configuration should always produce the same result, and it explicitly excludes an LLM from making the final decision to ensure consistency. A critical design principle is that severe failures must not be masked by decent aggregate scores, and the system could also generate a repair plan while preserving the original artifact.
+A developer has released an open-source, end-to-end platform called SensorForge aimed at simplifying the deployment of machine learning models to microcontrollers (MCUs). The platform features an auto-labeling tool for time-series sensor data and a chatbot for signal analysis to streamline the edge ML development workflow. This tool addresses a significant pain point in the tinyML ecosystem by automating the labor-intensive process of labeling sensor data, which can lower the barrier for developers working on low-power edge AI projects. It provides a unified workflow from data collection to deployment, potentially accelerating the development cycle for IoT and embedded applications. The platform is a personal project seeking community feedback and contributions, and it is intended to remain free and open-source. It currently works "fairly well" but the creator notes that there is room for improvement, and the project does not yet have established adoption or documented technical benchmarks.
 
-reddit · r/MachineLearning · /u/jesusmjk · Jul 27, 19:13
+reddit · r/MachineLearning · /u/No-Bug-4879 · Jul 27, 02:38
 
-**Background**: In machine learning workflows, ensuring the quality and integrity of training data is fundamental but often managed through ad-hoc scripts, dashboards, and manual review. This lack of a formal, automated gate can lead to reproducibility issues and the propagation of data flaws into trained models. Concepts like 'deterministic governance layers' and 'reproducibility audits' are emerging in AI engineering to add transparency and accountability before critical steps like model training.
+**Background**: TinyML is a field focused on running machine learning models on low-power, resource-constrained embedded systems like microcontrollers, enabling on-device inference with minimal cloud dependency. A major hurdle in developing TinyML applications is labeling vast amounts of sensor data for training, which is often a manual and time-consuming task. Tools that automate this labeling and simplify the deployment pipeline are highly valuable for accelerating edge AI development.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://eveaicore.com/blog/deterministic-ai-governance-enforcement-layers">Deterministic AI Governance Enforcement Layers: Why EVE...</a></li>
-<li><a href="https://www.emergentmind.com/topics/reprorepo">ReproRepo: Scalable Reproducibility Audit</a></li>
+<li><a href="https://en.wikipedia.org/wiki/TinyML">TinyML - Wikipedia</a></li>
+<li><a href="https://voxel51.com/blog/the-complete-guide-to-auto-labeling">Complete Guide to Auto Labelling: Foundational Models | Voxel51</a></li>
+<li><a href="https://dfl.sophelio.io/sensor-data-autolabeling-pipeline-onnx-python/">Sensor Data Autolabeling Pipeline: ONNX + Python Guide - dFL</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#MLOps`, `#Data Quality`, `#Machine Learning Engineering`, `#Reproducibility`, `#Pre-training`
+**Discussion**: The provided news item does not include any community comments or discussion content for analysis.
+
+**Tags**: `#edge-ML`, `#tinyML`, `#open-source`, `#auto-labeling`, `#sensor-data`
 
 ---
 
