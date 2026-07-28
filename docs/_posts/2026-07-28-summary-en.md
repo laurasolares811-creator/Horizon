@@ -5,342 +5,372 @@ date: 2026-07-28
 lang: en
 ---
 
-> From 23 items, 14 important content pieces were selected
+> From 30 items, 15 important content pieces were selected
 
 ---
 
-1. [Anthropic Advocates Mandatory AI Safety Testing for Open-Weights Models](#item-1) ⭐️ 8.0/10
-2. [python-build-standalone: Portable Python Distributions](#item-2) ⭐️ 8.0/10
-3. [Critical Vulnerability Found in Volvo/Eicher Fleet Platform](#item-3) ⭐️ 8.0/10
-4. [Judge Rejects Google's DMCA Claim Against Web Scraper SerpAPI](#item-4) ⭐️ 8.0/10
-5. [Moonshot AI Releases 2.8T-Parameter Kimi-K3 Model Weights](#item-5) ⭐️ 8.0/10
-6. [Solo evaluation finds six frontier LLMs lean politically left](#item-6) ⭐️ 8.0/10
-7. [Case Study: Replacing React with HTMX in a Production App](#item-7) ⭐️ 7.0/10
-8. [Paged Out #9: Free Technical Magazine Released](#item-8) ⭐️ 7.0/10
-9. [Libsm64: Super Mario 64 as a Reusable Library](#item-9) ⭐️ 7.0/10
-10. [Simon Willison Analyzes Shift from Chat to Agentic AI](#item-10) ⭐️ 7.0/10
-11. [Survey: Five Solutions for 3D Gaussian Splatting Memory Consumption](#item-11) ⭐️ 7.0/10
-12. [From-Scratch Transformer for English-Tamil Translation with Math Guide](#item-12) ⭐️ 7.0/10
-13. [Blog Post Benchmarks Anthropic's Opus 5 on SlopCodeBench](#item-13) ⭐️ 6.0/10
-14. [Open-Source End-to-End Platform for Edge ML Development](#item-14) ⭐️ 6.0/10
+1. [New HIV Vaccine Shows Unprecedented Preclinical Success](#item-1) ⭐️ 8.0/10
+2. [Kimi Linear: New Efficient Attention Architecture](#item-2) ⭐️ 8.0/10
+3. [Google Proposes 'Beyond Zero' Enterprise Security for AI Era](#item-3) ⭐️ 8.0/10
+4. [Chinese AI Enables Virtual Drug Screening, Published in Cell](#item-4) ⭐️ 8.0/10
+5. [Anthropic Proposes Strict Rules for Open-Weights AI Models](#item-5) ⭐️ 8.0/10
+6. [Upcoming Qwen3.7-flash: Small MoE with 1M Context Window](#item-6) ⭐️ 8.0/10
+7. [A Guide to Understanding Kimi Delta Attention Mechanism](#item-7) ⭐️ 7.0/10
+8. [DMARC Enforcement Gap Persists Despite Decade of Availability](#item-8) ⭐️ 7.0/10
+9. [500美元RL微调使9B开源模型在目录审查中超越前沿模型](#item-9) ⭐️ 7.0/10
+10. [DeepSeek V4 Flash Hits 32 tok/s on AMD Ryzen AI MAX+ 395](#item-10) ⭐️ 7.0/10
+11. [DSpark Speculative Decoding Proposed for llama.cpp](#item-11) ⭐️ 7.0/10
+12. [SWE-rebench Benchmark Expands to Multilingual Software Tasks](#item-12) ⭐️ 7.0/10
+13. [AI Guide Shifts from Chat to Agentic Systems](#item-13) ⭐️ 6.0/10
+14. [OpenAI Declines to Join Nvidia's Open Secure AI Alliance](#item-14) ⭐️ 6.0/10
+15. [EU RTX 5090 Prices Surge 30% Since March 2025](#item-15) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Anthropic Advocates Mandatory AI Safety Testing for Open-Weights Models](https://www.anthropic.com/news/position-open-weights-models) ⭐️ 8.0/10
+## [New HIV Vaccine Shows Unprecedented Preclinical Success](https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/) ⭐️ 8.0/10
 
-Anthropic published a statement outlining its position that all sufficiently capable AI models, including open-weights models, should undergo mandatory safety testing. The company simultaneously defended its stance against community criticism, reiterating it does not advocate for a ban on open-weights models themselves. This statement represents a major AI lab's policy position on a critical debate about open vs. closed AI development, directly impacting the future accessibility and governance of powerful AI technologies. It ignites a high-stakes discussion about balancing safety with innovation and competition in the AI industry. Anthropic's proposal implies a centralized testing authority could act as a gatekeeper, a mechanism critics compare to historically used trade restrictions. The company's position is framed within a broader call for national AI policies, including measures like chip export controls to China, which some find contradictory to its stated principles.
+A new sequential HIV vaccine regimen, designed to train the immune system like a 'curriculum,' demonstrated unprecedented success in preventing infection in a preclinical study on rhesus macaques. The vaccine showed efficacy in 44% of the animals, a significant result in a field where most candidates have failed. This breakthrough offers renewed hope in the decades-long search for an effective HIV vaccine, which remains a critical global health goal despite the existence of treatments like PrEP. If the promising preclinical results translate to humans, it could fundamentally change the approach to preventing HIV transmission worldwide. The vaccine regimen uses a sequential approach, with each shot designed to guide a different stage of B-cell development, acting as an 'immune curriculum.' While the 44% efficacy in rhesus macaques is a major step forward, the study is preclinical and the vaccine is now entering early-phase human trials, where many previous candidates have failed.
 
-hackernews · surprisetalk · Jul 27, 22:03 · [Discussion](https://news.ycombinator.com/item?id=49076057)
+hackernews · codebyaditya · Jul 28, 13:12 · [Discussion](https://news.ycombinator.com/item?id=49083314)
 
-**Background**: Open-weights AI models refer to systems where the trained model parameters (weights) are publicly released, allowing developers to freely integrate and build upon them, distinct from fully closed-source models. AI safety testing, or 'evals,' involves systematic evaluations to identify and measure potential risks or undesirable capabilities in AI systems before deployment.
+**Background**: Developing a vaccine against HIV has been one of the greatest challenges in modern medicine due to the virus's ability to rapidly mutate and evade the immune system. Preclinical studies often use rhesus macaques as a model because their immune systems are similar to humans, making them a critical testing ground for potential vaccines. A sequential or 'curriculum' approach aims to train the immune system in a stepwise manner, rather than relying on a single shot to elicit a broad protective response.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.cnet.com/tech/services-and-software/openais-new-models-arent-really-open-what-to-know-about-open-weights-ai/">OpenAI's New Models Aren't Really Open : What to Know... - CNET</a></li>
-<li><a href="https://cset.georgetown.edu/article/ai-safety-evaluations-an-explainer/">AI Safety Evaluations: An Explainer | Center for Security and Emerging Technology</a></li>
+<li><a href="https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2020.590780/full">Frontiers | Major Scientific Hurdles in HIV Vaccine Development...</a></li>
+<li><a href="https://www.sciencedirect.com/topics/immunology-and-microbiology/rhesus-monkey">Rhesus Monkey - an overview | ScienceDirect Topics</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion is overwhelmingly critical and skeptical, with commenters accusing Anthropic of using safety as a pretext to stifle competition and protect its commercial interests. Key counterarguments focus on the proposal enabling gatekeeping and unfair restrictions, as well as highlighting perceived hypocrisy in the company's other policy stances.
+**Discussion**: Commenters praised the novel 'immune curriculum' concept but stressed important caveats: the 44% efficacy is positive yet preliminary, human trials are the true hurdle, and practical alternatives like PrEP already exist to halt transmission. Some also linked to the primary scientific paper and peer review files for deeper technical scrutiny.
 
-**Tags**: `#AI Safety`, `#Open Source AI`, `#AI Policy`, `#Corporate Strategy`, `#AI Ethics`
+**Tags**: `#HIV`, `#vaccine`, `#immunology`, `#preclinical research`, `#biomedical science`
 
 ---
 
 <a id="item-2"></a>
-## [python-build-standalone: Portable Python Distributions](https://gregoryszorc.com/docs/python-build-standalone/main/) ⭐️ 8.0/10
+## [Kimi Linear: New Efficient Attention Architecture](https://arxiv.org/abs/2510.26692) ⭐️ 8.0/10
 
-The python-build-standalone project, which creates self-contained and highly portable Python distributions, has its comprehensive documentation highlighted. These distributions are widely adopted by major Python tools like uv, pipx, Poetry, Hatch, and Bazel to manage and install Python interpreters. This project provides critical infrastructure for modern Python tooling, enabling fast, reliable, and consistent Python installation across different platforms without external dependencies. It significantly simplifies dependency management and application packaging for the Python ecosystem. The distributions are truly standalone, meaning you can download, unzip, and run them on any machine without installing additional system libraries. The project is now maintained under the Astral organization (astral-sh) and forms the core of Python version management in tools like uv.
+The paper introduces Kimi Linear, a hybrid linear attention architecture designed to outperform standard full attention in both expressiveness and efficiency. This architecture has been open-sourced, including its kernel, inference implementations, and model checkpoints, and serves as the foundational design for the subsequent high-performance Kimi K3 model. This architecture offers a practical path to more efficient and performant large language models, potentially enabling longer context windows and faster inference without sacrificing capability. Its open-source nature allows researchers and developers to build upon and integrate this efficient attention mechanism into their own work. Kimi Linear is presented as a drop-in replacement for full attention architectures, demonstrating superior performance in tasks requiring long input and output lengths. The project is directly connected to and foundational for Moonshot AI's larger Kimi K3 model, which scales this architecture to 2.8 trillion parameters.
 
-hackernews · jcbhmr · Jul 27, 18:43 · [Discussion](https://news.ycombinator.com/item?id=49073942)
+hackernews · ronfriedhaber · Jul 28, 10:52 · [Discussion](https://news.ycombinator.com/item?id=49082022)
 
-**Background**: Python is a versatile programming language, but distributing it as a self-contained binary for different operating systems and architectures is complex due to its reliance on native C libraries. Projects like python-build-standalone solve this by pre-compiling Python with all its dependencies into a single relocatable package. This approach is essential for tools that need to manage multiple Python versions seamlessly.
+**Background**: Attention mechanisms are core components of Transformer models, allowing them to focus on relevant parts of the input sequence. Standard full attention has a quadratic computational cost relative to sequence length, which becomes prohibitive for very long contexts. Efficient attention mechanisms, like linear attention, aim to reduce this cost to enable more scalable and faster processing, which is a major area of active research in AI.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/astral-sh/python-build-standalone">GitHub - astral-sh/python-build-standalone: Produce redistributable builds of Python · GitHub</a></li>
-<li><a href="https://astral.sh/blog/python-build-standalone">A new home for python-build-standalone</a></li>
-<li><a href="https://gregoryszorc.com/docs/python-build-standalone/main/">Python Standalone Builds — python-build-standalone documentation</a></li>
+<li><a href="https://arxiv.org/abs/2510.26692">Kimi Linear : An Expressive, Efficient Attention Architecture</a></li>
+<li><a href="https://vizuara.substack.com/p/kimi-linear-an-expressive-efficient">Kimi - Linear : An Expressive, Efficient Attention Architecture</a></li>
+<li><a href="https://www.kimi.com/blog/kimi-k3">Kimi K3 Tech Blog: Open Frontier Intelligence</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The discussion highlights that python-build-standalone is the foundation for Python installation in many popular tools, including uv, pipx, and Poetry. Commenters noted its excellent quality for bundling Python into applications (like macOS desktop apps) and mentioned related projects like Cosmopolitan's cross-platform binaries and PyOxy for creating single-file executables.
+**Discussion**: The community discussion highlights Kimi Linear's role as the foundation for the powerful Kimi K3 model and expresses appreciation for the open-source release. Some researchers are already comparing it to newer architectures like Gated Deltanet 2, suggesting it may be evolving, while others debate the nature of emergent intelligence in large-scale models.
 
-**Tags**: `#Python`, `#packaging`, `#distributions`, `#portability`, `#tooling`
+**Tags**: `#AI research`, `#transformer architecture`, `#efficient attention`, `#open-source`, `#machine learning`
 
 ---
 
 <a id="item-3"></a>
-## [Critical Vulnerability Found in Volvo/Eicher Fleet Platform](https://eaton-works.com/2026/07/27/my-eicher-hack/) ⭐️ 8.0/10
+## [Google Proposes 'Beyond Zero' Enterprise Security for AI Era](https://spawn-queue.acm.org/doi/10.1145/3819083) ⭐️ 8.0/10
 
-Security researcher Eaton Works discovered a critical vulnerability in the Volvo/Eicher 'My Eicher' fleet management platform that could have allowed an attacker to take over any account and gain control over connected vehicle fleets. The issue was responsibly disclosed in November 2025 and patched by the vendor before public disclosure in July 2026. This vulnerability highlights severe security risks in modern connected vehicle ecosystems, where a flaw in cloud-based fleet management could compromise the control of entire commercial vehicle fleets. It underscores the growing importance of automotive cybersecurity and the need for robust security practices as vehicles become increasingly dependent on centralized digital platforms. The researcher followed a responsible disclosure timeline, with the vendor fixing the primary API access vulnerability by November 20, 2025, after initial non-response. The exploit allowed full account takeover and vehicle fleet control, but the specific technical root cause (e.g., authentication bypass, insecure API) is not detailed in the provided summary.
+Google introduced 'Beyond Zero,' a new enterprise security model that shifts trust boundaries from applications to real-time evaluation of individual data access actions and intent. This framework augments the existing BeyondCorp identity system with a central 'brain' for continuous, in-the-moment security assessment. 该模型通过将信任从静态的、事后性的授权转变为动态的、基于实时行为的授权，从根本上改变了面向AI代理的企业安全，这对于自主AI系统访问敏感数据至关重要。它代表了防御策略的必要演进，以应对AI时代更微妙、自动化的威胁。 The Beyond Zero model is built on principles like resource- and action-based security, evaluating authorization at the level of specific actions on specific resources rather than granting broad application access. It aims to contain threats at the moment of access, shifting from investigation to evaluation and containment.
 
-hackernews · EatonZ · Jul 27, 15:08 · [Discussion](https://news.ycombinator.com/item?id=49070756)
+hackernews · jordigg · Jul 28, 09:59 · [Discussion](https://news.ycombinator.com/item?id=49081644)
 
-**Background**: Automotive cybersecurity involves protecting vehicles, their systems, and connected platforms from cyberattacks. Fleet management platforms like 'My Eicher' are cloud-based tools used to monitor, manage, and often remotely control commercial vehicle fleets, making them a high-value target. Responsible disclosure is a standard practice where security researchers privately report vulnerabilities to vendors to allow for fixes before public release.
+**Background**: Google's BeyondCorp was a pioneering zero-trust architecture that eliminated inherent network trust, requiring verification for every user and device regardless of location. The new 'Beyond Zero' extends this paradigm by focusing on the security of actions performed by AI agents, addressing the unique trust boundary challenges posed by autonomous systems accessing data.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://eaton-works.com/2026/07/27/my-eicher-hack/">Exploiting Volvo / Eicher ’s fleet management platform to gain control...</a></li>
-<li><a href="https://www.kiwa.com/en/services/certification/isosae-21434-road-vehicles-cybersecurity-engineering/">ISO/SAE 21434 Road Vehicles – Cybersecurity Engineering</a></li>
-<li><a href="https://cybellum.com/blog/intro-to-automotive-cybersecurity-regulations/">Intro to Automotive Cybersecurity Standards & Regulations</a></li>
+<li><a href="https://blog.google/security/going-beyond-zero-a-new-paradigm-for-enterprise-security/">Going Beyond Zero: A New Paradigm For Enterprise Security</a></li>
+<li><a href="https://en.wikipedia.org/wiki/BeyondCorp">BeyondCorp - Wikipedia</a></li>
+<li><a href="https://www.ibm.com/new/announcements/real-time-context-for-ai-across-hybrid-environments">Real-time context for AI across hybrid environments | IBM</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters noted the generous disclosure timeline and expressed concerns about modern cars' reliance on cloud connectivity for basic functions. One user highlighted a real-world case where a car failed to start due to poor cellular reception, while others discussed the tension between corporate security theater and genuine user protection, referencing the broader 'right to repair' movement.
+**Discussion**: Community discussion highlights concerns that the model might shift, rather than eliminate, attack vectors by creating a high-value target in the central 'overlord brain.' Others point out that the framework may underweight non-malicious but erratic AI behavior driven by training artifacts, suggesting a broader problem in AI safety.
 
-**Tags**: `#automotive-security`, `#responsible-disclosure`, `#cybersecurity`, `#fleet-management`, `#IoT-security`
+**Tags**: `#AI Security`, `#Enterprise Security`, `#Trust Boundaries`, `#AI Agents`, `#Zero Trust`
 
 ---
 
 <a id="item-4"></a>
-## [Judge Rejects Google's DMCA Claim Against Web Scraper SerpAPI](https://www.techdirt.com/2026/07/27/judge-rejects-googles-attempt-to-dmca-its-way-out-of-being-scraped/) ⭐️ 8.0/10
+## [Chinese AI Enables Virtual Drug Screening, Published in Cell](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907924&idx=3&sn=654ebf40eb186cf7ff0653d51ed2af96) ⭐️ 8.0/10
 
-A judge rejected Google's attempt to use a DMCA takedown notice to stop SerpAPI from scraping its search results, dismissing the motion in a recent legal ruling. This ruling reinforces the principle that publicly accessible web data may not be protectable under U.S. copyright law, impacting the future of data access, competition, and the balance of power between large platforms and smaller developers. The decision hinges on U.S. copyright law requiring original creativity in the arrangement of data, a stricter standard than the EU's database protection laws, and it follows Google's deprecation of its own search API which created the market gap SerpAPI fills.
+Chinese researchers have developed an AI system that constructs a unified biological representation space for virtual drug screening, and their work is the first Chinese-authored AI virtual cell study published in the main journal of Cell. This achievement signifies a major breakthrough in China's AI-for-science capabilities, potentially accelerating drug discovery by enabling efficient, in-silico testing of drug candidates within a comprehensive biological framework. The core innovation is the creation of a unified representation space that integrates diverse biological data, which is a foundational step for building AI virtual cells capable of simulating cellular behavior for applications like virtual drug testing.
 
-hackernews · cdrnsf · Jul 27, 18:15 · [Discussion](https://news.ycombinator.com/item?id=49073513)
+rss · 量子位 · Jul 28, 09:58
 
-**Background**: The DMCA is a U.S. law that provides a notice-and-takedown system for copyright holders to remove allegedly infringing content from the internet. Web scraping involves automatically extracting data from websites, a practice often at odds with terms of service but legally ambiguous. Google's search results are dynamically generated data, and the court must decide if this data arrangement is original enough to receive copyright protection.
+**Background**: An AI virtual cell is a computational model designed to simulate the behavior of cells and cellular systems, which can revolutionize biological research and medicine. Virtual drug screening uses AI to simulate molecular interactions in silico, allowing scientists to assess the potential efficacy and binding affinity of drug compounds against specific targets, thereby reducing experimental costs and accelerating candidate identification.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://daringfireball.net/linked/2026/07/25/serpapi-google-dismissed">Daring Fireball: Court Grants SerpApi 's Motion to Dismiss ...</a></li>
-<li><a href="https://serpapi.com/">SerpApi : Google Search API</a></li>
+<li><a href="https://www.biorxiv.org/content/10.1101/2023.05.11.540307v1">Unified neural representation model for physical space and linguistic concepts | bioRxiv</a></li>
+<li><a href="https://arxiv.org/html/2409.11654v1">How to Build the Virtual Cell with Artificial Intelligence: Priorities and...</a></li>
+<li><a href="https://www.64-squares.com/ai-in-drug-discovery-and-development/">AI in Drug Discovery and Development - 64 Squares LLC</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters broadly supported SerpAPI, arguing that Google deprecated its own API, making scraping necessary, and that such access is vital for tasks like detecting scams. There was also discussion on the difference between U.S. and EU data protection laws, and criticism of Google's use of its immense resources to litigate against smaller companies.
-
-**Tags**: `#legal`, `#web-scraping`, `#copyright`, `#big-tech`, `#data-rights`
+**Tags**: `#AI for Science`, `#Drug Discovery`, `#Biological Modeling`, `#Interdisciplinary Research`, `#Scientific Publication`
 
 ---
 
 <a id="item-5"></a>
-## [Moonshot AI Releases 2.8T-Parameter Kimi-K3 Model Weights](https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything) ⭐️ 8.0/10
+## [Anthropic Proposes Strict Rules for Open-Weights AI Models](https://www.reddit.com/r/LocalLLaMA/comments/1v8hk6b/anthropic_is_calling_for_a_ban_on_openweights/) ⭐️ 8.0/10
 
-Moonshot AI has publicly released the 1.56TB weights for its 2.8 trillion parameter Kimi-K3 model on Hugging Face under a non-standard license. This license moves beyond a modified MIT license used for its predecessor, K2, by requiring large commercial Model-as-a-Service businesses to enter a separate agreement. This release is significant as Kimi-K3 is the first open-weight model to reach the 2.8 trillion parameter scale, pushing the frontier of accessible large language models. Its unique licensing model, which openly avoids the term "open source," adds a new layer of complexity and commercial terms for businesses looking to deploy state-of-the-art open-weight AI. The model weights are hosted on Hugging Face and total 1.56TB in size. The licensing terms have evolved from K2's modification, now requiring large "Model as a Service" providers (with >$20M aggregate 12-month revenue) to sign a separate commercial agreement with Moonshot AI.
+Anthropic has proposed a set of mandatory requirements for open-weights AI models, which the author argues are so stringent that they could effectively function as a ban. The proposal introduces specific compliance standards that critics claim open-source developers and smaller organizations would likely be unable to meet. This proposal sparks a critical debate on AI governance, pitting corporate safety priorities against the open-source ethos that drives innovation and accessibility. If adopted, such regulations could significantly restrict the development and distribution of advanced AI models, affecting researchers, developers, and the broader AI ecosystem. The proposed requirements likely include stringent safety testing, documentation, and ongoing monitoring obligations that are particularly burdensome for decentralized open-source projects. This approach contrasts with Anthropic's stated position that open-weights models without dangerous capabilities are a public good.
 
-rss · Simon Willison · Jul 27, 23:39
+reddit · r/LocalLLaMA · /u/realmvp77 · Jul 27, 23:54
 
-**Background**: Moonshot AI is a Chinese AI company that develops large language models like the Kimi series. "Open-weight" refers to releasing model parameters publicly, which allows usage and fine-tuning, but does not necessarily mean the training data or code are open, distinguishing it from full "open source." Previous releases like Kimi-K2 used a modified MIT license that required attribution for large commercial users.
+**Background**: Open-weights AI models are neural networks where the final trained parameters are publicly released, allowing anyone to download, use, modify, and run them on their own hardware. This practice is central to open-source AI, promoting transparency, collaboration, and broader access to advanced technology compared to models only available via API. The debate around regulating them involves balancing potential safety risks with the benefits of an open AI ecosystem.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.kimi.com/blog/kimi-k3">Kimi K 3 Tech Blog: Open Frontier Intelligence</a></li>
-<li><a href="https://huggingface.co/blog/ResterChed/kimi-k3-model-overview-mxfp4-quantization-open-wei">Kimi K 3 Model Overview: 2 . 8 T Parameters , MXFP4 Quantization, and...</a></li>
+<li><a href="https://www.anthropic.com/news/position-open-weights-models">Our position on open - weights models \ Anthropic</a></li>
+<li><a href="https://hai.stanford.edu/ai-definitions/what-is-an-open-weight-model">What is an Open-Weight Model? - Stanford HAI</a></li>
+<li><a href="https://opensource.org/ai/open-weights">Open Weights: not quite what you’ve been told</a></li>
 
 </ul>
 </details>
 
-**Discussion**: No community comments were provided for analysis.
+**Discussion**: The Reddit discussion is highly critical of Anthropic's proposal, with many commenters arguing it is a thinly veiled attempt to stifle open-source competition under the guise of safety. Users express concern that such rules would consolidate power among a few large corporations and hinder academic research and innovation.
 
-**Tags**: `#large language models`, `#open-source AI`, `#model release`, `#licensing`, `#AI research`
+**Tags**: `#AI policy`, `#open-source AI`, `#LLM regulation`, `#AI ethics`, `#Anthropic`
 
 ---
 
 <a id="item-6"></a>
-## [Solo evaluation finds six frontier LLMs lean politically left](https://www.reddit.com/r/MachineLearning/comments/1v8fnzw/evaluated_6_frontier_llms_gpt54_claude_sonnet_46/) ⭐️ 8.0/10
+## [Upcoming Qwen3.7-flash: Small MoE with 1M Context Window](https://www.reddit.com/r/LocalLLaMA/comments/1v8kbwn/first_evidence_of_a_pending_qwen37_open_weights/) ⭐️ 8.0/10
 
-A solo evaluation benchmarked six frontier LLMs (GPT-5.4, Claude Sonnet 4.6, Claude Opus 4.7, Gemini Pro, Gemini Flash, and Grok 4.3) across eight established bias datasets, finding all models, including Grok, exhibited a left-leaning political bias. The study also revealed significant differences in refusal rates for race-related questions, with GPT-5.4 refusing 20.3% of the time compared to 5% for some others. This evaluation provides novel, large-scale empirical data on the political and social biases of current top-tier AI models, which is crucial for understanding their real-world impact on fairness, safety, and societal alignment. The finding that even Grok, which is often marketed as less biased, exhibits left-leaning behavior despite self-reporting otherwise, highlights a key challenge in AI governance and the gap between model claims and measured performance. The evaluation used approximately 20,600 examples from eight benchmarks (including WinoBias, BBQ, and Political Compass) but is a non-peer-reviewed, solo project with limitations like single-run testing and no multi-run averaging. The data, per-model breakdowns, and full methodology are publicly available on the project's website.
+Evidence indicates the imminent open-weights release of a new model, Qwen3.7-flash, which has appeared on OpenRouter. This model is speculated to be a small Mixture-of-Experts (MoE) variant, likely based on the naming convention of its predecessor, Qwen3.6-35b-a3b. This development offers the open-source community a new, efficient, and potentially more affordable large language model with a massive 1 million token native context window. It expands the options for developers seeking powerful, cost-effective MoE models for long-context applications. The reported API pricing for Qwen3.7-flash is substantially cheaper than that of the previous Qwen3.6 flash model. The model is described as a vision-language reasoning model suited for multimodal tasks, though its open-weights release is the primary focus of this news.
 
-reddit · r/MachineLearning · /u/marggggggggg · Jul 27, 22:37
+reddit · r/LocalLLaMA · /u/fulgencio_batista · Jul 28, 01:52
 
-**Background**: Bias benchmarks are standardized datasets designed to measure social and political biases in AI models. Datasets like BBQ (Bias Benchmark for QA) test for biases against protected classes across multiple dimensions, while WinoBias evaluates gender bias in coreference resolution. Evaluating bias is a critical component of AI safety and alignment research to ensure models are fair and behave as intended.
+**Background**: Qwen is a leading series of open-source large language models developed by Alibaba, which includes both dense and Mixture-of-Experts (MoE) architectures of various sizes. MoE models activate only a subset of parameters for each input, allowing for more efficient computation. Context windows define the amount of text a model can process at once, with 1 million tokens representing a very large capacity.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2110.08193">[2110.08193] BBQ: A Hand-Built Bias Benchmark for Question Answering</a></li>
-<li><a href="https://aclanthology.org/2022.findings-acl.165/">BBQ: A hand-built bias benchmark for question answering - ACL Anthology</a></li>
-<li><a href="https://uclanlp.github.io/corefBias/overview">WinoBias dataset</a></li>
+<li><a href="https://openrouter.ai/qwen/qwen3.7-flash">Qwen 3 . 7 Flash - API Pricing & Providers | OpenRouter</a></li>
+<li><a href="https://github.com/QwenLM/Qwen3">GitHub - QwenLM/ Qwen 3 : Qwen 3 is the large language model series...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM evaluation`, `#bias and fairness`, `#political bias`, `#AI safety`, `#benchmarking`
+**Discussion**: The news was reported in a Reddit post, but the provided content does not include the actual community comments from the linked thread. Therefore, a summary of the discussion sentiment cannot be provided.
+
+**Tags**: `#LLM`, `#Open-Source`, `#Model Release`, `#MoE`, `#AI Pricing`
 
 ---
 
 <a id="item-7"></a>
-## [Case Study: Replacing React with HTMX in a Production App](https://misago-project.org/t/removing-reactjs-from-the-codebase-and-adapting-htmx-for-ui-interactivity/1267/) ⭐️ 7.0/10
+## [A Guide to Understanding Kimi Delta Attention Mechanism](https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention) ⭐️ 7.0/10
 
-A detailed report shares the experience of completely removing React.js from the Misago codebase and adapting HTMX for UI interactivity, serving as a practical architectural case study. This case study provides a concrete example of the growing trend of moving from complex Single-Page Application (SPA) frameworks to simpler, server-centric models for suitable applications, sparking important community discussion on architectural trade-offs. The project highlights trade-offs in performance, developer experience, and suitability, with community members noting that HTMX excels for server-rendered content but can face challenges with highly interactive, filter-heavy interfaces.
+A technical blog post provides a detailed mathematical derivation of Kimi Delta Attention (KDA), a novel linear attention mechanism that uses outer product summation to maintain a fixed-size state, aiming to improve efficiency in transformers. This deep-dive explains a complex algorithm in a more accessible way, potentially demystifying a key technique for building more efficient, long-context AI models that challenge standard transformers. The KDA mechanism operates by storing summed outer products of keys and values in a fixed-size state, which the article derives step-by-step using bra-ket notation to clarify the algorithm's data structures.
 
-hackernews · Ralfp · Jul 27, 09:58 · [Discussion](https://news.ycombinator.com/item?id=49067301)
+hackernews · AnhTho_FR · Jul 28, 16:02 · [Discussion](https://news.ycombinator.com/item?id=49085909)
 
-**Background**: React is a popular JavaScript library for building interactive user interfaces, typically using a client-side, component-based approach often called a Single-Page Application (SPA). HTMX is a small, modern library that extends HTML with attributes to enable dynamic server-rendered content updates, promoting a simpler, hypermedia-driven approach. This case study explores the shift from the former to the latter.
+**Background**: Kimi Delta Attention (KDA) is an advanced linear attention module developed by Moonshot AI, building upon concepts like Gated DeltaNet. Traditional transformers use attention mechanisms whose computational and memory costs scale quadratically with sequence length, making them inefficient for very long texts. Linear attention variants, like KDA, aim to reduce this complexity to linear time by compressing the context into a fixed-size state, enabling more efficient processing of long sequences.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Htmx">htmx - Wikipedia</a></li>
-<li><a href="https://htmx.org/">htmx - high power tools for html</a></li>
+<li><a href="https://arxiv.org/abs/2510.26692">[2510.26692] Kimi Linear: An Expressive, Efficient Attention Architecture</a></li>
+<li><a href="https://github.com/MoonshotAI/Kimi-Linear">GitHub - MoonshotAI/Kimi-Linear · GitHub</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Attention_(machine_learning)">Attention (machine learning) - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion is highly engaged, with developers sharing mixed experiences. Some praise HTMX for its simplicity and suitability for server-rendered apps like forums, while others report performance issues with complex, data-heavy interactive UIs.
+**Discussion**: Commenters on Hacker News focused on the challenge of understanding the complex notation, with some joking they could not have derived the algorithm themselves. One discussion point was the lack of unified mathematical notation in machine learning, which creates friction across research papers.
 
-**Tags**: `#web development`, `#HTMX`, `#React`, `#frontend architecture`, `#software engineering`
+**Tags**: `#machine-learning`, `#transformers`, `#attention-mechanisms`, `#technical-explanation`, `#AI-research`
 
 ---
 
 <a id="item-8"></a>
-## [Paged Out #9: Free Technical Magazine Released](https://pagedout.institute/download/PagedOut_009.pdf) ⭐️ 7.0/10
+## [DMARC Enforcement Gap Persists Despite Decade of Availability](https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026) ⭐️ 7.0/10
 
-Paged Out #9, the ninth issue of a community-driven experimental technical magazine, has been released as a free PDF download. It features one-page articles on topics like C programming, subpixel rendering, and other deep, scattered technical subjects. This publication provides highly curated, in-depth technical content for programmers and hackers in a beautifully designed, accessible format, filling a niche for deep dives that are often missing from modern online content. Its community-driven model and unique one-article-per-page format make it a valuable resource for those interested in low-level computing and systems programming. The magazine follows a strict experimental format where each article occupies exactly one page, which can be both a creative constraint and a technical challenge for authors. It is released under a free license and is community-supported, with print editions planned for purchase.
+An analysis reveals that 68.4% of internet domains still do not enforce the DMARC email security protocol, despite it being publicly available since 2012. This highlights a persistent and significant security gap in email infrastructure. This low adoption rate leaves a vast number of domains vulnerable to email spoofing and phishing attacks, undermining a critical layer of internet security. It affects the trustworthiness of email communication for organizations and individuals worldwide. The article highlights challenges like RUA (Reporting URI for Aggregate) data fragmentation and the practical difficulties small organizations face in monitoring and implementing strict DMARC policies (p=reject or p=quarantine). It suggests that while DMARC is a powerful tool, reaching full enforcement is complex.
 
-hackernews · laurensr · Jul 27, 14:22 · [Discussion](https://news.ycombinator.com/item?id=49070138)
+hackernews · adulion · Jul 28, 10:20 · [Discussion](https://news.ycombinator.com/item?id=49081783)
 
-**Background**: Paged Out! is a free, experimental technical magazine covering programming, hacking, security, retro computing, electronics, and the demoscene. It is explicitly compared in style and spirit to Phrack, a legendary and influential hacker e-zine first published in 1985, which is known for its deep technical articles and connection to hacker culture.
+**Background**: DMARC (Domain-based Message Authentication, Reporting, and Conformance) is an email authentication protocol that builds upon SPF and DKIM. It allows domain owners to specify how receiving mail servers should handle emails that fail authentication checks: with a policy of 'none' (monitor only), 'quarantine', or 'reject'. The goal is to prevent attackers from spoofing an organization's domain to send fraudulent emails.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://pagedout.institute/">Paged Out !</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Phrack_Magazine">Phrack Magazine</a></li>
+<li><a href="https://www.validity.com/email-authentication/dmarc/">What is DMARC ? How Does DMARC Work? - Validity</a></li>
+<li><a href="https://www.valimail.com/blog/what-is-dmarc-enforcement-and-why-is-it-so-important/">DMARC policy options: What it is & how to reach enforcement</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community response is positive and enthusiastic, with commenters highlighting specific articles like "Baby Steps in C" and "The Subpixel Zoo" as highlights. Many draw favorable comparisons to classic hacker publications like Phrack and 2600, and there is immediate interest in purchasing the upcoming print edition.
+**Discussion**: Commenters express frustration that DMARC enforcement often blocks legitimate business emails due to common SPF/DKIM failures by major senders, while failing to stop sophisticated spam or phishing. They highlight the practical challenges for small IT teams, such as managing DNS records without deep expertise, and suggest proactive measures like publishing reject policies for unused domains to prevent abuse.
 
-**Tags**: `#technical magazine`, `#systems programming`, `#computer science`, `#low-level computing`, `#digital publication`
+**Tags**: `#email security`, `#DMARC`, `#cybersecurity`, `#sysadmin`, `#internet infrastructure`
 
 ---
 
 <a id="item-9"></a>
-## [Libsm64: Super Mario 64 as a Reusable Library](https://github.com/libsm64/libsm64) ⭐️ 7.0/10
+## [500美元RL微调使9B开源模型在目录审查中超越前沿模型](https://fermisense.com/when-machines-take-the-wheel/) ⭐️ 7.0/10
 
-The open-source project libsm64 has been created, which extracts the core movement and rendering logic from Super Mario 64 and packages it as a standalone C library. This allows the game's logic to be integrated and run as a component within any external game engine, completely decoupled from the original ROM. This project demonstrates a novel and practical approach to code reuse and creative engineering, enabling developers to experiment with iconic game mechanics in entirely new contexts. It provides a concrete implementation of concepts like interoperable game assets and characters, bypassing the hype of previous 'metaverse' discussions with a tangible, fun technical achievement. libsm64 functions as a state machine derived from a full decompilation of the original Super Mario 64 ROM, providing a clean interface for the reversed code. It is important to note that while it extracts the logic, users would still need to supply their own engine for graphics rendering and platform-specific integration.
+一项仅花费500美元的强化学习（RL）微调，成功地将一个9B参数的开源模型（如NVIDIA Nemotron Nano）在特定的目录审查任务上调整到超越大型前沿模型的性能。 这一案例证明了通过低成本、高效的特定任务微调，而非昂贵的通用大规模模型训练，可以为大多数实际应用场景提供经济上可行且性能更优的AI解决方案，这对当前AI军备竞赛的商业模式和基础设施投资逻辑构成了挑战。 该微调针对的是特定的“目录审查”任务，其成功突显了模型专业化相对于通用扩展的巨大优势，并且开源模型权重和低成本微调服务的普及是实现这一成果的关键前提。
 
-hackernews · klaussilveira · Jul 27, 10:04 · [Discussion](https://news.ycombinator.com/item?id=49067352)
+hackernews · ilreb · Jul 28, 02:18 · [Discussion](https://news.ycombinator.com/item?id=49078454)
 
-**Background**: Super Mario 64 is a landmark 1996 video game for the Nintendo 64 console. In recent years, a community-led decompilation project successfully reverse-engineered its source code, making it legally and technically accessible. libsm64 builds upon this work by modularizing the decompiled code, separating the game's simulation logic from its original presentation layer.
+**Background**: 大型语言模型（LLM）通常通过在海量数据上训练以获得通用能力。然而，对于大多数企业应用，只需要模型完成特定任务。强化学习微调（RLHF或类似技术）是一种高效调整现有模型行为的方法，使其更精准地适应特定任务，成本远低于从头训练一个新模型。这使得在消费级硬件上运行的较小开源模型，也能在专业领域超越庞大的闭源前沿模型。
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/libsm64/libsm64">GitHub - libsm 64 / libsm 64 : Mario 64 as a library for use in external...</a></li>
-<li><a href="https://asibiont.com/en/blog/libsm64-kak-kultovyy-super-mario-64-prevratili-v-biblioteku-dlya-igrovykh-dvizhkov">Libsm 64 : Super Mario 64 Reborn as a Library for... — ASI Biont Blog</a></li>
-<li><a href="https://numfer.com/libsm64/libsm64">libsm 64 : Mario 64 library for game engines</a></li>
+<li><a href="https://aisuperior.com/llm-fine-tuning-cost/">LLM Fine - Tuning Cost : 2026 Pricing Guide & Hidden Expenses</a></li>
+<li><a href="https://www.linkedin.com/posts/arundhati-banerjee-130912a0_please-upgrade-your-browser-in-order-to-use-activity-7363782550240022530-PRFV">NVIDIA Nemotron Nano 2: A 9 B Parameter Open Model | LinkedIn</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community reaction is highly enthusiastic and creative, with users sharing demos like Mario in Half-Life 2 and praising the project as a tangible realization of interoperable character concepts. Discussion highlights include the project's potential for fun experimentation, the desire for more user-friendly setup for non-engineers, and curiosity about existing projects using the library.
+**Discussion**: 讨论揭示了两种主要观点：一方认为大多数实际用例并不需要庞大且昂贵的通用模型，低成本微调和开源模型将颠覆现有AI经济；另一方则警告称，微调可能迅速过时，因为前沿模型的免费进步和“静待其变”可能是更经济的策略，且训练成本仅是总成本的一部分。
 
-**Tags**: `#game-engine`, `#open-source`, `#retro-gaming`, `#code-reuse`, `#creative-engineering`
+**Tags**: `#reinforcement-learning`, `#fine-tuning`, `#open-source-ai`, `#cost-optimization`, `#model-specialization`
 
 ---
 
 <a id="item-10"></a>
-## [Simon Willison Analyzes Shift from Chat to Agentic AI](https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything) ⭐️ 7.0/10
+## [DeepSeek V4 Flash Hits 32 tok/s on AMD Ryzen AI MAX+ 395](https://www.reddit.com/r/LocalLLaMA/comments/1v9100b/deepseek_v4_flash_up_to_32_toks_on_amd_ryzen_ai/) ⭐️ 7.0/10
 
-Simon Willison analyzes Ethan Mollick's evolving AI guide, highlighting a major shift from chat-based interfaces (like ChatGPT, Claude, Gemini) to powerful agentic systems that can perform extensive autonomous work. He notes that Gemini has fallen off Mollick's recommended list due to Google's lack of a strong competitor in the new 'Work/Cowork' agent category. This analysis is significant because it reflects the rapidly evolving AI landscape where the focus is moving from conversational AI to autonomous agent capabilities, which will fundamentally change how users interact with and leverage these tools for complex tasks. It provides practical guidance for professionals navigating which AI platform to invest in for different use cases. A key technical detail is that the mode names (e.g., ChatGPT's 'Work' and Codex, Claude's 'Cowork' and Code) are confusing and operate differently depending on whether you're on mobile or desktop. Furthermore, switching ChatGPT mobile to 'Work' mode unlocks internet access for its Code Interpreter container, which is a significant capability change.
+Users achieved up to 32 tok/s for the DeepSeek V4 Flash model on a single AMD Ryzen AI MAX+ 395 chip with 128 GB unified memory using a novel ROCmFPX quantization method, representing a 68-105% speedup over previous bests. This demonstrates that a massive 284B-parameter LLM can run at a usable speed on consumer AMD hardware, potentially democratizing access to powerful AI models without requiring expensive NVIDIA GPUs. The ROCmFPX quantization uses mixed precision (down to ~2.5 bits per weight for some layers) to fit the model's 102.3 GB weights into 128 GB, and speculative decoding with a smaller draft model (DSPark) provides a 26.4% boost over the baseline autoregressive speed.
 
-rss · Simon Willison · Jul 27, 21:55
+reddit · r/LocalLLaMA · /u/sandropuppo · Jul 28, 15:00
 
-**Background**: Agentic AI systems are designed to autonomously execute multi-step tasks and workflows, going beyond simple reactive chatbots. Major AI providers like OpenAI (ChatGPT) and Anthropic (Claude) are now offering modes that allow these models to operate with greater autonomy, sometimes by providing them access to a sandboxed computer environment or even a user's own computer.
+**Background**: DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts (MoE) LLM with 284B total parameters but only 13B activated per token. ROCmFPX is a family of quantization formats designed for the AMD ROCm software stack, which is used to run models on AMD GPUs. LocalLLaMA is a popular Reddit community focused on running and optimizing large language models locally on personal hardware.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.freshworks.com/freshdesk/ai-agent/vs-conversational-ai/">Agentic AI vs Conversational AI: Key Differences Explained</a></li>
-<li><a href="https://www.chetu.com/blogs/artificial-intelligence/chatbots-vs-agentic-ai-key-differences-and-transition.php">AI Chatbots vs. Agentic AI — What's the Difference? | Chetu</a></li>
+<li><a href="https://openrouter.ai/deepseek/deepseek-v4-flash">DeepSeek V 4 Flash - API Pricing & Benchmarks | OpenRouter</a></li>
+<li><a href="https://huggingface.co/philtheriver/Qwopus3.6-27B-Coder-MTP-ROCmFPX">philtheriver/Qwopus3.6-27B-Coder-MTP- ROCmFPX · Hugging Face</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI tools`, `#agentic systems`, `#technology guide`, `#ChatGPT`, `#Claude`, `#Gemini`
+**Tags**: `#Local LLMs`, `#AMD ROCm`, `#Model Quantization`, `#Hardware Performance`, `#Open Source`
 
 ---
 
 <a id="item-11"></a>
-## [Survey: Five Solutions for 3D Gaussian Splatting Memory Consumption](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907517&idx=3&sn=47197285f42f0199832d9f5b6612b961) ⭐️ 7.0/10
+## [DSpark Speculative Decoding Proposed for llama.cpp](https://www.reddit.com/r/LocalLLaMA/comments/1v8w91b/spec_add_dspark_speculative_decoding_by_wjinxu/) ⭐️ 7.0/10
 
-A survey article identifies and outlines five potential solution directions to address the critical memory consumption bottleneck in 3D Gaussian Splatting (3DGS), where a single scene can consume 700MB of VRAM. 这一问题意义重大，因为高内存使用率是3DGS在游戏和VR等广泛应用中实现实时渲染的主要障碍，解决它对于该技术的未来发展和硬件协同演进至关重要。 The survey specifically highlights the need for the rasterizer to co-evolve with algorithms, memory management, and hardware to achieve practical, real-time 3DGS rendering.
+A new pull request (PR #25173) proposes adding DSpark, a speculative decoding framework, to the llama.cpp project. The implementation aims to accelerate inference by combining parallel drafting with adaptive verification. Integrating DSpark into llama.cpp, a widely-used open-source LLM inference engine, could significantly boost the performance of local and on-device AI deployments. It enables the community to test and potentially adopt a new optimization method that balances speed and output quality for large language models. The DSpark framework uses a Markov logit-bias and confidence scheduling to unify high-throughput parallel generation with load-aware verification. The PR links to pre-configured models like DeepSeek-V4-Pro-DSpark and Bonsai-27B-antidoom-1bit-DSpark for immediate experimentation.
 
-rss · 量子位 · Jul 27, 03:31
+reddit · r/LocalLLaMA · /u/pmttyji · Jul 28, 11:52
 
-**Background**: 3D Gaussian Splatting (3DGS) is a novel neural rendering technique that represents 3D scenes using millions of tiny, translucent Gaussian ellipsoids for high-fidelity, real-time rendering. Unlike traditional polygon meshes, its data structure can become very large, leading to significant VRAM consumption that limits deployment on consumer hardware.
+**Background**: Speculative decoding is a technique used to speed up LLM inference. A smaller, faster 'drafter' model generates multiple token candidates in parallel, and the main 'target' model then verifies and corrects them, aiming to achieve the quality of the target model with the speed closer to the drafter. llama.cpp is a popular C/C++ implementation for efficient LLM inference on consumer hardware.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Gaussian_splatting">Gaussian splatting - Wikipedia</a></li>
-<li><a href="https://blog.chaos.com/3d-gaussian-splatting-new-frontier-in-rendering">3D Gaussian Splatting: A new frontier in rendering</a></li>
+<li><a href="https://www.emergentmind.com/topics/dspark">DSpark : Speculative Decoding</a></li>
+<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark">deepseek-ai/ DeepSeek - V 4 - Pro - DSpark · Hugging Face</a></li>
+<li><a href="https://huggingface.co/Danny-Dasilva/Bonsai-27B-antidoom-1bit-DSpark">Danny-Dasilva/ Bonsai -27B- antidoom -1bit- DSpark · Hugging Face</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#3D Gaussian Splatting`, `#Computer Graphics`, `#Memory Optimization`, `#Real-time Rendering`, `#AI for Graphics`
+**Discussion**: The Reddit post explicitly calls for community experimentation and sharing of performance statistics, specifically tokens per second for prefill (pp) and text generation (tg). The discussion is focused on gathering empirical benchmark data to evaluate DSpark's real-world speedup in the llama.cpp environment.
+
+**Tags**: `#llm-inference`, `#speculative-decoding`, `#llama.cpp`, `#performance-optimization`, `#open-source`
 
 ---
 
 <a id="item-12"></a>
-## [From-Scratch Transformer for English-Tamil Translation with Math Guide](https://www.reddit.com/r/MachineLearning/comments/1v86qo9/built_trained_a_transformer_from_scratch_in_pure/) ⭐️ 7.0/10
+## [SWE-rebench Benchmark Expands to Multilingual Software Tasks](https://www.reddit.com/r/LocalLLaMA/comments/1v93phk/swerebench_multilingual_update_go_java_python/) ⭐️ 7.0/10
 
-A user has built and trained a complete Transformer model from scratch using pure PyTorch for English-to-Tamil machine translation, sharing a detailed blog post and GitHub repository. The tutorial covers every mathematical equation and tensor shape transformation from the original "Attention Is All You Need" paper. This provides a valuable, hands-on educational resource for machine learning practitioners to understand the Transformer architecture deeply, beyond using high-level libraries. It demonstrates the feasibility of implementing complex models from first principles and contributes to open-source knowledge for low-resource language translation. The implementation was trained on the Hugging Face dataset 'gopi30/english-tamil' using dual NVIDIA T4 GPUs on Kaggle. The accompanying materials include a step-by-step blog and a public GitHub repository with the complete PyTorch code.
+The SWE-rebench leaderboard has released a major multilingual update, adding real-world software engineering tasks in Go, Java, Python, Rust, and TypeScript to its evaluation suite. It now provides performance metrics for popular open-weight models like GLM-5.2 and DeepSeek-V4 Pro across these five languages. This update provides the open-source and local AI community with a more comprehensive and realistic benchmark for evaluating model capabilities in software engineering beyond Python. It offers concrete performance data to guide model selection and development for coding agents and local deployments, directly addressing a key need in the community. The benchmarks use Pass@1 and Pass@5 metrics, which measure the probability of a model correctly solving a task in one or five attempts, respectively. The leaderboard organizers are actively seeking community input on which local models to evaluate next, with a focus on models suitable for local deployment.
 
-reddit · r/MachineLearning · /u/imrancoder · Jul 27, 17:17
+reddit · r/LocalLLaMA · /u/Fabulous_Pollution10 · Jul 28, 16:37
 
-**Background**: The Transformer architecture, introduced in the 2017 paper "Attention Is All You Need", revolutionized natural language processing by relying solely on self-attention mechanisms. While many high-level libraries offer pre-built models, building one from scratch with `torch.nn` primitives is a rigorous exercise for learning. English-to-Tamil translation is a specific application within the broader field of machine translation for Indic languages.
+**Background**: SWE-rebench is a continuously evolving benchmark designed to evaluate LLMs on software engineering tasks, aiming to provide a decontaminated and up-to-date assessment. Benchmarks like SWE-bench and its variants are critical for measuring an AI model's practical ability to understand and modify real codebases, a key capability for advanced coding assistants. Metrics like Pass@k are standard in these evaluations to gauge task-solving reliability.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/bnarath/transformer-from-scratch">GitHub - bnarath/ transformer - from - scratch : Implementation of...</a></li>
-<li><a href="https://medium.com/@amanchhetry/attention-is-all-you-need-paper-implementation-658f9027426a">Attention Is All You Need Paper Implementation | Medium</a></li>
-<li><a href="https://arxiv.org/abs/1706.03762">Abstract page for arXiv paper 1706.03762: Attention Is All You Need</a></li>
+<li><a href="https://swe-rebench.com/">SWE - rebench Leaderboard</a></li>
+<li><a href="https://medium.com/data-science-in-your-pocket/llm-benchmarks-explained-03bbcc74315c">LLM Benchmarks explained. Understanding popular LLM ... | Medium</a></li>
+<li><a href="https://www.marktechpost.com/2025/07/31/the-ultimate-2025-guide-to-coding-llm-benchmarks-and-performance-metrics/">The Ultimate 2025 Guide to Coding LLM Benchmarks ... - MarkTechPost</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Transformer`, `#PyTorch`, `#Machine Translation`, `#Tutorial`, `#From Scratch`
+**Discussion**: The announcement explicitly solicits suggestions from the community for which local models to evaluate in the next update, indicating a collaborative and responsive approach to benchmark development. The engagement suggests a strong interest from practitioners using models locally for software development and coding agents.
+
+**Tags**: `#LLM benchmarks`, `#software engineering`, `#multilingual evaluation`, `#open-weight models`, `#local AI`
 
 ---
 
 <a id="item-13"></a>
-## [Blog Post Benchmarks Anthropic's Opus 5 on SlopCodeBench](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md) ⭐️ 6.0/10
+## [AI Guide Shifts from Chat to Agentic Systems](https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything) ⭐️ 6.0/10
 
-A blog post presents a benchmark evaluation of Anthropic's newly released Opus 5 model on the custom SlopCodeBench coding benchmark, assessing its performance on iterative coding tasks. This provides an early, independent technical assessment of a major new AI model's coding capabilities, helping developers and enterprises understand its practical value for real-world software development workflows. The benchmark uses SlopCodeBench, which focuses on measuring code erosion under iterative specification refinement, a scenario that tests long-term code maintainability and architectural decisions rather than one-off solutions.
+Ethan Mollick's AI tool guide has evolved from focusing on chat-based models like ChatGPT to emphasizing agentic systems that can perform extended, multi-hour tasks. Simon Willison notes this shift highlights the growing capability of AI agents like ChatGPT Work and Claude Cowork to autonomously use computers. 这一演变标志着实用AI领域的一个重大趋势，从对话式辅助转向能够执行复杂现实工作流的系统，可能改变专业人士分配任务的方式。指南的转变表明，AI的效用现在正通过其自主工作的能力来衡量，而不仅仅是生成文本。 The guide explains that giving AI access to your computer (via desktop apps) unlocks more powerful features but with confusingly different mode names (Work/Codex for ChatGPT, Cowork/Code for Claude). Additionally, switching ChatGPT mobile to 'Work' mode removes internet restrictions on its Code Interpreter, a non-obvious but significant capability change.
 
-hackernews · dhorthy · Jul 27, 22:37 · [Discussion](https://news.ycombinator.com/item?id=49076391)
+rss · Simon Willison · Jul 27, 21:55
 
-**Background**: SlopCodeBench is a community-driven benchmark designed to evaluate how coding agents degrade over time as they repeatedly extend their own solutions under evolving specifications. Anthropic recently released Opus 5 as a more cost-effective model with capabilities approaching its top-tier Fable 5, positioning it as an ideal everyday model for knowledge work.
+**Background**: Agentic AI systems are a step beyond traditional chat-based Large Language Models (LLMs). While LLMs primarily respond to prompts, agentic systems can take actions, use tools, and complete extended tasks autonomously. ChatGPT Work and Claude Cowork are specific modes within their respective platforms designed to provide AI with access to user computers or cloud environments for such tasks.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.scbench.ai/">SlopCodeBench</a></li>
-<li><a href="https://arxiv.org/abs/2603.24755">[2603.24755] SlopCodeBench : Benchmarking How Coding Agents ...</a></li>
-<li><a href="https://ofox.ai/blog/claude-opus-5-api-guide-2026/">Claude Opus 5 API: Fable 5-Class at Half Price, Complete Guide</a></li>
+<li><a href="https://www.aiagentslibrary.com/blog/chatgpt-vs-gemini-spark/">ChatGPT vs Gemini Spark : Which Is Better?</a></li>
+<li><a href="https://aitoolanalysis.com/gemini-spark/">Gemini Spark Review: Google's 24/7 AI Agent Is Here - AI Tool Analysis</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community feedback is mixed, with some users confirming Opus 5 is a noticeable improvement over older versions like Opus 4.8, while others feel the upgrade is not significant. Commenters also critique the benchmark's scope and suggest that broader model comparisons and prompt engineering strategies should be considered.
-
-**Tags**: `#AI benchmarking`, `#LLM evaluation`, `#coding assistants`, `#Anthropic Opus`, `#developer tools`
+**Tags**: `#AI tools`, `#agentic systems`, `#LLMs`, `#practical AI`, `#technology guide`
 
 ---
 
 <a id="item-14"></a>
-## [Open-Source End-to-End Platform for Edge ML Development](https://www.reddit.com/r/MachineLearning/comments/1v7nudc/recent_project_i_worked_on_end_to_end_edge_ml/) ⭐️ 6.0/10
+## [OpenAI Declines to Join Nvidia's Open Secure AI Alliance](https://www.reddit.com/r/LocalLLaMA/comments/1v8e36c/openai_management_decided_earlier_today_not_to/) ⭐️ 6.0/10
 
-A developer has released SensorForge, a new open-source platform designed to streamline the entire workflow from raw sensor data to model deployment on microcontrollers. The platform includes an auto-labeling tool for time-series data and a chatbot for data analysis. This project directly addresses key pain points in the tinyML ecosystem, such as the difficulty of manually labeling sensor data and managing the deployment pipeline, which could accelerate development for hobbyists and professionals working on low-power edge devices. The platform's auto-labeler is specifically aimed at time-series sensor data, a notoriously difficult task to label manually. The included chatbot can analyze signal data directly to provide insights, aiming to make data exploration more accessible.
+OpenAI management reportedly decided not to join the "Open Secure AI Alliance", a cybersecurity coalition for open AI models founded by Nvidia CEO Jensen Huang. This decision, which was communicated internally, is said to have met with backlash from OpenAI employees. This decision highlights a potential rift between leading AI companies on the best approach to AI safety and cybersecurity, as the Open Secure AI Alliance includes major players like Microsoft and SpaceX. It suggests strategic differences in how to govern and secure advanced AI systems, which could influence industry standards and future collaborations. The Open Secure AI Alliance is described as an initiative building on the Linux Foundation's work to remediate and disclose AI vulnerabilities using open technologies. The news comes shortly after an incident involving an autonomous OpenAI agent, which may have influenced the timing and context of the alliance's launch.
 
-reddit · r/MachineLearning · /u/No-Bug-4879 · Jul 27, 02:38
+reddit · r/LocalLLaMA · /u/KickLassChewGum · Jul 27, 21:37
 
-**Background**: TinyML refers to the field of deploying machine learning models on small, low-power devices like microcontrollers, enabling AI at the edge with benefits like low latency and privacy. A major bottleneck in this workflow is obtaining and labeling sufficient quality training data from sensors, which this platform's auto-labeling feature aims to solve.
+**Background**: The Open Secure AI Alliance is a recently formed industry coalition, led by Nvidia, that brings together tech companies to create open tools and standards for AI cybersecurity. It aims to pair openness with safeguards against malicious misuse, in response to growing concerns about AI safety. OpenAI, which transitioned from a non-profit to a for-profit model in 2019, is a major AI research organization that has faced its own security incidents.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.datacamp.com/blog/what-is-tinyml-tiny-machine-learning">What is TinyML ? An Introduction to Tiny Machine Learning | DataCamp</a></li>
-<li><a href="https://www.geeksforgeeks.org/machine-learning/what-is-tinyml-tiny-machine-learning/">What is TinyML ? Tiny Machine Learning - GeeksforGeeks</a></li>
-<li><a href="https://arxiv.org/html/2407.11042">An Automated Approach to Collecting and Labeling Time Series Data ...</a></li>
+<li><a href="https://blogs.nvidia.com/blog/open-secure-ai-alliance/">Industry Leaders Join Open Secure AI Alliance for AI ... | NVIDIA Blog</a></li>
+<li><a href="https://nairametrics.com/2026/07/27/nvidia-launches-ai-safety-alliance-after-openai-agent-security-scare/">Nvidia launches AI safety alliance after OpenAI agent... - Nairametrics</a></li>
+<li><a href="https://en.wikipedia.org/wiki/OpenAI">OpenAI - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#tinyML`, `#Edge Computing`, `#MLOps`, `#Open Source Tools`, `#Sensor Data`
+**Discussion**: The original post does not contain any community comments, so no summary of discussion sentiment is available.
+
+**Tags**: `#OpenAI`, `#AI Safety`, `#Corporate Strategy`, `#Industry Alliances`, `#AI Policy`
+
+---
+
+<a id="item-15"></a>
+## [EU RTX 5090 Prices Surge 30% Since March 2025](https://www.reddit.com/r/LocalLLaMA/comments/1v8vkmm/ive_been_tracking_rtx_5090_prices_across_eu/) ⭐️ 6.0/10
+
+A user-tracked analysis across over 20 EU stores shows that the average price of NVIDIA RTX 5090 GPUs has increased by approximately 30% since March 2025, with specific models like the ASUS TUF OC rising by €1,061. This price inflation contrasts sharply with other GPU tiers which have seen price decreases of 5-15% over the same period. The significant price hike highlights a supply-demand imbalance for high-VRAM consumer GPUs driven by local AI inference workloads, affecting developers and researchers who rely on single-card 32GB VRAM setups. This market signal may influence hardware purchasing decisions and the viability of local AI projects against cloud-based alternatives. The price surge is primarily attributed to demand from the AI/ML community, as the RTX 5090 is the only mainstream consumer GPU offering 32GB of VRAM, which is crucial for running large language models without multi-GPU setups. Price tracking data indicates that brief dips, like one to €3,026 in late May, were temporary and reversed quickly, suggesting sustained high demand.
+
+reddit · r/LocalLLaMA · /u/egudegi · Jul 28, 11:23
+
+**Background**: The NVIDIA RTX 5090 is a high-end consumer graphics card launched in 2025, distinguished by its 32GB GDDR7 VRAM, which is highly valued for local AI inference tasks like running large language models. Unlike cloud services, running AI locally requires substantial VRAM to load model weights, making 32GB a sought-after spec for hobbyists and small-scale practitioners. Price tracking tools are used by consumers to monitor market trends and find the best deals across multiple retailers.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://canitrun.dev/gpus/compare/rtx-5090-vs-m4-ultra-192/">NVIDIA RTX 5090 vs Apple M4 Ultra (192 GB ) for Local AI — Which...</a></li>
+<li><a href="https://markaicode.com/architecture/rtx-5090-local-ai-architecture/">RTX 5090 Local AI Architecture: 4-Component... | Markaicode</a></li>
+<li><a href="https://gpusniper.com/p/pny-dual-oc-rtx-5060/101904">Track PNY Dual OC RTX 5060 | GPU Sniper</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The provided content does not include community comments or discussion for analysis.
+
+**Tags**: `#GPU Pricing`, `#Local AI Inference`, `#Consumer Hardware`, `#AI/ML Infrastructure`, `#Market Analysis`
 
 ---

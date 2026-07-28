@@ -1,342 +1,372 @@
 # Horizon 每日速递 - 2026-07-28
 
-> 从 23 条内容中筛选出 14 条重要资讯。
+> 从 30 条内容中筛选出 15 条重要资讯。
 
 ---
 
-1. [Anthropic 倡导对开放权重模型实施强制性 AI 安全测试](#item-1) ⭐️ 8.0/10
-2. [python-build-standalone：便携式 Python 发行版](#item-2) ⭐️ 8.0/10
-3. [沃尔沃/艾彻尔车队平台发现严重安全漏洞](#item-3) ⭐️ 8.0/10
-4. [法官驳回谷歌对网页抓取工具 SerpAPI 提出的 DMCA 版权主张](#item-4) ⭐️ 8.0/10
-5. [月之暗面 AI 发布 2.8 万亿参数 Kimi-K3 模型权重](#item-5) ⭐️ 8.0/10
-6. [独立评估发现六款前沿大语言模型在政治倾向上偏左](#item-6) ⭐️ 8.0/10
-7. [案例研究：在生产环境中用 HTMX 替换 React](#item-7) ⭐️ 7.0/10
-8. [Paged Out #9：免费技术杂志发布](#item-8) ⭐️ 7.0/10
-9. [Libsm64：将《超级马里奥 64》封装为可复用的库](#item-9) ⭐️ 7.0/10
-10. [Simon Willison 分析 AI 工具从聊天转向智能体系统的趋势](#item-10) ⭐️ 7.0/10
-11. [综述：解决 3D 高斯溅射内存消耗的五个方向](#item-11) ⭐️ 7.0/10
-12. [从零开始构建用于英泰翻译的 Transformer 模型及数学指南](#item-12) ⭐️ 7.0/10
-13. [博客文章在 SlopCodeBench 上对 Anthropic 的 Opus 5 进行基准测试](#item-13) ⭐️ 6.0/10
-14. [开源端到端边缘机器学习开发平台](#item-14) ⭐️ 6.0/10
+1. [新型 HIV 疫苗在临床前研究中取得空前成功](#item-1) ⭐️ 8.0/10
+2. [Kimi Linear：新型高效注意力架构](#item-2) ⭐️ 8.0/10
+3. [谷歌提出面向 AI 时代的企业安全模型“Beyond Zero”](#item-3) ⭐️ 8.0/10
+4. [国产 AI 实现虚拟试药，成果登 Cell 主刊](#item-4) ⭐️ 8.0/10
+5. [Anthropic 为开放权重 AI 模型提出严格规定](#item-5) ⭐️ 8.0/10
+6. [即将发布的 Qwen3.7-flash：具备 1M 上下文窗口的小型 MoE 模型](#item-6) ⭐️ 8.0/10
+7. [一篇理解 Kimi Delta 注意力机制的指南](#item-7) ⭐️ 7.0/10
+8. [尽管已推出十年，DMARC 强制实施缺口依然存在](#item-8) ⭐️ 7.0/10
+9. [500 美元 RL 微调使 9B 开源模型在目录审查中超越前沿模型](#item-9) ⭐️ 7.0/10
+10. [DeepSeek V4 Flash 在 AMD Ryzen AI MAX+ 395 上达到 32 tok/s 的速度](#item-10) ⭐️ 7.0/10
+11. [DSpark 投机解码方案提议集成至 llama.cpp](#item-11) ⭐️ 7.0/10
+12. [SWE-rebench 基准测试扩展至多语言软件工程任务](#item-12) ⭐️ 7.0/10
+13. [AI 使用指南从聊天转向智能体系统](#item-13) ⭐️ 6.0/10
+14. [OpenAI 拒绝加入由英伟达成立的开放安全 AI 联盟](#item-14) ⭐️ 6.0/10
+15. [自 2025 年 3 月以来，欧盟 RTX 5090 价格上涨了 30%](#item-15) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Anthropic 倡导对开放权重模型实施强制性 AI 安全测试](https://www.anthropic.com/news/position-open-weights-models) ⭐️ 8.0/10
+## [新型 HIV 疫苗在临床前研究中取得空前成功](https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/) ⭐️ 8.0/10
 
-Anthropic 发布了一份声明，阐述了其立场，即所有足够强大的 AI 模型（包括开放权重模型）都应接受强制性安全测试。该公司同时针对社区的批评为其立场辩护，重申其并非主张禁止开放权重模型本身。 这份声明代表了一家主要 AI 实验室在关于开放与封闭 AI 开发的关键辩论上的政策立场，直接影响着强大 AI 技术的可及性和治理方式。它引发了一场关于在 AI 行业中平衡安全与创新和竞争的高风险讨论。 Anthropic 的提议意味着一个中央化的测试机构可能充当看门人，批评者将其比作历史上使用的贸易限制机制。该公司的立场被置于更广泛的国家 AI 政策呼吁中，包括对华芯片出口管制等措施，一些人认为这与其陈述的原则相矛盾。
+一种旨在像“课程”一样训练免疫系统的新型序贯 HIV 疫苗方案，在恒河猴的临床前研究中取得了前所未有的成功，有效预防了感染。该疫苗在 44%的动物中显示出疗效，在这个大多数候选疫苗都失败的领域是一个显著的结果。 这一突破为长达数十年寻找有效 HIV 疫苗的努力带来了新的希望。尽管存在 PrEP 等治疗手段，但开发疫苗仍是全球卫生的关键目标。如果这些有前景的临床前结果能在人类身上得到验证，它可能从根本上改变全球预防 HIV 传播的方法。 该疫苗方案采用序贯方法，每一剂都旨在引导 B 细胞发育的不同阶段，充当“免疫课程”。虽然在恒河猴中 44%的疗效是向前迈出的一大步，但该研究仍处于临床前阶段，疫苗目前正进入早期人体试验阶段，而许多之前的候选疫苗都在此阶段失败。
 
-hackernews · surprisetalk · 7月27日 22:03 · [社区讨论](https://news.ycombinator.com/item?id=49076057)
+hackernews · codebyaditya · 7月28日 13:12 · [社区讨论](https://news.ycombinator.com/item?id=49083314)
 
-**背景**: 开放权重 AI 模型指的是那些训练好的模型参数（权重）被公开发布的系统，允许开发者自由整合和构建，这与完全闭源的模型不同。AI 安全测试，或称为“评估”，涉及在部署前通过系统性评估来识别和衡量 AI 系统中潜在的风险或不良能力。
+**背景**: 由于 HIV 病毒能够快速突变并逃避免疫系统，开发 HIV 疫苗一直是现代医学面临的最大挑战之一。临床前研究通常使用恒河猴作为模型，因为它们的免疫系统与人类相似，使其成为测试潜在疫苗的关键试验场。序贯或“课程”方法旨在逐步训练免疫系统，而不是依赖单次注射来引发广泛的保护性反应。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.cnet.com/tech/services-and-software/openais-new-models-arent-really-open-what-to-know-about-open-weights-ai/">OpenAI's New Models Aren't Really Open : What to Know... - CNET</a></li>
-<li><a href="https://cset.georgetown.edu/article/ai-safety-evaluations-an-explainer/">AI Safety Evaluations: An Explainer | Center for Security and Emerging Technology</a></li>
+<li><a href="https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2020.590780/full">Frontiers | Major Scientific Hurdles in HIV Vaccine Development...</a></li>
+<li><a href="https://www.sciencedirect.com/topics/immunology-and-microbiology/rhesus-monkey">Rhesus Monkey - an overview | ScienceDirect Topics</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区讨论普遍持批评和怀疑态度，评论者指责 Anthropic 以安全为借口来扼杀竞争并保护其商业利益。主要的反驳论点集中在该提议可能导致看门人现象和不公平的限制上，并指出了该公司在其他政策立场上的所谓虚伪性。
+**社区讨论**: 评论者赞扬了新颖的“免疫课程”概念，但也强调了重要的注意事项：44%的疗效是积极的，但仍是初步的，人体试验才是真正的障碍，并且像 PrEP 这样的实用替代方案已经存在以阻止传播。一些人还链接了主要的科学论文和同行评审文件，以供进行更深入的技术审查。
 
-**标签**: `#AI Safety`, `#Open Source AI`, `#AI Policy`, `#Corporate Strategy`, `#AI Ethics`
+**标签**: `#HIV`, `#vaccine`, `#immunology`, `#preclinical research`, `#biomedical science`
 
 ---
 
 <a id="item-2"></a>
-## [python-build-standalone：便携式 Python 发行版](https://gregoryszorc.com/docs/python-build-standalone/main/) ⭐️ 8.0/10
+## [Kimi Linear：新型高效注意力架构](https://arxiv.org/abs/2510.26692) ⭐️ 8.0/10
 
-python-build-standalone 项目因其创建独立且高度便携的 Python 发行版的文档而受到关注。这些发行版被 uv、pipx、Poetry、Hatch 和 Bazel 等主要 Python 工具广泛采用，用于管理和安装 Python 解释器。 该项目为现代 Python 工具链提供了关键基础设施，能够在不同平台上实现快速、可靠且一致的 Python 安装，无需外部依赖。它极大地简化了 Python 生态系统中的依赖管理和应用打包工作。 这些发行版是真正独立的，意味着你可以下载、解压并在任何机器上运行，无需安装额外的系统库。该项目现已在 Astral 组织（astral-sh）下维护，并且构成了 uv 等工具中 Python 版本管理的核心。
+该论文提出了 Kimi Linear，一种混合线性注意力架构，旨在其表达能力和效率上超越标准的完全注意力机制。该架构已经开源，包括其内核、推理实现以及模型检查点，并且是后续高性能模型 Kimi K3 的基础设计。 这种架构为开发更高效、性能更强的大语言模型提供了一条实用路径，可能在不牺牲能力的情况下实现更长的上下文窗口和更快的推理速度。其开源特性使得研究人员和开发者能够基于此进行构建，并将这种高效的注意力机制集成到他们自己的工作中。 Kimi Linear 被描述为完全注意力架构的直接替代品，在需要长输入和长输出的任务中展示了优越的性能。该项目与 Moonshot AI 更大型的 Kimi K3 模型直接相关，并且是后者的基础，后者将该架构扩展到了 2.8 万亿参数。
 
-hackernews · jcbhmr · 7月27日 18:43 · [社区讨论](https://news.ycombinator.com/item?id=49073942)
+hackernews · ronfriedhaber · 7月28日 10:52 · [社区讨论](https://news.ycombinator.com/item?id=49082022)
 
-**背景**: Python 是一种通用的编程语言，但由于其依赖原生 C 库，将其作为独立二进制文件分发到不同操作系统和架构上是复杂的。python-build-standalone 等项目通过将 Python 及其所有依赖项预先编译成一个可重定位的单一包来解决这个问题。这种方法对于需要无缝管理多个 Python 版本的工具来说至关重要。
+**背景**: 注意力机制是 Transformer 模型的核心组件，使模型能够关注输入序列的相关部分。标准的完全注意力机制其计算成本相对于序列长度呈二次方增长，这对于非常长的上下文来说变得难以承受。高效注意力机制（如线性注意力）旨在降低此成本，以实现更具可扩展性和更快的处理速度，这是人工智能领域一个活跃的主要研究方向。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/astral-sh/python-build-standalone">GitHub - astral-sh/python-build-standalone: Produce redistributable builds of Python · GitHub</a></li>
-<li><a href="https://astral.sh/blog/python-build-standalone">A new home for python-build-standalone</a></li>
-<li><a href="https://gregoryszorc.com/docs/python-build-standalone/main/">Python Standalone Builds — python-build-standalone documentation</a></li>
+<li><a href="https://arxiv.org/abs/2510.26692">Kimi Linear : An Expressive, Efficient Attention Architecture</a></li>
+<li><a href="https://vizuara.substack.com/p/kimi-linear-an-expressive-efficient">Kimi - Linear : An Expressive, Efficient Attention Architecture</a></li>
+<li><a href="https://www.kimi.com/blog/kimi-k3">Kimi K3 Tech Blog: Open Frontier Intelligence</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 讨论指出 python-build-standalone 是 uv、pipx 和 Poetry 等许多流行工具中安装 Python 的基础。评论者赞扬其在将 Python 捆绑到应用程序（如 macOS 桌面应用）中的出色品质，并提到了相关的项目，如 Cosmopolitan 的跨平台二进制文件和用于创建单一可执行文件的 PyOxy。
+**社区讨论**: 社区讨论强调了 Kimi Linear 作为强大模型 Kimi K3 的基础的作用，并对开源发布表示赞赏。一些研究人员已经在将其与更新的架构（如 Gated Deltanet 2）进行比较，认为它可能正在演进，而另一些人则辩论了大规模模型中涌现智能的本质。
 
-**标签**: `#Python`, `#packaging`, `#distributions`, `#portability`, `#tooling`
+**标签**: `#AI research`, `#transformer architecture`, `#efficient attention`, `#open-source`, `#machine learning`
 
 ---
 
 <a id="item-3"></a>
-## [沃尔沃/艾彻尔车队平台发现严重安全漏洞](https://eaton-works.com/2026/07/27/my-eicher-hack/) ⭐️ 8.0/10
+## [谷歌提出面向 AI 时代的企业安全模型“Beyond Zero”](https://spawn-queue.acm.org/doi/10.1145/3819083) ⭐️ 8.0/10
 
-安全研究人员 Eaton Works 发现沃尔沃/艾彻尔“我的艾彻尔”车队管理平台存在一个严重漏洞，攻击者可能利用该漏洞接管任何账户并控制连接的车队。该问题已于 2025 年 11 月进行负责任披露，并在 2026 年 7 月公开披露前被供应商修补。 此漏洞凸显了现代互联汽车生态系统中的严重安全风险，云端车队管理的缺陷可能危及对整个商用车队的控制。随着汽车越来越依赖于集中式数字平台，这强调了汽车网络安全的重要性以及采取强有力安全措施的必要性。 研究人员遵循了负责任的披露时间表，供应商在 2025 年 11 月 20 日修复了主要的 API 访问漏洞（此前曾未回应）。该漏洞利用可导致完全接管账户并控制车队，但提供的摘要中未详细说明具体的技术根本原因（例如，认证绕过、不安全的 API）。
+谷歌提出了“Beyond Zero”这一新的企业安全模型，将信任边界从应用程序转移到对实时数据访问行为及其意图的评估。该框架通过一个中央“大脑”增强了现有的 BeyondCorp 身份系统，实现了持续的、实时的安全评估。 Beyond Zero 模型建立在基于资源和行为的安全等原则之上，在特定资源上的特定行为层面评估授权，而非授予广泛的应用访问权限。其目标是在访问发生时即时遏制威胁，将重点从调查转向实时评估和遏制。
 
-hackernews · EatonZ · 7月27日 15:08 · [社区讨论](https://news.ycombinator.com/item?id=49070756)
+hackernews · jordigg · 7月28日 09:59 · [社区讨论](https://news.ycombinator.com/item?id=49081644)
 
-**背景**: 汽车网络安全涉及保护车辆、其系统和连接平台免受网络攻击。像“我的艾彻尔”这样的车队管理平台是云端工具，用于监控、管理甚至远程控制商用车队，使其成为高价值目标。负责任的披露是安全研究人员私下向供应商报告漏洞以允许修复后再公开的标准做法。
+**背景**: 谷歌的 BeyondCorp 是一种开创性的零信任架构，它消除了网络固有的信任，无论用户或设备位于何处，都要求进行验证。新的“Beyond Zero”扩展了这一范式，专注于 AI 代理执行行为的安全性，以应对自主系统访问数据时带来的独特信任边界挑战。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://eaton-works.com/2026/07/27/my-eicher-hack/">Exploiting Volvo / Eicher ’s fleet management platform to gain control...</a></li>
-<li><a href="https://www.kiwa.com/en/services/certification/isosae-21434-road-vehicles-cybersecurity-engineering/">ISO/SAE 21434 Road Vehicles – Cybersecurity Engineering</a></li>
-<li><a href="https://cybellum.com/blog/intro-to-automotive-cybersecurity-regulations/">Intro to Automotive Cybersecurity Standards & Regulations</a></li>
+<li><a href="https://blog.google/security/going-beyond-zero-a-new-paradigm-for-enterprise-security/">Going Beyond Zero: A New Paradigm For Enterprise Security</a></li>
+<li><a href="https://en.wikipedia.org/wiki/BeyondCorp">BeyondCorp - Wikipedia</a></li>
+<li><a href="https://www.ibm.com/new/announcements/real-time-context-for-ai-across-hybrid-environments">Real-time context for AI across hybrid environments | IBM</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者注意到宽裕的披露时间表，并对现代汽车在基本功能上依赖云连接表示担忧。一位用户提到了一个真实案例，即汽车因手机信号不佳而无法启动，而其他人则讨论了企业安全表演与真正用户保护之间的矛盾，并引用了更广泛的“维修权”运动。
+**社区讨论**: 社区讨论强调了担忧，认为该模型可能只是转移而非消除攻击向量，因为它创造了一个中央“统治大脑”作为高价值目标。其他人则指出，该框架可能低估了由训练伪影驱动的非恶意但不稳定的 AI 行为，这暗示了 AI 安全中一个更广泛的问题。
 
-**标签**: `#automotive-security`, `#responsible-disclosure`, `#cybersecurity`, `#fleet-management`, `#IoT-security`
+**标签**: `#AI Security`, `#Enterprise Security`, `#Trust Boundaries`, `#AI Agents`, `#Zero Trust`
 
 ---
 
 <a id="item-4"></a>
-## [法官驳回谷歌对网页抓取工具 SerpAPI 提出的 DMCA 版权主张](https://www.techdirt.com/2026/07/27/judge-rejects-googles-attempt-to-dmca-its-way-out-of-being-scraped/) ⭐️ 8.0/10
+## [国产 AI 实现虚拟试药，成果登 Cell 主刊](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907924&idx=3&sn=654ebf40eb186cf7ff0653d51ed2af96) ⭐️ 8.0/10
 
-法官驳回了谷歌试图利用 DMCA 通知来阻止 SerpAPI 抓取其搜索结果的企图，在最近的法律裁决中驳回了其动议。 这一裁决强化了一个原则，即根据美国版权法，公开可访问的网络数据可能不受保护，这将影响数据获取、竞争以及大型平台与小型开发者之间的权力平衡。 该决定的关键在于美国版权法要求数据排列具有独创性，这是一个比欧盟数据库保护法更严格的标准，并且它发生在谷歌停用其自己的搜索 API 之后，正是这一举动造成了 SerpAPI 所填补的市场空白。
+中国研究人员开发了一套 AI 系统，构建了用于虚拟药物筛选的统一生物表征空间，其研究成果作为国内首个 AI 虚拟细胞研究，发表在 Cell 主刊上。 这一成就标志着中国在 AI 驱动科学领域取得重大突破，有望通过在综合生物学框架内进行高效的计算机模拟药物筛选，从而加速药物研发进程。 其核心创新在于创建了一个统一的表征空间来整合多样的生物数据，这是构建能够模拟细胞行为的 AI 虚拟细胞的基础性步骤，可应用于虚拟药物测试等场景。
 
-hackernews · cdrnsf · 7月27日 18:15 · [社区讨论](https://news.ycombinator.com/item?id=49073513)
+rss · 量子位 · 7月28日 09:58
 
-**背景**: DMCA 是美国的一项法律，为版权所有者提供通知和删除系统，以移除互联网上涉嫌侵权的内容。网页抓取涉及从网站自动提取数据，这种做法经常与服务条款相冲突，但在法律上是模糊的。谷歌的搜索结果是动态生成的数据，法院必须裁决这种数据排列是否具有足够的独创性以获得版权保护。
+**背景**: AI 虚拟细胞是一种旨在模拟细胞及细胞系统行为的计算模型，有望革新生物学研究和医学。虚拟药物筛选利用 AI 在计算机中模拟分子相互作用，使科学家能够在硅基环境中评估药物化合物与特定靶点的潜在效力和结合亲和力，从而降低实验成本并加速候选药物的识别。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://daringfireball.net/linked/2026/07/25/serpapi-google-dismissed">Daring Fireball: Court Grants SerpApi 's Motion to Dismiss ...</a></li>
-<li><a href="https://serpapi.com/">SerpApi : Google Search API</a></li>
+<li><a href="https://www.biorxiv.org/content/10.1101/2023.05.11.540307v1">Unified neural representation model for physical space and linguistic concepts | bioRxiv</a></li>
+<li><a href="https://arxiv.org/html/2409.11654v1">How to Build the Virtual Cell with Artificial Intelligence: Priorities and...</a></li>
+<li><a href="https://www.64-squares.com/ai-in-drug-discovery-and-development/">AI in Drug Discovery and Development - 64 Squares LLC</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者普遍支持 SerpAPI，认为谷歌停用了自己的 API 使得抓取成为必要，并且这种获取对于检测诈骗等任务至关重要。讨论还涉及美国和欧盟数据保护法之间的区别，以及批评谷歌利用其庞大的资源对小型公司提起诉讼。
-
-**标签**: `#legal`, `#web-scraping`, `#copyright`, `#big-tech`, `#data-rights`
+**标签**: `#AI for Science`, `#Drug Discovery`, `#Biological Modeling`, `#Interdisciplinary Research`, `#Scientific Publication`
 
 ---
 
 <a id="item-5"></a>
-## [月之暗面 AI 发布 2.8 万亿参数 Kimi-K3 模型权重](https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything) ⭐️ 8.0/10
+## [Anthropic 为开放权重 AI 模型提出严格规定](https://www.reddit.com/r/LocalLLaMA/comments/1v8hk6b/anthropic_is_calling_for_a_ban_on_openweights/) ⭐️ 8.0/10
 
-月之暗面 AI 已在 Hugging Face 上公开发布了其 2.8 万亿参数模型 Kimi-K3 的 1.56TB 权重，使用了一项非标准许可证。该许可证延续并调整了此前 K2 模型使用的“修改版 MIT 许可证”框架，要求月收入超过 2000 万美元或用户超过 1 亿的商业模型即服务企业必须与月之暗面签订单独协议。 此次发布意义重大，因为 Kimi-K3 是首个达到 2.8 万亿参数规模的开放权重模型，推动了大型语言模型可及性的前沿。其独特的许可模式明确避免使用“开源”一词，并为希望部署最先进开放权重 AI 的企业增加了新的商业条款复杂性。 模型权重托管在 Hugging Face 上，总大小为 1.56TB。其许可条款已从 K2 版本的修改演进而来，现在要求大型“模型即服务”提供商（连续 12 个月总收入超过 2000 万美元）必须与月之暗面 AI 签署单独的商业协议。
+Anthropic 公司提出了一套针对开放权重 AI 模型的强制性要求，作者认为这些要求过于严苛，实际上可能构成一种禁令。该提案引入了具体的合规标准，批评者声称开源开发者和小型组织很可能无法满足这些标准。 这一提案引发了关于 AI 治理的关键辩论，将企业的安全优先事项与推动创新和可及性的开源精神对立起来。如果被采纳，此类法规可能会严重限制高级 AI 模型的开发和分发，影响研究人员、开发者以及更广泛的 AI 生态系统。 拟议的要求可能包括严格的安全测试、文档记录和持续监控义务，这对分散的开源项目来说负担尤其沉重。这种方法与 Anthropic 声称没有危险能力的开放权重模型是一种公共产品的立场相矛盾。
 
-rss · Simon Willison · 7月27日 23:39
+reddit · r/LocalLLaMA · /u/realmvp77 · 7月27日 23:54
 
-**背景**: 月之暗面 AI 是一家中国 AI 公司，开发 Kimi 系列等大型语言模型。“开放权重”是指公开发布模型参数，允许使用和微调，但这不一定意味着训练数据或代码也是开放的，这使其区别于完全的“开源”。此前的 Kimi-K2 版本使用了修改版 MIT 许可证，要求大型商业用户提供署名。
+**背景**: 开放权重 AI 模型是指最终训练参数被公开发布的神经网络，允许任何人下载、使用、修改并在自己的硬件上运行。这种实践是开源 AI 的核心，与仅通过 API 提供的模型相比，它促进了透明度、协作以及对先进技术的更广泛获取。围绕监管它们的辩论涉及在潜在安全风险与开放 AI 生态系统的好处之间取得平衡。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.kimi.com/blog/kimi-k3">Kimi K 3 Tech Blog: Open Frontier Intelligence</a></li>
-<li><a href="https://huggingface.co/blog/ResterChed/kimi-k3-model-overview-mxfp4-quantization-open-wei">Kimi K 3 Model Overview: 2 . 8 T Parameters , MXFP4 Quantization, and...</a></li>
+<li><a href="https://www.anthropic.com/news/position-open-weights-models">Our position on open - weights models \ Anthropic</a></li>
+<li><a href="https://hai.stanford.edu/ai-definitions/what-is-an-open-weight-model">What is an Open-Weight Model? - Stanford HAI</a></li>
+<li><a href="https://opensource.org/ai/open-weights">Open Weights: not quite what you’ve been told</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: No community comments were provided for analysis.
+**社区讨论**: Reddit 上的讨论对 Anthropic 的提议持高度批评态度，许多评论者认为这是以安全为幌子扼杀开源竞争的掩饰性企图。用户担心此类规则会将权力集中在少数大公司手中，并阻碍学术研究和创新。
 
-**标签**: `#large language models`, `#open-source AI`, `#model release`, `#licensing`, `#AI research`
+**标签**: `#AI policy`, `#open-source AI`, `#LLM regulation`, `#AI ethics`, `#Anthropic`
 
 ---
 
 <a id="item-6"></a>
-## [独立评估发现六款前沿大语言模型在政治倾向上偏左](https://www.reddit.com/r/MachineLearning/comments/1v8fnzw/evaluated_6_frontier_llms_gpt54_claude_sonnet_46/) ⭐️ 8.0/10
+## [即将发布的 Qwen3.7-flash：具备 1M 上下文窗口的小型 MoE 模型](https://www.reddit.com/r/LocalLLaMA/comments/1v8kbwn/first_evidence_of_a_pending_qwen37_open_weights/) ⭐️ 8.0/10
 
-一项独立评估对六款前沿大语言模型（GPT-5.4、Claude Sonnet 4.6、Claude Opus 4.7、Gemini Pro、Gemini Flash 和 Grok 4.3）在八个既有的偏见数据集上进行了基准测试，发现所有模型（包括 Grok）都表现出政治左倾倾向。研究还揭示了针对种族相关问题的拒绝率存在显著差异，其中 GPT-5.4 的拒绝率为 20.3%，而其他一些模型仅为 5%。 这项评估提供了关于当前顶级 AI 模型政治和社会偏见的新型、大规模实证数据，这对于理解它们在公平性、安全性和社会对齐方面的现实影响至关重要。Grok 在自我报告中声称无偏见但实际测量显示左倾的发现，凸显了 AI 治理中的一个关键挑战，以及模型声称与实际表现之间的差距。 该评估使用了来自八个基准测试（包括 WinoBias、BBQ 和 Political Compass）的大约 20,600 个样本，但这是一个未经同行评审的独立项目，存在局限性，如仅进行单次测试且没有多次运行取平均值。数据、各模型详细分析和完整方法论已公开在项目的网站上。
+有证据表明 Qwen3.7-flash 模型即将开源权重发布，该模型已出现在 OpenRouter 平台上。根据其前代模型 Qwen3.6-35b-a3b 的命名惯例推测，这很可能是一个小型的混合专家模型。 这一发展为开源社区提供了一个新的、高效的、可能更经济的大语言模型，其具备原生百万级令牌上下文窗口。它扩展了开发者寻求强大、经济高效的混合专家模型用于长上下文应用的选择。 据报道，Qwen3.7-flash 的 API 定价远低于前代 Qwen3.6-flash 模型。该模型被描述为适用于多模态任务的视觉语言推理模型，但本次新闻的重点是其即将开源的权重。
 
-reddit · r/MachineLearning · /u/marggggggggg · 7月27日 22:37
+reddit · r/LocalLLaMA · /u/fulgencio_batista · 7月28日 01:52
 
-**背景**: 偏见基准测试是用于衡量 AI 模型中社会和政治偏见的标准化数据集。像 BBQ（问答偏见基准测试）这样的数据集在多个维度上测试针对受保护类别的偏见，而 WinoBias 则评估共指消解中的性别偏见。评估偏见是 AI 安全性和对齐研究的一个关键组成部分，旨在确保模型公平且按预期行为。
+**背景**: Qwen（通义千问）是阿里巴巴开发的领先的开源大语言模型系列，包含各种规模的稠密和混合专家架构模型。混合专家模型在处理每个输入时只激活一部分参数，从而实现更高效的计算。上下文窗口定义了模型一次能处理的文本量，百万级令牌代表了非常大的处理能力。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2110.08193">[2110.08193] BBQ: A Hand-Built Bias Benchmark for Question Answering</a></li>
-<li><a href="https://aclanthology.org/2022.findings-acl.165/">BBQ: A hand-built bias benchmark for question answering - ACL Anthology</a></li>
-<li><a href="https://uclanlp.github.io/corefBias/overview">WinoBias dataset</a></li>
+<li><a href="https://openrouter.ai/qwen/qwen3.7-flash">Qwen 3 . 7 Flash - API Pricing & Providers | OpenRouter</a></li>
+<li><a href="https://github.com/QwenLM/Qwen3">GitHub - QwenLM/ Qwen 3 : Qwen 3 is the large language model series...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#LLM evaluation`, `#bias and fairness`, `#political bias`, `#AI safety`, `#benchmarking`
+**社区讨论**: 该消息在 Reddit 上发布，但提供的内容中并未包含所链接帖子的社区评论。因此，无法提供讨论情绪的摘要。
+
+**标签**: `#LLM`, `#Open-Source`, `#Model Release`, `#MoE`, `#AI Pricing`
 
 ---
 
 <a id="item-7"></a>
-## [案例研究：在生产环境中用 HTMX 替换 React](https://misago-project.org/t/removing-reactjs-from-the-codebase-and-adapting-htmx-for-ui-interactivity/1267/) ⭐️ 7.0/10
+## [一篇理解 Kimi Delta 注意力机制的指南](https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention) ⭐️ 7.0/10
 
-一份详细的报告分享了将 Misago 代码库中的 React.js 完全移除并改用 HTMX 实现 UI 交互的实践经验，这是一个实用的架构案例研究。 这个案例研究提供了一个具体实例，展示了从复杂的单页应用程序框架向更简单、以服务器为中心的模型转变的趋势，并引发了社区对架构权衡的重要讨论。 该项目强调了性能、开发体验和适用性方面的权衡，社区成员指出 HTMX 在处理服务器渲染内容方面表现出色，但在高度交互、过滤密集的界面中可能面临挑战。
+一篇技术博客文章详细推导了 Kimi Delta 注意力机制，这是一种使用外积求和来维持固定大小状态的新颖线性注意力机制，旨在提高 Transformer 模型的效率。 这篇深度解析文章以更易懂的方式阐释了一个复杂算法，可能有助于揭开这一关键技术的神秘面纱，用于构建更高效、能处理长上下文的 AI 模型，挑战标准的 Transformer 架构。 KDA 机制通过将键和值的外积求和存储在一个固定大小的状态中来运作，文章使用括号符号逐步推导了这一过程，以阐明算法的数据结构。
 
-hackernews · Ralfp · 7月27日 09:58 · [社区讨论](https://news.ycombinator.com/item?id=49067301)
+hackernews · AnhTho_FR · 7月28日 16:02 · [社区讨论](https://news.ycombinator.com/item?id=49085909)
 
-**背景**: React 是一个流行的 JavaScript 库，用于构建交互式用户界面，通常采用基于组件的客户端方法，即单页应用程序。HTMX 是一个轻量级的现代库，通过扩展 HTML 属性来实现动态的服务器渲染内容更新，倡导更简单的超媒体驱动方法。本案例研究探讨了从 React 到 HTMX 的架构转变。
+**背景**: Kimi Delta 注意力（KDA）是 Moonshot AI 开发的一种先进线性注意力模块，建立在 Gated DeltaNet 等概念之上。传统 Transformer 使用的注意力机制，其计算和内存成本随序列长度呈二次方增长，导致处理超长文本时效率低下。像 KDA 这样的线性注意力变体旨在通过将上下文压缩到固定大小的状态中，将复杂度降低到线性时间，从而更高效地处理长序列。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Htmx">htmx - Wikipedia</a></li>
-<li><a href="https://htmx.org/">htmx - high power tools for html</a></li>
+<li><a href="https://arxiv.org/abs/2510.26692">[2510.26692] Kimi Linear: An Expressive, Efficient Attention Architecture</a></li>
+<li><a href="https://github.com/MoonshotAI/Kimi-Linear">GitHub - MoonshotAI/Kimi-Linear · GitHub</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Attention_(machine_learning)">Attention (machine learning) - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区讨论参与度很高，开发者们分享了不同的体验。一些人赞扬 HTMX 简洁且适合论坛等服务器渲染应用，而另一些人则报告了在复杂、数据密集的交互式 UI 中存在性能问题。
+**社区讨论**: Hacker News 上的评论者主要关注理解该复杂符号的难度，有人开玩笑说自己无法自己推导出这个算法。一个讨论点是机器学习领域缺乏统一的数学符号，这在不同研究论文之间造成了摩擦。
 
-**标签**: `#web development`, `#HTMX`, `#React`, `#frontend architecture`, `#software engineering`
+**标签**: `#machine-learning`, `#transformers`, `#attention-mechanisms`, `#technical-explanation`, `#AI-research`
 
 ---
 
 <a id="item-8"></a>
-## [Paged Out #9：免费技术杂志发布](https://pagedout.institute/download/PagedOut_009.pdf) ⭐️ 7.0/10
+## [尽管已推出十年，DMARC 强制实施缺口依然存在](https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026) ⭐️ 7.0/10
 
-社区驱动的实验性技术杂志 Paged Out!发布了第九期，现可免费下载 PDF 版本。本期杂志包含关于 C 语言编程、亚像素渲染等零散而深入的技术话题的单页文章。 该出版物为程序员和黑客群体提供了设计精美、易于获取的高度策展深度技术内容，填补了现代网络内容中常缺失的深度探索空白。其社区驱动的模式和独特的单页单篇文章形式，使其成为对低级计算和系统编程感兴趣者的宝贵资源。 该杂志遵循严格的实验性格式，每篇文章恰好占据一页，这对作者来说既是创意限制也是技术挑战。它以免费许可发布并依靠社区支持，同时计划推出可购买的印刷版本。
+一项分析显示，尽管 DMARC 邮件安全协议自 2012 年起就已公开，但仍有 68.4% 的互联网域名未强制实施该协议。这凸显了电子邮件基础设施中一个持续且重大的安全缺口。 这一低采用率使大量域名容易遭受电子邮件欺骗和钓鱼攻击，削弱了互联网安全的关键一环，影响全球组织和个人对电子邮件通信的信任度。 文章指出了诸如 RUA（聚合报告 URI）数据碎片化，以及小型组织在监控和实施严格 DMARC 策略（如 p=reject 或 p=quarantine）时面临的实际困难等挑战。这表明，虽然 DMARC 是一个强大的工具，但要实现完全强制实施却很复杂。
 
-hackernews · laurensr · 7月27日 14:22 · [社区讨论](https://news.ycombinator.com/item?id=49070138)
+hackernews · adulion · 7月28日 10:20 · [社区讨论](https://news.ycombinator.com/item?id=49081783)
 
-**背景**: Paged Out! 是一本免费的实验性技术杂志，涵盖编程、黑客技术、安全、复古计算、电子技术和演示场景（demoscene）等领域。它在风格和精神上被明确比作 Phrack——一本于 1985 年首次出版的传奇且极具影响力的黑客电子杂志，以其深度技术文章和与黑客文化的紧密联系而闻名。
+**背景**: DMARC（基于域名的消息认证、报告和一致性）是一种电子邮件认证协议，建立在 SPF 和 DKIM 之上。它允许域名所有者指定接收邮件服务器如何处理未通过认证检查的电子邮件，其策略包括“none”（仅监控）、“quarantine”（隔离）或“reject”（拒绝）。其目标是防止攻击者欺骗组织的域名以发送欺诈性电子邮件。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://pagedout.institute/">Paged Out !</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Phrack_Magazine">Phrack Magazine</a></li>
+<li><a href="https://www.validity.com/email-authentication/dmarc/">What is DMARC ? How Does DMARC Work? - Validity</a></li>
+<li><a href="https://www.valimail.com/blog/what-is-dmarc-enforcement-and-why-is-it-so-important/">DMARC policy options: What it is & how to reach enforcement</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区反响积极而热情，评论者特别提到了《Baby Steps in C》和《The Subpixel Zoo》等文章作为亮点。许多人将其与《Phrack》和《2600》等经典黑客出版物进行了有利的比较，并且对即将推出的印刷版表现出了即时的购买兴趣。
+**社区讨论**: 评论者对 DMARC 强制实施常常因大型发件方常见的 SPF/DKIM 失败而拦截合法业务邮件，却无法阻止复杂垃圾邮件或钓鱼邮件感到沮丧。他们强调了小型 IT 团队面临的实际挑战，例如在缺乏专业知识的情况下管理 DNS 记录，并建议对未使用的域名发布拒绝策略等主动措施以防止滥用。
 
-**标签**: `#technical magazine`, `#systems programming`, `#computer science`, `#low-level computing`, `#digital publication`
+**标签**: `#email security`, `#DMARC`, `#cybersecurity`, `#sysadmin`, `#internet infrastructure`
 
 ---
 
 <a id="item-9"></a>
-## [Libsm64：将《超级马里奥 64》封装为可复用的库](https://github.com/libsm64/libsm64) ⭐️ 7.0/10
+## [500 美元 RL 微调使 9B 开源模型在目录审查中超越前沿模型](https://fermisense.com/when-machines-take-the-wheel/) ⭐️ 7.0/10
 
-开源项目 libsm64 已创建，它从《超级马里奥 64》中提取核心的移动与渲染逻辑，并将其封装为一个独立的 C 语言库。这使得游戏逻辑可以作为组件集成到任何外部游戏引擎中，并与原始 ROM 完全解耦。 该项目展示了一种新颖且实用的代码复用与创意工程方法，使开发者能够在全新环境中实验标志性的游戏机制。它以具体、有趣的成果实现了可互操作游戏资产和角色的概念，绕开了此前关于“元宇宙”的炒作。 libsm64 作为从《超级马里奥 64》ROM 完全反编译代码中派生的状态机运作，并为反向工程的代码提供了清晰接口。需要注意的是，它虽然提取了逻辑，但用户仍需自行提供引擎来处理图形渲染和平台特定的集成工作。
+一项仅花费 500 美元的强化学习微调，成功地将一个 9B 参数的开源模型在特定的目录审查任务上调整到超越大型前沿模型的性能。 这一案例证明了通过低成本、高效的特定任务微调，而非昂贵的通用大规模模型训练，可以为大多数实际应用场景提供经济上可行且性能更优的 AI 解决方案，这对当前 AI 军备竞赛的商业模式和基础设施投资逻辑构成了挑战。 该微调针对的是特定的“目录审查”任务，其成功突显了模型专业化相对于通用扩展的巨大优势，并且开源模型权重和低成本微调服务的普及是实现这一成果的关键前提。
 
-hackernews · klaussilveira · 7月27日 10:04 · [社区讨论](https://news.ycombinator.com/item?id=49067352)
+hackernews · ilreb · 7月28日 02:18 · [社区讨论](https://news.ycombinator.com/item?id=49078454)
 
-**背景**: 《超级马里奥 64》是 1996 年发布的任天堂 64 游戏机标志性游戏。近年来，一个社区主导的反编译项目成功地逆向工程了其源代码，使其在法律和技术上都变得可访问。libsm64 基于此项工作，将反编译的代码模块化，把游戏的模拟逻辑与其原始表现层分离。
+**背景**: 大型语言模型通常通过在海量数据上训练以获得通用能力。然而，对于大多数企业应用，只需要模型完成特定任务。强化学习微调是一种高效调整现有模型行为的方法，使其更精准地适应特定任务，成本远低于从头训练一个新模型。这使得在消费级硬件上运行的较小开源模型，也能在专业领域超越庞大的闭源前沿模型。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/libsm64/libsm64">GitHub - libsm 64 / libsm 64 : Mario 64 as a library for use in external...</a></li>
-<li><a href="https://asibiont.com/en/blog/libsm64-kak-kultovyy-super-mario-64-prevratili-v-biblioteku-dlya-igrovykh-dvizhkov">Libsm 64 : Super Mario 64 Reborn as a Library for... — ASI Biont Blog</a></li>
-<li><a href="https://numfer.com/libsm64/libsm64">libsm 64 : Mario 64 library for game engines</a></li>
+<li><a href="https://aisuperior.com/llm-fine-tuning-cost/">LLM Fine - Tuning Cost : 2026 Pricing Guide & Hidden Expenses</a></li>
+<li><a href="https://www.linkedin.com/posts/arundhati-banerjee-130912a0_please-upgrade-your-browser-in-order-to-use-activity-7363782550240022530-PRFV">NVIDIA Nemotron Nano 2: A 9 B Parameter Open Model | LinkedIn</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区反应热情且富有创造力，用户们分享了如马里奥出现在《半衰期 2》中的演示，并赞扬该项目是可互操作角色概念的具体实现。讨论重点包括项目用于趣味实验的潜力、希望为非工程师用户提供更友好安装方式的需求，以及对已使用该库的现有项目的好奇。
+**社区讨论**: 讨论揭示了两种主要观点：一方认为大多数实际用例并不需要庞大且昂贵的通用模型，低成本微调和开源模型将颠覆现有 AI 经济；另一方则警告称，微调可能迅速过时，因为前沿模型的免费进步和“静待其变”可能是更经济的策略，且训练成本仅是总成本的一部分。
 
-**标签**: `#game-engine`, `#open-source`, `#retro-gaming`, `#code-reuse`, `#creative-engineering`
+**标签**: `#reinforcement-learning`, `#fine-tuning`, `#open-source-ai`, `#cost-optimization`, `#model-specialization`
 
 ---
 
 <a id="item-10"></a>
-## [Simon Willison 分析 AI 工具从聊天转向智能体系统的趋势](https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything) ⭐️ 7.0/10
+## [DeepSeek V4 Flash 在 AMD Ryzen AI MAX+ 395 上达到 32 tok/s 的速度](https://www.reddit.com/r/LocalLLaMA/comments/1v9100b/deepseek_v4_flash_up_to_32_toks_on_amd_ryzen_ai/) ⭐️ 7.0/10
 
-Simon Willison 分析了 Ethan Mollick 不断更新的 AI 工具指南，重点关注了从基于聊天的界面（如 ChatGPT、Claude、Gemini）到能够执行大量自主工作的强大智能体系统的重大转变。他指出，由于 Google 在新兴的 'Work/Cowork' 智能体类别中缺乏有力竞争者，Gemini 已从 Mollick 的推荐列表中落选。 这一分析意义重大，因为它反映了人工智能领域的快速演变，焦点正从对话式 AI 转向自主智能体能力，这将从根本上改变用户与这些工具的交互方式并利用它们处理复杂任务。它为正在为不同用例选择投资哪个 AI 平台的专业人士提供了实用指导。 一个关键技术细节是，模式名称（例如 ChatGPT 的 'Work' 和 Codex，Claude 的 'Cowork' 和 Code）令人困惑，并且根据您在移动设备还是桌面设备上使用，其操作方式有所不同。此外，将 ChatGPT 移动版切换到 'Work' 模式会为其代码解释器容器解锁互联网访问，这是一个重大的功能变化。
+用户通过一种新颖的 ROCmFPX 量化方法，在配备 128 GB 统一内存的单颗 AMD Ryzen AI MAX+ 395 芯片上，实现了 DeepSeek V4 Flash 模型高达 32 tok/s 的推理速度，相比之前的最佳成绩提升了 68-105%。 这证明了一个拥有 2840 亿参数的大型语言模型可以在消费级 AMD 硬件上以可用的速度运行，这可能会让强大的 AI 模型普及化，不再需要昂贵的 NVIDIA GPU。 ROCmFPX 量化采用了混合精度（部分层低至约 2.5 位/权重），将模型的 102.3 GB 权重压缩以适配 128 GB 内存；同时，采用较小的草稿模型（DSPark）进行推测解码，在基线自回归速度基础上提升了 26.4%。
 
-rss · Simon Willison · 7月27日 21:55
+reddit · r/LocalLLaMA · /u/sandropuppo · 7月28日 15:00
 
-**背景**: 智能体 AI 系统旨在自主执行多步骤任务和工作流程，超越了简单的反应式聊天机器人。OpenAI（ChatGPT）和 Anthropic（Claude）等主要 AI 提供商现在提供模式，允许这些模型在更大自主性下运行，有时通过向它们提供对沙盒计算机环境甚至用户自身计算机的访问权限来实现。
+**背景**: DeepSeek V4 Flash 是一个针对效率优化的 MoE（混合专家）大语言模型，总参数量达 2840 亿，但每个 token 仅激活 130 亿参数。ROCmFPX 是一系列专为 AMD ROCm 软件栈设计的量化格式，用于在 AMD GPU 上运行模型。LocalLLaMA 是一个专注于在个人硬件上本地运行和优化大语言模型的热门 Reddit 社区。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.freshworks.com/freshdesk/ai-agent/vs-conversational-ai/">Agentic AI vs Conversational AI: Key Differences Explained</a></li>
-<li><a href="https://www.chetu.com/blogs/artificial-intelligence/chatbots-vs-agentic-ai-key-differences-and-transition.php">AI Chatbots vs. Agentic AI — What's the Difference? | Chetu</a></li>
+<li><a href="https://openrouter.ai/deepseek/deepseek-v4-flash">DeepSeek V 4 Flash - API Pricing & Benchmarks | OpenRouter</a></li>
+<li><a href="https://huggingface.co/philtheriver/Qwopus3.6-27B-Coder-MTP-ROCmFPX">philtheriver/Qwopus3.6-27B-Coder-MTP- ROCmFPX · Hugging Face</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI tools`, `#agentic systems`, `#technology guide`, `#ChatGPT`, `#Claude`, `#Gemini`
+**标签**: `#Local LLMs`, `#AMD ROCm`, `#Model Quantization`, `#Hardware Performance`, `#Open Source`
 
 ---
 
 <a id="item-11"></a>
-## [综述：解决 3D 高斯溅射内存消耗的五个方向](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907517&idx=3&sn=47197285f42f0199832d9f5b6612b961) ⭐️ 7.0/10
+## [DSpark 投机解码方案提议集成至 llama.cpp](https://www.reddit.com/r/LocalLLaMA/comments/1v8w91b/spec_add_dspark_speculative_decoding_by_wjinxu/) ⭐️ 7.0/10
 
-一篇综述文章指出并概述了五个潜在解决方案方向，以解决 3D 高斯溅射（3DGS）中关键的内存消耗瓶颈问题，即单个场景可能消耗 700MB 显存。 该综述特别强调，为了实现实用的实时 3DGS 渲染，光栅化器需要与算法、内存管理和硬件协同演进。
+一个新的拉取请求（PR #25173）提议将名为 DSpark 的投机解码框架添加到 llama.cpp 项目中。该实现旨在通过结合并行草稿生成与自适应验证来加速推理过程。 将 DSpark 集成到广泛使用的开源大语言模型推理引擎 llama.cpp 中，可能显著提升本地和设备端 AI 部署的性能。这使得社区能够测试并可能采用一种新的优化方法，从而在大语言模型中平衡速度与输出质量。 DSpark 框架使用马尔可夫逻辑偏差和置信度调度，将高吞吐量的并行生成与负载感知验证统一起来。该 PR 链接到如 DeepSeek-V4-Pro-DSpark 和 Bonsai-27B-antidoom-1bit-DSpark 等预配置模型，以便立即进行实验。
 
-rss · 量子位 · 7月27日 03:31
+reddit · r/LocalLLaMA · /u/pmttyji · 7月28日 11:52
 
-**背景**: 3D 高斯溅射（3DGS）是一种新颖的神经渲染技术，它使用数百万个微小的半透明高斯椭球体来表示 3D 场景，以实现高保真、实时的渲染。与传统的多边形网格不同，其数据结构可能变得非常大，导致显著的显存消耗，从而限制了在消费级硬件上的部署。
+**背景**: 投机解码是一种用于加速大语言模型推理的技术。一个更小、更快的“草稿”模型并行生成多个候选词元，然后主“目标”模型对其进行验证和修正，旨在以接近草稿模型的速度实现目标模型的质量。llama.cpp 是一个流行的 C/C++ 实现，用于在消费级硬件上进行高效的大语言模型推理。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Gaussian_splatting">Gaussian splatting - Wikipedia</a></li>
-<li><a href="https://blog.chaos.com/3d-gaussian-splatting-new-frontier-in-rendering">3D Gaussian Splatting: A new frontier in rendering</a></li>
+<li><a href="https://www.emergentmind.com/topics/dspark">DSpark : Speculative Decoding</a></li>
+<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark">deepseek-ai/ DeepSeek - V 4 - Pro - DSpark · Hugging Face</a></li>
+<li><a href="https://huggingface.co/Danny-Dasilva/Bonsai-27B-antidoom-1bit-DSpark">Danny-Dasilva/ Bonsai -27B- antidoom -1bit- DSpark · Hugging Face</a></li>
 
 </ul>
 </details>
 
-**标签**: `#3D Gaussian Splatting`, `#Computer Graphics`, `#Memory Optimization`, `#Real-time Rendering`, `#AI for Graphics`
+**社区讨论**: 该 Reddit 帖子明确呼吁社区进行实验并分享性能统计数据，特别是预填充（pp）和文本生成（tg）的每秒词元数。讨论集中在收集实证基准数据，以评估 DSpark 在 llama.cpp 环境中的实际加速效果。
+
+**标签**: `#llm-inference`, `#speculative-decoding`, `#llama.cpp`, `#performance-optimization`, `#open-source`
 
 ---
 
 <a id="item-12"></a>
-## [从零开始构建用于英泰翻译的 Transformer 模型及数学指南](https://www.reddit.com/r/MachineLearning/comments/1v86qo9/built_trained_a_transformer_from_scratch_in_pure/) ⭐️ 7.0/10
+## [SWE-rebench 基准测试扩展至多语言软件工程任务](https://www.reddit.com/r/LocalLLaMA/comments/1v93phk/swerebench_multilingual_update_go_java_python/) ⭐️ 7.0/10
 
-一位用户完全使用纯 PyTorch 从零开始构建并训练了一个用于英泰机器翻译的完整 Transformer 模型，并分享了详细的博客文章和 GitHub 仓库。该教程涵盖了原始论文《Attention Is All You Need》中的每一个数学方程式和张量形状变化。 这为机器学习从业者提供了一个宝贵的实践教育资源，帮助他们超越使用高级库，深入理解 Transformer 架构。它证明了从基本原理实现复杂模型的可行性，并为低资源语言的翻译贡献了开源知识。 该实现使用 Hugging Face 数据集 'gopi30/english-tamil' 进行了训练，训练平台为 Kaggle 上的双 NVIDIA T4 GPU。随附材料包括一个分步博客和一个包含完整 PyTorch 代码的公共 GitHub 仓库。
+SWE-rebench 排行榜发布了一个重大更新，为评估套件新增了涵盖 Go、Java、Python、Rust 和 TypeScript 五种语言的真实世界软件工程任务。现在，它为 GLM-5.2 和 DeepSeek-V4 Pro 等流行的开源权重模型提供了跨这五种语言的性能指标。 此次更新为开源和本地 AI 社区提供了一个更全面、更现实的基准，用于评估模型在 Python 之外的软件工程领域能力。它为选择模型和开发编码代理及本地部署提供了具体性能数据，直接回应了社区的一个关键需求。 基准测试使用 Pass@1 和 Pass@5 指标，分别衡量模型在一次或五次尝试中正确完成任务的概率。排行榜组织者正在积极征集社区关于接下来评估哪些本地模型的意见，重点关注适合本地部署的模型。
 
-reddit · r/MachineLearning · /u/imrancoder · 7月27日 17:17
+reddit · r/LocalLLaMA · /u/Fabulous_Pollution10 · 7月28日 16:37
 
-**背景**: Transformer 架构在 2017 年论文《Attention Is All You Need》中提出，它完全依赖自注意力机制，彻底改变了自然语言处理领域。虽然许多高级库提供预构建模型，但使用 `torch.nn` 原语从零开始构建是一个严谨的学习练习。英泰翻译是南亚语言机器翻译这一更广泛领域中的一个具体应用。
+**背景**: SWE-rebench 是一个持续演进的基准测试，旨在评估大语言模型在软件工程任务上的表现，目标是提供一个无污染且及时更新的评估。像 SWE-bench 及其变体这样的基准对于衡量 AI 模型理解与修改真实代码库的实际能力至关重要，这是高级编码助手的关键能力。像 Pass@k 这样的指标在这些评估中是衡量任务解决可靠性的标准。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/bnarath/transformer-from-scratch">GitHub - bnarath/ transformer - from - scratch : Implementation of...</a></li>
-<li><a href="https://medium.com/@amanchhetry/attention-is-all-you-need-paper-implementation-658f9027426a">Attention Is All You Need Paper Implementation | Medium</a></li>
-<li><a href="https://arxiv.org/abs/1706.03762">Abstract page for arXiv paper 1706.03762: Attention Is All You Need</a></li>
+<li><a href="https://swe-rebench.com/">SWE - rebench Leaderboard</a></li>
+<li><a href="https://medium.com/data-science-in-your-pocket/llm-benchmarks-explained-03bbcc74315c">LLM Benchmarks explained. Understanding popular LLM ... | Medium</a></li>
+<li><a href="https://www.marktechpost.com/2025/07/31/the-ultimate-2025-guide-to-coding-llm-benchmarks-and-performance-metrics/">The Ultimate 2025 Guide to Coding LLM Benchmarks ... - MarkTechPost</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Transformer`, `#PyTorch`, `#Machine Translation`, `#Tutorial`, `#From Scratch`
+**社区讨论**: 该公告明确征求社区关于在下次更新中应评估哪些本地模型的建议，表明基准测试开发采取了一种协作且响应迅速的方式。这种互动表明，本地使用模型进行软件开发和编码代理的从业者对此有浓厚兴趣。
+
+**标签**: `#LLM benchmarks`, `#software engineering`, `#multilingual evaluation`, `#open-weight models`, `#local AI`
 
 ---
 
 <a id="item-13"></a>
-## [博客文章在 SlopCodeBench 上对 Anthropic 的 Opus 5 进行基准测试](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md) ⭐️ 6.0/10
+## [AI 使用指南从聊天转向智能体系统](https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything) ⭐️ 6.0/10
 
-一篇博客文章对 Anthropic 新发布的 Opus 5 模型在自定义编码基准 SlopCodeBench 上的性能进行了基准评估，测试了其在迭代编码任务中的表现。 这项评测为一款重要的新型 AI 模型的编码能力提供了早期、独立的技术评估，帮助开发者和企业理解其在实际软件开发工作流中的实用价值。 该基准测试使用的是 SlopCodeBench，它专注于测量在迭代规范细化下的代码退化，这一场景测试的是代码的长期可维护性和架构决策，而非一次性解决方案。
+Ethan Mollick 的 AI 工具指南已从关注 ChatGPT 等基于聊天的模型，转向强调能够执行多小时扩展任务的智能体系统。Simon Willison 指出，这一转变凸显了 ChatGPT Work 和 Claude Cowork 等 AI 智能体自主使用计算机的能力日益增长。 该指南解释说，通过桌面应用让 AI 访问您的电脑可以解锁更强大的功能，但模式名称令人困惑且不同（ChatGPT 的 Work/Codex，Claude 的 Cowork/Code）。此外，将 ChatGPT 移动版切换到'Work'模式会移除其代码解释器的互联网限制，这是一个不明显但重要的功能变化。
 
-hackernews · dhorthy · 7月27日 22:37 · [社区讨论](https://news.ycombinator.com/item?id=49076391)
+rss · Simon Willison · 7月27日 21:55
 
-**背景**: SlopCodeBench 是一个社区驱动的基准测试，旨在评估编码代理在不断变化的规范下反复扩展自身解决方案时，其代码质量随时间推移而发生退化的情况。Anthropic 近期发布了 Opus 5，它作为一款更具成本效益的模型，具备接近其顶级 Fable 5 的能力，被定位为适合日常工作的理想模型。
+**背景**: 智能体 AI 系统是传统基于聊天的大型语言模型（LLM）的进阶。虽然 LLM 主要响应提示，但智能体系统可以自主采取行动、使用工具并完成扩展任务。ChatGPT Work 和 Claude Cowork 是各自平台内的特定模式，旨在为 AI 提供访问用户电脑或云环境以执行此类任务的能力。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.scbench.ai/">SlopCodeBench</a></li>
-<li><a href="https://arxiv.org/abs/2603.24755">[2603.24755] SlopCodeBench : Benchmarking How Coding Agents ...</a></li>
-<li><a href="https://ofox.ai/blog/claude-opus-5-api-guide-2026/">Claude Opus 5 API: Fable 5-Class at Half Price, Complete Guide</a></li>
+<li><a href="https://www.aiagentslibrary.com/blog/chatgpt-vs-gemini-spark/">ChatGPT vs Gemini Spark : Which Is Better?</a></li>
+<li><a href="https://aitoolanalysis.com/gemini-spark/">Gemini Spark Review: Google's 24/7 AI Agent Is Here - AI Tool Analysis</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区反馈褒贬不一，一些用户确认 Opus 5 相比 Opus 4.8 等旧版本有明显改进，而另一些用户则认为升级并不显著。评论者还批评了基准测试的范围，并建议应考虑更广泛的模型比较和提示工程策略。
-
-**标签**: `#AI benchmarking`, `#LLM evaluation`, `#coding assistants`, `#Anthropic Opus`, `#developer tools`
+**标签**: `#AI tools`, `#agentic systems`, `#LLMs`, `#practical AI`, `#technology guide`
 
 ---
 
 <a id="item-14"></a>
-## [开源端到端边缘机器学习开发平台](https://www.reddit.com/r/MachineLearning/comments/1v7nudc/recent_project_i_worked_on_end_to_end_edge_ml/) ⭐️ 6.0/10
+## [OpenAI 拒绝加入由英伟达成立的开放安全 AI 联盟](https://www.reddit.com/r/LocalLLaMA/comments/1v8e36c/openai_management_decided_earlier_today_not_to/) ⭐️ 6.0/10
 
-一位开发者发布了 SensorForge，这是一个新的开源平台，旨在简化从原始传感器数据到在微控制器上部署模型的整个工作流程。该平台包含一个用于时间序列数据的自动标注工具和一个用于数据分析的聊天机器人。 该项目直接解决了 tinyML 生态系统中的关键痛点，例如手动标注传感器数据和管理部署管道的困难，这可能会加速为低功耗边缘设备工作的爱好者和专业人士的开发进程。 该平台的自动标注器专门针对时间序列传感器数据，这是一个出了名难以手动标注的任务。内置的聊天机器人可以直接分析信号数据以提供见解，旨在使数据探索更加便捷。
+据报道，OpenAI 管理层决定不加入由英伟达 CEO 黄仁勋创立的“开放安全 AI 联盟”，这是一个专注于开放 AI 模型的网络安全联盟。该决定已内部传达，并据称引发了 OpenAI 员工的强烈不满。 这一决定突显了顶尖 AI 公司在 AI 安全与网络安全最佳实践上可能存在的分歧，因为“开放安全 AI 联盟”包括了微软和 SpaceX 等重要参与者。它暗示了管理和保障先进 AI 系统的不同战略选择，可能影响行业标准和未来的合作关系。 “开放安全 AI 联盟”被描述为一个基于 Linux 基金会工作的倡议，旨在利用开放技术来修复和披露 AI 漏洞。该消息发布前不久，曾发生一起涉及 OpenAI 自主代理的事故，这可能影响了该联盟启动的时间点和背景。
 
-reddit · r/MachineLearning · /u/No-Bug-4879 · 7月27日 02:38
+reddit · r/LocalLLaMA · /u/KickLassChewGum · 7月27日 21:37
 
-**背景**: TinyML 是指在像微控制器这样的小型低功耗设备上部署机器学习模型的领域，可在边缘实现具有低延迟和隐私等优势的 AI。该工作流的一个主要瓶颈是从传感器获取和标注足够质量的训练数据，而该平台的自动标注功能旨在解决这一问题。
+**背景**: “开放安全 AI 联盟”是由英伟达领导、近期成立的一个行业联盟，汇集了科技公司以创建用于 AI 网络安全的开放工具和标准。它旨在将开放性与防止恶意滥用的安全保障相结合，以应对日益增长的 AI 安全担忧。OpenAI 是一家重要的 AI 研究机构，在 2019 年从非营利模式转型为营利模式，此前也曾发生过自身安全事件。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.datacamp.com/blog/what-is-tinyml-tiny-machine-learning">What is TinyML ? An Introduction to Tiny Machine Learning | DataCamp</a></li>
-<li><a href="https://www.geeksforgeeks.org/machine-learning/what-is-tinyml-tiny-machine-learning/">What is TinyML ? Tiny Machine Learning - GeeksforGeeks</a></li>
-<li><a href="https://arxiv.org/html/2407.11042">An Automated Approach to Collecting and Labeling Time Series Data ...</a></li>
+<li><a href="https://blogs.nvidia.com/blog/open-secure-ai-alliance/">Industry Leaders Join Open Secure AI Alliance for AI ... | NVIDIA Blog</a></li>
+<li><a href="https://nairametrics.com/2026/07/27/nvidia-launches-ai-safety-alliance-after-openai-agent-security-scare/">Nvidia launches AI safety alliance after OpenAI agent... - Nairametrics</a></li>
+<li><a href="https://en.wikipedia.org/wiki/OpenAI">OpenAI - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**标签**: `#tinyML`, `#Edge Computing`, `#MLOps`, `#Open Source Tools`, `#Sensor Data`
+**社区讨论**: 原帖中未包含任何社区评论，因此无法提供讨论情绪的总结。
+
+**标签**: `#OpenAI`, `#AI Safety`, `#Corporate Strategy`, `#Industry Alliances`, `#AI Policy`
+
+---
+
+<a id="item-15"></a>
+## [自 2025 年 3 月以来，欧盟 RTX 5090 价格上涨了 30%](https://www.reddit.com/r/LocalLLaMA/comments/1v8vkmm/ive_been_tracking_rtx_5090_prices_across_eu/) ⭐️ 6.0/10
+
+一项用户跟踪分析显示，自 2025 年 3 月以来，NVIDIA RTX 5090 显卡在欧盟地区的平均价格上涨了约 30%，像华硕 TUF OC 等特定型号上涨了 1061 欧元。与此同时，其他系列显卡的价格同期下降了 5%到 15%，形成鲜明对比。 价格的大幅上涨凸显了由本地 AI 推理工作负载驱动的高显存消费级显卡供需失衡，这影响了依赖单卡 32GB 显存设置的开发者和研究人员。这一市场信号可能会影响硬件采购决策以及本地 AI 项目与云替代方案相比的可行性。 价格上涨主要归因于 AI/ML 社区的需求，因为 RTX 5090 是唯一提供 32GB 显存的主流消费级显卡，这对于在无需多显卡设置或激进量化的条件下运行大语言模型至关重要。价格跟踪数据显示，短暂的降价（如 5 月底降至 3026 欧元）是暂时的，并且很快反弹，表明需求持续旺盛。
+
+reddit · r/LocalLLaMA · /u/egudegi · 7月28日 11:23
+
+**背景**: NVIDIA RTX 5090 是 2025 年发布的一款高端消费级显卡，其显著特点是拥有 32GB GDDR7 显存，这在运行大语言模型等本地 AI 推理任务时备受重视。与云服务不同，本地运行 AI 需要大量的显存来加载模型权重，因此 32GB 成为了爱好者和小规模从业者追捧的规格。价格跟踪工具被消费者用来监控市场趋势并在多家零售商中寻找最优惠的价格。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://canitrun.dev/gpus/compare/rtx-5090-vs-m4-ultra-192/">NVIDIA RTX 5090 vs Apple M4 Ultra (192 GB ) for Local AI — Which...</a></li>
+<li><a href="https://markaicode.com/architecture/rtx-5090-local-ai-architecture/">RTX 5090 Local AI Architecture: 4-Component... | Markaicode</a></li>
+<li><a href="https://gpusniper.com/p/pny-dual-oc-rtx-5060/101904">Track PNY Dual OC RTX 5060 | GPU Sniper</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 所提供的内容不包括可供分析的社区评论或讨论。
+
+**标签**: `#GPU Pricing`, `#Local AI Inference`, `#Consumer Hardware`, `#AI/ML Infrastructure`, `#Market Analysis`
 
 ---
 
