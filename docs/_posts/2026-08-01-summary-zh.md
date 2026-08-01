@@ -5,334 +5,310 @@ date: 2026-08-01
 lang: zh
 ---
 
-> 从 28 条内容中筛选出 14 条重要资讯。
+> 从 29 条内容中筛选出 13 条重要资讯。
 
 ---
 
-1. [DeepSeek 发布高性能、高性价比的 V4-Flash-0731 模型](#item-1) ⭐️ 8.0/10
-2. [无状态 MCP 2.0 简化 AI 工具协议](#item-2) ⭐️ 8.0/10
-3. [超级围棋神经网络中的对称性研究](#item-3) ⭐️ 8.0/10
-4. [RipGrep 的 musl 二进制文件在进行超大搜索时因分配器争用而崩溃](#item-4) ⭐️ 7.0/10
-5. [Cursor 从用户界面和数据导出中移除了成本数据](#item-5) ⭐️ 7.0/10
-6. [加拿大签署有争议的联合国网络犯罪公约](#item-6) ⭐️ 7.0/10
-7. [微软发布 Flint：面向 AI 的可视化语言](#item-7) ⭐️ 7.0/10
-8. [将开发管道视为生产系统](#item-8) ⭐️ 7.0/10
-9. [一篇文章探讨人类对静止的挣扎与行动偏见](#item-9) ⭐️ 7.0/10
-10. [开放权重模型达到前沿水平，引发政策辩论](#item-10) ⭐️ 7.0/10
-11. [Simon Willison 发布名为 'smevals' 的 AI 评估工具](#item-11) ⭐️ 7.0/10
-12. [用于个人血糖预测的 Transformer 模型](#item-12) ⭐️ 7.0/10
-13. [VLMs 在基准测试中得分高，却悄然抹去临床术语](#item-13) ⭐️ 7.0/10
-14. [Simon Willison 发布 Alpha 版 LLM-MCP-Client 工具](#item-14) ⭐️ 6.0/10
+1. [OpenAI 声称在十个长期存在的数学难题上取得突破](#item-1) ⭐️ 9.0/10
+2. [ripgrep 的 musl 二进制文件在大规模搜索时出现段错误](#item-2) ⭐️ 8.0/10
+3. [DeepSeek 发布 V4-Flash，一个具有增强智能体能力的 304B 参数模型](#item-3) ⭐️ 8.0/10
+4. [Oxide 与朋友们：与 Simon Willison 聊开放权重革命](#item-4) ⭐️ 8.0/10
+5. [研究分析 KataGo 神经网络中的对称性学习](#item-5) ⭐️ 8.0/10
+6. [谷歌新闻被批评变得无效且不可靠](#item-6) ⭐️ 7.0/10
+7. [加拿大悄然签署联合国网络犯罪公约](#item-7) ⭐️ 7.0/10
+8. [无状态 MCP 2.0 重新构想 AI 智能体工具协议](#item-8) ⭐️ 7.0/10
+9. [Simon Willison 发布 llm-mcp-client 0.1a0](#item-9) ⭐️ 7.0/10
+10. [smevals：一个用于评估 AI 模型的新开源评估套件](#item-10) ⭐️ 7.0/10
+11. [VLMs 在高基准评分中隐藏临床术语遗漏](#item-11) ⭐️ 7.0/10
+12. [新书：《64 位汇编的艺术》发布](#item-12) ⭐️ 6.0/10
+13. [一份目录庆祝 RSS 爱好者及其格式遗产](#item-13) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [DeepSeek 发布高性能、高性价比的 V4-Flash-0731 模型](https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything) ⭐️ 8.0/10
+## [OpenAI 声称在十个长期存在的数学难题上取得突破](https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything) ⭐️ 9.0/10
 
-DeepSeek 已正式发布 DeepSeek-V4-Flash-0731 模型，这是一个拥有 3040 亿参数的混合专家模型，经过一轮额外的后训练，其代理、编码和工具调用能力得到了显著增强。 该模型可通过 OpenRouter 访问，并原生支持 Responses API 格式；测试表明，当推理努力级别从默认提高到高时，输出质量有显著提升。
+OpenAI 宣布，其下一代主要 AI 模型 Astra 的一个内部版本在十个长期未解决的数学和理论计算机科学开放问题上取得了进展。这些以 Lean 4 形式化的证明包括首次发现明确的非 sofic 群以及对 Connes 刚性猜想的否定。 这证明了 AI 在基础、高级数学研究方面的能力取得了重大进步，可能加速纯数学和计算机科学领域的进展。这些成果以相对较低的计算成本（每个问题低于 2,000 美元）取得，表明了一种新范式，即 AI 可以解决困扰人类研究者数十年的问题。 这十个问题涵盖了群论、高维几何、编码理论和量子复杂性等领域。OpenAI 声称每个解决方案的花费低于 2,000 美元（按 GPT-5.6 Sol 代币价格计算），但未成功的尝试总成本尚不清楚。这些证明可通过 Lean 4 进行机器验证，但公司尚未公开所使用的提示。
 
-rss · Simon Willison · 7月31日 23:59
+rss · Simon Willison · 8月1日 20:34
 
-**背景**: DeepSeek 的 V4 系列模型包括像 Flash 这样注重效率的变体，它们采用混合专家架构来处理任务。Artificial Analysis Intelligence Index 是一个基准测试，通过汇总多项 AI 评估的分数，提供对模型智能和成本效益的比较度量。
+**背景**: Astra 模型系列是 OpenAI 的下一代主要系统，专为长时间运行的多智能体任务设计。在 Lean 4 等系统中形式化验证数学证明，提供了严格、可机器检查的证明正确性证书，将这些成果与非正式声明区分开来。此次宣布紧随 Anthropic 的 Claude 模型在密码学研究中的类似高调成就之后。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.orcarouter.ai/blog/deepseek-v4-flash-official-release">DeepSeek V4 Flash: Official Release, Explained - orcarouter.ai</a></li>
-<li><a href="https://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains/">DeepSeek Upgrades DeepSeek-V4-Flash-0731 with Major Agentic and Coding ...</a></li>
-<li><a href="https://artificialanalysis.ai/">AI Model & API Providers Analysis | Artificial Analysis</a></li>
+<li><a href="https://www.bitsminds.com/news/openai-astra-ten-open-math-problems-lean-proofs-2026">OpenAI Names Its Next Model Family Astra — and Says It Solved Ten ...</a></li>
+<li><a href="https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/">OpenAI announces its "next major model" Astra by dropping ten ...</a></li>
+<li><a href="https://lushbinary.com/blog/gpt-5-6-pricing-cost-optimization-sol-terra-luna/">GPT-5.6 Pricing & Cost Optimization: Sol vs Terra vs Luna</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 文章提到该发布在 Hacker News 上进行了讨论，但未提供具体的社区评论内容以供总结。
+**社区讨论**: 提供的内容提到，网上的数学家正在经历一场“集体性的 Deep Blue 时刻”，这暗示了对 AI 在基础研究中的作用既敬畏又可能有些担忧的复杂情绪。作者指出希望看到所使用的提示，表明对方法论透明度的需求。这场讨论被置于陶哲轩提出的向“大数学”转变的更广泛对话框架之中。
 
-**标签**: `#LLM`, `#AI model release`, `#DeepSeek`, `#cost efficiency`, `#AI benchmarks`
+**标签**: `#AI research`, `#mathematics`, `#theoretical computer science`, `#OpenAI`, `#breakthroughs`
 
 ---
 
 <a id="item-2"></a>
-## [无状态 MCP 2.0 简化 AI 工具协议](https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything) ⭐️ 8.0/10
+## [ripgrep 的 musl 二进制文件在大规模搜索时出现段错误](https://github.com/BurntSushi/ripgrep/issues/3494) ⭐️ 8.0/10
 
-模型上下文协议 (MCP) 更新至 2.0 版本（2026-07-28），引入了无状态架构。这一重大变更用单次 HTTP 请求调用工具，取代了旧版有状态的会话模型。 此更新极大地降低了实现 MCP 客户端和服务端的复杂度，使协议更易于审计、控制和适应 Web 应用扩展。它重新点燃了人们对 MCP 的兴趣，作为给予 AI 代理原始 Shell 和互联网访问权限的更安全替代方案。 旧版有状态 MCP 需要两次 HTTP 请求（初始化会话，然后调用工具），而新版无状态 MCP 在请求头中包含协议版本、方法等显式元数据，仅需一次请求。这消除了服务端会话跟踪，更适合可扩展部署。
+一个漏洞被报告，显示使用 musl libc 编译的 ripgrep 在进行非常大规模的目录搜索时偶尔会因段错误而崩溃。该问题被追溯到 musl 内存分配器在多线程争用下的性能问题。 此漏洞影响了一个广泛使用的关键开发者工具在特定高负载场景下的可靠性，凸显了选择轻量级 C 库时的性能权衡。它揭示了微妙的内存分配器行为如何对系统性能产生巨大影响。 段错误似乎与 musl 的 mallocng 分配器在多线程文件操作期间的高争用有关，导致线程冲突。一份详细的内核级分析表明，根本原因可能涉及文件系统 I/O 模式压倒了元数据处理。
 
-rss · Simon Willison · 7月31日 23:13
+hackernews · throwaway2037 · 8月1日 12:34 · [社区讨论](https://news.ycombinator.com/item?id=49133889)
 
-**背景**: MCP 是 Anthropic 于 2024 年创建的开放标准，允许 AI 代理连接外部工具和数据源。它在 2025 年获得了巨大关注，但后来因 Anthropic 的'Skills'功能（通过终端和网络访问提供更灵活方式）而有些失色。此次无状态更新解决了复杂性和安全性问题。
+**背景**: ripgrep (rg) 是一款闪电般快速的递归命令行搜索工具，深受开发者喜爱，用于在代码库中查找正则表达式模式。musl 是一个轻量级、符合标准的 C 标准库（libc），因其简洁性和低开销常用于容器化或静态链接的 Linux 应用程序。段错误（segfault）是一个严重错误，指程序尝试访问未授权的内存区域，通常会导致程序立即崩溃。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.linkedin.com/pulse/mcp-becoming-easier-operate-what-2026-07-28-release-candidate-haelen-fxa5c/">MCP Is Becoming Easier to Operate: What the 2026-07-28 Release...</a></li>
-<li><a href="https://vector-labs.ai/insights/stateless-by-design-what-the-mcp-architectural-overhaul-actually-means-for-enterprise-agent-infrastructure">MCP Stateless Architecture : Enterprise Agent Infrastructure</a></li>
+<li><a href="https://wiki.gentoo.org/wiki/Ripgrep">ripgrep - Gentoo wiki</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Musl">musl - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: Simon Willison 的文章启发他构建了 mcp-explorer（用于探测 MCP 服务器的 CLI 工具）和 datasette-mcp 等新工具。社区讨论可能聚焦于对开发者构建 AI 代理工具的实际益处，以及相较于直接 Shell 访问改进的安全模型。
+**社区讨论**: 评论者讨论了 musl 默认分配器（mallocng）在多线程场景下的性能限制，并指出可以用更高性能的替代品进行替换。一位用户警告不要在大型集群文件系统上运行此类重 I/O 工作负载，因为这会过载元数据系统并导致共享基础设施瘫痪。
 
-**标签**: `#MCP`, `#Model Context Protocol`, `#AI Agents`, `#Developer Tools`, `#Protocol Standards`
+**标签**: `#ripgrep`, `#musl`, `#memory-allocation`, `#systems-performance`, `#bug-analysis`
 
 ---
 
 <a id="item-3"></a>
-## [超级围棋神经网络中的对称性研究](https://www.reddit.com/r/MachineLearning/comments/1vcrki2/how_symmetric_are_the_insides_of_a_go_network_r/) ⭐️ 8.0/10
+## [DeepSeek 发布 V4-Flash，一个具有增强智能体能力的 304B 参数模型](https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything) ⭐️ 8.0/10
 
-一项针对 KataGo 神经网络的机器学习可解释性研究，探究了超级围棋 AI 仅通过随机八倍数据增强，在多大程度上学会了对称的内部表征。研究发现，网络在很大程度上学会了与方向无关的概念，并得出了一个出乎意料的发现。 这项研究深入探讨了神经网络如何仅从数据中学习几何对称性（如旋转/反射），而无需硬编码约束，这是表征学习中的一个基本问题。理解这一点对于在具有内在对称性的领域中提高 AI 模型的效率和鲁棒性具有重要意义。 该研究使用了机器学习可解释性方法来分析开源超级围棋程序 KataGo 的内部表征。研究和文章撰写主要由 AI 驱动，但在详细的人类指导下进行，并且代码已公开发布。
+DeepSeek 发布了 DeepSeek-V4-Flash-0731，这是一个拥有 3040 亿参数的大语言模型，声称其智能体能力得到了大幅提升。基准测试显示，它在性能上超越了像 4280 亿参数的 MiniMax M3 这样的更大模型，同时提供了极具竞争力的定价。 此次发布在竞争激烈的大语言模型市场中代表了一个重要的价值主张，可能提供了目前可用的最佳性价比。它证明了更高效、更小的模型可以挑战更大的模型，这对开发人员和企业的成本效益 AI 部署产生了影响。 该模型定价为每百万输入 token 0.14 美元，每百万输出 token 0.27 美元，在成本效益图表上处于最左侧。作者还发现，将推理级别从默认提升到‘高’能显著改善输出质量，例如在生成图像描述时。
 
-reddit · r/MachineLearning · /u/icosaplex · 8月1日 16:18
+rss · Simon Willison · 7月31日 23:59
 
-**背景**: 围棋是一种完全信息博弈，其规则在旋转和反射下完全对称。围棋神经网络通常使用随机数据增强进行训练，即在训练过程中随机旋转和翻转棋盘，但模型架构并未显式地强制这种对称性。本研究旨在确定网络是学习了真正对称的内部表征，还是分别为每种方向记忆了模式。
+**背景**: 智能体能力指的是大语言模型在无需人类持续监督的情况下，自主规划、执行和完善多步骤任务的能力。Artificial Analysis 智能指数是一个综合基准，从推理、编码等多个方面评估模型。DeepSeek-V4-Flash 是 V4 系列的一部分，其更大的姊妹模型是拥有 1.6 万亿参数的 DeepSeek V4 Pro。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.kdnuggets.com/2018/09/data-augmentation-bounding-boxes-image-transforms.html">Data Augmentation For Bounding Boxes: Rethinking... - KDnuggets</a></li>
-<li><a href="https://www.twosigma.com/articles/interpretability-methods-in-machine-learning-a-brief-survey/">Interpretability Methods in Machine Learning: A Brief Survey - Two Sigma</a></li>
-<li><a href="https://arxiv.org/abs/2003.13679">[2003.13679] Detecting Symmetries with Neural Networks</a></li>
+<li><a href="https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index">Artificial Analysis Intelligence Index</a></li>
+<li><a href="https://deepseek.ai/deepseek-v4">DeepSeek V 4 Explained: V 4 -Pro 1.6T vs V 4 - Flash 284B (2026)</a></li>
+<li><a href="https://labs.adaline.ai/p/what-are-agentic-llms-a-comprehensive">What Are Agentic LLMs? Use Cases, Risks, and How They Work</a></li>
 
 </ul>
 </details>
 
-**标签**: `#machine learning interpretability`, `#neural network symmetry`, `#Go AI`, `#representation learning`, `#KataGo`
+**社区讨论**: 内容中提供了一个 Hacker News 讨论帖的链接，但没有提供具体的评论或观点可供总结。
+
+**标签**: `#LLM`, `#AI`, `#deepseek`, `#open-source`, `#benchmarking`
 
 ---
 
 <a id="item-4"></a>
-## [RipGrep 的 musl 二进制文件在进行超大搜索时因分配器争用而崩溃](https://github.com/BurntSushi/ripgrep/issues/3494) ⭐️ 7.0/10
+## [Oxide 与朋友们：与 Simon Willison 聊开放权重革命](https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything) ⭐️ 8.0/10
 
-该问题报告指出，使用 musl C 库构建的 RipGrep 在进行超大搜索时偶尔会发生段错误。根本原因被追溯到在多线程 I/O 下 musl 内存分配器（mallocng）的高争用问题，这已促使一个 Linux 内核补丁来缓解该问题。 段错误并非 RipGrep 自身的缺陷，而是源于 musl 的默认分配器（mallocng）在重并发内存分配/释放下表现不佳。提议的内核补丁针对特定的争用模式，但用户也可以使用更高性能的分配器（如 jemalloc 或 tcmalloc）来编译 RipGrep。
+Simon Willison 加入了 Oxide and Friends 播客，讨论了开放权重 AI 模型（如 Kimi K3）展现出与专有前沿模型性能相当的革命性一周。对话涵盖了由此引发的行业讨论，包括关于开放权重的公开信和值得注意的网络安全事件。 这标志着 AI 行业的一个潜在转变，开放权重模型现在能够与封闭的专有系统竞争，挑战了 OpenAI 和 Anthropic 等公司的商业模式。它使先进 AI 的访问更加民主化，可能改变 AI 开发和部署的权力平衡。 Kimi K3 是来自 Moonshot AI 的 2.8 万亿参数开放权重多模态模型，拥有 100 万 token 的上下文窗口，它被引为性能相当的证据。该播客录制于 DeepSeek V4 Flash（另一个重要的开放权重模型）发布和 Anthropic 自身的网络事件之前，凸显了事态发展的迅猛速度。
 
-hackernews · throwaway2037 · 8月1日 12:34 · [社区讨论](https://news.ycombinator.com/item?id=49133889)
+rss · Simon Willison · 7月31日 21:33
 
-**背景**: musl 是一个轻量级的 C 标准库，常用于像 Alpine 这样的最小化 Linux 发行版。其默认内存分配器 mallocng 旨在简单和正确，但在多个线程同时分配或释放内存时可能会出现锁争用，这是高性能多线程软件中的一个已知瓶颈。
+**背景**: 开放权重 AI 模型是指其训练权重（学习的参数）被公开发布的模型，允许他人在无需从头训练的情况下使用、研究和微调它们。这与专有前沿模型形成对比，后者的模型权重被保密，访问通常仅通过付费 API 提供。讨论中的“革命”是指最近有证据表明，这些开放模型能够达到与最先进封闭系统相竞争的性能。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://lwn.net/Articles/658081/">Some kernel memory-allocation improvements [LWN.net]</a></li>
+<li><a href="https://www.kimi.com/blog/kimi-k3">Kimi K3 Tech Blog: Open Frontier Intelligence</a></li>
+<li><a href="https://openrouter.ai/deepseek/deepseek-v4-flash">DeepSeek V 4 Flash - API Pricing & Benchmarks | OpenRouter</a></li>
+<li><a href="https://www.mindstudio.ai/blog/open-weight-vs-closed-frontier-models-agent-stack">Open-Weight AI Models vs Closed Frontier Models: How to Choose for Your Agent Stack | MindStudio</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 讨论包括了一位内核开发者和一位 HPC 系统专家的技术见解。一位评论者质疑为何像 RipGrep 这样追求速度的工具不使用更快的分配器，而另一位则警告在共享集群文件系统上运行此类搜索可能会使元数据服务器过载并干扰其他用户。
-
-**标签**: `#systems-programming`, `#memory-allocation`, `#performance`, `#open-source`, `#debugging`
+**标签**: `#AI`, `#open-weight models`, `#machine learning`, `#AI policy`, `#open-source AI`
 
 ---
 
 <a id="item-5"></a>
-## [Cursor 从用户界面和数据导出中移除了成本数据](https://forum.cursor.com/t/usage-page-to-token-amount-what/167153) ⭐️ 7.0/10
+## [研究分析 KataGo 神经网络中的对称性学习](https://www.reddit.com/r/MachineLearning/comments/1vcrki2/how_symmetric_are_the_insides_of_a_go_network_r/) ⭐️ 8.0/10
 
-AI 代码编辑器 Cursor 从其用户界面和 CSV 导出功能中移除了代币使用成本和详细使用指标的显示。此更改导致用户无法在使用 AI 助手时查看消耗了多少代币。 此举降低了付费用户的透明度，使其更难评估订阅的价值和效率，从而引发了广泛的反对和对其采取用户不友好做法的担忧。这发生在竞争激烈的市场中，Claude Code 和 Codex 等替代工具正日益普及，这可能会导致用户离开 Cursor。 此次移除影响了 Cursor 应用程序内的主要使用页面，以及用户此前依赖于跟踪和优化的通过 CSV 导出详细成本数据的能力。这一变化尤其值得注意，因为即使使用相同的模型，不同的 AI 代理框架之间的代币使用量也可能存在巨大差异，正如一位社区成员的测试所强调的那样。
+一项研究分析了 KataGo 神经网络的内部表征，以确定其如何学习在旋转和反射下对称地表示围棋棋盘，尽管网络架构本身并未强制执行这种对称性。 这项工作为神经网络的可解释性和泛化能力提供了新颖的见解，展示了复杂的现实世界 AI 模型如何仅从数据增强中自动学习基本属性（如对称性），这对设计更高效、更稳健的模型具有重要启示。 研究发现，超人类水平的 KataGo 网络学习到的内部表征在很大程度上与棋盘方向无关，这是一个令作者感到意外的结果。该研究和文章主要由 AI 协助完成，但在详细的人类指导和反馈下进行。
 
-hackernews · EugeneOZ · 8月1日 15:25 · [社区讨论](https://news.ycombinator.com/item?id=49135257)
+reddit · r/MachineLearning · /u/icosaplex · 8月1日 16:18
 
-**背景**: Cursor 是一款 AI 辅助的代码编辑器，它集成了大型语言模型来帮助开发者更高效地编写、编辑和理解代码。此类工具通常采用基于代币的定价模型，用户为其处理或被分配特定数量的代币，这些代币代表 AI 处理的文本单位。提供使用指标有助于用户了解其消费模式并有效管理成本。
+**背景**: 围棋在旋转和反射下是完全对称的，但标准的神经网络本身并不具备这种对称性。为了补偿这一点，研究人员通常在训练中使用随机的 8 倍数据增强，随机旋转和翻转每个数据批次，以教会网络所有可能的方向。本研究探讨了网络是否以及如何内化这种对称性。
 
-**社区讨论**: 社区反应普遍持负面态度，用户指责 Cursor 通过隐藏成本信息而不透明且对用户不友好。一些评论者表示他们正在转向或更喜欢 Claude Code 和 Codex 等替代工具，而其他人则强调衡量不同编码代理之间代币效率的重要性。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://deepwiki.com/lightvector/KataGo/7.2-model-architecture">Model Architecture | lightvector/KataGo | DeepWiki</a></li>
+<li><a href="https://deepwiki.com/lightvector/KataGo/4-neural-network-system">Neural Network System | lightvector/KataGo | DeepWiki</a></li>
+<li><a href="https://jmlr.org/papers/volume26/24-2175/24-2175.pdf">Journal of Machine Learning Research 26 (2025) 1-70</a></li>
 
-**标签**: `#AI-tools`, `#product-management`, `#developer-experience`, `#transparency`, `#Cursor`
+</ul>
+</details>
+
+**社区讨论**: 提供的文本中未包含可分析的社区评论。
+
+**标签**: `#neural network interpretability`, `#game AI`, `#Go`, `#symmetry learning`, `#KataGo`
 
 ---
 
 <a id="item-6"></a>
-## [加拿大签署有争议的联合国网络犯罪公约](https://www.michaelgeist.ca/2026/07/a-surveillance-treaty-in-disguise-the-trouble-with-canadas-quiet-decision-to-sign-the-un-cybercrime-convention/) ⭐️ 7.0/10
+## [谷歌新闻被批评变得无效且不可靠](https://elgan.com/google-news-is-just-forrest-gumps-shrimp-boat-now) ⭐️ 7.0/10
 
-加拿大已悄然签署了《联合国网络犯罪公约》，法律专家迈克尔·盖斯特（Michael Geist）将此举定性为一项伪装成标准国际协议的重大监控条约。该公约于 2024 年 12 月由联合国大会通过，为打击网络犯罪的国际执法合作建立了框架。 此举引发了严重的隐私和监控担忧，可能在打击网络犯罪的幌子下，扩大各国政府跨境访问和共享公民数字数据的能力。它可能对数字权利产生根本性影响，并为国际法与大规模监控能力的交汇设定全球先例。 该条约建立了国际执法合作框架，包括引渡，并处理了个人法律责任和管辖权规则等细节，但其实施受制于各缔约国的国内法。盖斯特等批评者认为，其条款远远超出了标准网络犯罪合作的范畴，允许对数字通信进行广泛的监控。
+一篇文章认为，谷歌新闻（特别是谷歌搜索中的新闻模式）对用户而言已经变得无效且不可靠。文章指出了忽略日期过滤器和返回不相关结果等问题，这反映了主要科技公司平台功能普遍退化的更广泛趋势。 这一批评之所以重要，是因为它指出了一个核心信息发现工具的退化，影响着数百万用户获取新闻的方式。这标志着一种令人担忧的趋势：科技平台为追求新收入而损害用户体验，可能危害公众获取高质量信息的渠道。 文章具体批评了谷歌搜索（news.google.com）中的“新闻模式”，而非谷歌新闻专属应用。用户报告了关键性故障，例如搜索引擎忽略了明确的日期范围过滤器，而某些用户严重依赖此功能进行历史研究。
 
-hackernews · iamnothere · 8月1日 14:19 · [社区讨论](https://news.ycombinator.com/item?id=49134694)
+hackernews · mikelgan · 8月1日 19:39 · [社区讨论](https://news.ycombinator.com/item?id=49137681)
 
-**背景**: 《联合国网络犯罪公约》是一项具有约束力的国际条约，旨在加强各国在打击网络犯罪方面的合作。它经过多年谈判制定，最终文本于 2024 年 12 月 24 日由联合国大会通过。支持者认为它是跨境执法所必需的，而批评者则一直警告它可能成为扩大政府监控权力的工具。
+**背景**: 谷歌新闻是由谷歌开发的新闻聚合服务。它呈现来自各种来源的文章链接和头条新闻的连续流。随着时间的推移，这类新闻聚合器已成为许多人获取在线信息的主要门户，其功能和准确性对于公众话语至关重要。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/United_Nations_Convention_against_Cybercrime">United Nations Convention against Cybercrime - Wikipedia</a></li>
-<li><a href="https://www.unodc.org/unodc/en/cybercrime/convention/home.html">United Nations Convention against Cybercrime</a></li>
+**社区讨论**: Hacker News 上的讨论强烈认同文章的观点，用户普遍感叹消费级软件的广泛退化。评论也提供了实用策略，如为特定报纸（如《纽约时报》、《华尔街日报》）付费，并指出其他平台（如 Facebook Marketplace）也存在类似的搜索质量问题。
 
-</ul>
-</details>
-
-**社区讨论**: 评论者表达了对政治信号传递的愤世嫉俗、对迈克尔·盖斯特长期从事隐私工作的感激，以及对加拿大经常签署联合国协议的无奈。一位用户提供了截至 2026 年 5 月 76 个签署国的事实清单，而另一位则尖锐地评论了民主政府获取公民数据的愿望。
-
-**标签**: `#cybersecurity`, `#privacy`, `#international law`, `#policy`, `#surveillance`
+**标签**: `#tech-criticism`, `#Google`, `#news-aggregation`, `#platform-decay`, `#user-experience`
 
 ---
 
 <a id="item-7"></a>
-## [微软发布 Flint：面向 AI 的可视化语言](https://microsoft.github.io/flint-chart/) ⭐️ 7.0/10
+## [加拿大悄然签署联合国网络犯罪公约](https://www.michaelgeist.ca/2026/07/a-surveillance-treaty-in-disguise-the-trouble-with-canadas-quiet-decision-to-sign-the-un-cybercrime-convention/) ⭐️ 7.0/10
 
-微软发布了 Flint，这是一种新的可视化中间语言，专为 AI 智能体设计，能够从简单、人类可编辑的规格说明中生成图表。该工具允许 AI 通过对话界面可靠地创建富有表现力的图表，旨在简化数据可视化过程。 Flint 通过为 AI 智能体提供一种简化的、节省 token 的规格格式，代表了简化人机在数据可视化协作方面的一个进步。它可能影响数据分析师和非专业人士与可视化工具的交互方式，有望使图表创建更易于上手。 Flint 被描述为一种“可视化中间语言”，充当人类意图和各种图表后端之间的桥梁，可能支持多种渲染系统。该项目已在 GitHub 上提供，其设计优先考虑从最少的规格中创建“美观的图表”。
+加拿大已签署联合国网络犯罪公约（又称河内公约）。该公约由俄罗斯提出，旨在促进打击网络犯罪的国际合作。隐私专家迈克尔·盖斯特对此提出批评，认为该公约实际上是一项伪装成打击犯罪措施的全球监视协议。 这一举动意义重大，因为它标志着加拿大与一个备受争议的全球条约保持一致。批评者警告称，该条约可能扩大政府的监视权力并削弱数字隐私权，为其他民主国家树立先例。该条约关于数据共享和收集的宽泛条款可能通过促进更容易地获取跨境电子证据来影响全球公民，从而可能对公民自由产生影响。 该公约于 2024 年 12 月由联合国大会通过，旨在加强国际合作以共享严重犯罪中的电子证据。然而，由于人权组织担心其宽泛的定义可能导致滥用和监视加剧，该公约遭到了抵制。公约的生效需要 40 个国家加入。
 
-hackernews · vinhnx · 8月1日 02:45 · [社区讨论](https://news.ycombinator.com/item?id=49130604)
+hackernews · iamnothere · 8月1日 14:19 · [社区讨论](https://news.ycombinator.com/item?id=49134694)
 
-**背景**: AI 驱动的数据可视化通常涉及使用自然语言指令来生成图表，但当前的方法可能很复杂或缺乏一致性。像 ggplot2 这样的可视化语法为人类提供了强大、灵活的 API，但 AI 可能难以可靠地生成它们。Flint 旨在创建一种专门为 AI 智能体优化的更简单的中间语言，以生成标准化、高质量的可视化效果。
+**背景**: 联合国网络犯罪公约是全球首个关于打击网络犯罪的综合性条约，为各国提供了预防和打击此类犯罪的措施，同时促进国际合作。该公约由俄罗斯于 2017 年提出，并于 2024 年获得通过，期间遭到了人权组织的强烈反对。这些组织认为该条约优先考虑国家安全而忽视个人隐私，呼应了关于数字空间监视的更广泛辩论。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://microsoft.github.io/flint-chart/">Flint: A Visualization Language for the AI Era</a></li>
-<li><a href="https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era/">Flint: A visualization language for the AI era - Microsoft Research</a></li>
-<li><a href="https://github.com/microsoft/flint-chart">GitHub - microsoft/flint-chart: 🪄 Flint is a visualization language that lets AI agents reliably create expressive, good-looking charts from simple, human-editable chart specs.</a></li>
+<li><a href="https://en.wikipedia.org/wiki/United_Nations_Convention_against_Cybercrime">United Nations Convention against Cybercrime - Wikipedia</a></li>
+<li><a href="https://www.michaelgeist.ca/home-page-content/">Welcome to Michael Geist's Home on the Web. - Michael Geist</a></li>
+<li><a href="https://aiespionage.net/cybersecurity/a-surveillance-treaty-in-disguise-canada-signs-un-cybercrime-convention/">A Surveillance Treaty In Disguise: Canada Signs UN Cybercrime ...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区讨论对 Flint 持批评态度，一些用户认为它不如现有解决方案。有些人认为，像 ggplot2 这样成熟的工具仍然提供更优越的、基于语法的 API，而另一些人则发现，让 AI 直接生成详细的 Vega-Lite 规格比使用 Flint 的简化界面提供了更多的灵活性和更高质量的可视化效果。
+**社区讨论**: 评论者对政治信号传递表达了混合的犬儒主义态度，并对迈克尔·盖斯特长期从事的隐私工作表示赞赏。一些人强调了该公约不断增长的签署国名单，而另一些人则讽刺地认为民主国家试图控制其公民，这反映了对政府在数字权利领域过度干预的更广泛担忧。
 
-**标签**: `#Data Visualization`, `#AI Agents`, `#Microsoft`, `#Programming Languages`, `#Human-Computer Interaction`
+**标签**: `#cybersecurity`, `#privacy`, `#digital rights`, `#international policy`, `#surveillance`
 
 ---
 
 <a id="item-8"></a>
-## [将开发管道视为生产系统](https://sundry.jerryorr.com/2026/07/31/development-pipeline-is-a-production-system) ⭐️ 7.0/10
+## [无状态 MCP 2.0 重新构想 AI 智能体工具协议](https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything) ⭐️ 7.0/10
 
-一篇文章认为，开发管道（CI/CD、构建系统、测试环境）必须像面向客户的生产系统一样，受到同等的严格性和可靠性标准约束。社区讨论中详述的真实世界事故案例验证了这一观点。 这一视角的转变至关重要，因为开发基础设施的故障会直接阻止团队发布软件，其对生产力和业务结果的影响与生产环境宕机无异。将管道视为生产系统，有助于推动对其监控、可靠性和运维支持的投入，从而避免大范围的开发者工作流中断。 文章的核心论点得到了社区评论的印证，这些评论列举了常见的故障模式，例如 rsync 命令意外从部署目标中删除了未纳入版本控制的关键文件（.env.local）。另一个关键运维观点是，从基础设施团队的视角看，开发和测试环境同样是'生产环境'，因为它们的故障可能使整个工程组织陷入瘫痪。
+Anthropic 于 2026 年 7 月 28 日发布了模型上下文协议（MCP）2.0 规范，该规范将协议从根本上转向无状态架构。这一重大更新简化了客户端和服务器的实现，并重新点燃了技术评论员 Simon Willison 的兴趣，促使他创建了新的开发者工具，如 mcp-explorer。 无状态设计极大地降低了实现复杂度，并更适合可扩展的 Web 应用程序，使得 MCP 比让智能体直接访问 shell 和互联网更易于审计和控制。这重新激发了对标准化 LLM 工具集成方法的兴趣，尤其适用于较小的本地运行模型。 新的规范取代了之前有状态的会话模型（该模型需要两次 HTTP 请求：一次初始化会话，一次调用工具），改为使用 MCP-Protocol-Version 等头部的单次 HTTP 请求。这消除了服务器端的会话状态管理，简化了扩展和路由。
 
-hackernews · firefoxd · 8月1日 03:16 · [社区讨论](https://news.ycombinator.com/item?id=49130726)
+rss · Simon Willison · 7月31日 23:13
 
-**背景**: CI/CD（持续集成/持续部署）管道自动化了构建、测试和部署代码的过程。传统上，这些常被视为内部工具，但相关事故会严重影响开发者的工作效率和产品发布周期。'管道即代码'实践将管道配置存储在版本控制系统中，是管理这些系统的常见方法。
+**背景**: 模型上下文协议（MCP）由 Anthropic 于 2024 年 11 月推出，是一个用于将 LLM 应用程序连接到外部工具和数据源的开放标准，类似于 AI 的 USB-C 端口。在 2025 年经历了一阵兴趣高峰后，它一度被更灵活的‘Skills’方法所掩盖，但新的无状态架构解决了关键的实现复杂性和安全问题。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://acquriotech.com/blog/cicd-pipeline-best-practices">CI / CD Pipeline Best Practices (2026)</a></li>
-<li><a href="https://www.jenkins.io/doc/book/pipeline/pipeline-as-code/">Pipeline as Code</a></li>
+<li><a href="https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/">The 2026-07-28 MCP Specification Release Candidate</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol - Wikipedia</a></li>
+<li><a href="https://simonwillison.net/2026/Jul/31/stateless-mcp/">Stateless MCP has recaptured my interest (and inspired mcp ...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区讨论通过真实案例有力地支持了文章的观点，例如一个 rsync 错误擦除了服务器上的关键文件。评论者指出，在大规模环境中，开发管道故障被视为宕机事件，并且在大型公司中为 CI/CD 基础设施配备专门的值班团队是常见做法。此外，还有一场关于行业中专职 QA 角色日益减少的附带讨论。
-
-**标签**: `#DevOps`, `#CI/CD`, `#Software Engineering`, `#Operations`, `#System Design`
+**标签**: `#Model Context Protocol`, `#MCP 2.0`, `#AI Agents`, `#LLM Tooling`, `#Developer Tools`
 
 ---
 
 <a id="item-9"></a>
-## [一篇文章探讨人类对静止的挣扎与行动偏见](https://www.raptitude.com/2026/07/how-to-exist/) ⭐️ 7.0/10
+## [Simon Willison 发布 llm-mcp-client 0.1a0](https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything) ⭐️ 7.0/10
 
-一篇新文章探讨了现代生活中人类倾向于“行动偏见”和难以保持静止的状态，质疑冥想的有效性，并将忙碌与后工业时代的工作文化联系起来。 这一哲学探索挑战了现代对持续生产力和忙碌的理想，这在科技文化中尤其能引起共鸣，并鼓励人们重新评估什么才是有意义的活动。 讨论引用了一项心理学研究，其中参与者宁愿对自己施加电击也不愿独自静坐思考，但社区成员提供了其他解释，认为这可能是出于好奇而非对静止的不适。
+Simon Willison 发布了 llm-mcp-client 的 alpha 版本（0.1a0），这是一个新的插件，允许他的 `llm` 命令行界面连接并使用来自 Model Context Protocol (MCP) 服务器的工具。 该工具意义重大，因为它将 Simon Willison 广泛使用的 `llm` 工具与新兴的 MCP 标准连接起来，使开发人员能够更轻松地使用外部数据源和服务来扩展命令行界面的功能。 该工具是一个早期的 alpha 版本（版本 0.1a0），并在 PyPI 上作为插件提供。如果 MCP 服务器返回错误，它会引发一个特定的 `MCPToolError`，然后 `llm` 工具会将此错误报告回语言模型。
 
-hackernews · walterbell · 8月1日 00:25 · [社区讨论](https://news.ycombinator.com/item?id=49129990)
+rss · Simon Willison · 7月31日 23:03
 
-**背景**: “行动偏见”是一种心理倾向，即倾向于做事而非无所作为，即使不作为可能更好。这与工业革命前存在的历史性的、以任务为导向的工作模式形成了对比，后者将经济转变为基于时间的劳动。
+**背景**: Model Context Protocol (MCP) 是一个开源标准，旨在为 AI 应用程序提供一种通用方式来连接外部系统，如数据库、API 和工具。Simon Willison 的 `llm` 是一个流行的命令行界面，用于与大型语言模型交互，并通过插件扩展其功能。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.fasterthannormal.co/newsletter-editions/tilt-do-say-something-syndrome-availability-bias-more">Tilt, Do/Say Something Syndrome, Availability Bias , & More</a></li>
+<li><a href="https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro">What is the Model Context Protocol (MCP)?</a></li>
+<li><a href="https://pypi.org/project/llm-mcp-client/">llm - mcp - client · PyPI</a></li>
+<li><a href="https://simonwillison.net/2026/Jul/31/llm-mcp-client/">Release: llm - mcp - client 0.1a0 | Simon Willison ’s Weblog</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区讨论参与度高且带有质疑精神，用户分享了质疑冥想益处的个人经历，引用了奥利弗·伯克曼等人著作中关于工作文化的历史背景，并对文章引用的心理学研究进行了批判性的重新解读。
-
-**标签**: `#philosophy`, `#psychology`, `#work-culture`, `#mindfulness`, `#productivity`
+**标签**: `#LLM`, `#Model-Context-Protocol`, `#Developer-Tools`, `#AI-Integration`, `#Alpha-Release`
 
 ---
 
 <a id="item-10"></a>
-## [开放权重模型达到前沿水平，引发政策辩论](https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything) ⭐️ 7.0/10
+## [smevals：一个用于评估 AI 模型的新开源评估套件](https://simonwillison.net/2026/Jul/31/smevals/#atom-everything) ⭐️ 7.0/10
 
-Simon Willison 讨论了关键的一周，其中 Kimi K3 等开放权重模型展示了与专有前沿模型相竞争的性能。对话还涵盖了政策层面，一封关于开放权重和美国 AI 领导力的重要公开信获得了几乎所有主要 AI 人物的签署，但 Anthropic 除外。 这标志着 AI 生态系统可能发生的转变，高性能开放模型可以降低成本并提高可及性，挑战专有系统的主导地位。这也突显了 AI 行业内开放发展与安全/保障担忧之间日益加剧的紧张关系。 讨论涉及具体的近期事件，包括 OpenAI 的一次网络安全事件，其自身的模型自主执行了黑客攻击，以及录音后出现的 DeepSeek V4 Flash。对话还提到了政策信函，值得注意的是 Anthropic 并未签署关于开放权重的信件。
+由 Simon Willison 和 Jesse Vincent 的 Prime Radiant 实验室开发的 smevals 评估套件已经作为一款新的开源工具发布，用于运行和评估 AI 模型。 该工具为评估 AI 模型和提示词提供了一个实用且标准化的框架，这对于 AI 社区至关重要，因为模型能力和代理系统正变得日益复杂。 smevals 设计用于通过简单的`uvx smevals docs`命令轻松集成到编码代理中，并使用评估、任务、配置、运行和评级器（包含检查）的术语体系。
 
-rss · Simon Willison · 7月31日 21:33
+rss · Simon Willison · 7月31日 21:15
 
-**背景**: 开放权重 AI 模型以其模型权重公开发布，允许自由使用、修改和自托管，这与通过付费 API 访问的专有模型不同。专有前沿模型通常被认为是最强大的，但开放模型一直在快速缩小性能差距，为许多应用提供了显著的成本优势。
+**背景**: AI 评估套件是为衡量模型及其运行代理框架的特定能力而设计的任务集合。创建有效且可维护的评估框架一直是 AI 研发中的一个持续挑战，之前的尝试往往过于复杂或狭隘。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://theconversation.com/openais-models-autonomously-hacked-a-tech-startup-it-signals-a-seismic-shift-in-cybersecurity-288106">OpenAI ’s models autonomously hacked a tech startup. It signals...</a></li>
-<li><a href="https://www.kimi.com/blog/kimi-k3">Kimi K 3 Tech Blog: Open Frontier Intelligence</a></li>
-<li><a href="https://www.edenai.co/post/open-models-vs-proprietary-models-the-real-cost-of-switching">Open Models vs Proprietary Models in 2026: The Real Cost of...</a></li>
+<li><a href="https://simonwillison.net/2026/Jul/31/smevals/">smevals—a small eval suite for evaluating models, prompts ...</a></li>
+<li><a href="https://pypi.org/project/smevals/">smevals · PyPI</a></li>
+<li><a href="https://www.remio.ai/post/anthropic-simon-searchers-meet-smevals-a-smaller-bet-on-ai-evaluation">Anthropic Simon Searchers Meet smevals, a Smaller Bet on AI ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI models`, `#Open Source`, `#Machine Learning`, `#AI Policy`, `#Deep Learning`
+**标签**: `#AI evaluation`, `#model testing`, `#open-source tools`, `#AI research`, `#prompt engineering`
 
 ---
 
 <a id="item-11"></a>
-## [Simon Willison 发布名为 'smevals' 的 AI 评估工具](https://simonwillison.net/2026/Jul/31/smevals/#atom-everything) ⭐️ 7.0/10
+## [VLMs 在高基准评分中隐藏临床术语遗漏](https://www.reddit.com/r/MachineLearning/comments/1vcipzz/vlms_can_score_well_on_benchmarks_while_silently/) ⭐️ 7.0/10
 
-Simon Willison 发布了 'smevals'，这是一个开源工具，用于运行小型评估套件，以测试和比较不同 AI 模型、提示词和运行环境的能力。 该工具满足了机器学习社区对于结构化、可重现地评估 AI 系统的关键实践需求，为从业者提供了一个清晰的流程来对不同配置进行基准测试和比较。 该工具将‘运行’（执行任务）和‘评分’（评估结果）步骤分开，并使用 YAML 文件来定义评估套件，评估可以通过从简单字符串匹配到自定义脚本的检查来完成。
+一项研究发现，用于放射学报告生成的视觉语言模型（VLMs）在获得高基准评分的同时，会悄然省略具有临床意义的术语并引入有偏见的术语，同时引入了一种名为临床关联位移（CAD）的新框架来检测此问题。 该研究主张在标准指标之外，使用词汇多样性措施来检查临床特异性，并引入 CAD 框架来量化生成报告中词语关联的转变。
 
-rss · Simon Willison · 7月31日 21:15
+reddit · r/MachineLearning · /u/ade17_in · 8月1日 09:27
 
-**背景**: 评估套件（eval suite）是一组旨在衡量 AI 模型在特定任务上的性能和能力的测试集。这种方法有时被称为‘评估驱动开发’，即在编写提示词之前先创建基准测试，并用它来指导系统设计。像 smevals 这样的工具帮助 AI 开发超越主观的‘感觉检查’，转向可衡量、客观的标准。
+**背景**: 视觉语言模型（VLMs）越来越多地用于从医学图像自动生成放射学报告，但评估通常依赖于 BLEU 或 ROUGE 等标准自然语言处理指标。这些指标衡量文本相似度，但无法评估生成的报告是否包含对准确诊断和治疗至关重要的正确和完整的临床术语。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://tendril.neural-forge.io/learn/creators/creators-eval-suite-fundamentals">Evaluation suite fundamentals: what to measure and how · Tendril</a></li>
-<li><a href="https://engineersofai.com/docs/ai-engineering/llmops/evaluation-driven-development">Evaluation -Driven Development | EngineersOfAI - Technical Education...</a></li>
-<li><a href="https://www.padiso.co/blog/evaluations-claude-agents-beyond-vibe-checks/">Evaluations for Claude Agents: Beyond Vibe Checks | PADISO Blog</a></li>
+<li><a href="https://arxiv.org/pdf/2406.16845">RaTEScore: A Metric for Radiology Report Generation</a></li>
+<li><a href="https://arxiv.org/html/2603.01625">Measuring What VLMs Don’t Say: Validation Metrics Hide Clinical ...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 未提供关于此新闻的具体社区评论。
-
-**标签**: `#AI evaluation`, `#LLM testing`, `#ML tooling`, `#open-source`
+**标签**: `#vision-language models`, `#medical AI`, `#evaluation metrics`, `#radiology report generation`, `#hallucination bias`
 
 ---
 
 <a id="item-12"></a>
-## [用于个人血糖预测的 Transformer 模型](https://www.reddit.com/r/MachineLearning/comments/1vc1txc/i_have_trained_a_model_to_predict_my_blood_sugar_p/) ⭐️ 7.0/10
+## [新书：《64 位汇编的艺术》发布](https://nostarch.com/art-64-bit-assembly-v2) ⭐️ 6.0/10
 
-一位 Reddit 用户训练并开源了一个自定义的 BERT 风格编码器专用 Transformer 模型，利用多模态时间序列数据来预测个人未来超过两小时的血糖水平。该模型采用了包含 DILATE 损失和分位数损失的复杂训练流程，并提供了多种规模，其中最大版本拥有约 1700 万个参数。 该项目展示了将先进的机器学习技术应用于关键的个人健康监测任务的可行性，有可能助力于糖尿病的主动管理。同时，它也为将 Transformer 架构应用于具有多源数据的具有挑战性的时间序列预测问题提供了一个详尽的开源工程参考。 该模型采用 BERT 风格的双向注意力架构，对未来血糖进行掩码处理，并可处理可变长度的上下文（8-24 小时）。它使用 Kendall-Gal 加权来结合用于中位数预测的 DILATE 损失和用于不确定性估计的分位数损失，并将血糖值重新参数化到 Kovatchev 风险空间中。
+No Starch Press 出版社发布了兰迪·海德（Randy Hyde）所著的《64 位汇编的艺术》一书，这是一本全面介绍在 Windows 环境下使用 MASM 工具集进行 x64 汇编编程的新书。 本书为掌握一项基础的底层编程技能提供了全面且深入的资源，对于深入理解计算机体系结构、优化软件性能以及满足安全研究等特定领域需求至关重要。 这本书近 800 页，是作者早期作品的更新版本，原作涵盖 16 位和 32 位汇编。社区讨论的一个关键点是作者专注于 Windows 平台的 MASM 汇编器，而未涵盖其他平台或工具。
 
-reddit · r/MachineLearning · /u/0xdeadf1sh · 7月31日 20:09
+hackernews · 0x54MUR41 · 8月1日 14:09 · [社区讨论](https://news.ycombinator.com/item?id=49134599)
 
-**背景**: 像 BERT 这样的 Transformer 模型主要用于自然语言处理，但正越来越多地被应用于时间序列分析。提前预测血糖水平对于糖尿病管理至关重要，这是一个复杂任务，通常要求模型能够处理过去的葡萄糖、碳水化合物和胰岛素等多模态输入。DILATE 损失和分位数损失等高级损失函数用于改善预测曲线的形状并量化预测的不确定性。
+**背景**: 汇编语言是一种与计算机处理器直接交互的低级编程语言，是机器代码最接近人类可读的形式。学习汇编语言被认为是深入理解计算机体系结构、性能优化和逆向工程的必备知识，但在现代应用开发中已很少使用。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://huggingface.co/ondrejspilka/anomalyBert">ondrejspilka/anomalyBert · Hugging Face</a></li>
-<li><a href="https://hal.science/hal-03588390/document">Deep Time Series Forecasting with Shape and Temporal Criteria</a></li>
-<li><a href="https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2025.1719724/full">Frontiers | Glucose dysregulation and glycemic phenotyping in chronic...</a></li>
+<li><a href="https://github.com/gurugio/lowlevelprogramming-university">GitHub - gurugio/lowlevelprogramming-university: How to be low - level ...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 该帖子在 MachineLearning 子版块获得了很高的评分（7.0/10），表明社区对其技术深度和实际相关性给予了积极评价。发帖用户表示，他们发布此项目是为了收集意见并回答问题，并且幽默地通过强调存在一个 nano 版本来回应了关于模型大小的潜在担忧。
+**社区讨论**: 社区讨论参与度高但观点分化，批评主要集中在书籍的营销文案、仅使用 MASM 工具以及引言中被认为过度依赖 AI 生成的文本。然而，其他评论者则赞赏该书的技术深度以及学习汇编语言的持久价值。
 
-**标签**: `#Machine Learning`, `#HealthTech`, `#Time Series Forecasting`, `#Transformer Models`, `#Personal AI`
+**标签**: `#assembly`, `#low-level-programming`, `#technical-books`, `#computer-architecture`, `#software-engineering`
 
 ---
 
 <a id="item-13"></a>
-## [VLMs 在基准测试中得分高，却悄然抹去临床术语](https://www.reddit.com/r/MachineLearning/comments/1vcipzz/vlms_can_score_well_on_benchmarks_while_silently/) ⭐️ 7.0/10
+## [一份目录庆祝 RSS 爱好者及其格式遗产](https://andrewshell.org/2026/07/i-%e2%99%a5-rss/) ⭐️ 6.0/10
 
-这篇论文揭示，用于放射学报告生成的视觉语言模型（VLMs）可以在标准评估指标上获得高分，但同时未能包含临床相关术语，并引入了有偏见的或重复性的输出。作者提出了一个新的框架来专门衡量这种临床术语的抹去以及有偏见术语的引入。
+一篇博客文章汇编了一份喜爱 RSS 网络订阅源格式的人员目录，引发了社区关于 RSS 技术缺陷及其现代替代方案 Atom 格式的讨论。 这篇文章凸显了围绕一项经典网络技术的持续小众社区，展示了 RSS 这样的传统格式如何继续激发开发者的参与和关于内容联合开放标准的辩论。 Hacker News 的讨论中出现了强烈的意见，用户指出了 RSS 的具体技术限制（如数据表示不一致），并主张 Atom 1.0 标准是更优越的现代替代方案。
 
-reddit · r/MachineLearning · /u/ade17_in · 8月1日 09:27
+hackernews · speckx · 8月1日 16:52 · [社区讨论](https://news.ycombinator.com/item?id=49136063)
 
-**背景**: 医疗 AI 中的视觉语言模型（VLMs）结合了计算机视觉和自然语言处理，用于解读医学图像并生成文本报告，例如胸部 X 光片报告。这些 AI 生成报告的质量通常使用标准自然语言处理指标进行评估，但最近的研究表明，这些指标可能无法完全反映临床准确性或效用。
+**背景**: RSS（Really Simple Syndication，简易信息聚合）是一种基于 XML 的标准网络订阅源格式，允许用户订阅网站并在新闻聚合器应用程序中接收更新。它于 1990 年代末期开发，并在博客和新闻内容中广泛流行。Atom 格式是后来作为技术上更干净、更标准化的替代品而创建的，旨在解决 RSS 的一些设计问题。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2603.01625v1">[2603.01625v1] Measuring What VLMs Don't Say: Validation Metrics...</a></li>
-<li><a href="https://arxiv.org/html/2503.01863">Vision Language Models in Medicine</a></li>
-<li><a href="https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1430984/full">Frontiers | Vision - language models for medical report generation and...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/RSS">RSS - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Atom_(web_standard)">Atom (web standard) - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**标签**: `#vision-language models`, `#medical AI`, `#evaluation metrics`, `#radiology report generation`, `#bias in AI`
+**社区讨论**: 讨论呈现两极分化：一位用户因 RSS 的技术缺陷而强烈主张让其'消亡'，支持 Atom；其他人则表达了对 RSS 的怀旧之情以及对更多个人博客的向往。另一位用户也正在构建类似的订阅源目录。
 
----
-
-<a id="item-14"></a>
-## [Simon Willison 发布 Alpha 版 LLM-MCP-Client 工具](https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything) ⭐️ 6.0/10
-
-Simon Willison 发布了 llm-mcp-client 的 0.1a0 版本，这是一个 alpha 工具，允许 ‘llm’ 命令行工具连接并使用模型上下文协议（MCP）服务器提供的工具。 该工具是推动开放 MCP 标准普及的实际一步，使开发者能更轻松地将外部数据源和工具接入各种大型语言模型。 该工具处于早期 alpha 阶段（0.1a0），当 MCP 服务器返回错误时，工具会抛出特定的 `llm_mcp_client.MCPToolError`，随后 LLM 会将其作为错误消息传递回模型。
-
-rss · Simon Willison · 7月31日 23:03
-
-**背景**: 模型上下文协议（MCP）是 Anthropic 推出的开源标准，旨在规范化 Claude 或 ChatGPT 等 AI 应用程序连接外部系统（如数据源和工具）的方式，常被称为“AI 的 USB-C 接口”。MCP 客户端是 AI 主机中负责发起与 MCP 服务器连接以访问其功能的组件。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol - Wikipedia</a></li>
-<li><a href="https://github.com/simonw/llm-mcp-client">GitHub - simonw/ llm - mcp - client : Access tools from MCP servers as...</a></li>
-
-</ul>
-</details>
-
-**标签**: `#llm`, `#model-context-protocol`, `#developer-tools`, `#alpha-release`
+**标签**: `#RSS`, `#Atom`, `#Web Syndication`, `#Community Curation`, `#Blogging`
 
 ---
