@@ -5,266 +5,300 @@ date: 2026-08-02
 lang: en
 ---
 
-> From 25 items, 11 important content pieces were selected
+> From 29 items, 12 important content pieces were selected
 
 ---
 
-1. [OpenAI's Astra Solves Ten Decade-Old Math Problems](#item-1) ⭐️ 9.0/10
-2. [Postmortem: Critical Soundness Bug in Lean 4 Kernel](#item-2) ⭐️ 8.0/10
-3. [RipGrep's musl binaries crash on large searches due to allocator bug](#item-3) ⭐️ 8.0/10
-4. [ByteDance Unveils Seedance 2.5 AI Video Generator](#item-4) ⭐️ 7.0/10
-5. [How Google's Decisions Helped Decline RSS Feeds](#item-5) ⭐️ 7.0/10
-6. [Study Examines Symmetry Learning in KataGo AI Neural Networks](#item-6) ⭐️ 7.0/10
-7. [VLMs Hide Flaws in Medical Reports via Benchmark Scores](#item-7) ⭐️ 7.0/10
-8. [Diátaxis: A Framework for Technical Documentation](#item-8) ⭐️ 6.0/10
-9. [Study Finds AI Provides Surprisingly Good Financial Advice](#item-9) ⭐️ 6.0/10
-10. [No Starch Press Releases 'The Art of 64-bit Assembly' Book](#item-10) ⭐️ 6.0/10
-11. [NetBSD 11.0 Released with NPF and MICROVM Enhancements](#item-11) ⭐️ 6.0/10
+1. [OpenAI Astra Solves Ten Decade-Old Math Problems](#item-1) ⭐️ 9.0/10
+2. [Go 1.27 Interactive Tour Introduces Generic Methods](#item-2) ⭐️ 8.0/10
+3. [Alibaba Open-Sources 22B Model for Real-Time Digital Human Generation](#item-3) ⭐️ 8.0/10
+4. [Bor v0.8: Open-source Linux Desktop Policy Management](#item-4) ⭐️ 7.0/10
+5. [15-Year-Old Shares Cycloidal Gearbox Project on Hacker News](#item-5) ⭐️ 7.0/10
+6. [Diátaxis: A Framework for Structured Technical Documentation](#item-6) ⭐️ 7.0/10
+7. [ByteDance Launches Advanced AI Video Model Seedance 2.5](#item-7) ⭐️ 7.0/10
+8. [US Treasury Intervenes to Support Yen for First Time Since 1998](#item-8) ⭐️ 7.0/10
+9. [Optimizing Kimi K3 for AMD MI355X GPUs Beats NVIDIA B300 on Cost](#item-9) ⭐️ 7.0/10
+10. [CausalVLBench: Benchmarking Visual Causal Reasoning in VLMs](#item-10) ⭐️ 7.0/10
+11. [Meshdiff: Browser-Based Client-Side Visual Diff for 3D STL Models](#item-11) ⭐️ 6.0/10
+12. [Seeking Pipeline for Textbook Figure Digitization](#item-12) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [OpenAI's Astra Solves Ten Decade-Old Math Problems](https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything) ⭐️ 9.0/10
+## [OpenAI Astra Solves Ten Decade-Old Math Problems](https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything) ⭐️ 9.0/10
 
-OpenAI claims its internal 'Astra' model, a multi-agent system, has made breakthroughs on ten major mathematical and theoretical computer science problems that had seen no significant progress for over a decade. The company released formalizations, a paper, and model-generated walkthroughs of the proofs. 这一事件标志着人工智能辅助科学研究可能迎来范式转变，证明了下一代模型能够大规模解决深奥的长期智力挑战。它加剧了人工智能研究的竞争格局，并可能从根本上改变数学发现的方式。 Astra is described not as a simple upgrade but as a new multi-agent model class where agents coordinate over hours or days to solve problems. Each solution reportedly cost less than $2,000 at GPT-5.6 Sol token prices, though the total cost for all ten problems is unspecified.
+OpenAI claims that an internal version of its next major model, Astra, has solved ten mathematical problems that had seen no progress for at least a decade. The company has released Lean 4 formalizations and a paper detailing the solutions, which it says cost less than $2,000 per problem at GPT-5.6 Sol token prices. This represents a potential paradigm shift in AI's ability to conduct fundamental mathematical research, demonstrating that frontier models can generate auditable research results for long-standing problems. It could catalyze a transition to 'big mathematics,' where humans and machines collaborate on complex tasks, with AI handling substantial technical work. The results are provided in a GitHub repository with Lean 4 formalizations and a paper, alongside an LLM-generated PDF reconstructing the reasoning process. The content notes a lack of transparency on the prompts used and highlights that the cost is per successfully solved problem, with no information on failures.
 
 rss · Simon Willison · Aug 1, 20:34
 
-**Background**: The problems攻克的 are described as having seen 'no progress on the main result for at least a decade,' meaning they are frontier challenges in pure mathematics and computer science. The release is contextualized by a recent similar achievement from Anthropic, highlighting a trend of major AI labs using their most powerful models for advanced scientific research.
+**Background**: The news follows similar breakthroughs like Anthropic's Claude discovering cryptographic weaknesses. AI models are increasingly being used as research tools in mathematics, a field experiencing rapid development of AI integration. Terence Tao has previously described a future shift to 'big mathematics,' involving large-scale human-machine collaborations where AI handles technical work.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://explainx.ai/blog/openai-astra-next-major-model-announcement-2026">OpenAI Astra: Next Major Model Explained | explainx.ai Blog</a></li>
-<li><a href="https://byteiota.com/openai-astra-multi-agent-model/">OpenAI Astra: Multi-Agent Model Solves 10 Decade-Old Math ...</a></li>
-<li><a href="https://openrouter.ai/openai/gpt-5.6-sol">GPT - 5 . 6 Sol - API Pricing & Benchmarks | OpenRouter</a></li>
+<li><a href="https://runtimewire.com/article/openai-astra-ten-open-math-problems">OpenAI says unreleased Astra model solved 10 open... - RuntimeWire</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The content references mathematicians experiencing a 'Deep Blue moment,' with one essay describing a 'profound spiritual crisis' in response to such AI advancements. It also connects to a vision of 'big mathematics'—large-scale human-AI collaborations—which frames the breakthrough as part of a broader, ongoing transformation in the discipline.
+**Discussion**: The author expresses a desire to see the prompts used, noting the transparency is decent but not complete. The post also mentions that many mathematicians are experiencing a 'Deep Blue' moment, referencing a prior essay describing a 'profound spiritual crisis' triggered by AI progress in mathematics.
 
-**Tags**: `#AI`, `#Mathematics`, `#Theoretical Computer Science`, `#OpenAI`, `#Research Breakthrough`
+**Tags**: `#AI research`, `#mathematics`, `#theoretical computer science`, `#OpenAI`, `#breakthroughs`
 
 ---
 
 <a id="item-2"></a>
-## [Postmortem: Critical Soundness Bug in Lean 4 Kernel](https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/) ⭐️ 8.0/10
+## [Go 1.27 Interactive Tour Introduces Generic Methods](https://victoriametrics.com/blog/go-1-27/index.html) ⭐️ 8.0/10
 
-A critical soundness bug (#14576) in the Lean 4 proof assistant's kernel, which could allow the creation of false proofs, was identified, analyzed in a detailed postmortem, and patched in version 4.32.1. The bug was discovered with the help of the GPT-5.6 Sol AI model. This bug shakes the foundation of trust in formal verification systems, as it proves that even highly rigorous, type-theory-based proof checkers can have implementation flaws that undermine their core promise of correctness. It has significant implications for the reliability of all software and mathematical results verified with Lean 4 prior to the fix. The vulnerability required a malicious metaprogram to trick the kernel, indicating it was not a simple logic error but a subtle implementation flaw. The fix is in Lean 4.32.1, and users are advised to verify critical proofs with current versions of both Lean and its independent checker.
+Go 1.27 introduces generic methods, allowing methods on types to declare their own type parameters, a feature missing since Go 1.18. The release also includes runtime fixes, such as for MTE compatibility on Android. This removes a long-standing limitation of Go's generics system, enabling more natural and readable code patterns for container transformations, which will improve developer productivity and reduce boilerplate. The runtime fixes also improve security and compatibility for specific platforms like Android. The new generic methods syntax, such as `(b Box[T]) Map[U any](f func(T) U) Box[U]`, has sparked debate about its cognitive complexity for developers new to generics. A notable runtime change now automatically drains HTTP response bodies, which could be a subtle but risky behavior change for some applications.
 
-hackernews · juhopitk · Aug 1, 18:32 · [Discussion](https://news.ycombinator.com/item?id=49137060)
+hackernews · Hixon10 · Aug 2, 01:35 · [Discussion](https://news.ycombinator.com/item?id=49140218)
 
-**Background**: Lean 4 is an interactive theorem prover and programming language based on dependent type theory, used for formalizing mathematics and verifying software. A 'soundness bug' in its kernel is particularly severe because the kernel is the small core component that checks the logical validity of all proofs; a soundness flaw means the system can incorrectly accept a false statement as proven true.
+**Background**: Go 1.18 introduced generics (type parameters) for functions but not for methods, a restriction that forced developers to use package-level functions for generic operations on types. This release is part of the standard Go language development cycle, which typically delivers a new version every six months with language features and runtime improvements.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/">Postmortem for Kernel Soundness Bug #14576 — Leonardo de Moura</a></li>
-<li><a href="https://lean-lang.org/doc/reference/latest/releases/v4.32.1/">Lean 4 .32.1 (2026-07-22)</a></li>
+<li><a href="https://www.gopherguides.com/articles/golang-generic-methods">Generic Methods Arrive in Go 1.27 - Gopher Guides</a></li>
+<li><a href="https://victoriametrics.com/blog/go-1-27/">Go 1.27 interactive tour</a></li>
+<li><a href="https://repojournal.com/showcase/golang/2026-05-29/go-1-27-release-notes-finalized-typeparams-deprecation-begins">Go 1.27 release notes finalized, typeparams deprecation begins · Go</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion highlights that such bugs are not entirely surprising even in simpler systems like Rust's type checker, but they stress that verified results should be viewed as extraordinarily strong but not absolutely unbreakable guarantees. A key debate emerged comparing Lean's approach to systems like Metamath, with some arguing that implementation bugs are an inherent risk in more complex type-theory systems.
+**Discussion**: The community discussion is divided, with some experienced developers expressing concern that the new generic methods syntax adds cognitive weight and complexity contrary to Go's original simplicity. Others provide practical examples, like in the `math/rand/v2` package, to illustrate its utility, while one comment highlights a critical runtime fix for Android MTE compatibility.
 
-**Tags**: `#formal-verification`, `#proof-systems`, `#type-theory`, `#software-soundness`, `#debugging`
+**Tags**: `#Go`, `#programming languages`, `#generic methods`, `#language design`, `#community discussion`
 
 ---
 
 <a id="item-3"></a>
-## [RipGrep's musl binaries crash on large searches due to allocator bug](https://github.com/BurntSushi/ripgrep/issues/3494) ⭐️ 8.0/10
+## [Alibaba Open-Sources 22B Model for Real-Time Digital Human Generation](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908954&idx=3&sn=1f4f3bf12d5fa00e2c37a4dcb7f71de9) ⭐️ 8.0/10
 
-A technical analysis revealed that ripgrep's musl-linked binaries experience segmentation faults (segfaults) during very-large searches due to contention in musl's memory allocator. The investigation traced the root cause to an interaction between musl's mallocng allocator and the Linux kernel, leading to a proposed kernel patch. This issue highlights critical performance pitfalls when combining highly optimized tools like ripgrep with alternative C standard libraries like musl, affecting developers and system administrators using musl-based distributions. It serves as a broader lesson about the importance of system-level design choices, such as memory allocator selection, for performance-critical applications. The bug is specifically linked to musl's default allocator (`mallocng`) struggling with contention under multi-threaded workloads, a limitation not present in other standard C libraries. The crash is triggered by a complex interaction where musl's allocation routines hit a kernel bug, and the analysis involved contributions from developers to diagnose a potential fix at the kernel level.
+Alibaba has open-sourced a 22B-parameter AI model that enables real-time, minute-level, stable generation of digital humans with streaming interaction for custom characters. This is a significant advance in AI-generated avatar technology, making high-quality, interactive digital humans more accessible for applications in live streaming, customer service, and interactive media through open-source release. The model is a large 22-billion-parameter system specifically designed for stable, real-time digital human synthesis, addressing common issues like 'drift' in long video generation.
 
-hackernews · throwaway2037 · Aug 1, 12:34 · [Discussion](https://news.ycombinator.com/item?id=49133889)
+rss · 量子位 · Aug 2, 02:00
 
-**Background**: Ripgrep is a popular, extremely fast command-line search tool written in Rust, known for its performance. Musl is a lightweight, simple, and standards-conforming implementation of the C standard library (libc), often used in minimalist Linux distributions like Alpine. A segmentation fault (segfault) is a serious error where a program tries to access invalid memory, causing it to crash.
+**Background**: Digital human generation technology uses AI to create realistic, interactive virtual avatars, often for video or live streaming. Streaming interaction models allow for continuous, low-latency human-AI collaboration, processing input and generating output in real-time micro-turns. Scaling up model parameters is a key trend in AI research, often correlating with improved performance.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.musl-libc.org/faq.html">musl FAQ</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Segmentation_fault">Segmentation fault - Wikipedia</a></li>
+<li><a href="https://www.zegocloud.com/product/digital-human">Digital Human API - ZEGOCLOUD</a></li>
+<li><a href="https://thinkingmachines.ai/blog/interaction-models/">Interaction Models: A Scalable Approach to Human-AI Collaboration - Thinking Machines Lab</a></li>
+<li><a href="https://www.aitraining2u.com/ai-model-parameters-scaling-laws-2026.html">AI Model Parameters & Scaling Laws Explained (2026)</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters highlighted that the detailed initial analysis was AI-generated, sparking discussion about debugging workflows. Experienced users advised against using ripgrep for massive searches on HPC cluster filesystems due to excessive small I/O operations, and questioned why musl's allocator wasn't replaced in a performance-focused tool.
-
-**Tags**: `#systems-programming`, `#performance`, `#memory-allocation`, `#bug-analysis`, `#high-performance-computing`
+**Tags**: `#AI`, `#Digital Humans`, `#Open Source`, `#Real-Time Generation`, `#Machine Learning`
 
 ---
 
 <a id="item-4"></a>
-## [ByteDance Unveils Seedance 2.5 AI Video Generator](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) ⭐️ 7.0/10
+## [Bor v0.8: Open-source Linux Desktop Policy Management](https://getbor.dev/blog/2026-08-02-bor-v080-release/) ⭐️ 7.0/10
 
-ByteDance has introduced Seedance 2.5, a new AI video generation model that focuses on producing high-quality action and effect shots with flexible referencing capabilities. The model can generate videos up to 30 seconds long and is positioned for use in scenarios like advertising and social media content. This model represents a significant step in AI-generated video, with its specific focus on action sequences potentially catering to strong demand in certain regional markets like China. The release also highlights the ongoing commercialization of advanced creative AI tools, which could impact production costs and workflows for filmmakers and content creators. Seedance 2.5 emphasizes text-to-video generation for high-dynamic content, with one reference note mentioning limited human-centric dialogue scenes. Professional use of such cutting-edge models involves substantial computational inference costs, as highlighted by community members who report spending thousands of dollars on similar projects.
+Bor, an open-source centralized policy management system for Linux desktops, has been released as version 0.8. This update adds new policy types for Thunderbird, Microsoft Edge for Business, and FirewallD zones, along with various improvements. This project addresses a significant gap in the Linux ecosystem for centralized, real-time desktop management, which is a common challenge for system administrators. By providing an open-source alternative to manual configuration or proprietary tools, Bor could simplify and standardize the management of Linux workstations across organizations. Bor uses a lightweight Go agent and a central server, streaming policies to clients in real-time over mTLS/gRPC without polling. It currently supports policy enforcement for browsers like Firefox and Chrome, KDE, dconf, polkit, and package management, with version 0.8 adding support for Thunderbird, Edge, and FirewallD zones.
 
-hackernews · njaremko · Aug 1, 20:45 · [Discussion](https://news.ycombinator.com/item?id=49138302)
+hackernews · eniac111 · Aug 2, 09:06 · [Discussion](https://news.ycombinator.com/item?id=49142569)
 
-**Background**: AI video generation models like Seedance 2.5 use deep learning to create video clips from text prompts, images, or other references. The field is rapidly evolving, with different models targeting varying aspects of video creation, such as realism, consistency, or specific shot types like action sequences. The cost of running these models at scale, known as inference cost, is a major consideration for commercial adoption.
+**Background**: Centralized desktop management for Linux distributions has often been handled through ad-hoc scripts, manual SSH access, or specialized enterprise tools. Bor introduces a modern approach using mTLS for strong mutual authentication between clients and the server, and gRPC for efficient, low-latency communication. dconf is a standard GNOME configuration tool, and FirewallD is a dynamic firewall manager used in distributions like RHEL and Fedora that organizes network rules into zones.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5">One-take Creation, Flexible Referencing: Introducing Seedance 2 . 5</a></li>
-<li><a href="https://www.seeddance.io/models/seedance-2-5">Seedance 2 . 5 Free: Try ByteDance AI Video, No Queue, Instant Results</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Dconf">dconf - Wikipedia</a></li>
+<li><a href="https://firewalld.org/documentation/zone/">Documentation - Zone | firewalld</a></li>
+<li><a href="https://www.stackhawk.com/blog/best-practices-for-grpc-security/">gRPC Security Best Practices: How to Secure gRPC APIs</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion notes that the model's focus on action shots may correlate with market demands in China versus the West, where filmmakers often prioritize video-to-video editing for actors. Users also express admiration for the high quality but raise concerns about the prohibitive costs for professional use and point to upcoming open-weight alternatives like MiniMax H3 for more control.
+**Discussion**: Community feedback expresses strong interest, with one non-profit manager calling it a potential solution to avoid Windows management tools, while asking about custom script execution and user mapping. Technical questions focused on the choice of mTLS over SSH for policy deployment, the readability of documentation diagrams, and how Bor prevents or reverts configuration drift without a polling mechanism.
 
-**Tags**: `#AI video generation`, `#ByteDance`, `#computational costs`, `#model development`, `#creative technology`
+**Tags**: `#Linux desktop management`, `#Open-source tools`, `#System administration`, `#Policy enforcement`, `#Go`
 
 ---
 
 <a id="item-5"></a>
-## [How Google's Decisions Helped Decline RSS Feeds](https://openrss.org/blog/how-google-helped-destroy-adoption-of-rss-feeds) ⭐️ 7.0/10
+## [15-Year-Old Shares Cycloidal Gearbox Project on Hacker News](https://github.com/tom-ilan/cycloidal_gearbox) ⭐️ 7.0/10
 
-An article analyzes how Google's discontinuation of its popular Google Reader in 2013 and its aggressive promotion of the competing social network Google+ significantly contributed to the decline in public adoption of RSS feeds. The analysis has sparked renewed discussion about corporate control and the health of the open web. This issue highlights the significant impact that a single corporation's strategic decisions can have on the adoption and infrastructure of open web standards like RSS. It serves as a cautionary tale about the risks of platform control and the importance of supporting decentralized, user-centric information distribution methods. The article points to Google's official justification for killing Reader (declining usage) as disingenuous, arguing it was a strategy to eliminate a competitor to its Google+ social network. Technically, RSS remains a lightweight, open standard for content syndication with no significant performance cost, which is why it persists in initiatives like the Open Web and among developers.
+A 15-year-old aspiring engineer posted their DIY cycloidal gearbox project on Hacker News, detailing the design and build process on GitHub. The post received strong community engagement with 264 points and 81 comments, offering technical feedback and career encouragement. This project demonstrates impressive hands-on mechanical engineering skills at a young age, highlighting the value of practical, project-based learning. It also showcases the supportive nature of the Hacker News community in mentoring and encouraging the next generation of engineers. The project focuses on a cycloidal gearbox, a specific type of precision gearbox that uses a cycloidal disk motion for high torque and zero backlash, distinct from traditional toothed gears. The builder published documentation and references to established standards, which the community praised as good engineering practice.
 
-hackernews · pudgywalsh · Aug 1, 18:07 · [Discussion](https://news.ycombinator.com/item?id=49136821)
+hackernews · tomilan · Aug 2, 02:07 · [Discussion](https://news.ycombinator.com/item?id=49140396)
 
-**Background**: RSS (Really Simple Syndication) is a standardized web feed format that allows users to subscribe to updates from multiple websites in a single aggregator app, enabling a decentralized and chronological reading experience. Google Reader, launched in 2005, became the most dominant and beloved RSS reader, serving as a central hub for information consumption for millions. Its shutdown in 2013 is widely viewed as a pivotal moment that fragmented the RSS ecosystem and marked a shift towards algorithmic social media feeds controlled by platforms.
+**Background**: A cycloidal gearbox is a mechanical system that uses a cycloidal disc to transfer motion and power, offering advantages like high torque capacity in a compact size and low backlash, making it useful for applications requiring precise, low-speed high-torque output. Unlike standard gears with meshing teeth, its operation relies on the disc rolling and contacting a ring of pins or rollers.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/RSS">RSS - Wikipedia</a></li>
-<li><a href="https://www.theverge.com/23778253/google-reader-death-2013-rss-social">Who killed Google Reader? - The Verge</a></li>
-<li><a href="https://yoast.com/open-web/">What is the open web? • Yoast</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cycloidal_drive">Cycloidal drive - Wikipedia</a></li>
+<li><a href="https://us.sumitomodrive.com/en-us/cycloidal-gearboxes-cycloidal-drives">Cycloidal Gearboxes & Drives</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters express nostalgia for the early, more open internet and frustration with the current ad-driven 'walled garden' ecosystem, which they feel Google's actions accelerated. There is a clear split in sentiment: while many mourn Google Reader and see its loss as the 'beginning of the end,' others actively resist corporate platforms by supporting independent RSS readers like NetNewsWire and implementing RSS on their own websites.
+**Discussion**: The community was overwhelmingly supportive, with commenters praising the craftsmanship, documentation, and initiative, encouraging the builder to drop the 'wannabe' label. Some offered practical advice, such as sourcing cheap textbooks and focusing on project merit over age, while also asking technical questions about the gearbox's function and trade-offs.
 
-**Tags**: `#RSS`, `#Open Web`, `#Google`, `#Internet History`, `#Platform Control`
+**Tags**: `#hardware`, `#mechanical-engineering`, `#DIY`, `#education`, `#community`
 
 ---
 
 <a id="item-6"></a>
-## [Study Examines Symmetry Learning in KataGo AI Neural Networks](https://www.reddit.com/r/MachineLearning/comments/1vcrki2/how_symmetric_are_the_insides_of_a_go_network_r/) ⭐️ 7.0/10
+## [Diátaxis: A Framework for Structured Technical Documentation](https://diataxis.fr/) ⭐️ 7.0/10
 
-A new research study, largely driven by AI, investigates how the neural networks of the open-source Go-playing AI KataGo internally learn rotation and reflection symmetry without explicit architectural enforcement, relying only on stochastic data augmentation during training. This study provides insights into how complex, superhuman AI systems can develop emergent, problem-appropriate representations (like symmetry) from data, which is valuable for the fields of neural network interpretability and AI design. The study uses a novel AI-driven methodology to analyze KataGo's internal representations, revealing that the network learns to represent the board in a largely orientation-independent manner, a finding the author describes as unexpected.
-
-reddit · r/MachineLearning · /u/icosaplex · Aug 1, 16:18
-
-**Background**: KataGo is a state-of-the-art, open-source Go-playing AI. The game of Go has inherent rotational and reflectional symmetry, meaning a board position is fundamentally the same if rotated or flipped. While the training process uses stochastic 8-fold data augmentation (randomly rotating/flipping each training batch) to expose the model to all orientations, the neural network architecture itself does not explicitly enforce symmetry. Understanding how networks handle such inherent symmetries is a key topic in machine learning interpretability.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/KataGo">KataGo - Wikipedia</a></li>
-<li><a href="https://homes.cs.washington.edu/~pedrod/papers/nips14.pdf">Deep Symmetry Networks Robert Gens Pedro Domingos</a></li>
-<li><a href="https://arxiv.org/abs/2003.13679">[2003.13679] Detecting Symmetries with Neural Networks</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#machine learning interpretability`, `#neural network symmetry`, `#Go AI`, `#KataGo`, `#emergent representations`
-
----
-
-<a id="item-7"></a>
-## [VLMs Hide Flaws in Medical Reports via Benchmark Scores](https://www.reddit.com/r/MachineLearning/comments/1vcipzz/vlms_can_score_well_on_benchmarks_while_silently/) ⭐️ 7.0/10
-
-Research reveals that vision-language models (VLMs) achieve high benchmark scores on radiology report generation while systematically erasing clinically meaningful terms and introducing hallucinated bias. The study proposes a new evaluation framework to measure this critical terminology erasure and bias. This exposes a dangerous flaw in current AI evaluation practices for medical applications, where high benchmark performance could mask clinically unsafe outputs. It calls for a fundamental shift towards more rigorous, clinically relevant metrics to ensure the reliability and safety of AI in healthcare. The research specifically observed that VLMs tended to generate repetitive, 'normal' reports and erased rare but clinically crucial words, making the outputs of no clinical utility. The proposed framework is designed to detect both the erasure of meaningful terms and the introduction of biased or hallucinated terms in generated reports.
-
-reddit · r/MachineLearning · /u/ade17_in · Aug 1, 09:27
-
-**Background**: Vision-language models (VLMs) are AI systems designed to process and generate text based on both images and language. In medical imaging, they are increasingly used for tasks like Radiology Report Generation (RRG), where an AI automatically writes a diagnostic report from a scan like a chest X-ray. The performance of these systems is typically evaluated using benchmark metrics, but this research highlights that such metrics can be misleading.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.sciencedirect.com/science/article/pii/S3050577125000283">Evaluation metrics in medical imaging AI: fundamentals ...</a></li>
-<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12292164/">Advancements in Radiology Report Generation : A Comprehensive...</a></li>
-<li><a href="https://www.ibm.com/think/topics/vision-language-models">What Are Vision Language Models (VLMs)? | IBM</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#VLM`, `#Medical AI`, `#Benchmark Evaluation`, `#Radiology Report Generation`, `#AI Safety`
-
----
-
-<a id="item-8"></a>
-## [Diátaxis: A Framework for Technical Documentation](https://diataxis.fr/) ⭐️ 6.0/10
-
-Diátaxis is a systematic framework for technical documentation that organizes content into four distinct types: tutorials, how-to guides, explanation, and reference. This approach provides a clear structure to improve the clarity and purpose of documentation. This framework helps developers and technical writers create more coherent and user-focused documentation by clarifying the intent of each piece of content. It addresses a common pain point in software projects where documentation often becomes an unfocused mix of different content types. The framework is not a rigid prescription but a way of thinking; its practical implementation can vary, and the initial effort to categorize existing content can be significant. The author is also actively working on translating the framework into multiple languages to broaden its adoption.
+The Diátaxis framework organizes technical documentation into four distinct types—tutorials, how-to guides, reference, and explanation—to improve clarity and structure for users and contributors. Adopting this framework can help teams produce more effective, user-focused documentation by providing clear guidelines on content type, which in turn improves developer experience and project maintainability. The framework's effectiveness depends on correct classification of content into its four types, and practitioners report it is particularly useful when restructuring existing documentation or handing over complex codebases.
 
 hackernews · ryanseys · Aug 1, 20:33 · [Discussion](https://news.ycombinator.com/item?id=49138188)
 
-**Background**: Technical documentation in software development can take many forms, often mixing explanatory text, step-by-step instructions, and detailed specifications. Diátaxis, created by Daniele Procida, proposes a clean separation of these into four quadrants based on two axes: learning vs. solving a problem, and studying vs. applying knowledge. This model helps both authors and readers by setting clear expectations for each document's purpose.
+**Background**: Diátaxis, from the Greek for "across arrangement," is a systematic framework for technical documentation design. It distinguishes between content based on user needs: tutorials for learning, how-to guides for task-oriented steps, reference for detailed information, and explanation for conceptual understanding.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://diataxis.fr/">Diátaxis</a></li>
-<li><a href="https://github.com/evildmp/diataxis-documentation-framework">GitHub - evildmp/diataxis-documentation-framework: A systematic approach to creating better documentation. · GitHub</a></li>
-<li><a href="https://idratherbewriting.com/blog/what-is-diataxis-documentation-framework">What is Diátaxis and should you be using it with your documentation? | I'd Rather Be Writing Blog and API doc course</a></li>
+<li><a href="https://idratherbewriting.com/blog/what-is-diataxis-documentation-framework">What is Diátaxis and should you be using it with your ...</a></li>
+<li><a href="https://qiskit.github.io/qiskit_sphinx_theme/intro/diataxis.html">The Diátaxis Framework - Qiskit Docs Guide</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community members report positive experiences using Diátaxis to restructure and hand over complex codebases, finding it clarifies the writing voice. However, some advise not to treat it as gospel and to carefully read the full framework before implementation, while one user noted its utility for generating initial documentation with an LLM.
+**Discussion**: Practitioners share overwhelmingly positive experiences, noting it brings exceptional clarity to documentation projects, especially for complex codebases. However, they advise against treating it as rigid dogma, emphasizing the need to fully understand its nuances, such as handling complex hierarchies, before implementation.
 
-**Tags**: `#documentation`, `#technical-writing`, `#software-engineering`, `#best-practices`
+**Tags**: `#documentation`, `#technical-writing`, `#software-engineering`, `#knowledge-management`, `#developer-tools`
+
+---
+
+<a id="item-7"></a>
+## [ByteDance Launches Advanced AI Video Model Seedance 2.5](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) ⭐️ 7.0/10
+
+ByteDance has released Seedance 2.5, an advanced AI video generation model that focuses on generating longer, higher-quality 30-second video clips with precise reference control and flexible editing capabilities. This new model represents a significant step forward in text-to-video and reference-based video creation for professional workflows. This release is significant as it pushes the boundaries of AI video generation towards more practical, longer-form content creation suitable for professional production pipelines. It highlights ByteDance's strategic focus on high-effect, action-oriented content, which may cater to different market demands compared to Western counterparts. Seedance 2.5 is a next-generation audio-video joint generation model designed for 30-second storytelling with reference control. The model is positioned for longer, more editable production workflows compared to its predecessors and competing models.
+
+hackernews · njaremko · Aug 1, 20:45 · [Discussion](https://news.ycombinator.com/item?id=49138302)
+
+**Background**: AI video generation models like Seedance use advanced computer vision and deep learning to create videos from text prompts or reference images/videos. The field is rapidly evolving, with major tech companies and startups competing to produce more realistic, longer, and controllable video content for applications ranging from entertainment to professional filmmaking.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://seed.bytedance.com/en/seedance2_5">Seedance 2.5</a></li>
+<li><a href="https://technode.com/2026/07/31/bytedance-launches-seedance-2-5-video-generation-model/">ByteDance launches Seedance 2.5 video-generation model · TechNode</a></li>
+<li><a href="https://www.jxp.com/seedance/seedance-2-5">Seedance 2.5 AI Video Generator: 30s 4K Videos</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The community discussion highlights a divergence in market focus, noting that ByteDance's model emphasizes action and effects over dialog-driven scenes compared to Western needs. Users also raise practical concerns about the high cost of inference for professional use and point to competing open-weight models like MiniMax H3 as a more economical alternative, while others express ethical reservations about the technology's potential harms.
+
+**Tags**: `#AI video generation`, `#text-to-video`, `#ByteDance`, `#generative AI`, `#computer vision`
+
+---
+
+<a id="item-8"></a>
+## [US Treasury Intervenes to Support Yen for First Time Since 1998](https://www.ft.com/content/0f9b2fe7-bde4-4f5f-b49e-93ccb5da9ea8) ⭐️ 7.0/10
+
+The US Treasury has intervened in foreign exchange markets to support the Japanese yen for the first time since 1998. The move aims to stabilize currency markets amid concerns Japan might sell off large holdings of US treasuries to defend its currency. This historic intervention is significant as it reflects deep concern about potential instability in the US-Japan financial relationship, where Japan is a major holder of US debt. It could have ripple effects on global currency markets and US treasury yields, potentially influencing broader economic policy decisions. The intervention marks a shift from recent patterns, where the US had previously intervened to weaken the yen, such as in 2011. Analysts note this could be a strategic move to delay the impact of carry trade unwinds, where investors borrow in yen to buy US assets, which currently supports US funding.
+
+hackernews · 23pointsNorth · Aug 2, 10:46 · [Discussion](https://news.ycombinator.com/item?id=49143188)
+
+**Background**: Foreign exchange market intervention involves governments or central banks buying or selling currencies to influence exchange rates and stabilize their economies. Japan, facing a weakening yen, has been considering using its vast US treasury holdings as a tool for currency defense, which could destabilize US bond markets.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.bis.org/publ/bppdf/bispap24.pdf">Foreign exchange market intervention in emerging markets ...</a></li>
+<li><a href="https://japan.co.jp/e/reports/yen-intervention-watch-july-2026.html">Yen Watch: Japan ’s July Intervention Moment — History , Successes...</a></li>
+<li><a href="https://www.thebalancemoney.com/what-is-the-japanese-yen-5218555">thebalancemoney.com/ what - is - the - japanese - yen -5218555</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The discussion highlights the tension between US and Japan, with commenters noting Japan's potential use of its US treasury holdings as leverage. Some see the intervention as a tactical delay to manage carry trade risks and political timing, while others provide historical context about past interventions.
+
+**Tags**: `#economics`, `#currency markets`, `#US-Japan relations`, `#financial policy`, `#geopolitics`
 
 ---
 
 <a id="item-9"></a>
-## [Study Finds AI Provides Surprisingly Good Financial Advice](https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions) ⭐️ 6.0/10
+## [Optimizing Kimi K3 for AMD MI355X GPUs Beats NVIDIA B300 on Cost](https://www.wafer.ai/blog/kimi-k3-mi355x) ⭐️ 7.0/10
 
-一项由麻省理工学院斯隆管理学院进行的研究发现，当用户提出正确的问题时，大型语言模型能够提供质量出奇高的个人财务建议。 这项研究挑战了AI在复杂、个性化决策领域能力有限的普遍看法，可能对成本高昂且建议同质化的传统理财规划行业构成颠覆性威胁。 研究强调了提问方式对获得高质量建议的重要性，并暗示AI在处理复杂权衡时可能仍存在局限，但其通用建议质量很高。
+A blog post by Wafer.ai details optimizations for running the Kimi K3 AI model on AMD MI355X GPUs, claiming better performance per dollar compared to NVIDIA's B300. The post describes technical fixes like zero-padding the head count to utilize a faster kernel, leading to claimed cost efficiencies. This claim directly challenges the current cost-performance hierarchy in AI inference hardware, potentially offering a more affordable alternative for deploying large language models. It could influence procurement decisions for organizations looking to optimize inference workloads and highlights the growing competitiveness of AMD's AI accelerator ecosystem. The comparison hinges on specific GPU rental prices ($2.50/GPU-hr for MI355X vs. $6.00 for B300), which community commenters dispute as inaccurate for real-world terms. The optimization involves a trivial code change (zero-padding head count 12→16) to run a fast kernel, a method some suggest may be AI-assisted and potentially flawed.
 
-hackernews · foxtrot8672 · Aug 1, 22:25 · [Discussion](https://news.ycombinator.com/item?id=49139102)
+hackernews · ilreb · Aug 2, 04:21 · [Discussion](https://news.ycombinator.com/item?id=49141073)
 
-**Background**: 大型语言模型是能够理解和生成人类文本的AI系统，已被应用于代码生成、内容创作等多个领域。个人财务建议通常涉及投资、储蓄、保险和退休规划等，传统上由持证理财规划师提供。
+**Background**: Kimi K3 is a large language model with approximately 2.8 trillion parameters, built on new architectures like Kimi Delta Attention and Attention Residuals for better long-context handling. AMD Instinct MI355X is a high-density data center GPU with 288GB HBM3E memory, part of AMD's push into the AI accelerator market. NVIDIA's B300 is a high-performance GPU representing the current leader in AI training and inference hardware.
 
-**Discussion**: 社区讨论指出普通人群金融知识匮乏，使得通用AI建议显得格外有用；同时也质疑了评估方法，认为单次交互的评估忽略了模型“切身利益”和长期背景的重要性。有观点认为AI在处理复杂权衡时表现不佳，而财务建议恰好是简单、有共识的领域。
+<details><summary>References</summary>
+<ul>
+<li><a href="https://platform.kimi.ai/docs/guide/kimi-k3-quickstart">Kimi K3 - Kimi API Platform</a></li>
+<li><a href="https://www.amd.com/en/products/accelerators/instinct/mi350/mi355x.html">AMD Instinct™ MI355X GPUs</a></li>
+<li><a href="https://tensorwave.com/blog/what-is-the-amd-instinct-mi355x-features-performance-and-use-cases">What Is the AMD Instinct MI355X? Features, Performance, and ...</a></li>
 
-**Tags**: `#AI applications`, `#financial technology`, `#LLM evaluation`, `#personal finance`, `#AI ethics`
+</ul>
+</details>
+
+**Discussion**: Community comments express significant skepticism, questioning the accuracy of the price comparison, the accessibility and justifiability of purchasing AMD MI355X hardware, and the term 'open source' used for models like Kimi K3. Some also suspect the optimization process may have been AI-assisted and could be unreliable.
+
+**Tags**: `#AI inference optimization`, `#hardware benchmarks`, `#GPU cost analysis`, `#AMD MI355X`, `#model deployment`
 
 ---
 
 <a id="item-10"></a>
-## [No Starch Press Releases 'The Art of 64-bit Assembly' Book](https://nostarch.com/art-64-bit-assembly-v2) ⭐️ 6.0/10
+## [CausalVLBench: Benchmarking Visual Causal Reasoning in VLMs](https://www.reddit.com/r/MachineLearning/comments/1vdd7ty/r_causalvlbench_benchmarking_visual_causal/) ⭐️ 7.0/10
 
-No Starch Press has published a comprehensive 800-page book titled 'The Art of 64-bit Assembly', focusing on 64-bit assembly language programming. 这本书为对底层计算感兴趣的程序员提供了一本深入的资源书，对于系统编程、逆向工程、性能优化以及深刻理解计算机架构至关重要。 The book appears to be focused on the MASM (Microsoft Macro Assembler) toolchain, as indicated by community discussion, and is noted for being a substantial work of nearly 800 pages.
+The paper introduces CausalVLBench, a new benchmark designed to evaluate and advance the visual causal reasoning abilities in large vision-language models (VLMs). This benchmark provides a structured method to assess this specific, emerging capability that was previously lacking a dedicated evaluation framework. This benchmark addresses a critical gap in evaluating VLMs beyond mere correlation, pushing the field towards models that can perform real-world reasoning for planning and simulation. It will help researchers and developers systematically measure progress in building more reliable and interpretable AI systems for complex visual tasks. The benchmark is specifically designed for large vision-language models and likely tests their ability to understand cause-and-effect relationships within visual scenarios, not just object recognition. Its creation implies that existing VLM evaluation suites were insufficient for measuring this higher-order reasoning skill.
 
-hackernews · 0x54MUR41 · Aug 1, 14:09 · [Discussion](https://news.ycombinator.com/item?id=49134599)
+reddit · r/MachineLearning · /u/moschles · Aug 2, 09:07
 
-**Background**: Assembly language is a low-level programming language that provides a direct correspondence to a computer's machine code instructions. 64-bit assembly refers to writing this code for modern 64-bit processor architectures, which is distinct from older 32-bit or 16-bit assembly. No Starch Press is a publisher well-known for producing technical books aimed at programmers, hackers, and enthusiasts.
+**Background**: Vision-language models (VLMs) are AI systems that can jointly interpret and generate information from images and text, extending the capabilities of text-only large language models. Causal reasoning is a critical cognitive ability that involves understanding cause-and-effect relationships, which is essential for real-world planning and decision-making but often remains a weakness in current AI models that rely heavily on statistical correlations.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/No_Starch_Press">No Starch Press</a></li>
+<li><a href="https://arxiv.org/html/2506.11034">CausalVLBench: Benchmarking Visual Causal Reasoning in Large Vision-Language Models</a></li>
+<li><a href="https://aclanthology.org/2025.emnlp-main.1561.pdf">Benchmarking Visual Causal Reasoning in Large Vision- ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Vision-language_model">Vision-language model - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion is mixed, with some users expressing enthusiasm for assembly language and the book's existence, while others criticize the book's marketing copy and the use of AI-generated text in its introduction. There is also a meta-debate about the nature of the discussion itself and the relevance of assembly today.
+**Discussion**: The provided content does not include any community comments or discussion from the Reddit post, so this field is left empty.
 
-**Tags**: `#assembly`, `#programming`, `#computer-science`, `#low-level`, `#book`
+**Tags**: `#benchmarking`, `#causal reasoning`, `#vision-language models`, `#evaluation`, `#AI research`
 
 ---
 
 <a id="item-11"></a>
-## [NetBSD 11.0 Released with NPF and MICROVM Enhancements](https://blog.netbsd.org/tnf/entry/netbsd_11_0_released) ⭐️ 6.0/10
+## [Meshdiff: Browser-Based Client-Side Visual Diff for 3D STL Models](https://meshdiff.com/) ⭐️ 6.0/10
 
-NetBSD 11.0 has been released, featuring significant improvements to the NPF firewall, such as layer 2 and user/group filtering. It also introduces a new MICROVM kernel for x86 architectures that can boot in approximately 10 milliseconds, alongside various hardware and compatibility enhancements. This release strengthens NetBSD's position in the embedded and virtualization markets by providing a firewall with advanced filtering and a near-instant-boot kernel ideal for lightweight virtual machines. The hardware compatibility updates ensure NetBSD remains a viable option for a wide range of devices and use cases. The new MICROVM kernel leverages PVH boot and VirtIO MMIO for optimized performance, booting in about 10 ms on 2020-era x86 CPUs. The NPF improvements add valuable layer 2 filtering and user/group based packet control, enhancing its utility as a central firewall component.
+Meshdiff is a new client-side, in-browser tool that allows users to visually compare two versions of 3D model files like STL, 3MF, and OBJ, highlighting additions, removals, and dimensional changes without uploading any files. This tool solves a practical problem for developers and designers working with 3D models by providing an accessible, privacy-preserving way to review changes, potentially improving workflows in 3D printing, game development, and CAD collaboration. The tool operates entirely client-side, offering voxel-based and surface-heatmap diffing directly in the browser, with no file uploads required, ensuring user data remains local.
 
-hackernews · jaypatelani · Aug 1, 17:56 · [Discussion](https://news.ycombinator.com/item?id=49136736)
+hackernews · projscope · Aug 2, 11:34 · [Discussion](https://news.ycombinator.com/item?id=49143479)
 
-**Background**: NetBSD is a free, open-source Unix-like operating system known for its portability to a vast array of hardware platforms. NPF is a stateful packet filter developed for NetBSD, comparable to Linux's iptables or FreeBSD's PF. A MICROVM kernel is a minimal configuration designed for extremely fast startup in virtualized environments, often used for specialized, lightweight virtual machines.
+**Background**: STL is a common file format used in 3D printing and CAD that describes the raw surface geometry of a 3D object as a triangulated mesh, but it does not include information about color or texture. Comparing changes between different versions of such 3D models traditionally required specialized software or complex workflows, which Meshdiff aims to simplify through a web-based approach.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://netbsd.org/releases/formal-11/NetBSD-11.0.html">Announcing NetBSD 11.0 RC7 (July 21, 2026)</a></li>
-<li><a href="https://www.phoronix.com/news/NetBSD-11.0">NetBSD 11.0 Released With RISC-V Support, Enhanced... - Phoronix</a></li>
-<li><a href="https://ostechnix.com/build-10mb-netbsd-vms-boot-10ms-smolbsd/">Build 10MB NetBSD VMs That Boot in 10ms Using... - OSTechNix</a></li>
+<li><a href="https://meshdiff.com/">Meshdiff — Compare 3D Model Versions (STL, 3MF, OBJ Diff Tool)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/STL_(file_format)">STL (file format)</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion focuses on the current state and relevance of the BSD ecosystem compared to Linux, with users pondering the motivations and user base of projects like NetBSD. Commenters also positively highlighted the technical improvements, such as the fast MICROVM boot and NPF enhancements, and noted the release's cautious messaging regarding open issues.
+**Discussion**: Community members are generally positive and suggest practical enhancements like synchronized viewport transforms and integration with GitHub pull requests or CI pipelines for automated 3D file diffing.
 
-**Tags**: `#operating-systems`, `#BSD`, `#systems`, `#release-announcement`, `#infrastructure`
+**Tags**: `#3D modeling`, `#STL files`, `#client-side tools`, `#web development`, `#open source`
+
+---
+
+<a id="item-12"></a>
+## [Seeking Pipeline for Textbook Figure Digitization](https://www.reddit.com/r/MachineLearning/comments/1vdlj8j/looking_for_the_right_pipeline_to_convert/) ⭐️ 6.0/10
+
+A user is seeking technical advice on building a human-assisted pipeline to detect, clean, and convert scanned academic textbook figures into structured, interactive digital assets. The core challenge is removing embedded labels while preserving the underlying artwork for frontend rendering. This addresses a practical bottleneck in educational technology and digital publishing, where converting static figures into interactive, translatable, and restyable assets could significantly enhance learning materials. The problem sits at the intersection of document understanding, computer vision, and cost-effective AI deployment. The proposed workflow involves figure detection, label/annotation removal with inpainting, and storing geometry for frontend control, with a human-in-the-loop for corrections to prioritize reducing manual work over full automation. A key constraint is avoiding expensive multimodal LLMs or large vision models to keep inference costs low for large-scale processing.
+
+reddit · r/MachineLearning · /u/Afraid_Reviewer · Aug 2, 15:50
+
+**Background**: Document understanding uses AI to extract structured information from unstructured sources like scanned documents. Techniques like layout analysis, OCR, and inpainting are key for processing such content. The goal here is to go beyond data extraction to create manipulable digital assets, a challenge relevant to fields like computer vision, scientific document processing, and educational technology.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://cloud.google.com/blog/products/ai-machine-learning/building-a-document-understanding-pipeline-with-google-cloud">Building a Document Understanding Pipeline ... | Google Cloud Blog</a></li>
+<li><a href="https://www.paddleocr.ai/v3.3.1/en/version3.x/pipeline_usage/doc_understanding.html">Document Understanding Pipeline - PaddleOCR Documentation</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#document-understanding`, `#computer-vision`, `#figure-extraction`, `#OCR`, `#interactive-graphics`
 
 ---
