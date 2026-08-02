@@ -1,457 +1,333 @@
 # Horizon Daily - 2026-08-02
 
-> From 37 items, 19 important content pieces were selected
+> From 28 items, 14 important content pieces were selected
 
 ---
 
-1. [DeepSeek-V4-Flash 284B Runs on 5.3GB RAM via SSD Streaming Engine](#item-1) ⭐️ 8.0/10
-2. [Kakehashi: Experimental Project to Run macOS CLI Binaries on Linux ARM](#item-2) ⭐️ 7.0/10
-3. [Analysis of Essential English Words for Learners (1953 vs 2023)](#item-3) ⭐️ 7.0/10
-4. [Go 1.27 Release Analysis: New Generics and Behavior Changes](#item-4) ⭐️ 7.0/10
-5. [15-Year-Old Showcases 3D-Printed Cycloidal Gearbox on GitHub](#item-5) ⭐️ 7.0/10
-6. [Microsoft-led coalition advocates for open-weight AI models](#item-6) ⭐️ 7.0/10
-7. [OpenAI President: Humans Resent AI Agents Initiating Contact](#item-7) ⭐️ 7.0/10
-8. [datasette-apps 0.2a0 adds AI agent debugging tools](#item-8) ⭐️ 7.0/10
-9. [Alibaba Open-Sources 22B Model for Stable Real-Time Digital Humans](#item-9) ⭐️ 7.0/10
-10. [Qwen Model Comparison: 1109 Outputs Across 33 Variants](#item-10) ⭐️ 7.0/10
-11. [Xberg v1: High-Performance Content Intelligence Framework Released](#item-11) ⭐️ 7.0/10
-12. [Karpathy Shares AI-Generated 'Pelican on a Bicycle' Image](#item-12) ⭐️ 6.0/10
-13. [RISC OS Open Project Celebrates 20th Anniversary](#item-13) ⭐️ 6.0/10
-14. [F*: A Proof-Oriented Language for Verified Software](#item-14) ⭐️ 6.0/10
-15. [Browser-Based Tool Visually Compares Two STL 3D Model Versions](#item-15) ⭐️ 6.0/10
-16. [Open-source Bor agent v0.8 expands Linux desktop policy support](#item-16) ⭐️ 6.0/10
-17. [Medieval Grimoire 'Ars Notoria' Explored in Historical Essay](#item-17) ⭐️ 6.0/10
-18. [DeepSeek-V4-Flash-0731 Tops Chess Benchmark, Beats Fable-5 & Kimi-K3](#item-18) ⭐️ 6.0/10
-19. [Home User Builds 16-Unit DGX Spark Cluster for Local LLMs](#item-19) ⭐️ 6.0/10
+1. [Karpathy Stars SQLite AI Waste Project](#item-1) ⭐️ 8.0/10
+2. [Kakehashi: Experimental Tool Runs macOS Binaries on Linux ARM](#item-2) ⭐️ 8.0/10
+3. [F*: Proof-Oriented Language for Verified Software](#item-3) ⭐️ 8.0/10
+4. [Andrej Karpathy shares AI-generated pelican animation, sparking benchmark debate](#item-4) ⭐️ 7.0/10
+5. [Bor v0.8: Open-Source Linux Desktop Policy Management Update](#item-5) ⭐️ 7.0/10
+6. [Open Letters Debate Open-Weight AI Models and US Policy](#item-6) ⭐️ 7.0/10
+7. [Alibaba's 22B Model Open-Sources Real-Time Digital Human Generation](#item-7) ⭐️ 7.0/10
+8. [LLM Context Degradation Research and Mitigation Habits](#item-8) ⭐️ 7.0/10
+9. [New Benchmark CausalVLBench for Visual Causal Reasoning in VLMs](#item-9) ⭐️ 7.0/10
+10. [eBay Security Team Harassment Campaign Leads to $56M Settlement](#item-10) ⭐️ 6.0/10
+11. [Browser-Based Tool Visually Compares STL File Versions Client-Side](#item-11) ⭐️ 6.0/10
+12. [Analysis Shows 70-Year Shift in Core English Learner Vocabulary](#item-12) ⭐️ 6.0/10
+13. [NeurIPS 2026 Rebuttals Silently Ignored, Reviewers Unaware](#item-13) ⭐️ 6.0/10
+14. [Conference Reviews: Demanding Excessive Work?](#item-14) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [DeepSeek-V4-Flash 284B Runs on 5.3GB RAM via SSD Streaming Engine](https://www.reddit.com/r/LocalLLaMA/comments/1vdbix4/deepseekv4flash_284b_on_53gb_of_memory/) ⭐️ 8.0/10
+## [Karpathy Stars SQLite AI Waste Project](https://github.com/sqliteai/waste) ⭐️ 8.0/10
 
-A developer created a new inference engine, Mference, that runs the 284-billion-parameter DeepSeek-V4-Flash model on just ~5.3GB of memory by dynamically streaming expert weights from an SSD. The engine also includes a native Mac app, OpenAI-compatible server, and support for file attachments. This achievement drastically lowers the hardware barrier for running massive AI models locally, enabling usable performance on consumer devices like an 8GB Mac. It represents a significant step towards democratizing access to large language models by bypassing traditional memory limitations. The model uses 2-bit dynamic quantization, occupying ~91GB on disk, and achieves up to 4.8 tokens per second on a 24GB M5 Pro. The current implementation dedicates about 53% of decode time to I/O operations waiting for expert data, which is a key area for future optimization.
+AI researcher Andrej Karpathy starred the experimental GitHub project sqliteai/waste. This project is an SQLite extension designed to run extremely large AI models, like the 2.78-trillion-parameter Kimi K3, by streaming activated weights from NVMe storage. This signals growing interest in integrating AI workloads directly into lightweight databases like SQLite, which could revolutionize on-device and edge AI applications. The high-profile endorsement from a prominent AI figure like Karpathy highlights the project's potential to influence future AI tooling and local inference paradigms. The waste project specifically targets models that exceed available RAM, like Kimi K3 which is over 1 terabyte in size. It is written in C and uses a streaming approach to load only the necessary activated weights from an NVMe drive during inference.
 
-reddit · r/LocalLLaMA · /u/Blahblahblakha · Aug 2, 07:28
+github · karpathy · Aug 2, 17:19
 
-**Background**: Mixture-of-Experts (MoE) models like DeepSeek-V4-Flash activate only a small subset of their total parameters for any given input, making them theoretically more efficient. The core idea of this engine is to keep the shared model components and KV cache in RAM while streaming the specific expert weights needed for each computation directly from an SSD, thus overcoming the memory bottleneck for very large models.
+**Background**: SQLite is a widely used, lightweight, embedded database engine. The sqliteai ecosystem aims to bring AI capabilities directly into SQLite via extensions, enabling on-device and edge inference where low latency and offline operation are critical. The waste project is an experimental extension within this ecosystem for handling exceptionally large language models.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/ml-explore/mlx-lm/issues/1438">Feature request: MoE expert streaming / SSD offload for memory-constrained Apple Silicon (run 395 GB GLM-5.2-mxfp4 on 128 GB RAM) · Issue #1438 · ml-explore/mlx-lm</a></li>
-<li><a href="https://www.mindstudio.ai/blog/ssd-streaming-ai-models-ram-dial">SSD Streaming for AI Models: How to Turn RAM from a Wall into a Dial | MindStudio</a></li>
+<li><a href="https://github.com/sqliteai/waste">GitHub - sqliteai / waste : Run the full 2.78-trillion-parameter Kimi...</a></li>
+<li><a href="https://www.sqlite.ai/sqlite-ai">SQLite-AI - On-device inference and embeddings inside SQLite</a></li>
+<li><a href="https://docs.sqlitecloud.io/docs/ai-overview">Getting Started with SQLite AI - SQLite Cloud Docs</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community discussion focused on practical performance issues, with users sharing solutions for CUDA compatibility problems that were severely degrading throughput. One user also provided benchmark data for a different inference engine (TensorSharp) on the same model, showing the broader activity around optimizing DeepSeek-V4-Flash.
+**Discussion**: There are no community comments provided in the input to analyze.
 
-**Tags**: `#LocalLLaMA`, `#MoE`, `#Model Inference`, `#SSD Offloading`, `#Quantization`
+**Tags**: `#sqlite`, `#ai-tools`, `#database-systems`, `#developer-tools`, `#experimental`
 
 ---
 
 <a id="item-2"></a>
-## [Kakehashi: Experimental Project to Run macOS CLI Binaries on Linux ARM](https://github.com/wie-project/kakehashi) ⭐️ 7.0/10
+## [Kakehashi: Experimental Tool Runs macOS Binaries on Linux ARM](https://github.com/wie-project/kakehashi) ⭐️ 8.0/10
 
-Kakehashi is a new, experimental userspace project that aims to natively translate and execute macOS command-line binaries (like 7-Zip and curl) on Linux ARM64 systems. Working prototypes are available for several tools, including one for 7-Zip that passes multi-threaded compression tests. This project addresses a niche but growing need for cross-platform compatibility between macOS and Linux, particularly on ARM architecture. It could significantly benefit developers and users in Apple Silicon and ARM-based Linux ecosystems by enabling native execution of macOS-only CLI tools without full virtualization. The project operates as a userspace translation layer without JIT compilation, focusing on the CLI-first approach to translate Mach-O binaries and map a freestanding libSystem. An early benchmark shows the translated 7-Zip is approximately 5.2 times slower than its native Linux counterpart, though an optimization roadmap is in place.
+An experimental userspace translation layer called Kakehashi has been developed to natively run macOS ARM64 CLI binaries on Linux aarch64 systems, with working prototypes for tools like 7-Zip and curl. The project achieves this by translating BSD syscalls and mapping a freestanding libSystem without using JIT or instruction emulation. This project offers a novel, lightweight approach to cross-platform binary compatibility that could significantly ease the migration of macOS command-line tools to ARM-based Linux environments like Apple Silicon. It addresses a specific gap for developers and users wanting to run native macOS utilities without full virtualization, potentially influencing future compatibility layer designs. The runtime is a userspace translator that executes guest code natively without JIT or instruction emulation, intervening only at specific boundaries like syscalls, helpers, and thread management. Early benchmarks show a 7-Zip prototype runs about 5.2x slower than native Linux, but the developer has a clear optimization plan, and the project is CLI-first with no plans for GUI support.
 
 hackernews · vlad_kalinkin · Aug 2, 16:26 · [Discussion](https://news.ycombinator.com/item?id=49145937)
 
-**Background**: Running macOS software on Linux has historically been approached through projects like Darling, which is a compatibility layer similar in concept to WINE for Windows. Binary translation is a key technique for enabling software written for one instruction set architecture (ISA) to run on another, such as translating from macOS ARM64 (Mach-O) to Linux aarch64 (ELF). ARM is a widely used processor architecture known for its power efficiency, common in mobile devices and increasingly in servers and desktops.
+**Background**: Running binaries compiled for one operating system on another typically requires compatibility layers or virtualization. Projects like Darling aim to run macOS binaries on Linux using a translation layer, while WINE/Proton translates Windows APIs. CPU translation layers use techniques like dynamic binary translation and system call translation to bridge architectural gaps, such as ARM to x86/x64.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/wie-project/kakehashi">GitHub - wie-project/kakehashi: Userspace macOS translation ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Darling_(software)">Darling (software) - Wikipedia</a></li>
-<li><a href="https://sourav-k-paul.medium.com/binary-translation-bridging-the-gap-between-isas-15038712c606">Binary Translation: Bridging the gap between ISAs</a></li>
+<li><a href="https://github.com/wie-project/kakehashi">GitHub - wie-project/kakehashi: Userspace macOS translation layer for Linux ARM64 · GitHub</a></li>
+<li><a href="https://github.com/wie-project/kakehashi/blob/main/docs/architecture.md">kakehashi /docs/architecture.md at main · wie-project/ kakehashi</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Compatibility_layer">Compatibility layer - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion is engaged and technical, with users drawing comparisons to the WINE/Darling projects and inquiring about potential collaboration. There is clear interest from users who have long sought this capability, though some note the project is still in an early, experimental stage.
+**Discussion**: Community members expressed strong interest and compared the project to established efforts like Darling, with one commenter asking about potential collaboration. The discussion highlighted user excitement for long-term macOS application compatibility on Linux ARM and raised technical questions about alternative implementation strategies, such as requiring original binaries as input rather than shipping rewritten libraries.
 
-**Tags**: `#cross-platform`, `#macOS`, `#Linux`, `#ARM`, `#compatibility`
+**Tags**: `#cross-platform`, `#macOS`, `#Linux ARM`, `#binary compatibility`, `#open source`
 
 ---
 
 <a id="item-3"></a>
-## [Analysis of Essential English Words for Learners (1953 vs 2023)](https://pudding.cool/2026/07/essential-words/) ⭐️ 7.0/10
+## [F*: Proof-Oriented Language for Verified Software](https://fstar-lang.org/) ⭐️ 8.0/10
 
-A data-driven analysis compares the list of essential English words for learners in 1953 to the one in 2023, revealing significant changes. The 2023 list has fewer words for immediate personal relationships and more for abstract, collective identity. This study provides concrete evidence of how societal values and communication needs shape language education over decades. It helps educators and learners understand that vocabulary teaching must evolve to remain relevant to contemporary cultural and social contexts. The size of the 'Social-Communicative' vocabulary level remained stable, but nearly a quarter of the 1953 words were removed, and 39% of the 2023 words are new. Words like 'humble' and 'loyalty' were replaced by terms such as 'community', 'identity', and 'ethnic'.
+F* is a general-purpose, proof-oriented programming language designed to formally verify software properties through machine-checked proofs. It enables developers to write programs alongside mathematical proofs of correctness, with real-world applications in migrating C codebases and building secure systems. This language represents a significant step in high-assurance software development, offering a practical path to create verifiably correct code for security-critical systems. Its adoption by major companies like Microsoft and Amazon highlights its potential to improve software reliability and reduce vulnerabilities in sensitive applications. F* incorporates dependently typed functional programming and integrates with external tools like Steel for reasoning about concurrent imperative programs. The language supports incremental migration of existing codebases, allowing developers to call external libraries while proving properties of their code.
 
-hackernews · c-oreills · Aug 2, 15:41 · [Discussion](https://news.ycombinator.com/item?id=49145590)
+hackernews · ducktective · Aug 2, 12:31 · [Discussion](https://news.ycombinator.com/item?id=49143925)
 
-**Background**: Language teaching for English as a Second Language (ESL) often relies on curated vocabulary lists to prioritize what learners study first. These lists are periodically updated to reflect the changing frequency and importance of words in real-world usage, influenced by cultural, technological, and social shifts.
+**Background**: Formal verification is a software development technique that uses mathematical proofs to guarantee program correctness, crucial for high-assurance systems in safety-critical industries. F* builds on principles from type theory and functional programming, extending these paradigms with proof capabilities to ensure software meets its specifications.
 
-**Discussion**: Commenters highlighted the subjective nature of creating a 'useful' vocabulary list, noting it depends heavily on the learner's purpose, such as travel, media consumption, or reading news. Some discussed the cultural and societal implications of the vocabulary shift, suggesting it reflects increased inequality and tribalism.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://fstar-lang.org/">F *: A Proof - Oriented Programming Language</a></li>
+<li><a href="https://www.linuxlinks.com/f-general-purpose-proof-oriented-programming-language/">F * - general-purpose, proof - oriented programming language</a></li>
+<li><a href="https://dwheeler.com/essays/high-assurance-floss.html">High Assurance (for Security or Safety) and Free-Libre / Open Source...</a></li>
 
-**Tags**: `#language-learning`, `#sociolinguistics`, `#data-visualization`, `#cultural-shifts`, `#English-vocabulary`
+</ul>
+</details>
+
+**Discussion**: Community comments reveal a divide: some appreciate F*'s practical use for migrating C codebases and its industrial application, while others criticize the homepage for lacking immediate code examples, making it hard to assess syntax and utility. One user notes the difficulty of implementing responsive stylesheets without side effects in pure functional paradigms.
+
+**Tags**: `#programming languages`, `#formal verification`, `#type theory`, `#functional programming`, `#software security`
 
 ---
 
 <a id="item-4"></a>
-## [Go 1.27 Release Analysis: New Generics and Behavior Changes](https://victoriametrics.com/blog/go-1-27/index.html) ⭐️ 7.0/10
+## [Andrej Karpathy shares AI-generated pelican animation, sparking benchmark debate](https://twitter.com/karpathy/status/2083749667410727319) ⭐️ 7.0/10
 
-The Go 1.27 release introduces a new generic-based Map function for slices, implements automatic HTTP response body draining, and includes compatibility fixes for Android's Memory Tagging Extension (MTE). 这些变更旨在简化常见编码模式、改进资源管理和安全性，将影响开发者编写函数式变换、处理网络资源以及在 Android 上部署 Go 应用程序的方式。 The new Map function has a generic syntax that some developers find adds cognitive complexity, while the automatic HTTP body draining is a silent behavior change that could break code relying on the previous manual draining requirement.
+Andrej Karpathy shared an AI-generated 3D animation of a pelican riding a bicycle. This example has become a focal point for discussions about evaluating AI capabilities in generating complex, real-world 3D scenes. The animation shifts the conversation from standard AI benchmarks to more qualitative assessments of physical world understanding and creative potential in 3D graphics. It highlights a potential new direction for measuring model progress beyond simple image generation. The animation appears to have been generated using a model likely from Anthropic, with discussion suggesting it produced three.js code, a JavaScript library for 3D graphics. The community debate centers on whether the quality of the output is sufficient for a meaningful benchmark or if it merely demonstrates proficiency in writing specific code.
 
-hackernews · Hixon10 · Aug 2, 01:35 · [Discussion](https://news.ycombinator.com/item?id=49140218)
+hackernews · delichon · Aug 2, 04:05 · [Discussion](https://news.ycombinator.com/item?id=49140998)
 
-**Background**: Go 中的泛型允许编写可与多种类型配合使用的代码，新的 Map 函数提供了一个标准工具来转换切片元素。内存标签扩展（MTE）是 Armv9 的一项硬件特性，有助于捕获诸如释放后使用（use-after-free）之类的内存安全错误，对 Android 应用安全性至关重要。
+**Background**: Andrej Karpathy is a prominent AI researcher, formerly of OpenAI and Tesla. AI models, particularly large language models (LLMs) and multimodal models, are increasingly being used for creative tasks like generating images, code, and now 3D animations. Three.js is a popular tool for creating 3D graphics in web browsers.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://go.dev/doc/tutorial/generics">Tutorial: Getting started with generics - The Go Programming Language</a></li>
-<li><a href="https://developer.android.com/ndk/guides/arm-mte">Arm Memory Tagging Extension (MTE) | Android NDK | Android Developers</a></li>
+**Discussion**: Commenters debated the value of this as a benchmark, with some arguing it's a useful measure of physical world understanding, while others downplayed it as merely demonstrating three.js code generation. There was also a broader critique about rising expectations for AI speed potentially lowering the bar for output quality.
 
-</ul>
-</details>
-
-**Discussion**: The community discussion highlights a split between developers who find the new generic syntax adds unnecessary complexity and those who appreciate the practical fixes like MTE compatibility. There is also concern about the subtle, silent nature of the HTTP body draining change potentially causing unexpected behavior in existing applications.
-
-**Tags**: `#Go`, `#programming languages`, `#generics`, `#release notes`, `#systems programming`
+**Tags**: `#AI-generated-content`, `#3D-graphics`, `#LLMs`, `#benchmarks`, `#Andrej-Karpathy`
 
 ---
 
 <a id="item-5"></a>
-## [15-Year-Old Showcases 3D-Printed Cycloidal Gearbox on GitHub](https://github.com/tom-ilan/cycloidal_gearbox) ⭐️ 7.0/10
+## [Bor v0.8: Open-Source Linux Desktop Policy Management Update](https://getbor.dev/blog/2026-08-02-bor-v080-release/) ⭐️ 7.0/10
 
-A 15-year-old engineering enthusiast has shared a well-documented project for a cycloidal gearbox on GitHub, including design files and iteration notes from V2 to V3. This project demonstrates how accessible tools like 3D printing enable young creators to tackle complex mechanical engineering challenges and build a professional-level portfolio. The gearbox is designed to reduce speed with high torque and low backlash, a mechanism often used in robotics and CNC machines.
+The Bor open-source policy management system has released version 0.8, adding support for Thunderbird, Microsoft Edge for Business, and FirewallD zones alongside various improvements. This update expands the range of applications that can be centrally configured and managed on Linux desktops. This release addresses a significant gap in the Linux ecosystem by providing a centralized, open-source alternative to proprietary tools like Microsoft Intune for managing desktop configurations. It enables system administrators to define and enforce policies in real-time across multiple Linux desktops, improving security and consistency for enterprise and institutional fleets. Bor uses a lightweight Go agent on each client that receives policies over an encrypted gRPC stream using mutual TLS (mTLS) authentication, eliminating the need for polling. The system currently supports Firefox, Chrome, KDE, dconf, polkit, and package management, with the v0.8 update adding new policy types.
 
-hackernews · tomilan · Aug 2, 02:07 · [Discussion](https://news.ycombinator.com/item?id=49140396)
+hackernews · eniac111 · Aug 2, 09:06 · [Discussion](https://news.ycombinator.com/item?id=49142569)
 
-**Background**: A cycloidal gearbox is a type of speed reducer that uses an eccentrically mounted disc with lobes engaging with surrounding pins to achieve a high reduction ratio in a compact size. It is valued in precision applications for its high torque capacity and minimal backlash.
+**Background**: Managing configurations across a fleet of Linux desktops has traditionally been challenging, lacking a native equivalent to Windows' Group Policy or MDM solutions. Bor aims to fill this void with an agent-server architecture where policies are streamed in real-time, ensuring endpoints are always in compliance without manual intervention. Technologies like gRPC provide efficient, low-latency communication, and mTLS ensures secure, authenticated connections between the server and each managed endpoint.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Cycloidal_drive">Cycloidal drive - Wikipedia</a></li>
-<li><a href="https://howtomechatronics.com/how-it-works/what-is-cycloidal-driver-designing-3d-printing-and-testing/">What is Cycloidal Driver? Designing , 3 D Printing and Testing</a></li>
+<li><a href="https://getbor.dev/">Bor — Enterprise Linux Desktop Policy Management</a></li>
+<li><a href="https://github.com/VuteTech/bor">Bor — Enterprise Linux Desktop Policy Management - GitHub</a></li>
+<li><a href="https://oneuptime.com/blog/post/2026-01-08-grpc-mtls-mutual-tls/view">How to Add mTLS (Mutual TLS) to gRPC Services</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community response is overwhelmingly positive, with users praising the craftsmanship, documentation, and iteration from a creator of any age, and encouraging the young engineer to drop the 'wannabe' label.
+**Discussion**: The community discussion shows strong interest from users managing small fleets, such as a non-profit administrator seeking alternatives to Windows management, who are eager for features like custom script execution and user mapping. Technical questions focus on architectural choices, such as the preference for mTLS over SSH for policy deployment, and how the system handles configuration drift in the absence of polling.
 
-**Tags**: `#mechanical-engineering`, `#DIY-hardware`, `#3D-printing`, `#portfolio-project`, `#youth-in-STEM`
+**Tags**: `#linux-desktop-management`, `#open-source`, `#system-administration`, `#go-agent`, `#mTLS`
 
 ---
 
 <a id="item-6"></a>
-## [Microsoft-led coalition advocates for open-weight AI models](https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything) ⭐️ 7.0/10
+## [Open Letters Debate Open-Weight AI Models and US Policy](https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything) ⭐️ 7.0/10
 
-A major open letter led by Microsoft and signed by 235 companies, advocating for open-weight AI models to maintain U.S. leadership, has been published. Anthropic published a separate position on open-weights models days later, expressing concerns about risks and calling for a crackdown on industrial-scale distillation. This coalition letter represents a significant industry pushback against potential restrictive U.S. regulations on open-weight AI, framing it as a national competitiveness and security issue. It highlights a major philosophical and policy divide within the AI community between proponents of open models and those emphasizing stricter controls due to safety risks. The letter notably supports the use of distillation, where one model trains on another's outputs, while a separate counter-statement from 1,324 AI employees calls for government intervention to deliberately 'pace the frontier' of AI development due to concerns about uncontrolled acceleration.
+A Microsoft-led open letter titled 'Open Weights and American AI Leadership' was published on July 24, 2026, and signed by 235 AI companies including NVIDIA, Amazon, and OpenAI, advocating for open-weight models to counter potential US government restrictions on safety grounds. This coordinated industry advocacy directly influences the debate around US AI regulation, aiming to prevent policies that could restrict open-weight models by arguing they are essential for competition, innovation, and distributed safety oversight. The letter notably supports distillation, a model improvement technique, while Anthropic, which later published its own position paper, expressed concerns about open-weights risks and called for cracking down on large-scale distillation operations.
 
 rss · Simon Willison · Aug 2, 04:16
 
-**Background**: Open-weight AI models allow developers to access and modify the model's underlying weights, offering more control, customization, and cost efficiency compared to closed models accessed via APIs. The debate between open and closed models is central to AI policy, involving trade-offs between innovation, security, and market competition, with significant implications for U.S. technological leadership.
+**Background**: Open-weight models are AI systems whose trained parameters (weights) are publicly released, allowing others to download and modify them, as opposed to closed models accessed only via APIs. The US government is considering regulations on AI models, including potential restrictions on open-weight models due to safety concerns, such as preventing misuse by adversaries or enabling dangerous capabilities.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.shoutdigital.com/insights/open-vs-closed-the-fine-tuning-divide-in-ai-models/">Open vs. Closed: The fine-tuning divide in AI models</a></li>
-<li><a href="https://theplanettools.ai/blog/closed-vs-open-weight-ai-models-how-to-choose-2026">Closed vs Open-Weight AI: How to Actually Choose (2026)</a></li>
+<li><a href="https://hai.stanford.edu/ai-definitions/what-is-an-open-weight-model">What is an Open-Weight Model? - Stanford HAI</a></li>
+<li><a href="https://www.anthropic.com/news/position-open-weights-models">Our position on open-weights models \ Anthropic</a></li>
+<li><a href="https://www.forbes.com/sites/paulocarvao/2026/08/01/five-reasons-ai-regulation-is-coming-to-the-us-how-and-when/">Five Reasons AI Regulation Is Coming To The US, How And When</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI policy`, `#open source`, `#AI regulation`, `#industry coalition`, `#AI development`
+**Tags**: `#AI policy`, `#open source AI`, `#industry advocacy`, `#US regulation`, `#Microsoft`
 
 ---
 
 <a id="item-7"></a>
-## [OpenAI President: Humans Resent AI Agents Initiating Contact](https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything) ⭐️ 7.0/10
+## [Alibaba's 22B Model Open-Sources Real-Time Digital Human Generation](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908954&idx=3&sn=1f4f3bf12d5fa00e2c37a4dcb7f71de9) ⭐️ 7.0/10
 
-OpenAI President Greg Brockman shared that many employees connect ChatGPT to Slack, but people strongly dislike when a coworker's AI agent contacts them for help, even though they would willingly assist if asked directly by the human coworker. This observation highlights a critical psychological and social barrier in AI adoption, suggesting that AI tools must be designed to augment human relationships rather than replace or mediate them, which has direct implications for workplace AI system design and ethics. The specific issue arises when AI agents autonomously initiate contact on behalf of a user, which is perceived as impersonal and intrusive, contrasting with the collaborative intent when humans ask each other for help directly.
+Alibaba has open-sourced a 22-billion-parameter model that enables real-time, minute-level stable generation of digital humans with streaming interaction for custom roles. 这一成就通过提供一个高质量的开源工具，降低了创建交互式AI头像的门槛，有可能加速虚拟助手、直播和游戏行业的创新。 The model specifically addresses the 'drift' problem often seen in longer video generation, ensuring temporal stability for practical, real-time applications.
 
-rss · Simon Willison · Aug 1, 22:29
+rss · 量子位 · Aug 2, 02:00
 
-**Background**: AI agent integration into workplace communication platforms like Slack is a growing trend aimed at boosting efficiency by automating tasks and information retrieval. However, this scenario underscores the complex dynamics of human-AI collaboration, where social norms and the value of personal interaction can clash with technological automation.
+**Background**: Digital human generation involves creating realistic, animated avatars from static images, often using diffusion models. Real-time, interactive systems that handle streaming inputs and generate coherent gestures are a significant technical challenge, with recent research like StreamAvatar focusing on adapting models for efficiency and low latency.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://link.springer.com/article/10.1007/s41469-025-00199-z">Generative AI and collaboration: opportunities for ... - Springer</a></li>
-<li><a href="https://link.springer.com/chapter/10.1007/978-3-031-94171-9_32">Understanding Human-AI Collaboration: A Systematic Review of ...</a></li>
+<li><a href="https://arxiv.org/abs/2512.22065">[2512.22065] StreamAvatar: Streaming Diffusion Models for Real-Time Interactive Human Avatars</a></li>
+<li><a href="https://www.zegocloud.com/product/digital-human">Digital Human API - ZEGOCLOUD</a></li>
 
 </ul>
 </details>
 
-**Discussion**: No community comments were provided with this news item.
+**Discussion**: A brief comment, 'AI竞赛，电还有，电工快不够了,' hints at intense industry competition and potential resource constraints, like energy or skilled personnel, in the AI development race.
 
-**Tags**: `#ai-ethics`, `#human-ai-collaboration`, `#workplace-technology`, `#ai-societal-impact`, `#openai`
+**Tags**: `#digital_human`, `#real_time_AI`, `#open_source_model`, `#streaming_interaction`, `#Alibaba_AI`
 
 ---
 
 <a id="item-8"></a>
-## [datasette-apps 0.2a0 adds AI agent debugging tools](https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything) ⭐️ 7.0/10
+## [LLM Context Degradation Research and Mitigation Habits](https://www.reddit.com/r/MachineLearning/comments/1vdsgcj/context_degradation_in_llms_what_the_papers/) ⭐️ 7.0/10
 
-Datasette Apps version 0.2a0 introduced the `app_debug()` tool, which allows an AI agent to invisibly test an application via a sandboxed iframe, and the `app_list()` tool for listing editable apps. This update enhances the capabilities of the Datasette Agent when creating and editing apps. This update is significant because it provides a novel and practical pattern for AI agents to perform automated testing and manage applications within a web environment. It demonstrates a clever approach to sandboxing agent interactions, which could inspire similar techniques for agent-tool integration in other web development and testing frameworks. The `app_debug()` tool operates by rendering the target application in an invisible iframe (with CSS properties `opacity: 0` and `pointer-events: none`) and executing agent-provided JavaScript within that sandbox to perform tests like measuring element dimensions. This functionality leverages the `context.browser_task()` mechanism introduced in datasette-agent 0.4a0.
+The Reddit post synthesizes recent research on context degradation in LLMs and proposes practical habits to maintain model performance during long analysis sessions. Understanding and mitigating context degradation is crucial for enterprises and practitioners deploying LLMs for complex, extended tasks, as it directly impacts accuracy and reliability. The research identifies phenomena like 'context rot' and 'shallow long-context adaptation,' where performance drops sharply beyond certain input length thresholds. Practical techniques likely include methods like Retrieval-Augmented Generation (RAG), strategic prompting, and structured memory management to preserve context fidelity.
 
-rss · Simon Willison · Aug 1, 21:23
+reddit · r/MachineLearning · /u/usernamehere93 · Aug 2, 20:20
 
-**Background**: Datasette is an open-source tool for exploring and publishing data. Datasette Apps is a plugin that allows hosting custom HTML applications directly within a Datasette instance in a secure sandbox. Datasette Agent is an LLM-powered AI assistant for Datasette that can write and run SQL queries, and with version 0.4a0, it gained new capabilities like the `browser_task()` mechanism for interacting with the web browser.
+**Background**: LLMs process information within a fixed 'context window,' and their ability to follow instructions or recall facts can erode during long interactions or with complex inputs. This 'context degradation' is a known limitation that hinders the use of LLMs for long-form analysis, multi-session collaboration, or processing large datasets holistically.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://datasette.io/blog/2026/datasette-apps/">Host applications inside Datasette with Datasette Apps - Datasette Blog</a></li>
-<li><a href="https://github.com/datasette/datasette-apps">GitHub - datasette/datasette-apps: Apps that live inside Datasette · GitHub</a></li>
-<li><a href="https://agent.datasette.io/">Datasette Agent : an AI assistant for Datasette to help explore and...</a></li>
+<li><a href="https://www.emergentmind.com/topics/context-degradation-in-large-language-models">Context Degradation in LLMs</a></li>
+<li><a href="https://arxiv.org/html/2601.15300v1">Intelligence Degradation in Long-Context LLMs: Critical Threshold Determination via Natural Length Distribution Analysis</a></li>
+<li><a href="https://redis.io/blog/context-rot/">Context rot explained (& how to prevent it)</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Datasette`, `#AI agents`, `#web development`, `#software testing`, `#open source tools`
+**Tags**: `#LLM`, `#context window`, `#prompt engineering`, `#AI research`, `#practical tips`
 
 ---
 
 <a id="item-9"></a>
-## [Alibaba Open-Sources 22B Model for Stable Real-Time Digital Humans](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908954&idx=3&sn=1f4f3bf12d5fa00e2c37a4dcb7f71de9) ⭐️ 7.0/10
+## [New Benchmark CausalVLBench for Visual Causal Reasoning in VLMs](https://www.reddit.com/r/MachineLearning/comments/1vdd7ty/r_causalvlbench_benchmarking_visual_causal/) ⭐️ 7.0/10
 
-Alibaba has open-sourced a 22-billion parameter (22B) model that enables real-time, stable generation of digital humans for streaming interaction, specifically solving the problem of visual drift in long video outputs. This is a significant advancement in AI media generation because it addresses a core limitation (drift) in current long-form video AI, making more reliable and interactive digital avatars practical for applications like live streaming, customer service, and virtual companions. The model is built for streaming interaction and aims to maintain consistency over extended generation periods, moving beyond the limitations of previous models that often produced incoherent scenes or repetitive motion in longer videos.
+Researchers have introduced CausalVLBench, a comprehensive benchmark designed to evaluate the visual causal reasoning capabilities of large vision-language models (LVLMs). The benchmark encompasses three core tasks: causal structure inference, intervention target prediction, and counterfactual prediction. This benchmark fills a critical gap in current VLM evaluation, as existing benchmarks often mix reasoning questions and allow models to exploit superficial cues. By focusing specifically on causal reasoning, CausalVLBench provides a more rigorous diagnostic tool to assess model robustness and fundamental understanding, which is essential for developing more reliable multimodal AI. CausalVLBench is designed for evaluation under zero-shot and few-shot settings, providing a flexible framework for testing different LVLMs. The benchmark aims to probe a known limitation of current models, which often struggle with complex reasoning and can 'hallucinate' causal relationships.
 
-rss · 量子位 · Aug 2, 02:00
+reddit · r/MachineLearning · /u/moschles · Aug 2, 09:07
 
-**Background**: Digital human generation uses AI to create realistic, interactive avatars. A major technical challenge is 'temporal drift,' where AI-generated videos lose consistency, causing objects to morph, scenes to become incoherent, or motions to repeat unnaturally over time. Solving this enables practical, long-duration interactions.
+**Background**: Vision-language models (VLMs) have demonstrated strong performance on various multimodal tasks like visual question answering. However, their ability to understand and reason about causal relationships in visual input remains unclear and is considered fundamental for solving complex high-level reasoning tasks. Previous studies have indicated that VLMs can exploit shortcuts in existing benchmarks, making dedicated causal reasoning benchmarks necessary.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://nav4ai.com/tool/mainecoon-ai">MaineCoon AI: Real-time 22B audio-visual AI model optimized ...</a></li>
-<li><a href="https://imerit.ai/resources/blog/solving-temporal-drift-in-ai-generated-video/">Temporal Drift in AI-Generated Video: Causes, Evaluation, and Production Strategies - iMerit</a></li>
-<li><a href="https://hackernoon.com/the-drift-problem-in-video-ai">The Drift Problem in Video AI | HackerNoon</a></li>
+<li><a href="https://arxiv.org/abs/2506.11034">[2506.11034] CausalVLBench: Benchmarking Visual Causal Reasoning in Large Vision-Language Models</a></li>
+<li><a href="https://arxiv.org/abs/2506.00869">[2506.00869] What's Missing in Vision-Language Models ... What’s Missing in Vision-Language Models? Probing Their ... GitHub - limenlp/CausalVLM CausalVLBench: Benchmarking Visual Causal Reasoning in Large ... CausalVLBench: Benchmarking Visual Causal Reasoning in Large ... NeurIPS What’s Missing in Vision-Language Models? Probing ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#digital human`, `#AI video generation`, `#open-source AI`, `#real-time AI`, `#large language models`
+**Discussion**: The provided content does not include community comments from the Reddit post, so a summary of the discussion cannot be generated.
+
+**Tags**: `#Benchmarking`, `#Vision-Language Models`, `#Causal Reasoning`, `#Multimodal AI`, `#Evaluation`
 
 ---
 
 <a id="item-10"></a>
-## [Qwen Model Comparison: 1109 Outputs Across 33 Variants](https://www.reddit.com/r/LocalLLaMA/comments/1vdn7zl/all_qwen_model_oneshots_1109_outputs_to_look_at/) ⭐️ 7.0/10
+## [eBay Security Team Harassment Campaign Leads to $56M Settlement](https://www.ft.com/content/06ec1b03-d4af-40cf-b12a-4ba5a410f6d2) ⭐️ 6.0/10
 
-A user has systematically generated and compiled 1109 one-shot outputs from 33 different Qwen model variants across 35 prompts for direct community comparison. 这为评估Qwen模型提供了一个实用的、真实的基准，帮助从业者为他们的特定需求选择最佳模型，并理解不同版本之间的性能差异。 The comparison covers models from Qwen 2.5 to the latest Qwen 3.7 series, including specialized Coder and VL variants, and is hosted on a dedicated website for easy browsing.
+eBay has agreed to a $56 million legal settlement after its security team orchestrated a harassment campaign against critics of the company. Several former employees, including senior security managers, have been criminally convicted for their roles in the cyberstalking scheme. 这一案例为公司的法律责任树立了重要先例，表明当安全团队针对个人从事不道德或犯罪行为时，公司可能面临巨额经济处罚。它突显了企业安全运营中健全的内部监督和道德准则的必要性。 The harassment campaign involved sending threatening and disturbing packages to victims, including a bloody Halloween mask and live spiders. The scheme was carried out by seven members of eBay's security team, some of whom were former police captains.
 
-reddit · r/LocalLLaMA · /u/kms_dev · Aug 2, 16:57
+hackernews · JumpCrisscross · Aug 2, 19:19 · [Discussion](https://news.ycombinator.com/item?id=49147435)
 
-**Background**: Qwen is a family of large language models developed by Alibaba Cloud, with many models open-sourced. OpenRouter is a unified gateway that provides access to hundreds of LLMs from various providers for easy experimentation. A 'oneshot' in LLM benchmarking typically refers to generating a model's output for a single, specific prompt without any conversation history or context.
+**Background**: Corporate cyberstalking refers to the use of electronic means by an organization to harass or intimidate individuals. This case is notable because it involved a major tech company's internal security team being used for this purpose, blurring the lines between protective security functions and active harassment.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Qwen">Qwen - Wikipedia</a></li>
-<li><a href="https://www.codecademy.com/article/what-is-openrouter">What is OpenRouter? A Guide with Practical Examples | Codecademy</a></li>
-<li><a href="https://www.tacmind.com/blog/llm-benchmarking-methods">LLM benchmarking methods: how to evaluate LLMs</a></li>
+<li><a href="https://me.mashable.com/tech/74435/inside-the-ebay-harassment-campaign-that-led-to-a-557-million-settlement">Inside the eBay harassment campaign that led to a $55.7 million...</a></li>
+<li><a href="https://whdh.com/news/member-of-ebay-security-team-sentenced-in-harassment-scheme-involving-bloody-halloween-pig-mask/">Member of eBay security team sentenced in harassment scheme...</a></li>
+<li><a href="https://www.vox.com/recode/2020/6/18/21295992/ebay-security-stalking-ecommercebytes-cyberstalking-devin-wenig-james-baugh?uuid=4NfIHXA49NBqBg3C4407">EBay ’s former CEO denies any link to the cyberstalking of... | Vox</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The original content does not include comments, so a summary of the community discussion cannot be provided.
+**Discussion**: Commenters expressed skepticism about the scope of the misconduct, wondering if eBay's security team had targeted other critics beyond the known victims. There was also concern about the involvement of former law enforcement officers in the campaign and broader reflections on corporate culture and the potential for abuse when employees act without proper supervision.
 
-**Tags**: `#LLM benchmarking`, `#model evaluation`, `#Qwen models`, `#local AI`, `#open-source LLM`
+**Tags**: `#corporate_governance`, `#cybersecurity_ethics`, `#legal_cases`, `#tech_industry_scandals`
 
 ---
 
 <a id="item-11"></a>
-## [Xberg v1: High-Performance Content Intelligence Framework Released](https://www.reddit.com/r/LocalLLaMA/comments/1vdd795/xberg_v1_is_out/) ⭐️ 7.0/10
+## [Browser-Based Tool Visually Compares STL File Versions Client-Side](https://meshdiff.com/) ⭐️ 6.0/10
 
-Xberg v1 has been released as the successor to the Kreuzberg framework, featuring a new pure-Rust PDF backend (pdf_oxide), extensive format support (101 document formats, 367+ code types), and integrated OCR engines like PaddleOCR and Tesseract. This release significantly improves performance and reliability for extracting content from diverse sources, which is crucial for building efficient AI/ML data pipelines. By offering native Rust implementations and cross-platform support, it lowers barriers for integrating high-quality document processing into applications. The framework includes a layout-aware pipeline with ONNX-based detection for reconstructing reading order, selective OCR for scanned pages, and a new pure-Rust Candle OCR/VLM stack that eliminates dependencies on ONNX Runtime or Tesseract. It also adds structured LLM extraction and retrieval building blocks like SPLADE and ColBERT.
-
-reddit · r/LocalLLaMA · /u/Goldziher · Aug 2, 09:06
-
-**Background**: Kreuzberg was a polyglot document intelligence framework with a Rust core designed to extract text, metadata, and code intelligence from numerous file formats at native speeds. Content intelligence frameworks are essential for AI applications that need to process unstructured data, like PDFs and code, into structured formats for training or analysis.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/xberg-io/xberg">GitHub - xberg-io/xberg: A polyglot document intelligence ...</a></li>
-<li><a href="https://docs.kreuzberg.dev/">Kreuzberg | Kreuzberg</a></li>
-<li><a href="https://www.newtuple.com/post/ocr-benchmark-paddleocr-docling-llamaparse-surya">OCR Benchmark 2026: PaddleOCR vs Docling vs LlamaParse vs ...</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#content-extraction`, `#pdf-processing`, `#rust`, `#ai-ml-pipeline`, `#ocr`
-
----
-
-<a id="item-12"></a>
-## [Karpathy Shares AI-Generated 'Pelican on a Bicycle' Image](https://twitter.com/karpathy/status/2083749667410727319) ⭐️ 6.0/10
-
-Andrej Karpathy posted a generated image of a pelican riding a bicycle, sparking a discussion about the current state and future direction of AI model benchmarks. 这一事件凸显了AI社区中关于基准测试应侧重技术能力（如生成奇特概念）还是整体输出质量和现实世界理解能力的日益增长的辩论。 The discussion revolves around the specific prompt 'pelican on a bicycle' being used as a test, and whether such creative prompts are effective benchmarks or merely showcase a model's ability to combine concepts without true comprehension.
-
-hackernews · delichon · Aug 2, 04:05 · [Discussion](https://news.ycombinator.com/item?id=49140998)
-
-**Background**: AI image generation models are often evaluated using standardized benchmarks to measure performance. A common trade-off in this field is between the speed of generation and the final image quality, with newer models often aiming to optimize both.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://consumerarena.com/">AI Model Benchmarks | Real Consumer Rankings for Image ...</a></li>
-<li><a href="https://sozee.ai/resources/ai-image-generators-speed-quality/">AI Image Generator Speed vs Quality: 2026 Comparison Guide</a></li>
-<li><a href="https://zsky.ai/blog/ai-generator-speed-vs-quality">AI Speed vs Quality: 6 Tools Tested | ZSky AI</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters expressed mixed views: some argued that such tests are valid benchmarks for understanding physical world models, while others felt the quality of the output was poor and that the community's expectations for speed may be overshadowing the need for quality. One user also noted a potential training bias towards specific coding frameworks.
-
-**Tags**: `#AI`, `#image-generation`, `#benchmarks`, `#community-discussion`, `#AndrejKarpathy`
-
----
-
-<a id="item-13"></a>
-## [RISC OS Open Project Celebrates 20th Anniversary](https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open) ⭐️ 6.0/10
-
-A retrospective article has been published celebrating the twentieth anniversary of the RISC OS Open project, detailing its history and community contributions to the Acorn-derived operating system. The article serves as a milestone marker for a project that has maintained and developed RISC OS as open source software for two decades. 这件事突显了一个专注于维护具有历史意义的基于 ARM 操作系统的小众开源社区，其非凡的持久力和奉献精神。它强调了社区努力在保持老式计算平台活力和相关性方面的作用，特别是对于那些对另类计算历史感兴趣的爱好者和开发者。 RISC OS was originally designed by Acorn Computers in 1987 for its ARM-based Archimedes personal computers, making it one of the earliest RISC architecture operating systems. The RISC OS Open project provides the open-source version of this system, which is actively maintained and can run on modern hardware like the Raspberry Pi, offering notably fast boot times.
-
-hackernews · AlexeyBrin · Aug 2, 12:36 · [Discussion](https://news.ycombinator.com/item?id=49143967)
-
-**Background**: RISC OS is a modular operating system designed to run on ARM processors, which follow the Reduced Instruction Set Computer architecture. It was originally developed in Cambridge, England by Acorn Computers, the same team that helped create the ARM microprocessor. The RISC OS Open project was established to make the source code of the operating system freely available, allowing the community to continue its development after Acorn's decline.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/RISC_OS">RISC OS - Wikipedia</a></li>
-<li><a href="https://www.riscosopen.org/content/">RISC OS Open : Welcome</a></li>
-<li><a href="https://www.theregister.com/2024/05/02/rool_530_is_here/?td=rt-3a">RISC OS Open 5.30 is here – with Pi Wi-Fi support • The Register</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Comments reflect personal nostalgia and appreciation from former Acorn users, with individuals sharing memories of developing software like the !Director application. Discussion also notes the project's endurance given its small community size and highlights RISC OS's notable performance advantage, such as its fast boot time on Raspberry Pi hardware compared to other operating systems.
-
-**Tags**: `#RISC OS`, `#Open Source History`, `#Acorn`, `#Raspberry Pi`, `#Operating Systems`
-
----
-
-<a id="item-14"></a>
-## [F*: A Proof-Oriented Language for Verified Software](https://fstar-lang.org/) ⭐️ 6.0/10
-
-This news item introduces F*, a high-level, multi-paradigm, functional programming language designed for program verification, jointly developed by Microsoft Research and Inria. It emphasizes formal specifications and the ability to prove program correctness using dependent types and SMT solvers. F* provides a practical path to developing provably correct software, which is critical for high-assurance systems in security, finance, and infrastructure. Its ability to integrate with existing codebases, like C, makes it a potentially powerful tool for incrementally hardening critical software components. F* programs can be translated into multiple target languages, including OCaml, F#, C, and WebAssembly via the KaRaMeL tool, and assembly via Vale, allowing for verification and then execution in various environments. The language's type system includes dependent types, monadic effects, and refinement types to express precise functional correctness and security properties.
-
-hackernews · ducktective · Aug 2, 12:31 · [Discussion](https://news.ycombinator.com/item?id=49143925)
-
-**Background**: F* (pronounced F star) is a programming language that combines functional and object-oriented paradigms, inspired by languages like ML and OCaml. It is specifically designed for the formal verification of software, where mathematical proofs are used to guarantee that a program behaves exactly as specified. This approach, known as proof-oriented programming, aims to eliminate entire classes of bugs by construction.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/F*_(programming_language)">F* (programming language)</a></li>
-<li><a href="https://fstar-lang.org/">F*: A Proof - Oriented Programming Language</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The community discussion reveals usability concerns, with one user criticizing the lack of prominent code examples on the homepage. Others ask about its industry applicability and practical use cases, while one commenter praises its solid design for incremental migration from existing C codebases.
-
-**Tags**: `#Programming Languages`, `#Formal Methods`, `#Verification`, `#Functional Programming`, `#Software Engineering`
-
----
-
-<a id="item-15"></a>
-## [Browser-Based Tool Visually Compares Two STL 3D Model Versions](https://meshdiff.com/) ⭐️ 6.0/10
-
-Meshdiff is a new client-side web tool that allows users to visually compare two STL 3D model versions directly in their browser. It provides side-by-side viewports to highlight differences without requiring server uploads. This tool streamlines the review process for 3D model changes, which is crucial for developers and designers working on collaborative projects. Its client-side nature ensures privacy and speed by processing data locally. The tool operates entirely in the browser, leveraging client-side processing to handle STL files without uploading them. It likely uses 3D rendering technologies like WebGL to display and compare the triangulated mesh geometry of the models.
+Meshdiff is a new client-side web tool that allows users to visually compare two versions of an STL 3D model directly in the browser. The application performs the comparison entirely on the client, without needing to upload files to a server. This tool provides a convenient, privacy-preserving way for developers, CAD users, and 3D printing enthusiasts to track changes in their models. It fits into the growing trend of powerful, in-browser developer tools that leverage modern web technologies for complex tasks. The tool focuses specifically on the STL file format, which describes raw triangulated surface geometry without color or texture information. It emphasizes a client-side/local-first architecture, meaning data processing happens in the user's browser for speed and privacy.
 
 hackernews · projscope · Aug 2, 11:34 · [Discussion](https://news.ycombinator.com/item?id=49143479)
 
-**Background**: An STL file is a common format for 3D printing and CAD models, representing surface geometry as a raw triangulated mesh. Client-side web tools use browser technologies like WebAssembly and WebGL to run applications locally, avoiding the need for server-side computation and file transfers.
+**Background**: The STL file format is a standard for representing 3D surface geometry in fields like 3D printing and CAD, but it stores only basic mesh data. Client-side web applications run primarily in the user's browser, enabling offline use and keeping sensitive data local. Tools for comparing 3D models are essential for collaborative design and version control in development workflows.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/STL_(file_format)">STL (file format)</a></li>
-<li><a href="https://www.adobe.com/creativecloud/file-types/image/vector/stl-file.html">STL files explained | Learn about the STL file format | Adobe</a></li>
-<li><a href="https://mrvarity.com/apps/openscad/">OpenSCAD Online — Run OpenSCAD in Browser | mrvarity</a></li>
+<li><a href="https://javascript.plainenglish.io/web-application-development-2-four-types-of-web-applications-61036240796?source=collection_home---------8----------------------------">Web Application Development — #2: Four Types of Web Applications</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community feedback is positive and constructive, with users praising the client-side focus and suggesting features like synchronized viewports. Some clarified the STL acronym, and others proposed integrations like a GitHub PR trigger for 3D files.
+**Discussion**: Commenters appreciated the tool's client-side emphasis and suggested practical enhancements like synchronized viewports and GitHub integration as a pull request trigger. One user clarified the STL file format distinction for another, highlighting a common point of confusion.
 
-**Tags**: `#3D Modeling`, `#Web Development`, `#Client-Side Applications`, `#Developer Tools`, `#Open Source`
+**Tags**: `#3D-graphics`, `#Web-Development`, `#CAD`, `#Developer-Tools`, `#Client-Side-Applications`
 
 ---
 
-<a id="item-16"></a>
-## [Open-source Bor agent v0.8 expands Linux desktop policy support](https://getbor.dev/blog/2026-08-02-bor-v080-release/) ⭐️ 6.0/10
+<a id="item-12"></a>
+## [Analysis Shows 70-Year Shift in Core English Learner Vocabulary](https://pudding.cool/2026/07/essential-words/) ⭐️ 6.0/10
 
-Bor, an open-source centralized Linux desktop management system, has released version 0.8. This update adds new policy types for Thunderbird, Microsoft Edge for Business, and FirewallD zones, along with improvements and bug fixes. Bor addresses a real niche for managing and securing multiple Linux workstations centrally, offering a modern, agent-based alternative to manual configuration or more complex enterprise tools. This release makes it viable for a broader set of applications and network security configurations. The system uses a lightweight Go agent that receives policies in real-time over mTLS/gRPC, avoiding polling delays, and currently supports applications like Firefox, Chrome, KDE, dconf, polkit, and package management. As a v0.8 release, it is an incremental improvement for a specific desktop management use case rather than a paradigm shift.
+An analysis comparing essential vocabulary lists for English language learners from 1953 and 2023 reveals a significant shift. The core words taught have moved away from interpersonal terms like 'humble' and 'generous' towards more abstract concepts related to social structures, such as 'community', 'identity', and 'ethnic'. This linguistic shift reflects broader societal changes over the past 70 years, particularly increasing inequality and the resulting emphasis on group identity and social organization. It shows that language education adapts to mirror the most relevant concepts for navigating the contemporary world. The analysis shows that while the 'Social-Communicative' category's size barely changed, nearly a quarter of the words from the 1953 list disappeared by 2023, replaced by 39% new words. The shift suggests vocabulary is now prioritizing 'belonging at a distance' over immediate interpersonal interactions.
 
-hackernews · eniac111 · Aug 2, 09:06 · [Discussion](https://news.ycombinator.com/item?id=49142569)
+hackernews · c-oreills · Aug 2, 15:41 · [Discussion](https://news.ycombinator.com/item?id=49145590)
 
-**Background**: Centralized policy management for Linux desktops has historically been fragmented, often relying on custom scripts or tools like Ansible that may require polling. Bor's architecture uses mTLS (Mutual TLS) for secure, bidirectional authentication between the server and agent, and gRPC for efficient, real-time streaming of policy updates. FirewallD is a dynamic firewall manager common on Red Hat-based Linux distributions that uses 'zones' to define trust levels for network connections.
+**Background**: Vocabulary selection for English language teaching is often based on corpus linguistics, which analyzes large collections of real-world text to determine word frequency and utility. The evolution of these 'essential word' lists is a form of sociolinguistic analysis, tracking how language adapts to serve the communicative needs of a society.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.cloudflare.com/learning/access-management/what-is-mutual-tls/">What is mTLS? | Mutual TLS | Cloudflare</a></li>
-<li><a href="https://firewalld.org/documentation/man-pages/firewalld.zones">Documentation - Manual Pages - firewalld . zones | firewalld</a></li>
-<li><a href="https://bytebytego.com/guides/how-does-grpc-work/">ByteByteGo | How does gRPC work ?</a></li>
+<li><a href="https://www.researchgate.net/publication/337557177_Review_of_Corpus_Linguistics_for_Vocabulary_A_Guide_for_Research">(PDF) Review of Corpus Linguistics for Vocabulary : A Guide for...</a></li>
+<li><a href="https://www.taylorfrancis.com/books/mono/10.4324/9781315107769/corpus-linguistics-vocabulary-paweł-szudarski">Corpus Linguistics for Vocabulary | A Guide for Research</a></li>
+<li><a href="https://www.benjamins.com/catalog/ijcl.17075.nek">Lexical bundles in university course materials : From academic...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion is curious and constructive, with users asking about practical deployment (user mapping, custom scripts), comparisons to alternatives like Cosmic Sync, and technical design choices (mTLS vs SSH, policy enforcement mechanisms). There is clear interest from administrators managing small fleets of Linux laptops.
+**Discussion**: Commenters shared personal experiences highlighting the subjectivity of creating 'essential' vocabulary lists, with priorities changing drastically based on the learner's goal (e.g., travel vs. news consumption). One user directly linked the observed word shift to global inequality and increased 'tribalization'.
 
-**Tags**: `#linux`, `#desktop-management`, `#open-source`, `#systems-administration`, `#network-security`
+**Tags**: `#sociolinguistics`, `#language-evolution`, `#education`, `#cultural-analysis`, `#data-visualization`
 
 ---
 
-<a id="item-17"></a>
-## [Medieval Grimoire 'Ars Notoria' Explored in Historical Essay](https://publicdomainreview.org/essay/ars-notoria/) ⭐️ 6.0/10
+<a id="item-13"></a>
+## [NeurIPS 2026 Rebuttals Silently Ignored, Reviewers Unaware](https://www.reddit.com/r/MachineLearning/comments/1vdu92a/neurips_2026_acs_and_reviewers_have_disappeared_d/) ⭐️ 6.0/10
 
-An essay examines the 13th-century Latin grimoire 'Ars Notoria,' which claimed to grant instant mastery of subjects and languages through magical rituals and diagrams, and draws parallels to modern AI and the human desire for effortless learning. 这项历史分析揭示了人类对知识捷径的永恒迷恋，这种渴望如今在承诺快速信息获取和处理的人工智能工具开发中得到了呼应。 The grimoire, part of the Solomonic cycle, contained prayers, invocations, and complex 'notae' (diagrams) intended to be meditated upon to improve memory, eloquence, and general academic abilities.
+Users report that rebuttals submitted early for NeurIPS 2026 via the official button were not communicated to reviewers and action editors (ACs), effectively silencing author responses during the crucial discussion period. This procedural glitch jeopardizes the fairness and integrity of the peer review process for a top-tier AI conference, potentially causing strong papers to be rejected despite valid author rebuttals. It undermines community trust in the conference's administrative systems at a critical juncture. The issue specifically affects rebuttals submitted before the official discussion window opened on July 27 AoE, as the system apparently failed to trigger notifications to reviewers and ACs. Despite authors trying meta-comments, direct nudges, and emailing program chairs with only one day left, the core notification problem remained unresolved.
 
-hackernews · jruohonen · Aug 2, 10:18 · [Discussion](https://news.ycombinator.com/item?id=49143001)
+reddit · r/MachineLearning · /u/extricableforsythia · Aug 2, 21:33
 
-**Background**: Grimoires are books of magic, often from the medieval or Renaissance periods, that purport to teach the reader about summoning spirits or gaining hidden knowledge. The Ars Notoria specifically was a popular text among some medieval clerics seeking a divine or magical shortcut to mastering vast amounts of information without extensive study.
+**Background**: NeurIPS is a premier academic conference in machine learning where the peer review process is critical for paper acceptance. The rebuttal period is a formal stage where authors can respond to reviewer critiques, and the subsequent discussion period involves reviewers, authors, and action editors deliberating to reach a final decision.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Ars_Notoria">Ars Notoria - Wikipedia</a></li>
-<li><a href="https://adeptinitiates.com/ars-notoria-medieval-magic-for-learning-all-knowledge-memory-introduction-and-analysis/">Ars Notoria - Medieval Magic for Learning All Knowledge ...</a></li>
-<li><a href="https://flipso.com/p/kyjoae9ew">Ars Notoria and the Promise of Instant Knowledge · Flipso</a></li>
+**Discussion**: Based on the provided content, the sentiment is one of frustration and urgency, with the original poster and other affected users expressing dismay over the glitch potentially ruining their paper's chances. The discussion focuses on troubleshooting the issue and seeking immediate recourse, with no apparent disagreement on the severity of the problem.
 
-</ul>
-</details>
-
-**Discussion**: Commenters draw parallels between the grimoire and the mysterious Voynich Manuscript, suggesting both might have been valued for their perceived esoteric power rather than actual content. Others note the book's focus on subjective skills like eloquence makes it more plausible for its time than a manual for modern technical subjects, and playfully compare it to the lore of Warhammer 40k.
-
-**Tags**: `#history of ideas`, `#artificial intelligence`, `#philosophy of knowledge`, `#medieval studies`, `#cultural parallels`
+**Tags**: `#NeurIPS`, `#peer review`, `#conference logistics`, `#machine learning community`, `#academic publishing`
 
 ---
 
-<a id="item-18"></a>
-## [DeepSeek-V4-Flash-0731 Tops Chess Benchmark, Beats Fable-5 & Kimi-K3](https://www.reddit.com/r/LocalLLaMA/comments/1vdq8en/deepseekv4flash0731_surpasses_fable5_sol_kimik3/) ⭐️ 6.0/10
+<a id="item-14"></a>
+## [Conference Reviews: Demanding Excessive Work?](https://www.reddit.com/r/MachineLearning/comments/1vdl461/conference_reviews_asking_too_much_d/) ⭐️ 6.0/10
 
-DeepSeek has released a new sparse mixture-of-experts language model, DeepSeek-V4-Flash-0731, which surpasses competitors like Fable-5, Sol, and Kimi-K3 on a specific chess benchmark. The model outperforms its larger predecessor, DeepSeek-V4-Pro (Preview), while using far fewer activated parameters. This result demonstrates that a relatively smaller, efficiency-focused model can achieve top performance in a complex reasoning domain like chess, challenging the assumption that bigger models are always better. It signals potential for deploying capable AI agents on more accessible hardware for specialized tasks. DeepSeek-V4-Flash-0731 is a sparse mixture-of-experts model with 284B total parameters but only 13B active parameters during inference, making it efficient. It is specifically re-trained for coding, reasoning, and agent workflows, indicating chess is used as a proxy for these general reasoning capabilities.
+A researcher questions whether conference reviewers requesting extensive, scope-expanding additions to papers are better suited for journal submissions. They express concern that such additions, often placed in supplemental materials, could block future journal publication due to dual-submission policies. This discussion highlights a common strategic dilemma in academic publishing for ML researchers, affecting where they choose to submit their work and potentially influencing their publication timelines and impact. The concern centers on the dual-submission policy, which typically prohibits simultaneous submission to two archival venues like top conferences and journals. Adding substantial material requested by reviewers could make a conference paper more suitable as a journal article, creating a conflict.
 
-reddit · r/LocalLLaMA · /u/mrwang89 · Aug 2, 18:54
+reddit · r/MachineLearning · /u/examachine · Aug 2, 15:33
 
-**Background**: Chess is a popular benchmark for evaluating the strategic planning and state-tracking abilities of large language models (LLMs), with frameworks like ChessBench assigning Elo ratings. Models like Kimi K3 (a 2.8T parameter model) and Fable-5 are state-of-the-art proprietary or large open models often used as competitive baselines. The chess benchmark specifically tests output discipline and consistency in long-horizon tasks, which are valuable for real-world AI agent applications.
+**Background**: Top-tier ML conferences (e.g., NeurIPS, ICML) and journals often have strict policies against dual submission, where the same work is submitted to both. Supplemental materials allow authors to include extra data, code, or extended results that don't fit in the main conference paper page limit. The overlap between conference and journal publication can be a complex strategic decision.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731">deepseek-ai/ DeepSeek - V 4 - Flash - 0731 · Hugging Face</a></li>
-<li><a href="https://chessbench.ai/">ChessBench // A New Chess Benchmark for Language Models</a></li>
-<li><a href="https://www.kimi.com/blog/kimi-k3">Kimi K 3 Tech Blog: Open Frontier Intelligence</a></li>
+<li><a href="https://scialert.net/fulltext/?doi=pjbs.2020.715.718">Dual Submission Leading to Dual Publication</a></li>
+<li><a href="https://arxiv.org/html/2607.11918v1">AAAI-26 Dual Submissions : Novel Challenges</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#language-models`, `#benchmarking`, `#chess`, `#model-release`
+**Discussion**: The post invites opinions on this dilemma, but as no specific community comments were provided in the source material, a summary of the discussion cannot be generated.
 
----
-
-<a id="item-19"></a>
-## [Home User Builds 16-Unit DGX Spark Cluster for Local LLMs](https://www.reddit.com/r/LocalLLaMA/comments/1vdcgpm/setting_up_of_a_16xgb10_dgx_spark_cluster/) ⭐️ 6.0/10
-
-A Reddit user documented the setup of a 16-node cluster of Asus Ascent GX10 (DGX Spark) systems, connected via a high-bandwidth MikroTik CRS804-4DDQ switch with 400G breakout cables, to run future frontier open-weight language models locally. This project showcases a practical, if niche, method for orchestrating powerful, desktop-scale AI hardware into a larger, high-performance computing cluster for local model inference, demonstrating a path for individuals to run increasingly large models without relying on cloud services. The cluster uses 16 Asus Ascent GX10 units, each powered by an NVIDIA GB10 Grace Blackwell Superchip capable of up to 1 petaFLOP, linked through a specialized 400G switch for high-speed interconnects. The user plans to typically run two models across two 8-node sub-clusters but designed the setup with the ambition of running 2 trillion+ parameter models for 'AGI at home'.
-
-reddit · r/LocalLLaMA · /u/ciprianveg · Aug 2, 08:22
-
-**Background**: The NVIDIA DGX Spark (and its ASUS Ascent GX10 derivative) is a compact, desktop AI supercomputer based on the Grace Blackwell architecture, designed for developers to prototype and run large AI models locally. Distributed inference is a technique where the computation required to run a single, very large language model is split across multiple GPUs or nodes connected by a high-speed network, making it possible to serve models that are too big for a single machine.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.asus.com/networking-iot-servers/desktop-ai-supercomputer/ultra-small-ai-supercomputers/asus-ascent-gx10/techspec/">ASUS Ascent GX10 - Tech Specs｜Desktop AI supercomputer｜ASUS ...</a></li>
-<li><a href="https://www.getic.com/product/mikrotik-crs804-4ddq-hrm">MikroTik CRS 804 - 4 DDQ +hRM Switch – 400G QSFP-DD Data... | Getic</a></li>
-<li><a href="https://developers.redhat.com/articles/2025/11/21/introduction-distributed-inference-llm-d">Introduction to distributed inference with llm-d | Red Hat Developer</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#Local LLM`, `#Hardware Cluster`, `#DIY AI Infrastructure`, `#Networking`, `#Open Source AI`
+**Tags**: `#academic publishing`, `#peer review`, `#machine learning research`, `#conferences`, `#journals`
 
 ---
 
