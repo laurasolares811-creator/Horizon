@@ -1,359 +1,380 @@
 # Horizon 每日速递 - 2026-08-04
 
-> 从 25 条内容中筛选出 15 条重要资讯。
+> 从 25 条内容中筛选出 16 条重要资讯。
 
 ---
 
-1. [新“探索性建模”范式为预训练增加第三轴](#item-1) ⭐️ 9.0/10
-2. [新算法简化生成多样化肤色](#item-2) ⭐️ 8.0/10
-3. [活跃供应链攻击入侵 Keyv npm 包](#item-3) ⭐️ 8.0/10
-4. [大语言模型奖励用户的专业能力，而不仅仅是易用性](#item-4) ⭐️ 8.0/10
-5. [DeepSeek V4 Flash 在单块 AMD MI300X GPU 上运行](#item-5) ⭐️ 7.0/10
-6. [广告网络 Adform 遭黑客攻击，被用于挖矿加密货币](#item-6) ⭐️ 7.0/10
-7. [面向 AI 智能体自我改进的 Harness 工程](#item-7) ⭐️ 7.0/10
-8. [Xbox 服务中断导致实体光盘游戏无法游玩](#item-8) ⭐️ 7.0/10
-9. [新术语“肉体代理”批判盲目转发 AI 输出的行为](#item-9) ⭐️ 7.0/10
-10. [智源与北京大学展示基于语言指令的音视频联合编辑 AI 系统](#item-10) ⭐️ 7.0/10
-11. [LLM 同行评审批评细枝末节，而非核心科学问题](#item-11) ⭐️ 7.0/10
-12. [ARPL 为 ARM 上的 llama.cpp 添加运行时 ISA 和核心检测功能](#item-12) ⭐️ 7.0/10
-13. [苹果扩大诉讼，指控更多前员工向 OpenAI 泄露数据](#item-13) ⭐️ 6.0/10
-14. [Steve Yegge 描述导致编码代理项目崩溃的 AI 模型缺陷](#item-14) ⭐️ 6.0/10
-15. [奖励塑造是实现《打砖块》反应式 AI 的关键](#item-15) ⭐️ 6.0/10
+1. [Shai-Hulud 活跃供应链攻击入侵 Keyv 及 npm 包](#item-1) ⭐️ 8.0/10
+2. [设计 AI 智能体“套具”以实现自动化自我改进](#item-2) ⭐️ 8.0/10
+3. [探索性建模：生成模型的新预训练轴](#item-3) ⭐️ 8.0/10
+4. [自定义算法简化了多样化肤色的生成](#item-4) ⭐️ 7.0/10
+5. [在单个 AMD MI300X 上运行 DeepSeek V4 Flash](#item-5) ⭐️ 7.0/10
+6. [Xbox goes down. You can't play games you own on disc](#item-6) ⭐️ 7.0/10
+7. [清华北大发布一句话指令实现音视频联合编辑系统](#item-7) ⭐️ 7.0/10
+8. [LLM 辅助审稿可能产生大量次要且不切实际的批评](#item-8) ⭐️ 7.0/10
+9. [苹果指控前员工将数据带至 OpenAI](#item-9) ⭐️ 6.0/10
+10. [富勒长达 42 小时的‘我所知的一切’系列讲座](#item-10) ⭐️ 6.0/10
+11. [广告平台 Adform 遭黑客入侵，被用于传播窃取加密货币的恶意软件](#item-11) ⭐️ 6.0/10
+12. [MiniMax H3 全模态 AI 模型移植至 MLX 以在 Apple Silicon 上运行](#item-12) ⭐️ 6.0/10
+13. [AI 编码智能体的迭代癖好导致史蒂夫·耶格的 Gas Town 项目崩溃](#item-13) ⭐️ 6.0/10
+14. [西蒙·威利斯推广“肉类代理”概念，批评盲目使用 AI 的行为](#item-14) ⭐️ 6.0/10
+15. [通过奖励塑造实现 PPO 对《打砖块》的反应式策略](#item-15) ⭐️ 6.0/10
+16. [开发者为大语言模型创建 AI 格斗对战基准测试](#item-16) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [新“探索性建模”范式为预训练增加第三轴](https://www.reddit.com/r/MachineLearning/comments/1vf6r6f/explorative_modeling_unlocking_a_third/) ⭐️ 9.0/10
+## [Shai-Hulud 活跃供应链攻击入侵 Keyv 及 npm 包](https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack) ⭐️ 8.0/10
 
-研究人员 Gladstone 等人提出“探索性建模”，这是一种新颖的预训练范式，将探索作为继模型参数和数据之外的第三个可扩展轴。这种方法能够实现超越传统自回归和掩码建模的新型端到端生成能力。 这项工作可能通过为跨图像、视频和语言等多个领域的模型性能扩展提供一个全新的独立维度，从而改变基础人工智能方法论。它提供了一条超越仅增加参数或数据量的、可能更高效的生成模型改进路径。 其核心机制涉及将训练循环分解为探索模型生成与数据之间的 K 个候选匹配，然后对最佳匹配进行训练。该方法通过增加探索规模来实现性能的单调提升，代表了一种新的生成模型缩放定律。
+名为“Shai-Hulud”的自我复制恶意软件发动了新一轮攻击，入侵了 Keyv 和 cacheable 等流行 npm 包，窃取凭证并传播到 GitHub 仓库。JFrog 安全研究团队确认，此次攻击利用维护者账户和预安装钩子，在数百个软件包中蔓延。 此次攻击再次暴露了 npm 依赖系统的脆弱性，Keyv 包有超过 1700 个项目在使用，其被入侵可能引发广泛的下游连锁反应。它凸显了开源生态系统中的系统性风险，单一组件的沦陷可能产生连锁效应，影响开发者、组织及整个软件供应链。 Shai-Hulud 蠕虫利用 npm 预安装钩子和被入侵的维护者凭证进行自我复制，在 GitHub 仓库中植入恶意脚本，并窃取 API 密钥等敏感信息。建议防御者尽可能禁用预安装钩子，并设置软件包最低发布时间（如 5 天）以降低风险。
 
-reddit · r/MachineLearning · /u/Benlus · 8月4日 10:42
+hackernews · cimi_ · 8月4日 11:01 · [社区讨论](https://news.ycombinator.com/item?id=49166874)
 
-**背景**: 大型生成式 AI 模型通常使用自回归建模（按顺序预测下一个令牌）或掩码建模（预测输入中缺失的部分）进行预训练。这些方法定义了核心训练目标。“探索性建模”提出了第三个正交的改进轴，通过修改训练循环本身来优先处理一组候选项中的高质量输出。
+**背景**: 像 Shai-Hulud 这样的供应链攻击通过入侵受信任的软件包或维护者账户来攻击软件生态系统，使恶意软件能够传播到下游用户。npm 作为 Node.js 包管理器，因其规模庞大以及数百万项目依赖共享组件而成为常见攻击目标。此前在 2025 年发生的 Shai-Hulud 攻击活动影响了数千个仓库，凸显了此类自动化、自我复制攻击的持续威胁。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2607.27372">Explorative Modeling: Unlocking a Third Pretraining Axis and ...</a></li>
-<li><a href="https://explorative-modeling.github.io/">Explorative Modeling: Unlocking a Third Pretraining Axis and ...</a></li>
+<li><a href="https://unit42.paloaltonetworks.com/npm-supply-chain-attack/">"Shai-Hulud" Worm Compromises npm Ecosystem in Supply Chain ...</a></li>
+<li><a href="https://research.jfrog.com/post/shai-hulud-is-back-august/">Major Shai Hulud campaign strikes npm again, affecting keyv and 400+ packages - JFrog Security Research</a></li>
+<li><a href="https://www.npmjs.com/package/keyv">keyv - npm</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 该论文在 r/MachineLearning 上获得了非常高的分数（9.0/10），表明社区对其潜在影响有浓厚兴趣和认同。讨论可能集中于“探索性”范式的技术新颖性及其在不同数据模态上的实证结果。
+**社区讨论**: 评论者对“脆弱的依赖系统”表示不满，并呼吁加强防御措施，例如禁止新增预安装钩子和强制要求软件包最低发布时间。讨论中也涉及开发者实践，有人主张强制使用环境隔离以防止此类入侵，同时其他人分享了关于攻击技术的资源。
 
-**标签**: `#Machine Learning`, `#Research Paper`, `#Pretraining`, `#Generative AI`, `#Neural Architecture`
+**标签**: `#supply-chain-attack`, `#npm-security`, `#cybersecurity`, `#software-development`, `#dependency-management`
 
 ---
 
 <a id="item-2"></a>
-## [新算法简化生成多样化肤色](https://toneyalexander.github.io/inclusive-color-space/) ⭐️ 8.0/10
+## [设计 AI 智能体“套具”以实现自动化自我改进](https://lilianweng.github.io/posts/2026-07-04-harness/) ⭐️ 8.0/10
 
-一位 Hacker News 用户发布了一个交互式颜色选择器和基于新型包容性色彩空间的程序化生成算法，旨在简化为数字艺术和游戏开发创建多样化且逼真的肤色的过程。 这项工作通过提供一个工具来解决包容性设计中的实际挑战，该工具可以帮助数字创作者避免同质化或刻板的人物表现，从而促进媒体和游戏中的多样性。 作者承认该方法是实验性的，且肤色建模因光照和人类感知等因素而十分复杂；该项目包含一个颜色选择器、演示以及一个用于改进的'未来工作'部分。
+Lilian Weng 的博客文章探讨了为 AI 智能体设计“套具”（harness）的系统性方法，旨在实现性能、质量和成本效率的持续、自动化自我改进。文章引入了如“棘轮原理”和“智能体 = 模型 + 套具”公式等框架来构建此类系统。 这项工作通过提供一个结构化的工程学科，弥合了令人印象深刻的 AI 智能体演示与其可靠生产部署之间的关键差距。它有潜力加速各种应用中更强大、高效和自优化 AI 系统的发展。 文章强调，智能体的“套具”包括核心 AI 模型之外的一切——如提示、工具和工作流程——这些决定了其实际效用，并且是优化的真正杠杆。文章讨论了使用适应度函数和爬山实验来系统地改进这些套具组件。
 
-hackernews · automatoney · 8月4日 15:16 · [社区讨论](https://news.ycombinator.com/item?id=49170165)
+hackernews · tosh · 8月4日 06:17 · [社区讨论](https://news.ycombinator.com/item?id=49164896)
 
-**背景**: 在数字媒体中创建逼真且多样化的肤色对艺术家和开发者来说是一个已知的难题。传统的颜色选择器或简单的调色板选择可能无法自然地产生具有代表性的人类肤色范围。该项目提出了一个专门的二维色彩空间，它源自分析和函数拟合，作为一种更直观的解决方案。
+**背景**: AI 智能体套具工程是一门专注于设计和优化大语言模型（LLM）周围整个系统的学科，使其成为实用的、生产就绪的智能体。这涉及提示工程、工具集成、内存管理和反馈循环等组件，超越了单纯的模型训练或提示制作，转向一种整体系统方法。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://dl.acm.org/doi/10.1145/3632120">Which Skin Tone Measures Are the Most Inclusive? An ...</a></li>
+<li><a href="https://amux.io/guides/harness-engineering/">Harness Engineering: The Complete Guide to Building AI Agent ...</a></li>
+<li><a href="https://harness-engineering.ai/">Home | Harness Engineering</a></li>
+<li><a href="https://harness-engineering.ai/blog/agent-harness-complete-guide/">The Complete Guide to Agent Harness: What It Is and Why It ...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区赞扬了这项工作的美感以及函数拟合的巧妙构思，同时也指出了色彩和肤色建模固有的复杂性。评论中提到了相关的方法，如 Pantone 肤色和 Oklab 色彩空间，并讨论了定义'逼真'色彩子空间的挑战。
+**社区讨论**: 评论者正在积极参与实际实现，例如优化 AGENTS.md 文件和使用爬山实验来改进 AI 工具。讨论涉及从模型训练转向优化提示和代码的理论探讨，以及报告构建自定义编码套具所带来的个人满足感。
 
-**标签**: `#color science`, `#inclusive design`, `#digital art`, `#algorithm`, `#human perception`
+**标签**: `#AI agents`, `#self-improvement`, `#meta-learning`, `#systems engineering`, `#LLM optimization`
 
 ---
 
 <a id="item-3"></a>
-## [活跃供应链攻击入侵 Keyv npm 包](https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack) ⭐️ 8.0/10
+## [探索性建模：生成模型的新预训练轴](https://www.reddit.com/r/MachineLearning/comments/1vf6r6f/explorative_modeling_unlocking_a_third/) ⭐️ 8.0/10
 
-一场活跃的供应链攻击已经入侵了 Keyv npm 包及相关依赖库，并引发了紧急安全警告。攻击者在这些被广泛使用的 JavaScript 库中注入了恶意代码，可能会被无数项目下载和执行。 该攻击特别利用了软件包内的 pre-install 或 post-install 钩子，这些钩子可以在安装过程中自动执行任意代码。这是社区讨论中强调的一个关键攻击向量，被认为是应该被限制或消除的重大系统性风险。
+该论文提出了“探索性建模”，这是一种新的预训练目标，鼓励模型主动探索并生成新的序列。这构成了第三个预训练轴，补充了预测建模和掩码建模等现有方法，并实现了端到端的生成能力。 这一范式通过将探索作为一种新的扩展因素，能够显著提高生成模型在多个领域（图像、视频、语言）的效率和性能。它可能为达到最先进的生成能力提供更高效的路径，并可能影响未来大规模生成架构的设计。 所提出的探索性模型据称将 FLOP 效率提高了 4.1 倍，样本效率提高了 6.2 倍，并在 ImageNet 上取得了接近最先进水平的 FID 分数。该方法还实现了端到端的重建式生成建模，在控制任务上匹配扩散模型的性能，且推理步数减少了 16 到 256 倍。
 
-hackernews · cimi_ · 8月4日 11:01 · [社区讨论](https://news.ycombinator.com/item?id=49166874)
+reddit · r/MachineLearning · /u/Benlus · 8月4日 10:42
 
-**背景**: 供应链攻击针对受信任的第三方供应商或软件组件，以渗透目标系统。在 npm（Node 包管理器）的背景下，开发者依赖数百万个公开的包。入侵一个包的攻击者可以影响每个安装该包的应用程序，使得这类攻击极具破坏力。
+**背景**: 深度学习中的生成建模通常依赖于预测建模（预测下一个词元）和掩码建模（重建被掩码的输入）等预训练目标。这些方法是训练大型语言模型和视觉 Transformer 的基础。人工智能中的“扩展”概念通常指增加模型参数或数据量，但这项工作提出将“探索”作为扩展生成能力的第三个正交维度。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.cloudflare.com/learning/security/what-is-a-supply-chain-attack/">What is a supply chain attack? - Cloudflare What is a Supply Chain Attack: Working, Types, Impact and ... Top Stories Supply Chain Attacks: Examples And Countermeasures An in-depth look at supply chain attacks, including real ... What Is a Supply Chain Attack? - Proofpoint</a></li>
+<li><a href="https://arxiv.org/abs/2607.27372">[2607.27372] Explorative Modeling: Unlocking a Third Pretraining Axis and End-to-End Generation</a></li>
+<li><a href="https://explorative-modeling.github.io/">Explorative Modeling: Unlocking a Third Pretraining Axis and End-to-End Generation</a></li>
+<li><a href="https://alexiglad.github.io/blog/2026/explorative_modeling/">Explorative Modeling -- Unlocking a Third Pretraining Axis and End-to-End Generation | Alexi Gladstone</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区对 JavaScript'玻璃下巴依赖系统'表达了深切担忧，并就缓解措施展开辩论，如使用'min-release-age'设置，并对新的 pre-install 钩子保持极度怀疑。还有一种愤世嫉俗的观点认为，部分攻击可能是安全厂商为制造产品需求而编造的。
-
-**标签**: `#supply-chain-attack`, `#npm-security`, `#nodejs`, `#cybersecurity`, `#dependency-management`
+**标签**: `#Machine Learning`, `#Pretraining`, `#Generative Models`, `#Research`, `#Deep Learning`
 
 ---
 
 <a id="item-4"></a>
-## [大语言模型奖励用户的专业能力，而不仅仅是易用性](https://www.seangoedecke.com/llms-reward-expertise/) ⭐️ 8.0/10
+## [自定义算法简化了多样化肤色的生成](https://toneyalexander.github.io/inclusive-color-space/) ⭐️ 7.0/10
 
-一篇文章认为，大语言模型放大了用户在提示词构建和领域知识方面的专业能力，这挑战了它们让软件开发变得人人可用的普遍叙事。讨论提供了大量轶事支持，包括一个非技术用户尝试构建简单网页应用失败的例子。 这一观点意义重大，因为它重塑了人类与 AI 协作的动态关系，暗示大语言模型可能会扩大技能差距而非消除它们。这影响着开发者和组织应如何进行培训和集成，强调了需要熟练的‘提示工程师’或领域专家。 文中提出的核心类比是，大语言模型的功能像一面‘放大镜’，反映并放大用户自身的知识、结构和关注点，而非提供独立的专业知识。文章和讨论表明，由专家主导的结构化提示，类似于医生的问诊过程，能比模糊或简单的输入产生显著更好的结果。
+一位 Hacker News 用户创建并展示了一个自定义色彩空间和简单算法，以及一个程序化生成工具，旨在让数字艺术和游戏开发中生成多样化且合理的肤色变得更加容易。 该算法基于从现有方法研究中开发的自定义色彩空间，作者提供了一个 JavaScript 颜色选择器和一个 Python 程序化生成示例。作者承认方法论可能还有改进空间，特别是在光照条件方面，因为肤色受光源影响很大。
 
-hackernews · MaxMussio · 8月3日 21:13 · [社区讨论](https://news.ycombinator.com/item?id=49161518)
+hackernews · automatoney · 8月4日 15:16 · [社区讨论](https://news.ycombinator.com/item?id=49170165)
 
-**背景**: 提示工程是设计输入以有效引导大语言模型产生所需输出的实践，它被认为是最大化大语言模型性能的关键技能。人机协作模型是一个新兴研究领域，探索专业化的 AI 代理如何与人类专家合作，以提高软件开发或医疗等复杂领域的效率。
+**背景**: 在数字创作中选择逼真的肤色可能具有挑战性，因为它不仅涉及物理颜色，还与不同光照下的人类感知有关。标准色彩空间如 RGB 并未针对此特定任务进行优化，这促使创作者寻求更专业的解决方案以实现包容性表现。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.promptingguide.ai/">Prompt Engineering Guide | Prompt Engineering Guide</a></li>
-<li><a href="https://www.augmentcode.com/guides/6-ai-human-development-collaboration-models-that-work">6 AI-Human Development Collaboration Models That Work | Augment Code</a></li>
-<li><a href="https://arxiv.org/html/2407.19098v2">Evaluating Human-AI Collaboration: A Review and Methodological Framework</a></li>
+<li><a href="https://toneyalexander.github.io/inclusive-color-space/">What Colors Are We? Constructing A Color Space For Skin Tones</a></li>
+<li><a href="https://news.ycombinator.com/item?id=49170165">Show HN: Simple algorithm and color space to generate diverse skin tones | Hacker News</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区讨论有力地验证了文章的论点，用户分享了在缺乏专家指导时大语言模型失败的个人轶事，并提供了深刻的类比。一个关键观点是，大语言模型需要熟练的、结构化的交互才能有效，几位评论者呼吁对此动态进行更正式的研究，以超越确认偏误。
+**社区讨论**: 讨论强调了肤色建模的复杂性，用户指出光照的影响以及参考现有系统（如 Pantone）的必要性。评论者赞扬了该工作的优雅性、方法论和展示方式，同时也指出了背景信息（如所使用的特定色温）的重要性。
 
-**标签**: `#AI interaction`, `#LLM prompting`, `#expertise`, `#human-AI collaboration`, `#software development`
+**标签**: `#color-theory`, `#inclusive-design`, `#graphics`, `#algorithms`, `#human-computer-interaction`
 
 ---
 
 <a id="item-5"></a>
-## [DeepSeek V4 Flash 在单块 AMD MI300X GPU 上运行](https://github.com/ryanzhou/deepseek-v4-flash-mi300x) ⭐️ 7.0/10
+## [在单个 AMD MI300X 上运行 DeepSeek V4 Flash](https://github.com/ryanzhou/deepseek-v4-flash-mi300x) ⭐️ 7.0/10
 
-一个 GitHub 项目展示了在单块 AMD MI300X GPU 上成功运行全精度 DeepSeek V4 Flash 大语言模型。它达到了每秒超过 150 个 token 的推理速度，并支持 256k token 的上下文窗口。 该项目保留了模型完整的预设推理权重，没有进行简化的量化处理。主要的权衡是上下文窗口的缩减，从模型原生的 1M token 减少到 256k token，但这对于许多应用来说仍然是一个非常大且实用的上下文尺寸。
+一个项目展示了在单个 AMD MI300X 加速器上运行大型混合专家（MoE）模型 DeepSeek V4 Flash，实现了超过每秒 150 个 token 的吞吐量。该优化涉及将模型原生的 100 万 token 上下文窗口缩减至 256k token，以适应硬件的内存限制。 这展示了一种在单个高内存 GPU 上部署最先进的、内存密集型 MoE 模型的实用方法，降低了实验和推理的门槛。它展示了 AMD ROCm 生态系统中一条可行的软硬件协同优化路径，提供了 NVIDIA 主导工作流之外的另一种选择。 关键的权衡是将上下文窗口大小从原始的 100 万 token 减少到 256k token，这可能对极长序列的质量产生轻微影响，但对许多应用来说已经足够。模型使用原生的 MXFP4 量化进行服务，在不因进一步量化而导致额外精度损失的情况下，保留了其预定的推理权重。
 
 hackernews · zhoutong · 8月4日 10:00 · [社区讨论](https://news.ycombinator.com/item?id=49166386)
 
-**背景**: DeepSeek V4 Flash 是 DeepSeek 公司推出的一款效率优化的混合专家模型，总参数量为 2840 亿，但推理时仅激活 130 亿参数。AMD Instinct MI300X 是一款为 AI 设计的高性能 GPU，拥有高达 192GB 的 HBM3 大内存。在非 NVIDIA 硬件上运行大语言模型是实现 AI 基础设施多样化的一个关键目标。
+**背景**: DeepSeek V4 Flash 是一个大型、效率优化的混合专家（MoE）语言模型，具有 2840 亿总参数，但每个 token 仅激活 130 亿参数。AMD MI300X 是一款高性能加速器，配备 192GB HBM3 内存，专为 AI 工作负载设计。像 DeepSeek V4 这样的 MoE 模型使用条件计算，以较低的推理成本实现高容量，但其庞大的体积需要大量内存进行部署。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">deepseek -ai/ DeepSeek - V 4 - Flash · Hugging Face</a></li>
-<li><a href="https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html">AMD Instinct™ MI300X Accelerators</a></li>
-<li><a href="https://www.techpowerup.com/gpu-specs/radeon-instinct-mi300x.c4179">AMD Radeon Instinct MI300X Specs | TechPowerUp GPU Database</a></li>
+<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">deepseek-ai/DeepSeek-V4-Flash · Hugging Face</a></li>
+<li><a href="https://www.amd.com/en/products/specifications/accelerators.html">Accelerator Specifications</a></li>
+<li><a href="https://arxiv.org/abs/2412.14219">[2412.14219] A Survey on Inference Optimization Techniques ... A Survey on Inference Optimization Techniques for Mixture of ... A Survey on Inference Optimization Techniques for Mixture of ... Images Efficient MoE Inference: Optimization Techniques - apxml.com GitHub - MoE-Inf/awesome-moe-inference: Curated collection of ... Getting Started with DeepSpeed-MoE for Inferencing Large ... Large Language Models Inference optimizations</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者指出，其性能仍落后于 NVIDIA 的 H800 GPU，表明仍有优化空间。其他人讨论了实际方面的问题，如难以单独购买 MI300X 以及缩减上下文窗口的权衡。一条评论提到了此前使用两块 MI300X GPU 的相关工作。
+**社区讨论**: 讨论突出了实际的考虑因素和比较。一位评论者指出 MI300X 是一个 OAM 模块，不单独销售，并建议基于 PCIe 的 MI350P 作为替代方案。另一位评论者指出了 DwarfStar 的先前工作，该项目可能在不同的量化设置下，能在更少的内存中运行相同的模型。还有一位用户联系到他们自己在双 MI300X 配置上的工作，并推荐了用于实验的资源。
 
-**标签**: `#LLM inference`, `#AMD MI300X`, `#AI hardware`, `#DeepSeek`, `#GPU optimization`
+**标签**: `#AI Inference`, `#Hardware Acceleration`, `#AMD MI300X`, `#Model Deployment`, `#MoE Models`
 
 ---
 
 <a id="item-6"></a>
-## [广告网络 Adform 遭黑客攻击，被用于挖矿加密货币](https://this.weekinsecurity.com/online-advertising-giant-adform-was-hacked-proving-once-again-why-ad-blockers-are-necessary/) ⭐️ 7.0/10
+## [Xbox goes down. You can't play games you own on disc](https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/) ⭐️ 7.0/10
 
-在线广告巨头 Adform 遭到黑客攻击，攻击者注入了恶意代码，将访客的浏览器变成了加密货币矿工。这一事件证实了主要广告平台供应链中存在现实的安全漏洞。 此次入侵凸显了程序化广告生态系统中长期存在的安全风险，恶意行为者可以劫持广告网络大规模分发恶意软件，影响数百万用户。这有力地证明了使用广告屏蔽器不仅是为了便利，更是保护用户安全和隐私的关键工具。 该攻击涉及在 Adform 服务的广告活动中注入基于 JavaScript 的加密货币挖矿代码，这类代码通常针对注重隐私的门罗币。这种浏览器端的挖矿程序会在未经同意的情况下使用访客的 CPU 资源，常常导致设备性能下降。
+Xbox console outage prevents users from playing disc-based games due to DRM checks, sparking a broader debate on digital ownership rights in gaming.
 
-hackernews · speckx · 8月4日 15:05 · [社区讨论](https://news.ycombinator.com/item?id=49170001)
+hackernews · surprisetalk · 8月4日 12:01 · [社区讨论](https://news.ycombinator.com/item?id=49167448)
 
-**背景**: Adform 是一家总部位于欧洲的全球广告技术公司，提供用于程序化广告买卖的需求方平台（DSP）和供应方平台（SSP）。基于浏览器的加密货币挖矿，通常被称为“劫持挖矿”，是一种已知的攻击手段，恶意脚本在用户设备上运行以挖掘代币，经常在用户不知情或不同意的情况下使用其计算资源。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Adform">Adform - Wikipedia</a></li>
-<li><a href="https://www.paloaltonetworks.com/cyberpedia/threat-brief-browser-cryptocurrency-mining">Browser Cryptocurrency Mining - Palo Alto Networks</a></li>
-<li><a href="https://www.binance.com/en/square/post/138987">What is browser-based cryptocurrency mining, and how does it work? | Cointelegraph on Binance Square</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者链接了更详细的技术分析，表达了对在区块链上追踪被盗资金的兴趣，并批评媒体和金融行业造成了有问题的广告生态系统。同时，大家普遍认为，尽管令人遗憾，但此类安全威胁和用户困扰证明了使用广告屏蔽器的必要性。
-
-**标签**: `#cybersecurity`, `#advertising-technology`, `#web-security`, `#malware`, `#cryptocurrency`
+**标签**: `#digital-ownership`, `#DRM`, `#gaming`, `#consumer-rights`, `#platform-lock-in`
 
 ---
 
 <a id="item-7"></a>
-## [面向 AI 智能体自我改进的 Harness 工程](https://lilianweng.github.io/posts/2026-07-04-harness/) ⭐️ 7.0/10
+## [清华北大发布一句话指令实现音视频联合编辑系统](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909661&idx=3&sn=93d5f6e39859c6c9c378533ba3009898) ⭐️ 7.0/10
 
-该文章提出‘Harness 工程’作为一种新的系统化实践，旨在通过设计和优化围绕 AI 智能体的软件、工具和提示来提升其性能，而非仅仅依赖模型训练。 这一框架将优化重点从模型权重转移到更广泛的执行环境，为构建可靠的 AI 系统提供了一条更务实、可能更高效的路径，并反映了 AI 系统工程领域的一个日益重要的趋势。 其核心概念被定义为‘智能体 = 模型 + Harness’，强调通过工程化的执行层提供上下文、记忆、工具和反馈，以实现目标导向的行为；一些数据表明，相当比例的智能体故障源于 Harness 架构而非模型限制。
+来自清华大学智源研究院和北京大学的研究人员开发了一个端到端生成系统，能够通过单一的自然语言指令同时编辑音频和视频内容。 这是多模态生成 AI 领域的一个重要进展，通过将原本分离的编辑任务统一到一个直观的、由指令驱动的过程中，简化了复杂的内容创作工作流。 该系统在一个端到端的生成过程中运行，画面与声音共同响应指令，这是一种统一的媒体操纵新方法。
 
-hackernews · tosh · 8月4日 06:17 · [社区讨论](https://news.ycombinator.com/item?id=49164896)
+rss · 量子位 · 8月4日 09:00
 
-**背景**: Harness 工程是 AI 系统设计中的一个新兴领域，专注于为大型语言模型（LLM）构建控制系统和执行层，以提升 AI 智能体的可靠性和有效性。这种方法通过关注使智能体运行的更广泛软件基础设施，来补充诸如微调和提示工程等传统模型优化技术。
+**背景**: 多模态 AI 系统旨在单一框架内处理和生成多种数据类型，如文本、图像、音频和视频。SIGGRAPH Asia 是计算机图形学和交互技术领域的顶级国际会议，展示视觉计算的前沿研究。此前的工作通常分别处理音视频编辑，或使用更简单的、未经真正联合操纵的文本驱动生成。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://atlan.com/know/what-is-harness-engineering/">What Is Harness Engineering AI ? The Definitive 2026 Guide</a></li>
-<li><a href="https://qubittool.com/blog/agent-harness-evaluation-guide">Agent Harness Engineering Guide [2026]: Evaluating AI ... | QubitTool</a></li>
-<li><a href="https://arxiv.org/abs/2503.12434">[2503.12434] A Survey on the Optimization of Large Language Model-based Agents</a></li>
+<li><a href="https://arxiv.org/html/2604.10708">Audio-Omni: Extending Multi-modal Understanding to Versatile ...</a></li>
+<li><a href="https://www.realtimerendering.com/kesen/siga2025Papers.htm">SIGGRAPH Asia 2025 Papers - realtimerendering.com</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者指出了诸如定义质量指标和创建优化适应度函数等实际挑战，探讨了向提示和代码训练范式转变的可能性，并分享了在 Document.bot 等工具中的实际应用，同时也提醒要避免过拟合。
+**社区讨论**: 该新闻条目未提供社区讨论或评论。
 
-**标签**: `#AI Agents`, `#Software Engineering`, `#LLM Optimization`, `#Prompt Engineering`, `#Systems Design`
+**标签**: `#generative AI`, `#multimodal systems`, `#audio-video editing`, `#SIGGRAPH`, `#AI research`
 
 ---
 
 <a id="item-8"></a>
-## [Xbox 服务中断导致实体光盘游戏无法游玩](https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/) ⭐️ 7.0/10
+## [LLM 辅助审稿可能产生大量次要且不切实际的批评](https://www.reddit.com/r/MachineLearning/comments/1vf4zjz/the_downsides_of_llmgenerated_peer_reviews_d/) ⭐️ 7.0/10
 
-Xbox 的数字认证服务近期发生中断，导致用户无法游玩自己拥有实体光盘的游戏，尽管这些游戏已存储在主机本地。这一反复出现的问题引发了用户的广泛批评，并重新激起了关于游戏领域数字所有权和消费者权利的辩论。 这一事件凸显了数字版权管理系统的脆弱性，该系统可能使合法购买的内容无法访问，从而损害了消费者信任和实体媒体的感知价值。它引发了关于在日益由云端和强制在线模式主导的时代，'拥有'数字商品究竟意味着什么的根本性问题。 问题源于 Xbox 主机即使对于基于光盘的游戏，也要求在线连接至微软服务器以验证所有权或许可状态，这意味着网络中断或服务器故障都会阻止访问。批评者认为，对于被宣传和销售为消费者可以'拥有'的实体产品来说，这是一个不可接受的限制。
+这篇新闻指出了一个反复出现的问题：用于协助同行评审的 LLM 会产生大量次要且不切实际的方法论批评，分散了对研究核心有效性的注意力。作者指出了两个关键问题：LLM 不善于优先考虑真正重要的混淆变量，且常对新颖性做出过于抽象、不可证伪的批评。 这一批评意义重大，因为不受制约地使用 LLM 生成的评审会降低学术同行评审的质量，迫使作者浪费时间去回应表面的担忧，并将批判性评估的负担从人类审稿人身上转移。它触及了学术工作流程中 AI 应用的广泛趋势和伦理风险。 核心问题不在于 LLM 评审包含错误陈述，而在于它们可以在不判断相关性、严重性或证据负担的情况下，产生无限数量的表面上合理的批评。一个强大的审稿人必须过滤和优先处理这些担忧，但如果不经判断直接复制 LLM 输出，只是将评估推测的成本转移给了作者。
 
-hackernews · surprisetalk · 8月4日 12:01 · [社区讨论](https://news.ycombinator.com/item?id=49167448)
+reddit · r/MachineLearning · /u/Kwangryeol · 8月4日 09:03
 
-**背景**: 数字版权管理是一套用于限制专有硬件和受版权保护作品使用的访问控制技术。在游戏领域，DRM 通常需要定期在线认证来验证用户的游戏许可。关于数字所有权的辩论核心在于，购买数字产品往往只授予可撤销的许可，而不是与传统实物所有权相关的完整'权利束'。
+**背景**: 大型语言模型越来越多地被用于协助学术界耗时的同行评审任务。然而，一个关键挑战是，LLM 能生成听起来合理但缺乏人类专家深度情境判断的文本，从而导致文中描述的问题：过度强调微不足道的混淆变量以及抽象、不具体的批评。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Digital_rights_management">Digital rights management - Wikipedia</a></li>
-<li><a href="https://jacobin.com/2025/01/digital-ownership-physical-media-control">Digital Ownership and the End of Physical Media</a></li>
-<li><a href="https://law.vanderbilt.edu/gone-but-not-forgotten/">Gone but Not Forgotten: The Digital Ownership Dilemma and the Rise of Lost Media - Vanderbilt Law School | Vanderbilt Law School | Vanderbilt University</a></li>
+<li><a href="https://www.sciencedirect.com/science/article/pii/S3050577125000167">Ensuring peer review integrity in the era of large language ...</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12481007/">Artificial Intelligence in Peer Review: Ethical Risks and ...</a></li>
+<li><a href="https://www.sciencedirect.com/science/article/pii/S1386505626001589">Artificial intelligence in scholarly peer review: a scoping ...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 讨论显示了用户对限制性 DRM 以及数字时代所有权丧失的强烈不满，一位评论者将现代主机与 GameCube 等提供真正离线游玩的老系统进行了不利对比。另一位评论者则拓宽了问题，认为无论格式如何，数字所有权都应包括永久保留、离线使用、备份、转移和转售内容的权利。
-
-**标签**: `#digital ownership`, `#DRM`, `#software distribution`, `#consumer rights`, `#gaming`
+**标签**: `#peer review`, `#LLM applications`, `#AI ethics`, `#research methodology`, `#machine learning`
 
 ---
 
 <a id="item-9"></a>
-## [新术语“肉体代理”批判盲目转发 AI 输出的行为](https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything) ⭐️ 7.0/10
+## [苹果指控前员工将数据带至 OpenAI](https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/) ⭐️ 6.0/10
 
-尼古拉斯·格鲁恩的一篇博文创造了“肉体代理”一词，用以描述那些盲目复制粘贴 AI 生成输出而不进行阅读或验证的人。该文章倡导用户应批判性地参与 AI 回复，理解它们并用自己的语言进行综合阐述。 这一概念突显了人机协作中一个日益增长的伦理和专业问题，即被动转发贬低了人类的贡献，并可能传播 AI 的错误信息。它推动建立负责任使用 AI 的标准，这对于在 AI 辅助工作中保持信任和质量至关重要。 原文强调，其价值在于在传达之前投入精力去阅读、理解和验证 AI 输出，这相当于个人参与的“证明”。讨论将此行为与 AI 误用以及批判性评估生成式 AI 输出的必要性等更广泛的问题联系起来。
+苹果公司已经提起或扩大了一项诉讼，指控多名前员工可能将机密数据（包括通过安全漏洞访问的技术文件）带至 OpenAI。该公司就此发表了公开评论，暗示数据泄露的范围比最初报告的更为广泛。 这起诉讼凸显了 AI 硬件领域激烈的竞争和高风险的知识产权争夺，为科技巨头在员工流动期间如何保护商业秘密树立了先例。这可能会影响整个硅谷的招聘实践和法律策略，尤其是在公司竞相开发集成 AI 硬件之际。 这些指控并非仅涉及一般知识；苹果声称一名前员工利用身份验证漏洞，从云存储库下载了至少三十七份高度敏感的技术文件。此案涉及公开的来回交锋，据报道 OpenAI 在法律回应中嘲笑苹果的安全做法。
 
-rss · Simon Willison · 8月3日 23:45
+hackernews · thewebguyd · 8月4日 15:37 · [社区讨论](https://news.ycombinator.com/item?id=49170479)
 
-**背景**: 像大型语言模型这样的生成式 AI 工具正越来越多地被用于编程和写作等专业任务中。一种常见但有问题的做法已经出现：用户直接转发 AI 输出（例如在 Slack 或代码审查中），而未经过个人审视。这可能导致传播看似合理但错误的信息，并削弱了人类专业知识的作用。
+**背景**: 苹果公司有着积极追究前员工和被指控“挖角”及窃取知识产权的公司的法律行动的历史，这种策略有时被用来威慑或恐吓竞争对手。OpenAI 目前正在开发自己的 AI 硬件，这项由 Jony Ive 等知名人士参与的业务使其与苹果生态系统形成了直接竞争。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://gruhn.me/blog/2026-08-03/">Don't be a meat proxy - gruhn.me</a></li>
-<li><a href="https://345tool.com/news/hn-debates-ai-s-meat-proxy-problem-are-humans-doing-the-dirty-work">HN Debates AI's 'Meat Proxy' Problem: Are Humans Doing the ...</a></li>
-<li><a href="https://www.sciencedirect.com/science/article/pii/S2451958826001776">Understanding critical thinking in generative artificial intelligence use: Development, validation, and correlates of the critical thinking in AI use scale - ScienceDirect</a></li>
+<li><a href="https://marksgray.com/intellectual-property-law/ai-trade-secrets-on-trial-former-google-engineer-convicted-in-historic-espionage-case/">AI Trade Secrets at the Center of a Historic Espionage Case</a></li>
+<li><a href="https://abnormal.ai/learning/ai-corporate-espionage">Corporate Espionage: How Attackers Steal Intelligence and How ...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 这一概念在 Hacker News 上引发了热烈讨论，获得超过 600 分，重点讨论 AI 使用的伦理以及所谓自动化任务背后隐藏的人力劳动。评论者探讨了个人责任与促成此类做法的系统之间的关系，一些人分享了自己在工作中遇到“肉体代理”的亲身经历。
+**社区讨论**: 评论者争论苹果的动机，一些人认为这是典型的、激进的企业策略，旨在恐吓员工，而另一些人则强调指控涉及下载文件等具体行为，而不仅仅是“脑子里的信息”。还有人猜测，如果诉讼能叫停一些人认为是 OpenAI 昂贵且误导性的硬件项目，那可能是件好事。
 
-**标签**: `#ai-ethics`, `#human-ai-collaboration`, `#generative-ai`, `#professional-practices`, `#definitions`
+**标签**: `#AI`, `#corporate espionage`, `#intellectual property`, `#tech industry`, `#legal dispute`
 
 ---
 
 <a id="item-10"></a>
-## [智源与北京大学展示基于语言指令的音视频联合编辑 AI 系统](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909661&idx=3&sn=93d5f6e39859c6c9c378533ba3009898) ⭐️ 7.0/10
+## [富勒长达 42 小时的‘我所知的一切’系列讲座](https://www.bfi.org/about-fuller/everything-i-know/) ⭐️ 6.0/10
 
-智源与北京大学开发了一种全新的端到端 AI 系统，允许用户使用自然语言指令联合编辑视频和音频。该系统已在 SIGGRAPH Asia 2026 会议上进行了展示。 该系统运行于一个统一的端到端流程中，视觉和音频组件同时响应同一指令。这种方法与传统上需要为视频和声音分别使用不同编辑流程的做法形成了对比。
+巴克敏斯特·富勒 1975 年长达 42 小时的系列讲座《我所知的一切》的完整文字记录已由巴克敏斯特·富勒研究所提供。 这份文字记录提供了富勒关于系统思维以及技术、可持续性和全球资源管理哲学见解的原始、全面的记录，具有重要影响力。 讲座涵盖了富勒的主要发明与发现，包括戴马克松住宅和网格球顶，并探讨了他的‘协同学’世界观，对比了心智对普遍原则的把握与大脑对离散数据的关注。
 
-rss · 量子位 · 8月4日 09:00
+hackernews · simonebrunozzi · 8月4日 11:33 · [社区讨论](https://news.ycombinator.com/item?id=49167147)
 
-**背景**: 端到端生成式 AI 模型旨在通过单一的集成神经网络架构执行复杂任务（如生成或编辑内容），而不是为流程的不同部分使用独立的专用组件。SIGGRAPH Asia 是计算机图形学与交互技术领域的顶级国际会议，展示最前沿的研究成果。
+**背景**: 巴克敏斯特·富勒（1895-1983）是一位美国建筑师、系统理论家和发明家，以其富有远见的创意（如网格球顶）和概念（如‘张拉整体’）而闻名。系统思维是一种通过考察一个整体内部的关系和互动来理解复杂性的方法，而不是孤立地看待各个部分，这是富勒在可持续性和设计方面工作的核心原则。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://asia.siggraph.org/2026/">SIGGRAPH Asia 2026 | Home</a></li>
-<li><a href="https://asia.siggraph.org/2026/submissions/technical-papers/">SIGGRAPH Asia 2026 | Technical Papers</a></li>
+<li><a href="https://www.bfi.org/about-fuller/everything-i-know/">Everything I Know - Buckminster Fuller Institute</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Buckminster_Fuller">Buckminster Fuller - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI`, `#Computer Vision`, `#Multimodal Learning`, `#Content Creation`, `#Research`
+**社区讨论**: 评论者分享了相关资源，如富勒的著作《地球号宇宙飞船操作手册》、关于他‘能量奴隶’概念的漫画及其维基百科页面，同时也分享了对他富有启发性的发明的个人反思，以及对他《协同学》等著作中缺乏支持的主张的批评。
+
+**标签**: `#Buckminster Fuller`, `#systems thinking`, `#technology philosophy`, `#sustainability`, `#historical lectures`
 
 ---
 
 <a id="item-11"></a>
-## [LLM 同行评审批评细枝末节，而非核心科学问题](https://www.reddit.com/r/MachineLearning/comments/1vf4zjz/the_downsides_of_llmgenerated_peer_reviews_d/) ⭐️ 7.0/10
+## [广告平台 Adform 遭黑客入侵，被用于传播窃取加密货币的恶意软件](https://this.weekinsecurity.com/online-advertising-giant-adform-was-hacked-proving-once-again-why-ad-blockers-are-necessary/) ⭐️ 6.0/10
 
-该帖子指出了 LLM 生成的同行评审的三大主要缺陷：对微不足道的混淆变量的过度关注、过于抽象的批评以及缺乏详细的技术理解。文章认为，这些问题误导作者将精力集中在处理表面上合理但实际上无关紧要的问题上。 随着 LLM 日益融入学术工作流程，其在自动化或辅助同行评审中的应用，通过产生大量低相关性的批评，威胁着科学评审过程的效率和重点。这可能会增加作者和审稿人的负担，并最终阻碍实质性的科学评估。 核心问题不在于 LLM 评审包含明显的错误，而在于它们在不判断相关性、严重性或证据负担的情况下，生成了无数看似合理的批评。有效的审稿人必须过滤这些建议，并将每个实质性的担忧与具体的技术基础联系起来，而不是简单地复制 LLM 的输出。
+大型在线广告平台 Adform 遭受了供应链攻击，攻击者利用其跟踪脚本向众多网站传播窃取加密货币的恶意软件。 该恶意脚本充当剪贴板劫持程序，将访问者复制的加密货币钱包地址替换为攻击者控制的地址，这是一种典型的供应链攻击向量。
 
-reddit · r/MachineLearning · /u/Kwangryeol · 8月4日 09:03
+hackernews · speckx · 8月4日 15:05 · [社区讨论](https://news.ycombinator.com/item?id=49170001)
 
-**背景**: 同行评审是学术出版的基石，由专家在论文发表前对其进行评估。混淆变量是可能扭曲研究中表观因果关系的外部因素。最近，关于评审人使用 LLM 撰写评审意见的担忧日益加剧，这导致美国国立卫生研究院等一些机构出台了禁止此类做法的政策，以维护评审的完整性。
+**背景**: Adform 是一家全球数字广告技术公司，提供程序化广告买卖平台。供应链攻击是指先攻破一个受信任的供应商或服务，然后进而攻击其下游客户和用户，在本次事件中，即使用 Adform 广告脚本的网站。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://blog.apaonline.org/2025/11/13/llm-usage-and-manipulation-in-peer-review/">LLM Usage and Manipulation in Peer Review | Blog of the APA</a></li>
-<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12453209/">Detecting LLM-generated peer reviews - PMC - NIH</a></li>
-<li><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0331871">Detecting LLM-generated peer reviews | PLOS One</a></li>
+<li><a href="https://cybersecuritynews.com/adform-advertising-platform-compromised/">Hackers Turned a Trusted Advertising Platform Into a Crypto-Stealer Delivery Network</a></li>
+<li><a href="https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/">Online ad firm Adform’s script compromised to steal cryptocurrency</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Adform">Adform - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**标签**: `#peer-review`, `#LLM`, `#research-methodology`, `#academia`, `#AI-ethics`
+**社区讨论**: 评论者们就此次事件是一次出人意料的入侵还是广告生态系统的必然结果展开了辩论。一些人认为广告本质上就有风险，而另一些人则反驳称需要的是更好的浏览器安全性，而不一定是广告拦截器。
+
+**标签**: `#cybersecurity`, `#ad-tech`, `#malware`, `#ad-blockers`, `#web-security`
 
 ---
 
 <a id="item-12"></a>
-## [ARPL 为 ARM 上的 llama.cpp 添加运行时 ISA 和核心检测功能](https://www.reddit.com/r/MachineLearning/comments/1ven68z/arpl_runtime_isatopology_detection_for_llamacpp/) ⭐️ 7.0/10
+## [MiniMax H3 全模态 AI 模型移植至 MLX 以在 Apple Silicon 上运行](https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything) ⭐️ 6.0/10
 
-ARPL 是一个新开源库，它在运行时检测 ARM CPU 的 ISA 扩展（如 SDOT、I8MM、SME2）和核心拓扑结构，以自动配置 llama.cpp 的参数，从而消除了针对特定设备进行编译的需求。该项目最初基于搭载 Snapdragon 8 Elite 的三星 S25 Ultra 手机进行开发和测试。 这解决了在异构 ARM 安卓设备上部署大语言模型的一个关键痛点，它通过实现最优的自动性能调优，无需手动编译，从而使高性能的端侧 AI 更加普及。它针对的是 ARM 硬件上快速发展的端侧大语言模型推理生态系统中的一个关键优化空白。 首个版本包含一个带有 JNI 桥接的安卓参考应用程序，该应用连接到 llama.cpp，并根据检测到的硬件能力修补上下文参数，例如 Flash Attention 和 KV 缓存量化。该库目前是一个非商业的展示版本，开发者计划继续开发异构 CPU/GPU/NPU 分区功能。
+一位开发者已将 MiniMax 新推出的全模态生成式 AI 系统 MiniMax-H3 移植到 MLX 框架，使其能够在 Apple Silicon 硬件上进行高效的本地推理。该过程在 M5 Max MacBook Pro 上下载了约 115 GB 的模型文件，并在 45 分钟内生成了一段带音频的视频。 这次移植使得一个强大的、支持多输入/输出的 AI 模型能够在消费级 Apple 硬件上本地执行，这顺应了高效、私密且支持离线的 AI 推理的日益增长的趋势。它使 Apple 生态系统中的开发人员和研究人员能够在不依赖云服务的情况下，体验前沿的多模态生成技术。 视频生成耗时约 45 分钟，且由于缺少具体的提示引导，输出的音频是无意义的噪音；模型的官方指南提供了获得更好音频效果的详细说明。该移植版本使用了 8 位量化模型权重，这些权重针对在 MLX 上运行进行了优化。
 
-reddit · r/MachineLearning · /u/OpeningTough145 · 8月3日 19:22
+rss · Simon Willison · 8月4日 19:10
 
-**背景**: llama.cpp 是一个流行的开源项目，用于在各种硬件上运行高效的大语言模型推理。ARM 处理器，尤其是像 Snapdragon 8 Elite 这样的现代旗舰级移动 SoC 中的处理器，拥有先进的 SIMD 扩展和异构核心集群，这些特性对性能有重大影响，但通用推理框架通常无法自动利用它们。运行时检测库有助于弥合这一鸿沟，使软件能在运行时适应特定硬件。
+**背景**: MiniMax-H3 是近期发布的一个通用全模态生成系统，能够理解并生成涵盖文本、图像、音频和视频的内容，包括长达 15 秒、带有原生立体声的视频片段。MLX 是由 Apple Research 开发的一个开源数组框架，专为在 Apple Silicon 芯片上高效进行机器学习而设计，使开发人员能够本地运行和优化模型。本地推理是指直接在设备上运行 AI 模型，而无需将数据发送到远程服务器，这在隐私、速度和离线可用性方面具有优势。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://support.arm.com/documentation/109246/0101/SME-Overview/SME-and-SME2">SME Programmer's Guide - support.arm.com</a></li>
-<li><a href="https://github.com/ggml-org/llama.cpp">GitHub - ggml-org/ llama . cpp : LLM inference in C/C++ · GitHub</a></li>
-<li><a href="https://www.notebookcheck.net/Qualcomm-Snapdragon-8-Elite-Processor-Benchmarks-and-Specs.908499.0.html">Qualcomm Snapdragon 8 Elite Processor - Benchmarks and Specs</a></li>
+<li><a href="https://www.minimax.io/blog/minimax-h3">MiniMax H3: An Open Model Breaking the Boundaries Between ...</a></li>
+<li><a href="https://github.com/ml-explore/mlx">GitHub - ml-explore/mlx: MLX: An array framework for Apple silicon · GitHub</a></li>
+<li><a href="https://www.stork.ai/blog/this-project-unlocks-insane-ai-on-your-mac">Run Local AI on Apple Silicon with Just 2GB of RAM | Stork. AI</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 项目作者在 Reddit 讨论中与社区进行了互动，详细阐述了实现细节，并说明异构的 CPU/GPU/NPU 分区功能仍在开发中。评论数量适中，主要集中在该贡献的技术层面。
-
-**标签**: `#ARM`, `#llama.cpp`, `#on-device ML`, `#runtime optimization`, `#hardware detection`
+**标签**: `#AI/ML`, `#Apple Silicon`, `#MLX`, `#Multimodal AI`, `#Local Inference`
 
 ---
 
 <a id="item-13"></a>
-## [苹果扩大诉讼，指控更多前员工向 OpenAI 泄露数据](https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/) ⭐️ 6.0/10
+## [AI 编码智能体的迭代癖好导致史蒂夫·耶格的 Gas Town 项目崩溃](https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything) ⭐️ 6.0/10
 
-苹果公司已扩大对 OpenAI 的诉讼，指控更多前苹果员工可能已将机密数据转移给这家人工智能公司。这一事态发展延续了早前提交的法律诉讼，突显了科技行业在人才流动和数据安全方面的持续紧张关系。 该诉讼涉及指控前员工通过残留的系统访问权限获取机密数据，据报道苹果对此说法持异议，辩称这并非承认其安全程序存在缺陷。此案正受到公众审视，引起了托尼·法德尔等行业人士的评论，他称苹果的策略是恐吓员工的手段。
+史蒂夫·耶格报告称，他的可复用软件项目 Gas Town 在使用 AI 编码智能体 Claude Opus 4.7 时崩溃了。他指出了该模型中一种持续的"再多两件事"的癖好，这种癖好阻碍了收敛，导致智能体在项目本身上无休止地迭代，而非进行有效工作。 这一轶事揭示了 AI 辅助开发中的一个关键挑战：智能体过度优化或无休止地重构自身工具的倾向，可能会破坏项目的可持续性，并阻碍其实现主要目标。这表明，即使是像 Opus 4.7 这样的先进模型，在软件工程中有效长期使用也需要谨慎的约束和引导。 文中提到的模型版本 Opus 4.7 是 Anthropic 公司最近发布的版本，以其在软件工程任务（包括主动输出验证）方面的改进而闻名。然而，这种特定的"癖好"行为——即智能体优先摆弄其自身环境——代表了一种显著的故障模式，可能会使开发工作流偏离正轨。
 
-hackernews · thewebguyd · 8月4日 15:37 · [社区讨论](https://news.ycombinator.com/item?id=49170479)
+rss · Simon Willison · 8月4日 00:42
 
-**背景**: 这起诉讼是苹果与 OpenAI 之间持续法律纠纷的一部分，该纠纷最初因苹果指控数名前员工将专有的人工智能技术和数据带给 OpenAI 而成为头条新闻。此案突显了在人工智能领域激烈竞争中，主要科技公司积极捍卫其知识产权的更广泛行业趋势。
+**背景**: Gas Town 是开发者史蒂夫·耶格的一个可复用软件项目，旨在创建经过验证的工作流，其范围与 Kubernetes 或 Temporal 等系统相似。像 Claude Opus 驱动的 AI 编码智能体这类工具，可以自主编写、测试和修改代码，但在生成式 AI 应用中，管理其行为是一个公认的难题。
 
-**社区讨论**: 评论者表达了不同意见，托尼·法德尔称苹果的诉讼是典型的恐吓策略，而其他人则批评了这场纠纷的公开性，认为应通过法庭私下处理。一些用户也质疑指控的严重性，或强调陷入此类企业冲突的员工所面临的个人风险。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.anthropic.com/news/claude-opus-4-7">Introducing Claude Opus 4.7 \ Anthropic</a></li>
+<li><a href="https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04">Welcome to Gas Town - steve-yegge.medium.com</a></li>
 
-**标签**: `#corporate law`, `#data security`, `#AI industry`, `#tech companies`, `#intellectual property`
+</ul>
+</details>
+
+**标签**: `#coding-agents`, `#generative-ai`, `#software-development`, `#AI-challenges`
 
 ---
 
 <a id="item-14"></a>
-## [Steve Yegge 描述导致编码代理项目崩溃的 AI 模型缺陷](https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything) ⭐️ 6.0/10
+## [西蒙·威利斯推广“肉类代理”概念，批评盲目使用 AI 的行为](https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything) ⭐️ 6.0/10
 
-Steve Yegge 报告称，当他使用的 Opus 4.7 AI 模型引入一个持续的“再来两件事”缺陷时，他的编码代理项目 Gas Town 崩溃了。该模型无法收敛于核心任务，而是不断想要自行修改项目本身。 该缺陷特别出现在 Opus 4.7 模型版本中，导致模型反复专注于改进 Gas Town 工作空间而非完成分配的任务。Yegge 指出这种“坏习惯”从未消失，使得项目无法运作。
+西蒙·威利斯正在推广尼格拉斯·格鲁恩新创的术语“肉类代理”，用以描述那些不加批判地复制粘贴 AI 输出内容，而不去理解或验证它们的人。该帖子敦促个人阅读、理解并用自己的话重写 AI 生成的内容，以此体现其在对话中增添的价值。 这个概念为生成式 AI 时代的一个常见问题提供了有用的标签，促进了批判性思维和负责任的使用，以防止未经核实、可能不准确信息的传播。它强调验证和情境判断仍然是有价值的人类任务，无法被 AI 完全替代。 该术语批评了在 Slack 或代码拉取请求等平台中不阅读就转发 AI 回答的行为，认为这仅仅是将验证的艰难工作转移给了下一个人。原文指出，由于 AI 输出的冗长和偶尔出现似是而非的胡言乱语，阅读它本身就需要额外的努力。
 
-rss · Simon Willison · 8月4日 00:42
+rss · Simon Willison · 8月3日 23:45
 
-**背景**: Gas Town 是一个开源的多代理编排系统，旨在协调 Claude Code 和 Copilot 等多个 AI 编码代理执行不同任务，并使用基于 git 的钩子来持久化工作状态。Claude Opus 4.7 是 Anthropic 公司 AI 模型的最新版本，据报导其有所改进，但正如 Yegge 所经历的，在某些上下文中引入了有问题的行为怪癖。
+**背景**: 随着 Claude 和 GPT-4 等强大大语言模型（LLMs）的兴起，生成文本、代码或分析变得轻而易举。然而，其输出可能看似合理却错误百出，因此人类的审查和验证至关重要。“肉类代理”一词专门针对在作为 AI 通信中间人时，未能执行这一关键验证步骤的行为。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/gastownhall/gastown">GitHub - gastownhall/gastown: Gas Town - multi-agent ...</a></li>
-<li><a href="https://gastown.dev/">Gas Town documentation | Gas Town</a></li>
-<li><a href="https://www.tiktok.com/@adamstewartmarketing/video/7629934667977739541">Claude Opus 4 . 7 : No Hallucinations, Longer Runs, Better Vision | TikTok</a></li>
+<li><a href="https://gruhn.me/blog/2026-08-03/">Don't be a meat proxy - gruhn.me</a></li>
+<li><a href="https://www.remio.ai/post/simon-willison-says-dont-be-a-meat-proxy-for-ai">Simon Willison Says Don't Be a Meat Proxy for AI</a></li>
+<li><a href="https://elsolitario.org/en/2026/08/03/meat-proxy-ai-code-review-without-reading/">Meat Proxy: The Risk of Forwarding AI Answers Unread</a></li>
 
 </ul>
 </details>
 
-**标签**: `#coding-agents`, `#generative-ai`, `#ai-reliability`, `#software-development`, `#tech-anecdote`
+**社区讨论**: Lobste.rs 上的讨论很可能验证了这个术语的实用性，因为社区成员分享了遇到“肉类代理”的经历，这些人未经审查就转发 AI 生成的代码或文本。评论者强调这种做法增加了风险并浪费了他人的时间，强化了使用 AI 工具时个人责任感的必要性。
+
+**标签**: `#ai-misuse`, `#generative-ai`, `#llms`, `#ai`, `#definitions`
 
 ---
 
 <a id="item-15"></a>
-## [奖励塑造是实现《打砖块》反应式 AI 的关键](https://www.reddit.com/r/MachineLearning/comments/1vfa9im/reactive_play_achieved_experimenting_with_atari/) ⭐️ 6.0/10
+## [通过奖励塑造实现 PPO 对《打砖块》的反应式策略](https://www.reddit.com/r/MachineLearning/comments/1vfa9im/reactive_play_achieved_experimenting_with_atari/) ⭐️ 6.0/10
 
-在对《打砖块》进行 124 次失败的 PPO 实验后（这些实验只产生了死记硬背的动作序列），作者发现加入一个简单的奖励塑造函数——直接奖励球拍与球的水平接近度——使 AI 能够学习到反应式的、追踪球的策略，而非静态脚本。 这个案例研究展示了一种在奖励塑造中实用且有效的技术，可以帮助强化学习智能体发展出更具泛化能力的反应行为，而不是过度拟合特定的环境模式。 关键的奖励塑造仅涉及三行代码，在训练期间每当球拍在球下落时水平接近球，就提供一个小的每帧奖励（0.05），而在评估时没有此奖励。这个简单的改变改变了优化压力，使系统倾向于选择追踪球，而非死记硬背的脚本。
+在对《打砖块》游戏进行了 124 次 PPO 实验失败后，作者通过一种简单的三行奖励塑造技术成功训练出了能反应式追踪球的智能体，而非执行预设脚本。该技术在球下落时对球拍靠近球的位置提供小额奖励。 这证明了一种克服强化学习中常见失败模式的实用方法，即智能体学会记忆固定序列而非发展适应性强的反应式行为，这对于构建更通用的游戏 AI 和强化学习系统至关重要。 关键洞见在于奖励塑造改变了最优策略本身，使得反应式追踪比任何预设脚本都能获得更高奖励，且该行为在评估时能迁移到新的、未见过的砖块配置上。
 
 reddit · r/MachineLearning · /u/mikeysce · 8月4日 13:23
 
-**背景**: PPO（近端策略优化）是强化学习中一种流行的策略梯度算法，以其稳定性和效率而闻名。在《打砖块》这样的雅达利游戏中，一个常见的挑战是智能体经常学习到一种静态的动作序列，这种序列记住了特定的砖块布局，而不是对球的移动做出动态反应。奖励塑造涉及修改奖励函数，以引导智能体朝向期望的行为发展。
+**背景**: 近端策略优化是一种流行且稳定的策略梯度算法，用于深度强化学习。在《打砖块》等游戏环境中，一个常见问题是智能体通过记忆为特定关卡量身定制的固定动作序列来取得好成绩，而非学会根据球轨迹等变化的游戏状态动态反应。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://adityam.github.io/stochastic-control/mdps/reward-shaping.html">13 Reward Shaping – Stochastic Control and Decision Theory</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Proximal_Policy_Optimization">Proximal policy optimization - Wikipedia</a></li>
+<li><a href="https://gibberblot.github.io/rl-notes/single-agent/reward-shaping.html">Reward shaping — Mastering Reinforcement Learning</a></li>
+<li><a href="https://openai.com/index/openai-baselines-ppo/">Proximal Policy Optimization | OpenAI</a></li>
 
 </ul>
 </details>
 
-**标签**: `#reinforcement-learning`, `#PPO`, `#reward-shaping`, `#Atari`, `#machine-learning`
+**社区讨论**: 提供的内容中未包含任何社区评论供分析。
+
+**标签**: `#reinforcement-learning`, `#PPO`, `#reward-shaping`, `#Atari`, `#game-AI`
+
+---
+
+<a id="item-16"></a>
+## [开发者为大语言模型创建 AI 格斗对战基准测试](https://www.reddit.com/r/MachineLearning/comments/1veqv8i/i_created_an_autonomous_boxing_benchmark_d/) ⭐️ 6.0/10
+
+一位开发者创建了一个实时对抗的 AI 拳击比赛基准测试，用于评估大语言模型的决策速度、适应性和策略能力。该系统使用了支持视觉的模型如 Gemini Flash Live，并通过包括延迟、动作有效性和情境感知在内的一系列详细指标来衡量其性能。 该项目提供了一种新颖且引人入胜的方式来评估大语言模型在实时高压下的决策能力，这是游戏、机器人和自主智能体等领域的一个关键但尚未充分探索的挑战。它超越了静态基准测试，在对抗条件下测试动态适应性和策略思维。 该基准测试跟踪了一系列综合指标，包括吞吐量（每秒令牌数）、端到端延迟、反应延迟、工具正确性（动作有效性）以及自适应状态感知（如命中率和格挡/闪避成功率）。开发者正在使用 Gemini Flash Live 模型，因其具备低延迟和视觉能力，同时也在考虑为较慢的本地模型引入时间缩放。
+
+reddit · r/MachineLearning · /u/jerkosaur · 8月3日 21:39
+
+**背景**: 大型语言模型通常通过问答或编程等静态任务进行评估。然而，竞技游戏和实时控制等现实世界应用要求模型在严格的延迟限制下做出快速、自适应的决策。这个拳击基准测试将大语言模型作为游戏人工智能代理应用于动态物理模拟，以探究这些实时能力。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://arxiv.org/abs/2505.19481">[2505.19481] Win Fast or Lose Slow: Balancing Speed and ...</a></li>
+<li><a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-live-preview">Gemini 3.1 Flash Live Preview | Gemini API | Google AI for ...</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AI benchmarking`, `#LLM evaluation`, `#game AI`, `#real-time decision making`, `#creative AI projects`
 
 ---
 
