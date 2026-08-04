@@ -5,643 +5,431 @@ date: 2026-08-04
 lang: en
 ---
 
-> From 36 items, 26 important content pieces were selected
+> From 29 items, 18 important content pieces were selected
 
 ---
 
-1. [Developer demos full Kimi K3 model on 16-node GB10 cluster at 20+ tps](#item-1) ⭐️ 8.0/10
-2. [Mach-1 Additive: 95% of Qwen 35B's Performance at 10x Smaller Size](#item-2) ⭐️ 8.0/10
-3. [SK hynix and SanDisk Launch High Bandwidth Flash (HBF) Standard for AI](#item-3) ⭐️ 8.0/10
-4. [llama.cpp PR Caches Hot MoE Experts on GPU for 2x Speedup](#item-4) ⭐️ 8.0/10
-5. [Gemma 4 Runs on Just 500MB Memory](#item-5) ⭐️ 8.0/10
-6. [Running 1M Context LLM on Single RTX 5090 Desktop](#item-6) ⭐️ 8.0/10
-7. [Mistral Releases Shieldstral: 3B Open-Weights Model for Multimodal Safety](#item-7) ⭐️ 7.0/10
-8. [Simple Algorithm for Procedurally Generating Diverse Skin Tones](#item-8) ⭐️ 7.0/10
-9. [Waymo Launches Public Access in Dallas](#item-9) ⭐️ 7.0/10
-10. [DeepSeek V4 Flash Model Runs on a Single AMD MI300X Accelerator](#item-10) ⭐️ 7.0/10
-11. [Active Supply Chain Attack Compromises Keyv and Related NPM Packages](#item-11) ⭐️ 7.0/10
-12. [Xbox outage disables physical disc games, sparking ownership debate](#item-12) ⭐️ 7.0/10
-13. [Web Security and AI Chatbot Failures at Cloudflare](#item-13) ⭐️ 7.0/10
-14. [Engineering AI Harnesses for Autonomous Self-Improvement](#item-14) ⭐️ 7.0/10
-15. [Major Ad-Tech Firm Adform Hacked to Serve Malware](#item-15) ⭐️ 7.0/10
-16. [Beijing Univ. & Zhipu AI Develop One-Instruction Audio-Visual Editor](#item-16) ⭐️ 7.0/10
-17. [Liquid AI Releases LFM2.5-2.6B Agentic Language Model](#item-17) ⭐️ 7.0/10
-18. [Alibaba Qwen 3.8 Model to Get More Sizes](#item-18) ⭐️ 7.0/10
-19. [Llama.cpp PR Moves Sampling to GPU, Boosts Speed](#item-19) ⭐️ 7.0/10
-20. [Interactive Viz Explores Lawn Mowing Strategy Trade-offs](#item-20) ⭐️ 6.0/10
-21. [Apple: More ex-employees may have taken confidential data to OpenAI](#item-21) ⭐️ 6.0/10
-22. [MiniMax-H3 Omni-Modal Model Ported to Apple Silicon via MLX](#item-22) ⭐️ 6.0/10
-23. [New Term 'Meat Proxy' Criticizes Blind AI Output Relay](#item-23) ⭐️ 6.0/10
-24. [Hugging Face CEO: China Leads AI Race on Open Models](#item-24) ⭐️ 6.0/10
-25. [Ling-3.0-flash MoE Model Weights Released on Hugging Face](#item-25) ⭐️ 6.0/10
-26. [LM Studio Users Concerned About Shift to Bionic Agent](#item-26) ⭐️ 6.0/10
+1. [Custom Color Space Algorithm for Diverse Skin Tones](#item-1) ⭐️ 8.0/10
+2. [Keyv & Other npm Packages Compromised in Shai-Hulud Attack](#item-2) ⭐️ 8.0/10
+3. [Framework for AI Agent Self-Improvement via Harness Engineering](#item-3) ⭐️ 8.0/10
+4. [Explorative Modeling: A New Third Pretraining Axis for Generation](#item-4) ⭐️ 8.0/10
+5. [Mistral Releases 3B Open-Weights Model for Multimodal Content Moderation](#item-5) ⭐️ 7.0/10
+6. [Waymo Launches Autonomous Ride-Hailing in Dallas-Fort Worth](#item-6) ⭐️ 7.0/10
+7. [FedEx's Legitimate Emails Resemble Phishing, Undermining Security](#item-7) ⭐️ 7.0/10
+8. [Oxide Computer Secures $445M Series D Funding](#item-8) ⭐️ 7.0/10
+9. [Running DeepSeek V4 Flash on a Single AMD MI300X Accelerator](#item-9) ⭐️ 7.0/10
+10. [Apple Claims More Ex-Employees Took Data to OpenAI](#item-10) ⭐️ 7.0/10
+11. [BFL & Peking Univ. Develop Text-Instruction Audio-Video Editor](#item-11) ⭐️ 7.0/10
+12. [Downsides of LLM-Generated Peer Reviews Identified](#item-12) ⭐️ 7.0/10
+13. [Why some people mow a lawn better than others](#item-13) ⭐️ 6.0/10
+14. [Xbox outage prevents playing own disc-based games](#item-14) ⭐️ 6.0/10
+15. [Buckminster Fuller's 1975 'Everything I Know' Lecture Series](#item-15) ⭐️ 6.0/10
+16. [MiniMax-H3 Multimodal AI Model Ported to Apple Silicon via MLX](#item-16) ⭐️ 6.0/10
+17. [Niklas Gruhn coins 'meat proxy' for blind AI relayers](#item-17) ⭐️ 6.0/10
+18. [Reactive Play in Atari Breakout via Simple Reward Shaping](#item-18) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Developer demos full Kimi K3 model on 16-node GB10 cluster at 20+ tps](https://www.reddit.com/r/LocalLLaMA/comments/1vfl525/kimi_k3_full_model_running_on_16x_gb10_cluster_at/) ⭐️ 8.0/10
+## [Custom Color Space Algorithm for Diverse Skin Tones](https://toneyalexander.github.io/inclusive-color-space/) ⭐️ 8.0/10
 
-A developer has successfully run the full Kimi K3 large language model on a 16-node NVIDIA GB10 cluster using the dspark framework, achieving over 20 tokens per second on average with a peak of 38 tps and a prefill speed of 750 tps. This achievement demonstrates a practical path for running specialized, high-parameter models at useful inference speeds on accessible, low-power distributed hardware, potentially enabling more cost-effective and localized AI deployments outside of major cloud data centers. The performance was measured using the llama-benchy coherent corpus benchmark, and the developer plans to optimize tensor parallelism (tp) speed before releasing a vLLM Docker image and instructions for community replication.
-
-reddit · r/LocalLLaMA · /u/ciprianveg · Aug 4, 19:56
-
-**Background**: The NVIDIA GB10 Grace Blackwell Superchip is a powerful yet energy-efficient processor designed for local AI workloads, and NVIDIA's DGX Spark platform facilitates clustering multiple GB10 units. vLLM is a popular open-source framework for high-throughput LLM inference and serving, often deployed via Docker containers. DSpark is a new speculative decoding framework from DeepSeek, open-sourced in mid-2026, designed to significantly accelerate LLM inference.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.servethehome.com/big-cluster-little-power-the-8x-nvidia-gb10-cluster-marvell-cisco-ubiquiti-qnap-arm/">BIG AI Cluster Little Power the 8x NVIDIA GB10 Cluster - ServeTheHome</a></li>
-<li><a href="https://venturebeat.com/orchestration/deepseek-open-sources-dspark-a-new-framework-to-speed-up-llm-inference-by-up-to-85">DeepSeek open sources DSpark, a new framework to speed up LLM ...</a></li>
-<li><a href="https://docs.vllm.ai/en/stable/deployment/docker/">Using Docker - vLLM</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The post appears on the LocalLLaMA subreddit, a community focused on local LLM deployment, so discussion likely involves technical feedback on the setup, questions about the dspark integration, and eager requests for the promised vLLM image and optimization details.
-
-**Tags**: `#LLM inference`, `#local deployment`, `#performance benchmarks`, `#distributed systems`, `#model optimization`
-
----
-
-<a id="item-2"></a>
-## [Mach-1 Additive: 95% of Qwen 35B's Performance at 10x Smaller Size](https://www.reddit.com/r/LocalLLaMA/comments/1vfirld/has_anyone_tried_mach1_additive_95_of_performance/) ⭐️ 8.0/10
-
-The Mach-1 Additive model has been introduced, claiming to recover 95% of the performance of the Qwen 3.6 35B model while being 10x smaller. This is achieved through a novel approach where the model can inference without ever multiplying by a weight, operating at 1.7 bits per weight. This represents a significant breakthrough in model compression and efficiency, potentially enabling the deployment of high-performance large language models on much less powerful, local, or edge devices. If validated, it could dramatically lower the hardware barriers for advanced AI applications, benefiting developers and businesses seeking cost-effective local AI solutions. The claim is based on performance recovery across 12 agentic and reasoning benchmarks, not a single task. The model's core innovation is the described 'inference without multiplying by a weight' technique, which is a radical departure from standard neural network operations.
-
-reddit · r/LocalLLaMA · /u/MuzafferMahi · Aug 4, 18:30
-
-**Background**: Large Language Models (LLMs) like Qwen 3.6 35B are typically very large, requiring substantial computational resources (GPU memory and power) to run, which limits their use on consumer hardware. Model compression techniques, such as quantization and pruning, aim to reduce model size and computational cost while preserving as much performance as possible. The news is about a new compression method achieving a remarkably high performance-to-size ratio.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://x.com/syzygyeng/status/2084350792841195992">Today, we're introducing Mach-1 Additive, a 35 billion ...</a></li>
-<li><a href="https://deepwiki.com/QwenLM/Qwen3.6/1.1-qwen3.6-models">Qwen3.6 Models | QwenLM/Qwen3.6 | DeepWiki</a></li>
-<li><a href="https://paperswithcode.co/paper/2308.07633">A Survey on Model Compression for Large... | Papers with Code</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The provided content shows a community member questioning why the news isn't getting more attention, implying the claim is significant. However, detailed community discussion or sentiment is not available in the given information.
-
-**Tags**: `#model compression`, `#AI efficiency`, `#LLM optimization`, `#local AI`, `#model performance`
-
----
-
-<a id="item-3"></a>
-## [SK hynix and SanDisk Launch High Bandwidth Flash (HBF) Standard for AI](https://www.reddit.com/r/LocalLLaMA/comments/1vfa3tq/sk_hynix_in_collaboration_with_sandisk_unveils/) ⭐️ 8.0/10
-
-SK hynix and SanDisk have jointly unveiled the High Bandwidth Flash (HBF) memory standard, a new NAND-based technology designed specifically for AI inferencing with targeted specifications of up to 512GB capacity and 3TB/s bandwidth. This new memory standard directly targets the critical bottleneck of memory bandwidth in AI inference, potentially enabling faster and more efficient deployment of large language models by providing high capacity and high bandwidth at a cost structure aimed to be competitive with existing solutions. HBF utilizes advanced 3D packaging and vertical stacking techniques applied to NAND flash to achieve its high bandwidth, with specifications ranging from 0.4TB/s to 3TB/s and a maximum capacity of 512GB, positioning it as a potential alternative to High Bandwidth Memory (HBM) for certain AI workloads.
-
-reddit · r/LocalLLaMA · /u/giveen · Aug 4, 13:17
-
-**Background**: AI inference performance is often constrained by memory bandwidth, the speed at which data can be moved between memory and processor. High Bandwidth Memory (HBM) is a current leading solution but has capacity limitations. HBF is a new class of flash-based memory aiming to bridge this gap by offering vastly higher capacity than HBM while achieving comparable or higher bandwidth through specialized packaging.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://wccftech.com/sk-hynix-sandisk-high-bandwidth-flash-hbf-standard-3tbs/">SK hynix, In Collaboration With SanDisk, Unveils The New High Bandwidth Flash (HBF) Standard, Helping To Resolve AI Inference Bottlenecks, Targeting Up To 3TB/s Bandwidth</a></li>
-<li><a href="https://spectrum.ieee.org/high-bandwidth-flash">High Bandwidth Flash Unlocks Massive Model Storage - IEEE Spectrum</a></li>
-<li><a href="https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/collateral/company/Sandisk-HBF-Fact-Sheet.pdf">HIGH BANDWIDTH FLASH</a></li>
-
-</ul>
-</details>
-
-**Discussion**: A community member expressed hope that this technology would enable faster local AI model usage, but also voiced concern that it will likely be out of the price range for typical enthusiasts.
-
-**Tags**: `#AI hardware`, `#memory technology`, `#AI inference`, `#semiconductors`, `#High Bandwidth Flash`
-
----
-
-<a id="item-4"></a>
-## [llama.cpp PR Caches Hot MoE Experts on GPU for 2x Speedup](https://www.reddit.com/r/LocalLLaMA/comments/1vfhns3/a_llamacpp_pr_caches_hot_moe_experts_on_the_gpu/) ⭐️ 8.0/10
-
-A new llama.cpp pull request introduces a heatmap-based system to track and cache frequently used MoE experts on the GPU, leaving less-used experts to run on the CPU. The author reports up to a 2x speedup (33 to 56 tok/s) on the Qwen3.6-35B-A3B model using an 8GB VRAM GPU. This optimization could significantly improve the performance of large, sparse Mixture-of-Experts models on consumer-grade GPUs with limited VRAM, making more powerful local LLM inference accessible. It addresses a key bottleneck for running state-of-the-art MoE models locally without severe quantization. The feature is currently CUDA-only, active only during single-token decoding, and performance varies by model—some models like Qwen3.5-122B-A10B were actually slower with caching enabled. The output can also vary slightly based on which experts are cached, and the PR is not yet merged into the main llama.cpp repository.
-
-reddit · r/LocalLLaMA · /u/BTA_Labs · Aug 4, 17:52
-
-**Background**: Mixture-of-Experts (MoE) is a neural network architecture that increases model size and capacity without a proportional increase in compute cost by activating only a subset of parameters (experts) for each input. llama.cpp is a popular open-source library for efficient LLM inference, especially on consumer hardware. VRAM optimization is critical for local LLMs as the GPU's video memory is the primary limitation for model size and speed.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://cameronrwolfe.substack.com/p/moe-llms">Mixture-of-Experts (MoE) LLMs - by Cameron R. Wolfe, Ph.D.</a></li>
-<li><a href="https://github.com/ggml-org/llama.cpp">GitHub - ggml-org/ llama . cpp : LLM inference in C/C++ · GitHub</a></li>
-<li><a href="https://wikiwayne.com/blog/vram-requirements-local-llms-guide">VRAM Requirements for Local LLMs | WikiWayne | WikiWayne</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The Reddit post asks for community testing on other consumer GPUs like the RTX 3060 or 4060, specifically to compare token rates and cache hit rates across different workloads like coding, chat, and long-context tasks. The author suggests the method is not a universal fix but likely helps only when expert reuse is high enough to offset the overhead of cache management.
-
-**Tags**: `#llama.cpp`, `#Mixture-of-Experts`, `#VRAM optimization`, `#Local LLMs`, `#Performance engineering`
-
----
-
-<a id="item-5"></a>
-## [Gemma 4 Runs on Just 500MB Memory](https://www.reddit.com/r/LocalLLaMA/comments/1vfeick/gemma_4_on_500mb/) ⭐️ 8.0/10
-
-A demonstration showed Google's Gemma 4 large language model operating on a device with only 500MB of memory. This showcases a significant technical achievement in model compression and optimization for efficient local deployment. This breakthrough significantly lowers the hardware barrier for running advanced AI models, enabling powerful on-device or edge AI capabilities on resource-constrained devices like smartphones or embedded systems. It accelerates the trend of decentralized, privacy-preserving AI by making powerful local inference more accessible. The demonstration specifically targets the Gemma 4 model, which is part of Google DeepMind's family of open models built from the same research as Gemini. Achieving operation within 500MB likely involves advanced compression techniques such as quantization, pruning, and efficient runtime optimizations tailored for edge hardware.
-
-reddit · r/LocalLLaMA · /u/jacek2023 · Aug 4, 16:01
-
-**Background**: Gemma 4 is a family of lightweight, open AI models from Google DeepMind, designed for efficiency and advanced performance. Model compression techniques like quantization, pruning, and knowledge distillation are active research areas focused on reducing the size and memory footprint of large language models (LLMs) without major performance loss. The goal of edge AI optimization is to run these models effectively on devices away from centralized cloud servers, enabling faster, private, and more accessible AI services.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://deepmind.google/models/gemma/gemma-4/">Gemma 4 is a family of open models , purpose-built for advanced...</a></li>
-<li><a href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00704/125482/A-Survey-on-Model-Compression-for-Large-Language">A Survey on Model Compression for Large Language Models | Transactions of the Association for Computational Linguistics | MIT Press</a></li>
-<li><a href="https://developers.googleblog.com/accelerating-on-device-ai-a-look-at-arm-and-google-ai-edge-optimization/">Accelerating on-device AI: A look at Arm and Google AI Edge optimization - Google Developers Blog</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The provided content and search results do not include any community comments or discussion from the Reddit post. Therefore, a summary of community sentiment cannot be provided.
-
-**Tags**: `#LocalLLM`, `#ModelOptimization`, `#EdgeAI`, `#Gemma`, `#EfficientML`
-
----
-
-<a id="item-6"></a>
-## [Running 1M Context LLM on Single RTX 5090 Desktop](https://www.reddit.com/r/LocalLLaMA/comments/1vfbcgx/deepseekv4flash0731_full_1m_context_on_a_single/) ⭐️ 8.0/10
-
-A user successfully ran the DeepSeek-V4-Flash-0731 model (a 284B MoE model) with a full 1M token context window on a single RTX 5090 desktop using vLLM with CPU/RAM offloading, achieving approximately 800 tokens per second prefill and over 15 tokens per second decode speed. The configuration required patching a FlashInfer CUDA IPC helper bug to correctly resolve the CUDA runtime library. This achievement demonstrates that extremely large context windows, previously requiring specialized multi-GPU server hardware, can now be accessed on high-end consumer desktops, significantly lowering the barrier for local, private, and agentic AI development and experimentation. It showcases the effectiveness of hybrid CPU/GPU inference strategies and community-driven software fixes in pushing the limits of local LLM deployment. The setup kept only two complete routed MoE layers resident on the GPU while the rest of the 155.4 GiB checkpoint and KV cache utilized system RAM. The observed decode throughput was highly variable and correlated strongly with the draft acceptance rate of the DSpark speculative decoding method, ranging from ~12 to ~18 tokens per second.
-
-reddit · r/LocalLLaMA · /u/BlackBeardAI · Aug 4, 14:06
-
-**Background**: DeepSeek-V4-Flash-0731 is an open-weight Mixture-of-Experts (MoE) model with 284 billion total parameters but only 13 billion active parameters per token, designed for a 1M token context window. vLLM is a popular open-source library for efficient LLM inference, and its offloading feature allows parts of the model (like experts in an MoE architecture) to be loaded into CPU RAM to fit larger models into limited GPU memory. The RTX 5090 is a high-end consumer GPU with 32GB of GDDR7 VRAM, which is still insufficient to hold the entire model and full context in memory alone.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731">deepseek-ai/ DeepSeek - V 4 - Flash - 0731 · Hugging Face</a></li>
-<li><a href="https://www.techpowerup.com/gpu-specs/geforce-rtx-5090.c4216">NVIDIA GeForce RTX 5090 Specs | TechPowerUp GPU Database</a></li>
-
-</ul>
-</details>
-
-**Discussion**: No community comments were provided in the input data for analysis.
-
-**Tags**: `#LocalLLM`, `#vLLM`, `#LLMOptimization`, `#ContextWindow`, `#HardwareSetup`
-
----
-
-<a id="item-7"></a>
-## [Mistral Releases Shieldstral: 3B Open-Weights Model for Multimodal Safety](https://mistral.ai/news/shieldstral/) ⭐️ 7.0/10
-
-Mistral AI has released Shieldstral, a 3-billion-parameter, open-weights multimodal safety classifier. This model evaluates text and images against a user-defined natural language safety policy and returns a continuous safety score, rather than predicting fixed categories. This release provides a cost-effective, customizable, and transparent alternative to proprietary moderation APIs, empowering developers and researchers to build tailored safety guardrails for platforms. It signals a strategic shift in the AI industry towards smaller, specialized, and efficient models for practical, real-world applications. The model is designed to be policy-adaptive, meaning its moderation rules can be adjusted via natural language instructions without retraining. Performance benchmarks indicate it matches or outperforms models up to seven times its size on text safety tasks and sets a new state-of-the-art for multimodal safety classification.
-
-hackernews · riadsila · Aug 4, 16:36 · [Discussion](https://news.ycombinator.com/item?id=49171268)
-
-**Background**: Multimodal content moderation is the automated process of analyzing both text and images to enforce platform safety policies, a critical function for social media and online communities. Traditionally, this has been handled by large, general-purpose AI models or proprietary APIs from companies like OpenAI. Open-weights models like Shieldstral allow developers to run moderation locally, offering greater control, lower inference costs, and adaptability to specific community standards.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://mistral.ai/news/shieldstral/">Introducing Shieldstral. | Mistral AI</a></li>
-<li><a href="https://huggingface.co/mistralai/Shieldstral-1.0-3B">mistralai/Shieldstral-1.0-3B · Hugging Face</a></li>
-<li><a href="https://arxiv.org/html/2607.25857v1">Shieldstral - arXiv.org</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The community discussion shows enthusiasm for the model's potential to solve a practical hurdle for building new platforms. Commenters highlight its economic efficiency and strategic shift towards specialized models, while also posing insightful questions about its flexibility and the scope of its policy-adaptive capabilities.
-
-**Tags**: `#content moderation`, `#multimodal AI`, `#open source models`, `#efficient AI`, `#developer tools`
-
----
-
-<a id="item-8"></a>
-## [Simple Algorithm for Procedurally Generating Diverse Skin Tones](https://toneyalexander.github.io/inclusive-color-space/) ⭐️ 7.0/10
-
-A new inclusive color space and a procedural generation algorithm have been created to make it easier to pick plausible and diverse skin tones for digital art and game development. The project includes an interactive color picker, technical explanations, and demonstrations of how to use the equations. This work addresses a practical challenge in digital content creation, offering a structured method to represent human diversity, which is crucial for inclusive design in games, illustrations, and other media. It provides a technical foundation that can help artists and developers move beyond default or stereotypical color palettes. The author notes the methodology might be shaky and lists limitations such as not accounting for lighting, which is a critical factor in perceived skin color. The approach involves function fitting from PCA-derived vectors to create a usable color space, as highlighted by community members.
+A developer created a custom color space and a procedural generation algorithm to make it easier to pick and generate plausible, diverse skin tones for digital art and game development. The project includes an interactive color picker, JavaScript demos, and explanations of the methodology. This provides a practical, accessible tool for creators to achieve more inclusive and realistic representation in digital media, addressing a common challenge in character design and asset creation. It contributes to the broader effort of using color science to promote diversity and accuracy in visual content. The algorithm is based on fitting functions to observed data from a PCA analysis, aiming to map a 2D selection space to plausible 3D color values. The author acknowledges the methodology might be imperfect but provides interactive demos and outlines future work for improvements.
 
 hackernews · automatoney · Aug 4, 15:16 · [Discussion](https://news.ycombinator.com/item?id=49170165)
 
-**Background**: Procedural generation in computing refers to creating data algorithmically, often using randomness, which is useful for generating varied content like character appearances. Skin tone color science is complex, involving physical properties like melanin and hemoglobin, as well as human perception under different lighting conditions. Designers and artists often struggle to select representative palettes that cover the full spectrum of human complexion from fair to deep tones.
+**Background**: Selecting realistic skin tones for digital characters often requires specialized knowledge and can be difficult to do diversely. This project approaches the problem by constructing a mathematical model from skin tone data to create a user-friendly interface. Existing solutions may rely on predefined palettes or require complex manual adjustment.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://toneyalexander.github.io/inclusive-color-space/">What Colors Are We? Constructing A Color Space For Skin Tones</a></li>
-<li><a href="https://auricartisan.com/library/learn/articles/2026-07-18-skin-tones-and-inclusive-color">Skin Tones and Inclusive Color - Auric Artisan</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Procedural_generation">Procedural generation - Wikipedia</a></li>
+<li><a href="https://www.youtube.com/watch?v=8K08O1Hz5vM">This Free Tool Generates Diverse Skin Tones for Game Art Skin Color Generator Tool [2026] - terrific.tools 20+ Real Skin Tone Color Palettes: HEX, RGB & HTML Codes Skin color palette generator made easy - Logo Motion Graphics True Tones: Skin Color Palettes for Inclusive Designs Skin Color Palettes: Light, Dark, Human & Anime Tones Skin color palettes maker easy way - Motion Visuals</a></li>
+<li><a href="https://coloruxlab.com/colors/skin-tones">20+ Real Skin Tone Color Palettes: HEX, RGB & HTML Codes</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters praised the beautiful work and interactive presentation, while also pointing out important technical nuances. Key critiques included the omission of lighting's impact on perceived skin tone and comparisons to existing systems like Pantone Skin Tones, with some sharing their own related data projects.
+**Discussion**: Commenters praised the work as beautiful and highlighted the slick idea of function fitting. They discussed related work like the Pantone Skin Tones scale and noted the inherent complexity of modeling color and human perception. One commenter also observed that the generated colors form a similar crescent shape to existing makeup shade data.
 
-**Tags**: `#color theory`, `#inclusive design`, `#procedural generation`, `#HCI`, `#digital art`
-
----
-
-<a id="item-9"></a>
-## [Waymo Launches Public Access in Dallas](https://waymo.com/blog/shorts/dallas-open-to-all/) ⭐️ 7.0/10
-
-Waymo has expanded its fully autonomous ride-hailing service to be available to all users in the Dallas, Texas, metropolitan area. This marks the latest step in the company's nationwide rollout of its driverless vehicle technology. 此次扩张证明了自动驾驶技术的商业可行性和规模化能力正在增强，直接与Uber和Lyft等传统叫车服务竞争。这标志着无人驾驶交通在美国主要城市中心更广泛采用迈出重要一步。 Waymo's service operates in specific zones of Dallas; users can check the exact service area via Waymo's support resources. The company has already deployed hundreds of its autonomous vehicles in other cities like Los Angeles, where users report high predictability and fewer traffic incidents compared to human drivers.
-
-hackernews · xnx · Aug 4, 18:29 · [Discussion](https://news.ycombinator.com/item?id=49172836)
-
-**Background**: Waymo is an autonomous driving technology company and a subsidiary of Alphabet Inc. It originated from Google's self-driving car project and develops the software and hardware for vehicles to navigate public roads without a human driver. The company operates a commercial robotaxi service called Waymo One in several U.S. cities.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Waymo">Waymo - Wikipedia</a></li>
-<li><a href="https://builtin.com/articles/waymo-robotaxis">Waymo Explained: Alphabet’s Autonomous Vehicle Company | Built In</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community commenters shared firsthand experiences from other cities, highlighting that Waymos become normalized over time, are highly predictable in traffic, and cause fewer incidents than human drivers. Some noted minor quirks like vehicles occasionally getting stuck, while others expressed enthusiasm and hope for the service's success.
-
-**Tags**: `#autonomous-vehicles`, `#waymo`, `#robotics`, `#transportation`, `#industry-expansion`
+**Tags**: `#color science`, `#digital art`, `#game development`, `#algorithms`, `#inclusive design`
 
 ---
 
-<a id="item-10"></a>
-## [DeepSeek V4 Flash Model Runs on a Single AMD MI300X Accelerator](https://github.com/ryanzhou/deepseek-v4-flash-mi300x) ⭐️ 7.0/10
+<a id="item-2"></a>
+## [Keyv & Other npm Packages Compromised in Shai-Hulud Attack](https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack) ⭐️ 8.0/10
 
-A technical project demonstrates successfully running the large language model DeepSeek V4 Flash on a single AMD MI300X accelerator, achieving over 150 tokens/second inference speed while using its full native MXFP4 quantized weights. This demonstration is significant because it shows a practical path for deploying a state-of-the-art 284B-parameter mixture-of-experts model on a single high-end consumer or prosumer GPU, making advanced AI inference more accessible and cost-effective outside of large multi-accelerator setups. The implementation requires sacrificing the model's full 1M-token context window, reducing it to 256k tokens for operation on the MI300X's 192GB HBM3 memory, but preserves the model's intended quantization and maintains high throughput.
-
-hackernews · zhoutong · Aug 4, 10:00 · [Discussion](https://news.ycombinator.com/item?id=49166386)
-
-**Background**: DeepSeek V4 Flash is a large mixture-of-experts model with 284 billion total parameters, where only 13 billion are activated per inference. The AMD MI300X is a high-performance data center accelerator built on the CDNA 3 architecture, notable for its substantial 192GB HBM3 memory capacity and high bandwidth, which is crucial for running such large models.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">deepseek -ai/ DeepSeek - V 4 - Flash · Hugging Face</a></li>
-<li><a href="https://rocm.blogs.amd.com/artificial-intelligence/mlperf-training-v5.0/README.html">AMD ’s MLPerf Training Debut: Optimizing LLM... — ROCm Blogs</a></li>
-<li><a href="https://www.geeky-gadgets.com/amd-instinct-mi-300x-ai-accelerator/">AMD Instinct Mi 300 X generative AI accelerator - Geeky Gadgets</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The community discussion adds valuable technical nuances, pointing out that the MI300X is not a standalone consumer card but an OAM module typically sold in 8-unit boxes, referencing prior similar work with dual MI300X setups, and debating alternative implementations like DwarfStar that might use less memory.
-
-**Tags**: `#AI inference`, `#hardware acceleration`, `#AMD MI300X`, `#large language models`, `#system optimization`
-
----
-
-<a id="item-11"></a>
-## [Active Supply Chain Attack Compromises Keyv and Related NPM Packages](https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack) ⭐️ 7.0/10
-
-A coordinated supply chain attack, part of the Shai-Hulud 2.0 campaign, has compromised the GitHub account of the maintainer behind the popular NPM package Keyv. Attackers used this access to push credential-stealing malware across dozens of packages linked to that maintainer. This attack directly threatens the integrity of the NPM ecosystem, which has over 127 million weekly downloads for Keyv alone, and could lead to widespread credential theft and further compromises in dependent projects. It highlights critical, ongoing vulnerabilities in software dependency management and the trust model of open-source package maintainers. The attack poisoned 353 versions across 79 package names, primarily by leveraging compromised repository hooks to inject malicious code. One recommended mitigation is to set a minimum package release age (e.g., min-release-age=5) in your .npmrc file to delay installation of newly published, potentially malicious versions.
+An active supply chain attack, identified as part of the Shai-Hulud family, has compromised the popular npm key-value store library Keyv and dozens of other packages. The attackers gained control of the maintainer's account to push credential-stealing malware across their entire portfolio. This attack demonstrates the ongoing, systemic vulnerability of the npm ecosystem, where compromising a single maintainer can impact millions of downstream applications and CI/CD pipelines. It forces developers to urgently re-evaluate dependency security practices and could lead to widespread credential theft. The attack leveraged pre-install hooks added to the packages to execute malicious code and harvest developer and CI secrets. The compromised Keyv package alone has approximately 127 million weekly downloads, and the worm reportedly poisoned 353 versions across 79 package names.
 
 hackernews · cimi_ · Aug 4, 11:01 · [Discussion](https://news.ycombinator.com/item?id=49166874)
 
-**Background**: A supply chain attack targets the software development and distribution process, aiming to compromise legitimate code by injecting malicious code into trusted components like libraries or dependencies. NPM is the world's largest software registry for JavaScript, and the Shai-Hulud campaign refers to a series of self-replicating worms that have historically targeted it.
+**Background**: The Shai-Hulud attack is the latest in a series of major supply chain attacks targeting the npm package registry, following previous incidents like s1ngularity. These attacks typically involve compromising maintainer accounts to publish malicious versions of widely-used libraries, exploiting the trust and automation inherent in modern software development.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://cybersecuritynews.com/keyv-npm-package-compromised/">Keyv npm Package with 127M Weekly Downloads Compromised in ...</a></li>
 <li><a href="https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html">Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants ...</a></li>
+<li><a href="https://www.securityweek.com/shai-hulud-supply-chain-attack-worm-used-to-steal-secrets-180-npm-packages-hit/">Shai - Hulud Supply Chain Attack : Worm Used to... - SecurityWeek</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community discussion centers on systemic flaws, with users arguing that pre/post-install hooks should be severely restricted or eliminated to prevent such attacks. There are also questions about the effectiveness of enterprise security tools and practical advice, such as setting a minimum release age, to mitigate the risk.
+**Discussion**: Community discussion focuses on both immediate practical steps, like using `npm config set min-release-age` to flag new packages, and broader systemic critiques, such as calls to restrict or eliminate pre/post-install hooks. There's a shared sentiment that the npm dependency model is fragile and that attacks can have cascading, hard-to-clean effects.
 
-**Tags**: `#supply-chain attack`, `#npm security`, `#cybersecurity`, `#JavaScript`, `#open-source`
+**Tags**: `#supply-chain-attack`, `#npm-security`, `#cybersecurity`, `#dependency-management`, `#developer-tools`
+
+---
+
+<a id="item-3"></a>
+## [Framework for AI Agent Self-Improvement via Harness Engineering](https://lilianweng.github.io/posts/2026-07-04-harness/) ⭐️ 8.0/10
+
+A new framework proposes that AI agents can iteratively improve their own operational harness—including tools, prompts, and context management—through self-optimization cycles inspired by software engineering practices. This framework shifts the focus of agent improvement from model training to the surrounding systems, potentially making AI agents more reliable, efficient, and cost-effective in real-world deployments. The approach draws parallels to software engineering practices like fitness functions and auto-research for harnesses, emphasizing the need for evaluation splits to prevent reward hacking.
+
+hackernews · tosh · Aug 4, 06:17 · [Discussion](https://news.ycombinator.com/item?id=49164896)
+
+**Background**: An operational harness in AI is the layer that coordinates an agent's models, tools, instructions, and orchestration to execute tasks reliably. Harness engineering applies systems-level thinking to design and improve this layer, moving beyond simple prompt crafting.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.designveloper.com/blog/what-is-harness-engineering/">What Is Harness Engineering? How It Makes AI Agents Reliable</a></li>
+<li><a href="https://viveky259259.medium.com/harness-in-ai-systems-the-operating-system-for-the-agent-era-b339632fce0d">Harness in AI Systems — The Operating System for the Agent Era</a></li>
+<li><a href="https://arxiv.org/html/2607.07663">Recursive Self-Improvement in AI: From Bounded Self ...</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters highlight practical implementation challenges, such as defining 'quality' fitness functions for large codebases and the potential for harnesses to generate their own training data for model finetuning.
+
+**Tags**: `#AI agents`, `#self-improvement`, `#prompt engineering`, `#systems engineering`, `#machine learning`
+
+---
+
+<a id="item-4"></a>
+## [Explorative Modeling: A New Third Pretraining Axis for Generation](https://www.reddit.com/r/MachineLearning/comments/1vf6r6f/explorative_modeling_unlocking_a_third/) ⭐️ 8.0/10
+
+This paper introduces 'explorative modeling' as a third pretraining axis, alongside standard language modeling and masked language modeling, that encourages models to explore latent representations. This new objective enables end-to-end generation directly from pre-trained representations, aiming to bridge the gap between discriminative and generative pretraining. This research could fundamentally change how generative models are pre-trained by adding exploration as a scalable axis for improving performance across multiple domains. It provides a theoretical framework to unify discriminative pre-training with generative capabilities, potentially leading to more versatile and powerful multi-modal models. The study finds that scaling exploration monotonically improves performance in existing generative models across continuous and discrete domains like images, video, and language. The concept of 'generative expressivity' suggests that factoring generation and exploration are interchangeable, enabling direct end-to-end generation from pre-trained representations.
+
+reddit · r/MachineLearning · /u/Benlus · Aug 4, 10:42
+
+**Background**: Generative pretraining typically uses objectives like language modeling to predict next tokens or masked language modeling to predict masked tokens, focusing on learning statistical patterns. Explorative modeling proposes a third axis that explicitly encourages a model to explore diverse latent representations, aiming to create richer internal representations that can be directly used for generation tasks. The goal is to move beyond purely discriminative pretraining and enable more flexible, end-to-end generative capabilities.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://arxiv.org/abs/2607.27372">Explorative Modeling: Unlocking a Third Pretraining Axis and ...</a></li>
+<li><a href="https://alexiglad.github.io/blog/2026/explorative_modeling/">Explorative Modeling -- Unlocking a Third Pretraining Axis ...</a></li>
+<li><a href="https://github.com/alexiglad/XM">GitHub - alexiglad/XM: PyTorch Code for Explorative Modeling ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#pretraining`, `#representation_learning`, `#generative_models`, `#self-supervised_learning`, `#machine_learning_research`
+
+---
+
+<a id="item-5"></a>
+## [Mistral Releases 3B Open-Weights Model for Multimodal Content Moderation](https://mistral.ai/news/shieldstral/) ⭐️ 7.0/10
+
+Mistral AI has released Shieldstral, a new 3B parameter open-weights model specifically designed for multimodal content moderation tasks. It is available on Hugging Face and is intended for on-device or edge deployment. This release provides a specialized, small, open-source alternative for content safety, allowing developers to perform local moderation without relying on proprietary APIs. It aligns with the trend of using smaller, fine-tuned models for specific use-cases and offers a potential first line of defense for sensitive content. The Shieldstral model has 3B parameters and is designed to turn content moderation into a binary (yes/no) safety classification task for both text and images. According to the provided information, it claims to match or outperform models nearly seven times larger on text safety benchmarks.
+
+hackernews · riadsila · Aug 4, 16:36 · [Discussion](https://news.ycombinator.com/item?id=49171268)
+
+**Background**: Content moderation is the process of monitoring and filtering user-generated content to ensure it adheres to platform policies. Traditional methods have relied on rules or large commercial AI models, which can be costly and offer less control. The emergence of open-weight safety models like Shieldstral and others from OpenAI aims to give developers more accessible and customizable tools for this critical task.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://scalevise.com/resources/mistral-shieldstral-on-device-content-safety-model/">Mistral Shieldstral : On-Device Content Safety Model</a></li>
+<li><a href="https://cctest.ai/en/articles/shieldstral-turns-content-moderation-into-a-yes-or-no-multimodal-safety-task">Shieldstral : A 3B Adaptive Multimodal Safety Classifier - CCTest</a></li>
+<li><a href="https://digg.com/tech/spocg9ap">Mistral AI Releases Shieldstral Safety Model · Digg</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The community discussion focuses on the model's flexibility, questioning whether it can be tuned to arbitrary rulesets or is limited to a fixed moderation style. There are also comparisons to OpenAI's moderation models and concerns about how it handles nuanced topics like religious texts.
+
+**Tags**: `#AI`, `#content-moderation`, `#open-source-model`, `#Mistral`, `#LLM`
+
+---
+
+<a id="item-6"></a>
+## [Waymo Launches Autonomous Ride-Hailing in Dallas-Fort Worth](https://waymo.com/blog/shorts/dallas-open-to-all/) ⭐️ 7.0/10
+
+Waymo has expanded its fully autonomous ride-hailing service to the Dallas-Fort Worth metroplex, making it accessible to all users in this major U.S. market. This marks a significant geographic expansion for the company's commercial operations. This expansion into a sprawling, car-dependent region like DFW tests the viability of autonomous vehicles in infrastructure designed primarily for personal cars, with potential implications for urban mobility and transportation equity. It brings the technology to a much larger and different population center, providing crucial real-world data on its scalability. The service area for the Dallas-Fort Worth launch is specified in Waymo's support documentation, indicating the exact zones where the robotaxis will operate. The expansion occurs in a region noted for its low density, high urban sprawl, and limited public transit options, presenting a unique operational environment compared to denser cities like Los Angeles.
+
+hackernews · xnx · Aug 4, 18:29 · [Discussion](https://news.ycombinator.com/item?id=49172836)
+
+**Background**: Waymo is an autonomous driving technology company that operates a commercial ride-hailing service using fully self-driving vehicles, also known as robotaxis. The Dallas-Fort Worth metroplex is a major metropolitan area in Texas, USA, characterized by significant car dependency and suburban sprawl, which presents distinct challenges and opportunities for autonomous vehicle deployment compared to older, denser cities.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikivoyage.org/wiki/Dallas">Dallas – Travel guide at Wikivoyage</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commentators offered practical insights from other markets, noting Waymos' predictable and generally safe driving behavior in LA, though occasionally getting 'stuck'. One commenter suggested autonomous vehicles could be an effective affordable housing policy by reducing transportation costs, while others highlighted DFW's car-heavy culture as a key context for the launch.
+
+**Tags**: `#autonomous-vehicles`, `#Waymo`, `#urban-planning`, `#transportation`, `#Dallas`
+
+---
+
+<a id="item-7"></a>
+## [FedEx's Legitimate Emails Resemble Phishing, Undermining Security](https://www.troyhunt.com/thanks-fedex-this-is-why-we-keep-getting-phished/) ⭐️ 7.0/10
+
+Security expert Troy Hunt criticizes FedEx for sending legitimate customer communications that poorly mimic common phishing scam tactics. This practice confuses users and directly contradicts standard anti-phishing education, which teaches people to distrust such messages. 当合法公司使用与诈骗者完全相同的通信模式时，它会破坏多年来的安全意识培训，使用户更难识别真正的网络威胁。这为所有人创造了一个更危险的网络环境，因为人们对警示信号变得麻木不仁。 The core issue is that FedEx's official messages use generic sender addresses, unsolicited attachments, and urgent requests for personal information—exact red flags that anti-phishing training warns users to avoid. This isn't just poor design; it actively sabotages public security education.
+
+hackernews · stymaar · Aug 4, 21:09 · [Discussion](https://news.ycombinator.com/item?id=49175192)
+
+**Background**: Phishing is a type of cyberattack where scammers impersonate trusted entities via email or text to trick victims into revealing sensitive data. Effective security awareness training teaches users to spot red flags like generic greetings, urgent threats, and requests for personal information from untrusted sources. Organizations are supposed to avoid using these same tactics in their legitimate communications to prevent user confusion.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.cloudflare.com/learning/access-management/phishing-attack/">What is phishing? | Phishing attack prevention | Cloudflare</a></li>
+<li><a href="https://www.infosecinstitute.com/resources/security-awareness/ultimate-guide/">The ultimate guide to security awareness training | Infosec</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters share similar frustrating experiences, such as receiving official-looking PDFs from unknown FedEx senders and encountering scams that perfectly mimic legitimate services like Google and the IRS. They highlight broader problems like the proliferation of new generic top-level domains (gTLDs) that make phishing links harder to spot, and note that even government agencies suffer from similar issues that erode public trust.
+
+**Tags**: `#cybersecurity`, `#phishing`, `#corporate-practices`, `#security-awareness`, `#user-safety`
+
+---
+
+<a id="item-8"></a>
+## [Oxide Computer Secures $445M Series D Funding](https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml) ⭐️ 7.0/10
+
+Oxide Computer Company has raised $445 million in a Series D funding round, bringing its total funding to over $790 million across four rounds since 2023. This substantial late-stage funding underscores strong investor confidence in Oxide's vision to build cloud infrastructure with integrated hardware, potentially positioning it as a serious competitor in the cloud computing market. The funding was disclosed via an SEC Form D filing, which is common for private company offerings. This Series D round follows a rapid progression of funding rounds, including a $200 million Series C in 2026.
+
+hackernews · depr · Aug 4, 20:13 · [Discussion](https://news.ycombinator.com/item?id=49174407)
+
+**Background**: Oxide Computer Company is a startup developing an integrated cloud computer platform that combines compute, storage, networking, and software into a single rack-scale system, aiming to offer an alternative to hyperscale public cloud providers. A Series D funding round is a late-stage venture capital investment typically made in companies that have achieved significant revenue growth and are scaling operations, often in preparation for an IPO.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://oxide.computer/">Oxide Computer Company</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Series_D_funding">Series D funding</a></li>
+<li><a href="https://fundraiseinsider.com/blog/series-d-startups/">List of Funded Series D Startups (2026) - Fundraise Insider</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The community reaction is mixed, showing excitement over the company's rapid funding growth and trust in key personnel like Jessie Frazelle, but also raising practical concerns about product availability, responsiveness to potential customers, and hiring.
+
+**Tags**: `#funding`, `#cloud-infrastructure`, `#hardware`, `#startup`, `#venture-capital`
+
+---
+
+<a id="item-9"></a>
+## [Running DeepSeek V4 Flash on a Single AMD MI300X Accelerator](https://github.com/ryanzhou/deepseek-v4-flash-mi300x) ⭐️ 7.0/10
+
+A new project demonstrates the deployment and inference of the 284B-parameter DeepSeek V4 Flash Mixture-of-Experts (MoE) model on a single AMD MI300X accelerator. This achievement showcases a practical optimization where the model's native MXFP4 quantization is preserved while trading off a reduced context window (256k vs. the original 1M) for feasible single-device execution. This work is significant because it provides a validated, practical method for running a state-of-the-art large language model on high-performance but more accessible AMD AI accelerator hardware, bypassing the need for multi-card setups. It offers a valuable blueprint for optimizing the trade-off between inference performance, memory footprint, and context length for deploying massive models. The project successfully runs the model with its full intended quantization (MXFP4) and achieves a speed of over 150 tokens per second, indicating that performance is not severely compromised. A key limitation is the reduction of the maximum context window from 1 million to 256k tokens, which the author presents as a necessary and practical trade-off for single-accelerator deployment.
+
+hackernews · zhoutong · Aug 4, 10:00 · [Discussion](https://news.ycombinator.com/item?id=49166386)
+
+**Background**: DeepSeek V4 Flash is a large 284B-parameter Mixture-of-Experts (MoE) language model from the DeepSeek V4 family, designed for advanced reasoning and agent tasks with a native 1M token context window. The AMD MI300X is a high-performance data center AI accelerator featuring up to 192GB of HBM3 memory, which is critical for holding large model weights. Quantization techniques like MXFP4 reduce the numerical precision of model weights to lower bit-widths, enabling huge models to fit into GPU memory with minimal loss in output quality.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://deepseek.ai/deepseek-v4">DeepSeek V 4 Explained: V 4 -Pro 1.6T vs V 4 - Flash 284B (2026)</a></li>
+<li><a href="https://arxiv.org/html/2411.02530v1">A Comprehensive Study on Quantization Techniques for Large ...</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The community discussion centers on practical hardware constraints and prior art. Commenters note the difficulty and high cost of obtaining a single MI300X module, point out alternative setups like the PCIe-based MI350P, and suggest other projects like DwarfStar that might achieve similar results with different quantization. The overall sentiment acknowledges the impressive nature of the achievement while clarifying the real-world accessibility and trade-offs involved.
+
+**Tags**: `#AI inference`, `#hardware optimization`, `#AMD MI300X`, `#LLM deployment`, `#performance trade-offs`
+
+---
+
+<a id="item-10"></a>
+## [Apple Claims More Ex-Employees Took Data to OpenAI](https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/) ⭐️ 7.0/10
+
+Apple has escalated its lawsuit against OpenAI, alleging that more former employees may have taken confidential hardware designs and documents to OpenAI. This expands on earlier claims that specific employees, including OpenAI's chief hardware officer, systematically misappropriated trade secrets. This lawsuit highlights the intense competition and high stakes in the AI hardware sector, where major tech companies are aggressively poaching talent and protecting intellectual property. A successful injunction could derail OpenAI's ambitious plans to develop its own AI hardware devices, significantly impacting the future competitive landscape. Apple's complaint alleges that the theft involved systematic patterns, including taking screenshots of sensitive documents and exploiting authentication bugs to access cloud repositories. The lawsuit also names hardware startup IO Products, which OpenAI acquired in 2025.
+
+hackernews · thewebguyd · Aug 4, 15:37 · [Discussion](https://news.ycombinator.com/item?id=49170479)
+
+**Background**: OpenAI, known for ChatGPT, is reportedly developing its own AI hardware, including a tabletop puck-like device. Apple is deeply invested in AI hardware and has a history of aggressively protecting its trade secrets and suing over employee departures. This case is part of a broader trend of corporate espionage lawsuits fueled by talent wars in the AI industry.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/">Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets | WIRED</a></li>
+<li><a href="https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets">Apple sues OpenAI for allegedly stealing hardware secrets | The Verge</a></li>
+<li><a href="https://appleinsider.com/articles/26/07/13/apples-corporate-espionage-suit-against-openai-isnt-the-first">Apple's espionage suit against OpenAI: How we got here</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community comments express a mix of criticism towards Apple's legal tactics, skepticism about OpenAI's hardware project viability, and debate over the seriousness of the allegations. Some veterans like Tony Fadell see it as a typical scare tactic, while others argue the specific allegations of document theft go beyond mere employee poaching.
+
+**Tags**: `#corporate espionage`, `#AI hardware`, `#OpenAI`, `#Apple`, `#intellectual property`
+
+---
+
+<a id="item-11"></a>
+## [BFL & Peking Univ. Develop Text-Instruction Audio-Video Editor](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909661&idx=3&sn=93d5f6e39859c6c9c378533ba3009898) ⭐️ 7.0/10
+
+A collaborative team from the Beijing Academy of Artificial Intelligence (BFL) and Peking University has created an end-to-end AI system that can jointly edit both audio and video content in response to a single text instruction. This system is presented as a research contribution at the SIGGRAPH Asia 2026 conference. This research demonstrates a unified generative approach for multimodal editing, which could significantly streamline content creation workflows by eliminating the need for separate audio and video editing processes. It represents a step towards more intuitive AI-driven creative tools that understand and execute complex, cross-modal instructions. The core innovation is an end-to-end process where both visual and auditory components respond to the same text command simultaneously within a single generative model. The work highlights its application in making AI agents more capable of handling complex, multi-output tasks, as implied by the related job listing from the joint lab.
+
+rss · 量子位 · Aug 4, 09:00
+
+**Background**: SIGGRAPH Asia is a premier international conference for computer graphics and interactive techniques, known for showcasing cutting-edge research. Traditional audio-video editing often requires separate tools and manual synchronization; recent AI research focuses on multimodal models that can process and generate multiple data types (like text, image, audio, and video) together. An 'end-to-end' system here means the model takes the text instruction and directly produces the edited audio and video outputs without requiring extensive manual steps or separate sub-systems.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://asia.siggraph.org/">SIGGRAPH Asia 2026 | Home</a></li>
+<li><a href="https://theaiforest.com/multimodal-ai-tools-for-video-audio-in-2026/">Multimodal AI Tools for Video & Audio in 2026 | AI FOREST</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#Multimodal AI`, `#Audio-Video Generation`, `#Computer Graphics`, `#SIGGRAPH`, `#Research`
 
 ---
 
 <a id="item-12"></a>
-## [Xbox outage disables physical disc games, sparking ownership debate](https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/) ⭐️ 7.0/10
+## [Downsides of LLM-Generated Peer Reviews Identified](https://www.reddit.com/r/MachineLearning/comments/1vf4zjz/the_downsides_of_llmgenerated_peer_reviews_d/) ⭐️ 7.0/10
 
-A recent Xbox Live service outage prevented players from using their physically-owned disc-based games, as the console required online authentication to play. Microsoft acknowledged the failure and confirmed that disc-based gameplay should function independently of online services. 这一事件凸显了在数字版权管理时代，消费者媒体访问的脆弱性日益增加，实体所有权不再保证离线访问。它引发了关于游戏长期保存以及数字生态系统中传统消费者权利被侵蚀的更广泛担忧。 微软技术主管确认了此故障并表示修复方案正在制定中，他承认基于光盘的游戏玩法不应依赖于在线认证服务。该问题具体影响了在服务中断期间尝试启动基于光盘游戏的主机。
+A post critiques the tendency of LLMs to generate excessive, low-value critiques focused on trivial uncontrolled variables, overly abstract novelty claims, and superficial method comparisons. This issue can degrade the quality of peer review by forcing authors to address an endless list of technically possible but practically insignificant concerns, wasting time and distracting from a study's core contributions. The critique highlights three key problems: LLMs are poor at prioritizing which uncontrolled variables are truly important, they often criticize novelty at an overly abstract field level rather than comparing against specific prior work, and they can overestimate similarities between superficially related methods.
 
-hackernews · surprisetalk · Aug 4, 12:01 · [Discussion](https://news.ycombinator.com/item?id=49167448)
+reddit · r/MachineLearning · /u/Kwangryeol · Aug 4, 09:03
 
-**Background**: 现代游戏主机通常需要进行初始在线检查以验证游戏许可证，即使是实体光盘也是如此，这是一种防止盗版的数字版权管理形式。这种“始终在线”或持续在线认证确保了软件的合法性，但即使是用户已物理购买的内容，也使其对发行商服务器的访问产生了依赖。
+**Background**: Peer review is a critical process where experts evaluate research studies before publication. LLMs are increasingly used to assist in generating review comments. However, their tendency to produce long lists of logically plausible but low-impact criticisms can overwhelm authors and detract from substantive, actionable feedback.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.renascence.io/news/9140/xbox-disc-outage-physical-games-failed-during-online-authentication-lapse">Xbox Disc Outage: Physical Games Failed During Online ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Always-on_DRM">Always-on DRM - Wikipedia</a></li>
+<li><a href="https://arxiv.org/pdf/2601.11578">Multi-Agent LLMs for Generating Research Limitations</a></li>
+<li><a href="https://scienceinsights.org/what-is-an-uncontrolled-variable-definition-examples/">What Is an Uncontrolled Variable? Definition & Examples</a></li>
 
 </ul>
 </details>
 
-**Discussion**: 评论者对失去真正的所有权和离线可玩性表示不满，并将其与GameCube等老式主机进行了不利比较。他们认为核心问题是所有权问题，而非实体与数字格式之争，并对现代系统优先考虑控制和利润而非用户自由感到惋惜。
+**Discussion**: The provided content contains the original post but no explicit community comments. Therefore, a summary of community discussion cannot be provided.
 
-**Tags**: `#digital ownership`, `#gaming`, `#DRM`, `#consumer rights`, `#online services`
+**Tags**: `#LLM`, `#Peer Review`, `#Machine Learning`, `#Academic Integrity`, `#AI Ethics`
 
 ---
 
 <a id="item-13"></a>
-## [Web Security and AI Chatbot Failures at Cloudflare](https://textslashplain.com/2026/08/04/security-is-hard-yall/) ⭐️ 7.0/10
+## [Why some people mow a lawn better than others](https://pudding.cool/2026/06/mow/) ⭐️ 6.0/10
 
-An article critiques the inherent difficulties of web security and product management, using Cloudflare's configuration issues and an AI chatbot that was uninformed about products as a case study. 这突显了一个系统性问题，即工程最佳实践受到市场营销决策和不完善工具的损害，影响了整个科技行业的用户安全和信任。 The article specifically points to the use of a suspicious '.pay' top-level domain for payments and an AI chatbot that falsely denied the existence of a product, both of which are significant security red flags.
+An interactive visualization exploring different lawn mowing patterns and their optimization efficiency, with a Hacker News discussion featuring practical critiques and real-world applications.
 
-hackernews · kevincox · Aug 4, 18:29 · [Discussion](https://news.ycombinator.com/item?id=49172834)
+hackernews · carlos-menezes · Aug 4, 18:06 · [Discussion](https://news.ycombinator.com/item?id=49172550)
 
-**Background**: Web security involves protecting websites and applications from attacks, but is complicated by constant threats, complex configurations, and competing business priorities. AI chatbots are increasingly used for customer support but often lack deep product knowledge, leading to user frustration and potential misinformation.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://community.cloudflare.com/t/cloudflare-configuration-issue/598125">Cloudflare Configuration Issue - Website, Application, Performance...</a></li>
-<li><a href="https://gettalkative.com/info/limitations-of-chatbot">The Limitations of Chatbots (And How to Overcome Them)</a></li>
-<li><a href="https://userback.io/blog/common-product-management-challenges/">Top 6 Common Product Management Challenges | Userback</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters strongly agreed that the core problem is not just technical difficulty but also a breakdown in communication between marketing and engineering teams. Many expressed frustration that developers are often blamed for failures caused by business decisions, and some questioned the value of deploying uninformed AI chatbots.
-
-**Tags**: `#web security`, `#AI chatbots`, `#cloudflare`, `#engineering management`, `#user experience`
+**Tags**: `#visualization`, `#optimization`, `#algorithms`, `#interactive-media`, `#applied-math`
 
 ---
 
 <a id="item-14"></a>
-## [Engineering AI Harnesses for Autonomous Self-Improvement](https://lilianweng.github.io/posts/2026-07-04-harness/) ⭐️ 7.0/10
+## [Xbox outage prevents playing own disc-based games](https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/) ⭐️ 6.0/10
 
-The article proposes the concept of engineering 'harnesses'—meta-frameworks that enable AI systems to autonomously optimize their own prompts, tools, and performance through methods like reinforcement learning and automated feedback loops. This concept represents a significant step towards creating truly autonomous AI agents that can continuously self-improve beyond human engineering capacity, potentially accelerating progress in fields like software development and research. The framework relies on mechanisms such as reinforcement learning from automated feedback and the definition of fitness functions to measure and guide improvements in performance, quality, and cost-efficiency.
+A widespread Xbox Live outage, caused by a failure in a shared Microsoft licensing service, prevented users from signing in and launching games they physically own on disc. This means even with a valid disc inserted, the console required online authentication that was unavailable during the outage. This incident reignites the fundamental debate about digital ownership versus access, demonstrating how modern DRM systems can restrict consumers' ability to use products they have physically paid for when online services fail. It highlights the growing vulnerability and diminishing utility of physical media in an ecosystem increasingly dependent on always-online authentication. The outage was traced to a failure within a shared Microsoft licensing service, which also impacted account sign-ins, game library access, and the launching of purchased digital titles. The problem specifically affected the online authentication check required even for disc-based games on modern Xbox consoles.
 
-hackernews · tosh · Aug 4, 06:17 · [Discussion](https://news.ycombinator.com/item?id=49164896)
+hackernews · surprisetalk · Aug 4, 12:01 · [Discussion](https://news.ycombinator.com/item?id=49167448)
 
-**Background**: AI harness engineering is a discipline focused on designing the scaffolding—including context delivery, tool interfaces, and verification loops—that surrounds an AI agent and determines its success on real tasks. This work is part of a broader trend exploring meta-learning and autonomous improvement for AI agents.
+**Background**: Digital Rights Management (DRM) refers to technologies used by publishers to control access to digital content after sale. In gaming, DRM often requires periodic online authentication, even for physical copies, to prevent piracy. This creates a dependency where access to legally purchased games can be severed if the authentication servers go down or are shut down.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://venturebeat.com/orchestration/meta-researchers-introduce-hyperagents-to-unlock-self-improving-ai-for-non-coding-tasks">Meta researchers introduce 'hyperagents' to unlock self ...</a></li>
-<li><a href="https://github.com/ai-boost/awesome-harness-engineering">GitHub - ai-boost/awesome-harness-engineering: Awesome list ...</a></li>
-<li><a href="https://github.com/RyanAlberts/best-of-Agent-Harnesses">GitHub - RyanAlberts/best-of-Agent-Harnesses: Curated ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Digital_rights_management">Digital rights management - Wikipedia</a></li>
+<li><a href="https://www.youtube.com/watch?v=WwxWG4IGVks">Xbox has apologised after a major service outage - YouTube</a></li>
+<li><a href="https://x-box.net/xbox-services-grapple-with-major-monday-outage-impacting-millions-of-gamers-worldwide/">Xbox Services Grapple with Major Monday Outage , Impacting ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters are exploring practical implementations, such as using auto-research on production traces to identify and fix issues, and envisioning future steps where harnesses could fine-tune their own models. There is also theoretical discussion about a new training paradigm for prompts and code as a potential path beyond training weights.
+**Discussion**: Commenters express frustration that physical media no longer guarantees offline play, comparing it unfavorably to older consoles like the GameCube. The discussion centers on the principle of ownership—the right to keep, use offline, transfer, and resell games—rather than the physical vs. digital format itself. Some users also criticize the convoluted online processes now required to play single-player games.
 
-**Tags**: `#AI agents`, `#meta-learning`, `#self-improvement`, `#engineering frameworks`, `#prompt optimization`
+**Tags**: `#digital ownership`, `#DRM`, `#gaming`, `#consumer rights`, `#service outage`
 
 ---
 
 <a id="item-15"></a>
-## [Major Ad-Tech Firm Adform Hacked to Serve Malware](https://this.weekinsecurity.com/online-advertising-giant-adform-was-hacked-proving-once-again-why-ad-blockers-are-necessary/) ⭐️ 7.0/10
+## [Buckminster Fuller's 1975 'Everything I Know' Lecture Series](https://www.bfi.org/about-fuller/everything-i-know/) ⭐️ 6.0/10
 
-Online advertising giant Adform was compromised in a cyberattack that allowed threat actors to use its platform to serve cryptocurrency mining malware to users. This incident exposes significant systemic security vulnerabilities within the online advertising ecosystem, demonstrating that even major, trusted ad networks can become vectors for widespread malware distribution, impacting end-user security and privacy. The attack specifically involved Adform's platform being used to inject scripts for cryptocurrency mining malware, highlighting the risk of dynamic ads loaded via external script libraries.
+A complete 1975 lecture series by the visionary Buckminster Fuller, titled 'Everything I Know,' has been shared online, documenting his life's work on design science, technology, and global systems. 这次档案发布使富勒关于全面预期性设计科学和系统思维的深刻思想，更容易被对历史技术和哲学感兴趣的现代受众所接触。 The content is a historical lecture series, not a modern technical breakthrough, and the Hacker News discussion was moderately engaged, with comments being largely anecdotal rather than deep technical debate.
 
-hackernews · speckx · Aug 4, 15:05 · [Discussion](https://news.ycombinator.com/item?id=49170001)
+hackernews · simonebrunozzi · Aug 4, 11:33 · [Discussion](https://news.ycombinator.com/item?id=49167147)
 
-**Background**: Adform is a major ad-tech company with over 20 years of history, providing a platform for brands, agencies, and publishers to manage digital advertising campaigns globally. Cryptocurrency mining malware hijacks a device's processing power to mine digital currencies, often without the owner's consent. The online advertising ecosystem is known to create security risks, as malicious actors can exploit ad delivery mechanisms to distribute malware.
+**Background**: Buckminster Fuller was a 20th-century American architect, systems theorist, and futurist who coined terms like 'Spaceship Earth' and popularized the geodesic dome. He is known for his concept of 'design science,' which he defined as a systematic, whole-systems approach to solving global problems through technology and design. The lecture series 'Everything I Know' represents a comprehensive synthesis of his ideas.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://site.adform.com/company/about-adform/">About Adform - Adform</a></li>
-<li><a href="https://ads.cs.washington.edu/">Studying risks from online advertising (UW)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Design_science">Design science - Wikipedia</a></li>
+<li><a href="https://www.bfi.org/about-fuller/big-ideas/design-science/">Design Science – Buckminster Fuller Institute</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Buckminster_Fuller">Buckminster Fuller - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion strongly validates the need for ad blockers, with commenters arguing that the ad ecosystem is inherently risky and that blocking ads is a necessary security practice. Some users also emphasized the importance of DNS-level blocking for broader protection beyond just browsers.
+**Discussion**: Hacker News commenters shared personal recommendations for Fuller's work, such as his book 'Operating Manual for Spaceship Earth,' noted his remarkable stamina as a lecturer, and connected his ideas to related concepts like 'energy slaves' and modern games.
 
-**Tags**: `#cybersecurity`, `#ad-tech`, `#web-security`, `#cryptocurrency`, `#malware`
+**Tags**: `#design science`, `#systems thinking`, `#historical tech`, `#philosophy`, `#Hacker News`
 
 ---
 
 <a id="item-16"></a>
-## [Beijing Univ. & Zhipu AI Develop One-Instruction Audio-Visual Editor](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909661&idx=3&sn=93d5f6e39859c6c9c378533ba3009898) ⭐️ 7.0/10
+## [MiniMax-H3 Multimodal AI Model Ported to Apple Silicon via MLX](https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything) ⭐️ 6.0/10
 
-A collaborative team from Beijing University and Zhipu AI has developed an end-to-end system that enables joint editing of both audio and video content using a single text instruction. This advance simplifies and unifies the traditionally separate workflows for video and audio editing, potentially revolutionizing content creation by making complex, multimodal edits more accessible and efficient. The system is designed as an end-to-end model that allows audio and video to jointly respond to a single instruction within the same generation process, a key feature highlighted for its integration.
+A community developer has created an MLX-based Python package that ports the newly released MiniMax-H3 multimodal AI model to run locally on Apple Silicon hardware. The package enables the generation of up to 15-second video clips with audio from text, image, audio, and video inputs. This port makes a state-of-the-art, omnimodal generative system accessible for local experimentation on consumer-grade Apple devices like MacBook Pros, bypassing the need for large cloud-based GPU clusters. It empowers AI practitioners and enthusiasts to explore advanced video generation capabilities directly on their own hardware. The video generation process requires downloading approximately 115 GB of model files and took about 45 minutes on an M5 Max MacBook Pro. The author noted that the generated audio quality was poor without proper prompt guidance, emphasizing the importance of using MiniMax's official prompting guide.
 
-rss · 量子位 · Aug 4, 09:00
+rss · Simon Willison · Aug 4, 19:10
 
-**Background**: End-to-end multimodal editing aims to unify the processing of different data types, like video, audio, and text, within a single model. This contrasts with traditional pipelines that handle each modality separately, often requiring manual alignment. Research in this area, such as the related AutoCut framework, seeks to create more efficient and controllable tools for complex content creation tasks.
+**Background**: MiniMax-H3 is a general-purpose, omnimodal generative system that can understand and generate content across text, images, audio, and video, producing up to 15-second video clips with native stereo audio at up to 2K resolution. MLX is an open-source array framework developed by Apple, optimized for the unified memory architecture of Apple Silicon, enabling efficient machine learning research on Macs.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2603.28366">[2603.28366] AutoCut: End-to-end advertisement video editing ... AutoCut: End-to-end advertisement video editing based on ... AutoCut: End-to-end advertisement video editing based on ... CVPR Poster AutoCut: End-to-end advertisement video editing ... AutoCut - End-to-End Advertisement Video Editing AutoCut: End-to-end Advertisement Video Editing Based on ... Text-to-Edit: Controllable End-to-End Video Ad Creation via ... Images</a></li>
-<li><a href="https://asia.siggraph.org/">SIGGRAPH Asia 2026 | Home</a></li>
+<li><a href="https://www.minimax.io/blog/minimax-h3">MiniMax H3: An Open Model Breaking the Boundaries Between ...</a></li>
+<li><a href="https://github.com/ml-explore/mlx">GitHub - ml-explore/mlx: MLX: An array framework for Apple ... MLX Exploring LLMs with MLX and the Neural Accelerators in the M5 ... Get started with MLX for Apple silicon GitHub - frankgmail/apple-mlx: MLX: An array framework for ... MLX-LLM-Tutorial: Build LLMs on Apple Silicon | Bright Coding</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI research`, `#multimodal generation`, `#video editing`, `#SIGGRAPH`, `#end-to-end AI`
+**Tags**: `#AI`, `#multimodal`, `#Apple Silicon`, `#MLX`, `#generative video`
 
 ---
 
 <a id="item-17"></a>
-## [Liquid AI Releases LFM2.5-2.6B Agentic Language Model](https://www.reddit.com/r/LocalLLaMA/comments/1vfh1sn/lfm2526b_is_out/) ⭐️ 7.0/10
+## [Niklas Gruhn coins 'meat proxy' for blind AI relayers](https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything) ⭐️ 6.0/10
 
-Liquid AI has released LFM2.5-2.6B, a small language model with 2.6 billion parameters that is designed with a focus on agentic capabilities for handling high-volume, simple tasks. This release is significant because it targets a growing niche for efficient, small language models that can be deployed on-device or at scale for specialized, repetitive tasks in agentic AI systems, offering a cost-effective alternative to larger models. The LFM2.5-2.6B is part of Liquid AI's refreshed LFM 2.5 model family, which is built on a device-optimized architecture and is positioned as being especially capable for building reliable agents on the edge.
-
-reddit · r/LocalLLaMA · /u/Alarming_Positive_59 · Aug 4, 17:30
-
-**Background**: Small Language Models (SLMs) are emerging as a key component for agentic AI systems, where models perform a limited number of specialized tasks repetitively with high efficiency. Companies like Liquid AI are developing compact, optimized models designed for on-device or high-throughput deployment, contrasting with the general-purpose but resource-heavy large language models (LLMs).
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai">Introducing LFM 2 . 5 : The Next Generation of On-Device... — Liquid AI</a></li>
-<li><a href="https://arxiv.org/abs/2506.02153">Small Language Models are the Future of Agentic AI Small Language Models are the Future of Agentic AI Small Language Models are the Future of Agentic AI - arXiv.org Small Language Models are the Future of Agentic AI How Small Language Models Are Key to Scalable Agentic AI Small Language Models: Agentic AI’s Future Small Language Models are the Future of Agentic AI - ADS</a></li>
-<li><a href="https://www.banandre.com/blog/lfm-25-1b-parameter-model-shockingly-capable">LFM 2 . 5 : The 1.2B Parameter Model That Makes Bigger... - Banandre</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The submission on the r/LocalLLaMA subreddit expresses excitement for the new model, noting a prior preference for Liquid AI's smaller models for tasks like mass document summarization and stating that tiny models are underappreciated in that community.
-
-**Tags**: `#LLM`, `#SmallLanguageModel`, `#AgenticAI`, `#OpenSource`, `#EfficientInference`
-
----
-
-<a id="item-18"></a>
-## [Alibaba Qwen 3.8 Model to Get More Sizes](https://www.reddit.com/r/LocalLLaMA/comments/1vevsv9/more_qwen_38_sizes_coming/) ⭐️ 7.0/10
-
-The Qwen model family from Alibaba Cloud is expected to release additional parameter sizes for its 3.8 series, expanding the range of available models. This development is anticipated to provide more granular choices for the local AI community. 扩展Qwen 3.8产品线为本地部署爱好者和微调从业者提供了更多硬件兼容的选项，直接支持了在个人设备上运行强大LLM的日益增长的趋势。这可能会降低开源AI生态系统中实验和采用的门槛。 The Qwen models are developed by Alibaba Cloud and are often released under permissive licenses like Apache, which facilitates open-weight distribution. The new sizes will likely fill gaps between existing configurations, such as between 7B and 14B parameters, to better suit different computational budgets.
-
-reddit · r/LocalLLaMA · /u/appakaradi · Aug 4, 01:05
-
-**Background**: Qwen is a family of large language models developed by Alibaba Cloud, with many versions distributed as open-weight models suitable for local execution. The parameter size of an LLM, measured in billions, is a key factor determining its capability and the hardware required to run it. Local deployment refers to running these models on consumer-grade hardware for privacy and cost benefits, a popular activity in communities like r/LocalLLaMA.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Qwen">Qwen - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Large_language_model">Large language model - Wikipedia</a></li>
-<li><a href="https://www.sitepoint.com/local-llms-complete-guide/">The Complete Developer's Guide to Running LLMs Locally</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community discussion is not provided in the news item content. The original Reddit post likely contained comments, but they were not included in the given data for analysis.
-
-**Tags**: `#LLM`, `#Open-Source Models`, `#Local AI`, `#Model Releases`
-
----
-
-<a id="item-19"></a>
-## [Llama.cpp PR Moves Sampling to GPU, Boosts Speed](https://www.reddit.com/r/LocalLLaMA/comments/1vf8obs/llamacpp_pr_8_speed_boost/) ⭐️ 7.0/10
-
-A new pull request for llama.cpp moves the language model sampling process from the CPU to the GPU, delivering a 4-8% improvement in token generation speed. The PR has been tested on hardware ranging from an NVIDIA Tesla P40 to a flagship RTX 5090. This optimization provides a tangible performance boost for a widely-used open-source LLM inference engine without requiring new hardware, benefiting the extensive community of local AI deployment enthusiasts. It demonstrates the continued potential for software-level optimizations to improve efficiency in the rapidly evolving field of local LLM inference. The speed improvement is more pronounced on high-bandwidth GPUs like the RTX 5090 (8%) compared to older, memory-bandwidth-bound cards like the Tesla P40 (4%), because the CPU↔GPU data transfer becomes a smaller fraction of the total time on faster hardware. The benchmark results show consistent improvements across various tasks, while maintaining the same acceptance ratio for speculative decoding.
-
-reddit · r/LocalLLaMA · /u/otacon6531 · Aug 4, 12:16
-
-**Background**: llama.cpp is a popular open-source project that enables running large language models locally. Multi-Token Prediction (MTP) is a speculative decoding technique where the model predicts multiple future tokens at once to accelerate generation. Previously, the sampling step in llama.cpp's MTP pipeline ran on the CPU, which could create a bottleneck, especially on systems with fast GPUs.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/ggml-org/llama.cpp/discussions/12684">Why llama.cpp sampling on cpu? · ggml-org llama.cpp ... - GitHub</a></li>
-<li><a href="https://johnpaulwile.substack.com/p/multi-token-prediction-mtp-in-llamacpp">Multi-Token Prediction MTP in llama.cpp How It Works and How ...</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#llm-inference`, `#optimization`, `#llama.cpp`, `#gpu-acceleration`, `#benchmarking`
-
----
-
-<a id="item-20"></a>
-## [Interactive Viz Explores Lawn Mowing Strategy Trade-offs](https://pudding.cool/2026/06/mow/) ⭐️ 6.0/10
-
-The Pudding 发布了一个交互式模拟，比较不同的数学割草策略，并可视化了纯路径优化与现实约束（如美观和转弯成本）之间的权衡。 它生动地展示了在日常工程问题中，理想化的数学解决方案如何常常与人类偏好和物理限制发生冲突，引发深入思考。 该模拟将割草视为一个游戏般的优化问题，但用户反馈指出，实际效率取决于转弯惯性、避免遗漏的重叠以及创造美观的草坪图案等因素。
-
-hackernews · carlos-menezes · Aug 4, 18:06 · [Discussion](https://news.ycombinator.com/item?id=49172550)
-
-**Background**: 割草路径优化是一个经典的路径规划问题，目标是用最少的重叠或行程覆盖整个区域。这类问题在机器人学、运筹学和算法设计中常被研究，通常涉及计算几何和图论的概念。
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.gardeningknowhow.com/lawn-care/lgen/lawn-mowing-tips.htm">How To Mow A Lawn Correctly For The Best... | Gardening Know How</a></li>
-<li><a href="https://erbertlawns.com/blog/lawn-mowing-techniques/">Lawn Mowing Techniques | Erbert Lawns</a></li>
-<li><a href="https://cutabovelandscapinginc.com/lawn-mowing-best-practices-for-a-healthier-yard/">Lawn Mowing Best Practices for... - Cut Above Landscaping, Inc</a></li>
-
-</ul>
-</details>
-
-**Discussion**: 评论者认为该模型因忽略了转弯的显著时间成本、重叠操作的必要性以及人们对长直线、美观图案的偏好而过度简化了现实。他们指出，现实世界的“优化”还包括草地健康轮作和个人舒适度等因素，而不仅仅是最小化移动次数。
-
-**Tags**: `#optimization`, `#visualization`, `#simulation`, `#game-theory`, `#practical-engineering`
-
----
-
-<a id="item-21"></a>
-## [Apple: More ex-employees may have taken confidential data to OpenAI](https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/) ⭐️ 6.0/10
-
-Apple has stated that more former employees may have taken confidential hardware data to OpenAI, extending the scope of its existing lawsuit alleging corporate espionage. 这一事态加剧了一家科技巨头与领先AI公司之间关于知识产权的高风险法律与竞争对抗，引发了人们对AI硬件竞赛中数据安全和人才争夺的担忧。 The allegations involve more than just employee knowledge, with claims that specific documents, screenshots, and possibly hardware components were misappropriated to aid OpenAI's consumer hardware ambitions.
-
-hackernews · thewebguyd · Aug 4, 15:37 · [Discussion](https://news.ycombinator.com/item?id=49170479)
-
-**Background**: Apple filed a lawsuit in July 2026 against OpenAI, alleging that former Apple employees stole confidential hardware trade secrets to accelerate OpenAI's consumer hardware projects, which were bolstered by its $6.4 billion acquisition of Jony Ive's IO Products startup. This case highlights the intense competition and vulnerability of intellectual property in the rapidly evolving AI industry.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://petapixel.com/2026/07/10/apple-sues-openai-alleging-former-employees-stole-confidential-hardware-trade-secrets/">Apple Sues OpenAI, Alleging Former Employees Stole Confidential ...</a></li>
-<li><a href="https://www.briefs.co/news/apple-accuses-openai-of-stealing-confidential-hardware-desig/">Apple Sues OpenAI Over Alleged Trade Secret Theft</a></li>
-<li><a href="https://gadgets.beebom.com/news/apple-files-lawsuit-against-openai-over-alleged-theft-of-confidential-hardware-information">Apple Files Lawsuit Against OpenAI over Alleged Theft of Confidential ...</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community comments reflect a mix of skepticism towards Apple's legal tactics as a potential scare tactic, criticism of OpenAI's hardware ambitions as a vanity project, and debate over the severity of the allegations beyond mere knowledge transfer.
-
-**Tags**: `#corporate espionage`, `#AI industry`, `#intellectual property`, `#OpenAI`, `#Apple`
-
----
-
-<a id="item-22"></a>
-## [MiniMax-H3 Omni-Modal Model Ported to Apple Silicon via MLX](https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything) ⭐️ 6.0/10
-
-A Python package (minimax-h3-mlx) has been created to port the newly released MiniMax-H3 omni-modal generative AI model to the MLX framework, enabling it to run on Apple Silicon devices. The author successfully demonstrated running it on an M5 Max MacBook Pro to generate a 15-second video from a text prompt. This port allows developers and researchers to run a powerful, commercially-released omni-modal model locally on their Apple hardware, bypassing cloud APIs and enabling on-device inference for multimodal tasks like video generation. It contributes to the growing ecosystem of high-performance ML tools optimized for Apple Silicon. The model requires downloading approximately 115 GB of model files, and generating a single video clip took just under 45 minutes on the author's hardware. The initial video output had impressive visuals but generated nonsensical audio because the author did not consult the official prompt writing guide which contains instructions for controlling the audio component.
-
-rss · Simon Willison · Aug 4, 19:10
-
-**Background**: MiniMax-H3 is a general-purpose, omni-modal generative system from MiniMaxAI that can understand and generate content across text, images, video, and audio. MLX is an open-source array framework from Apple, optimized for the unified memory architecture of Apple Silicon, providing a NumPy-like API for efficient on-device machine learning. The porting project makes this powerful multimodal model accessible to the local ML community on Apple hardware.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.minimax.io/blog/minimax-h3">MiniMax H 3 : An Open Model Breaking the Boundaries Between Tasks...</a></li>
-<li><a href="https://huggingface.co/MiniMaxAI/MiniMax-H3">MiniMaxAI/ MiniMax - H 3 · Hugging Face</a></li>
-<li><a href="https://github.com/ml-explore/mlx">GitHub - ml-explore/mlx: MLX: An array framework for Apple ... MLX Exploring LLMs with MLX and the Neural Accelerators in the M5 ... Get started with MLX for Apple silicon GitHub - frankgmail/apple-mlx: MLX: An array framework for ... MLX: Apple Silicon ML Framework - emergentmind.com</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#AI`, `#MLX`, `#Apple Silicon`, `#Local LLMs`, `#Multimodal AI`
-
----
-
-<a id="item-23"></a>
-## [New Term 'Meat Proxy' Criticizes Blind AI Output Relay](https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything) ⭐️ 6.0/10
-
-Niklas Gruhn coined the term 'meat proxy' to describe people who blindly copy and paste AI-generated output without reading or understanding it. The concept warns against acting as a mere delivery layer between an AI system and another human. The term provides a memorable name for a growing ethical issue in human-AI collaboration, highlighting the risks of misinformation and devalued human expertise when AI output is forwarded blindly. It encourages a more responsible and critical approach to integrating generative AI into professional and personal communication. The original blog post argues that while prompting AI is fine, humans must read, understand, and validate the output before relaying it, and should write responses in their own words to demonstrate this effort. The term has gained traction in online discussions, such as on Lobste.rs, as it crystallizes a specific, problematic behavior observed in tools like Slack, pull requests, and support systems.
+Niklas Gruhn defined the term 'meat proxy' to describe people who blindly copy and paste AI-generated output to others without understanding or validating it. He urges individuals to read, understand, and personalize AI responses instead of merely acting as intermediaries. This term provides a memorable label for a common and problematic misuse of generative AI, highlighting the risk of devaluing human work and spreading potential inaccuracies. It encourages a more responsible and valuable integration of AI into professional and personal communication. The critique specifically targets the behavior of using AI to generate a response and then forwarding it verbatim, without adding any personal insight or validation. It frames the act of synthesizing and personalizing the output as the essential value a human can add in an AI-augmented workflow.
 
 rss · Simon Willison · Aug 3, 23:45
 
-**Background**: Generative AI systems like large language models (LLMs) can produce text, code, and other outputs that are often verbose and may contain plausible-sounding but incorrect information (hallucinations). In professional settings like software engineering, there is an increasing reliance on AI tools for drafting communications, code reviews, and documentation, which raises ethical questions about the role and responsibility of the human intermediary.
+**Background**: Generative AI models like large language models (LLMs) can produce human-like text for various tasks, leading to widespread use in communication. A growing concern is 'overreliance' on these systems, where users accept outputs without critical evaluation, potentially leading to errors, misinformation, and a loss of personal or professional accountability.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://gruhn.me/blog/2026-08-03/">Don't be a meat proxy - gruhn.me</a></li>
-<li><a href="https://elsolitario.org/en/2026/08/03/meat-proxy-ai-code-review-without-reading/">Meat Proxy: The Risk of Forwarding AI Answers Unread</a></li>
+<li><a href="https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/">Don't be a meat proxy | Simon Willison’s Weblog</a></li>
+<li><a href="https://techplanet.today/post/the-meat-proxy-problem-why-blindly-forwarding-ai-output-undermines-professional-value">The Meat Proxy Problem: Why Blindly Forwarding AI ... | TechPlanet</a></li>
 <li><a href="https://www.remio.ai/post/simon-willison-says-dont-be-a-meat-proxy-for-ai">Simon Willison Says Don't Be a Meat Proxy for AI</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The concept has sparked discussion on platforms like Lobste.rs, where readers have shared examples of overly technical or nonsensical AI-generated text they've encountered, validating the need for the term. The overall sentiment aligns with the original argument, expressing frustration with receiving unread AI output and emphasizing the added value of human critical thinking.
+**Discussion**: The concept has sparked discussion on platforms like Lobste.rs, with people recognizing the pattern it describes. Some commentary focuses on whether the term is overly harsh but acknowledge the importance of the underlying warning against becoming a passive conduit for AI output.
 
-**Tags**: `#ai-ethics`, `#generative-ai`, `#human-ai-collaboration`, `#llms`, `#ai-misuse`
+**Tags**: `#ai-ethics`, `#generative-ai`, `#ai-misuse`, `#human-ai-interaction`, `#definitions`
 
 ---
 
-<a id="item-24"></a>
-## [Hugging Face CEO: China Leads AI Race on Open Models](https://www.reddit.com/r/LocalLLaMA/comments/1vfj3q7/hugging_face_ceo_says_china_is_winning_the_ai/) ⭐️ 6.0/10
+<a id="item-18"></a>
+## [Reactive Play in Atari Breakout via Simple Reward Shaping](https://www.reddit.com/r/MachineLearning/comments/1vfa9im/reactive_play_achieved_experimenting_with_atari/) ⭐️ 6.0/10
 
-Hugging Face's CEO has publicly stated that China is winning the AI race, particularly in open-source models, due to its integrated supply chain and abundant energy resources. This marks a significant public assertion from a leader in the global open-source AI ecosystem. This observation from a prominent industry figure highlights a potential geopolitical shift in AI development leadership, suggesting that open-source AI advancement may increasingly be driven by China's structural advantages. It could influence global collaboration patterns, investment priorities, and competitive strategies in the AI sector. The CEO's argument connects China's dominance in open-source models to its development of an independent supply chain, from raw materials and domestic lithography equipment to GPU manufacturing and cheap energy, including potential nuclear fusion. Recent benchmarks show the top three open-source AI models (DeepSeek, Qwen, MiniMax) are indeed from China.
+After 124 PPO experiments on Atari Breakout, the author discovered that adding a small, frame-based reward for paddle proximity to the descending ball enabled the agent to learn reactive play, rather than converging on memorized action sequences. 这一发现为强化学习实践者提供了一个实用的教训：针对性的奖励塑造可以从根本上改变智能体的优化目标，有可能克服受控环境中持续存在的脚本化行为等问题。 The crucial modification was just three lines of code that added a tiny bonus (0.05 per frame) only when the ball was descending, and this behavior transferred to evaluation without the bonus. The author also created a 'Split-Watcher' tool to visually demonstrate the difference between memorized and reactive policies.
 
-reddit · r/LocalLLaMA · /u/Miriel_z · Aug 4, 18:42
+reddit · r/MachineLearning · /u/mikeysce · Aug 4, 13:23
 
-**Background**: The AI industry relies heavily on open-source models, where companies release model weights to foster community innovation. China's tech sector has recently surged in this area, with models like Alibaba's Qwen and DeepSeek achieving top performance on global benchmarks. Concurrently, China is pursuing self-sufficiency in semiconductor manufacturing and exploring advanced energy sources like nuclear fusion to meet AI's massive power demands.
+**Background**: Proximal Policy Optimization (PPO) is a popular reinforcement learning algorithm known for its stable training. In Atari game experiments, a common challenge is for agents to learn rigid, memorized action sequences (scripts) that exploit specific level layouts rather than developing flexible, reactive strategies. Reward shaping is a technique where developers add intermediate reward signals to guide the agent's learning process towards desired behaviors.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://interconnect.substack.com/p/chinas-structural-advantage-in-open">China 's Structural Advantage in Open Source AI</a></li>
-<li><a href="https://www.intelligentliving.co/dfsx-df1000-ai-chip-14nm-accelerator/">China ' s DFSX DF1000: 14nm AI Chip Beats NVIDIA H200 on Bandwidth</a></li>
-<li><a href="http://english.scio.gov.cn/in-depth/2025-04/08/content_117810967.html">China edges closer to commercial nuclear fusion | english ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Proximal_policy_optimization">Proximal policy optimization - Wikipedia</a></li>
+<li><a href="https://gibberblot.github.io/rl-notes/single-agent/reward-shaping.html">Reward shaping — Mastering Reinforcement Learning</a></li>
+<li><a href="https://www.reinforcement-learning.com/kb/reward-shaping">Reward Shaping in Reinforcement Learning</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#China`, `#Open Source`, `#Geopolitics`, `#Industry Analysis`
-
----
-
-<a id="item-25"></a>
-## [Ling-3.0-flash MoE Model Weights Released on Hugging Face](https://www.reddit.com/r/LocalLLaMA/comments/1vfdeek/inclusionailing30flash_weights_are_up_on_hugging/) ⭐️ 6.0/10
-
-The open-weight Ling-3.0-flash language model, a 127.5B parameter MoE model with 5.1B active parameters, has been released on Hugging Face. The weights are available in both BF16 and official FP8 quantized formats, with the FP8 version weighing approximately 128GB. The release provides the local LLM community with a new, fine-grained MoE model option that is accessible for deployment on hardware with large unified memory or multi-GPU setups. The official FP8 quantization simplifies access to a memory-efficient version, avoiding the need for community quantization. The model uses a custom BailingMoeV3 architecture with 512 total experts and 8 active experts per token, which is a much finer granularity than many similar models. Compatibility with common inference frameworks like llama.cpp is uncertain, as the model may currently only be supported by vllm and sglang.
-
-reddit · r/LocalLLaMA · /u/derspenti · Aug 4, 15:21
-
-**Background**: Mixture-of-Experts (MoE) is an architecture that increases model size without proportionally increasing computation by activating only a subset of parameters (experts) for each input token. BF16 and FP8 are quantization formats that reduce model memory footprint; FP8 is a newer format that can run at high speed on supported hardware like NVIDIA Hopper GPUs, offering near-BF16 accuracy with significantly reduced memory usage.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://aimultiple.com/llm-quantization">LLM Quantization: BF16 vs FP8 vs INT4 - aimultiple.com "Give Me BF16 or Give Me Death"? Accuracy-Performance Trade ... LLMs and quantization: FP8, FP4, and INT8 explained Quantized LLMs Explained: Q4 vs Q8 vs FP16 - ML Journey A Deep Dive into LLM Quantization: FP32, BF16, INT8, NF4 ... “Give Me BF16 or Give Me Death”? Accuracy-Performance Trade ... AI Model Quantization Guide: FP16, INT8, INT4 & FP8 Explaine</a></li>
-<li><a href="https://arxiv.org/html/2507.11181v2">Mixture of Experts in Large Language Models - arXiv.org</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The discussion notes the model's release came before the hype around other new models like Kimi K3 and DeepSeek-V4-Flash, but suggests it may still find a niche due to its specific parameter sizing. A key practical concern raised is the model's compatibility with common local inference tools like llama.cpp.
-
-**Tags**: `#LLM`, `#MoE`, `#Hugging Face`, `#FP8`, `#model_release`
-
----
-
-<a id="item-26"></a>
-## [LM Studio Users Concerned About Shift to Bionic Agent](https://www.reddit.com/r/LocalLLaMA/comments/1vf2hhp/is_lm_studio_abandoning_their_core_product/) ⭐️ 6.0/10
-
-Users are reporting that LM Studio has replaced nearly all download links for its original desktop application with links to its new 'Bionic' agent product on the company website. They also note the original app has received very few updates since Bionic's release, with recent updates focused mainly on compatibility with the new agent. This situation highlights a potential strategic pivot that could alienate the core user base of a popular local LLM tool, as users feel the original application that built the brand is being deprioritized and potentially abandoned. It raises concerns about the future of dedicated local LLM interfaces versus integrated agent platforms in the open-source AI ecosystem. The new Bionic product is described as an 'agentic harness' for both local and cloud models, while the original LM Studio app remains in a 'preview' state and is labeled as a separate app. The download page on the LM Studio website now prominently features Bionic, with the original app's download link relegated to a less visible location.
-
-reddit · r/LocalLLaMA · /u/JGByvygyrfg · Aug 4, 06:38
-
-**Background**: LM Studio is a popular desktop application that provides a graphical user interface (GUI) for users to download, run, and interact with large language models (LLMs) locally on their own computers. 'Agentic harness' refers to a software framework that manages tools, memory, and orchestration around an LLM to enable autonomous agent capabilities, turning a model into a more functional work tool.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://lmstudio.ai/download">Download LM Studio - Mac, Linux, Windows</a></li>
-<li><a href="https://lmstudio.ai/blog/introducing-lm-studio-bionic">Introducing LM Studio Bionic : the AI agent for open models</a></li>
-<li><a href="https://www.decodingai.com/p/agentic-harness-engineering">Agentic Harness Engineering: LLMs as the New OS</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The community discussion, as summarized in the news item, shows frustration and concern from long-time users who feel their needs are being ignored. The primary sentiment is worry about the original app's future and anger over the website navigation changes that hide its download link, with some feeling the company is prioritizing upselling cloud models through the new agent.
-
-**Tags**: `#LocalLLaMA`, `#LM Studio`, `#LLM Tools`, `#Product Strategy`, `#Open Source`
+**Tags**: `#reinforcement_learning`, `#PPO`, `#Atari_Breakout`, `#reward_shaping`, `#practical_ml`
 
 ---
