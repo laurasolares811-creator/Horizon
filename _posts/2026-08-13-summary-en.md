@@ -5,57 +5,81 @@ date: 2026-08-13
 lang: en
 ---
 
-> From 33 items, 4 important content pieces were selected
+> From 26 items, 6 important content pieces were selected
 
 ---
 
-1. [Spaghettifying DRAM](#item-1) ⭐️ 8.0/10
-2. [Nine PBS could lose 70 years of archives after cloud vendor goes defunct](#item-2) ⭐️ 8.0/10
+1. [Gemini 3.7 Flash](#item-1) ⭐️ 7.0/10
+2. [Spaghettifying DRAM](#item-2) ⭐️ 7.0/10
 3. [DeepSeek Harness developer preview](#item-3) ⭐️ 7.0/10
-4. [Deutsche Bank becomes first foreign yuan clearing bank in Europe](#item-4) ⭐️ 7.0/10
+4. [Kubernetes on Oxide: How customer needs shaped our integrations](#item-4) ⭐️ 7.0/10
+5. [Mistral OCR 4.1](#item-5) ⭐️ 6.0/10
+6. [Ordinary abundance](#item-6) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Spaghettifying DRAM](https://github.com/xoreaxeaxeax/skitter-creek-bath-salts) ⭐️ 8.0/10
+## [Gemini 3.7 Flash](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/) ⭐️ 7.0/10
 
-A new exploit named 'skitter-creek-bath-salts' allows ring-0 access on specific AMD processors (like the Jaguar architecture) by manipulating memory controller registers, with implications for console security and upcoming Black Hat presentation.
+Google introduces Gemini 3.7 Flash, a new lightweight language model with introductory pricing, prompting community testing and competitive comparisons.
 
-hackernews · matt_d · Aug 13, 14:17 · [Discussion](https://news.ycombinator.com/item?id=49286341)
+hackernews · thisisauserid · Aug 13, 17:23 · [Discussion](https://news.ycombinator.com/item?id=49289112)
 
-**Tags**: `#hardware-security`, `#AMD`, `#exploit`, `#reverse-engineering`, `#privilege-escalation`
+**Tags**: `#LLM`, `#AI models`, `#Google Gemini`, `#machine learning`, `#API pricing`
 
 ---
 
 <a id="item-2"></a>
-## [Nine PBS could lose 70 years of archives after cloud vendor goes defunct](https://www.tomshardware.com/software/cloud-storage/nine-pbs-loses-access-to-70-years-of-data-after-contracted-cloud-storage-vendor-goes-defunct-public-tv-channel-sues-iron-mountain-data-center-which-hosts-archival-materials-to-ensure-preservation) ⭐️ 8.0/10
+## [Spaghettifying DRAM](https://github.com/xoreaxeaxeax/skitter-creek-bath-salts) ⭐️ 7.0/10
 
-A public TV station risks losing 70 years of archives after its cloud storage vendor becomes defunct, sparking debate on backup strategies and vendor reliability.
+A security researcher demonstrates a technique to gain ring-0 access by exploiting DRAM internals, with community analysis discussing its implications for system security and hardware vulnerabilities.
 
-hackernews · vinayakborkar · Aug 13, 13:14 · [Discussion](https://news.ycombinator.com/item?id=49285418)
+hackernews · matt_d · Aug 13, 14:17 · [Discussion](https://news.ycombinator.com/item?id=49286341)
 
-**Tags**: `#data-preservation`, `#cloud-storage`, `#backup-strategies`, `#infrastructure-failure`, `#vendor-risk`
+**Tags**: `#hardware security`, `#DRAM`, `#reverse engineering`, `#x86 architecture`, `#system access`
 
 ---
 
 <a id="item-3"></a>
 ## [DeepSeek Harness developer preview](https://deepseek.com/harness/en/) ⭐️ 7.0/10
 
-DeepSeek Harness is a developer preview framework for building AI agents with hot-reload capabilities and fully transparent session logging for debugging and replay.
+DeepSeek Harness is an early developer preview of an open-source AI agent framework emphasizing transparency and modularity, built on the Cordis plugin system.
 
 hackernews · bjin · Aug 13, 12:58 · [Discussion](https://news.ycombinator.com/item?id=49285244)
 
-**Tags**: `#AI agents`, `#developer tools`, `#framework`, `#debugging`, `#open source`
+**Tags**: `#AI agents`, `#open-source`, `#developer tools`, `#plugin systems`, `#traceability`
 
 ---
 
 <a id="item-4"></a>
-## [Deutsche Bank becomes first foreign yuan clearing bank in Europe](https://tradersunion.com/news/central-banks/show/2973571-deutsche-bank-becomes/) ⭐️ 7.0/10
+## [Kubernetes on Oxide: How customer needs shaped our integrations](https://oxide.computer/blog/kubernetes-on-oxide) ⭐️ 7.0/10
 
-Deutsche Bank has become the first foreign yuan clearing bank in Europe, marking a step toward potential challenges to the US dollar's reserve currency status.
+This article details how Oxide Computer Company designed its Kubernetes integration, including a custom cloud controller manager, based on customer needs for their unique rack-scale cloud infrastructure.
 
-hackernews · Markoff · Aug 13, 12:09 · [Discussion](https://news.ycombinator.com/item?id=49284774)
+hackernews · stevehipwell · Aug 13, 14:26 · [Discussion](https://news.ycombinator.com/item?id=49286485)
 
-**Tags**: `#geopolitics`, `#finance`, `#currency`, `#banking`, `#international-trade`
+**Tags**: `#Kubernetes`, `#Cloud Infrastructure`, `#Systems Engineering`, `#Oxide Computer`, `#Open Source`
+
+---
+
+<a id="item-5"></a>
+## [Mistral OCR 4.1](https://docs.mistral.ai/models/ocr-4-1) ⭐️ 6.0/10
+
+Mistral AI releases OCR 4.1, an OCR-focused model, but faces criticism for its high pricing and perceived lack of superiority over existing tools.
+
+hackernews · spelk · Aug 13, 17:05 · [Discussion](https://news.ycombinator.com/item?id=49288889)
+
+**Tags**: `#OCR`, `#AI models`, `#document processing`, `#cost analysis`, `#Mistral AI`
+
+---
+
+<a id="item-6"></a>
+## [Ordinary abundance](https://ordinaryabundance.com/) ⭐️ 6.0/10
+
+An article exploring the concept of hedonic adaptation and appreciating everyday modern conveniences like clean water and instant communication.
+
+hackernews · yen223 · Aug 13, 13:39 · [Discussion](https://news.ycombinator.com/item?id=49285770)
+
+**Tags**: `#philosophy`, `#technology`, `#gratitude`, `#modern-life`, `#psychology`
 
 ---
