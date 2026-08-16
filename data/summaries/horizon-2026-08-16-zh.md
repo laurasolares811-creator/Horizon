@@ -1,69 +1,69 @@
 # Horizon 每日速递 - 2026-08-16
 
-> 从 27 条内容中筛选出 5 条重要资讯。
+> 从 21 条内容中筛选出 5 条重要资讯。
 
 ---
 
-1. [Claude: System Prompts](#item-1) ⭐️ 7.0/10
-2. [Software Engineering fundamentals matter more](#item-2) ⭐️ 7.0/10
-3. [Super El Niño Keeps Growing as New Forecasts Reach Record Territory Ahead Winter](#item-3) ⭐️ 7.0/10
-4. [The AI Credit Resale Economy](#item-4) ⭐️ 6.0/10
-5. [Cultivating a state of mind where new ideas are born (2023)](#item-5) ⭐️ 6.0/10
+1. [A 3rd World Embedded Engineer Responds to "RISC-V They Should Have Known Better"](#item-1) ⭐️ 7.0/10
+2. [Claude: System Prompts](#item-2) ⭐️ 7.0/10
+3. [The AI Credit Resale Economy](#item-3) ⭐️ 7.0/10
+4. [Tell HN: Cloudflare silently injects its analytics when you switch nameservers](#item-4) ⭐️ 7.0/10
+5. [The weekend is 100 years old](#item-5) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Claude: System Prompts](https://platform.claude.com/docs/en/release-notes/system-prompts) ⭐️ 7.0/10
+## [A 3rd World Embedded Engineer Responds to "RISC-V They Should Have Known Better"](https://rvembedded.com/blog_post/12/) ⭐️ 7.0/10
 
-Release notes and community analysis of Claude's system prompts, revealing detailed behavioral shaping mechanisms and prompting engineering considerations for the AI model.
+An embedded engineer from a developing country explains why RISC-V is crucial for embedded systems due to lower chip costs and customizability, countering arguments that it won't succeed beyond embedded.
 
-hackernews · tosh · 8月16日 12:48 · [社区讨论](https://news.ycombinator.com/item?id=49319556)
+hackernews · Narishma · 8月16日 17:01 · [社区讨论](https://news.ycombinator.com/item?id=49321717)
 
-**标签**: `#ai-system-prompts`, `#claude-ai`, `#prompt-engineering`, `#ai-transparency`, `#software-development`
+**标签**: `#RISC-V`, `#embedded systems`, `#hardware economics`, `#global development`, `#ISA fragmentation`
 
 ---
 
 <a id="item-2"></a>
-## [Software Engineering fundamentals matter more](https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/) ⭐️ 7.0/10
+## [Claude: System Prompts](https://platform.claude.com/docs/en/release-notes/system-prompts) ⭐️ 7.0/10
 
-The article and discussion argue that despite advances in AI code generation, core software engineering skills like debuggability, maintainability, and architectural reasoning remain critical and are not yet fully replicable by LLMs.
+The release notes for Claude's system prompts detail the behavioral guidelines and safety measures shaping the model's interactions, with community analysis highlighting changes and implications for AI alignment.
 
-hackernews · ingve · 8月15日 22:31 · [社区讨论](https://news.ycombinator.com/item?id=49314902)
+hackernews · tosh · 8月16日 12:48 · [社区讨论](https://news.ycombinator.com/item?id=49319556)
 
-**标签**: `#software-engineering`, `#AI-assisted-coding`, `#LLM-limitations`, `#code-maintainability`, `#programming-practices`
+**标签**: `#AI Safety`, `#LLM Behavior`, `#System Prompts`, `#Anthropic`, `#Model Alignment`
 
 ---
 
 <a id="item-3"></a>
-## [Super El Niño Keeps Growing as New Forecasts Reach Record Territory Ahead Winter](https://www.severe-weather.eu/long-range-2/super-el-nino-growth-accelerating-to-record-strength-fall-winter-2026-2027-forecast-impact-united-states-canada-europe-fa/) ⭐️ 7.0/10
+## [The AI Credit Resale Economy](https://vectoral.com/blog/who-are-the-token-brokers) ⭐️ 7.0/10
 
-New forecasts indicate an accelerating super El Niño is reaching record strength, with potential for severe global weather disruptions in the coming fall and winter seasons.
+An analysis of the underground economy where users resell unused AI service credits, examining the security risks, business model violations, and parallels to traditional fraud schemes.
 
-hackernews · dgellow · 8月15日 19:20 · [社区讨论](https://news.ycombinator.com/item?id=49313428)
+hackernews · mlenhard · 8月16日 14:44 · [社区讨论](https://news.ycombinator.com/item?id=49320611)
 
-**标签**: `#climate_science`, `#El Niño`, `#weather_forecasting`, `#global_impacts`, `#environmental_systems`
+**标签**: `#AI Economics`, `#Security Risks`, `#Platform Abuse`, `#Business Models`, `#Underground Markets`
 
 ---
 
 <a id="item-4"></a>
-## [The AI Credit Resale Economy](https://vectoral.com/blog/who-are-the-token-brokers) ⭐️ 6.0/10
+## [Tell HN: Cloudflare silently injects its analytics when you switch nameservers](https://news.ycombinator.com/item?id=49322107) ⭐️ 7.0/10
 
-An analysis of the underground economy for reselling unused AI API credits, highlighting security vulnerabilities and policy violations, with community debate on feasibility and trust risks.
+A user warns that Cloudflare automatically injects its analytics JavaScript when switching nameservers, raising significant concerns about opaque opt-out practices and privacy for website owners.
 
-hackernews · mlenhard · 8月16日 14:44 · [社区讨论](https://news.ycombinator.com/item?id=49320611)
+hackernews · stagas · 8月16日 17:49
 
-**标签**: `#AI economics`, `#API security`, `#grey markets`, `#platform governance`, `#cybersecurity`
+**标签**: `#Cloudflare`, `#web-analytics`, `#privacy`, `#security`, `#web-infrastructure`
 
 ---
 
 <a id="item-5"></a>
-## [Cultivating a state of mind where new ideas are born (2023)](https://www.henrikkarlsson.xyz/p/good-ideas) ⭐️ 6.0/10
+## [The weekend is 100 years old](https://www.theguardian.com/money/2026/aug/16/the-weekend-is-100-years-old-skiveday-fridays-and-hybrid-working-ruined-it) ⭐️ 6.0/10
 
-An exploration of the psychological and environmental conditions necessary for cultivating new ideas, balanced with community discussion on its applicability.
+A historical look at how the modern weekend concept emerged about 100 years ago and its ongoing evolution in the face of changing work patterns.
 
-hackernews · felixbraun · 8月15日 20:54 · [社区讨论](https://news.ycombinator.com/item?id=49314235)
+hackernews · lentil_soup · 8月16日 15:30 · [社区讨论](https://news.ycombinator.com/item?id=49320984)
 
-**标签**: `#creativity`, `#psychology`, `#innovation`, `#personal development`, `#meta-learning`
+**标签**: `#work-culture`, `#history`, `#society`, `#economics`, `#work-life-balance`
 
 ---
 
