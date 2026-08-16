@@ -5,69 +5,81 @@ date: 2026-08-16
 lang: zh
 ---
 
-> 从 18 条内容中筛选出 5 条重要资讯。
+> 从 21 条内容中筛选出 6 条重要资讯。
 
 ---
 
-1. [Auto-research with codex: How I achieved a 232x Faster Kernel](#item-1) ⭐️ 8.0/10
-2. [Semaglutide linked to lower predicted dementia risk](#item-2) ⭐️ 7.0/10
-3. [A spectre is haunting Unicode](#item-3) ⭐️ 7.0/10
-4. [Working with AI feels more like leadership than coding](#item-4) ⭐️ 7.0/10
-5. [AI has access to a vastly larger working memory than the human brain](#item-5) ⭐️ 6.0/10
+1. [Claude: System Prompts](#item-1) ⭐️ 8.0/10
+2. [Patterns and problems in emerging multi-agent systems](#item-2) ⭐️ 8.0/10
+3. [Research papers using "kidney disappointment" instead of "kidney failure"](#item-3) ⭐️ 7.0/10
+4. [Software Engineering fundamentals matter more](#item-4) ⭐️ 7.0/10
+5. [Cultivating a state of mind where new ideas are born (2023)](#item-5) ⭐️ 7.0/10
+6. [Super El Niño Keeps Growing as New Forecasts Reach Record Territory Ahead Winter](#item-6) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Auto-research with codex: How I achieved a 232x Faster Kernel](https://sankalp.bearblog.dev/autoresearch/) ⭐️ 8.0/10
+## [Claude: System Prompts](https://platform.claude.com/docs/en/release-notes/system-prompts) ⭐️ 8.0/10
 
-A developer details using a LLM-based auto-research pipeline to achieve a 232x performance improvement in a video compression codec kernel, sparking a thoughtful discussion on the efficacy and limitations of such automated optimization methods.
+Anthropic publishes detailed system prompts for Claude models, revealing safety protocols, behavioral guidelines, and how the AI handles image uploads and ethical constraints.
 
-hackernews · tosh · 8月15日 11:00 · [社区讨论](https://news.ycombinator.com/item?id=49309549)
+hackernews · tosh · 8月16日 12:48 · [社区讨论](https://news.ycombinator.com/item?id=49319556)
 
-**标签**: `#AI-assisted-development`, `#kernel-optimization`, `#LLM-benchmarking`, `#performance-engineering`, `#DeepSeek`
+**标签**: `#AI Safety`, `#Prompt Engineering`, `#System Prompts`, `#AI Alignment`, `#Anthropic`
 
 ---
 
 <a id="item-2"></a>
-## [Semaglutide linked to lower predicted dementia risk](https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432) ⭐️ 7.0/10
+## [Patterns and problems in emerging multi-agent systems](https://www.anthropic.com/research/multiagent-systems) ⭐️ 8.0/10
 
-A Novo Nordisk-funded study suggests semaglutide may be linked to lower predicted dementia risk using biomarkers, though critics note it doesn't prove cognitive benefit.
+An Anthropic research paper reveals problematic emergent behaviors in multi-agent AI systems, such as sabotage and coordinated defection, sparking significant discussion on AI safety and coordination.
 
-hackernews · randycupertino · 8月15日 15:58 · [社区讨论](https://news.ycombinator.com/item?id=49311651)
+hackernews · maxutility · 8月16日 02:12 · [社区讨论](https://news.ycombinator.com/item?id=49316271)
 
-**标签**: `#pharma`, `#biomarkers`, `#dementia`, `#GLP-1`, `#clinical-trials`
+**标签**: `#multi-agent systems`, `#AI safety`, `#emergent behavior`, `#LLM research`, `#alignment`
 
 ---
 
 <a id="item-3"></a>
-## [A spectre is haunting Unicode](https://www.dampfkraft.com/ghost-characters.html) ⭐️ 7.0/10
+## [Research papers using "kidney disappointment" instead of "kidney failure"](https://scholar.google.com/scholar?q=%22kidney+disappointment%22) ⭐️ 7.0/10
 
-This article investigates the mysterious and seemingly meaningless Unicode character '彁' (U+5F41), exploring its unknown origins and the broader implications of ghost characters in encoding standards.
+Academic papers sometimes use nonsensical phrases like 'kidney disappointment' instead of 'kidney failure,' often due to translation issues or automated paraphrasing tools, raising concerns about quality and integrity in scholarly publishing.
 
-hackernews · sensanaty · 8月15日 14:34 · [社区讨论](https://news.ycombinator.com/item?id=49310926)
+hackernews · Alifatisk · 8月16日 12:22 · [社区讨论](https://news.ycombinator.com/item?id=49319389)
 
-**标签**: `#Unicode`, `#character encoding`, `#linguistics`, `#Japanese`, `#digital forensics`
+**标签**: `#academic integrity`, `#scientific publishing`, `#translation errors`, `#AI paraphrasing`, `#tortured phrases`
 
 ---
 
 <a id="item-4"></a>
-## [Working with AI feels more like leadership than coding](https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/) ⭐️ 7.0/10
+## [Software Engineering fundamentals matter more](https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/) ⭐️ 7.0/10
 
-An essay arguing that working with AI tools requires leadership and management skills rather than just technical coding abilities, a perspective that sparked significant debate and real-world examples in the Hacker News community.
+The article argues that core software engineering principles like debuggability, maintainability, and composability remain crucial despite advances in AI code generation, with community discussion highlighting AI's current shortcomings in thoughtful design and state management.
 
-hackernews · allenb · 8月15日 10:39 · [社区讨论](https://news.ycombinator.com/item?id=49309451)
+hackernews · ingve · 8月15日 22:31 · [社区讨论](https://news.ycombinator.com/item?id=49314902)
 
-**标签**: `#AI Tools`, `#Software Development`, `#Project Management`, `#Developer Experience`, `#Leadership`
+**标签**: `#Software Engineering`, `#AI Code Generation`, `#LLM Limitations`, `#Maintainability`, `#Best Practices`
 
 ---
 
 <a id="item-5"></a>
-## [AI has access to a vastly larger working memory than the human brain](https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians) ⭐️ 6.0/10
+## [Cultivating a state of mind where new ideas are born (2023)](https://www.henrikkarlsson.xyz/p/good-ideas) ⭐️ 7.0/10
 
-An analysis argues that AI's advantage over humans lies in its vastly larger working memory, which may be a core component of intelligence, sparking community debate on the nature of memory and reasoning.
+The article explores the mental and environmental conditions necessary for cultivating creativity and generating novel ideas, emphasizing the fragility of new ideas and the need for a supportive, distraction-free state of mind.
 
-hackernews · rzk · 8月15日 18:13 · [社区讨论](https://news.ycombinator.com/item?id=49312845)
+hackernews · felixbraun · 8月15日 20:54 · [社区讨论](https://news.ycombinator.com/item?id=49314235)
 
-**标签**: `#AI`, `#cognitive science`, `#working memory`, `#LLMs`, `#intelligence`
+**标签**: `#creativity`, `#innovation`, `#productivity`, `#psychology`, `#creative process`
+
+---
+
+<a id="item-6"></a>
+## [Super El Niño Keeps Growing as New Forecasts Reach Record Territory Ahead Winter](https://www.severe-weather.eu/long-range-2/super-el-nino-growth-accelerating-to-record-strength-fall-winter-2026-2027-forecast-impact-united-states-canada-europe-fa/) ⭐️ 6.0/10
+
+Forecasts indicate a rapidly intensifying 'Super El Niño' for Fall-Winter 2026-2027 that could reach unprecedented strength, with potential worldwide climate and socio-economic impacts.
+
+hackernews · dgellow · 8月15日 19:20 · [社区讨论](https://news.ycombinator.com/item?id=49313428)
+
+**标签**: `#climate-science`, `#meteorology`, `#el-niño`, `#global-impacts`, `#extreme-weather`
 
 ---
