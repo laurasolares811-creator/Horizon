@@ -1,57 +1,69 @@
 # Horizon 每日速递 - 2026-08-18
 
-> 从 32 条内容中筛选出 4 条重要资讯。
+> 从 24 条内容中筛选出 5 条重要资讯。
 
 ---
 
-1. [Fixing a bricked Framework laptop](#item-1) ⭐️ 8.0/10
-2. [Linux 7.3 improves performance when running out of vRAM](#item-2) ⭐️ 8.0/10
-3. [Using the railway network as a flatbed scanner](#item-3) ⭐️ 7.0/10
-4. [The Amazon tax](#item-4) ⭐️ 7.0/10
+1. [Turbovec – Google's TurboQuant for vector search in Rust](#item-1) ⭐️ 8.0/10
+2. [Fixing a bricked Framework laptop](#item-2) ⭐️ 7.0/10
+3. [Norway Should Buy OpenAI](#item-3) ⭐️ 6.0/10
+4. [The Amazon tax](#item-4) ⭐️ 6.0/10
+5. [Using the railway network as a flatbed scanner](#item-5) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Fixing a bricked Framework laptop](https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/) ⭐️ 8.0/10
+## [Turbovec – Google's TurboQuant for vector search in Rust](https://github.com/RyanCodrai/turbovec) ⭐️ 8.0/10
 
-An engineer details a complex, successful recovery process for a bricked Framework laptop BIOS using pogo pins and external tools, sparking community debate on hardware repairability and manufacturer responsibility.
+Turbovec is an open-source Rust library implementing TurboQuant for efficient, compressed vector search, enabling significant memory savings for large-scale indexing.
 
-hackernews · jp_sc · 8月18日 13:18 · [社区讨论](https://news.ycombinator.com/item?id=49345220)
+hackernews · fittingopposite · 8月18日 18:07 · [社区讨论](https://news.ycombinator.com/item?id=49349898)
 
-**标签**: `#hardware-repair`, `#embedded-systems`, `#laptop-repair`, `#Framework`, `#BIOS`
+**标签**: `#vector-search`, `#Rust`, `#compression`, `#information-retrieval`, `#performance`
 
 ---
 
 <a id="item-2"></a>
-## [Linux 7.3 improves performance when running out of vRAM](https://pixelcluster.dev/VRAM-Overcommit/) ⭐️ 8.0/10
+## [Fixing a bricked Framework laptop](https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/) ⭐️ 7.0/10
 
-Linux kernel 7.3 introduces performance improvements for handling memory pressure when video RAM is exhausted.
+A detailed guide and discussion on recovering a bricked Framework laptop after a faulty BIOS update, highlighting community insights on manufacturer liability and hardware repair challenges.
 
-hackernews · flaburgan · 8月18日 07:51 · [社区讨论](https://news.ycombinator.com/item?id=49342719)
+hackernews · jp_sc · 8月18日 13:18 · [社区讨论](https://news.ycombinator.com/item?id=49345220)
 
-**标签**: `#Linux Kernel`, `#Memory Management`, `#Performance Optimization`, `#OS Development`, `#GPU Computing`
+**标签**: `#hardware-repair`, `#bios-update`, `#laptop-recovery`, `#manufacturer-liability`, `#right-to-repair`
 
 ---
 
 <a id="item-3"></a>
-## [Using the railway network as a flatbed scanner](https://philo.gay/linecam/) ⭐️ 7.0/10
+## [Norway Should Buy OpenAI](https://www.onethousandmeans.com/p/norway-should-buy-openai) ⭐️ 6.0/10
 
-A creative project using a train's motion and an external camera to generate images via line-scan principles, akin to a flatbed scanner, with engaging community discussion on analogous experiments and technical variations.
+A provocative op-ed argues that Norway should acquire OpenAI for $800 billion to control its development, sparking extensive discussion on AI governance, tech valuations, and the role of state intervention.
 
-hackernews · otherayden · 8月18日 12:43 · [社区讨论](https://news.ycombinator.com/item?id=49344825)
+hackernews · alexeigannon · 8月18日 19:30 · [社区讨论](https://news.ycombinator.com/item?id=49351330)
 
-**标签**: `#Computer Vision`, `#Creative Projects`, `#Imaging Techniques`, `#Rail Transportation`, `#Hardware Hacking`
+**标签**: `#AI governance`, `#tech acquisition`, `#national strategy`, `#AI ethics`, `#OpenAI`
 
 ---
 
 <a id="item-4"></a>
-## [The Amazon tax](https://seths.blog/2026/08/the-amazon-tax/) ⭐️ 7.0/10
+## [The Amazon tax](https://seths.blog/2026/08/the-amazon-tax/) ⭐️ 6.0/10
 
-Analysis of Amazon's evolution into an advertising platform that prioritizes sponsored products over user-intent search, prompting debates about platform integrity and consumer alternatives.
+The article critiques how Amazon's search functionality has shifted from helping users find items to prioritizing paid placements and revenue, a trend supported by engaged Hacker News discussion.
 
 hackernews · herbertl · 8月18日 13:22 · [社区讨论](https://news.ycombinator.com/item?id=49345263)
 
-**标签**: `#platform-economics`, `#consumer-behavior`, `#search-engines`, `#digital-markets`, `#amazon`
+**标签**: `#e-commerce`, `#platform economics`, `#corporate ethics`, `#user experience`, `#tech critique`
+
+---
+
+<a id="item-5"></a>
+## [Using the railway network as a flatbed scanner](https://philo.gay/linecam/) ⭐️ 6.0/10
+
+A creative project that uses passing trains to capture slit-scan images, turning the railway network into a large-scale flatbed scanner.
+
+hackernews · otherayden · 8月18日 12:43 · [社区讨论](https://news.ycombinator.com/item?id=49344825)
+
+**标签**: `#computer-vision`, `#creative-coding`, `#slit-scan`, `#photography`, `#hardware-hacking`
 
 ---
 
