@@ -1,45 +1,69 @@
 # Horizon Daily - 2026-08-18
 
-> From 18 items, 3 important content pieces were selected
+> From 24 items, 5 important content pieces were selected
 
 ---
 
-1. [GPU Offload in Rust: Portable, Safe, and Fast](#item-1) ⭐️ 7.0/10
-2. [A Preview of DuckDB v2.0](#item-2) ⭐️ 7.0/10
-3. [Incident with Github.com](#item-3) ⭐️ 7.0/10
+1. [Using the railway network as a flatbed scanner](#item-1) ⭐️ 7.0/10
+2. [Fixing a Bricked Framework Laptop](#item-2) ⭐️ 7.0/10
+3. [The Amazon Tax](#item-3) ⭐️ 7.0/10
+4. [Linux 7.3 improves performance when running out of vRAM](#item-4) ⭐️ 6.0/10
+5. [Fairphone is now officially available in the United States](#item-5) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [GPU Offload in Rust: Portable, Safe, and Fast](https://arxiv.org/abs/2608.13759) ⭐️ 7.0/10
+## [Using the railway network as a flatbed scanner](https://philo.gay/linecam/) ⭐️ 7.0/10
 
-A paper presents a portable, safe, and performant Rust-to-GPU compiler pipeline that leverages LLVM and aims to reduce foreign function interface friction for GPU computing.
+A creative project transforms a railway network into a large-scale flatbed scanner by capturing images line-by-line as trains pass, producing unique panoramic effects.
 
-hackernews · linggen · Aug 17, 17:54 · [Discussion](https://news.ycombinator.com/item?id=49334991)
+hackernews · otherayden · Aug 18, 12:43 · [Discussion](https://news.ycombinator.com/item?id=49344825)
 
-**Tags**: `#Rust`, `#GPU Computing`, `#HPC`, `#Compilers`, `#AI/ML Infrastructure`
+**Tags**: `#imaging`, `#creative-coding`, `#hardware-hacking`, `#photography`, `#train-photography`
 
 ---
 
 <a id="item-2"></a>
-## [A Preview of DuckDB v2.0](https://duckdb.org/2026/08/17/duckdb-20-highlights) ⭐️ 7.0/10
+## [Fixing a Bricked Framework Laptop](https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/) ⭐️ 7.0/10
 
-Preview of DuckDB v2.0 highlights new features and improvements for the embedded analytical database engine that's gaining traction for analytics and stream processing workloads.
+A detailed account of reviving a bricked Framework laptop using specialized tools, paired with community discussions on laptop repairability and manufacturer liability.
 
-hackernews · ibotty · Aug 17, 13:46 · [Discussion](https://news.ycombinator.com/item?id=49330781)
+hackernews · jp_sc · Aug 18, 13:18 · [Discussion](https://news.ycombinator.com/item?id=49345220)
 
-**Tags**: `#database`, `#analytics`, `#DuckDB`, `#embedded-systems`, `#version-release`
+**Tags**: `#laptop repair`, `#Framework`, `#hardware hacking`, `#right to repair`, `#technical troubleshooting`
 
 ---
 
 <a id="item-3"></a>
-## [Incident with Github.com](https://www.githubstatus.com/incidents/zkxwbgr0cnmx) ⭐️ 7.0/10
+## [The Amazon Tax](https://seths.blog/2026/08/the-amazon-tax/) ⭐️ 7.0/10
 
-GitHub experienced an outage, sparking discussion about scalability challenges, pricing strategies, and the impact of LLM-generated traffic on service reliability.
+A blog post critiques how Amazon's search and logistics have evolved to prioritize advertising and platform control over user needs, sparking discussion on platform power and alternatives.
 
-hackernews · SpyCoder77 · Aug 17, 13:35 · [Discussion](https://news.ycombinator.com/item?id=49330597)
+hackernews · herbertl · Aug 18, 13:22 · [Discussion](https://news.ycombinator.com/item?id=49345263)
 
-**Tags**: `#infrastructure`, `#scalability`, `#software-reliability`, `#AI-impact`, `#github`
+**Tags**: `#platform-economics`, `#digital-marketing`, `#e-commerce`, `#user-experience`, `#tech-critique`
+
+---
+
+<a id="item-4"></a>
+## [Linux 7.3 improves performance when running out of vRAM](https://pixelcluster.dev/VRAM-Overcommit/) ⭐️ 6.0/10
+
+Linux 7.3 introduces performance improvements for handling VRAM overcommit situations, with community discussion comparing memory management across operating systems.
+
+hackernews · flaburgan · Aug 18, 07:51 · [Discussion](https://news.ycombinator.com/item?id=49342719)
+
+**Tags**: `#linux`, `#memory-management`, `#operating-systems`, `#performance`, `#gpu`
+
+---
+
+<a id="item-5"></a>
+## [Fairphone is now officially available in the United States](https://www.fairphone.com/nl/stories/the-fairphone-gen-6-is-all-about-giving-you-more) ⭐️ 6.0/10
+
+Fairphone 6+ becomes officially available for direct purchase in the United States, highlighting improved hardware while maintaining repairability standards.
+
+hackernews · Vinnl · Aug 18, 12:42 · [Discussion](https://news.ycombinator.com/item?id=49344811)
+
+**Tags**: `#sustainable-tech`, `#smartphones`, `#repairability`, `#consumer-electronics`, `#open-hardware`
 
 ---
 
