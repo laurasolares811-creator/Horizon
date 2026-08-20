@@ -5,57 +5,57 @@ date: 2026-08-20
 lang: zh
 ---
 
-> 从 30 条内容中筛选出 4 条重要资讯。
+> 从 33 条内容中筛选出 4 条重要资讯。
 
 ---
 
-1. [AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint](#item-1) ⭐️ 9.0/10
-2. [Malicious Rust crate Arrayref runs a build-time payload](#item-2) ⭐️ 8.0/10
-3. [DiffusionGemma Technical Report](#item-3) ⭐️ 8.0/10
-4. [Show HN: I trained a 125M model to autocomplete piano on-device](#item-4) ⭐️ 7.0/10
+1. [AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint](#item-1) ⭐️ 7.0/10
+2. [Linux 7.2](#item-2) ⭐️ 7.0/10
+3. [I should have loved biology](#item-3) ⭐️ 6.0/10
+4. [CIA funding helped keep NeXT afloat in the 80s](#item-4) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint](https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html) ⭐️ 9.0/10
+## [AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint](https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html) ⭐️ 7.0/10
 
-A technical analysis reveals AliExpress uses silent WebAudio fingerprinting on its website, which actively interferes with and breaks Bluetooth multipoint audio connections for users.
+Analysis reveals AliExpress employs silent WebAudio fingerprinting on its webpage, which inadvertently disrupts Bluetooth multipoint connections by interfering with the audio stream.
 
 hackernews · emctech · 8月20日 10:08 · [社区讨论](https://news.ycombinator.com/item?id=49372583)
 
-**标签**: `#WebPrivacy`, `#Bluetooth`, `#Fingerprinting`, `#MobileSecurity`, `#AppStorePolicy`
+**标签**: `#WebAudio`, `#fingerprinting`, `#privacy`, `#Bluetooth`, `#browser-security`
 
 ---
 
 <a id="item-2"></a>
-## [Malicious Rust crate Arrayref runs a build-time payload](https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/) ⭐️ 8.0/10
+## [Linux 7.2](https://www.igalia.com/2026/08/19/Linux-72-Released.html) ⭐️ 7.0/10
 
-A malicious Rust crate executed a build-time payload, highlighting vulnerabilities in the Rust/ crates.io ecosystem and prompting debate on supply chain security and language design.
+Linux kernel 7.2 has been released, with community discussion highlighting the now-resolved HDMI 2.1 support issue for AMD open-source drivers.
 
-hackernews · abhisek · 8月20日 13:23 · [社区讨论](https://news.ycombinator.com/item?id=49374269)
+hackernews · mariuz · 8月20日 15:46 · [社区讨论](https://news.ycombinator.com/item?id=49376265)
 
-**标签**: `#supply chain security`, `#Rust`, `#malware`, `#build systems`, `#security incidents`
+**标签**: `#Linux`, `#Kernel`, `#Open Source`, `#HDMI`, `#Display Technology`
 
 ---
 
 <a id="item-3"></a>
-## [DiffusionGemma Technical Report](https://arxiv.org/abs/2608.00146) ⭐️ 8.0/10
+## [I should have loved biology](https://jsomers.net/i-should-have-loved-biology/) ⭐️ 6.0/10
 
-DiffusionGemma technical report details converting a decoder-only Mixture-of-Experts model into a denoiser by repurposing its logits, with a macOS reimplementation and community discussion on performance and future impact.
+A reflective essay arguing that biology, much like software engineering, deserves to be taught through discovery and wonder rather than rote memorization, with comments adding real-world insights from professionals in the field.
 
-hackernews · gmays · 8月20日 13:24 · [社区讨论](https://news.ycombinator.com/item?id=49374287)
+hackernews · tyre · 8月20日 17:50 · [社区讨论](https://news.ycombinator.com/item?id=49377853)
 
-**标签**: `#Diffusion Models`, `#LLM Adaptation`, `#Technical Report`, `#Apple Silicon Performance`, `#AI-Driven Development`
+**标签**: `#Biology`, `#Education`, `#Pedagogy`, `#Career Reflection`, `#Life Sciences`
 
 ---
 
 <a id="item-4"></a>
-## [Show HN: I trained a 125M model to autocomplete piano on-device](https://simedw.com/2026/08/20/midi-autocomplete/) ⭐️ 7.0/10
+## [CIA funding helped keep NeXT afloat in the 80s](https://www.wsj.com/tech/steve-jobs-apple-next-cia-161b65f9?st=NWWds1&reflink=desktopwebshare_permalink) ⭐️ 6.0/10
 
-A developer trained a 125M-parameter transformer model to perform real-time piano music autocomplete on an iPhone, akin to GitHub Copilot for MIDI.
+A Wall Street Journal article reveals that the CIA provided funding to help keep Steve Jobs' NeXT computer company afloat in the 1980s through purchases of their machines.
 
-hackernews · simedw · 8月20日 12:04 · [社区讨论](https://news.ycombinator.com/item?id=49373456)
+hackernews · EwanG · 8月20日 00:15 · [社区讨论](https://news.ycombinator.com/item?id=49368886)
 
-**标签**: `#on-device AI`, `#music generation`, `#transformer models`, `#Core ML`, `#creative AI`
+**标签**: `#historical-tech`, `#CIA`, `#NeXT`, `#Steve-Jobs`, `#government-contracts`
 
 ---
