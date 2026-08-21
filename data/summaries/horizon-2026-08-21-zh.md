@@ -1,69 +1,57 @@
 # Horizon 每日速递 - 2026-08-21
 
-> 从 28 条内容中筛选出 5 条重要资讯。
+> 从 31 条内容中筛选出 4 条重要资讯。
 
 ---
 
-1. [Aaron Swartz was prosecuted for scraping, while Meta does it without consequence](#item-1) ⭐️ 8.0/10
-2. [AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint](#item-2) ⭐️ 8.0/10
-3. [The August 17 outage, and the work ahead](#item-3) ⭐️ 7.0/10
-4. [Consumer Rights Wiki](#item-4) ⭐️ 7.0/10
-5. [I should have loved biology (2020)](#item-5) ⭐️ 7.0/10
+1. [AI companies destroy physical books – let's scan rare books before it's too late](#item-1) ⭐️ 7.0/10
+2. [I accidentally logged phone calls to military bases](#item-2) ⭐️ 7.0/10
+3. [Kagi added a setting for removing paywalled links from search results](#item-3) ⭐️ 6.0/10
+4. [DeepSeek-v4-flash-vision-exp](#item-4) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Aaron Swartz was prosecuted for scraping, while Meta does it without consequence](https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/) ⭐️ 8.0/10
+## [AI companies destroy physical books – let's scan rare books before it's too late](https://annas-archive.pk/blog/physical-destruction.html) ⭐️ 7.0/10
 
-A blog post contrasts the severe legal prosecution of Aaron Swartz for academic paper downloading with Meta's large-scale data scraping facing minimal consequences, sparking debate on legal double standards and tech ethics.
+An analysis of AI companies using destructive methods to digitize rare physical books for training data, sparking debate on cost, preservation, and ethical implications.
 
-hackernews · speckx · 8月20日 20:07 · [社区讨论](https://news.ycombinator.com/item?id=49379550)
+hackernews · darccio · 8月21日 10:05 · [社区讨论](https://news.ycombinator.com/item?id=49385994)
 
-**标签**: `#tech ethics`, `#digital rights`, `#copyright law`, `#AI training data`, `#open access`
+**标签**: `#AI Training Data`, `#Digital Preservation`, `#Ethics`, `#Copyright`, `#Book Scanning`
 
 ---
 
 <a id="item-2"></a>
-## [AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint](https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html) ⭐️ 8.0/10
+## [I accidentally logged phone calls to military bases](https://lina.sh/blog/hijacking-e164-arpa) ⭐️ 7.0/10
 
-AliExpress websites use silent WebAudio fingerprinting techniques that interfere with Bluetooth multipoint connections, causing issues for hearing aids and car audio systems.
+A technical blog post describes how the author accidentally intercepted and logged phone calls, including those to military bases, by exploiting a misconfigured E.164.arpa DNS zone used for number portability.
 
-hackernews · emctech · 8月20日 10:08 · [社区讨论](https://news.ycombinator.com/item?id=49372583)
+hackernews · gavide · 8月21日 13:11 · [社区讨论](https://news.ycombinator.com/item?id=49387570)
 
-**标签**: `#web-fingerprinting`, `#privacy`, `#bluetooth`, `#browser-security`, `#user-tracking`
+**标签**: `#telecom-security`, `#DNS`, `#vulnerability-disclosure`, `#infosec`, `#telecommunications`
 
 ---
 
 <a id="item-3"></a>
-## [The August 17 outage, and the work ahead](https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/) ⭐️ 7.0/10
+## [Kagi added a setting for removing paywalled links from search results](https://kagi.com/changelog#11296) ⭐️ 6.0/10
 
-GitHub details the root cause and aftermath of its August 17 outage, highlighting issues like retry amplification and rapid commit growth, while outlining plans to improve resilience.
+Kagi has introduced a new setting to filter out paywalled links from its search results, sparking discussion on the value of paid search and journalism sustainability.
 
-hackernews · 0xedb · 8月20日 19:22 · [社区讨论](https://news.ycombinator.com/item?id=49378957)
+hackernews · speckx · 8月21日 13:56 · [社区讨论](https://news.ycombinator.com/item?id=49388154)
 
-**标签**: `#infrastructure`, `#system-resilience`, `#devops`, `#AI-impact`, `#postmortem`
+**标签**: `#search-engines`, `#privacy-tools`, `#content-filtering`, `#subscription-services`
 
 ---
 
 <a id="item-4"></a>
-## [Consumer Rights Wiki](https://consumerrights.wiki/w/Main_Page) ⭐️ 7.0/10
+## [DeepSeek-v4-flash-vision-exp](https://api-docs.deepseek.com/guides/vision/) ⭐️ 6.0/10
 
-A community-driven wiki launched by Louis Rossmann to document and aggregate consumer rights issues, product failures, and warranty disputes.
+DeepSeek has released an experimental vision-capable version of its v4 Flash model, with community testing revealing mixed results on simple visual reasoning tasks.
 
-hackernews · gregsadetsky · 8月20日 18:19 · [社区讨论](https://news.ycombinator.com/item?id=49378243)
+hackernews · dares2573 · 8月21日 10:33 · [社区讨论](https://news.ycombinator.com/item?id=49386163)
 
-**标签**: `#consumer-rights`, `#community-resource`, `#wiki`, `#advocacy`, `#right-to-repair`
-
----
-
-<a id="item-5"></a>
-## [I should have loved biology (2020)](https://jsomers.net/i-should-have-loved-biology/) ⭐️ 7.0/10
-
-A reflective essay critiquing traditional biology education for stifling curiosity and suggesting a more discovery-oriented approach, with community discussion highlighting pedagogical and personal insights.
-
-hackernews · tyre · 8月20日 17:50 · [社区讨论](https://news.ycombinator.com/item?id=49377853)
-
-**标签**: `#biology`, `#education`, `#pedagogy`, `#science learning`, `#personal reflection`
+**标签**: `#AI/ML`, `#Multimodal Models`, `#DeepSeek`, `#Computer Vision`, `#Model Evaluation`
 
 ---
 
