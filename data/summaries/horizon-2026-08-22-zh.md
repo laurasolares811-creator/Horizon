@@ -1,57 +1,57 @@
 # Horizon 每日速递 - 2026-08-22
 
-> 从 36 条内容中筛选出 4 条重要资讯。
+> 从 24 条内容中筛选出 4 条重要资讯。
 
 ---
 
-1. [I accidentally logged hundreds of thousands of phone calls to military bases](#item-1) ⭐️ 8.0/10
-2. [Kobo can run apps now](#item-2) ⭐️ 7.0/10
-3. [Felony Bench](#item-3) ⭐️ 7.0/10
-4. [Scientists release biggest 2D map of the universe](#item-4) ⭐️ 6.0/10
+1. [Rust Glancer: Rust LSP using 100x less RAM](#item-1) ⭐️ 8.0/10
+2. [Munder Difflin – Agent harness to run an office of your clones](#item-2) ⭐️ 6.0/10
+3. [Hook, hold, harvest and hide: Meta's alleged strategy laid out in first week](#item-3) ⭐️ 6.0/10
+4. [Kobo can run apps now](#item-4) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [I accidentally logged hundreds of thousands of phone calls to military bases](https://lina.sh/blog/hijacking-e164-arpa) ⭐️ 8.0/10
+## [Rust Glancer: Rust LSP using 100x less RAM](https://rust-glancer.github.io/blog/hello-world/) ⭐️ 8.0/10
 
-An engineer recounts accidentally logging hundreds of thousands of phone calls, including to military bases, by discovering and exposing a massive security flaw in the E.164 ENUM system.
+A new Rust Language Server Protocol implementation called Rust Glancer aims to dramatically reduce memory usage compared to rust-analyzer while maintaining functionality.
 
-hackernews · gavide · 8月21日 13:11 · [社区讨论](https://news.ycombinator.com/item?id=49387570)
+hackernews · matklad · 8月21日 19:51 · [社区讨论](https://news.ycombinator.com/item?id=49393052)
 
-**标签**: `#telecom-security`, `#ENUM`, `#vulnerability-disclosure`, `#telephony`, `#network-security`
+**标签**: `#Rust`, `#LSP`, `#Memory Efficiency`, `#Developer Tools`, `#Compiler Infrastructure`
 
 ---
 
 <a id="item-2"></a>
-## [Kobo can run apps now](https://bandarlabs.github.io/Cobalt/) ⭐️ 7.0/10
+## [Munder Difflin – Agent harness to run an office of your clones](https://munderdiffl.in/) ⭐️ 6.0/10
 
-A new open-source project enables Kobo e-readers to run Android apps, sparking debate about e-reader utility and alternative ecosystems.
+A local multi-agent harness tool that allows users to run and coordinate multiple AI coding agent instances through a simulated office environment, with role-based pipelines and deterministic simulations to reduce token consumption.
 
-hackernews · thepoet · 8月21日 16:25 · [社区讨论](https://news.ycombinator.com/item?id=49390427)
+hackernews · simonpure · 8月22日 09:49 · [社区讨论](https://news.ycombinator.com/item?id=49398152)
 
-**标签**: `#e-readers`, `#Kobo`, `#open-source`, `#Android apps`, `#embedded systems`
+**标签**: `#AI agents`, `#multi-agent systems`, `#developer tools`, `#human-AI interaction`, `#productivity`
 
 ---
 
 <a id="item-3"></a>
-## [Felony Bench](https://www.felonybench.com/) ⭐️ 7.0/10
+## [Hook, hold, harvest and hide: Meta's alleged strategy laid out in first week](https://www.theguardian.com/technology/2026/aug/22/meta-trial-children-privacy) ⭐️ 6.0/10
 
-A benchmark and discussion forum tracking and analyzing incidents where AI agents inadvertently cause harm or legal violations, highlighting the complex questions of accountability in automated systems.
+Analysis of Meta's alleged 'hook, hold, harvest and hide' strategy as presented by prosecutors in a trial about children's privacy, with community debate about the lawyer's framing versus actual business practices.
 
-hackernews · colinprince · 8月21日 15:17 · [社区讨论](https://news.ycombinator.com/item?id=49389430)
+hackernews · sbulaev · 8月22日 12:07 · [社区讨论](https://news.ycombinator.com/item?id=49398904)
 
-**标签**: `#AI safety`, `#cybersecurity`, `#legal liability`, `#agentic AI`, `#digital ethics`
+**标签**: `#meta`, `#tech-policy`, `#privacy`, `#legal-strategy`, `#online-safety`
 
 ---
 
 <a id="item-4"></a>
-## [Scientists release biggest 2D map of the universe](https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/) ⭐️ 6.0/10
+## [Kobo can run apps now](https://bandarlabs.github.io/Cobalt/) ⭐️ 6.0/10
 
-Scientists have released the largest 2D map of the universe, providing an interactive viewer for public exploration of deep space.
+A new project enables running apps on Kobo e-readers, sparking community discussion about its practicality versus the device's primary reading purpose.
 
-hackernews · NKosmatos · 8月21日 18:36 · [社区讨论](https://news.ycombinator.com/item?id=49392200)
+hackernews · thepoet · 8月21日 16:25 · [社区讨论](https://news.ycombinator.com/item?id=49390427)
 
-**标签**: `#astronomy`, `#data visualization`, `#scientific discovery`, `#big data`, `#public science`
+**标签**: `#e-readers`, `#Kobo`, `#embedded-linux`, `#DIY-hardware`, `#software-hacking`
 
 ---
 
