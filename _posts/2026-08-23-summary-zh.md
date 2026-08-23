@@ -5,45 +5,45 @@ date: 2026-08-23
 lang: zh
 ---
 
-> 从 27 条内容中筛选出 3 条重要资讯。
+> 从 25 条内容中筛选出 3 条重要资讯。
 
 ---
 
-1. [Why your local LLM feels dumber than it is](#item-1) ⭐️ 8.0/10
-2. [ElevenLabs, TwelveLabs, ThirteenLabs](#item-2) ⭐️ 6.0/10
-3. [hdiutil is deprecated in macOS 27 Golden Gate](#item-3) ⭐️ 6.0/10
+1. [Malware infects Android-based automotive head unit firmware](#item-1) ⭐️ 7.0/10
+2. [I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes](#item-2) ⭐️ 7.0/10
+3. [MartyPC is a cross-platform emulator of early PCs written in Rust](#item-3) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Why your local LLM feels dumber than it is](https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917) ⭐️ 8.0/10
+## [Malware infects Android-based automotive head unit firmware](https://securelist.com/android-head-unit-malware/121106/) ⭐️ 7.0/10
 
-A discussion on why locally-run large language models often underperform compared to their cloud counterparts, with users sharing technical advice on optimization and quantization.
+Malware delivered via OTA updates to cheap Android-based automotive head units poses a cybersecurity risk, especially when such units are connected to vehicle CAN buses.
 
-hackernews · felineflock · 8月22日 18:14 · [社区讨论](https://news.ycombinator.com/item?id=49402232)
+hackernews · campuscodi · 8月23日 13:05 · [社区讨论](https://news.ycombinator.com/item?id=49408550)
 
-**标签**: `#local-llm`, `#quantization`, `#llm-performance`, `#llm-inference`, `#hardware-optimization`
+**标签**: `#cybersecurity`, `#automotive`, `#Android`, `#malware`, `#IoT`
 
 ---
 
 <a id="item-2"></a>
-## [ElevenLabs, TwelveLabs, ThirteenLabs](https://quantumi.sh/public/labs.html) ⭐️ 6.0/10
+## [I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes](https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/) ⭐️ 7.0/10
 
-A humorous critique of the overuse of 'Labs' in AI company names, examining naming conventions and their psychological impact.
+A user reports that the Qwen 3.8 27B model successfully completed a reverse-engineering task in 30 minutes, demonstrating notable improvements over previous versions in accuracy and persistence.
 
-hackernews · jemoka · 8月22日 14:54 · [社区讨论](https://news.ycombinator.com/item?id=49400408)
+hackernews · raybb · 8月23日 10:02 · [社区讨论](https://news.ycombinator.com/item?id=49407507)
 
-**标签**: `#AI`, `#naming conventions`, `#satire`, `#tech culture`, `#community discussion`
+**标签**: `#AI Coding`, `#Local LLMs`, `#Reverse Engineering`, `#Model Benchmarking`, `#Qwen`
 
 ---
 
 <a id="item-3"></a>
-## [hdiutil is deprecated in macOS 27 Golden Gate](https://lapcatsoftware.com/articles/2026/8/7.html) ⭐️ 6.0/10
+## [MartyPC is a cross-platform emulator of early PCs written in Rust](https://martypc.net/) ⭐️ 7.0/10
 
-Apple has announced the deprecation of the hdiutil disk image utility in macOS 27 Golden Gate, sparking discussion about Apple's maintenance practices and tooling longevity.
+MartyPC is a highly accurate, cross-platform Rust emulator for early PCs, developed with meticulous hardware validation.
 
-hackernews · zdw · 8月22日 19:04 · [社区讨论](https://news.ycombinator.com/item?id=49402741)
+hackernews · boilerupnc · 8月23日 03:13 · [社区讨论](https://news.ycombinator.com/item?id=49405816)
 
-**标签**: `#macOS`, `#Apple`, `#developer-tools`, `#deprecation`, `#systems`
+**标签**: `#Rust`, `#emulation`, `#retrocomputing`, `#low-level programming`
 
 ---
