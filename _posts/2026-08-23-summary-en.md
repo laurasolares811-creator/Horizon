@@ -5,45 +5,57 @@ date: 2026-08-23
 lang: en
 ---
 
-> From 25 items, 3 important content pieces were selected
+> From 34 items, 4 important content pieces were selected
 
 ---
 
-1. [Malware infects Android-based automotive head unit firmware](#item-1) ⭐️ 7.0/10
-2. [I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes](#item-2) ⭐️ 7.0/10
-3. [MartyPC is a cross-platform emulator of early PCs written in Rust](#item-3) ⭐️ 7.0/10
+1. [How Complex Systems Fail (1998)](#item-1) ⭐️ 8.0/10
+2. [I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day](#item-2) ⭐️ 7.0/10
+3. [Malware infects Android-based automotive head unit firmware](#item-3) ⭐️ 7.0/10
+4. [Slovakia finds Russian backdoor in traffic speed cameras](#item-4) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Malware infects Android-based automotive head unit firmware](https://securelist.com/android-head-unit-malware/121106/) ⭐️ 7.0/10
+## [How Complex Systems Fail (1998)](https://how.complexsystems.fail/) ⭐️ 8.0/10
 
-Malware delivered via OTA updates to cheap Android-based automotive head units poses a cybersecurity risk, especially when such units are connected to vehicle CAN buses.
+A seminal 1998 paper outlining key principles of complex systems failure, emphasizing the impossibility of simple root cause analysis and the importance of experience with failure.
 
-hackernews · campuscodi · Aug 23, 13:05 · [Discussion](https://news.ycombinator.com/item?id=49408550)
+hackernews · shortcrct · Aug 23, 15:13 · [Discussion](https://news.ycombinator.com/item?id=49409473)
 
-**Tags**: `#cybersecurity`, `#automotive`, `#Android`, `#malware`, `#IoT`
+**Tags**: `#systems-engineering`, `#complex-systems`, `#failure-analysis`, `#chaos-engineering`, `#distributed-systems`
 
 ---
 
 <a id="item-2"></a>
-## [I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes](https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/) ⭐️ 7.0/10
+## [I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day](https://ericpardee.github.io/fire-hd-ownership/) ⭐️ 7.0/10
 
-A user reports that the Qwen 3.8 27B model successfully completed a reverse-engineering task in 30 minutes, demonstrating notable improvements over previous versions in accuracy and persistence.
+An author used AI models, including a Chinese model (GLM-5.3), to find vulnerabilities and root a Fire tablet, showcasing the differing capabilities of AI in cybersecurity tasks.
 
-hackernews · raybb · Aug 23, 10:02 · [Discussion](https://news.ycombinator.com/item?id=49407507)
+hackernews · dr_pardee · Aug 23, 14:23 · [Discussion](https://news.ycombinator.com/item?id=49409073)
 
-**Tags**: `#AI Coding`, `#Local LLMs`, `#Reverse Engineering`, `#Model Benchmarking`, `#Qwen`
+**Tags**: `#AI models`, `#cybersecurity`, `#device rooting`, `#hacker news`, `#prompt engineering`
 
 ---
 
 <a id="item-3"></a>
-## [MartyPC is a cross-platform emulator of early PCs written in Rust](https://martypc.net/) ⭐️ 7.0/10
+## [Malware infects Android-based automotive head unit firmware](https://securelist.com/android-head-unit-malware/121106/) ⭐️ 7.0/10
 
-MartyPC is a highly accurate, cross-platform Rust emulator for early PCs, developed with meticulous hardware validation.
+Malware is infecting cheap Android-based aftermarket car head units via malicious OTA updates, raising concerns about automotive security, especially when these units are connected to vehicle CAN buses.
 
-hackernews · boilerupnc · Aug 23, 03:13 · [Discussion](https://news.ycombinator.com/item?id=49405816)
+hackernews · campuscodi · Aug 23, 13:05 · [Discussion](https://news.ycombinator.com/item?id=49408550)
 
-**Tags**: `#Rust`, `#emulation`, `#retrocomputing`, `#low-level programming`
+**Tags**: `#automotive cybersecurity`, `#malware`, `#Android security`, `#CAN bus`, `#OTA updates`
+
+---
+
+<a id="item-4"></a>
+## [Slovakia finds Russian backdoor in traffic speed cameras](https://risky.biz/risky-bulletin-slovakia-finds-russian-backdoor-in-traffic-speed-cameras/) ⭐️ 7.0/10
+
+Slovakia discovered a Russian backdoor in traffic speed cameras it had purchased, exposing live streams without passwords, raising significant cybersecurity and geopolitical concerns.
+
+hackernews · dredmorbius · Aug 23, 14:38 · [Discussion](https://news.ycombinator.com/item?id=49409200)
+
+**Tags**: `#cybersecurity`, `#supply chain security`, `#geopolitics`, `#surveillance`, `#backdoors`
 
 ---
