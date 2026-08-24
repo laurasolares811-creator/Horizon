@@ -5,69 +5,69 @@ date: 2026-08-24
 lang: zh
 ---
 
-> 从 24 条内容中筛选出 5 条重要资讯。
+> 从 31 条内容中筛选出 5 条重要资讯。
 
 ---
 
-1. [SeL4 security proofs now complete on AArch64](#item-1) ⭐️ 8.0/10
-2. [Everything I own, owned](#item-2) ⭐️ 8.0/10
-3. [Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded](#item-3) ⭐️ 7.0/10
-4. [How Europe is killing makers and micro-entrepreneurs](#item-4) ⭐️ 6.0/10
-5. [I were 17, I'd learn how to build LLMs from scratch](#item-5) ⭐️ 6.0/10
+1. [Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded](#item-1) ⭐️ 8.0/10
+2. [MS Paint and Photos inivisibly watermark even locally generated output with GUID](#item-2) ⭐️ 7.0/10
+3. [IPFS Maintainers Winding Down](#item-3) ⭐️ 7.0/10
+4. [OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)](#item-4) ⭐️ 7.0/10
+5. [How Europe is killing makers and micro-entrepreneurs](#item-5) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [SeL4 security proofs now complete on AArch64](https://proofcraft.systems/news-2026/#2026-08-21) ⭐️ 8.0/10
+## [Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded](https://twitter.com/lemire/status/2091894299289874926) ⭐️ 8.0/10
 
-The seL4 microkernel's formal security proofs have been successfully completed for the ARM64 (AArch64) architecture, a major advancement in verified systems software.
+Xiaomi's new ARM-based CPU is reported to match Apple's single-threaded performance and significantly outperform it in multi-threaded benchmarks, raising questions about its real-world thermal efficiency and impact on the competitive smartphone chip market.
 
-hackernews · snvzz · 8月24日 11:32 · [社区讨论](https://news.ycombinator.com/item?id=49418255)
+hackernews · tosh · 8月24日 15:08 · [社区讨论](https://news.ycombinator.com/item?id=49420873)
 
-**标签**: `#formal verification`, `#microkernel`, `#systems security`, `#seL4`, `#AArch64`
+**标签**: `#mobile-hardware`, `#CPU-benchmarks`, `#ARM`, `#chip-design`, `#competition`
 
 ---
 
 <a id="item-2"></a>
-## [Everything I own, owned](https://schlarp.com/posts/everything-i-own-owned/) ⭐️ 8.0/10
+## [MS Paint and Photos inivisibly watermark even locally generated output with GUID](https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/) ⭐️ 7.0/10
 
-A technical deep-dive into the process of gaining full ownership of personal electronics through firmware modification, highlighting the challenges and triumphs of overcoming manufacturer restrictions.
+MS Paint and Photos silently embed invisible watermarks with unique identifiers in locally AI-processed images, potentially enabling tracking back to user accounts.
 
-hackernews · schlarpc · 8月23日 22:41 · [社区讨论](https://news.ycombinator.com/item?id=49413320)
+hackernews · ComputerGuru · 8月24日 15:28 · [社区讨论](https://news.ycombinator.com/item?id=49421158)
 
-**标签**: `#firmware hacking`, `#device ownership`, `#IoT`, `#hardware hacking`, `#open source`
+**标签**: `#privacy`, `#digital-watermarking`, `#microsoft`, `#AI-tools`, `#cybersecurity`
 
 ---
 
 <a id="item-3"></a>
-## [Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded](https://twitter.com/lemire/status/2091894299289874926) ⭐️ 7.0/10
+## [IPFS Maintainers Winding Down](https://ipshipyard.com/blog/2026-the-end-of-ipfs-at-shipyard/) ⭐️ 7.0/10
 
-Xiaomi claims its new CPU matches Apple's single-threaded performance and significantly outperforms it in multi-threaded benchmarks, signaling increased competition in the mobile chip market.
+IPFS maintainers announce winding down operations, raising concerns about the future of decentralized web protocols and the sustainability of open-source infrastructure projects.
 
-hackernews · tosh · 8月24日 15:08 · [社区讨论](https://news.ycombinator.com/item?id=49420873)
+hackernews · iand · 8月24日 15:48 · [社区讨论](https://news.ycombinator.com/item?id=49421489)
 
-**标签**: `#Mobile Processors`, `#ARM Architecture`, `#Chinese Tech`, `#Performance Benchmarks`, `#Market Competition`
+**标签**: `#decentralized-web`, `#IPFS`, `#open-source-sustainability`, `#p2p-networks`, `#web-infrastructure`
 
 ---
 
 <a id="item-4"></a>
-## [How Europe is killing makers and micro-entrepreneurs](https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs) ⭐️ 6.0/10
+## [OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)](https://developers.openai.com/api/docs/pricing) ⭐️ 7.0/10
 
-An article discusses how new EU product compliance regulations may disproportionately burden small-scale makers and micro-entrepreneurs due to bureaucratic and cost hurdles, with Hacker News comments exploring regulatory alternatives and implementation challenges.
+OpenAI has announced a substantial price reduction for its GPT 5.6 Sol model, lowering input and output costs by 20-33% through at least November 2026.
 
-hackernews · l-one-lone · 8月24日 13:05 · [社区讨论](https://news.ycombinator.com/item?id=49419237)
+hackernews · tosh · 8月24日 15:22 · [社区讨论](https://news.ycombinator.com/item?id=49421074)
 
-**标签**: `#EU Regulation`, `#Maker Culture`, `#Small Business`, `#Product Compliance`, `#Policy Impact`
+**标签**: `#AI pricing`, `#GPT-5.6`, `#OpenAI`, `#AI competition`, `#API costs`
 
 ---
 
 <a id="item-5"></a>
-## [I were 17, I'd learn how to build LLMs from scratch](https://twitter.com/paulg/status/2091544343589060625) ⭐️ 6.0/10
+## [How Europe is killing makers and micro-entrepreneurs](https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs) ⭐️ 6.0/10
 
-Paul Graham advises young people to learn how to build LLMs from scratch, sparking a discussion on the practicality, career implications, and deeper value of such knowledge in the current tech landscape.
+An article critiques the EU's PPWR regulation for harming makers and micro-entrepreneurs, with community discussion highlighting regulatory fragmentation and practical enforcement challenges.
 
-hackernews · bilsbie · 8月23日 20:38 · [社区讨论](https://news.ycombinator.com/item?id=49412396)
+hackernews · l-one-lone · 8月24日 13:05 · [社区讨论](https://news.ycombinator.com/item?id=49419237)
 
-**标签**: `#LLM`, `#Career Advice`, `#Technical Education`, `#Machine Learning`, `#Community Discussion`
+**标签**: `#EU Regulation`, `#Small Business`, `#Policy Impact`, `#Logistics`, `#Entrepreneurship`
 
 ---
