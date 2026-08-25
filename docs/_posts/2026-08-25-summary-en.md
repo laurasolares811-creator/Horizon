@@ -5,57 +5,45 @@ date: 2026-08-25
 lang: en
 ---
 
-> From 33 items, 4 important content pieces were selected
+> From 33 items, 3 important content pieces were selected
 
 ---
 
-1. [MS Paint and Photos inivisibly watermark even locally generated output with GUID](#item-1) ⭐️ 8.0/10
-2. [The entire city of San Francisco as a video game](#item-2) ⭐️ 7.0/10
-3. [iCloud+ Hide My Email addresses will remain on icloud.com](#item-3) ⭐️ 6.0/10
-4. [Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded](#item-4) ⭐️ 6.0/10
+1. [New Mac Studio with M5 Max and M5 Ultra](#item-1) ⭐️ 7.0/10
+2. [Qwen 3.8-Flash-Next releasing tomorrow (125B a6B)](#item-2) ⭐️ 7.0/10
+3. [Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute](#item-3) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [MS Paint and Photos inivisibly watermark even locally generated output with GUID](https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/) ⭐️ 8.0/10
+## [New Mac Studio with M5 Max and M5 Ultra](https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/) ⭐️ 7.0/10
 
-Research reveals MS Paint and Photos silently embed invisible watermarks in AI-processed images, potentially linking outputs to user accounts and raising privacy concerns.
+Apple introduces new Mac Studio models with M5 Max and M5 Ultra chips, emphasizing performance for local AI and professional workflows.
 
-hackernews · ComputerGuru · Aug 24, 15:28 · [Discussion](https://news.ycombinator.com/item?id=49421158)
+hackernews · interpol_p · Aug 25, 13:03 · [Discussion](https://news.ycombinator.com/item?id=49433316)
 
-**Tags**: `#digital-privacy`, `#software-reversing`, `#microsoft-windows`, `#ai-image-editing`, `#digital-watermarking`
+**Tags**: `#Apple`, `#M5 chip`, `#local AI`, `#professional hardware`, `#computing performance`
 
 ---
 
 <a id="item-2"></a>
-## [The entire city of San Francisco as a video game](https://sf.thijs.gg/) ⭐️ 7.0/10
+## [Qwen 3.8-Flash-Next releasing tomorrow (125B a6B)](https://modelscope.cn/models/Qwen/Qwen3.8-Flash-Next) ⭐️ 7.0/10
 
-An interactive web-based visualization presents a 3D, video game-like model of the entire city of San Francisco, exploring the intersection of real-world geospatial data and immersive digital environments.
+Qwen announces the upcoming release of its next-generation 125B-parameter Mixture-of-Experts language model, sparking community discussion on local hardware requirements, performance, and integration challenges.
 
-hackernews · centrosphere · Aug 24, 17:05 · [Discussion](https://news.ycombinator.com/item?id=49422784)
+hackernews · garo-pro · Aug 25, 11:49 · [Discussion](https://news.ycombinator.com/item?id=49432317)
 
-**Tags**: `#3D Graphics`, `#Procedural Generation`, `#Geospatial Data`, `#Interactive Visualization`, `#Web Development`
+**Tags**: `#AI models`, `#large language models`, `#local inference`, `#open-source AI`, `#model release`
 
 ---
 
 <a id="item-3"></a>
-## [iCloud+ Hide My Email addresses will remain on icloud.com](https://developer.apple.com/news/?id=1ptvdtcm) ⭐️ 6.0/10
+## [Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute](https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/) ⭐️ 6.0/10
 
-Apple has announced that iCloud+ Hide My Email addresses will remain available on icloud.com, addressing user concerns about service continuity.
+Apple announced new M6 and M5 Ultra chips, emphasizing performance and AI compute improvements, with significant community discussion around pricing and product strategy.
 
-hackernews · K7PJP · Aug 24, 22:13 · [Discussion](https://news.ycombinator.com/item?id=49426564)
+hackernews · interpol_p · Aug 25, 13:01 · [Discussion](https://news.ycombinator.com/item?id=49433292)
 
-**Tags**: `#Apple`, `#iCloud`, `#Privacy`, `#Email`, `#Software Update`
-
----
-
-<a id="item-4"></a>
-## [Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded](https://twitter.com/lemire/status/2091894299289874926) ⭐️ 6.0/10
-
-Xiaomi's new ARM-based CPU reportedly matches Apple's single-threaded performance and exceeds it in multi-threaded benchmarks, sparking discussion about the chip's design origins, power efficiency, and competitive implications for MediaTek and Qualcomm.
-
-hackernews · tosh · Aug 24, 15:08 · [Discussion](https://news.ycombinator.com/item?id=49420873)
-
-**Tags**: `#mobile CPU`, `#ARM architecture`, `#semiconductor competition`, `#benchmarking`, `#consumer electronics`
+**Tags**: `#Apple Silicon`, `#CPU Architecture`, `#AI Compute`, `#Hardware Launch`, `#Consumer Tech`
 
 ---
