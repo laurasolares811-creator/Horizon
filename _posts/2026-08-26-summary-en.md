@@ -5,69 +5,69 @@ date: 2026-08-26
 lang: en
 ---
 
-> From 40 items, 5 important content pieces were selected
+> From 43 items, 5 important content pieces were selected
 
 ---
 
-1. [vllm-project/vllm released v0.28.0](#item-1) ⭐️ 8.0/10
-2. [An ongoing 3D-printer AGPL violation](#item-2) ⭐️ 8.0/10
-3. [Tailcat](#item-3) ⭐️ 7.0/10
-4. [GLM-5.3-Flash](#item-4) ⭐️ 7.0/10
-5. [Study Reveals UnitedHealth's Profit Margins Four Times What It Claimed (pdf)](#item-5) ⭐️ 6.0/10
+1. [vllm-project/vllm released v0.28.0](#item-1) ⭐️ 9.0/10
+2. [GLM-5.3-Flash](#item-2) ⭐️ 8.0/10
+3. [AWS Acquires DuckLabs](#item-3) ⭐️ 8.0/10
+4. [Tailcat – Like netcat, but over Tailscale’s data plane](#item-4) ⭐️ 7.0/10
+5. [Actinide is first startup to produce high-assay low-enriched uranium (HALEU)](#item-5) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [vllm-project/vllm released v0.28.0](https://github.com/vllm-project/vllm/releases/tag/v0.28.0) ⭐️ 8.0/10
+## [vllm-project/vllm released v0.28.0](https://github.com/vllm-project/vllm/releases/tag/v0.28.0) ⭐️ 9.0/10
 
-vllm v0.28.0 is a feature-rich release with major performance optimizations for Kimi-K3 and DeepSeek V4 models, including new kernel support, memory savings, and hardware compatibility improvements.
+vLLM v0.28.0 is a major release featuring deep performance optimizations for Kimi-K3 and DeepSeek V4, substantial memory savings, and expanded hardware support, driven by a large community effort.
 
 github · khluu · Aug 26, 09:46
 
-**Tags**: `#LLM inference`, `#Performance optimization`, `#Open source`, `#AI infrastructure`, `#GPU acceleration`
+**Tags**: `#LLM inference`, `#performance optimization`, `#vLLM`, `#high-performance computing`, `#GPU kernels`
 
 ---
 
 <a id="item-2"></a>
-## [An ongoing 3D-printer AGPL violation](https://lwn.net/SubscriberLink/1089390/46116614cc74b814/) ⭐️ 8.0/10
+## [GLM-5.3-Flash](https://z.ai/blog/glm-5.3-flash) ⭐️ 8.0/10
 
-The article reports on alleged AGPL license violations by Bambu Lab for its 3D printers, sparking community discussion on technical, legal, and ideological responses.
+GLM-5.3-Flash is a new, highly efficient AI model that achieves near-state-of-the-art performance with significantly reduced parameters and cost, sparking detailed discussion on its technical merits and practical implications.
 
-hackernews · Velocifyer · Aug 26, 17:41 · [Discussion](https://news.ycombinator.com/item?id=49452980)
+hackernews · Philpax · Aug 26, 14:08 · [Discussion](https://news.ycombinator.com/item?id=49449507)
 
-**Tags**: `#AGPL`, `#open source licensing`, `#3D printing`, `#software compliance`, `#hardware ethics`
+**Tags**: `#AI models`, `#LLM efficiency`, `#Chinese AI`, `#open-source weights`, `#cost optimization`
 
 ---
 
 <a id="item-3"></a>
-## [Tailcat](https://github.com/tailscale/tailcat) ⭐️ 7.0/10
+## [AWS Acquires DuckLabs](https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws) ⭐️ 8.0/10
 
-Tailcat is an open-source, Nix-compatible tool from Tailscale that enables secure, generalized connectivity between devices on different networks, similar to Magic Wormhole but for broader networking use cases.
+AWS has acquired DuckLabs, the commercial entity spun out from DuckDB's original creators, while the core open-source DuckDB project remains under the independent DuckDB Foundation.
 
-hackernews · nderjung · Aug 26, 17:42 · [Discussion](https://news.ycombinator.com/item?id=49452990)
+hackernews · onderkalaci · Aug 26, 12:59 · [Discussion](https://news.ycombinator.com/item?id=49448321)
 
-**Tags**: `#networking`, `#open-source`, `#security`, `#tools`, `#developer-experience`
+**Tags**: `#cloud acquisition`, `#databases`, `#open-source governance`, `#data infrastructure`, `#DuckDB`
 
 ---
 
 <a id="item-4"></a>
-## [GLM-5.3-Flash](https://z.ai/blog/glm-5.3-flash) ⭐️ 7.0/10
+## [Tailcat – Like netcat, but over Tailscale’s data plane](https://github.com/tailscale/tailcat) ⭐️ 7.0/10
 
-Z.ai releases GLM-5.3-Flash, an efficient and cost-effective open-weight language model offering performance comparable to larger models at a fraction of the cost, showcasing the rapid pace of AI development.
+Tailcat is a netcat-like utility that operates over Tailscale's data plane, enabling easy peer-to-peer connections without complex network setup.
 
-hackernews · Philpax · Aug 26, 14:08 · [Discussion](https://news.ycombinator.com/item?id=49449507)
+hackernews · nderjung · Aug 26, 17:42 · [Discussion](https://news.ycombinator.com/item?id=49452990)
 
-**Tags**: `#AI`, `#LLM`, `#Open Source`, `#Model Efficiency`, `#Chinese AI`
+**Tags**: `#networking`, `#tunnels`, `#tunnels`, `#p2p`, `#developer-tools`
 
 ---
 
 <a id="item-5"></a>
-## [Study Reveals UnitedHealth's Profit Margins Four Times What It Claimed (pdf)](https://insurancewatchdogcoalition.com/wp-content/uploads/2026/08/UHG-Profits-Study_August-2026.pdf) ⭐️ 6.0/10
+## [Actinide is first startup to produce high-assay low-enriched uranium (HALEU)](https://www.actinideinc.com/press/actinide-becomes-first-startup-to-ever-enrich-natural-uranium-to-produce-haleu) ⭐️ 7.0/10
 
-A study alleges UnitedHealth Group's profit margins are significantly higher than publicly claimed due to how medical claims are accounted for as pass-through costs rather than revenue.
+Actinide has become the first startup to successfully enrich natural uranium into high-assay low-enriched uranium (HALEU), using advanced electromagnet technology in a notable engineering and regulatory milestone.
 
-hackernews · CGMthrowaway · Aug 26, 18:20 · [Discussion](https://news.ycombinator.com/item?id=49453510)
+hackernews · dsalzman · Aug 26, 19:23 · [Discussion](https://news.ycombinator.com/item?id=49454419)
 
-**Tags**: `#Healthcare Finance`, `#Corporate Accounting`, `#Business Ethics`, `#Insurance Industry`, `#Financial Transparency`
+**Tags**: `#nuclear-energy`, `#uranium-enrichment`, `#startups`, `#nuclear-technology`, `#supply-chain`
 
 ---
