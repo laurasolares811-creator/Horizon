@@ -5,57 +5,57 @@ date: 2026-08-26
 lang: zh
 ---
 
-> 从 31 条内容中筛选出 4 条重要资讯。
+> 从 34 条内容中筛选出 4 条重要资讯。
 
 ---
 
-1. [OpenAI Jalapeño: Better than Nvidia Blackwell](#item-1) ⭐️ 8.0/10
-2. [FDA authorizes first wearable device that monitors ketone and blood sugar levels](#item-2) ⭐️ 7.0/10
-3. [Apple introduces M6 and M5 Ultra](#item-3) ⭐️ 7.0/10
-4. [New Mac Studio with M5 Max and M5 Ultra](#item-4) ⭐️ 7.0/10
+1. [vllm-project/vllm released v0.28.0](#item-1) ⭐️ 8.0/10
+2. [GLM-5.3-Flash](#item-2) ⭐️ 8.0/10
+3. [Qwen3.8-Flash-Next: A New Architecture, Towards Ultimate Cost-Efficiency](#item-3) ⭐️ 8.0/10
+4. [AWS Acquires DuckDB](#item-4) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [OpenAI Jalapeño: Better than Nvidia Blackwell](https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia) ⭐️ 8.0/10
+## [vllm-project/vllm released v0.28.0](https://github.com/vllm-project/vllm/releases/tag/v0.28.0) ⭐️ 8.0/10
 
-OpenAI's new custom inference chip, codenamed Jalapeño, reportedly outperforms Nvidia's Blackwell in tests, marking a major development in the race for efficient AI hardware.
+The vLLM project released version 0.28.0, featuring major performance optimizations for Kimi-K3 and expanded support for DeepSeek V4 models.
 
-hackernews · bmulholland · 8月25日 14:06 · [社区讨论](https://news.ycombinator.com/item?id=49434378)
+github · khluu · 8月26日 09:46
 
-**标签**: `#AI hardware`, `#inference chips`, `#Nvidia`, `#custom silicon`, `#machine learning infrastructure`
+**标签**: `#LLM Serving`, `#vLLM`, `#Performance Optimization`, `#Open Source`, `#AI Infrastructure`
 
 ---
 
 <a id="item-2"></a>
-## [FDA authorizes first wearable device that monitors ketone and blood sugar levels](https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar) ⭐️ 7.0/10
+## [GLM-5.3-Flash](https://z.ai/blog/glm-5.3-flash) ⭐️ 8.0/10
 
-FDA authorizes the first wearable device that continuously monitors both ketone levels and blood sugar, marking a significant advancement in diabetes management technology.
+Zhipu AI releases GLM-5.3-Flash, a new efficient language model with publicly available weights, sparking discussion on its performance relative to competitors and its implications for AI infrastructure needs.
 
-hackernews · sunnynagra · 8月25日 19:07 · [社区讨论](https://news.ycombinator.com/item?id=49439017)
+hackernews · Philpax · 8月26日 14:08 · [社区讨论](https://news.ycombinator.com/item?id=49449507)
 
-**标签**: `#medical_devices`, `#wearable_technology`, `#diabetes_management`, `#healthcare_innovation`, `#FDA_approval`
+**标签**: `#large language models`, `#AI efficiency`, `#model release`, `#Chinese AI`, `#Hacker News discussion`
 
 ---
 
 <a id="item-3"></a>
-## [Apple introduces M6 and M5 Ultra](https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/) ⭐️ 7.0/10
+## [Qwen3.8-Flash-Next: A New Architecture, Towards Ultimate Cost-Efficiency](https://qwen.ai/blog?id=qwen3.8-flash-next) ⭐️ 8.0/10
 
-Apple has announced its new M6 and M5 Ultra chips, representing a significant performance leap with enhanced AI compute capabilities.
+Qwen3.8-Flash-Next is a new, highly cost-efficient LLM architecture with 176B total parameters (125B main + 51B N-gram embeddings, 6B activated per token) that outperforms larger models and is designed for future Qwen 4 development.
 
-hackernews · interpol_p · 8月25日 13:01 · [社区讨论](https://news.ycombinator.com/item?id=49433292)
+hackernews · tosh · 8月26日 12:52 · [社区讨论](https://news.ycombinator.com/item?id=49448210)
 
-**标签**: `#Apple Silicon`, `#M-series chips`, `#AI hardware`, `#CPU architecture`, `#consumer electronics`
+**标签**: `#LLM Architecture`, `#Cost Efficiency`, `#Model Quantization`, `#Qwen`, `#Open Source AI`
 
 ---
 
 <a id="item-4"></a>
-## [New Mac Studio with M5 Max and M5 Ultra](https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/) ⭐️ 7.0/10
+## [AWS Acquires DuckDB](https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws) ⭐️ 7.0/10
 
-Apple announces new Mac Studio models with M5 Max and M5 Ultra chips, emphasizing local AI capabilities with up to 256GB memory and 1.2TB/s bandwidth.
+AWS has acquired DuckLabs, the company behind DuckDB, though the open-source database's intellectual property remains with its independent foundation.
 
-hackernews · interpol_p · 8月25日 13:03 · [社区讨论](https://news.ycombinator.com/item?id=49433316)
+hackernews · onderkalaci · 8月26日 12:59 · [社区讨论](https://news.ycombinator.com/item?id=49448321)
 
-**标签**: `#Apple`, `#AI/ML hardware`, `#local AI`, `#Mac Studio`, `#Apple Silicon`
+**标签**: `#databases`, `#acquisitions`, `#open-source`, `#cloud-computing`, `#analytics`
 
 ---
