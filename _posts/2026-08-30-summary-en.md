@@ -5,57 +5,57 @@ date: 2026-08-30
 lang: en
 ---
 
-> From 22 items, 4 important content pieces were selected
+> From 30 items, 4 important content pieces were selected
 
 ---
 
-1. [Nancy Grace Roman Space Telescope](#item-1) ⭐️ 9.0/10
-2. [Hy4 preview](#item-2) ⭐️ 8.0/10
-3. [DHS is using obscure law to snoop on journalists, non-profits, unions](#item-3) ⭐️ 8.0/10
-4. [Calibrate Before You Accelerate: Bias Toward Action in a New Role](#item-4) ⭐️ 6.0/10
+1. [European Commission Revives Push for Encryption Backdoors in ProtectEU Strategy](#item-1) ⭐️ 8.0/10
+2. [Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel](#item-2) ⭐️ 8.0/10
+3. [Omarchy: Any User Process Can Escalate to Root](#item-3) ⭐️ 8.0/10
+4. [Haiku R1/beta6 has been released](#item-4) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Nancy Grace Roman Space Telescope](https://science.nasa.gov/mission/roman-space-telescope/) ⭐️ 9.0/10
+## [European Commission Revives Push for Encryption Backdoors in ProtectEU Strategy](https://reclaimthenet.org/eu-protecteu-strategy-encryption-backdoor-law-enforcement) ⭐️ 8.0/10
 
-NASA's Nancy Grace Roman Space Telescope, a next-generation wide-field observatory, is set to launch imminently on a Falcon Heavy rocket, offering unprecedented open-access astronomical data and survey capabilities.
+The European Commission is reviving efforts to mandate encryption backdoors in its ProtectEU strategy, raising significant concerns about privacy, security, and the interplay with emerging AI threats.
 
-hackernews · JumpCrisscross · Aug 29, 15:48 · [Discussion](https://news.ycombinator.com/item?id=49490870)
+hackernews · nickslaughter02 · Aug 30, 15:12 · [Discussion](https://news.ycombinator.com/item?id=49499394)
 
-**Tags**: `#astronomy`, `#space-telescope`, `#NASA`, `#open-data`, `#scientific-instruments`
+**Tags**: `#encryption`, `#privacy`, `#EU policy`, `#AI security`, `#cybersecurity`
 
 ---
 
 <a id="item-2"></a>
-## [Hy4 preview](https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/) ⭐️ 8.0/10
+## [Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel](https://www.qubes-os.org/news/2026/08/29/qsb-118/) ⭐️ 8.0/10
 
-Tencent has released and open-sourced Hy4 preview, a new AI model demonstrating early recursive self-improvement and gaining rapid traction in the community.
+A critical arbitrary code execution vulnerability has been discovered in QubesOS when using the copy-to-VM command from Dom0, highlighting security risks in the hypervisor's error reporting mechanism.
 
-hackernews · shenli3514 · Aug 29, 19:33 · [Discussion](https://news.ycombinator.com/item?id=49492632)
+hackernews · vntok · Aug 30, 08:51 · [Discussion](https://news.ycombinator.com/item?id=49496918)
 
-**Tags**: `#AI`, `#open-source`, `#machine-learning`, `#Tencent`, `#recursive-self-improvement`
+**Tags**: `#QubesOS`, `#Security Vulnerability`, `#Hypervisor Security`, `#Systems Security`, `#CVE`
 
 ---
 
 <a id="item-3"></a>
-## [DHS is using obscure law to snoop on journalists, non-profits, unions](https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits) ⭐️ 8.0/10
+## [Omarchy: Any User Process Can Escalate to Root](https://0xcc.io/posts/omarchy-root-creds/) ⭐️ 8.0/10
 
-The article reveals how the U.S. Department of Homeland Security is misusing an obscure legal tool (a '1509 summons') to secretly obtain communications data from journalists, nonprofits, and unions, raising major concerns about privacy, surveillance overreach, and government accountability.
+A critical security vulnerability in the Omarchy Linux distribution allows any user process to escalate to root due to improper Docker installation and lack of sandboxing.
 
-hackernews · firefax · Aug 29, 18:44 · [Discussion](https://news.ycombinator.com/item?id=49492219)
+hackernews · trap0xcc · Aug 30, 15:59 · [Discussion](https://news.ycombinator.com/item?id=49499854)
 
-**Tags**: `#civil-liberties`, `#surveillance`, `#privacy-law`, `#journalism`, `#government-overreach`
+**Tags**: `#Linux`, `#Security`, `#Docker`, `#Sysadmin`, `#OpenSource`
 
 ---
 
 <a id="item-4"></a>
-## [Calibrate Before You Accelerate: Bias Toward Action in a New Role](https://tucker.wales/writing/bias-towards-action/) ⭐️ 6.0/10
+## [Haiku R1/beta6 has been released](https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6) ⭐️ 6.0/10
 
-An essay advising new leaders to thoroughly understand their environment before implementing changes, cautioning against an impulsive 'bias toward action.'
+Haiku R1/beta6, an open-source BeOS-inspired operating system, has been released, featuring new ports like Firefox and a Go runtime, with community praise for its design and a discussion on boot issues.
 
-hackernews · tuckerwales · Aug 29, 17:39 · [Discussion](https://news.ycombinator.com/item?id=49491714)
+hackernews · metrofun · Aug 30, 16:01 · [Discussion](https://news.ycombinator.com/item?id=49499867)
 
-**Tags**: `#leadership`, `#management`, `#software-engineering`, `#ai-writing`, `#professional-development`
+**Tags**: `#open-source`, `#operating-system`, `#Haiku`, `#software-release`, `#desktop-OS`
 
 ---
