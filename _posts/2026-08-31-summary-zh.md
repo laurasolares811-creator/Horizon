@@ -5,45 +5,45 @@ date: 2026-08-31
 lang: zh
 ---
 
-> 从 26 条内容中筛选出 3 条重要资讯。
+> 从 17 条内容中筛选出 3 条重要资讯。
 
 ---
 
-1. [Coordination Headwind: How Organizations Are Like Slime Molds](#item-1) ⭐️ 8.0/10
-2. [Hacking IKEA Furniture](#item-2) ⭐️ 6.0/10
-3. [Startup Anti-Patterns](#item-3) ⭐️ 6.0/10
+1. [I turned my security cameras into an automatic bird identification system](#item-1) ⭐️ 7.0/10
+2. [ChatGPT Work Tool and Skill Reference](#item-2) ⭐️ 7.0/10
+3. [Apple caught off guard by AI demand for Mac Mini and Mac Studio](#item-3) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Coordination Headwind: How Organizations Are Like Slime Molds](https://komoroske.com/slime-mold/) ⭐️ 8.0/10
+## [I turned my security cameras into an automatic bird identification system](https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/) ⭐️ 7.0/10
 
-A presentation uses slime mold behavior as a metaphor to analyze coordination challenges in large organizations, advocating for loosely coupled, highly aligned teams.
+A developer demonstrates how to repurpose security cameras into an automatic bird identification system using BirdNET-Go software for audio classification of bird calls.
 
-hackernews · rzk · 8月30日 16:03 · [社区讨论](https://news.ycombinator.com/item?id=49499891)
+hackernews · speckx · 8月31日 16:47 · [社区讨论](https://news.ycombinator.com/item?id=49511856)
 
-**标签**: `#organizational-theory`, `#coordination`, `#management`, `#google`, `#biomimicry`
+**标签**: `#computer-vision`, `#audio-classification`, `#DIY-hardware`, `#bird-identification`, `#home-automation`
 
 ---
 
 <a id="item-2"></a>
-## [Hacking IKEA Furniture](https://greenlightning.eu/diy/hacking-ikea-furniture/) ⭐️ 6.0/10
+## [ChatGPT Work Tool and Skill Reference](https://codex-tool-reference.simonw.chatgpt.site/) ⭐️ 7.0/10
 
-A DIY guide and discussion on customizing IKEA furniture for practical needs and personal expression, with community insights on design and functionality.
+A community-shared reference document for ChatGPT Work tools and skills, including a notable method for browser automation via Playwright and Node.js REPL.
 
-hackernews · greenlightning · 8月30日 11:39 · [社区讨论](https://news.ycombinator.com/item?id=49497810)
+hackernews · ijidak · 8月31日 14:07 · [社区讨论](https://news.ycombinator.com/item?id=49510000)
 
-**标签**: `#DIY`, `#furniture-hacking`, `#IKEA`, `#community-discussion`, `#practical-design`
+**标签**: `#AI tools`, `#LLM integration`, `#browser automation`, `#ChatGPT`, `#developer reference`
 
 ---
 
 <a id="item-3"></a>
-## [Startup Anti-Patterns](https://www.itamarnovick.com/intro-to-startup-anti-pattern-series/) ⭐️ 6.0/10
+## [Apple caught off guard by AI demand for Mac Mini and Mac Studio](https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/) ⭐️ 7.0/10
 
-A blog post enumerates common startup anti-patterns, sparking a Hacker News discussion that questions the practical usefulness and hindsight nature of such advice.
+Apple was reportedly unprepared for the high demand for its Mac Mini and Mac Studio models, driven by consumers and developers seeking affordable local AI hardware.
 
-hackernews · rzk · 8月30日 15:57 · [社区讨论](https://news.ycombinator.com/item?id=49499831)
+hackernews · thm · 8月31日 12:41 · [社区讨论](https://news.ycombinator.com/item?id=49508982)
 
-**标签**: `#startups`, `#entrepreneurship`, `#software engineering`, `#anti-patterns`, `#software development`
+**标签**: `#AI hardware`, `#Apple`, `#local AI`, `#enterprise strategy`, `#market dynamics`
 
 ---
