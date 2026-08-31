@@ -5,45 +5,45 @@ date: 2026-08-31
 lang: zh
 ---
 
-> 从 17 条内容中筛选出 3 条重要资讯。
+> 从 21 条内容中筛选出 3 条重要资讯。
 
 ---
 
-1. [I turned my security cameras into an automatic bird identification system](#item-1) ⭐️ 7.0/10
-2. [ChatGPT Work Tool and Skill Reference](#item-2) ⭐️ 7.0/10
-3. [Apple caught off guard by AI demand for Mac Mini and Mac Studio](#item-3) ⭐️ 7.0/10
+1. [Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO](#item-1) ⭐️ 7.0/10
+2. [Apple caught off guard by AI demand for Mac Mini and Mac Studio](#item-2) ⭐️ 7.0/10
+3. [I turned my security cameras into an automatic bird identification system](#item-3) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [I turned my security cameras into an automatic bird identification system](https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/) ⭐️ 7.0/10
+## [Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO](https://webiterate.dev/google-removed-extensions-ublock-origin-108/) ⭐️ 7.0/10
 
-A developer demonstrates how to repurpose security cameras into an automatic bird identification system using BirdNET-Go software for audio classification of bird calls.
+Google has officially removed Manifest V2 extensions, including popular ad-blocker uBlock Origin, from the Chrome Web Store, prompting users and security experts to advocate for Firefox.
 
-hackernews · speckx · 8月31日 16:47 · [社区讨论](https://news.ycombinator.com/item?id=49511856)
+hackernews · twapi · 8月31日 21:10 · [社区讨论](https://news.ycombinator.com/item?id=49514878)
 
-**标签**: `#computer-vision`, `#audio-classification`, `#DIY-hardware`, `#bird-identification`, `#home-automation`
+**标签**: `#browser-extensions`, `#web-security`, `#privacy`, `#manifest-v3`, `#google-chrome`
 
 ---
 
 <a id="item-2"></a>
-## [ChatGPT Work Tool and Skill Reference](https://codex-tool-reference.simonw.chatgpt.site/) ⭐️ 7.0/10
+## [Apple caught off guard by AI demand for Mac Mini and Mac Studio](https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/) ⭐️ 7.0/10
 
-A community-shared reference document for ChatGPT Work tools and skills, including a notable method for browser automation via Playwright and Node.js REPL.
+Apple reportedly experienced unexpected demand for its Mac Mini and Mac Studio products due to a surge in local AI development and experimentation.
 
-hackernews · ijidak · 8月31日 14:07 · [社区讨论](https://news.ycombinator.com/item?id=49510000)
+hackernews · thm · 8月31日 12:41 · [社区讨论](https://news.ycombinator.com/item?id=49508982)
 
-**标签**: `#AI tools`, `#LLM integration`, `#browser automation`, `#ChatGPT`, `#developer reference`
+**标签**: `#local-ai`, `#apple-hardware`, `#machine-learning`, `#developer-tools`, `#cloud-vs-local`
 
 ---
 
 <a id="item-3"></a>
-## [Apple caught off guard by AI demand for Mac Mini and Mac Studio](https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/) ⭐️ 7.0/10
+## [I turned my security cameras into an automatic bird identification system](https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/) ⭐️ 6.0/10
 
-Apple was reportedly unprepared for the high demand for its Mac Mini and Mac Studio models, driven by consumers and developers seeking affordable local AI hardware.
+A project combining security cameras with BirdNET-Go software to automatically identify bird species through audio analysis.
 
-hackernews · thm · 8月31日 12:41 · [社区讨论](https://news.ycombinator.com/item?id=49508982)
+hackernews · speckx · 8月31日 16:47 · [社区讨论](https://news.ycombinator.com/item?id=49511856)
 
-**标签**: `#AI hardware`, `#Apple`, `#local AI`, `#enterprise strategy`, `#market dynamics`
+**标签**: `#AI`, `#DIY`, `#bird identification`, `#audio analysis`, `#IoT`
 
 ---
