@@ -5,14 +5,57 @@ date: 2026-09-02
 lang: zh
 ---
 
-> 已分析 30 条内容，但没有达到重要性阈值的条目。
+> 从 23 条内容中筛选出 4 条重要资讯。
 
-今日暂无重要动态，可能原因：
-- 今天关注的信息源较平静
-- AI 评分阈值设置过高
-- 信息源种类有待扩充
+---
 
-建议：
-1. 在 config.json 中降低 `ai_score_threshold`
-2. 添加更多多样化的信息源
-3. 检查 AI 模型是否正常工作
+1. [Gemini 3.8 Flash and 3.8 Flash Cyber](#item-1) ⭐️ 8.0/10
+2. [Google avoids a breakup of its ad tech business](#item-2) ⭐️ 7.0/10
+3. [Can I opt out of my input or output data being used for training?](#item-3) ⭐️ 7.0/10
+4. [Muse Spark 1.3](#item-4) ⭐️ 6.0/10
+
+---
+
+<a id="item-1"></a>
+## [Gemini 3.8 Flash and 3.8 Flash Cyber](https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/) ⭐️ 8.0/10
+
+Google has released Gemini 3.8 Flash and 3.8 Flash Cyber, which are faster and show competitive intelligence scores, including real-world applications in creative coding and trip planning.
+
+hackernews · bratao · 9月2日 15:12 · [社区讨论](https://news.ycombinator.com/item?id=49537553)
+
+**标签**: `#AI Models`, `#Google Gemini`, `#Machine Learning`, `#Performance Benchmarks`, `#Developer Tools`
+
+---
+
+<a id="item-2"></a>
+## [Google avoids a breakup of its ad tech business](https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html) ⭐️ 7.0/10
+
+Google successfully avoided a forced breakup of its ad tech business in a U.S. antitrust case, with the DOJ winning other significant but lesser remedies.
+
+hackernews · donohoe · 9月2日 14:46 · [社区讨论](https://news.ycombinator.com/item?id=49537131)
+
+**标签**: `#antitrust`, `#ad tech`, `#Google`, `#regulation`, `#monopoly`
+
+---
+
+<a id="item-3"></a>
+## [Can I opt out of my input or output data being used for training?](https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training) ⭐️ 7.0/10
+
+A user and community discuss the challenges and perceived futility of opting out of data training with AI services like Mistral, highlighting broader issues of corporate transparency and user privacy in the AI industry.
+
+hackernews · teekert · 9月2日 12:30 · [社区讨论](https://news.ycombinator.com/item?id=49535284)
+
+**标签**: `#AI Ethics`, `#Data Privacy`, `#Corporate Practices`, `#AI Services`, `#User Control`
+
+---
+
+<a id="item-4"></a>
+## [Muse Spark 1.3](https://developer.meta.com/ai/models/muse-spark/) ⭐️ 6.0/10
+
+Meta has released Muse Spark 1.3, an updated version of its AI model that shows incremental improvements over previous versions in tasks like SVG generation.
+
+hackernews · bvaldivielso · 9月2日 19:35 · [社区讨论](https://news.ycombinator.com/item?id=49541256)
+
+**标签**: `#AI_models`, `#Meta`, `#image_generation`, `#SVG`, `#incremental_update`
+
+---
