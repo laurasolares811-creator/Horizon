@@ -1,69 +1,57 @@
 # Horizon 每日速递 - 2026-09-03
 
-> 从 29 条内容中筛选出 5 条重要资讯。
+> 从 18 条内容中筛选出 4 条重要资讯。
 
 ---
 
-1. [Gemini 3.8 Flash and 3.8 Flash Cyber](#item-1) ⭐️ 8.0/10
-2. [Three sites made 215,128 “best software” pages for AI. Perplexity cites them](#item-2) ⭐️ 8.0/10
-3. [Muse Spark 1.3](#item-3) ⭐️ 7.0/10
-4. [Google avoids a breakup of its ad tech business](#item-4) ⭐️ 7.0/10
-5. [Fable 5.1 World Modeling](#item-5) ⭐️ 7.0/10
+1. [Qwen 3.8 27B available on Cerebras at 1500 tok/SEC](#item-1) ⭐️ 7.0/10
+2. [.name Termination](#item-2) ⭐️ 7.0/10
+3. [K2 Horizon: A connected fleet of six open models](#item-3) ⭐️ 7.0/10
+4. [Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?](#item-4) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Gemini 3.8 Flash and 3.8 Flash Cyber](https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/) ⭐️ 8.0/10
+## [Qwen 3.8 27B available on Cerebras at 1500 tok/SEC](https://inference-docs.cerebras.ai/models/overview) ⭐️ 7.0/10
 
-Google has released Gemini 3.8 Flash, a new lightweight LLM variant with strong benchmark performance, especially for coding and structured tasks, prompting extensive community analysis and comparison.
+Cerebras makes the Qwen 3.8 27B model available with exceptionally fast inference at 1500 tokens per second, sparking discussion on model availability and pricing.
 
-hackernews · bratao · 9月2日 15:12 · [社区讨论](https://news.ycombinator.com/item?id=49537553)
+hackernews · altertable · 9月3日 18:32 · [社区讨论](https://news.ycombinator.com/item?id=49554520)
 
-**标签**: `#LLM`, `#Gemini`, `#Google`, `#Model Release`, `#AI Benchmarks`
+**标签**: `#LLM inference`, `#model hosting`, `#Cerebras`, `#Qwen`, `#performance`
 
 ---
 
 <a id="item-2"></a>
-## [Three sites made 215,128 “best software” pages for AI. Perplexity cites them](https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/) ⭐️ 8.0/10
+## [.name Termination](https://neil.fraser.name/news/2026/09/03/) ⭐️ 7.0/10
 
-An analysis reveals three websites created over 200,000 pages to systematically influence AI tools like Perplexity, highlighting vulnerabilities in AI search systems.
+The .name TLD is discontinuing third-level domain registrations (x.y.name), potentially releasing second-level domains (y.name) and impacting long-term domain owners.
 
-hackernews · jakobgreenfeld · 9月2日 13:59 · [社区讨论](https://news.ycombinator.com/item?id=49536375)
+hackernews · pavel_lishin · 9月3日 14:54 · [社区讨论](https://news.ycombinator.com/item?id=49550772)
 
-**标签**: `#AI search systems`, `#SEO manipulation`, `#LLM biases`, `#information verification`, `#machine learning reliability`
+**标签**: `#domain names`, `#DNS`, `#internet governance`, `#cybersecurity`, `#ICANN`
 
 ---
 
 <a id="item-3"></a>
-## [Muse Spark 1.3](https://developer.meta.com/ai/models/muse-spark/) ⭐️ 7.0/10
+## [K2 Horizon: A connected fleet of six open models](https://ifm.ai/blog/k2/) ⭐️ 7.0/10
 
-Meta releases Muse Spark 1.3, an updated AI model that improves on its predecessor in specific tasks and achieves competitive benchmark scores at a low cost.
+IFM AI releases K2 Horizon, a fleet of six fully open models (including code and training data), sparking discussion on its importance for transparency and its comparative performance.
 
-hackernews · bvaldivielso · 9月2日 19:35 · [社区讨论](https://news.ycombinator.com/item?id=49541256)
+hackernews · karimf · 9月3日 15:36 · [社区讨论](https://news.ycombinator.com/item?id=49551760)
 
-**标签**: `#AI models`, `#Meta`, `#benchmarking`, `#cost-effective AI`, `#SVG generation`
+**标签**: `#open-source-ai`, `#language-models`, `#model-benchmarking`, `#ai-ethics`
 
 ---
 
 <a id="item-4"></a>
-## [Google avoids a breakup of its ad tech business](https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html) ⭐️ 7.0/10
+## [Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?](https://news.ycombinator.com/item?id=49551096) ⭐️ 6.0/10
 
-Google successfully avoided a forced breakup of its ad tech business following a major antitrust lawsuit, settling for behavioral remedies instead.
+A Hacker News post questions why OpenAI, Claude, and Grok experienced simultaneous outages, sparking discussion about possible infrastructure interconnections or user migration impacts.
 
-hackernews · donohoe · 9月2日 14:46 · [社区讨论](https://news.ycombinator.com/item?id=49537131)
+hackernews · halcdev · 9月3日 15:07
 
-**标签**: `#antitrust`, `#big tech`, `#regulation`, `#advertising`, `#competition`
-
----
-
-<a id="item-5"></a>
-## [Fable 5.1 World Modeling](https://github.com/PhiloLabs/fable51-worlds) ⭐️ 7.0/10
-
-Fable 5.1 demonstrates a world model that generates interactive 3D environments from first-person perspectives, sparking debate about its practical usability versus impressive demo capabilities.
-
-hackernews · surreal_ · 9月2日 19:49 · [社区讨论](https://news.ycombinator.com/item?id=49541458)
-
-**标签**: `#AI world models`, `#3D environment generation`, `#computer graphics`, `#game development`, `#generative AI`
+**标签**: `#infrastructure`, `#cloud-services`, `#AI-outages`, `#hacker-news`, `#tech-failures`
 
 ---
 
