@@ -5,45 +5,33 @@ date: 2026-09-05
 lang: en
 ---
 
-> From 26 items, 3 important content pieces were selected
+> From 31 items, 2 important content pieces were selected
 
 ---
 
-1. [Actively exploited sandbox RCE in all Chromium versions](#item-1) ⭐️ 8.0/10
-2. [The "$60 Gaming PC" – AMD BC-250 (2025)](#item-2) ⭐️ 6.0/10
-3. [Nitter has more working instances than before the takedowns](#item-3) ⭐️ 6.0/10
+1. [The Real Luxuries In Life](#item-1) ⭐️ 7.0/10
+2. [Private German rocket makes history, reaches orbit from European soil](#item-2) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Actively exploited sandbox RCE in all Chromium versions](https://nvd.nist.gov/vuln/detail/cve-2026-85046) ⭐️ 8.0/10
+## [The Real Luxuries In Life](https://feld.com/archives/2026/09/the-real-luxuries-in-life/) ⭐️ 7.0/10
 
-An actively exploited remote code execution vulnerability (CVE-2026-85046) in Chromium's V8 engine, affecting all versions, is being discussed for its technical implications and broader industry challenges.
+A reflective blog post exploring the true luxuries in life as freedom from dependencies, busyness, and external pressures, emphasizing relationships, time, and simplicity.
 
-hackernews · negura · Sep 4, 21:52 · [Discussion](https://news.ycombinator.com/item?id=49570669)
+hackernews · tosh · Sep 5, 17:46 · [Discussion](https://news.ycombinator.com/item?id=49578866)
 
-**Tags**: `#security`, `#vulnerability`, `#web-browsers`, `#memory-safety`, `#Chromium`
+**Tags**: `#life-priorities`, `#work-life-balance`, `#reflections`, `#community-discussion`
 
 ---
 
 <a id="item-2"></a>
-## [The "$60 Gaming PC" – AMD BC-250 (2025)](https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/) ⭐️ 6.0/10
+## [Private German rocket makes history, reaches orbit from European soil](https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket) ⭐️ 6.0/10
 
-An article explores the concept of a '$60 gaming PC' using the AMD BC-250 board, but community comments reveal the board is now much more expensive and the build is highly hacky, limiting its practical appeal.
+A private German company, Isar Aerospace, successfully launched its Spectrum rocket into orbit from a Norwegian spaceport, marking the first orbital launch from European soil by a private entity.
 
-hackernews · networked · Sep 5, 13:36 · [Discussion](https://news.ycombinator.com/item?id=49576386)
+hackernews · bookmtn · Sep 5, 20:31 · [Discussion](https://news.ycombinator.com/item?id=49580369)
 
-**Tags**: `#hardware`, `#gaming`, `#DIY`, `#AMD`, `#Hacker News`
-
----
-
-<a id="item-3"></a>
-## [Nitter has more working instances than before the takedowns](https://codeberg.org/mv12star/shitter/wiki/Instances) ⭐️ 6.0/10
-
-Nitter, an alternative Twitter/X frontend, has increased its working instances following earlier takedowns, demonstrating community resilience against platform restrictions.
-
-hackernews · Cider9986 · Sep 5, 00:04 · [Discussion](https://news.ycombinator.com/item?id=49571634)
-
-**Tags**: `#social media`, `#open source`, `#web development`, `#platform restrictions`, `#community resilience`
+**Tags**: `#aerospace`, `#European space`, `#private launch`, `#space exploration`, `#technological milestone`
 
 ---
