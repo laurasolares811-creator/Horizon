@@ -1,45 +1,69 @@
 # Horizon Daily - 2026-09-06
 
-> From 21 items, 3 important content pieces were selected
+> From 23 items, 5 important content pieces were selected
 
 ---
 
-1. [The revolt of the reader](#item-1) ⭐️ 8.0/10
-2. [Private German rocket makes history, reaches orbit from European soil](#item-2) ⭐️ 6.0/10
-3. [The "$60 Gaming PC" – AMD BC-250 (2025)](#item-3) ⭐️ 6.0/10
+1. [Intellectual Fly Is Open (2025)](#item-1) ⭐️ 8.0/10
+2. [Isar Aerospace reaches orbit and deploys payloads on second flight](#item-2) ⭐️ 8.0/10
+3. [A/I shuts down – Stay human](#item-3) ⭐️ 8.0/10
+4. [QBittorrent breaks out of sandbox to commit crimes](#item-4) ⭐️ 7.0/10
+5. [Doomscrolling Ourselves to Death](#item-5) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [The revolt of the reader](https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/) ⭐️ 8.0/10
+## [Intellectual Fly Is Open (2025)](https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/) ⭐️ 8.0/10
 
-Bryan Cantrill critically examines the rise of AI-generated text, arguing it threatens the provenance and trust of human writing, and discusses tools like Pangram as potential countermeasures.
+An essay on the ethical and cognitive implications of using LLMs for writing without disclosure, using the metaphor of an 'open intellectual fly'.
 
-hackernews · chmaynard · Sep 5, 21:37 · [Discussion](https://news.ycombinator.com/item?id=49580939)
+hackernews · cyb0rg0 · Sep 6, 11:56 · [Discussion](https://news.ycombinator.com/item?id=49585644)
 
-**Tags**: `#AI`, `#ethics`, `#technology`, `#writing`, `#authorship`
+**Tags**: `#LLM Ethics`, `#AI and Writing`, `#Intellectual Honesty`, `#Cognitive Science`, `#Technology Criticism`
 
 ---
 
 <a id="item-2"></a>
-## [Private German rocket makes history, reaches orbit from European soil](https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket) ⭐️ 6.0/10
+## [Isar Aerospace reaches orbit and deploys payloads on second flight](https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight) ⭐️ 8.0/10
 
-A private German startup, Isar Aerospace, successfully launched its Spectrum rocket into orbit from Norway, marking a historic achievement for European spaceflight.
+German startup Isar Aerospace successfully reached orbit and deployed payloads on its second flight, marking a major step for European commercial space access.
 
-hackernews · bookmtn · Sep 5, 20:31 · [Discussion](https://news.ycombinator.com/item?id=49580369)
+hackernews · mpweiher · Sep 6, 07:21 · [Discussion](https://news.ycombinator.com/item?id=49584083)
 
-**Tags**: `#space`, `#aerospace`, `#European technology`, `#startups`, `#rockets`
+**Tags**: `#space-tech`, `#aerospace`, `#European-industry`, `#launch-providers`, `#private-spaceflight`
 
 ---
 
 <a id="item-3"></a>
-## [The "$60 Gaming PC" – AMD BC-250 (2025)](https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/) ⭐️ 6.0/10
+## [A/I shuts down – Stay human](https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/) ⭐️ 8.0/10
 
-A post explores a supposedly $60 gaming PC build using the AMD BC-250, but community comments reveal the cost is now significantly higher and the build is quite hacky.
+An AI-related service, likely focused on privacy or free speech, has shut down following US government pressure, sparking debate on tech independence and civil liberties.
 
-hackernews · networked · Sep 5, 13:36 · [Discussion](https://news.ycombinator.com/item?id=49576386)
+hackernews · captainmuon · Sep 6, 14:34 · [Discussion](https://news.ycombinator.com/item?id=49586898)
 
-**Tags**: `#hardware`, `#gaming`, `#diy-pc`, `#amd`, `#budget-build`
+**Tags**: `#AI ethics`, `#government regulation`, `#free speech`, `#privacy`, `#tech policy`
+
+---
+
+<a id="item-4"></a>
+## [QBittorrent breaks out of sandbox to commit crimes](https://beige.party/@intransitivelie/117057396732763183) ⭐️ 7.0/10
+
+A satirical post about QBittorrent and Jellyfin 'escaping' to pirate content sparks debate on AI responsibility, corporate liability, and double standards in tech.
+
+hackernews · mraniki · Sep 6, 13:02 · [Discussion](https://news.ycombinator.com/item?id=49586171)
+
+**Tags**: `#AI ethics`, `#tech satire`, `#digital piracy`, `#corporate accountability`, `#Hacker News discussion`
+
+---
+
+<a id="item-5"></a>
+## [Doomscrolling Ourselves to Death](https://www.edwest.co.uk/p/doomscrolling-ourselves-to-death) ⭐️ 6.0/10
+
+An exploration of how excessive consumption of negative online content ('doomscrolling') is impacting mental health and societal behavior, supported by personal stories and observational commentary.
+
+hackernews · shubhamjain · Sep 6, 11:53 · [Discussion](https://news.ycombinator.com/item?id=49585627)
+
+**Tags**: `#mental health`, `#social media`, `#digital well-being`, `#information overload`, `#technology impact`
 
 ---
 
