@@ -1,6 +1,6 @@
 # Horizon Daily - 2026-09-10
 
-> Analyzed 40 items, but none met the importance threshold.
+> Analyzed 23 items, but none met the importance threshold.
 
 No significant developments today. This might indicate:
 - A quiet day in your tracked sources
